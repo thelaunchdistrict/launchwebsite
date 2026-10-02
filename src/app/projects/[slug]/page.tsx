@@ -428,6 +428,13 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
           <Disclaimer>
             {p.source === 'curated' ? `${p.sourceNote ?? 'Compiled from developer material'}.` : `Data retrieved ${new Date(p.scrapedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })} from public listing material.`} Prices, availability and dates change. {site.disclaimer}
           </Disclaimer>
+          <div className="card flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-sm text-ink-2">Prices and project information may differ from current actuals, as details can change after a project is launched. Feel free to raise a query about this project for detailed, up-to-date information.</p>
+            <div className="flex shrink-0 gap-2">
+              <a href="#early-access" className="btn btn-primary">Raise a query</a>
+              <WhatsAppLink projectName={name} className="btn btn-ghost" />
+            </div>
+          </div>
         </div>
 
         {/* Right rail — sticky lead capture on desktop */}

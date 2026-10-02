@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "checkedAt", "method", "corrections", "unresolved"],
+  "properties": {
+    "slug": { "type": "string" },
+    "checkedAt": { "type": "string" },
+    "method": { "type": "string" },
+    "builderSite": { "type": "string", "description": "The developer's official domain used" },
+    "corrections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "value", "normalized", "source", "sourceType", "quote"],
+        "properties": {
+          "field": { "enum": ["possessionDate", "reraCompletionDate", "startingPrice", "reraNumber", "additionalRera", "units", "towers", "floors", "landArea", "developer", "sector", "locality", "configurations", "status"] },
+          "value": { "type": "string", "description": "As stated by the builder" },
+          "normalized": {},
+          "source": { "type": "string", "description": "URL on the builder's domain, or the RERA filing page" },
+          "sourceType": { "enum": ["developer-website", "developer-brochure", "developer-press-release", "rera-filing-by-developer"] },
+          "quote": { "type": "string", "description": "Short verbatim excerpt supporting the value" }
+        }
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "note"],
+        "properties": { "field": { "type": "string" }, "note": { "type": "string" } }
+      }
+    }
+  }
+}
