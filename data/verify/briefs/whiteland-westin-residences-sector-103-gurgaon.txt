@@ -1,0 +1,13 @@
+slug: whiteland-westin-residences-sector-103-gurgaon
+name: Whiteland Westin Residences
+developer: Whiteland Corporation (listed as "Whiteland Westin Residences")
+location: Sector 103, Dwarka Expressway, Sector 103, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/838/570/2024/65.
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹6.25 Crores Onwards
+price range: —
+configurations: 3 BHK+SQ — 2,673 sq ft — Price on Request | 3 BHK+SQ — 2,945 sq ft — Price on Request | 4 BHK+SQ — 3,500 sq ft — Price on Request | 4 BHK+SQ — 4,329 sq ft — Price on Request
+land area: 6.15 Acres
+towers: 12; units: 1302; floors: —

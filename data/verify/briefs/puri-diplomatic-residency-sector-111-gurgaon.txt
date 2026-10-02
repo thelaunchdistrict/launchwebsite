@@ -1,0 +1,13 @@
+slug: puri-diplomatic-residency-sector-111-gurgaon
+name: Puri Diplomatic Residency
+developer: Puri Constructions (listed as "Puri Diplomatic Residency")
+location: Sector 111, Dwarka Expressway, Sector 111, Gurugram, Haryana
+type: residential
+RERA number: GGM/787/519/14/2024
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2027-12 (from: "Possession is expected by December 2027")
+starting price: ₹4 Crores Onwards
+price range: —
+configurations: 2nd Floor — 2282 Sq.ft — Price on Request | 3rd Floor — 2440 Sq.ft — Price on Request | 4th Floor — 3475 Sq.ft — Price on Request
+land area: 9 Acres
+towers: 6; units: 324; floors: —

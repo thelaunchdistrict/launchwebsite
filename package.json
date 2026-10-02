@@ -21,7 +21,9 @@
     "qa": "node scripts/qa/run.mjs",
     "qa:quick": "node scripts/qa/run.mjs --quick",
     "geo:fetch": "node scripts/geo/fetch-osm.mjs",
-    "geo": "node scripts/geo/build-geo.mjs"
+    "geo": "node scripts/geo/build-geo.mjs",
+    "verify": "node scripts/verify/verify-projects.mjs",
+    "verify:report": "node scripts/verify/report.mjs"
   },
   "dependencies": {
     "next": "16.3.8",
@@ -31,6 +33,7 @@
     "sharp": "^0.35.5"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
     "@axe-core/playwright": "^4.13.0",
     "@cspell/dict-en-gb": "^5.0.34",
     "@tailwindcss/postcss": "^4",

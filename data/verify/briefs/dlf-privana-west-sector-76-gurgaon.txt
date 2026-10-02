@@ -1,0 +1,13 @@
+slug: dlf-privana-west-sector-76-gurgaon
+name: DLF Privana West
+developer: DLF (listed as "DLF Privana West")
+location: Sector 76, Southern Peripheral Road, Sector 76, Gurugram, Haryana
+type: residential
+RERA number: RERA-GRG-1540-2024
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹7.51 Crore Onwards
+price range: —
+configurations: 4 BHK — 3,577 sq ft — Price on Request | 4 BHK — 5,472 sq ft — Price on Request
+land area: 12.6 Acres
+towers: 5; units: 164; floors: —

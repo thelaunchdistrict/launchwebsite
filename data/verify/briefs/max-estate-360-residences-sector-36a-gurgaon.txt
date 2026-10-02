@@ -1,0 +1,13 @@
+slug: max-estate-360-residences-sector-36a-gurgaon
+name: Max Estate 360 Residences
+developer: Max Estates (listed as "Max Estates Limited (Promoter: Max Estates Gurgaon Ltd.)")
+location: Dwarka Expressway, Sector 36A, Sector 36A, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/860/592/2024/87
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2030-08 (from: "possession is August 2030")
+starting price: ₹5.2 Crores Onwards
+price range: —
+configurations: 2 BHK — 2149 sq ft — Price on Request | 2 BHK — 2263 sq ft — Price on Request | 3 BHK — 2611 sq ft — Price on Request | 3 BHK — 2802 sq ft — Price on Request | 3 BHK — 2844  sq ft — Price on Request | 4 BHK — 3531 sq ft — Price on Request
+land area: 11.8 Acres
+towers: 6; units: 864; floors: —

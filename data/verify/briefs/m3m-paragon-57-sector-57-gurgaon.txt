@@ -1,0 +1,13 @@
+slug: m3m-paragon-57-sector-57-gurgaon
+name: M3M Paragon57
+developer: M3M India (listed as "M3M Paragon57")
+location: Sushant Lok III, Sector 57, Sector 57, Gurugram, Haryana
+type: commercial
+RERA number: GGM/651/383/2022/126
+status: ready (source: READY)
+possession: 2026-08 (from: "possession date of August 2026")
+starting price: 1.4 Crores Onwards
+price range: —
+configurations: not published
+land area: 1.5 Acres
+towers: —; units: —; floors: 6

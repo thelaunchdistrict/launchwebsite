@@ -1,0 +1,13 @@
+slug: puri-the-aravallis-sector-61-gurgaon
+name: Puri The Aravallis
+developer: Puri Constructions (listed as "Puri The Aravallis")
+location: Golf Course Extension Road, Sector 61, Sector 61, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/592/324/2022/67
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2026-12 (from: "possession date is December 2026")
+starting price: ₹4.25 Crore Onwards
+price range: —
+configurations: 3 BHK + SQ — 2,250 sq ft — Price on Request | 4 BHK + SQ — 2,750 sq ft — Price on Request
+land area: 10.4 Acres
+towers: 4; units: 320; floors: —

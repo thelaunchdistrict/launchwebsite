@@ -1,0 +1,13 @@
+slug: smartworld-one-dxp-sector-113-gurgaon
+name: Smartworld One DXP
+developer: Smartworld Developers (listed as "Smartworld One DXP")
+location: Dwarka Expressway, Sector 113, Sector 113, Gurugram, Haryana
+type: residential
+RERA number: HARERA/GGM/645/377/2022/120
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2028 (from: "possession expected in 2028")
+starting price: ₹3.80 Crores Onwards
+price range: —
+configurations: 3.5 BHK+Utility — 2,450 sq ft — Price on Request | 3.5 BHK+Utility — 2,450 sq ft — Price on Request | 3.5 BHK+Utility — 2,465 sq ft — Price on Request | 3.5 BHK+Utility — 2,503 sq ft — Price on Request | 3.5 BHK+Utility — 2,533 sq ft — Price on Request | 3.5 BHK+Utility — 2,585 sq ft — Price on Request | 3.5 BHK+Utility — 2,585 sq ft — Price on Request | 3.5 BHK+Utility — 2,736 sq ft — Price on Request | 4.5 BHK+Utility — 3,006 sq ft — Price on Request | 4.5 BHK+Utility — 3,006 sq ft — Price on Request | 4.5 BHK+Utility — 3,016 sq ft — Price on Request | 4.5 BHK+Utility — 3,016 sq ft — Price on Request | 4.5 BHK+Utility — 3,055 sq ft — Price on Request | 4.5 BHK+Utility — 3,058 sq ft — Price on Request | 4.5 BHK+Utility — 3,069 sq ft — Price on Request | 4.5 BHK+Utility — 3,101 sq ft — Price on Request | 4.5 BHK+Utility — 3,108 sq ft — Price on Request | 4.5 BHK+Utility — 3,150 sq ft — Price on Request | 4.5 BHK+Utility — 3,154 sq ft — Price on Request | 4.5 BHK+Utility — 3,304 sq ft — Price on Request
+land area: 16 Acres
+towers: 8; units: 1719; floors: —

@@ -1,0 +1,13 @@
+slug: elan-the-emperor-sector-106-gurgaon
+name: Elan The Emperor
+developer: Elan Group (listed as "Elan The Emperor")
+location: Sector 106, Dwarka Expressway, Sector 106, Gurugram, Haryana
+type: residential
+RERA number: GGM/902/634/2025/05
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2032-09 (from: "Possession is expected by September 2032")
+starting price: 12.99 Crores Onwards
+price range: —
+configurations: 4 BHK — 4,223 sq ft — Price on Request | 4 BHK — 4,640 sq ft — Price on Request | 4 BHK — 7,225 sq ft — Price on Request | 4 BHK — 8,053 sq ft — Price on Request | 5 BHK — 5,444 sq ft — Price on Request | 5 BHK — 5,891 sq ft — Price on Request | 5 BHK — 9,470 sq ft — Price on Request | 5 BHK — 10,347 sq ft — Price on Request
+land area: 50 Acres
+towers: 5; units: 580; floors: —

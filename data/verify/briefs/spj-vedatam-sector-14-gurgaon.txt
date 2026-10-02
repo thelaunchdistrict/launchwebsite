@@ -1,0 +1,13 @@
+slug: spj-vedatam-sector-14-gurgaon
+name: SPJ Vedatam
+developer: SPJ Group
+location: Sector 14, Gurugram, Sector 14, Sector 14, Gurugram, Haryana
+type: commercial
+RERA number: RC/REP/HARERA/GGM/927/659/2025/30
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: 50 Lakhs Onwards
+price range: ₹50 Lakhs – ₹5.5 Cr+
+configurations: Sixth Floor — On Request — Price on Request | First Floor — 608 Sq.ft — Price on Request | Lower Ground Floor — 699 Sq.ft — Price on Request | Sixth Floor — 918 Sq.ft — Price on Request
+land area: 4.15 Acres
+towers: 1; units: —; floors: 5

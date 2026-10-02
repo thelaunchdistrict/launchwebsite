@@ -1,0 +1,13 @@
+slug: experion-the-trillion-sector-48-gurgaon
+name: Experion The Trillion
+developer: Experion Developers (listed as "Experion The Trillion")
+location: Sector 48, Sohna Road, Sector 48, Gurugram, Haryana
+type: residential
+RERA number: HARERA/GGM/911/643/2025/14
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2029-07 (from: "possession date is July 2029")
+starting price: ₹5.83 Crore Onwards
+price range: —
+configurations: 3 BHK — 2,013 sq ft — Price on Request | 4 BHK — 1,905 sq ft — Price on Request
+land area: 5.5 Acres
+towers: 3; units: 540; floors: —

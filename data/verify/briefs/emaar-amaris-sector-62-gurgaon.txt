@@ -1,0 +1,13 @@
+slug: emaar-amaris-sector-62-gurgaon
+name: Emaar Amaris
+developer: Emaar India (listed as "Emaar Amaris")
+location: Golf Course Extension Road, Sector 62, Sector 62, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/885/617/2024/112
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2029-12 (from: "possession is scheduled for December 2029")
+starting price: ₹3.25 Crores Onwards
+price range: —
+configurations: 2 BHK — 1,239 sq ft — Price on Request | 2 BHK — 1,244 sq ft — Price on Request | 3 BHK — 1,450 sq ft — Price on Request | 3 BHK — 1,456 sq ft — Price on Request | 4 BHK — 1,895 sq ft — Price on Request | 4 BHK — 1,901 sq ft — Price on Request
+land area: 6.1 Acres
+towers: 4; units: 522; floors: —

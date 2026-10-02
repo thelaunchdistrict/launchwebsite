@@ -1,0 +1,13 @@
+slug: smartworld-skyarc-sector-gurgaon-sector-69
+name: Smartworld SkyArc
+developer: Smartworld Developers (listed as "Smartworld")
+location: Sector 69, Golf Course Extension Road, Sector 69, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/878/610/2024/105
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2032-05 (from: "possession date is May 2032")
+starting price: ₹4.95 Crores Onwards
+price range: —
+configurations: 3 BHK — 2,355 sq ft — Price on Request | 3.5 BHK — 2,690 sq ft — Price on Request | 4 BHK — 3,279 sq ft — Price on Request
+land area: 12 Acres
+towers: 6; units: 633; floors: —

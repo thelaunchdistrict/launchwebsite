@@ -1,0 +1,13 @@
+slug: smartworld-the-edition-sector-68-gurgaon
+name: Smartworld The Edition
+developer: Smartworld Developers (listed as "Smartworld The Edition")
+location: Sector 68, Golf Course Extension Road, Sector 68, Gurugram, Haryana
+type: residential
+RERA number: GGM/756/488/2023/100
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹5.5 Crores Onwards
+price range: —
+configurations: 3.5 BHK+SQ — 2,945 sq ft — Price on Request | 3.5 BHK+SQ — 3,035 sq ft — Price on Request | 4 BHK+SQ — 3,505 sq ft — Price on Request | 4.5 BHK+SQ — 3,660 sq ft — Price on Request
+land area: 10.7 Acres
+towers: 6; units: 956; floors: —

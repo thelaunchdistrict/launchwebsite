@@ -1,0 +1,13 @@
+slug: dlf-the-arbour-sector-63-gurgaon
+name: DLF The Arbour
+developer: DLF (listed as "DLF The Arbour")
+location: Sector 63, Golf Course Ext. Road, Sector 63, Gurugram, Haryana
+type: residential
+RERA number: GGM/671/403/2023/15
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2028 (from: "Possession is expected by 2028")
+starting price: ₹11 Crores Onwards
+price range: —
+configurations: 4 BHK — 3965 Sq.ft — Price on Request
+land area: 25 Acres
+towers: 5; units: 1137; floors: —

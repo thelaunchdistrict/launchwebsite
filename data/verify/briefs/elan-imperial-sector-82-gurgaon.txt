@@ -1,0 +1,13 @@
+slug: elan-imperial-sector-82-gurgaon
+name: Elan Imperial
+developer: Elan Group (listed as "Elan Group (Elan Limited)")
+location: Sector 82, Sector 82, Gurugram, Haryana
+type: commercial
+RERA number: RC/REP/HARERA/GGM/788/520/2024/15
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹1.43 Crores Onwards
+price range: ₹23,750 – ₹45,750 per sq.ft. (floor-wise) + PLC, EDC/IDC, IFMS & GST
+configurations: LGF / GF — Per sq.ft. — ₹45,750 / sq.ft. | 4th Floor (FEC) — Per sq.ft. — ₹24,750 / sq.ft. | Premium Retail — Per sq.ft. — ₹24,750 / sq.ft. | Second Floor — Per sq.ft. — ₹23,750 / sq.ft. | 4th Floor (Restaurant) — Per sq.ft. — ₹24,750 / sq.ft. | Third Floor (Food Court) — Per sq.ft. — ₹26,750 / sq.ft. | First Floor — Per sq.ft. — ₹29,750 / sq.ft.
+land area: 7.64 Acres
+towers: —; units: 1305; floors: 7

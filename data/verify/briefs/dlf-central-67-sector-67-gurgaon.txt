@@ -1,0 +1,13 @@
+slug: dlf-central-67-sector-67-gurgaon
+name: DLF Central 67
+developer: DLF
+location: Sector 67, Sohna Road, Gurgaon, Sector 67, Haryana
+type: commercial
+RERA number: RC/REP/HARERA/GGM/768/500/2023/112
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹8 Crores Onwards
+price range: —
+configurations: not published
+land area: 8.7 Acres
+towers: —; units: —; floors: 6

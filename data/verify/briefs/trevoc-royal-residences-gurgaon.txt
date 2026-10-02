@@ -1,0 +1,13 @@
+slug: trevoc-royal-residences-gurgaon
+name: Trevoc Royal Residences
+developer: Trevoc Group (listed as "Trevoc Royal Residences")
+location: Sector 56, Golf Course Road, Sector 56, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/863/595/2024/90
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2030-02 (from: "Possession is expected by February 2030")
+starting price: ₹6.89 Crore Onwards
+price range: —
+configurations: 3 BHK — 2,642 sq ft — Price on Request | 4 BHK — 2,957 sq ft — Price on Request | 4 BHK — 3,380 sq ft — Price on Request
+land area: 2.10 Acres
+towers: 2; units: 160; floors: —

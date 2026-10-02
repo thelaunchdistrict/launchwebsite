@@ -1,0 +1,13 @@
+slug: dlf-privana-north-sector-76-77-gurgaon
+name: DLF Privana North
+developer: DLF (listed as "DLF Privana North")
+location: Sector 76 & 77, Sector 76, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/954/686/2025/57
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹9.35 Crore Onwards
+price range: —
+configurations: 4 BHK — 3,977 sq ft — Price on Request | 5 BHK Penthouse — 7,714 sq ft — Price on Request
+land area: 17.7 Acres
+towers: 6; units: 1164; floors: —

@@ -1,0 +1,13 @@
+slug: m3m-capital-walk-sector-113-gurgaon
+name: M3M Capital Walk
+developer: M3M India (listed as "M3M CapitalWalk")
+location: Sector 113, Dwarka Expressway, Sector 113, Gurugram, Haryana
+type: commercial
+RERA number: RC/REP/HARERA/GGM/605/337/2022/80
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹1 Crore Onwards
+price range: —
+configurations: not published
+land area: 18.95 Acres
+towers: —; units: —; floors: 4

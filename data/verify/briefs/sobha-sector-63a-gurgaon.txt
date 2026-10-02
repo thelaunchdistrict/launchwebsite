@@ -1,0 +1,13 @@
+slug: sobha-sector-63a-gurgaon
+name: Sobha Crescent
+developer: Sobha Limited
+location: Sector 63A, Golf Course Extension Road, Gurugram, Haryana, Sector 63A, Sector 63A, Golf Course Extension Road, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/1054/786/2026/26
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2030-03 (from: "possession scheduled for March 2030")
+starting price: 5.75 Cr
+price range: 5.75 Cr - 7.75 Cr
+configurations: not published
+land area: 11.99 Acres
+towers: 2; units: 336; floors: 42

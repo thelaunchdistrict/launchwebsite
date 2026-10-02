@@ -36,6 +36,18 @@ npm install && npm run dev
 | `npm test` | Parser and finance unit tests (`node --test`) |
 | `npm run lint` / `npm run typecheck` | ESLint / tsc |
 
+### Project verification agent (`npm run verify`)
+
+Checks every listed project's published facts against independent web sources: the state RERA portal, developer sites, major portals and news. The source site is excluded. It reports discrepancies field by field.
+
+```bash
+npm run verify            # needs ANTHROPIC_API_KEY (or `ant auth login`); resumable, skips projects already checked
+npm run verify -- --only m3m-crown-sector-111-gurgaon --force
+npm run verify:report     # → data/verify/verification-report.md + summary.json
+```
+
+Per project, Claude Opus 5.5 researches with the web-search server tool (resuming on `pause_turn`). A second, tool-free call then converts the notes into a fixed JSON verdict using structured outputs. Server-side refusal fallback is enabled. The instructions and schema live in `scripts/verify/brief.mjs`, so manual or subagent runs produce identical results (`data/verify/briefs/`). Verdicts per field are `match` / `partial` / `mismatch` / `unverified`, with a severity (`high` = would mislead an investor) and source URLs.
+
 ### Quality checker (`npm run qa`)
 
 `npm run build && npm run qa` renders every page of the production build (sitemap + client-only routes) in four passes: desktop/light, mobile/light, mobile/dark and desktop/dark. It writes `qa/report.md` and `qa/report.json`, and exits with code 1 if anything is error-level, so it can gate CI. Options: `--quick` (two project pages instead of 60), `--url https://staging…` (audit a deployed site), `--no-fail`.

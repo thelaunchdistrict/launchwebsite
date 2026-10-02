@@ -1,0 +1,13 @@
+slug: elan-paradise-sector-50-gurgaon
+name: Elan Paradise
+developer: Elan Group (listed as "Elan Paradise")
+location: Nirvana Country, Sector 50, Sector 50, Gurugram, Haryana
+type: commercial
+RERA number: GGM/447/179/2021/15
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2026-09 (from: "possession timeline is September 2026")
+starting price: ₹2.5 Crore Onwards
+price range: —
+configurations: not published
+land area: 4 Acres
+towers: —; units: —; floors: 4

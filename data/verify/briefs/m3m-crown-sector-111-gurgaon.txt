@@ -1,0 +1,13 @@
+slug: m3m-crown-sector-111-gurgaon
+name: M3M Crown
+developer: M3M India
+location: Sector 111, Dwarka Expressway, Sector 111, Gurugram, Haryana
+type: residential
+RERA number: GGM/687/419/2023/31
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2028-12 (from: "possession date is December 2028")
+starting price: ₹3.29 Crore Onwards
+price range: —
+configurations: 3 BHK — 1,605 sq ft — Price on Request | 3 BHK — 1,665 sq ft — Price on Request | 3 BHK + STUDY — 1,825 sq ft — Price on Request | 3 BHK — 1,895 sq ft — Price on Request | 3 BHK + UTILITY — 2,080 sq ft — Price on Request | 3 BHK — 2,170 sq ft — Price on Request | 4 BHK + UTILITY — 2,305 sq ft — Price on Request | 4 BHK — 2,400 sq ft — Price on Request | 4 BHK + UTILITY — 2,570 sq ft — Price on Request | 4 BHK + STUDY — 2,670 sq ft — Price on Request
+land area: 16 Acres
+towers: 11; units: 1332; floors: —

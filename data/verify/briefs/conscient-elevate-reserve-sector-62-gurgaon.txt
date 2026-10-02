@@ -1,0 +1,13 @@
+slug: conscient-elevate-reserve-sector-62-gurgaon
+name: Elevate Reserve
+developer: Conscient & Hines (listed as "Conscient Infrastructure & Hines")
+location: Golf Course Extension Road, Sector 62, Sector 62, Gurugram, Haryana
+type: residential
+RERA number: GGM/757/489/2023/101
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2028-03 (from: "possession date is March 2028")
+starting price: ₹5.63 Crores Onwards
+price range: —
+configurations: 3 BHK — 1765 sq ft — Price on Request | 4 BHK — 2346 sq ft — Price on Request
+land area: 5.5 Acres
+towers: 2; units: 240; floors: —

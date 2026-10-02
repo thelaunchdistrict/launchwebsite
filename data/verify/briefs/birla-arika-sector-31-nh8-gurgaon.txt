@@ -1,0 +1,13 @@
+slug: birla-arika-sector-31-nh8-gurgaon
+name: Birla Arika
+developer: Birla Estates (listed as "Birla Estates Pvt. Ltd. (Aditya Birla Group)")
+location: Off NH – 48 (NH – 8), Sector 31, Sector 31, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/914/646/2025/17
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹10.49 Crores Onwards
+price range: ₹10.49 Cr – ₹12.73 Cr (Launch)
+configurations: Towers T-1, T-2, T-3 — 2,319–2,356 sq ft — ₹10.49 – ₹10.89 Cr (Launch) | Tower T-7 — 2,814–2,816 sq ft — ₹12.50 – ₹12.73 Cr (Launch)
+land area: 13.27 Acres
+towers: 7; units: 150; floors: —

@@ -1,0 +1,13 @@
+slug: m3m-golf-hills-sector-79-gurgaon
+name: M3M Golf Hills
+developer: M3M India (listed as "M3M Golf Hills")
+location: Golf Course Extension Road, Sector 79, Sector 79, Gurugram, Haryana
+type: residential
+RERA number: GGM/704/436/2023/48
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2028-12 (from: "possession timeline for M3M Golf Hills is December 2028")
+starting price: ₹2 Crore Onwards
+price range: —
+configurations: 2 BHK — 1,420 Sq ft — Price on Request | 3 BHK — 1,900 sq ft — Price on Request | 3 BHK — 1,902 sq ft — Price on Request | 4 BHK — 2,630 sq ft — Price on Request | 4 BHK — 2,650 sq ft — Price on Request
+land area: 54 Acres
+towers: 26; units: 1809; floors: —

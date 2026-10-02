@@ -1,0 +1,13 @@
+slug: 4s-the-aurrum-sector-59-gurgaon
+name: 4S The Aurrum
+developer: 4S Developers
+location: Sector 59, Golf Course Extension Road, Sector 59, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/849/581/2024/76
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹5 Crores Onwards
+price range: —
+configurations: 3 BHK Small — 2,407 sq ft — Price on Request | 3 BHK Large — 3,562 sq ft — Price on Request | 4 BHK Small — 2,407 sq ft — Price on Request | 4 BHK Large — 2,624 sq ft — Price on Request
+land area: 5.43 Acres
+towers: 6; units: 243; floors: —

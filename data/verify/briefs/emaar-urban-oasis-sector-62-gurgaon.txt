@@ -1,0 +1,13 @@
+slug: emaar-urban-oasis-sector-62-gurgaon
+name: Emaar Urban Oasis
+developer: Emaar India (listed as "Emaar Urban Oasis")
+location: Golf Course Extension Road, Sector 62, Sector 62, Gurugram, Haryana
+type: residential
+RERA number: HARERA/GGM/741/473/2023/85
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2028-12 (from: "possession date is December 2028")
+starting price: ₹3.10 Crore Onwards
+price range: —
+configurations: 2 BHK — 1,500 sq ft — Price on Request | 3 BHK — 2,212 sq ft — Price on Request | 3 BHK — 2,262 sq ft — Price on Request | 4 BHK — 3,039 sq ft — Price on Request
+land area: 9.25 Acres
+towers: 5; units: 424; floors: —

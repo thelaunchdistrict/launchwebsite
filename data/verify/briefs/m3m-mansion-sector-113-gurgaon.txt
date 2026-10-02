@@ -1,0 +1,13 @@
+slug: m3m-mansion-sector-113-gurgaon
+name: M3M Mansion
+developer: M3M India (listed as "M3M Group")
+location: Sector 113, Dwarka Expressway, Sector 113, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/802/534/2024/29
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2032-02 (from: "Possession is expected by February 2032")
+starting price: ₹3.59 Crore Onwards
+price range: —
+configurations: 3.5 BHK — 2,080 sq ft — Price on Request | 3.5 BHK — 2,310 sq ft — Price on Request | 3.5 BHK — 2,342 sq ft — Price on Request | 4.5 BHK — 2,700 sq ft — Price on Request | 4.5 BHK — 2,945 sq ft — Price on Request | 4.5 BHK — 3,000 sq ft — Price on Request | 4.5 BHK — 3,125 sq ft — Price on Request | 4.5 BHK — 3,230 sq ft — Price on Request | 4.5 BHK — 3,415 sq ft — Price on Request | Penthouse — 4,290 sq ft — Price on Request | Penthouse — 5,620 sq ft — Price on Request | Penthouse — 5,900 sq ft — Price on Request
+land area: 10 Acres
+towers: 8; units: 1000; floors: —

@@ -1,0 +1,13 @@
+slug: bptp-downtown-66-sector-66-gurgaon
+name: BPTP Downtown 66
+developer: BPTP (listed as "BPTP Limited")
+location: Sector 66, Golf Course Extn Rd, Sector 66, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/981/713/2025/84
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹5.2 Crore Onwards
+price range: —
+configurations: not published
+land area: 4.25 Acres
+towers: 3; units: 504; floors: 46

@@ -1,0 +1,13 @@
+slug: aipl-lake-city-sector-103-gurgaon
+name: AIPL Lake City
+developer: AIPL (listed as "AIPL Lake City")
+location: Sector 103, Dwarka Expressway, Gurugram, Sector 103, Haryana
+type: residential
+RERA number: GGM/844/576/2024/71
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2030-12 (from: "Possession is expected by December 2030")
+starting price: ₹3.6 Crore Onwards
+price range: —
+configurations: 3 BHK — 2,200 sq ft — Price on Request | 3 BHK — 2,400 sq ft — Price on Request | 4 BHK — 2,800 sq ft — Price on Request
+land area: 30 Acres
+towers: 7; units: 800; floors: —

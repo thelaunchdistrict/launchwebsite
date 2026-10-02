@@ -1,0 +1,13 @@
+slug: signature-global-titanium-spr-sector-71-gurgaon
+name: Signature Global Titanium SPR
+developer: Signature Global (listed as "Signature Global Titanium SPR")
+location: Sector 71, Southern Peripheral Road (SPR), Sector 71, Gurugram, Haryana
+type: residential
+RERA number: HARERA/GGM/831/563/2024/58.
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2029-02 (from: "Possession is expected by February 2029")
+starting price: ₹5.28 Crores Onwards
+price range: —
+configurations: 3 BHK — 2,780 sq ft — Price on Request | 4 BHK — 3,780 sq ft — Price on Request
+land area: 14.38 Acres
+towers: 8; units: 613; floors: —

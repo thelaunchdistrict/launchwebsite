@@ -1,0 +1,13 @@
+slug: elan-the-statement-sector-49-sohna-road-gurgaon
+name: Elan The Statement
+developer: Elan Group (listed as "Elan Group (Elan Enclave Pvt. Ltd.)")
+location: Sohna Road, Sector 49, Sector 49, Gurugram, Haryana
+type: residential
+RERA number: GGM/1022/754/2025/125
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2030-12 (from: "possession is December 2030")
+starting price: ₹11.06 Crores Onwards
+price range: ₹11.06 Cr – ₹19.42 Cr
+configurations: 4 BHK Luxury Apartment — 4,285 sq ft — Price on Request | 4 BHK + Study — 4,500 sq ft — Price on Request | Duplex Penthouse — 7,500 sq ft — Price on Request
+land area: 6.5 Acres
+towers: 5; units: 380; floors: —

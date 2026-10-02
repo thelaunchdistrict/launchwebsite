@@ -1,0 +1,13 @@
+slug: hero-homes-the-palatial-sector-104-gurgaon
+name: Hero Homes The Palatial
+developer: Hero Realty (listed as "Hero Homes The Palatial")
+location: Sector 104, Dwarka Expressway, Sector 104, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/908/640/2025/11
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹4.89 Crores Onwards
+price range: —
+configurations: 3 BHK — 2,833 sq ft — Price on Request | 4 BHK — 3,457 sq ft — Price on Request
+land area: 11.25 Acres
+towers: 5; units: 750; floors: —

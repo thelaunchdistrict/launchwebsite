@@ -1,0 +1,13 @@
+slug: m3m-route-65-sector-65-gurgaon
+name: M3M Route 65
+developer: M3M India (listed as "M3M Route 65")
+location: Sector 65, Golf Course Ext. Road, Sector 65, Gurugram, Haryana
+type: commercial
+RERA number: GGM/605/337/2022/80
+status: ready (source: READY)
+possession: not published
+starting price: ₹1 Crores
+price range: —
+configurations: not published
+land area: 4 Acres
+towers: —; units: —; floors: 4

@@ -1,0 +1,13 @@
+slug: the-oryza
+name: The Oryza
+developer: null
+location: Sector 88A, Dwarka Expressway, Sector 88A, Dwarka Mor, Gurugram, Haryana
+type: residential
+RERA number: GGM/1043/775/2026/15
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2033 (from: "Possession of The Oryza is expected in 2033")
+starting price: not published
+price range: —
+configurations: not published
+land area: 8.5 Acres
+towers: 5; units: 478; floors: —

@@ -1,0 +1,13 @@
+slug: m3m-trump-towers-sector-65-gurgaon
+name: M3M Trump Towers
+developer: M3M India (listed as "M3M Trump Towers")
+location: Sector 65, Golf Course Extension Road, Gurgaon, Sector 65, Gurugram, Haryana
+type: residential
+RERA number: 375 OF 2017
+status: ready (source: READY)
+possession: not published
+starting price: ₹11 Crores Onwards
+price range: —
+configurations: 3 BHK — 3,525 sq ft — Price on Request | 4 BHK — 4,550 sq ft — Price on Request | 4 BHK — 6,050 sq ft — Price on Request
+land area: 2.58 Acres
+towers: 2; units: 258; floors: —

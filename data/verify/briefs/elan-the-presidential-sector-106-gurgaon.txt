@@ -1,0 +1,13 @@
+slug: elan-the-presidential-sector-106-gurgaon
+name: Elan The Presidential
+developer: Elan Group (listed as "Elan The Presidential")
+location: Dwarka Expressway, Sector 106, Sector 106, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/626/358/2022/101
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2027-10 (from: "possession by October 2027")
+starting price: ₹5.58 Crores Onwards
+price range: —
+configurations: 3 BHK — 2,450 sq ft — Price on Request | 3 BHK — 2,750 sq ft — Price on Request | 4 BHK — 3,075 sq ft — Price on Request | 4 BHK — 3,375 sq ft — Price on Request | 5 BHK — 4,095 sq ft — Price on Request | 5 BHK — 4,495 sq ft — Price on Request
+land area: 50 Acres
+towers: 8; units: 886; floors: —

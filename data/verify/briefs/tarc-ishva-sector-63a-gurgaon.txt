@@ -1,0 +1,13 @@
+slug: tarc-ishva-sector-63a-gurgaon
+name: TARC Ishva
+developer: TARC (listed as "Tarc Ishva Gurgaon")
+location: Golf Course Ext. Road, Sector 63A, Sector 63A, Gurugram, Haryana
+type: residential
+RERA number: GGM/865/597/2024/92
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹6.90 Crores Onwards
+price range: —
+configurations: 3 BHK — 2,858 sq ft — Price on Request | 3 BHK — 2,945 sq ft — Price on Request | 4 BHK — 3,883 sq ft — Price on Request
+land area: 7 Acres
+towers: 5; units: 450; floors: —

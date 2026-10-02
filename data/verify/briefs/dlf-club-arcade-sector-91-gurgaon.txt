@@ -1,0 +1,13 @@
+slug: dlf-club-arcade-sector-91-gurgaon
+name: Club Arcade DLF
+developer: DLF (listed as "Club Arcade Dlf")
+location: Sector 91, DLF Gardencity, Sector 91, Gurugram, Haryana
+type: commercial
+RERA number: RC/REP/HARERA/GGM/806/538/2024/33
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹1.50 Crores Onwards
+price range: —
+configurations: not published
+land area: —
+towers: —; units: —; floors: 4

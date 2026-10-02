@@ -1,0 +1,13 @@
+slug: m3m-jewel-sector-25-gurgaon
+name: M3M Jewel
+developer: M3M India (listed as "M3M Jewel")
+location: Golf Course Extension Road, Sector 25, Sector 25, Gurugram, Haryana
+type: commercial
+RERA number: RC/REP/HARERA/GGM/635/367/2022/110
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹4.5 Crores Onwards
+price range: —
+configurations: not published
+land area: 1.3 Acres
+towers: —; units: —; floors: 6

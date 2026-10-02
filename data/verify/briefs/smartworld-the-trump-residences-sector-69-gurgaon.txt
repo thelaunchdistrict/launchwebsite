@@ -1,0 +1,13 @@
+slug: smartworld-the-trump-residences-sector-69-gurgaon
+name: Smartworld The Trump Residences
+developer: Smartworld Developers (listed as "Smartworld The Trump Residences")
+location: SPR Road, Sector 69, Sector 69, Gurugram, Haryana
+type: residential
+RERA number: GGM/925/657/2025/28
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹7.99 Crores Onwards
+price range: —
+configurations: 3 Bed Residences — 3,091 sq ft — Price on Request | 4 Bed Residences — 3,929 sq ft — Price on Request | 4 Bed Residences — 4,909 sq ft — Price on Request | 4 Bed Residences — 4,936 sq ft — Price on Request
+land area: 11.66 Acres
+towers: 2; units: 298; floors: —

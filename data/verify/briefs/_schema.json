@@ -1,0 +1,102 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "slug",
+  "name",
+  "overall",
+  "summary",
+  "checks"
+ ],
+ "properties": {
+  "slug": {
+   "type": "string"
+  },
+  "name": {
+   "type": "string"
+  },
+  "overall": {
+   "type": "string",
+   "enum": [
+    "consistent",
+    "minor-discrepancies",
+    "major-discrepancies",
+    "unverifiable"
+   ]
+  },
+  "summary": {
+   "type": "string",
+   "description": "Two or three sentences: what was confirmed, what differs, what could not be checked."
+  },
+  "checks": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "field",
+     "ours",
+     "web",
+     "verdict",
+     "severity",
+     "sources",
+     "note"
+    ],
+    "properties": {
+     "field": {
+      "type": "string",
+      "enum": [
+       "existence",
+       "developer",
+       "location",
+       "rera",
+       "status",
+       "possession",
+       "startingPrice",
+       "configurations",
+       "landArea",
+       "towersUnits",
+       "other"
+      ]
+     },
+     "ours": {
+      "type": "string",
+      "description": "The value in our data, verbatim"
+     },
+     "web": {
+      "type": "string",
+      "description": "What independent sources say; empty string if nothing found"
+     },
+     "verdict": {
+      "type": "string",
+      "enum": [
+       "match",
+       "mismatch",
+       "partial",
+       "unverified"
+      ]
+     },
+     "severity": {
+      "type": "string",
+      "enum": [
+       "high",
+       "medium",
+       "low"
+      ],
+      "description": "high = would mislead an investor (wrong RERA, developer, location, price off by >15%, possession off by >1 year); medium = notable; low = cosmetic"
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "description": "URLs that support the web value"
+     },
+     "note": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

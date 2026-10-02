@@ -1,0 +1,13 @@
+slug: paras-manor-sector-2-gurgaon
+name: Paras Manor
+developer: Paras Buildtech (listed as "Paras Manor")
+location: Sector 2, Gwal Pahari, Sector 2, Gwal Pahari, Gurugram, Haryana
+type: residential
+RERA number: 38 OF 2024
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹9.5 Crore Onwards
+price range: —
+configurations: 4 BHK — 4,750 sq ft — Price on Request
+land area: 4.2 Acres
+towers: 2; units: 116; floors: —

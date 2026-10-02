@@ -1,0 +1,13 @@
+slug: adani-lushlands-gurgaon
+name: Adani Lushlands
+developer: Adani Realty (listed as "Adani Lushlands")
+location: Sector 2, Gwal Pahari, Gurgaon Faridabad Road, Sector 2, Gwal Pahari, Gurugram, Haryana
+type: residential
+RERA number: HARERA/GGM/837/569/2024/64
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2029-06 (from: "Possession is expected to begin in June 2029")
+starting price: ₹9.97 Crore Onwards
+price range: —
+configurations: 4 BHK — 2,659 sq ft — Price on Request | 4 BHK — 3,291 sq ft — Price on Request | 4 BHK — 3,315 sq ft — Price on Request | 4 BHK — 4,079 sq ft — Price on Request | GF — 6,483 sq ft — Price on Request | GF — 6,494 sq ft — Price on Request | GF — 7,104 sq ft — Price on Request
+land area: 12.36 Acres
+towers: 4; units: 236; floors: —

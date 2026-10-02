@@ -1,0 +1,13 @@
+slug: emaar-serenity-hills-sector-86-gurgaon
+name: Emaar Serenity Hills
+developer: Emaar India (listed as "Emaar Serenity Hills Sector 86")
+location: Sector 86, Near Dwarka Expressway, Sector 86, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/993/725/2025/96
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2028-12 (from: "Possession is expected by December 2028")
+starting price: ₹2.2 Crore Onwards
+price range: —
+configurations: 3 BHK Small — 1,183 sq ft — Price on Request | 3 BHK Large — 1,537 sq ft — Price on Request | 4 BHK — 2,079 sq ft — Price on Request
+land area: 27 Acres
+towers: 7; units: 1800; floors: —

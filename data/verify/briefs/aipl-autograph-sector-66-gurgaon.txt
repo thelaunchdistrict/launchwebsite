@@ -1,0 +1,13 @@
+slug: aipl-autograph-sector-66-gurgaon
+name: AIPL Autograph
+developer: AIPL (listed as "AIPL Autograph")
+location: Sector 66, Golf Course Extension Road, Sector 66, Gurugram, Haryana
+type: commercial
+RERA number: GGM/481/213/2021/49
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹71 Lakhs Onwards
+price range: —
+configurations: not published
+land area: 6.13 Acres
+towers: —; units: —; floors: 12

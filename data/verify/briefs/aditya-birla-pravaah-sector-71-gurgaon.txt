@@ -1,0 +1,13 @@
+slug: aditya-birla-pravaah-sector-71-gurgaon
+name: Aditya Birla Pravaah
+developer: Birla Estates (listed as "Aditya Birla")
+location: Sector 71, Gurgaon, Sector 71, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/1006/738/2025/109
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2028 (from: "possession timeline is around 2028")
+starting price: ₹3.26 Crores Onwards
+price range: —
+configurations: 3 BHK — 1,357 Sq ft — Price on request | 3 BHK+utility — 1,437 Sq ft — Price on request
+land area: 5.25 Acres
+towers: 5; units: 492; floors: —

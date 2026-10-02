@@ -1,0 +1,13 @@
+slug: aipl-joy-district-sector-88-gurgaon
+name: AIPL Joy District
+developer: AIPL (listed as "AIPL Joy District")
+location: Sector 88, Northern Peripheral Road, Sector 88, Gurugram, Haryana
+type: commercial
+RERA number: RC/REP/HARERA/GGM/780/512/2024/07
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: not published
+starting price: ₹83 lakhs Onwards
+price range: —
+configurations: not published
+land area: 11 Acres
+towers: —; units: —; floors: 5

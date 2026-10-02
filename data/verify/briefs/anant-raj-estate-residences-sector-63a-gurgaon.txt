@@ -1,0 +1,13 @@
+slug: anant-raj-estate-residences-sector-63a-gurgaon
+name: Anant Raj Estate Residences
+developer: Anant Raj
+location: Golf Course Extension Road, Sector 63A, Sector 63A, Gurugram, Haryana
+type: residential
+RERA number: RC/REP/HARERA/GGM/785/517/2024/12
+status: under-construction (source: UNDER_CONSTRUCTION)
+possession: 2027-12 (from: "Possession is targeted for December 2027")
+starting price: ₹6.68 Crore Onwards
+price range: —
+configurations: 4 BHK + SQ — 3,610 Sq ft — Price on request | 4 BHK + SQ — 4,800 sq ft — Price on request
+land area: 5.5 Acres
+towers: 4; units: 248; floors: —
