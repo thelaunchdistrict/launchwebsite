@@ -1,0 +1,131 @@
+{
+  "slug": "signature-global-titanium-spr-sector-71-gurgaon",
+  "name": "Signature Global Titanium SPR",
+  "overall": "major-discrepancies",
+  "summary": "Project, developer, Sector 71 SPR location, RERA number, 14.38-acre land area, starting price and 3/4 BHK sizes (2,780–3,780 sq ft) are confirmed. Our possession of Feb 2029 is ~2 years earlier than the Feb 2031 (Square Yards) / May 2031 dates found, and our 8 towers / 613 units differ from 5 towers / 608 units (Square Yards; 608 units in launch news), with sources disagreeing on tower count.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Signature Global Titanium SPR",
+      "web": "Titanium SPR by Signature Global, Sector 71 Gurugram, launched June 2024",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project",
+        "https://www.angelone.in/news/share-market/signature-global-sees-overwhelming-sales-titanium-spr-gurgaon"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Signature Global (listed as \"Signature Global Titanium SPR\")",
+      "web": "Signature Global (India) Ltd",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project",
+        "https://www.angelone.in/news/share-market/signature-global-sees-overwhelming-sales-titanium-spr-gurgaon"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 71, Southern Peripheral Road (SPR), Sector 71, Gurugram, Haryana",
+      "web": "Sector 71, Southern Peripheral Road, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project",
+        "https://www.signatureapartments.in/signature-global-titanium-spr/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "HARERA/GGM/831/563/2024/58.",
+      "web": "GGM/831/563/2024/58 dated 03.06.2024",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project",
+        "https://www.amoghbuildtech.com/projects/signature-global-titanium-spr-sector-71-gurugram"
+      ],
+      "note": "Same number; our value has a trailing period (cosmetic). Launch news describes a two-phase project; only this registration was found."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2029-02 (from: \"Possession is expected by February 2029\")",
+      "web": "February 2031 (Square Yards); May 2031 completion (other listings); some brokers cite May 2029–Feb 2031 by tower",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project",
+        "https://www.amoghbuildtech.com/projects/signature-global-titanium-spr-sector-71-gurugram",
+        "https://www.signatureapartments.in/signature-global-titanium-spr/"
+      ],
+      "note": "Main portals give Feb 2031, ~2 years later than ours. No source found giving Feb 2029 as RERA date."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹5.28 Crores Onwards",
+      "web": "Rs 5.42 Cr – Rs 7.94 Cr",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project"
+      ],
+      "note": "Within 3%."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK — 2,780 sq ft — Price on Request | 4 BHK — 3,780 sq ft — Price on Request",
+      "web": "3 BHK and 4 BHK (marketed as 3.5/4.5 BHK), 2,780–3,780 sq ft saleable",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project",
+        "https://www.angelone.in/news/share-market/signature-global-sees-overwhelming-sales-titanium-spr-gurgaon"
+      ],
+      "note": "Developer markets them as 3.5 BHK and 4.5 BHK."
+    },
+    {
+      "field": "landArea",
+      "ours": "14.38 Acres",
+      "web": "14.382 acres (developer launch release); 22.5 acres (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.angelone.in/news/share-market/signature-global-sees-overwhelming-sales-titanium-spr-gurgaon",
+        "https://www.ghar.tv/blog/signature-global-titanium-spr-in-sector-71-gurgaon-achieves-rs-2700-crore-in-sales/artid1631",
+        "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project"
+      ],
+      "note": "Developer-sourced news confirms 14.382 acres; Square Yards' 22.5 acres conflicts."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 8; units: 613; floors: —",
+      "web": "608 units (launch news, phase 1); 5 towers / 608 units (Square Yards); 7 towers / ~613 units (other listings)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.angelone.in/news/share-market/signature-global-sees-overwhelming-sales-titanium-spr-gurgaon",
+        "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project",
+        "https://www.amoghbuildtech.com/projects/signature-global-titanium-spr-sector-71-gurugram"
+      ],
+      "note": "No source found for 8 towers; sources disagree among themselves (5 vs 7). Units 613 vs 608 is minor."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:39:32Z",
+  "method": "subagent:web-research"
+}

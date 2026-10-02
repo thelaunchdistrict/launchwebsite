@@ -1,0 +1,136 @@
+{
+  "slug": "silverglades-the-legacy-sector-63a-gurgaon",
+  "name": "Silverglades The Legacy",
+  "overall": "minor-discrepancies",
+  "summary": "Project, developer, Sector 63A location, RERA number, 10.5 acres, 5 towers and starting price are confirmed. Our 956 units conflict with the 410 units reported by listings, and our configuration labels differ (sources list 3/4/5 BHK with the 7,700 sq ft unit as a 5 BHK penthouse). We publish no possession; sources give RERA Dec 2031 (Housiey) or May 2031.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Silverglades The Legacy",
+      "web": "Silverglades The Legacy, Sector 63A Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housiey.com/projects/silverglades-the-legacy",
+        "https://www.propzilla.in/property/silverglades-legacy-sector-63a-gurgaon"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Silverglades (listed as \"Silverglades The Legacy\")",
+      "web": "Silverglades",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housiey.com/projects/silverglades-the-legacy",
+        "https://www.propertypistol.com/projects/silverglades-the-legacy-sector-63a-pid-19667"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 63A, Golf Course Extension Road, Sector 63A, Gurugram, Haryana",
+      "web": "Sector 63A, Golf Course Extension Road, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.propzilla.in/property/silverglades-legacy-sector-63a-gurgaon",
+        "https://www.luxuryresidences.in/silverglades-legacy-sector-63a-gurgaon/"
+      ],
+      "note": "PropertyPistol also references Alahawas / Sector 59 as locality."
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/861/593/2024/88",
+      "web": "RC/REP/HARERA/GGM/861/593/2024/88",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.luxuryresidences.in/silverglades-legacy-sector-63a-gurgaon/",
+        "https://www.propertypistol.com/projects/silverglades-the-legacy-sector-63a-pid-19667",
+        "https://www.luxuryroof.in/gurgaon/silverglades-the-legacy"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under construction / new launch",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.luxuryroof.in/gurgaon/silverglades-the-legacy",
+        "https://housiey.com/projects/silverglades-the-legacy"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "RERA possession Dec 2031, target Dec 2030 (Housiey); May 2031 (other listings); Dec 2029 (PropertyPistol)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://housiey.com/projects/silverglades-the-legacy",
+        "https://www.luxuryresidences.in/silverglades-legacy-sector-63a-gurgaon/",
+        "https://www.propertypistol.com/projects/silverglades-the-legacy-sector-63a-pid-19667"
+      ],
+      "note": "We publish none; sources disagree among themselves."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹5.90 Crore Onwards",
+      "web": "Rs 6.3 Cr onwards (PropertyPistol); Rs 6.50 Cr + charges (LuxuryRoof); Rs 7.14 Cr all-inclusive (Housiey)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.propertypistol.com/projects/silverglades-the-legacy-sector-63a-pid-19667",
+        "https://www.luxuryroof.in/gurgaon/silverglades-the-legacy",
+        "https://housiey.com/projects/silverglades-the-legacy"
+      ],
+      "note": "Within 15% of PropertyPistol and LuxuryRoof base prices; Housiey all-inclusive price is 21% higher."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK + SQ — 2,800 sq ft — Price on Request | 4 BHK + SQ — 3,800 sq ft — Price on Request | 4 BHK + SQ + Studay — 4,800 sq ft — Price on Request | Penthouse — 7,700 sq ft — Price on Request",
+      "web": "3 BHK 2,800; 4 BHK 3,800–4,800; 5 BHK 5,900 sq ft; 5 BHK duplex penthouses 5,900–7,700 sq ft (super area); carpet 1,614–4,164 sq ft",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.luxuryresidences.in/silverglades-legacy-sector-63a-gurgaon/",
+        "https://housiey.com/projects/silverglades-the-legacy",
+        "https://www.luxuryroof.in/gurgaon/silverglades-the-legacy"
+      ],
+      "note": "Sizes match, but the 5 BHK (5,900 sq ft) is missing from our list and the penthouse is a 5 BHK. 'Studay' is a typo for 'Study'."
+    },
+    {
+      "field": "landArea",
+      "ours": "10.5 Acres",
+      "web": "10.5 acres (most listings); 9.95 acres (LuxuryRoof)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housiey.com/projects/silverglades-the-legacy",
+        "https://www.luxuryresidences.in/silverglades-legacy-sector-63a-gurgaon/",
+        "https://www.luxuryroof.in/gurgaon/silverglades-the-legacy"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 5; units: 956; floors: —",
+      "web": "5 towers, G+35/36 floors, 410 units",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.luxuryresidences.in/silverglades-legacy-sector-63a-gurgaon/",
+        "https://www.propzilla.in/property/silverglades-legacy-sector-63a-gurgaon",
+        "https://housiey.com/projects/silverglades-the-legacy"
+      ],
+      "note": "Listings give 410 units; no source found for 956."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:39:32Z",
+  "method": "subagent:web-research"
+}

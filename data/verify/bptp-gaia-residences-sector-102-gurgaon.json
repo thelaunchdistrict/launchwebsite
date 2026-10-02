@@ -1,0 +1,139 @@
+{
+  "slug": "bptp-gaia-residences-sector-102-gurgaon",
+  "name": "BPTP Gaia Residences",
+  "overall": "minor-discrepancies",
+  "summary": "Project (BPTP Gaia Residences at Amstoria 102), Sector 102 Dwarka Expressway location, RERA GGM/963/695/2025/66 (dated 27.06.2025), under-construction status, starting price (~Rs 3.4-4.0 Cr) and 3 towers / 531 units are confirmed. Developer is listed under the project name instead of BPTP Limited, land area is inconsistent across sources (12.08/12 acres vs 3 or 1.68 acres for this phase), our configuration labels (T6/T8 types, 2,100 sq ft) do not state BHK or area basis (web: 3 BHK, 1,621-1,689 sq ft carpet), and we omit the possession date (Dec 2032 on most sources).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "BPTP Gaia Residences",
+      "web": "BPTP Gaia Residences at Amstoria 102, Sector 102, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c",
+        "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram",
+        "https://www.99acres.com/bptp-gaia-residences-at-amstoria-102-sector-102-gurgaon-npxid-r447895"
+      ],
+      "note": "Portals use the full name 'Gaia Residences at Amstoria 102'."
+    },
+    {
+      "field": "developer",
+      "ours": "BPTP (listed as \"BPTP Gaia Residences\")",
+      "web": "BPTP Limited",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c",
+        "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram"
+      ],
+      "note": "Developer is correct (BPTP) but the listed developer name is the project name, not 'BPTP Limited'."
+    },
+    {
+      "field": "location",
+      "ours": "Dwarka Expressway, Sector 102, Sector 102, Gurugram, Haryana",
+      "web": "Sector 102, Dwarka Expressway, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c",
+        "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram"
+      ],
+      "note": "Our location string repeats 'Sector 102' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/963/695/2025/66",
+      "web": "RC/REP/HARERA/GGM/963/695/2025/66 dated 27.06.2025",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram",
+        "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c",
+        "https://www.99acres.com/bptp-gaia-residences-at-amstoria-102-sector-102-gurgaon-npxid-r447895"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under construction / new launch",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram",
+        "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "December 2032 (Inframantra, 99acres); NoBroker says July 2032; one broker site says 2029",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram",
+        "https://www.99acres.com/bptp-gaia-residences-at-amstoria-102-sector-102-gurgaon-npxid-r447895",
+        "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c"
+      ],
+      "note": "We publish no possession date; sources mostly say Dec 2032 but disagree."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹3.75 Crores Onwards",
+      "web": "Rs 3.57 Cr (99acres), Rs 3.39 Cr (NoBroker), Rs 3.99 Cr (Inframantra), Rs 3.75-3.85 Cr (broker sites)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.99acres.com/bptp-gaia-residences-at-amstoria-102-sector-102-gurgaon-npxid-r447895",
+        "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c",
+        "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram",
+        "https://www.larisarealtech.com/properties/bptp-gaia-residences"
+      ],
+      "note": "All within ±15%."
+    },
+    {
+      "field": "configurations",
+      "ours": "T6 - Type 2 — 2,100 sq ft — Price on Request | T6 - Type 1 — 2,100 sq ft — Price on Request | T8 - Type 2 — 2,100 sq ft — Price on Request | T8 - Type 1 — 2,100 sq ft — Price on Request",
+      "web": "3 BHK only, carpet 1,621-1,689 sq ft (99acres, Inframantra); ~2,100 sq ft super area quoted by broker sites; NoBroker also lists 2 BHK 1,042-1,654 and 3 BHK 1,323-2,459 sq ft super built-up",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram",
+        "https://www.99acres.com/bptp-gaia-residences-at-amstoria-102-sector-102-gurgaon-npxid-r447895",
+        "https://www.larisarealtech.com/properties/bptp-gaia-residences",
+        "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c"
+      ],
+      "note": "Our labels are tower/type codes with no BHK count; 2,100 sq ft appears to be super area of the 3 BHK, whereas RERA-style carpet areas are 1,621-1,689 sq ft. Sources disagree on whether 2 BHK exists (NoBroker only)."
+    },
+    {
+      "field": "landArea",
+      "ours": "12.08 Acres",
+      "web": "12.08 acres (Larisa, broker sites); 12 acres (NoBroker); 3 acres (Inframantra); 1.68 acres for this phase (99acres snippet)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.larisarealtech.com/properties/bptp-gaia-residences",
+        "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c",
+        "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram",
+        "https://www.99acres.com/bptp-gaia-residences-at-amstoria-102-sector-102-gurgaon-npxid-r447895"
+      ],
+      "note": "12.08 acres likely refers to the wider Amstoria licensed parcel; the registered phase may be much smaller (1.68-3 acres). Sources disagree."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 3; units: 531; floors: —",
+      "web": "3 towers, 531 units, 45 storeys (NoBroker, Inframantra); some broker sites say 8 towers (Amstoria township)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c",
+        "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram"
+      ],
+      "note": "Floors not published by us; sources say G+45."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:37:07Z",
+  "method": "subagent:web-research"
+}

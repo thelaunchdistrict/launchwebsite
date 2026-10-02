@@ -1,0 +1,100 @@
+{
+  "slug": "elan-paradise-sector-50-gurgaon",
+  "name": "Elan Paradise",
+  "overall": "major-discrepancies",
+  "summary": "Existence, developer (Elan Group), Nirvana Country / Sector 50 location and 4-acre land area are confirmed. Our RERA number GGM/447/179/2021/15 is Phase 1; a second registration (GGM/584/316/2022/59) also exists. Our ₹2.5 Cr starting price is more than double the portals' ₹0.98-1.12 Cr. Our September 2026 possession is not stated anywhere: sources give September 2025 or June 2026, and some list the project as ready to move.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Elan Paradise",
+      "web": "Elan Paradise, retail/F&B/multiplex commercial project, Sector 50, Nirvana Country, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project", "https://www.propzilla.in/property/elan-paradise-sector-50-gurugram"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Elan Group (listed as \"Elan Paradise\")",
+      "web": "Elan Group",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project"],
+      "note": "Our developer label 'Elan Paradise' is the project name, not the developer (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Nirvana Country, Sector 50, Sector 50, Gurugram, Haryana",
+      "web": "Sector 50, Nirvana Country, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.propzilla.in/property/elan-paradise-sector-50-gurugram"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/447/179/2021/15",
+      "web": "GGM/447/179/2021/15 (Phase 1, registered 22.03.2021); GGM/584/316/2022/59 (Square Yards)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.propzilla.in/property/elan-paradise-sector-50-gurugram", "https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194", "https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project"],
+      "note": "Our number is correct for Phase 1. The 2022 registration (GGM/584/316/2022/59) is missing from our page."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction (propzilla); Ready to Move (Square Yards, houssed)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.propzilla.in/property/elan-paradise-sector-50-gurugram", "https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project", "https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194"],
+      "note": "Sources disagree. The project may be at or near completion."
+    },
+    {
+      "field": "possession",
+      "ours": "2026-09 (from: \"possession timeline is September 2026\")",
+      "web": "30 June 2026 (houssed, Square Yards); September 2025 (propzilla)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": ["https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194", "https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project", "https://www.propzilla.in/property/elan-paradise-sector-50-gurugram"],
+      "note": "No source gives September 2026. Our date is 3 to 12 months later than the dates found."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹2.5 Crore Onwards",
+      "web": "₹98.25 Lac (Square Yards, 300 sq ft shop); ₹1.11-1.12 Cr (propzilla, houssed)",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project", "https://www.propzilla.in/property/elan-paradise-sector-50-gurugram", "https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194"],
+      "note": "Our starting price is more than double what every source found shows."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "Retail shops 300-1,200 sq ft; food court, multiplex",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project"],
+      "note": "We publish no configurations, so there is nothing to compare."
+    },
+    {
+      "field": "landArea",
+      "ours": "4 Acres",
+      "web": "4 acres (propzilla, houssed); 3.35 acres (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.propzilla.in/property/elan-paradise-sector-50-gurugram", "https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194", "https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project"],
+      "note": "Square Yards' 3.35 acres may be one phase only."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: —; units: —; floors: 4",
+      "web": "1 tower, 3 floors, 45 units (propzilla); 3 towers, 5 floors, 247 units (houssed); ~300 units (search snippet)",
+      "verdict": "mismatch",
+      "severity": "low",
+      "sources": ["https://www.propzilla.in/property/elan-paradise-sector-50-gurugram", "https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194"],
+      "note": "No source states 4 floors, and sources disagree with each other (3 vs 5 floors)."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

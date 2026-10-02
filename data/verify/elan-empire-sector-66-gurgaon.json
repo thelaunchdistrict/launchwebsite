@@ -1,0 +1,100 @@
+{
+  "slug": "elan-empire-sector-66-gurgaon",
+  "name": "Elan Empire",
+  "overall": "major-discrepancies",
+  "summary": "Project existence, developer (Elan Group), Sector 66 Golf Course Extension Road location, RERA GGM/736/468/2023/80, under-construction status and 1.46-acre land area are confirmed. Our June 2026 possession conflicts with the April 2028 date given by Square Yards and another portal (one older listing says June 2025), and our Rs 1 Cr starting price sits above the Rs 74-93 lakh entry prices on the portals. Floors (6) are confirmed by only one broker page; units (351) are published elsewhere but not by us.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Elan Empire",
+      "web": "Elan Empire, commercial project (retail, food court, office) in Sector 66, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project", "https://megarealtymax.com/commercial-property/elan-empire-gurgaon-sector-66"],
+      "note": "Listed on Square Yards and several broker sites."
+    },
+    {
+      "field": "developer",
+      "ours": "Elan Group",
+      "web": "Elan Group",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project"],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 66, Golf Course Extension Road, Sector 66, Gurugram, Haryana",
+      "web": "Sector 66, Golf Course Extension Road, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project", "https://megarealtymax.com/commercial-property/elan-empire-gurgaon-sector-66"],
+      "note": "Our location string repeats 'Sector 66' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/736/468/2023/80",
+      "web": "GGM/736/468/2023/80 dated 24.07.2023 (Square Yards, megarealtymax); propzilla instead cites GGM/469/201/2021/37",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project", "https://megarealtymax.com/commercial-property/elan-empire-gurgaon-sector-66", "https://www.propzilla.in/property/elan-empire-sector-66-gurugram"],
+      "note": "Our number is confirmed by two sources. One broker page cites a different 2021 registration (GGM/469/201/2021/37), possibly an earlier phase or registration. This was not checked on the HARERA portal."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project", "https://megarealtymax.com/commercial-property/elan-empire-gurgaon-sector-66"],
+      "note": "propzilla describes it as 'Nearing Possession'."
+    },
+    {
+      "field": "possession",
+      "ours": "2026-06 (from: \"Possession is expected by June 2026\")",
+      "web": "April 2028 (Square Yards, megarealtymax); June 2025 (propzilla)",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project", "https://megarealtymax.com/commercial-property/elan-empire-gurgaon-sector-66", "https://www.propzilla.in/property/elan-empire-sector-66-gurugram"],
+      "note": "No source gives June 2026. The most-cited date (April 2028, likely the RERA date) is almost 2 years later than ours. Sources disagree with each other."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹1 Crores Onwards",
+      "web": "₹74.25 Lac (Square Yards, 300 sq ft shop); ₹92.85 Lakh (megarealtymax); ₹70 Lakh (propzilla)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project", "https://megarealtymax.com/commercial-property/elan-empire-gurgaon-sector-66", "https://www.propzilla.in/property/elan-empire-sector-66-gurugram"],
+      "note": "megarealtymax (₹92.85 L) is within 15% of ours, but Square Yards (₹74.25 L) and propzilla (₹70 L) are 26-30% lower."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "Retail shops 273-490 sq ft, office space 500 sq ft, food court",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://megarealtymax.com/commercial-property/elan-empire-gurgaon-sector-66", "https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project"],
+      "note": "We publish no configurations, so there is nothing to compare. Portals list unit sizes we could add."
+    },
+    {
+      "field": "landArea",
+      "ours": "1.46 Acres",
+      "web": "1.46 Acres",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project", "https://megarealtymax.com/commercial-property/elan-empire-gurgaon-sector-66"],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: —; units: —; floors: 6",
+      "web": "1 tower, 6 floors, 351 units (propzilla); 351 units (Square Yards)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.propzilla.in/property/elan-empire-sector-66-gurugram", "https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project"],
+      "note": "Only one broker page confirms 6 floors. We leave out the 351-unit count that two sources publish."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

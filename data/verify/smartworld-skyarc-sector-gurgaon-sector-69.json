@@ -1,0 +1,138 @@
+{
+  "slug": "smartworld-skyarc-sector-gurgaon-sector-69",
+  "name": "Smartworld SkyArc",
+  "overall": "minor-discrepancies",
+  "summary": "Project, developer, Sector 69 location, RERA number, May 2032 possession, 6 towers and starting price are confirmed. Our 633 units conflict with 952 units reported by all sources found, and our 12-acre land area differs from 14 acres (portals) and 6.98 acres registered under RERA (11.67-acre licensed parcel).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Smartworld SkyArc",
+      "web": "Smartworld Sky Arc, Sector 69 Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+        "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138"
+      ],
+      "note": "Usually spelled 'Sky Arc'."
+    },
+    {
+      "field": "developer",
+      "ours": "Smartworld Developers (listed as \"Smartworld\")",
+      "web": "Smart World Developers; RERA applicant Riverday Infrastructure Pvt Ltd",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+        "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 69, Golf Course Extension Road, Sector 69, Gurugram, Haryana",
+      "web": "Sector 69, Golf Course Extension Road / off SPR, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.luxuryresidences.in/smartworld-sky-arc-at-sector-69-gurgaon/",
+        "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/878/610/2024/105",
+      "web": "GGM/878/610/2024/105 (RERA-GRG-1723-2024, registered 30 Aug 2024)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+        "https://www.luxuryresidences.in/smartworld-sky-arc-at-sector-69-gurgaon/",
+        "https://www.propertypistol.com/projects/smartworld-sky-arc-sector-69-pid-19354",
+        "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+        "https://www.luxuryresidences.in/smartworld-sky-arc-at-sector-69-gurgaon/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2032-05 (from: \"possession date is May 2032\")",
+      "web": "May 2032 (RERA completion 31 May 2032); PropertyPistol lists March 2029",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+        "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138",
+        "https://www.luxuryresidences.in/smartworld-sky-arc-at-sector-69-gurgaon/",
+        "https://www.propertypistol.com/projects/smartworld-sky-arc-sector-69-pid-19354"
+      ],
+      "note": "PropertyPistol outlier disagrees."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹4.95 Crores Onwards",
+      "web": "Rs 4.97–6.90 Cr (Square Yards); Rs 5.02 Cr onwards (LuxuryResidences); ~Rs 4.78 Cr (reratracker); Rs 4.45 Cr (PropertyPistol)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+        "https://www.luxuryresidences.in/smartworld-sky-arc-at-sector-69-gurgaon/",
+        "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138",
+        "https://www.propertypistol.com/projects/smartworld-sky-arc-sector-69-pid-19354"
+      ],
+      "note": "Within 15% of all sources."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK — 2,355 sq ft — Price on Request | 3.5 BHK — 2,690 sq ft — Price on Request | 4 BHK — 3,279 sq ft — Price on Request",
+      "web": "3 BHK 2,355 and 2,690 sq ft; 4 BHK 3,270 sq ft (super area)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+        "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138"
+      ],
+      "note": "Our 4 BHK size 3,279 vs 3,270 on Square Yards and reratracker (likely typo)."
+    },
+    {
+      "field": "landArea",
+      "ours": "12 Acres",
+      "web": "14 acres (Square Yards, LuxuryResidences); 6.97635 acres registered, part of 11.66875-acre licensed parcel (reratracker/RERA)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+        "https://www.luxuryresidences.in/smartworld-sky-arc-at-sector-69-gurgaon/",
+        "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138"
+      ],
+      "note": "No source gives 12 acres; 11.67 acres is the shared licensed parcel incl. Trump Residences."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 6; units: 633; floors: —",
+      "web": "6 towers, G+41 floors, 952 units",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+        "https://www.luxuryresidences.in/smartworld-sky-arc-at-sector-69-gurgaon/",
+        "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138"
+      ],
+      "note": "Towers match; units 633 vs 952 consistently reported."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:39:32Z",
+  "method": "subagent:web-research"
+}

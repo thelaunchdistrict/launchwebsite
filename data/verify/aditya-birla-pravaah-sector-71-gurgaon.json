@@ -1,0 +1,143 @@
+{
+  "slug": "aditya-birla-pravaah-sector-71-gurgaon",
+  "name": "Aditya Birla Pravaah",
+  "overall": "major-discrepancies",
+  "summary": "The project (marketed as 'Birla Pravaah') exists. Its developer (Birla Estates, Aditya Birla Group), its location (Sector 71, SPR), its RERA number (GGM/1006/738/2025/109, dated 06.11.2025), its ₹3.26 Cr starting price, its 5 towers and its 492 units are confirmed. Our possession date of '2028' conflicts with the March 2032 date given by Square Yards, NoBroker and others. Land area varies by source (5.07-5.5 acres vs our 5.25), and our 1,357/1,437 sq ft sizes are only partly corroborated, with portals listing larger super areas.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Aditya Birla Pravaah",
+      "web": "Birla Pravaah, Sector 71, Gurugram (launched Nov 2025)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/birla-pravaah/341472/project",
+        "https://www.business-standard.com/companies/news/birla-estates-clocks-over-1-600-crore-in-bookings-at-gurugram-project-126040700856_1.html"
+      ],
+      "note": "It is marketed as 'Birla Pravaah', not 'Aditya Birla Pravaah'."
+    },
+    {
+      "field": "developer",
+      "ours": "Birla Estates (listed as \"Aditya Birla\")",
+      "web": "Birla Estates Pvt Ltd (Aditya Birla Group real-estate arm)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/birla-pravaah-sector-71_gurgaon-prjt-8a9f8f85999e2dc701999e33131200a0",
+        "https://www.luxuryroof.in/gurgaon/birla-pravaah"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 71, Gurgaon, Sector 71, Haryana",
+      "web": "Sector 71, Gurugram, on the Southern Peripheral Road",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/birla-pravaah-sector-71_gurgaon-prjt-8a9f8f85999e2dc701999e33131200a0"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/1006/738/2025/109",
+      "web": "RC/REP/HARERA/GGM/1006/738/2025/109 dated 06.11.2025",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/birla-pravaah-sector-71_gurgaon-prjt-8a9f8f85999e2dc701999e33131200a0",
+        "https://www.luxuryroof.in/gurgaon/birla-pravaah"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction (NoBroker); New Launch (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/birla-pravaah-sector-71_gurgaon-prjt-8a9f8f85999e2dc701999e33131200a0",
+        "https://www.squareyards.com/gurgaon-residential-property/birla-pravaah/341472/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2028 (from: \"possession timeline is around 2028\")",
+      "web": "March 2032",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/birla-pravaah/341472/project",
+        "https://www.nobroker.in/birla-pravaah-sector-71_gurgaon-prjt-8a9f8f85999e2dc701999e33131200a0",
+        "https://www.luxuryroof.in/gurgaon/birla-pravaah"
+      ],
+      "note": "Multiple portals give March 2032, about 4 years later than ours. 2028 is implausible for a project launched in Nov 2025 with G+35/36 towers."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹3.26 Crores Onwards",
+      "web": "₹3.26 Cr onwards (up to ~₹4.0-4.35 Cr for 3 BHK + utility)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/birla-pravaah/341472/project",
+        "https://www.nobroker.in/birla-pravaah-sector-71_gurgaon-prjt-8a9f8f85999e2dc701999e33131200a0"
+      ],
+      "note": ""
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK — 1,357 Sq ft — Price on request | 3 BHK+utility — 1,437 Sq ft — Price on request",
+      "web": "3 BHK and 3 BHK + Utility. Size figures conflict: 1,357 sq ft for a 3 BHK (labelled carpet on one broker site, super area for 3 BHK+Utility on Luxuryroof); 3 BHK+Utility RERA carpet 1,299.53 sq ft + 379 sq ft balcony; super areas 1,900-2,450 sq ft (NoBroker, Square Yards)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.luxuryroof.in/gurgaon/birla-pravaah",
+        "https://www.nobroker.in/birla-pravaah-sector-71_gurgaon-prjt-8a9f8f85999e2dc701999e33131200a0",
+        "https://www.squareyards.com/gurgaon-residential-property/birla-pravaah/341472/project"
+      ],
+      "note": "1,357 has some support. No source confirmed 1,437 sq ft. The area basis (carpet vs super) is unclear across sources."
+    },
+    {
+      "field": "landArea",
+      "ours": "5.25 Acres",
+      "web": "5.07 / 5.075 acres (Luxuryroof, broker sites); 5.5 acres (Square Yards, NoBroker); ~5 acres (land acquisition reports)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.luxuryroof.in/gurgaon/birla-pravaah",
+        "https://www.squareyards.com/gurgaon-residential-property/birla-pravaah/341472/project"
+      ],
+      "note": "No source states 5.25 acres. Sources range from 5.07 to 5.5 acres."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 5; units: 492; floors: —",
+      "web": "5 towers, 492 units, ~35 floors (Luxuryroof and broker sites); 500 units, G+36 (NoBroker); 587 units (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.luxuryroof.in/gurgaon/birla-pravaah",
+        "https://www.nobroker.in/birla-pravaah-sector-71_gurgaon-prjt-8a9f8f85999e2dc701999e33131200a0",
+        "https://www.squareyards.com/gurgaon-residential-property/birla-pravaah/341472/project"
+      ],
+      "note": "Square Yards' 587 units disagrees with the other sources."
+    },
+    {
+      "field": "other",
+      "ours": "Aditya Birla Pravaah",
+      "web": "Bookings of over ₹1,600-1,800 crore reported after launch",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.business-standard.com/companies/news/birla-estates-clocks-over-1-600-crore-in-bookings-at-gurugram-project-126040700856_1.html"
+      ],
+      "note": "News coverage confirms the project and its launch."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

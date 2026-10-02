@@ -1,0 +1,100 @@
+{
+  "slug": "m3m-mansion-sector-113-gurgaon",
+  "name": "M3M Mansion",
+  "overall": "minor-discrepancies",
+  "summary": "The project, M3M as developer, Sector 113 on Dwarka Expressway, the RERA number GGM/802/534/2024/29, the RERA possession date of 28 February 2032, the ₹3.59 Cr starting price, the 10-acre land area and the 8 towers are confirmed. The project has a second RERA registration (GGM/916/648/2025/19), so our single number covers only one phase. Our 1,000-unit count matches no source (961, 1,205 and about 1,212 are cited), and portals market possession earlier, in 2030.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "M3M Mansion",
+      "web": "M3M Mansion, Sector 113, Dwarka Expressway, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project", "https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "M3M India (listed as \"M3M Group\")",
+      "web": "M3M India",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://houssed.com/gurgaon/m3m-group/m3m-mansion-112180"],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 113, Dwarka Expressway, Sector 113, Gurugram, Haryana",
+      "web": "Sector 113, Dwarka Expressway, Gurgaon (part of Smart City Delhi Airport)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://houssed.com/gurgaon/m3m-group/m3m-mansion-112180", "https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/802/534/2024/29",
+      "web": "GGM/802/534/2024/29 and GGM/916/648/2025/19",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project", "https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876"],
+      "note": "Our number is correct, but the project has a second registration (GGM/916/648/2025/19), which looks like Phase 2."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project", "https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2032-02 (from: \"Possession is expected by February 2032\")",
+      "web": "RERA possession 28-Feb-2032 (Houssed); marketed as March 2030 (Square Yards) or May 2030 (HomeBazaar)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://houssed.com/gurgaon/m3m-group/m3m-mansion-112180", "https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project", "https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876"],
+      "note": "Our date matches the RERA date. Portals advertise an earlier possession, in 2030."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹3.59 Crore Onwards",
+      "web": "₹3.60–14.73 Cr (Square Yards); ₹3.9 Cr onwards (HomeBazaar); ₹4.5 Cr (Houssed)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project", "https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876", "https://houssed.com/gurgaon/m3m-group/m3m-mansion-112180"],
+      "note": "Square Yards matches. Houssed's ₹4.5 Cr is about 25% higher."
+    },
+    {
+      "field": "configurations",
+      "ours": "3.5 BHK — 2,080 sq ft — Price on Request | 3.5 BHK — 2,310 sq ft — Price on Request | 3.5 BHK — 2,342 sq ft — Price on Request | 4.5 BHK — 2,700 sq ft — Price on Request | 4.5 BHK — 2,945 sq ft — Price on Request | 4.5 BHK — 3,000 sq ft — Price on Request | 4.5 BHK — 3,125 sq ft — Price on Request | 4.5 BHK — 3,230 sq ft — Price on Request | 4.5 BHK — 3,415 sq ft — Price on Request | Penthouse — 4,290 sq ft — Price on Request | Penthouse — 5,620 sq ft — Price on Request | Penthouse — 5,900 sq ft — Price on Request",
+      "web": "3.5 BHK 2,080–2,342 sq ft and 4.5 BHK 2,700–3,125 sq ft (HomeBazaar). Square Yards lists 2 BHK 1,638; 3 BHK 2,080/2,190; 4 BHK 2,700/3,230; penthouses 4,290/5,900 and 6,405/6,695 sq ft. Houssed gives a 2,070–5,640 sq ft carpet range",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876", "https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project", "https://houssed.com/gurgaon/m3m-group/m3m-mansion-112180"],
+      "note": "Most of our sizes are confirmed (2,080, 2,342, 2,700, 3,125, 3,230, 4,290, 5,900). Square Yards also lists a 2 BHK and 5 BHK penthouses that we do not."
+    },
+    {
+      "field": "landArea",
+      "ours": "10 Acres",
+      "web": "10 acres (Square Yards, Houssed); 10.23 acres (HomeBazaar)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project", "https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876"],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 8; units: 1000; floors: —",
+      "web": "8 towers, G+32 (HomeBazaar, Houssed); units 961 (Houssed), 1,205 (Square Yards, which lists towers A–K plus EWS), about 1,212 (search snippet)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876", "https://houssed.com/gurgaon/m3m-group/m3m-mansion-112180", "https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project"],
+      "note": "The 8-tower count is confirmed. No source gives 1,000 units, and the sources disagree with each other."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

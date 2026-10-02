@@ -1,0 +1,132 @@
+{
+ "slug": "smartworld-the-trump-residences-sector-69-gurgaon",
+ "name": "Smartworld The Trump Residences",
+ "overall": "major-discrepancies",
+ "summary": "Project, developer, Sector 69/SPR location, RERA number, 2 towers / 298 units, 11.66 acres and all four unit sizes are confirmed. Our ₹7.99 Cr starting price is ~16% below the ₹9.27 Cr (3,091 sq ft) price quoted by Square Yards and Smartworld-affiliated pages. Possession is not published by us; sources cite Sept 2032 or April 2033.",
+ "checks": [
+  {
+   "field": "existence",
+   "ours": "Smartworld The Trump Residences",
+   "web": "Trump Residences (also marketed as Trump Towers 2), Sector 69, Gurugram",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.smartworldgroup.in/trump-residences/",
+    "https://www.squareyards.com/gurgaon-residential-property/trump-residences/333136/project"
+   ],
+   "note": ""
+  },
+  {
+   "field": "developer",
+   "ours": "Smartworld Developers (listed as \"Smartworld The Trump Residences\")",
+   "web": "Smartworld Developers with Tribeca Developers and The Trump Organization (brand licence)",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.smartworldgroup.in/trump-residences/",
+    "https://www.squareyards.com/gurgaon-residential-property/trump-residences/333136/project"
+   ],
+   "note": ""
+  },
+  {
+   "field": "location",
+   "ours": "SPR Road, Sector 69, Sector 69, Gurugram, Haryana",
+   "web": "Sector 69, Southern Peripheral Road, near Vatika Chowk, Gurugram",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.smartworldgroup.in/trump-residences/",
+    "https://www.squareyards.com/gurgaon-residential-property/trump-residences/333136/project"
+   ],
+   "note": ""
+  },
+  {
+   "field": "rera",
+   "ours": "GGM/925/657/2025/28",
+   "web": "RC/REP/HARERA/GGM/925/657/2025/28",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/trump-residences/333136/project",
+    "https://www.sapientrealty.com/properties/trump-residences-gurgaon/"
+   ],
+   "note": ""
+  },
+  {
+   "field": "status",
+   "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+   "web": "Under construction",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.smartworldgroup.in/trump-residences/",
+    "https://www.squareyards.com/gurgaon-residential-property/trump-residences/333136/project"
+   ],
+   "note": ""
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "Square Yards: September 2032; Smartworld-affiliated page: April 2033",
+   "verdict": "unverified",
+   "severity": "low",
+   "sources": [
+    "https://www.smartworldgroup.in/trump-residences/",
+    "https://www.squareyards.com/gurgaon-residential-property/trump-residences/333136/project"
+   ],
+   "note": "Not published by us; sources disagree with each other."
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹7.99 Crores Onwards",
+   "web": "₹9.27 Cr onwards (3 BHK, 3,091 sq ft); range up to ₹14.81–15 Cr",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.smartworldgroup.in/trump-residences/",
+    "https://www.squareyards.com/gurgaon-residential-property/trump-residences/333136/project",
+    "https://www.sapientrealty.com/properties/trump-residences-gurgaon/"
+   ],
+   "note": "₹9.27 Cr is ~16% above our ₹7.99 Cr, just beyond the ±15% tolerance."
+  },
+  {
+   "field": "configurations",
+   "ours": "3 Bed Residences — 3,091 sq ft — Price on Request | 4 Bed Residences — 3,929 sq ft — Price on Request | 4 Bed Residences — 4,909 sq ft — Price on Request | 4 Bed Residences — 4,936 sq ft — Price on Request",
+   "web": "3 BHK 3,091; 4 BHK 3,929; 4 BHK 4,909; 4 BHK 4,936 sq ft",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.smartworldgroup.in/trump-residences/"
+   ],
+   "note": "Square Yards lists rounded 4,500 / 5,000 sq ft for the larger 4 BHKs; one page says sizes start at 3,001 sq ft."
+  },
+  {
+   "field": "landArea",
+   "ours": "11.66 Acres",
+   "web": "11.66 acres (Square Yards shows 4 acres)",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.smartworldgroup.in/trump-residences/",
+    "https://www.sapientrealty.com/properties/trump-residences-gurgaon/",
+    "https://www.squareyards.com/gurgaon-residential-property/trump-residences/333136/project"
+   ],
+   "note": "Square Yards' 4 acres conflicts with other sources; 11.66 acres is the more widely quoted figure."
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 2; units: 298; floors: —",
+   "web": "2 towers, 298 units, 51 floors each",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.smartworldgroup.in/trump-residences/",
+    "https://www.squareyards.com/gurgaon-residential-property/trump-residences/333136/project",
+    "https://www.sapientrealty.com/properties/trump-residences-gurgaon/"
+   ],
+   "note": "Floor count (51) not published by us."
+  }
+ ],
+ "checkedAt": "2026-10-02T12:00:00+05:30",
+ "method": "subagent:web-research"
+}

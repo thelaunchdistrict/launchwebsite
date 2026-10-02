@@ -1,0 +1,132 @@
+{
+  "slug": "m3m-altitude-sector-65-gurgaon",
+  "name": "M3M Altitude",
+  "overall": "major-discrepancies",
+  "summary": "The project, developer (M3M India), Sector 65 Golf Estate location, RERA GGM/821/553/2024/48, under-construction status, ~4 acre land area, 3 towers and the 3,712-4,270 sq ft 4 BHK sizes are confirmed. Our starting price (₹11.46 Cr) matches portal prices for the larger ~4,245 sq ft units, but other sources give entry prices of about ₹8-9.9 Cr. Our 128-unit count conflicts with the 342-480 units sources cite. Possession is cited variously as 2028, Jun 2029 and 2031, so our Dec 2028 is only partly supported.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "M3M Altitude",
+      "web": "M3M Altitude, M3M Golf Estate, Sector 65, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043",
+        "https://realtyhunting.com/residential/m3m-altitude/"
+      ],
+      "note": "Launched in May 2024 as a tower inside the 60-acre M3M Golf Estate."
+    },
+    {
+      "field": "developer",
+      "ours": "M3M India",
+      "web": "M3M India",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043",
+        "https://realtyhunting.com/residential/m3m-altitude/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 65, Golf Course Ext. Road, Sector 65, Gurugram, Haryana",
+      "web": "Golf Course Extension Road, Medawas, Sector 65, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043"
+      ],
+      "note": "Our location string repeats 'Sector 65' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/821/553/2024/48",
+      "web": "GGM/821/553/2024/48 (dated 29 April 2024)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://realtyhunting.com/residential/m3m-altitude/",
+        "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043",
+        "https://realtyhunting.com/residential/m3m-altitude/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2028-12 (from: \"possession date is December 2028\")",
+      "web": "Jun 2029 (PropertyPistol; realtyhunting search summary); 2028 (other listings); portals also print Jun 2026, May 2028, Jul 2028; developer reportedly says delivery by 2031",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043",
+        "https://realtyhunting.com/residential/m3m-altitude/",
+        "https://m3mpropertyindia.com/residential/gurgaon/m3m-altitude-sector-65/"
+      ],
+      "note": "Sources disagree widely. Several say 2028, which fits our Dec 2028, but PropertyPistol gives Jun 2029 and one source cites developer delivery by 2031. I couldn't confirm the HARERA completion date directly."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "11.46 Crores onwards",
+      "web": "From ₹7.4 Cr (PropertyPistol), ₹8 Cr (M3M landing page per realtyhunting), ₹8.99 Cr / ₹9 Cr (other listings); a portal lists ₹11.46-11.53 Cr for 4,245-4,270 sq ft units",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": [
+        "https://realtyhunting.com/residential/m3m-altitude/",
+        "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043",
+        "https://m3mpropertyindia.com/residential/gurgaon/m3m-altitude-sector-65/"
+      ],
+      "note": "₹11.46 Cr is a portal price for the larger ~4,245 sq ft unit, not the entry price. At the quoted ₹24-27K/sq ft, the 3,712 sq ft unit costs about ₹9-10 Cr, and sources put entry prices at ₹8-9.9 Cr, more than 15% below ours. Sources also disagree with each other."
+    },
+    {
+      "field": "configurations",
+      "ours": "4 BHK + Lounge — 3,712 sq ft — Price on Request | 4 BHK + Lounge — 3,755 sq ft — Price on Request | 4 BHK + Lounge — 4,270 sq ft — Price on Request",
+      "web": "4 BHK + servant (marketed 4.5 BHK): 3,712-4,270 sq ft; penthouses up to ~8,000 sq ft; one listing also shows 3 BHK 3,300 sq ft; PropertyPistol shows 4 BHK 2,780 / 5 BHK 4,270",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://realtyhunting.com/residential/m3m-altitude/",
+        "https://m3mpropertyindia.com/residential/gurgaon/m3m-altitude-sector-65/",
+        "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043"
+      ],
+      "note": "The 3,712-4,270 sq ft range matches. The 3,755 sq ft unit wasn't confirmed separately. Sources label the type '4 BHK + servant' rather than '+ Lounge', and we leave out penthouses. Sources disagree on labels and sizes."
+    },
+    {
+      "field": "landArea",
+      "ours": "4 Acres",
+      "web": "~4 acres (3.9 acres in one listing), within 60-acre M3M Golf Estate",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://realtyhunting.com/residential/m3m-altitude/",
+        "https://m3mpropertyindia.com/residential/gurgaon/m3m-altitude-sector-65/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 3; units: 128; floors: —",
+      "web": "3 towers, G+39 / G+43 floors; ~342-480 units (sources vary; ~350 typical)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://m3mpropertyindia.com/residential/gurgaon/m3m-altitude-sector-65/",
+        "https://realtyhunting.com/residential/m3m-altitude/"
+      ],
+      "note": "Tower count (3) matches. No source gives 128 units: sources say 342-480. Floors (G+39 / G+43) are available but we don't publish them."
+    }
+  ],
+  "checkedAt": "2026-10-02T00:00:00Z",
+  "method": "subagent:web-research"
+}

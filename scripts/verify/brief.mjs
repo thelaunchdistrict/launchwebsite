@@ -18,6 +18,8 @@ export const RESULT_SCHEMA = {
     name: { type: 'string' },
     overall: { type: 'string', enum: ['consistent', 'minor-discrepancies', 'major-discrepancies', 'unverifiable'] },
     summary: { type: 'string', description: 'Two or three sentences: what was confirmed, what differs, what could not be checked.' },
+    checkedAt: { type: 'string', description: 'ISO timestamp (added by the runner)' },
+    method: { type: 'string', description: 'e.g. api:claude-opus-5-5 or subagent:web-research (added by the runner)' },
     checks: {
       type: 'array',
       items: {

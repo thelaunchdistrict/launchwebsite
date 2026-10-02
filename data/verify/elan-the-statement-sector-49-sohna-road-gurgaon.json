@@ -1,0 +1,100 @@
+{
+  "slug": "elan-the-statement-sector-49-sohna-road-gurgaon",
+  "name": "Elan The Statement",
+  "overall": "minor-discrepancies",
+  "summary": "Project, developer (Elan Group / Elan Enclave Pvt Ltd), Sector 49 Sohna Road location and HARERA number GGM/1022/754/2025/125 are confirmed, and the starting price is within 15% of the developer's ₹10.25 Cr. Differences: the 4 BHK + Study 4,500 sq ft unit and the 7,500 sq ft penthouse are not found (the developer lists 4,340 sq ft and 7,270–7,395 sq ft units), the tower count is 6 on the developer page vs 5 on portals, and the RERA completion date is reported as September 2032 vs our December 2030. The 380-unit figure appears in only one source; others say 458 or 538.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Elan The Statement",
+      "web": "Elan The Statement, Sector 49, Sohna Road, Gurugram (developer project page plus many listings)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.elan.co.in/elan-statement-sector-49-gurgaon/", "https://www.propertyveda.com/property/elan-the-statement/"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Elan Group (listed as \"Elan Group (Elan Enclave Pvt. Ltd.)\")",
+      "web": "Elan Group; promoter Elan Enclave Pvt Ltd",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.elan.co.in/elan-statement-sector-49-gurgaon/"],
+      "note": "One portal (propertyveda) names the developer as \"Elan Limited\"."
+    },
+    {
+      "field": "location",
+      "ours": "Sohna Road, Sector 49, Sector 49, Gurugram, Haryana",
+      "web": "Sector 49, Sohna Road, Gurgaon, Haryana 122018",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.elan.co.in/elan-statement-sector-49-gurgaon/"],
+      "note": "Our location string repeats 'Sector 49' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/1022/754/2025/125",
+      "web": "GGM/1022/754/2025/125 (dated 12/12/2025)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.elan.co.in/elan-statement-sector-49-gurgaon/", "https://www.propertyveda.com/property/elan-the-statement/", "https://moneytreerealty.com/real-estate-projects/elan-the-statement-sector-49-gurgaon"],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "New launch / under construction (RERA registered Dec 2025)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.elan.co.in/elan-statement-sector-49-gurgaon/"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2030-12 (from: \"possession is December 2030\")",
+      "web": "Developer: 'expected by 2030'; propertyveda: RERA completion September 2032, marketed ~2030; moneytreerealty: June 2033; other listings: October 2029",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.elan.co.in/elan-statement-sector-49-gurgaon/", "https://www.propertyveda.com/property/elan-the-statement/", "https://moneytreerealty.com/real-estate-projects/elan-the-statement-sector-49-gurgaon"],
+      "note": "December 2030 agrees with the developer's marketed 'by 2030'. The RERA completion date reported by portals (Sept 2032) is about 21 months later, and sources disagree with each other. Consider showing the RERA date as well."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹11.06 Crores Onwards",
+      "web": "Developer: from ₹10.25 Cr; propertyveda: ₹10.29 Cr; other listings: ₹9 Cr to ₹10.6 Cr",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.elan.co.in/elan-statement-sector-49-gurgaon/", "https://www.propertyveda.com/property/elan-the-statement/"],
+      "note": "Ours is about 8% above the developer's figure, so within the ±15% tolerance. Our upper bound of ₹19.42 Cr is above propertyveda's top penthouse price of ₹17.75 Cr."
+    },
+    {
+      "field": "configurations",
+      "ours": "4 BHK Luxury Apartment — 4,285 sq ft — Price on Request | 4 BHK + Study — 4,500 sq ft — Price on Request | Duplex Penthouse — 7,500 sq ft — Price on Request",
+      "web": "4 BHK+SQ 4,285 sq ft (typical/corner); 4 BHK+SQ 4,340 sq ft (Tower 4); 5 BHK+SQ penthouses 7,270–7,395 sq ft",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.elan.co.in/elan-statement-sector-49-gurgaon/", "https://www.propertyveda.com/property/elan-the-statement/"],
+      "note": "4,285 sq ft matches. No source lists a 4 BHK + Study of 4,500 sq ft; the second type is 4,340 sq ft. Penthouses are 7,270–7,395 sq ft 5 BHK+SQ units, not 7,500 sq ft."
+    },
+    {
+      "field": "landArea",
+      "ours": "6.5 Acres",
+      "web": "Developer: 5.875 acres (and also '6.5 acres' with 70% open greens); moneytreerealty: 5.87 acres; propertyveda: 6.5 acres",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.elan.co.in/elan-statement-sector-49-gurgaon/", "https://moneytreerealty.com/real-estate-projects/elan-the-statement-sector-49-gurgaon", "https://www.propertyveda.com/property/elan-the-statement/"],
+      "note": "The registered land area appears to be 5.875 acres, and 6.5 acres is the marketed campus size. Sources disagree."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 5; units: 380; floors: —",
+      "web": "Towers: 6 (developer page), 5 (propertyveda, moneytreerealty, other listings); units: 458 (propertyveda), ~380 (moneytreerealty), 538 (another listing); floors G+35 to G+38",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.elan.co.in/elan-statement-sector-49-gurgaon/", "https://www.propertyveda.com/property/elan-the-statement/", "https://moneytreerealty.com/real-estate-projects/elan-the-statement-sector-49-gurgaon"],
+      "note": "Sources conflict. The developer page says 6 towers. Only one source supports 380 units."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:39:33Z",
+  "method": "subagent:web-research"
+}

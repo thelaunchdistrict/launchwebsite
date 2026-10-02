@@ -1,0 +1,128 @@
+{
+  "slug": "puri-diplomatic-residency-sector-111-gurgaon",
+  "name": "Puri Diplomatic Residency",
+  "overall": "major-discrepancies",
+  "summary": "Project (marketed as Puri Diplomatic Residences), developer Puri Constructions, Sector 111 Dwarka Expressway location, under-construction status, about 4 Cr starting price, about 9 acres and 6 towers / 324 units are confirmed. Our possession of December 2027 is earlier than all sources (December 2028 to 2029). Our RERA number has its segments in the wrong order (sources: GGM/787/519/2024/14), and the configurations are labelled by floor instead of BHK.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Puri Diplomatic Residency",
+      "web": "Puri Diplomatic Residences, Sector 111, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9",
+        "https://www.360realtors.com/puri-construction-diplomatic-residences-sector-111-gurgaon-uid-6888"
+      ],
+      "note": "Official name is 'Diplomatic Residences', not 'Residency'."
+    },
+    {
+      "field": "developer",
+      "ours": "Puri Constructions (listed as \"Puri Diplomatic Residency\")",
+      "web": "Puri Constructions Pvt. Ltd.",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9",
+        "https://www.realestateindia.com/projects/puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pjid-47042/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 111, Dwarka Expressway, Sector 111, Gurugram, Haryana",
+      "web": "Sector 111, Dwarka Expressway, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9",
+        "https://www.360realtors.com/puri-construction-diplomatic-residences-sector-111-gurgaon-uid-6888"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/787/519/14/2024",
+      "web": "RC/REP/HARERA/GGM/787/519/2024/14 dated 19.02.2024",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.360realtors.com/puri-construction-diplomatic-residences-sector-111-gurgaon-uid-6888",
+        "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9",
+        "https://www.expresswayproperties.com/puri-diplomatic-residences/"
+      ],
+      "note": "Same components, but year and serial are swapped; the correct format is GGM/787/519/2024/14. A search on HARERA with our string would fail."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2027-12 (from: \"Possession is expected by December 2027\")",
+      "web": "December 2028 (Housivity); 2029 (other broker sites)",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": [
+        "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9",
+        "https://www.expresswayproperties.com/puri-diplomatic-residences/"
+      ],
+      "note": "No source found supporting December 2027; sources place possession 1-2 years later. HARERA completion date not directly confirmed."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹4 Crores Onwards",
+      "web": "₹3.95 Cr - ₹4.18 Cr for 2,282 sq ft; 360 Realtors ₹4.18 Cr - ₹6.95 Cr; Housivity ₹4.10 Cr - ₹7 Cr",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.360realtors.com/puri-construction-diplomatic-residences-sector-111-gurgaon-uid-6888",
+        "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9"
+      ],
+      "note": ""
+    },
+    {
+      "field": "configurations",
+      "ours": "2nd Floor — 2282 Sq.ft — Price on Request | 3rd Floor — 2440 Sq.ft — Price on Request | 4th Floor — 3475 Sq.ft — Price on Request",
+      "web": "3 BHK + 3T 2,282 sq ft; 3.5 BHK 2,380 sq ft; 3 BHK + 3T 2,440 sq ft; 4 BHK + 4T + S 3,475 sq ft",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.360realtors.com/puri-construction-diplomatic-residences-sector-111-gurgaon-uid-6888"
+      ],
+      "note": "Sizes match, but our labels ('2nd/3rd/4th Floor') are wrong; they should be 3 BHK / 3 BHK / 4 BHK. A 2,380 sq ft 3.5 BHK variant is missing."
+    },
+    {
+      "field": "landArea",
+      "ours": "9 Acres",
+      "web": "9.07 acres",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 6; units: 324; floors: —",
+      "web": "6 towers, G+31/G+32 floors, 324 units (Housivity, 360 Realtors); one source says 5 towers / 640 units",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9",
+        "https://www.360realtors.com/puri-construction-diplomatic-residences-sector-111-gurgaon-uid-6888"
+      ],
+      "note": "An outlier source cites 5 towers / 640 units."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

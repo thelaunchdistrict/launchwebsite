@@ -1,0 +1,127 @@
+{
+  "slug": "dlf-privana-west-sector-76-gurgaon",
+  "name": "DLF Privana West",
+  "overall": "major-discrepancies",
+  "summary": "Existence, DLF as developer, the Sector 76 / SPR location, the 12.57-acre land area, 5 towers, the 3,577 sq ft 4 BHK size and a ~₹7.2–7.8 Cr entry price are confirmed. Our unit count (164) is wrong: DLF and HARERA-derived sources give ~795 units. We also publish the HARERA project ID RERA-GRG-1540-2024 instead of the registration certificate number RC/REP/HARERA/GGM/819/551/2024/46. Possession is not published (DLF marketing says December 2028; the RERA completion date is reported as 31 Dec 2031).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "DLF Privana West",
+      "web": "DLF Privana West, luxury residential project by DLF, Sector 76-77 Gurugram; sold out",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanawest/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "DLF (listed as \"DLF Privana West\")",
+      "web": "DLF",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanawest/"
+      ],
+      "note": "Developer label repeats the project name; cosmetic."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 76, Southern Peripheral Road, Sector 76, Gurugram, Haryana",
+      "web": "Sector 76 & 77, Gurugram, near Southern Peripheral Road",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanawest/",
+        "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RERA-GRG-1540-2024",
+      "web": "Registration certificate RC/REP/HARERA/GGM/819/551/2024/46 dated 18.04.2024; HARERA project/application ID RERA-GRG-1540-2024",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanawest/",
+        "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617"
+      ],
+      "note": "Our value is the HARERA project/application ID (reratracker), not the registration certificate number that DLF publishes. We should show RC/REP/HARERA/GGM/819/551/2024/46."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under construction; structural milestones progressing; sold out",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanawest/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "December 2028 (DLF website); RERA completion date 31 December 2031 (reratracker)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanawest/",
+        "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617"
+      ],
+      "note": "We publish no date. DLF's marketed date (Dec 2028) and the RERA-filed completion date (Dec 2031) differ."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹7.51 Crore Onwards",
+      "web": "~₹7.15 Cr entry base price (reratracker); ₹7.25 Cr for 3,577 sq ft / ₹7.80 Cr starting (broker pages); ~₹19,000–20,000/sq ft",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617",
+        "https://wealthwayluxury.com/dlf-privana-west/"
+      ],
+      "note": "Within ±15% of all quoted figures. Project is sold out, so this is effectively resale/launch pricing."
+    },
+    {
+      "field": "configurations",
+      "ours": "4 BHK — 3,577 sq ft — Price on Request | 4 BHK — 5,472 sq ft — Price on Request",
+      "web": "4 BHK from 3,577 sq ft (super area; ~2,136 sq ft carpet); penthouses 5,472 sq ft",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617",
+        "https://wealthwayluxury.com/dlf-privana-west/"
+      ],
+      "note": "Sizes match, but the 5,472 sq ft unit is a penthouse per broker pages, not a regular 4 BHK as we label it."
+    },
+    {
+      "field": "landArea",
+      "ours": "12.6 Acres",
+      "web": "5.088 hectares (12.572 acres)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanawest/",
+        "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 5; units: 164; floors: —",
+      "web": "5 towers (G+38 per DLF; 41 floors per reratracker); approximately 795 units",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanawest/",
+        "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617"
+      ],
+      "note": "The tower count matches, but our 164 units is far below the ~795 units stated by DLF and the RERA-derived data. 164 looks like a typo or a partial figure."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:36:45Z",
+  "method": "subagent:web-research"
+}

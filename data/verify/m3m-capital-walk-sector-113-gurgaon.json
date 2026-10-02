@@ -1,0 +1,137 @@
+{
+  "slug": "m3m-capital-walk-sector-113-gurgaon",
+  "name": "M3M Capital Walk",
+  "overall": "minor-discrepancies",
+  "summary": "The project, developer (M3M India), Sector 113 Dwarka Expressway location, commercial type, under-construction status and four retail levels are confirmed. Our RERA number is the correct Phase-1 registration, but Phase 2 has its own number (GGM/612/344/2022/87), which most portals cite. Land area (18.95 vs 12 / 7.71 / 2 acres) and starting price (₹53 L-₹1.25 Cr, one at ₹6.54 Cr) vary widely between sources. We publish no possession date, though sources give Dec 2025-2028.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "M3M Capital Walk",
+      "web": "M3M Capital Walk, high-street retail project, Sector 113, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.m3mindian.com/m3m-capital-walk/",
+        "https://megarealtymax.com/sco-property/m3m-capital-walk-sector-113-gurgaon"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "M3M India (listed as \"M3M CapitalWalk\")",
+      "web": "M3M India",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://megarealtymax.com/sco-property/m3m-capital-walk-sector-113-gurgaon",
+        "https://www.propzilla.in/property/m3m-capital-walk-sector-113-gurgaon"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 113, Dwarka Expressway, Sector 113, Gurugram, Haryana",
+      "web": "Sector 113, Dwarka Expressway, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.m3mindian.com/m3m-capital-walk/",
+        "https://riseinfraventures.com/property-detail/m3m-capital-walk"
+      ],
+      "note": "Our location string repeats 'Sector 113' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/605/337/2022/80",
+      "web": "Phase-1: HARERA/GGM/605/337/2022/80; Phase-2: RC/REP/HARERA/GGM/612/344/2022/87 (dated 28.09.2022)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.m3mindian.com/m3m-capital-walk/",
+        "https://megarealtymax.com/sco-property/m3m-capital-walk-sector-113-gurgaon",
+        "https://realtyassistant.in/property/m3m-capital-walk-sector-113-gurgaon"
+      ],
+      "note": "Our number is correct for Phase 1 only. Most portals cite the Phase-2 number, which we don't publish."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://megarealtymax.com/sco-property/m3m-capital-walk-sector-113-gurgaon",
+        "https://riseinfraventures.com/property-detail/m3m-capital-walk"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "Dec 2025 (Propzilla); 30 March 2026 (m3mindian); Dec 2026 (RealtyAssistant, citing RERA); ~2028 (megarealtymax, riseinfraventures)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.m3mindian.com/m3m-capital-walk/",
+        "https://www.propzilla.in/property/m3m-capital-walk-sector-113-gurgaon",
+        "https://realtyassistant.in/property/m3m-capital-walk-sector-113-gurgaon",
+        "https://megarealtymax.com/sco-property/m3m-capital-walk-sector-113-gurgaon"
+      ],
+      "note": "We publish no possession date. Sources give conflicting dates from Dec 2025 to 2028, with no consensus."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹1 Crore Onwards",
+      "web": "₹75 Lakh onwards (Propzilla); ₹1.20 Cr (m3mindian); ₹1.25 Cr (other listing); ₹53.34 L for 373 sq ft (cityspaceindia); ₹2.5 Cr (megarealtymax); ₹6.54 Cr (RealtyAssistant listing)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.propzilla.in/property/m3m-capital-walk-sector-113-gurgaon",
+        "https://www.m3mindian.com/m3m-capital-walk/",
+        "https://www.cityspaceindia.com/j/M3M-CAPITAL-WALK-113-Gurugram-(373-SqFt-to-373-SqFt)----5334-Lac-onwards/GPROJ171222-144153-1436",
+        "https://megarealtymax.com/sco-property/m3m-capital-walk-sector-113-gurgaon"
+      ],
+      "note": "Sources disagree widely and none states ₹1 Cr. The closest figures (₹75 L, ₹1.20 Cr) are each 20-25% away. Our value sits inside the range of sources but has no exact support."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "Retail shops, food court, anchor units, entertainment zone, office space; sizes ~200/373 to 1,500/3,201 sq ft (sources vary)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": [
+        "https://megarealtymax.com/sco-property/m3m-capital-walk-sector-113-gurgaon",
+        "https://www.cityspaceindia.com/j/M3M-CAPITAL-WALK-113-Gurugram-(373-SqFt-to-373-SqFt)----5334-Lac-onwards/GPROJ171222-144153-1436"
+      ],
+      "note": "We publish no unit types, so there was nothing to verify. The web data is listed for reference."
+    },
+    {
+      "field": "landArea",
+      "ours": "18.95 Acres",
+      "web": "18.95 acres / 876 units (portal search summary); 12 acres (ananthamgroup); 7.71 acres (m3mindian, riseinfraventures); 2 acres (Propzilla)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://m3mdevelopments.com/m3m-capital-walk-sector-113-gurugram",
+        "https://www.ananthamgroup.com/m3m-capital.html",
+        "https://www.m3mindian.com/m3m-capital-walk/",
+        "https://riseinfraventures.com/property-detail/m3m-capital-walk"
+      ],
+      "note": "Sources conflict. Search summaries support 18.95 acres, but I couldn't open that page (m3mdevelopments.com returned 404), and several sites give 7.71 acres. The 18.95 figure may cover a larger M3M Capital land parcel than Capital Walk alone."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: —; units: —; floors: 4",
+      "web": "Four retail levels (Lower Ground, Ground, 1st, 2nd); ~876 units per one summary",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://riseinfraventures.com/property-detail/m3m-capital-walk",
+        "https://www.m3mindian.com/m3m-capital-walk/"
+      ],
+      "note": "Floors (4 levels) match. We don't publish a unit count."
+    }
+  ],
+  "checkedAt": "2026-10-02T00:00:00Z",
+  "method": "subagent:web-research"
+}

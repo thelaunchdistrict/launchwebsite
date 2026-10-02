@@ -1,0 +1,133 @@
+{
+  "slug": "puri-the-aravallis-sector-61-gurgaon",
+  "name": "Puri The Aravallis",
+  "overall": "major-discrepancies",
+  "summary": "Project, developer (Puri Constructions), Sector 61 GCER location, RERA GGM/592/324/2022/67, under-construction status and the 2,250 / 2,750 sq ft 3 and 4 BHK units are confirmed; the starting price is within range of some quotes. Major issue: Square Yards, PropertyPistol and official application material give possession June 2029, against our December 2026; some broker sites cite August 2026 'as per HRERA', so sources conflict. Tower and unit counts also differ: sources say 2 towers with 324 (or 640) units, not 4 towers with 320 units.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Puri The Aravallis",
+      "web": "Puri The Aravallis, Sector 61, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project",
+        "https://www.propertypistol.com/projects/puri-the-aravallis-sector-61-pid-13877"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Puri Constructions (listed as \"Puri The Aravallis\")",
+      "web": "Puri Constructions",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project",
+        "https://www.propertypistol.com/projects/puri-the-aravallis-sector-61-pid-13877"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Golf Course Extension Road, Sector 61, Sector 61, Gurugram, Haryana",
+      "web": "Sector 61, Golf Course Extension Road, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.propertypistol.com/projects/puri-the-aravallis-sector-61-pid-13877"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/592/324/2022/67",
+      "web": "RC/REP/HARERA/GGM/592/324/2022/67 dated 18.07.2022",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.propertypistol.com/projects/puri-the-aravallis-sector-61-pid-13877",
+        "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2026-12 (from: \"possession date is December 2026\")",
+      "web": "June 2029 (Square Yards, PropertyPistol; Phase-I completion on or before 30 June 2029 per official application material); August 2026 'as per HRERA document' (luxuryresidences.in); December 2028 on one other site",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project",
+        "https://www.propertypistol.com/projects/puri-the-aravallis-sector-61-pid-13877",
+        "https://www.propsaltlandbase.com/property/puri-the-aravallis-sector-61-gurgaon/",
+        "https://www.luxuryresidences.in/puri-aravallis-sector-61-gurgaon/"
+      ],
+      "note": "Sources conflict. The leading portals say June 2029, about 2.5 years after our date. Our Dec 2026 is close only to the older August 2026 HRERA date, which may since have been extended. Check the current HARERA completion date."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹4.25 Crore Onwards",
+      "web": "₹4.30 Cr onwards (luxuryresidences.in); ₹4.53 Cr (propsaltlandbase); ₹4.76 Cr (PropertyPistol); ₹4.90 Cr - ₹5.99 Cr (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.luxuryresidences.in/puri-aravallis-sector-61-gurgaon/",
+        "https://www.propsaltlandbase.com/property/puri-the-aravallis-sector-61-gurgaon/",
+        "https://www.propertypistol.com/projects/puri-the-aravallis-sector-61-pid-13877",
+        "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project"
+      ],
+      "note": "Within 15% of most quotes; Square Yards' ₹4.90 Cr is ~15.3% higher, so our figure is at the low end and possibly stale."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK + SQ — 2,250 sq ft — Price on Request | 4 BHK + SQ — 2,750 sq ft — Price on Request",
+      "web": "3 BHK 2,250 sq ft, 4 BHK 2,750 sq ft (Square Yards); 3 BHK + S / 4 BHK + S from 2,250 sq ft; carpet 1,568-1,959 sq ft (PropertyPistol)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project",
+        "https://www.luxuryresidences.in/puri-aravallis-sector-61-gurgaon/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "landArea",
+      "ours": "10.4 Acres",
+      "web": "10 acres (Square Yards, propsaltlandbase, luxuryresidences.in); 10.4 acres on some broker sites",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project",
+        "https://www.propsaltlandbase.com/property/puri-the-aravallis-sector-61-gurgaon/"
+      ],
+      "note": "Most sources say 10 acres; small difference."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 4; units: 320; floors: —",
+      "web": "2 towers (Tower A and B), G+40 to G+42 floors; 324 units (Square Yards, propsaltlandbase) or 640 units (luxuryresidences.in)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project",
+        "https://www.propsaltlandbase.com/property/puri-the-aravallis-sector-61-gurgaon/",
+        "https://www.luxuryresidences.in/puri-aravallis-sector-61-gurgaon/"
+      ],
+      "note": "No source supports 4 towers; units are 324 (or 640 across the full project), not 320. Our figure may combine phases incorrectly."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

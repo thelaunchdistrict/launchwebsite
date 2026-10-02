@@ -1,0 +1,100 @@
+{
+  "slug": "m3m-jewel-sector-25-gurgaon",
+  "name": "M3M Jewel",
+  "overall": "major-discrepancies",
+  "summary": "The commercial project, M3M as developer, Sector 25, the RERA number RC/REP/HARERA/GGM/635/367/2022/110 and the 1.3-acre land area are confirmed. Our ₹4.5 Cr starting price is far above every listing found (₹1.25–2.5 Cr). We place the project on Golf Course Extension Road, but every source puts it on MG Road. Sources also disagree on the floor count, the construction status (ready vs under construction) and a second RERA number (GGM/722/454/2023/66).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "M3M Jewel",
+      "web": "M3M Jewel, commercial project on MG Road, Sector 25, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project", "https://www.99acres.com/m3m-jewel-resale-in-sector-25-gurgaon-1095153-cffid"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "M3M India (listed as \"M3M Jewel\")",
+      "web": "M3M India",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.propzilla.in/property/m3m-jewel-sector-25-gurgaon"],
+      "note": "Our 'listed as' developer name is the project name, which is cosmetic."
+    },
+    {
+      "field": "location",
+      "ours": "Golf Course Extension Road, Sector 25, Sector 25, Gurugram, Haryana",
+      "web": "MG Road, Sector 25 (DLF Phase 2), Gurgaon, next to MG Road Metro Station",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project", "https://realtyassistant.in/property/m3m-jewel-sector-25-mg-road-gurgaon"],
+      "note": "Sector 25 is correct, but the project is on MG Road, not Golf Course Extension Road."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/635/367/2022/110",
+      "web": "RC/REP/HARERA/GGM/635/367/2022/110 dated 28.11.2022 (RealtyAssistant); GGM/722/454/2023/66 (Square Yards, Propzilla, and RealtyAssistant as an alternate reference)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://realtyassistant.in/property/m3m-jewel-sector-25-mg-road-gurgaon", "https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project", "https://www.propzilla.in/property/m3m-jewel-sector-25-gurgaon"],
+      "note": "Our number is confirmed. Some portals cite a second number (GGM/722/454/2023/66), which may be a second registration or phase. We could not check either on the HARERA portal."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction (Square Yards); Ready to Move (Propzilla, RealtyAssistant)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project", "https://www.propzilla.in/property/m3m-jewel-sector-25-gurgaon", "https://realtyassistant.in/property/m3m-jewel-sector-25-mg-road-gurgaon"],
+      "note": "The sources disagree, and two of them say the project is ready to move."
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "March 2027 (Square Yards); March 2026 (RealtyAssistant); March 2025 (Propzilla)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project", "https://realtyassistant.in/property/m3m-jewel-sector-25-mg-road-gurgaon", "https://www.propzilla.in/property/m3m-jewel-sector-25-gurgaon"],
+      "note": "We publish no possession date. The sources disagree with each other."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹4.5 Crores Onwards",
+      "web": "₹1.80–9.00 Cr (Square Yards); ₹2.00 Cr onwards (RealtyAssistant); ₹2.50 Cr onwards (Propzilla); ₹1.25 Cr onwards (search snippet)",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project", "https://realtyassistant.in/property/m3m-jewel-sector-25-mg-road-gurgaon", "https://www.propzilla.in/property/m3m-jewel-sector-25-gurgaon"],
+      "note": "Our starting price is roughly 2 to 2.5 times what independent listings give."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "Retail shops, food court, office space and multiplex; shops of 300–1,500 sq ft (Square Yards) or 300–1,250 sq ft super area (RealtyAssistant)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project", "https://realtyassistant.in/property/m3m-jewel-sector-25-mg-road-gurgaon"],
+      "note": "We publish no configurations."
+    },
+    {
+      "field": "landArea",
+      "ours": "1.3 Acres",
+      "web": "1.32 acres (Square Yards, Propzilla); 1.3207 acres (RealtyAssistant)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project", "https://realtyassistant.in/property/m3m-jewel-sector-25-mg-road-gurgaon"],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: —; units: —; floors: 6",
+      "web": "4 floors, 1 tower, 200 units (Propzilla); 2 blocks, 7 floors, 200 units (search snippet)",
+      "verdict": "mismatch",
+      "severity": "low",
+      "sources": ["https://www.propzilla.in/property/m3m-jewel-sector-25-gurgaon"],
+      "note": "No source states 6 floors, and the sources disagree with each other (4 vs 7 floors)."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

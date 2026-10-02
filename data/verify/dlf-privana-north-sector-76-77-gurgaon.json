@@ -1,0 +1,124 @@
+{
+  "slug": "dlf-privana-north-sector-76-77-gurgaon",
+  "name": "DLF Privana North",
+  "overall": "consistent",
+  "summary": "Existence, DLF as developer, Sector 76 & 77 location, HARERA number RC/REP/HARERA/GGM/954/686/2025/57 (dated 05.06.2025), 17.7 acres, 6 towers, 1,164 units (1,152 4 BHK + 12 penthouses), unit sizes and the ~₹9.3 Cr starting ticket are all confirmed. We do not publish possession (brokers cite ~July 2029), and the project is reported fully sold out since its June 2025 launch.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "DLF Privana North",
+      "web": "DLF Privana North, launched June 2025, sold out within a week",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privananorth/",
+        "https://www.business-standard.com/companies/news/dlf-sells-1164-units-worth-rs-11000-cr-in-privana-north-project-125061800306_1.html"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "DLF (listed as \"DLF Privana North\")",
+      "web": "DLF Limited",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privananorth/"
+      ],
+      "note": "Developer label in our data repeats the project name; cosmetic."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 76 & 77, Sector 76, Gurugram, Haryana",
+      "web": "Sector 76 & 77, Gurugram, Haryana 122004 (near Southern Peripheral Road)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privananorth/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/954/686/2025/57",
+      "web": "RC/REP/HARERA/GGM/954/686/2025/57 dated 05.06.2025",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privananorth/",
+        "https://www.triversehomes.com/dlf-privana-north-sector-76-gurgaon/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under construction ('active construction zone'); sold out",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privananorth/"
+      ],
+      "note": "DLF states the project is sold out; only resale available."
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "Expected possession around July 2029 (broker pages)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.triversehomes.com/dlf-privana-north-sector-76-gurgaon/"
+      ],
+      "note": "We publish no date; DLF's site does not state one either. Broker figure not confirmed by HARERA."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹9.35 Crore Onwards",
+      "web": "4 BHK from ₹9.25 Cr (broker); average ticket ~₹9.5 Cr, launch ~₹23,500/sq ft (news)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.triversehomes.com/dlf-privana-north-sector-76-gurgaon/",
+        "https://www.business-standard.com/companies/news/dlf-sells-1164-units-worth-rs-11000-cr-in-privana-north-project-125061800306_1.html"
+      ],
+      "note": "Within ±15%. Project sold out at launch; current pricing is resale only."
+    },
+    {
+      "field": "configurations",
+      "ours": "4 BHK — 3,977 sq ft — Price on Request | 5 BHK Penthouse — 7,714 sq ft — Price on Request",
+      "web": "4 BHK 3,977 sq ft; 5 BHK penthouses 7,714 sq ft",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.triversehomes.com/dlf-privana-north-sector-76-gurgaon/"
+      ],
+      "note": "Sizes are from broker pages; DLF's site does not list sizes."
+    },
+    {
+      "field": "landArea",
+      "ours": "17.7 Acres",
+      "web": "7.163 hectares (17.701 acres)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privananorth/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 6; units: 1164; floors: —",
+      "web": "6 towers up to 50 storeys; 1,164 units (1,152 4 BHK + 12 penthouses)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.business-standard.com/companies/news/dlf-sells-1164-units-worth-rs-11000-cr-in-privana-north-project-125061800306_1.html",
+        "https://www.deccanherald.com/business/dlf-sells-1164-luxury-homes-in-gurugram-for-rs-11000-crore-on-strong-demand-3591219"
+      ],
+      "note": "One broker page says 1,162 units, but news coverage quoting DLF says 1,164."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:36:45Z",
+  "method": "subagent:web-research"
+}

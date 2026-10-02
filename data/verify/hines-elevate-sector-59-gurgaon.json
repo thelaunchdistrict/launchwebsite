@@ -1,0 +1,129 @@
+{
+  "slug": "hines-elevate-sector-59-gurgaon",
+  "name": "Hines Elevate",
+  "overall": "major-discrepancies",
+  "summary": "The project (marketed as Conscient Hines Elevate / Elevate by Hines), Sector 59 Golf Course Extension Road location, 7.78 acres, 5 towers, 556 units and ~₹5 Cr starting price are confirmed. Our RERA number (RC/HARERA/GGM/2019/10) does not match the registrations sources cite (GGM/325/57/2019/19 and GGM/459/191/2021/27). The developer is a Conscient Infrastructure–Hines joint development, not Hines alone. Status and possession are phase-dependent: Phase 1 was ready around Dec 2024–Jan 2025 and the remaining phase is cited for Jan 2026. The largest 4 BHK is 3,395 sq ft, not 3,300.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Hines Elevate",
+      "web": "Conscient Hines Elevate / Conscient Elevate by Hines, Sector 59, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+        "https://www.nobroker.in/conscient-hines-elevate-sector-59_gurgaon-prjt-8a9fa1827bd599b6017bd624c68a2090"
+      ],
+      "note": "The project exists; portals usually prefix the name with 'Conscient'."
+    },
+    {
+      "field": "developer",
+      "ours": "Hines (listed as \"Hines Elevate\")",
+      "web": "Conscient Infrastructure Pvt. Ltd. in partnership with Hines",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+        "https://www.realestateindia.com/projects/conscient-hines-elevate-in-sector-59-gurgaon-pjid-43490/"
+      ],
+      "note": "Sources list Conscient as the developer/promoter, with Hines as partner. Naming only Hines leaves out the primary developer."
+    },
+    {
+      "field": "location",
+      "ours": "Golf Course Extension Road, Sector 59, Sector 59, Gurugram, Haryana",
+      "web": "Sector 59, Golf Course Extension Road, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project"
+      ],
+      "note": "Our location string repeats 'Sector 59' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/HARERA/GGM/2019/10",
+      "web": "GGM/325/57/2019/19 (dated 01.04.2019) and GGM/459/191/2021/27",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+        "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/"
+      ],
+      "note": "Our number is not in the standard HARERA format, and its serial (2019/10) differs from the registrations sources cite (2019/19 and 2021/27)."
+    },
+    {
+      "field": "status",
+      "ours": "ready (source: READY)",
+      "web": "Ready to move (Square Yards); other sources: one phase ready since Dec 2024, remaining phase due Jan 2026; towers D and E listed as future development",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+        "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/"
+      ],
+      "note": "Phase 1 (towers A-C) is ready. Square Yards lists towers D and E as future development, so the whole project is not ready."
+    },
+    {
+      "field": "possession",
+      "ours": "2025-12 (from: \"possession expected by December 2025\")",
+      "web": "January 2025 (Square Yards, phase 1); phase 1 ready Dec 2024, remaining phase Jan 2026 (other listings)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+        "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/"
+      ],
+      "note": "Dates differ by phase. Ours (Dec 2025) is within about a year of both phase dates but matches neither. Also, 'expected' possession conflicts with our 'ready' status."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹5 Crore Onwards",
+      "web": "₹5.25 Cr - ₹9.00 Cr (Square Yards); from ₹5.03 Cr (other listing)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+        "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/"
+      ],
+      "note": "Within ±15%."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK + SQ — 2,095 sq ft — Price on Request | 3 BHK + SQ — 2,295 sq ft — Price on Request | 3 BHK + SQ — 2,595 sq ft — Price on Request | 4 BHK + SQ — 3,300 sq ft — Price on Request",
+      "web": "3 BHK: 2,095-2,595 sq ft; 4 BHK: 3,395 sq ft",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+        "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/"
+      ],
+      "note": "3 BHK sizes match. Sources give the 4 BHK as 3,395 sq ft, not 3,300. The 2,295 sq ft size wasn't confirmed separately but falls inside the stated 3 BHK range."
+    },
+    {
+      "field": "landArea",
+      "ours": "7.78 Acres",
+      "web": "7.78 acres",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+        "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 5; units: 556; floors: —",
+      "web": "5 towers, up to 33 floors, 556 units (most listings); Square Yards: 654 units, 3 towers completed + 2 future",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/",
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project"
+      ],
+      "note": "Most sources agree on 5 towers and 556 units, but Square Yards says 654 units. Floors (33) are available but we don't publish them."
+    }
+  ],
+  "checkedAt": "2026-10-02T00:00:00Z",
+  "method": "subagent:web-research"
+}

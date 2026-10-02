@@ -1,0 +1,130 @@
+{
+  "slug": "4s-the-aurrum-sector-59-gurgaon",
+  "name": "4S The Aurrum",
+  "overall": "minor-discrepancies",
+  "summary": "The project exists. Its developer (4S Developers), its location (Sector 59, Golf Course Extension Road), its RERA number (GGM/849/581/2024/76) and its under-construction status are confirmed, and the ₹5 Cr starting price is within range. Our configuration list mislabels units: sources give 3 BHK at 2,407-2,624 sq ft and 4 BHK at 3,257-3,562 sq ft, but we list a 4 BHK at 2,407/2,624 and a 3 BHK at 3,562, and we omit the 3,257 size. Land area and unit count disagree sharply between sources (5.43 ac/243 units vs 10.07-11 ac/550 units), and no source we could read gave a RERA possession date.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "4S The Aurrum",
+      "web": "4S The Aurrum, Sector 59, Gurgaon, listed on Square Yards, 99acres and several broker sites",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project",
+        "https://www.99acres.com/4s-the-aurrum-sector-59-gurgaon-npxid-r431059"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "4S Developers",
+      "web": "4S Developers",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project",
+        "https://thewhitelistedestates.in/4s-the-aurrum-sector-59-gurgaon/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 59, Golf Course Extension Road, Sector 59, Gurugram, Haryana",
+      "web": "Sector 59, Gurgaon, Golf Course Extension Road",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/849/581/2024/76",
+      "web": "GGM/849/581/2024/76 (registration 76 of 2024)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project",
+        "https://affordablehomegurgaon.com/property/4s-the-aurrum"
+      ],
+      "note": "Whitelisted Estates also cites 'HRERA No.-2985-2024', which looks like an application or reference number rather than the registration number. We did not check the HARERA portal directly."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project"
+      ],
+      "note": "Some broker sites still describe it as a new launch with bookings open."
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "Square Yards: N/A; one aggregator search result: October 2029",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project",
+        "https://affordablehomegurgaon.com/property/4s-the-aurrum"
+      ],
+      "note": "No authoritative RERA completion date found. The October 2029 figure came from a single broker-site search snippet."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹5 Crores Onwards",
+      "web": "₹5.42 Cr - ₹8.01 Cr (Square Yards, ~₹22,500/sq ft); ₹5.05 Cr onwards (broker site); ₹5 Cr onwards (Whitelisted Estates)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project",
+        "https://thewhitelistedestates.in/4s-the-aurrum-sector-59-gurgaon/"
+      ],
+      "note": "Within ±15%."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK Small — 2,407 sq ft — Price on Request | 3 BHK Large — 3,562 sq ft — Price on Request | 4 BHK Small — 2,407 sq ft — Price on Request | 4 BHK Large — 2,624 sq ft — Price on Request",
+      "web": "3 BHK: 2,407 and 2,624 sq ft; 4 BHK: 3,257 and 3,562 sq ft (super area); penthouses also mentioned",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project",
+        "https://thewhitelistedestates.in/4s-the-aurrum-sector-59-gurgaon/"
+      ],
+      "note": "The sizes are attached to the wrong BHK types. 2,624 belongs to the 3 BHK Large, 3,562 to the 4 BHK Large, and the 3,257 sq ft 4 BHK is missing. 2,407 is repeated under 4 BHK."
+    },
+    {
+      "field": "landArea",
+      "ours": "5.43 Acres",
+      "web": "5.43 acres (99acres snippet); 10.07 acres (Whitelisted Estates and others); 11 acres (Square Yards); ~10 acres (aggregator)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.99acres.com/4s-the-aurrum-sector-59-gurgaon-npxid-r431059",
+        "https://thewhitelistedestates.in/4s-the-aurrum-sector-59-gurgaon/",
+        "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project"
+      ],
+      "note": "Sources disagree. 5.43 acres may be the RERA-registered phase and ~10 acres the whole site. This needs checking on HARERA."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 6; units: 243; floors: —",
+      "web": "6 towers (Whitelisted Estates, aggregators); 243 units (99acres snippet); 550 units and 'four residential clusters' (Square Yards)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://thewhitelistedestates.in/4s-the-aurrum-sector-59-gurgaon/",
+        "https://www.99acres.com/4s-the-aurrum-sector-59-gurgaon-npxid-r431059",
+        "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project"
+      ],
+      "note": "Our 6 towers and 243 units have support, but Square Yards gives 550 units. 99acres could not be fetched directly (HTTP 403), so the 243-unit figure comes from a search snippet."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

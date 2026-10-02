@@ -1,0 +1,100 @@
+{
+  "slug": "elan-imperial-sector-82-gurgaon",
+  "name": "Elan Imperial",
+  "overall": "minor-discrepancies",
+  "summary": "Existence, developer, Sector 82 location, RERA RC/REP/HARERA/GGM/788/520/2024/15, under-construction status, land area (7.6-7.65 acres) and 1,305 units are confirmed. Sources disagree on the starting price: ₹1.3 Cr (marketing partner) is close to our ₹1.43 Cr, while Square Yards says ₹1.89 Cr. Only the first-floor rate (₹29,750/sq ft) in our floor-wise price list could be confirmed. We publish no possession date, while portals give 2027 or December 2028.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Elan Imperial",
+      "web": "Elan Imperial, luxury retail/hospitality mall project in Sector 82, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project", "https://www.elan.co.in/elan-imperial-sector-82-gurgaon/"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Elan Group (listed as \"Elan Group (Elan Limited)\")",
+      "web": "Elan Group",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project"],
+      "note": "We could not confirm the legal promoter entity 'Elan Limited'."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 82, Sector 82, Gurugram, Haryana",
+      "web": "Sector 82, (New) Gurgaon, near NH-8 / Dwarka Expressway",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project"],
+      "note": "Our location string repeats 'Sector 82' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/788/520/2024/15",
+      "web": "RC/REP/HARERA/GGM/788/520/2024/15",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.elan.co.in/elan-imperial-sector-82-gurgaon/", "https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project"],
+      "note": "Some low-quality broker pages give unrelated numbers (HRERA-PKL-REA-1525-2023; '282 of 2018'). These look wrong and were ignored."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "December 2028 (Square Yards); expected completion 2027 (marketing partner site)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project", "https://www.elan.co.in/elan-imperial-sector-82-gurgaon/"],
+      "note": "We publish no date, so there is nothing to compare. Public sources disagree (2027 vs Dec 2028)."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹1.43 Crores Onwards",
+      "web": "₹1.3 Cr onwards (marketing partner site); ₹1.89 Cr for 636 sq ft shop (Square Yards)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.elan.co.in/elan-imperial-sector-82-gurgaon/", "https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project"],
+      "note": "₹1.3 Cr is within 15% of ours, but Square Yards' ₹1.89 Cr is about 32% higher. Sources disagree."
+    },
+    {
+      "field": "configurations",
+      "ours": "LGF / GF — Per sq.ft. — ₹45,750 / sq.ft. | 4th Floor (FEC) — Per sq.ft. — ₹24,750 / sq.ft. | Premium Retail — Per sq.ft. — ₹24,750 / sq.ft. | Second Floor — Per sq.ft. — ₹23,750 / sq.ft. | 4th Floor (Restaurant) — Per sq.ft. — ₹24,750 / sq.ft. | Third Floor (Food Court) — Per sq.ft. — ₹26,750 / sq.ft. | First Floor — Per sq.ft. — ₹29,750 / sq.ft.",
+      "web": "₹29,750 per sq ft; retail shops 636-870 sq ft (Square Yards)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project"],
+      "note": "Square Yards' ₹29,750/sq ft matches our First Floor rate. No independent source for the other floor rates was found."
+    },
+    {
+      "field": "landArea",
+      "ours": "7.64 Acres",
+      "web": "7.65 acres (Square Yards); 7.6 acres (marketing partner); one search snippet says 12.1 acres",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project", "https://www.elan.co.in/elan-imperial-sector-82-gurgaon/"],
+      "note": "Most sources agree on about 7.64-7.65 acres. A 12.1-acre figure appears in one snippet."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: —; units: 1305; floors: 7",
+      "web": "1,305 units (Square Yards); 7 floors, ground to 5th plus LGF (marketing partner site)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project", "https://www.elan.co.in/elan-imperial-sector-82-gurgaon/"],
+      "note": "One blog says '5 levels'."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

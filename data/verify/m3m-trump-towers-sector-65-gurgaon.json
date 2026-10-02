@@ -1,0 +1,133 @@
+{
+  "slug": "m3m-trump-towers-sector-65-gurgaon",
+  "name": "M3M Trump Towers",
+  "overall": "minor-discrepancies",
+  "summary": "Project, Sector 65 GCER location, RERA 375 of 2017, ready-to-move status, 2 towers / 258 units, 2.58 acres and the 3,525/4,550/6,050 sq ft sizes are confirmed. Main issues: the project is marketed as Trump Towers Delhi NCR by Tribeca Developers with M3M India as development partner (not M3M alone), the starting price of Rs 11 Cr is below current portal quotes (Rs 12.34 Cr to Rs 14 Cr), and we publish no possession date although sources give HRERA completion Dec 2024 / possession June 2025.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "M3M Trump Towers",
+      "web": "Trump Towers Delhi NCR / Tribeca Trump Towers / M3M Trump Towers, Sector 65 Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.m3mproperties.com/residential/gurugram/m3m-trump-towers-sector-65/",
+        "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9"
+      ],
+      "note": "Exists; the official/HARERA-style name is 'Trump Towers Delhi NCR', portals also use 'Tribeca Trump Towers'."
+    },
+    {
+      "field": "developer",
+      "ours": "M3M India (listed as \"M3M Trump Towers\")",
+      "web": "Tribeca Developers (Trump brand licensee) in collaboration with M3M India; NoBroker lists Tribeca Developers as developer",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9",
+        "https://www.m3mproperties.com/residential/gurugram/m3m-trump-towers-sector-65/",
+        "https://www.trueassetconsultancy.com/property/trump-tower-sector-65-gurgaon/"
+      ],
+      "note": "M3M India is a development partner, but Tribeca Developers is the co-developer/brand licensee; the 'listed as' value is just the project name, not a developer."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 65, Golf Course Extension Road, Gurgaon, Sector 65, Gurugram, Haryana",
+      "web": "Sector 65, Golf Course Extension Road, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.m3mproperties.com/residential/gurugram/m3m-trump-towers-sector-65/",
+        "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9"
+      ],
+      "note": "Location string has duplicated sector text (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "375 OF 2017",
+      "web": "375 of 2017 dated 28.11.2017",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9",
+        "https://www.bharathotelsinfra.com/projectdetails.php?projectname=trump-towers-delhi-ncr-gurgaon",
+        "https://www.m3mproperties.com/residential/gurugram/m3m-trump-towers-sector-65/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "ready (source: READY)",
+      "web": "Ready to Move (NoBroker); OC/handover reported in 2026; M3M partner page still says 'Under Development'",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9",
+        "https://luxurybrandedresidences.in/the-trump-era-of-real-estate-why-trump-towers-gurgaon-is-becoming-ultimate-prestige-investment/"
+      ],
+      "note": "The m3mproperties.com page appears stale ('Under Development')."
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "HRERA completion December 2024; NoBroker possession June 2025",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9",
+        "https://whitecollarrealty.com/blogs/frequently-asked-questions-about-trump-tower-sector-65-gurgaon"
+      ],
+      "note": "We omit a date that sources publish; not a contradiction."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹11 Crores Onwards",
+      "web": "₹12.34 Cr onwards (broker site); NoBroker ₹14 Cr - ₹18 Cr; m3mproperties.com lists stale prices from ₹4.85 Cr",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://luxurybrandedresidences.in/the-trump-era-of-real-estate-why-trump-towers-gurgaon-is-becoming-ultimate-prestige-investment/",
+        "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9",
+        "https://www.m3mproperties.com/residential/gurugram/m3m-trump-towers-sector-65/"
+      ],
+      "note": "Sources disagree: ₹12.34 Cr is within 15% of ours, NoBroker's ₹14 Cr is ~27% higher. Likely understated for the resale/ready market."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK — 3,525 sq ft — Price on Request | 4 BHK — 4,550 sq ft — Price on Request | 4 BHK — 6,050 sq ft — Price on Request",
+      "web": "Sizes 3,150 / 3,525 / 4,550 / 6,050 sq ft (m3mproperties.com); NoBroker: 3 BHK 3,631 sq ft super (2,287 carpet), 4 BHK 4,687 sq ft super (2,952 carpet)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.m3mproperties.com/residential/gurugram/m3m-trump-towers-sector-65/",
+        "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9"
+      ],
+      "note": "Sizes match the M3M partner page; NoBroker gives slightly different super areas. A 3,150 sq ft variant also appears on the M3M page."
+    },
+    {
+      "field": "landArea",
+      "ours": "2.58 Acres",
+      "web": "2.58 acres (several broker sites); NoBroker says 21.30 acres; m3mproperties.com says 60-acre development",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://whitecollarrealty.com/blogs/frequently-asked-questions-about-trump-tower-sector-65-gurgaon",
+        "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9"
+      ],
+      "note": "Sources disagree; larger figures likely refer to the surrounding township/licensed area."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 2; units: 258; floors: —",
+      "web": "2 towers, 47 floors each, 258 residences; NoBroker says 254 units",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://whitecollarrealty.com/blogs/frequently-asked-questions-about-trump-tower-sector-65-gurgaon",
+        "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9"
+      ],
+      "note": "NoBroker gives 254 units; floors (47) could be added."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "smartworld-one-dxp-sector-113-gurgaon",
+  "name": "Smartworld One DXP",
+  "overall": "minor-discrepancies",
+  "summary": "Project, developer, Sector 113 Dwarka Expressway location, 16 acres, starting price and 3.5/4.5 BHK sizes are broadly confirmed. Our RERA number is only one of several phase registrations (others: GGM/652/384/2022/127, GGM/842/574/2024/69); possession is reported variously as Dec 2027 (Square Yards) or RERA Dec 2029 (Housiey) vs our 2028, and unit/tower counts differ across sources.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Smartworld One DXP",
+      "web": "Smartworld One DXP, Sector 113, Dwarka Expressway, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+        "https://www.99acres.com/smartworld-one-dxp-sector-113-gurgaon-npxid-r400415"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Smartworld Developers (listed as \"Smartworld One DXP\")",
+      "web": "Smart World Developers",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Dwarka Expressway, Sector 113, Sector 113, Gurugram, Haryana",
+      "web": "Sector 113, Dwarka Expressway, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+        "https://www.sapientrealty.com/properties/smartworld-one-dxp-sector-113-gurgaon/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "HARERA/GGM/645/377/2022/120",
+      "web": "RC/REP/HARERA/GGM/645/377/2022/120 (phase 1, 13.12.2022); also GGM/652/384/2022/127 and GGM/842/574/2024/69 (phase 2)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+        "https://www.sapientrealty.com/properties/smartworld-one-dxp-sector-113-gurgaon/",
+        "https://housiey.com/projects/smart-world-one-dxp"
+      ],
+      "note": "Our number is correct for phase 1 only; the project has multiple registrations."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction (advanced stage)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+        "https://housiey.com/projects/smart-world-one-dxp"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2028 (from: \"possession expected in 2028\")",
+      "web": "Dec 2027 (Square Yards); RERA Dec 2029, target July 2027 (Housiey)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+        "https://housiey.com/projects/smart-world-one-dxp"
+      ],
+      "note": "Our 2028 sits between sources; phases likely have different dates."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹3.80 Crores Onwards",
+      "web": "3.5 BHK from Rs 3.74 Cr all-inclusive (Housiey); range Rs 2.80–6.20 Cr incl. 2 BHK (Square Yards); 3.5 BHK ~Rs 4.56 Cr (broker)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housiey.com/projects/smart-world-one-dxp",
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+        "https://whitecollarrealty.com/residential_property/smartworld-one-dxp"
+      ],
+      "note": "Within 2% of Housiey's 3.5 BHK starting price; brokers vary."
+    },
+    {
+      "field": "configurations",
+      "ours": "3.5 BHK+Utility — 2,450 sq ft — Price on Request | 3.5 BHK+Utility — 2,450 sq ft — Price on Request | 3.5 BHK+Utility — 2,465 sq ft — Price on Request | 3.5 BHK+Utility — 2,503 sq ft — Price on Request | 3.5 BHK+Utility — 2,533 sq ft — Price on Request | 3.5 BHK+Utility — 2,585 sq ft — Price on Request | 3.5 BHK+Utility — 2,585 sq ft — Price on Request | 3.5 BHK+Utility — 2,736 sq ft — Price on Request | 4.5 BHK+Utility — 3,006 sq ft — Price on Request | 4.5 BHK+Utility — 3,006 sq ft — Price on Request | 4.5 BHK+Utility — 3,016 sq ft — Price on Request | 4.5 BHK+Utility — 3,016 sq ft — Price on Request | 4.5 BHK+Utility — 3,055 sq ft — Price on Request | 4.5 BHK+Utility — 3,058 sq ft — Price on Request | 4.5 BHK+Utility — 3,069 sq ft — Price on Request | 4.5 BHK+Utility — 3,101 sq ft — Price on Request | 4.5 BHK+Utility — 3,108 sq ft — Price on Request | 4.5 BHK+Utility — 3,150 sq ft — Price on Request | 4.5 BHK+Utility — 3,154 sq ft — Price on Request | 4.5 BHK+Utility — 3,304 sq ft — Price on Request",
+      "web": "2/3/4 BHK, 600–3,055 sq ft (Square Yards, incl. retail); 3.5 BHK 2,450 and 4.5 BHK ~3,000 sq ft (brokers); 4.5 BHK penthouses (Housiey)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+        "https://whitecollarrealty.com/residential_property/smartworld-one-dxp",
+        "https://housiey.com/projects/smart-world-one-dxp"
+      ],
+      "note": "3.5 BHK 2,450 and 4.5 BHK ~3,000–3,055 confirmed; individual larger variants (up to 3,304) not independently seen; smaller 2/2.5 BHK units and penthouses exist but are not listed by us. Duplicate rows in our list."
+    },
+    {
+      "field": "landArea",
+      "ours": "16 Acres",
+      "web": "16 acres / 16.11 acres",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+        "https://housiey.com/projects/smart-world-one-dxp",
+        "https://www.99acres.com/smartworld-one-dxp-sector-113-gurgaon-npxid-r400415"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 8; units: 1719; floors: —",
+      "web": "8 towers, 29 floors (99acres via search); 1,790 units (Square Yards); ~900 units (99acres snippet); 16 towers (Housiey)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.99acres.com/smartworld-one-dxp-sector-113-gurgaon-npxid-r400415",
+        "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+        "https://housiey.com/projects/smart-world-one-dxp"
+      ],
+      "note": "8 towers corroborated; 1,719 units not exactly matched (closest 1,790). Sources disagree."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:39:32Z",
+  "method": "subagent:web-research"
+}

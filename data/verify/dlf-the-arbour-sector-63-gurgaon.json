@@ -1,0 +1,129 @@
+{
+  "slug": "dlf-the-arbour-sector-63-gurgaon",
+  "name": "DLF The Arbour",
+  "overall": "major-discrepancies",
+  "summary": "Existence, DLF as developer (promoter DLF Home Developers Ltd), Sector 63 / Golf Course Extension Road location, the HARERA number (RC/REP/HARERA/GGM/671/403/2023/15), 25 acres, 5 towers and 1,137 units are confirmed. Our possession year of 2028 conflicts with the RERA/portal date of March 2030. Our ₹11 Cr starting price is above Square Yards' ₹9.44 Cr and far above the ~₹7 Cr launch price, though it is close to current per-sq-ft resale rates.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "DLF The Arbour",
+      "web": "The Arbour by DLF at DLF Sixtythree, Sector 63; 1,137 homes sold out in 3 days in March 2023",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/thearbour/",
+        "https://www.businesstoday.in/real-estate/story/dlf-sold-luxury-high-rise-residences-in-gurugram-worth-rs-8000-crore-in-three-days-373590-2023-03-16"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "DLF (listed as \"DLF The Arbour\")",
+      "web": "DLF; promoter on registration: M/s DLF Home Developers Limited",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/thearbour/"
+      ],
+      "note": "The registered promoter is the DLF subsidiary DLF Home Developers Limited. The developer label repeats the project name, which is cosmetic."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 63, Golf Course Ext. Road, Sector 63, Gurugram, Haryana",
+      "web": "Sector 63 (village Maidawas), Golf Course Extension Road, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/thearbour/",
+        "https://www.businesstoday.in/real-estate/story/dlf-sold-luxury-high-rise-residences-in-gurugram-worth-rs-8000-crore-in-three-days-373590-2023-03-16"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/671/403/2023/15",
+      "web": "RC/REP/HARERA/GGM/671/403/2023/15 dated 23.01.2023 (HARERA project ID RERA-GRG-1138-2022)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/thearbour/",
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-the-arbour/214735/project",
+        "https://reratracker.com/dlf-arbour-in-sector-63-gurgaon-by-dlf-rtid4242"
+      ],
+      "note": "Same registration number. Ours omits the 'RC/REP/HARERA/' prefix, which is cosmetic."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-the-arbour/214735/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2028 (from: \"Possession is expected by 2028\")",
+      "web": "March 2030 (RERA completion per reratracker; Square Yards); 'expected by 2030' (broker pages)",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": [
+        "https://reratracker.com/dlf-arbour-in-sector-63-gurgaon-by-dlf-rtid4242",
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-the-arbour/214735/project"
+      ],
+      "note": "Our 2028 is about 2 years earlier than the RERA/portal date of March 2030. We found no source that supports 2028."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹11 Crores Onwards",
+      "web": "₹9.44 Cr (Square Yards; ₹27,250/sq ft asking); ₹8.49 Cr onwards (broker); launch ~₹7 Cr per unit (2023 news)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-the-arbour/214735/project",
+        "https://wegrowinfraventures.com/gurgaon/residential/dlf-the-arbour",
+        "https://reratracker.com/dlf-arbour-in-sector-63-gurgaon-by-dlf-rtid4242"
+      ],
+      "note": "Ours is ~16.5% above Square Yards' ₹9.44 Cr and ~30% above the ₹8.49 Cr broker figure. However, Square Yards' own ₹27,250/sq ft × ~3,950 sq ft ≈ ₹10.8 Cr, close to ours. Sources are internally inconsistent; the project is sold out, so all prices are resale. Severity is medium rather than high for that reason."
+    },
+    {
+      "field": "configurations",
+      "ours": "4 BHK — 3965 Sq.ft — Price on Request",
+      "web": "4 BHK (+ study + utility) only; ~3,900–3,950 sq ft",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-the-arbour/214735/project",
+        "https://reratracker.com/dlf-arbour-in-sector-63-gurgaon-by-dlf-rtid4242"
+      ],
+      "note": "Configuration matches. Size 3,965 sq ft is close to but not identical to the quoted 3,900 (Square Yards) / ~3,950 sq ft."
+    },
+    {
+      "field": "landArea",
+      "ours": "25 Acres",
+      "web": "10.153 hectares (25.087 acres)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/thearbour/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 5; units: 1137; floors: —",
+      "web": "5 towers, 38–39 floors; 1,137 units (Square Yards lists 1,338)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.businesstoday.in/real-estate/story/dlf-sold-luxury-high-rise-residences-in-gurugram-worth-rs-8000-crore-in-three-days-373590-2023-03-16",
+        "https://reratracker.com/dlf-arbour-in-sector-63-gurgaon-by-dlf-rtid4242"
+      ],
+      "note": "News coverage quoting DLF says 1,137 units. Square Yards' 1,338 appears to be an error."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:36:45Z",
+  "method": "subagent:web-research"
+}

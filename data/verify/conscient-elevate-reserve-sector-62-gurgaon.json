@@ -1,0 +1,137 @@
+{
+  "slug": "conscient-elevate-reserve-sector-62-gurgaon",
+  "name": "Elevate Reserve",
+  "overall": "major-discrepancies",
+  "summary": "Project, developer (Conscient Infrastructure with Hines), Sector 62 Golf Course Extension Road location, RERA GGM/757/489/2023/101 (101 of 2023), under-construction status, 2 towers / 240 units and carpet sizes 1,765 / 2,346 sq ft are confirmed; starting price Rs 5.63 Cr is within 15% of portal prices (~Rs 6.0-6.3 Cr). Major issue: our possession of March 2028 conflicts with the RERA completion date of 30 October 2030 reported by multiple sources. Land area 5.5 acres is marketed by some sites, but RERA-quoting sources give 4.84 acres.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Elevate Reserve",
+      "web": "Conscient (Hines) Elevate Reserve, Sector 62, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://conscient.in/elevate-reserve/",
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Conscient & Hines (listed as \"Conscient Infrastructure & Hines\")",
+      "web": "Conscient Infrastructure Pvt Ltd (promoter) in partnership with Hines",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://conscient.in/elevate-reserve/",
+        "https://reratracker.com/conscient-elevate-reserve-in-gurugram-by-conscient-infrastructure-private-limited-rtid3637",
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Golf Course Extension Road, Sector 62, Sector 62, Gurugram, Haryana",
+      "web": "Sector 62, Golf Course Extension Road, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://conscient.in/elevate-reserve/",
+        "https://www.propzilla.in/property/conscient-elevate-reserve-in-gurgaon"
+      ],
+      "note": "Our location string repeats 'Sector 62' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/757/489/2023/101",
+      "web": "GGM/757/489/2023/101 (Registration 101 of 2023)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project",
+        "https://conscient.in/elevate-reserve/"
+      ],
+      "note": "Developer site cites '101 of 2023'. Our value omits the 'RC/REP/HARERA/' prefix (cosmetic)."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project",
+        "https://www.propzilla.in/property/conscient-elevate-reserve-in-gurgaon"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2028-03 (from: \"possession date is March 2028\")",
+      "web": "RERA completion 30 October 2030 (RERA tracker, Square Yards); Propzilla says December 2030",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": [
+        "https://reratracker.com/conscient-elevate-reserve-in-gurugram-by-conscient-infrastructure-private-limited-rtid3637",
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project",
+        "https://www.propzilla.in/property/conscient-elevate-reserve-in-gurgaon"
+      ],
+      "note": "No source supports March 2028; our date is ~2.5 years earlier than the RERA completion date."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹5.63 Crores Onwards",
+      "web": "Rs 6.04 Cr (RERA tracker); Rs 6.31 Cr (Square Yards); Rs 6 Cr (Propzilla); Rs 5.9 Cr for 1,765 sq ft carpet 3 BHK (portal snippet)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/conscient-elevate-reserve-in-gurugram-by-conscient-infrastructure-private-limited-rtid3637",
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project",
+        "https://www.propzilla.in/property/conscient-elevate-reserve-in-gurgaon"
+      ],
+      "note": "Ours is 7-11% below current portal prices; within the ±15% tolerance but may be stale."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK — 1765 sq ft — Price on Request | 4 BHK — 2346 sq ft — Price on Request",
+      "web": "3 BHK 2,745 sq ft and 4 BHK 3,395 sq ft super area; carpet 1,765 sq ft (3 BHK) and 2,346 sq ft (4 BHK) per 99acres-type listings; RERA tracker cites ~1,840 sq ft carpet",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.99acres.com/conscient-elevate-reserve-sector-62-gurgaon-npxid-r426158",
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project",
+        "https://reratracker.com/conscient-elevate-reserve-in-gurugram-by-conscient-infrastructure-private-limited-rtid3637"
+      ],
+      "note": "Our sizes are carpet areas while most portals quote super area; one listing labels 2,346 as built-up rather than carpet. We do not state the area basis."
+    },
+    {
+      "field": "landArea",
+      "ours": "5.5 Acres",
+      "web": "4.84 acres (19,601.96 sq m) per RERA tracker and Square Yards; 4.85 acres (Propzilla); 5.5 acres on marketing/broker sites",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://reratracker.com/conscient-elevate-reserve-in-gurugram-by-conscient-infrastructure-private-limited-rtid3637",
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project",
+        "https://www.propzilla.in/property/conscient-elevate-reserve-in-gurgaon",
+        "https://www.luxuryresidences.in/conscient-hines-elevate-reserve-sector-62-gurgaon/"
+      ],
+      "note": "5.5 acres is a marketing figure (possibly including the retail block); RERA-based area is 4.84 acres."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 2; units: 240; floors: —",
+      "web": "2 towers, 240 units, G+41/42 floors (RERA tracker, Propzilla); Square Yards says 283 units",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/conscient-elevate-reserve-in-gurugram-by-conscient-infrastructure-private-limited-rtid3637",
+        "https://www.propzilla.in/property/conscient-elevate-reserve-in-gurgaon",
+        "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project"
+      ],
+      "note": "Square Yards' 283 may include retail units."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:37:07Z",
+  "method": "subagent:web-research"
+}

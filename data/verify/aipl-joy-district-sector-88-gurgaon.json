@@ -1,0 +1,100 @@
+{
+  "slug": "aipl-joy-district-sector-88-gurgaon",
+  "name": "AIPL Joy District",
+  "overall": "minor-discrepancies",
+  "summary": "The project, developer (AIPL), Sector 88 location, RERA GGM/780/512/2024/07 (issued 02.02.2024) and under-construction status are confirmed. Land area is 10.44 acres on Square Yards against our 11 acres, and starting prices vary across sources (₹60 L to ₹1.47 Cr; Houssed's ₹80 L matches ours). The RERA possession date of 30 June 2028 is not on our page, and floor counts are inconsistent across sources.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "AIPL Joy District",
+      "web": "AIPL Joy District, commercial retail/entertainment project, Sector 88, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "AIPL (listed as \"AIPL Joy District\")",
+      "web": "Advance India Projects Limited (AIPL)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project"],
+      "note": "Our 'listed as' label uses the project name rather than the company name (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 88, Northern Peripheral Road, Sector 88, Gurugram, Haryana",
+      "web": "Sector 88, Gurgaon (Houssed lists Sector 88A)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410"],
+      "note": "Houssed says Sector 88A; most sources say Sector 88. NPR (Dwarka Expressway) frontage was not explicitly confirmed."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/780/512/2024/07",
+      "web": "GGM/780/512/2024/07, issued 02.02.2024 (HARERA project ID RERA-GRG-1477-2023)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410", "https://reratracker.com/developers/aipl-35"],
+      "note": "Same number; ours includes the standard RC/REP/HARERA prefix."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "RERA possession 30-Jun-2028 (marketed Jan–Jun 2028)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410", "https://reratracker.com/developers/aipl-35"],
+      "note": "We could publish June 2028 (RERA)."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹83 lakhs Onwards",
+      "web": "₹80 Lakh – ₹12 Cr (Houssed); Rs 60 lakh upward (ReraTracker); ₹1.47 Cr – ₹2.94 Cr at ₹24,500/sq ft (Square Yards)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410", "https://reratracker.com/developers/aipl-35", "https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project"],
+      "note": "Matches Houssed within ±15%, but Square Yards' current starting price is ~77% higher and ReraTracker's is ~28% lower. Sources disagree."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "Retail shops 600–1,200 sq ft (Square Yards); shops/showrooms 500–7,000 sq ft (Houssed)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410"],
+      "note": "Nothing published by us to compare."
+    },
+    {
+      "field": "landArea",
+      "ours": "11 Acres",
+      "web": "10.44 acres (Square Yards); 10.4375 / 10.42 acres (brokers, ReraTracker); 10 acres (Houssed)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project", "https://reratracker.com/developers/aipl-35", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410"],
+      "note": "Ours appears rounded up from ~10.44 acres; better to publish 10.44 acres."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: —; units: —; floors: 5",
+      "web": "1,190 units; 1.2 million sq ft across four levels (ReraTracker/brokers); 1 tower with 17 floors (Houssed)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project", "https://reratracker.com/developers/aipl-35", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410"],
+      "note": "Floor count is inconsistent across sources (4 retail levels vs 17 floors, the latter possibly including the hotel). No source states 5. We could add 1,190 units."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:38:45Z",
+  "method": "subagent:web-research"
+}

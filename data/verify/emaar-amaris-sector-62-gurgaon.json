@@ -1,0 +1,100 @@
+{
+  "slug": "emaar-amaris-sector-62-gurgaon",
+  "name": "Emaar Amaris",
+  "overall": "minor-discrepancies",
+  "summary": "The project, developer (Emaar India), Sector 62 Golf Course Extension Road location, HARERA number GGM/885/617/2024/112, 4 towers and 522 units are confirmed, and the land area matches (6.118 acres). Our unit sizes match the published carpet-area range of 1,239–1,942 sq ft, while portals quote super areas of 1,650–3,100 sq ft. Our December 2029 possession differs from the RERA completion date of 30 Aug 2030 and from marketed dates (Aug 2029 / Aug 2030). Starting-price sources disagree widely (₹3.46 Cr to ₹6.17 Cr).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Emaar Amaris",
+      "web": "Emaar Amaris, Sector 62, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project", "https://www.99acres.com/emaar-amaris-sector-62-gurgaon-npxid-r432558"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Emaar India (listed as \"Emaar Amaris\")",
+      "web": "Emaar India Limited",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/amaris-in-gurugram-by-emaar-india-limited-rtid3479", "https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project"],
+      "note": "Developer is correct, but our raw developer label is the project name 'Emaar Amaris' (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Golf Course Extension Road, Sector 62, Sector 62, Gurugram, Haryana",
+      "web": "Sector 62, Golf Course Extension Road, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/885/617/2024/112",
+      "web": "GGM/885/617/2024/112",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project", "https://www.99acres.com/emaar-amaris-sector-62-gurgaon-npxid-r432558"],
+      "note": "The core number matches. The 'RC/REP/HARERA/' prefix is the formal HARERA certificate format."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2029-12 (from: \"possession is scheduled for December 2029\")",
+      "web": "RERA completion date 30 Aug 2030 (reratracker); Square Yards: August 2030; 99acres: from August 2029",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": ["https://reratracker.com/amaris-in-gurugram-by-emaar-india-limited-rtid3479", "https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project", "https://www.99acres.com/emaar-amaris-sector-62-gurgaon-npxid-r432558"],
+      "note": "No source states December 2029. The RERA date is 8 months later than ours, and 99acres is 4 months earlier."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹3.25 Crores Onwards",
+      "web": "99acres: ₹3.46 Cr – ₹6.51 Cr; reratracker: 2 BHK ₹3.58 Cr; Square Yards: ₹6.17 Cr – ₹11.59 Cr",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.99acres.com/emaar-amaris-sector-62-gurgaon-npxid-r432558", "https://reratracker.com/amaris-in-gurugram-by-emaar-india-limited-rtid3479", "https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project"],
+      "note": "Within 15% of 99acres (₹3.46 Cr, from a search snippet because the page returned 403) and reratracker (₹3.58 Cr). Square Yards' ₹6.17 Cr is an outlier that disagrees strongly with both."
+    },
+    {
+      "field": "configurations",
+      "ours": "2 BHK — 1,239 sq ft — Price on Request | 2 BHK — 1,244 sq ft — Price on Request | 3 BHK — 1,450 sq ft — Price on Request | 3 BHK — 1,456 sq ft — Price on Request | 4 BHK — 1,895 sq ft — Price on Request | 4 BHK — 1,901 sq ft — Price on Request",
+      "web": "Carpet area 1,239–1,942 sq ft; super/saleable: 2 BHK 1,650, 3 BHK 2,200, 4 BHK 2,700–3,100 sq ft",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://ambak.com/projects/p1-amaris/eee3df1dedaf45199dcf1b4b542ccdf3", "https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project"],
+      "note": "Our sizes fit the published carpet range, but only the 1,239 lower bound was confirmed exactly. Portals quote super area. Our page should label these as carpet area."
+    },
+    {
+      "field": "landArea",
+      "ours": "6.1 Acres",
+      "web": "6.118 acres",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project", "https://reratracker.com/amaris-in-gurugram-by-emaar-india-limited-rtid3479"],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 4; units: 522; floors: —",
+      "web": "4 towers, 522 units, 35 floors",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project", "https://reratracker.com/amaris-in-gurugram-by-emaar-india-limited-rtid3479"],
+      "note": "Floors (35) not in our data."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:39:33Z",
+  "method": "subagent:web-research"
+}

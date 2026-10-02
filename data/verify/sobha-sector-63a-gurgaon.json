@@ -1,0 +1,142 @@
+{
+ "slug": "sobha-sector-63a-gurgaon",
+ "name": "Sobha Crescent",
+ "overall": "minor-discrepancies",
+ "summary": "Project, developer, Sector 63A location, RERA number, starting price, 11.99-acre land area and 2 towers / 336 units (phase 1) are confirmed. Possession is disputed: one source gives March 2030, another gives a RERA filing date of March 2033, and the developer targets Dec 2030. Sources also describe the towers as G+40 rather than 42 floors, and the ₹7.75 Cr upper price was not found.",
+ "checks": [
+  {
+   "field": "existence",
+   "ours": "Sobha Crescent",
+   "web": "Sobha Crescent, Sector 63A, Gurugram",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://www.sobhacitygurgaon.org.in/blog/sobha-crescent-sector-63a-gurgaon-buyer-guide/"
+   ],
+   "note": ""
+  },
+  {
+   "field": "developer",
+   "ours": "Sobha Limited",
+   "web": "Sobha Limited",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://www.sobhacitygurgaon.org.in/blog/sobha-crescent-sector-63a-gurgaon-buyer-guide/"
+   ],
+   "note": ""
+  },
+  {
+   "field": "location",
+   "ours": "Sector 63A, Golf Course Extension Road, Gurugram, Haryana, Sector 63A, Sector 63A, Golf Course Extension Road, Gurugram, Haryana",
+   "web": "Sector 63A, Golf Course Extension Road, Gurugram",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://sobha-group.com/residential/sobha-crescent-sector-63a-gurgaon/"
+   ],
+   "note": "Our location string has duplicated text (cosmetic)."
+  },
+  {
+   "field": "rera",
+   "ours": "RC/REP/HARERA/GGM/1054/786/2026/26",
+   "web": "RC/REP/HARERA/GGM/1054/786/2026/26 (dated 3 Apr 2026)",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://www.sobhacitygurgaon.org.in/blog/sobha-crescent-sector-63a-gurgaon-buyer-guide/",
+    "https://sobha-group.com/residential/sobha-crescent-sector-63a-gurgaon/"
+   ],
+   "note": ""
+  },
+  {
+   "field": "status",
+   "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+   "web": "Phase 1 under construction (excavation underway)",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon"
+   ],
+   "note": ""
+  },
+  {
+   "field": "possession",
+   "ours": "2030-03 (from: \"possession scheduled for March 2030\")",
+   "web": "March 2030 (HCO, described as RERA deadline); March 2033 RERA filing per another source; developer target December 2030",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://www.sobhacitygurgaon.org.in/blog/sobha-crescent-sector-63a-gurgaon-buyer-guide/",
+    "https://sobha-group.com/residential/sobha-crescent-sector-63a-gurgaon/"
+   ],
+   "note": "Sources disagree on the RERA date (2030 vs 2033); verify on HARERA."
+  },
+  {
+   "field": "startingPrice",
+   "ours": "5.75 Cr",
+   "web": "₹5.4 – 5.75 Cr onwards (₹5.46 / 5.47 / 5.69 Cr variously)",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://sobha-group.com/residential/sobha-crescent-sector-63a-gurgaon/",
+    "https://brokersaathi.com/property/sobha-crescent-sector-63a-gurugram-5041"
+   ],
+   "note": "Within ±15%."
+  },
+  {
+   "field": "other",
+   "ours": "price range: 5.75 Cr - 7.75 Cr",
+   "web": "",
+   "verdict": "unverified",
+   "severity": "low",
+   "sources": [],
+   "note": "No source found quoting ₹7.75 Cr as the upper bound."
+  },
+  {
+   "field": "configurations",
+   "ours": "not published",
+   "web": "3 & 4 BHK, 2,277 – 2,966 sq ft RERA carpet",
+   "verdict": "unverified",
+   "severity": "low",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://sobha-group.com/residential/sobha-crescent-sector-63a-gurgaon/"
+   ],
+   "note": "We publish no configurations; sources list them."
+  },
+  {
+   "field": "landArea",
+   "ours": "11.99 Acres",
+   "web": "11.99 acres total (phase 1: 4.96 acres)",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://sobha-group.com/residential/sobha-crescent-sector-63a-gurgaon/"
+   ],
+   "note": ""
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 2; units: 336; floors: 42",
+   "web": "Phase 1: 2 towers, 336 units, G+40 floors (~4 towers / ~600 units planned overall)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://www.sobhacitygurgaon.org.in/blog/sobha-crescent-sector-63a-gurgaon-buyer-guide/",
+    "https://sobha-group.com/residential/sobha-crescent-sector-63a-gurgaon/"
+   ],
+   "note": "Sources say G+40, not 42 floors. Towers and units are phase-1 figures."
+  }
+ ],
+ "checkedAt": "2026-10-02T12:00:00+05:30",
+ "method": "subagent:web-research"
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "aipl-lake-city-sector-103-gurgaon",
+  "name": "AIPL Lake City",
+  "overall": "minor-discrepancies",
+  "summary": "The project, developer (AIPL), Sector 103 Dwarka Expressway location, the December 2030 possession date, the ~₹3.5–3.6 Cr starting price and the 2,200–2,800 sq ft 3/4 BHK sizes are confirmed. Our RERA number GGM/844/576/2024/71 appears only on broker microsites. Other sources give different numbers for the township's phases: GGM/718/450/2023/127, GGM/823/555/2024/50, and GGM/1019/751/2025/122 for Riviera, the phase actually launched in Dec 2025. Land area (30 acres vs 53 acres for the township) and towers/units (7/800 vs Riviera's 2 towers/~344 units) depend on which phase is meant.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "AIPL Lake City",
+      "web": "AIPL Lake City integrated township, Sector 103, Dwarka Expressway; first launched phase marketed as 'The Riviera at AIPL Lake City'",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.livelawbiz.com/rera/rera/harera-allows-registration-of-riviera-at-aipl-lake-city-project-in-gurugram-despite-land-dispute-530066", "https://reratracker.com/developers/aipl-35", "https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details"],
+      "note": "HARERA allowed Riviera registration despite a pending land dispute, with units on disputed land frozen from sale. Investors may want this mentioned."
+    },
+    {
+      "field": "developer",
+      "ours": "AIPL (listed as \"AIPL Lake City\")",
+      "web": "AIPL (promoters include AIPL Bharat Infrastructure Pvt Ltd for Riviera, Floralessence Projects Pvt Ltd for Aquaria)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/developers/aipl-35"],
+      "note": "Our 'listed as' label uses the project name rather than the company name (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 103, Dwarka Expressway, Gurugram, Sector 103, Haryana",
+      "web": "Sector 103, Dwarka Expressway, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details", "https://www.aiplthelakecity.com/"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/844/576/2024/71",
+      "web": "GGM/844/576/2024/71 (broker microsite aiplthelakecity.com only); other sources: RC/REP/HARERA/GGM/718/450/2023/127, RC/REP/HARERA/GGM/823/555/2024/50, GGM/1019/751/2025/122 (Riviera, registered 08.12.2025; HARERA ID RERA-GRG-2085-2025)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.aiplthelakecity.com/", "https://megarealtymax.com/residential-property/aipl-lake-city-sector-103-gurgaon", "https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details", "https://reratracker.com/developers/aipl-35"],
+      "note": "Our number could not be confirmed on HARERA or a major portal; only a broker microsite quotes it. The township has several registrations, and the launched Riviera phase uses GGM/1019/751/2025/122. Verify on haryanarera.gov.in before relying on it."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Early construction phase / new launch (Riviera Phase 1)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details", "https://megarealtymax.com/residential-property/aipl-lake-city-sector-103-gurgaon"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2030-12 (from: \"Possession is expected by December 2030\")",
+      "web": "December 2030 (per RERA filing, per Togetherbuying and aiplthelakecity.com); 'expected by 2029' (Megarealtymax)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details", "https://www.aiplthelakecity.com/", "https://megarealtymax.com/residential-property/aipl-lake-city-sector-103-gurgaon"],
+      "note": "One broker says 2029."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹3.6 Crore Onwards",
+      "web": "₹3.6 Cr onwards (Megarealtymax); ₹3.50 Cr (aiplthelakecity.com); ~₹3.49 Cr (Togetherbuying)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://megarealtymax.com/residential-property/aipl-lake-city-sector-103-gurgaon", "https://www.aiplthelakecity.com/", "https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details"],
+      "note": "All within ±15%."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK — 2,200 sq ft — Price on Request | 3 BHK — 2,400 sq ft — Price on Request | 4 BHK — 2,800 sq ft — Price on Request",
+      "web": "3 BHK 2,200 sq ft; 3 BHK Type 1 2,400 sq ft; 4 BHK + Servant 2,800 sq ft (aiplthelakecity.com). Riviera phase: 2 BHK+Study 2,053–2,308, 3 BHK+Study 2,196, 3 BHK+Utility 2,398–2,869, 4 BHK 3,211 sq ft (Togetherbuying)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.aiplthelakecity.com/", "https://megarealtymax.com/residential-property/aipl-lake-city-sector-103-gurgaon", "https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details"],
+      "note": "Matches the early marketing material. The launched Riviera phase has a different unit mix, including 2 BHK and 4 BHK of 3,211 sq ft."
+    },
+    {
+      "field": "landArea",
+      "ours": "30 Acres",
+      "web": "17 acres Phase 1 / 30 acres planned (aiplthelakecity.com); 53 acres, expandable to 80, township (Megarealtymax, Togetherbuying); Riviera ~5.13 acres",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.aiplthelakecity.com/", "https://megarealtymax.com/residential-property/aipl-lake-city-sector-103-gurgaon", "https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details"],
+      "note": "Sources disagree; most describe a 53-acre township."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 7; units: 800; floors: —",
+      "web": "7 towers, 25 floors, 800 units (aiplthelakecity.com); 710 units in Phase 1 with 46-storey towers (Megarealtymax); Riviera: 2 towers of G+43, ~332–500 units",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.aiplthelakecity.com/", "https://megarealtymax.com/residential-property/aipl-lake-city-sector-103-gurgaon", "https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details"],
+      "note": "Only a broker microsite states the same values; the registered Riviera phase is far smaller."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:38:45Z",
+  "method": "subagent:web-research"
+}

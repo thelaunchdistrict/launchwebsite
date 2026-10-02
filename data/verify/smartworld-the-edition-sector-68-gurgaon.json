@@ -1,0 +1,137 @@
+{
+ "slug": "smartworld-the-edition-sector-68-gurgaon",
+ "name": "Smartworld The Edition",
+ "overall": "major-discrepancies",
+ "summary": "Project, developer, RERA number, land area, towers/units and unit size range are confirmed. Every independent source places the project in Sector 66 (Golf Course Extension Road / Badshahpur), not Sector 68 as we publish. Starting price is within tolerance; the RERA possession date (Feb 2031) is available but not published by us.",
+ "checks": [
+  {
+   "field": "existence",
+   "ours": "Smartworld The Edition",
+   "web": "Smart World The Edition, ultra-luxury residential project on Golf Course Extension Road, Gurugram",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://smartworlddevelopersgurgaon.in/smartworld-the-edition/"
+   ],
+   "note": ""
+  },
+  {
+   "field": "developer",
+   "ours": "Smartworld Developers (listed as \"Smartworld The Edition\")",
+   "web": "Smart World Group / Smartworld Developers; RERA promoter reported as ETSY Realcon Pvt Ltd",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://smartworlddevelopersgurgaon.in/smartworld-the-edition/"
+   ],
+   "note": "Brand matches; registered promoter entity is reportedly ETSY Realcon Private Limited (Smartworld group company)."
+  },
+  {
+   "field": "location",
+   "ours": "Sector 68, Golf Course Extension Road, Sector 68, Gurugram, Haryana",
+   "web": "Sector 66, Golf Course Extension Road (Badshahpur, near Marbella Villas), Gurugram",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://smartworlddevelopersgurgaon.in/smartworld-the-edition/",
+    "https://www.homebazaar.com/smart-world-edition-sector-66-gurgaon-7885",
+    "https://megarealtymax.com/residential-property/smart-world-the-edition-sector-66-gurgaon"
+   ],
+   "note": "All sources found (portals, broker and developer-affiliated pages) say Sector 66; none say Sector 68. Slug also carries the wrong sector."
+  },
+  {
+   "field": "rera",
+   "ours": "GGM/756/488/2023/100",
+   "web": "RC/REP/HARERA/GGM/756/488/2023/100",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://smartworlddevelopersgurgaon.in/smartworld-the-edition/"
+   ],
+   "note": ""
+  },
+  {
+   "field": "status",
+   "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+   "web": "Under construction (launched Nov 2023); some portals still label it 'New Launch'",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://smartworlddevelopersgurgaon.in/smartworld-the-edition/",
+    "https://www.homebazaar.com/smart-world-edition-sector-66-gurgaon-7885"
+   ],
+   "note": ""
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "RERA possession 28 Feb 2031 (another source: 1 Feb 2031); one aggregator lists December 2027",
+   "verdict": "unverified",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://smartworlddevelopersgurgaon.in/smartworld-the-edition/",
+    "https://www.homebazaar.com/smart-world-edition-sector-66-gurgaon-7885"
+   ],
+   "note": "We do not publish possession; the RERA date is available. Sources disagree on the day; the Dec 2027 figure looks unreliable."
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹5.5 Crores Onwards",
+   "web": "~₹5.45 Cr (3 BHK) onwards; Houssed ₹6 Cr – ₹7.2 Cr",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://www.homebazaar.com/smart-world-edition-sector-66-gurgaon-7885",
+    "https://megarealtymax.com/residential-property/smart-world-the-edition-sector-66-gurgaon"
+   ],
+   "note": "₹5.45 Cr and ₹6 Cr are both within ±15%."
+  },
+  {
+   "field": "configurations",
+   "ours": "3.5 BHK+SQ — 2,945 sq ft — Price on Request | 3.5 BHK+SQ — 3,035 sq ft — Price on Request | 4 BHK+SQ — 3,505 sq ft — Price on Request | 4.5 BHK+SQ — 3,660 sq ft — Price on Request",
+   "web": "3.5 & 4.5 BHK, 2,945 – 3,660 sq ft (Houssed: 3.5 BHK 2,940; 4.5 BHK 3,510)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://megarealtymax.com/residential-property/smart-world-the-edition-sector-66-gurgaon"
+   ],
+   "note": "Size range matches; sources describe the ~3,505 sq ft unit as 4.5 BHK rather than 4 BHK+SQ, and the 3,035 sq ft variant was not individually confirmed."
+  },
+  {
+   "field": "landArea",
+   "ours": "10.7 Acres",
+   "web": "10.7 acres (some sources 10.76 acres)",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://smartworlddevelopersgurgaon.in/smartworld-the-edition/",
+    "https://megarealtymax.com/residential-property/smart-world-the-edition-sector-66-gurgaon"
+   ],
+   "note": ""
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 6; units: 956; floors: —",
+   "web": "6 towers, 956 units, 2B+G+42 floors",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://smartworlddevelopersgurgaon.in/smartworld-the-edition/",
+    "https://megarealtymax.com/residential-property/smart-world-the-edition-sector-66-gurgaon"
+   ],
+   "note": "Floor count (42) available but not published by us."
+  }
+ ],
+ "checkedAt": "2026-10-02T12:00:00+05:30",
+ "method": "subagent:web-research"
+}

@@ -1,0 +1,143 @@
+{
+ "slug": "spj-vedatam-sector-14-gurgaon",
+ "name": "SPJ Vedatam",
+ "overall": "minor-discrepancies",
+ "summary": "Project, developer, Sector 14 location, RERA number (confirmed on the developer's site), ~4.15-acre site and ₹50 lakh entry price are confirmed. Our 5-floor figure conflicts with sources describing a 27–32 storey development (Phase 1 retail spans LG to 3rd floor), and our unit sizes (608–918 sq ft) are not confirmed by sources quoting 210–600 sq ft shops.",
+ "checks": [
+  {
+   "field": "existence",
+   "ours": "SPJ Vedatam",
+   "web": "SPJ Vedatam (Vedatam Mall), Sector 14, Gurugram",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.spj-group.in/vedatam",
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503"
+   ],
+   "note": ""
+  },
+  {
+   "field": "developer",
+   "ours": "SPJ Group",
+   "web": "SPJ Group",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.spj-group.in/vedatam",
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503"
+   ],
+   "note": ""
+  },
+  {
+   "field": "location",
+   "ours": "Sector 14, Gurugram, Sector 14, Sector 14, Gurugram, Haryana",
+   "web": "Sector 14, Mehrauli Road, Gurugram",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.spj-group.in/vedatam",
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503"
+   ],
+   "note": "Our location string has duplicated text (cosmetic)."
+  },
+  {
+   "field": "rera",
+   "ours": "RC/REP/HARERA/GGM/927/659/2025/30",
+   "web": "RC/REP/HARERA/GGM/927/659/2025/30 (dated 25.03.2025)",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.spj-group.in/vedatam",
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503",
+    "https://spjvedatamofficial.com/blog/spj-vedatam-sector-14-gurgaon/"
+   ],
+   "note": "Confirmed on the developer's site."
+  },
+  {
+   "field": "status",
+   "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+   "web": "New launch / upcoming (Phase 1 and Phase 2)",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://www.spj-group.in/vedatam",
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503"
+   ],
+   "note": ""
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "RERA possession 30 June 2030",
+   "verdict": "unverified",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503",
+    "https://spjvedatamofficial.com/blog/spj-vedatam-sector-14-gurgaon/"
+   ],
+   "note": "Not published by us; available from sources."
+  },
+  {
+   "field": "startingPrice",
+   "ours": "50 Lakhs Onwards",
+   "web": "₹50 lakh onwards (several sources); Houssed lists ₹70 lakh – ₹2.1 Cr",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://spjvedatamofficial.com/blog/spj-vedatam-sector-14-gurgaon/",
+    "https://spjvedatamgurgaon.in/",
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503"
+   ],
+   "note": "Sources disagree; Houssed's ₹70 lakh floor would be >15% above ours."
+  },
+  {
+   "field": "other",
+   "ours": "price range: ₹50 Lakhs – ₹5.5 Cr+",
+   "web": "",
+   "verdict": "unverified",
+   "severity": "low",
+   "sources": [],
+   "note": "Upper bound of ₹5.5 Cr+ not found in any source (Houssed tops out at ₹2.1 Cr)."
+  },
+  {
+   "field": "configurations",
+   "ours": "Sixth Floor — On Request — Price on Request | First Floor — 608 Sq.ft — Price on Request | Lower Ground Floor — 699 Sq.ft — Price on Request | Sixth Floor — 918 Sq.ft — Price on Request",
+   "web": "Retail shops, F&B, multiplex (PVR) and serviced apartments; shop sizes 210–600 sq ft (Houssed) or from 300 sq ft",
+   "verdict": "unverified",
+   "severity": "low",
+   "sources": [
+    "https://www.spj-group.in/vedatam",
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503",
+    "https://spjvedatamofficial.com/blog/spj-vedatam-sector-14-gurgaon/"
+   ],
+   "note": "Our specific sizes (608/699/918 sq ft) were not found. Also internally inconsistent: we list 'Sixth Floor' units but publish floors: 5."
+  },
+  {
+   "field": "landArea",
+   "ours": "4.15 Acres",
+   "web": "~4.15 acres (some sources 4.16 acres)",
+   "verdict": "match",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503",
+    "https://spjvedatamofficial.com/blog/spj-vedatam-sector-14-gurgaon/"
+   ],
+   "note": ""
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 1; units: —; floors: 5",
+   "web": "1 tower; 27 storeys (some sources) or 32 floors (Houssed); Phase 1 retail spans LG to 3rd floor; ~412 units (one source)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.spj-group.in/vedatam",
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503",
+    "https://spjvedatamofficial.com/blog/spj-vedatam-sector-14-gurgaon/"
+   ],
+   "note": "Our 5 floors conflicts with every source; the sources also disagree with each other (27 vs 32)."
+  }
+ ],
+ "checkedAt": "2026-10-02T12:00:00+05:30",
+ "method": "subagent:web-research"
+}

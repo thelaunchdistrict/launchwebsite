@@ -1,0 +1,130 @@
+{
+  "slug": "dlf-club-arcade-sector-91-gurgaon",
+  "name": "Club Arcade DLF",
+  "overall": "minor-discrepancies",
+  "summary": "Existence, developer (DLF Limited), Sector 91 DLF Gardencity location, commercial type, HARERA number RC/REP/HARERA/GGM/806/538/2024/33 and under-construction status are confirmed. Starting price varies widely across sources (₹1.4–1.6 Cr from brokers vs ₹2.38 Cr on Square Yards), and the 4-floor count could not be confirmed; we also omit possession (web: 2027 / March 2028), land area (~0.89–0.9 acres) and unit count (72).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Club Arcade DLF",
+      "web": "DLF Club Arcade, high-street retail project in DLF Gardencity, Sector 91, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project",
+        "https://www.99acres.com/dlf-club-arcade-sector-91-gurgaon-npxid-c429188",
+        "https://clubarcade.dlf.in/"
+      ],
+      "note": "Project is widely listed as 'DLF Club Arcade'; our name order 'Club Arcade DLF' is cosmetic."
+    },
+    {
+      "field": "developer",
+      "ours": "DLF (listed as \"Club Arcade Dlf\")",
+      "web": "DLF Limited",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/dlf-club-arcade--sector-91_gurgaon-prjt-m107d5l88862l657h448d5a9",
+        "https://therealtyinfo.in/property/dlf-club-arcade-sector-91-gurugram/"
+      ],
+      "note": "Developer is DLF Limited; the listed developer label 'Club Arcade Dlf' is a data-quality issue."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 91, DLF Gardencity, Sector 91, Gurugram, Haryana",
+      "web": "Sector 91, DLF Garden City township, Gurugram, Haryana 122505",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project",
+        "https://www.nobroker.in/dlf-club-arcade--sector-91_gurgaon-prjt-m107d5l88862l657h448d5a9"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/806/538/2024/33",
+      "web": "RC/REP/HARERA/GGM/806/538/2024/33 dated 01.04.2024",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project",
+        "https://www.dlfhomes.co.in/dlf-club-arcade-sector-91-gurgaon/"
+      ],
+      "note": "Square Yards shows GGM/806/538/2024/33. NoBroker lists an application-style ID RERA-GRG-1545-2024, which appears to be the HARERA project/application ID rather than a conflicting registration."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction (Square Yards); NoBroker shows 'Ready to Move'",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project",
+        "https://www.nobroker.in/dlf-club-arcade--sector-91_gurgaon-prjt-m107d5l88862l657h448d5a9"
+      ],
+      "note": "Sources disagree: NoBroker's 'Ready to Move' conflicts with Square Yards and a 2027/2028 possession target, so it is likely a stale/default value."
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "Expected possession 2027 (broker summaries); March 2028 (Square Yards)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project"
+      ],
+      "note": "We publish no possession date; web sources give 2027 or March 2028 and disagree with each other."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹1.50 Crores Onwards",
+      "web": "₹1.50 Cr onwards (therealtyinfo); ₹1.6 Cr (Triverse / dlfhomes); ₹2.38 Cr onwards for an 881 sq ft shop (Square Yards)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://therealtyinfo.in/property/dlf-club-arcade-sector-91-gurugram/",
+        "https://www.triversehomes.com/dlf-club-arcade-sector-91-gurgaon/",
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project"
+      ],
+      "note": "Broker sources match ₹1.5–1.6 Cr, but Square Yards' current listing starts at ₹2.38 Cr (~59% higher). Sources disagree; our figure may reflect launch pricing."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "Retail shops / restaurants, roughly 300–4,200 sq ft (sources vary: 400–4,200; 500–5,000; 300–1,500)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project",
+        "https://therealtyinfo.in/property/dlf-club-arcade-sector-91-gurugram/"
+      ],
+      "note": "Nothing published on our side to compare; unit size ranges vary between sources."
+    },
+    {
+      "field": "landArea",
+      "ours": "—",
+      "web": "0.89–0.9 acres (part of 180+ acre DLF Gardencity township)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project"
+      ],
+      "note": "We do not publish land area; web value given for reference. NoBroker's '180 acres' is the township, not the project."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: —; units: —; floors: 4",
+      "web": "72 units, 1 block; levels: ground, first, second floor plus 2-level basement (one source says 'five levels')",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project",
+        "https://therealtyinfo.in/dlf-new-launch-commercial-project-gurgaon-dlf-club-arcade/"
+      ],
+      "note": "No source clearly states 4 floors; sources mention G/1st/2nd retail levels plus 2 basements. Unit count (72) is available but we do not publish it."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:36:45Z",
+  "method": "subagent:web-research"
+}

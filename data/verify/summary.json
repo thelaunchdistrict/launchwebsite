@@ -1,0 +1,2607 @@
+{
+ "generatedAt": "2026-10-02T11:42:45.078Z",
+ "checked": 60,
+ "total": 60,
+ "overall": {
+  "major-discrepancies": 22,
+  "minor-discrepancies": 37,
+  "unverifiable": 0,
+  "consistent": 1
+ },
+ "issues": [
+  {
+   "field": "startingPrice",
+   "ours": "₹9.97 Crore Onwards",
+   "web": "₹14.04 Crore onwards (developer site and Square Yards); a 3,291 sq ft unit priced at ~₹11 Cr on one portal",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.adanirealty.com/residential-projects/gurugram/lushlands",
+    "https://www.squareyards.com/gurgaon-residential-property/adani-lushlands/251901/project"
+   ],
+   "note": "Our price is ~29% below the developer's published starting price. It may reflect an older launch price.",
+   "slug": "adani-lushlands-gurgaon",
+   "name": "Adani Lushlands"
+  },
+  {
+   "field": "possession",
+   "ours": "2027-06 (from: \"Possession is expected to begin around June 2027\")",
+   "web": "Target June 2027; RERA possession June 2029 (Housiey); June 2029 (Square Yards)",
+   "verdict": "partial",
+   "severity": "high",
+   "sources": [
+    "https://housiey.com/projects/adani-samsara-ivana",
+    "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project"
+   ],
+   "note": "June 2027 is the developer's marketed target. The RERA date is June 2029, 2 years later. We should state the RERA date, or show both.",
+   "slug": "adani-samsara-ivana-sector-63-gurgaon",
+   "name": "Adani Samsara Ivana"
+  },
+  {
+   "field": "possession",
+   "ours": "2028 (from: \"possession timeline is around 2028\")",
+   "web": "March 2032",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/birla-pravaah/341472/project",
+    "https://www.nobroker.in/birla-pravaah-sector-71_gurgaon-prjt-8a9f8f85999e2dc701999e33131200a0",
+    "https://www.luxuryroof.in/gurgaon/birla-pravaah"
+   ],
+   "note": "Multiple portals give March 2032, about 4 years later than ours. 2028 is implausible for a project launched in Nov 2025 with G+35/36 towers.",
+   "slug": "aditya-birla-pravaah-sector-71-gurgaon",
+   "name": "Aditya Birla Pravaah"
+  },
+  {
+   "field": "possession",
+   "ours": "2028-03 (from: \"possession date is March 2028\")",
+   "web": "RERA completion 30 October 2030 (RERA tracker, Square Yards); Propzilla says December 2030",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://reratracker.com/conscient-elevate-reserve-in-gurugram-by-conscient-infrastructure-private-limited-rtid3637",
+    "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project",
+    "https://www.propzilla.in/property/conscient-elevate-reserve-in-gurgaon"
+   ],
+   "note": "No source supports March 2028; our date is ~2.5 years earlier than the RERA completion date.",
+   "slug": "conscient-elevate-reserve-sector-62-gurgaon",
+   "name": "Elevate Reserve"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 5; units: 164; floors: —",
+   "web": "5 towers (G+38 per DLF; 41 floors per reratracker); approximately 795 units",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.dlf.in/homes/luxury/privanawest/",
+    "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617"
+   ],
+   "note": "The tower count matches, but our 164 units is far below the ~795 units stated by DLF and the RERA-derived data. 164 looks like a typo or a partial figure.",
+   "slug": "dlf-privana-west-sector-76-gurgaon",
+   "name": "DLF Privana West"
+  },
+  {
+   "field": "possession",
+   "ours": "2028 (from: \"Possession is expected by 2028\")",
+   "web": "March 2030 (RERA completion per reratracker; Square Yards); 'expected by 2030' (broker pages)",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://reratracker.com/dlf-arbour-in-sector-63-gurgaon-by-dlf-rtid4242",
+    "https://www.squareyards.com/gurgaon-residential-property/dlf-the-arbour/214735/project"
+   ],
+   "note": "Our 2028 is about 2 years earlier than the RERA/portal date of March 2030. We found no source that supports 2028.",
+   "slug": "dlf-the-arbour-sector-63-gurgaon",
+   "name": "DLF The Arbour"
+  },
+  {
+   "field": "possession",
+   "ours": "2026-06 (from: \"Possession is expected by June 2026\")",
+   "web": "April 2028 (Square Yards, megarealtymax); June 2025 (propzilla)",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project",
+    "https://megarealtymax.com/commercial-property/elan-empire-gurgaon-sector-66",
+    "https://www.propzilla.in/property/elan-empire-sector-66-gurugram"
+   ],
+   "note": "No source gives June 2026. The most-cited date (April 2028, likely the RERA date) is almost 2 years later than ours. Sources disagree with each other.",
+   "slug": "elan-empire-sector-66-gurgaon",
+   "name": "Elan Empire"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹2.5 Crore Onwards",
+   "web": "₹98.25 Lac (Square Yards, 300 sq ft shop); ₹1.11-1.12 Cr (propzilla, houssed)",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project",
+    "https://www.propzilla.in/property/elan-paradise-sector-50-gurugram",
+    "https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194"
+   ],
+   "note": "Our starting price is more than double what every source found shows.",
+   "slug": "elan-paradise-sector-50-gurgaon",
+   "name": "Elan Paradise"
+  },
+  {
+   "field": "landArea",
+   "ours": "50 Acres",
+   "web": "4.827 acres registered (within a 24.10-acre licensed parcel) per RERA tracker; 50 acres (Square Yards); 33.5-37 acres (broker sites)",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628",
+    "https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project",
+    "https://elanpropertiesggn.com/elan-the-emperor-sector-106/"
+   ],
+   "note": "Sources disagree widely. The RERA-based figure is 4.827 acres. 50 acres likely refers to Elan's wider Sector 106 township, not this project.",
+   "slug": "elan-the-emperor-sector-106-gurgaon",
+   "name": "Elan The Emperor"
+  },
+  {
+   "field": "landArea",
+   "ours": "50 Acres",
+   "web": "12.767 acres registered (within a 24.10-acre licensed parcel); Square Yards says 24.1 acres",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://reratracker.com/elan-the-presidential-in-sector-106-gurgaon-by-elan-rtid3631",
+    "https://www.luxuryroof.in/gurgaon/elan-the-presidential-sector-106",
+    "https://www.squareyards.com/gurgaon-residential-property/elan-the-presidential/205270/project"
+   ],
+   "note": "No source gives 50 acres for this project. 50 acres likely refers to Elan's wider Sector 106 land holding.",
+   "slug": "elan-the-presidential-sector-106-gurgaon",
+   "name": "Elan The Presidential"
+  },
+  {
+   "field": "possession",
+   "ours": "2028-12 (from: \"Possession is expected by December 2028\")",
+   "web": "September 2032",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project",
+    "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"
+   ],
+   "note": "Ours is about 3 years and 9 months earlier than every source found. A 2025 registration makes December 2028 implausible.",
+   "slug": "emaar-serenity-hills-sector-86-gurgaon",
+   "name": "Emaar Serenity Hills"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹2.2 Crore Onwards",
+   "web": "Homebazaar: ₹2.72 Cr; Square Yards: ₹2.93 Cr – ₹4.83 Cr; gurgaonpropertyinvestment: from ₹2.98 Cr",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162",
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project",
+    "https://gurgaonpropertyinvestment.in/property-detail/emaar-serenity-hills.html"
+   ],
+   "note": "The lowest web price (₹2.72 Cr) is about 19% above ours, which is outside the ±15% tolerance.",
+   "slug": "emaar-serenity-hills-sector-86-gurgaon",
+   "name": "Emaar Serenity Hills"
+  },
+  {
+   "field": "possession",
+   "ours": "2029-07 (from: \"possession date is July 2029\")",
+   "web": "RERA completion 31 Dec 2032 (reratracker, Square Yards, marketing partner); marketed August 2029 (propgrow, 100acress)",
+   "verdict": "partial",
+   "severity": "high",
+   "sources": [
+    "https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244",
+    "https://www.squareyards.com/gurgaon-residential-property/experion-the-trillion/325517/project",
+    "https://www.propgrow.in/properties/experion-the-trillion"
+   ],
+   "note": "Ours is close to the marketed Aug 2029 date but 3.5 years before the RERA completion date. Investors should see the RERA date.",
+   "slug": "experion-the-trillion-sector-48-gurgaon",
+   "name": "Experion The Trillion"
+  },
+  {
+   "field": "rera",
+   "ours": "RC/HARERA/GGM/2019/10",
+   "web": "GGM/325/57/2019/19 (dated 01.04.2019) and GGM/459/191/2021/27",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+    "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/"
+   ],
+   "note": "Our number is not in the standard HARERA format, and its serial (2019/10) differs from the registrations sources cite (2019/19 and 2021/27).",
+   "slug": "hines-elevate-sector-59-gurgaon",
+   "name": "Hines Elevate"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "11.46 Crores onwards",
+   "web": "From ₹7.4 Cr (PropertyPistol), ₹8 Cr (M3M landing page per realtyhunting), ₹8.99 Cr / ₹9 Cr (other listings); a portal lists ₹11.46-11.53 Cr for 4,245-4,270 sq ft units",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://realtyhunting.com/residential/m3m-altitude/",
+    "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043",
+    "https://m3mpropertyindia.com/residential/gurgaon/m3m-altitude-sector-65/"
+   ],
+   "note": "₹11.46 Cr is a portal price for the larger ~4,245 sq ft unit, not the entry price. At the quoted ₹24-27K/sq ft, the 3,712 sq ft unit costs about ₹9-10 Cr, and sources put entry prices at ₹8-9.9 Cr, more than 15% below ours. Sources also disagree with each other.",
+   "slug": "m3m-altitude-sector-65-gurgaon",
+   "name": "M3M Altitude"
+  },
+  {
+   "field": "possession",
+   "ours": "2028-12 (from: \"possession timeline for M3M Golf Hills is December 2028\")",
+   "web": "February 2031 (RERA timeline for Phase 1 as reported by RealtyAssistant); May 2030 (Square Yards); March 2028 (Propzilla)",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://realtyassistant.in/property/m3m-golf-hills-sector-79-gurgaon",
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-golf-hills/220071/project",
+    "https://www.propzilla.in/property/m3m-golf-hills-sector-79-gurgaon"
+   ],
+   "note": "The sources disagree with each other. No source states December 2028, and the dates closest to a RERA date (February 2031) and the Square Yards date (May 2030) are more than a year later than ours.",
+   "slug": "m3m-golf-hills-sector-79-gurgaon",
+   "name": "M3M Golf Hills"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹2 Crore Onwards",
+   "web": "₹2.43–5.06 Cr (99acres resale); from ₹2.45 Cr (m3mindian.com); ₹3.62 Cr onwards (RealtyAssistant); ₹4.24–15.83 Cr (Square Yards)",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.99acres.com/m3m-golf-hills-resale-in-sector-79-gurgaon-1093700-npffid",
+    "https://www.m3mindian.com/m3m-golf-hills/",
+    "https://realtyassistant.in/property/m3m-golf-hills-sector-79-gurgaon",
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-golf-hills/220071/project"
+   ],
+   "note": "Even the lowest figure found (₹2.43 Cr) is about 18% above our ₹2 Cr, and most portals quote ₹3.6 Cr or more. The 99acres figure comes from a search snippet because the page returned 403.",
+   "slug": "m3m-golf-hills-sector-79-gurgaon",
+   "name": "M3M Golf Hills"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹4.5 Crores Onwards",
+   "web": "₹1.80–9.00 Cr (Square Yards); ₹2.00 Cr onwards (RealtyAssistant); ₹2.50 Cr onwards (Propzilla); ₹1.25 Cr onwards (search snippet)",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project",
+    "https://realtyassistant.in/property/m3m-jewel-sector-25-mg-road-gurgaon",
+    "https://www.propzilla.in/property/m3m-jewel-sector-25-gurgaon"
+   ],
+   "note": "Our starting price is roughly 2 to 2.5 times what independent listings give.",
+   "slug": "m3m-jewel-sector-25-gurgaon",
+   "name": "M3M Jewel"
+  },
+  {
+   "field": "possession",
+   "ours": "2027-12 (from: \"Possession is expected by December 2027\")",
+   "web": "December 2028 (Housivity); 2029 (other broker sites)",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9",
+    "https://www.expresswayproperties.com/puri-diplomatic-residences/"
+   ],
+   "note": "No source found supporting December 2027; sources place possession 1-2 years later. HARERA completion date not directly confirmed.",
+   "slug": "puri-diplomatic-residency-sector-111-gurgaon",
+   "name": "Puri Diplomatic Residency"
+  },
+  {
+   "field": "possession",
+   "ours": "2026-12 (from: \"possession date is December 2026\")",
+   "web": "June 2029 (Square Yards, PropertyPistol; Phase-I completion on or before 30 June 2029 per official application material); August 2026 'as per HRERA document' (luxuryresidences.in); December 2028 on one other site",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project",
+    "https://www.propertypistol.com/projects/puri-the-aravallis-sector-61-pid-13877",
+    "https://www.propsaltlandbase.com/property/puri-the-aravallis-sector-61-gurgaon/",
+    "https://www.luxuryresidences.in/puri-aravallis-sector-61-gurgaon/"
+   ],
+   "note": "Sources conflict. The leading portals say June 2029, about 2.5 years after our date. Our Dec 2026 is close only to the older August 2026 HRERA date, which may since have been extended. Check the current HARERA completion date.",
+   "slug": "puri-the-aravallis-sector-61-gurgaon",
+   "name": "Puri The Aravallis"
+  },
+  {
+   "field": "possession",
+   "ours": "2029-02 (from: \"Possession is expected by February 2029\")",
+   "web": "February 2031 (Square Yards); May 2031 completion (other listings); some brokers cite May 2029–Feb 2031 by tower",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project",
+    "https://www.amoghbuildtech.com/projects/signature-global-titanium-spr-sector-71-gurugram",
+    "https://www.signatureapartments.in/signature-global-titanium-spr/"
+   ],
+   "note": "Main portals give Feb 2031, ~2 years later than ours. No source found giving Feb 2029 as RERA date.",
+   "slug": "signature-global-titanium-spr-sector-71-gurgaon",
+   "name": "Signature Global Titanium SPR"
+  },
+  {
+   "field": "location",
+   "ours": "Sector 68, Golf Course Extension Road, Sector 68, Gurugram, Haryana",
+   "web": "Sector 66, Golf Course Extension Road (Badshahpur, near Marbella Villas), Gurugram",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://smartworlddevelopersgurgaon.in/smartworld-the-edition/",
+    "https://www.homebazaar.com/smart-world-edition-sector-66-gurgaon-7885",
+    "https://megarealtymax.com/residential-property/smart-world-the-edition-sector-66-gurgaon"
+   ],
+   "note": "All sources found (portals, broker and developer-affiliated pages) say Sector 66; none say Sector 68. Slug also carries the wrong sector.",
+   "slug": "smartworld-the-edition-sector-68-gurgaon",
+   "name": "Smartworld The Edition"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹7.99 Crores Onwards",
+   "web": "₹9.27 Cr onwards (3 BHK, 3,091 sq ft); range up to ₹14.81–15 Cr",
+   "verdict": "mismatch",
+   "severity": "high",
+   "sources": [
+    "https://www.smartworldgroup.in/trump-residences/",
+    "https://www.squareyards.com/gurgaon-residential-property/trump-residences/333136/project",
+    "https://www.sapientrealty.com/properties/trump-residences-gurgaon/"
+   ],
+   "note": "₹9.27 Cr is ~16% above our ₹7.99 Cr, just beyond the ±15% tolerance.",
+   "slug": "smartworld-the-trump-residences-sector-69-gurgaon",
+   "name": "Smartworld The Trump Residences"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK Small — 2,407 sq ft — Price on Request | 3 BHK Large — 3,562 sq ft — Price on Request | 4 BHK Small — 2,407 sq ft — Price on Request | 4 BHK Large — 2,624 sq ft — Price on Request",
+   "web": "3 BHK: 2,407 and 2,624 sq ft; 4 BHK: 3,257 and 3,562 sq ft (super area); penthouses also mentioned",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project",
+    "https://thewhitelistedestates.in/4s-the-aurrum-sector-59-gurgaon/"
+   ],
+   "note": "The sizes are attached to the wrong BHK types. 2,624 belongs to the 3 BHK Large, 3,562 to the 4 BHK Large, and the 3,257 sq ft 4 BHK is missing. 2,407 is repeated under 4 BHK.",
+   "slug": "4s-the-aurrum-sector-59-gurgaon",
+   "name": "4S The Aurrum"
+  },
+  {
+   "field": "landArea",
+   "ours": "5.43 Acres",
+   "web": "5.43 acres (99acres snippet); 10.07 acres (Whitelisted Estates and others); 11 acres (Square Yards); ~10 acres (aggregator)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.99acres.com/4s-the-aurrum-sector-59-gurgaon-npxid-r431059",
+    "https://thewhitelistedestates.in/4s-the-aurrum-sector-59-gurgaon/",
+    "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project"
+   ],
+   "note": "Sources disagree. 5.43 acres may be the RERA-registered phase and ~10 acres the whole site. This needs checking on HARERA.",
+   "slug": "4s-the-aurrum-sector-59-gurgaon",
+   "name": "4S The Aurrum"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 6; units: 243; floors: —",
+   "web": "6 towers (Whitelisted Estates, aggregators); 243 units (99acres snippet); 550 units and 'four residential clusters' (Square Yards)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://thewhitelistedestates.in/4s-the-aurrum-sector-59-gurgaon/",
+    "https://www.99acres.com/4s-the-aurrum-sector-59-gurgaon-npxid-r431059",
+    "https://www.squareyards.com/gurgaon-residential-property/4s-the-aurrum/308051/project"
+   ],
+   "note": "Our 6 towers and 243 units have support, but Square Yards gives 550 units. 99acres could not be fetched directly (HTTP 403), so the 243-unit figure comes from a search snippet.",
+   "slug": "4s-the-aurrum-sector-59-gurgaon",
+   "name": "4S The Aurrum"
+  },
+  {
+   "field": "configurations",
+   "ours": "4 BHK — 2,659 sq ft — Price on Request | 4 BHK — 3,291 sq ft — Price on Request | 4 BHK — 3,315 sq ft — Price on Request | 4 BHK — 4,079 sq ft — Price on Request | GF — 6,483 sq ft — Price on Request | GF — 6,494 sq ft — Price on Request | GF — 7,104 sq ft — Price on Request",
+   "web": "4 BHK carpet 2,659.71 sq ft (Towers A & C) and 3,291.59 sq ft (Towers B & D); 6 BHK duplex penthouses ~6,384-6,485 sq ft carpet; carpet range 2,659.71-6,484.99 sq ft",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.adanirealty.com/residential-projects/gurugram/lushlands"
+   ],
+   "note": "2,659 and 3,291 match. The 6,483/6,494 'GF' entries look like the 6 BHK duplex penthouses, not ground-floor units. No source confirmed 3,315, 4,079 or 7,104 sq ft. Square Yards lists only 4,750 sq ft, which is likely a super area.",
+   "slug": "adani-lushlands-gurgaon",
+   "name": "Adani Lushlands"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 4; units: 236; floors: —",
+   "web": "4 towers (A-D); 251 residences (Square Yards); 208 units (search aggregator); G+32 and G+22 floors (broker site)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.adanirealty.com/residential-projects/gurugram/lushlands",
+    "https://www.squareyards.com/gurgaon-residential-property/adani-lushlands/251901/project",
+    "https://www.luxuryresidencesindia.in/adani-lushlands-sector-2-gwal-pahari-gurgaon/"
+   ],
+   "note": "The tower count matches. The unit count is not confirmed, and sources disagree with each other.",
+   "slug": "adani-lushlands-gurgaon",
+   "name": "Adani Lushlands"
+  },
+  {
+   "field": "landArea",
+   "ours": "7.5 Acres",
+   "web": "7.5 acres (broker sites); 7 acres (Housiey); 5.5 acres (Square Yards); 3.44 acres (another site)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://housiey.com/projects/adani-samsara-ivana",
+    "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project",
+    "https://www.propzilla.in/property/adani-samsara-ivana-sector-63-gurgaon"
+   ],
+   "note": "Sources disagree widely. This may reflect different phases inside the larger 70-acre Samsara township.",
+   "slug": "adani-samsara-ivana-sector-63-gurgaon",
+   "name": "Adani Samsara Ivana"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "RERA possession 31 Dec 2031 (RERA Tracker); May 2031 (broker blog)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504",
+    "https://www.opulnzabode.com/adani-the-marq-sector-102-dwarka-expressway-gurgaon-2026/"
+   ],
+   "note": "We omit a possession date that is available (RERA: Dec 2031).",
+   "slug": "adani-the-marq-sector-102-gurgaon",
+   "name": "Adani The Marq"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK — 1,357 Sq ft — Price on request | 3 BHK+utility — 1,437 Sq ft — Price on request",
+   "web": "3 BHK and 3 BHK + Utility. Size figures conflict: 1,357 sq ft for a 3 BHK (labelled carpet on one broker site, super area for 3 BHK+Utility on Luxuryroof); 3 BHK+Utility RERA carpet 1,299.53 sq ft + 379 sq ft balcony; super areas 1,900-2,450 sq ft (NoBroker, Square Yards)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.luxuryroof.in/gurgaon/birla-pravaah",
+    "https://www.nobroker.in/birla-pravaah-sector-71_gurgaon-prjt-8a9f8f85999e2dc701999e33131200a0",
+    "https://www.squareyards.com/gurgaon-residential-property/birla-pravaah/341472/project"
+   ],
+   "note": "1,357 has some support. No source confirmed 1,437 sq ft. The area basis (carpet vs super) is unclear across sources.",
+   "slug": "aditya-birla-pravaah-sector-71-gurgaon",
+   "name": "Aditya Birla Pravaah"
+  },
+  {
+   "field": "status",
+   "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+   "web": "Under construction (Square Yards, PropnKey, Upscale Commercial); Ready to move (Houssed)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project",
+    "https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448",
+    "https://www.propnkey.com/property/aipl-autograph-sector-66-gurgaon/"
+   ],
+   "note": "Sources disagree; brokers cite possession Oct 2025 or Apr 2026, so the project may now be complete or near completion. Status should be re-checked.",
+   "slug": "aipl-autograph-sector-66-gurgaon",
+   "name": "AIPL Autograph"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹71 Lakhs Onwards",
+   "web": "₹65 Lacs onwards (PropnKey); ₹1.15–1.19 Cr (Houssed); ₹2.85 Cr – ₹8.36 Cr (Square Yards)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.propnkey.com/property/aipl-autograph-sector-66-gurgaon/",
+    "https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448",
+    "https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project"
+   ],
+   "note": "Within ±15% of one broker (₹65 L), but Houssed's starting price is ~65% higher and Square Yards' is ~4x higher. Sources disagree heavily.",
+   "slug": "aipl-autograph-sector-66-gurgaon",
+   "name": "AIPL Autograph"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹83 lakhs Onwards",
+   "web": "₹80 Lakh – ₹12 Cr (Houssed); Rs 60 lakh upward (ReraTracker); ₹1.47 Cr – ₹2.94 Cr at ₹24,500/sq ft (Square Yards)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410",
+    "https://reratracker.com/developers/aipl-35",
+    "https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project"
+   ],
+   "note": "Matches Houssed within ±15%, but Square Yards' current starting price is ~77% higher and ReraTracker's is ~28% lower. Sources disagree.",
+   "slug": "aipl-joy-district-sector-88-gurgaon",
+   "name": "AIPL Joy District"
+  },
+  {
+   "field": "rera",
+   "ours": "GGM/844/576/2024/71",
+   "web": "GGM/844/576/2024/71 (broker microsite aiplthelakecity.com only); other sources: RC/REP/HARERA/GGM/718/450/2023/127, RC/REP/HARERA/GGM/823/555/2024/50, GGM/1019/751/2025/122 (Riviera, registered 08.12.2025; HARERA ID RERA-GRG-2085-2025)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.aiplthelakecity.com/",
+    "https://megarealtymax.com/residential-property/aipl-lake-city-sector-103-gurgaon",
+    "https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details",
+    "https://reratracker.com/developers/aipl-35"
+   ],
+   "note": "Our number could not be confirmed on HARERA or a major portal; only a broker microsite quotes it. The township has several registrations, and the launched Riviera phase uses GGM/1019/751/2025/122. Verify on haryanarera.gov.in before relying on it.",
+   "slug": "aipl-lake-city-sector-103-gurgaon",
+   "name": "AIPL Lake City"
+  },
+  {
+   "field": "landArea",
+   "ours": "30 Acres",
+   "web": "17 acres Phase 1 / 30 acres planned (aiplthelakecity.com); 53 acres, expandable to 80, township (Megarealtymax, Togetherbuying); Riviera ~5.13 acres",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.aiplthelakecity.com/",
+    "https://megarealtymax.com/residential-property/aipl-lake-city-sector-103-gurgaon",
+    "https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details"
+   ],
+   "note": "Sources disagree; most describe a 53-acre township.",
+   "slug": "aipl-lake-city-sector-103-gurgaon",
+   "name": "AIPL Lake City"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 7; units: 800; floors: —",
+   "web": "7 towers, 25 floors, 800 units (aiplthelakecity.com); 710 units in Phase 1 with 46-storey towers (Megarealtymax); Riviera: 2 towers of G+43, ~332–500 units",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.aiplthelakecity.com/",
+    "https://megarealtymax.com/residential-property/aipl-lake-city-sector-103-gurgaon",
+    "https://togetherbuying.in/articles/aipl-lake-city-sector-103-gurgaon-price-floor-plan-location-and-project-details"
+   ],
+   "note": "Only a broker microsite states the same values; the registered Riviera phase is far smaller.",
+   "slug": "aipl-lake-city-sector-103-gurgaon",
+   "name": "AIPL Lake City"
+  },
+  {
+   "field": "possession",
+   "ours": "2027-12 (from: \"Possession is targeted for December 2027\")",
+   "web": "Expected completion December 2027 (LuxuryResidences; HRERA-cited per search results); possession March 2030 (Square Yards)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.luxuryresidences.in/anantraj-the-estate-residences-sector-63a-gurgaon/",
+    "https://www.squareyards.com/gurgaon-residential-property/anant-raj-the-estate-residences/244338/project"
+   ],
+   "note": "Sources disagree by over two years. The HARERA page fetched did not show the completion date, so Dec 2027 could not be confirmed directly on the portal. A Dec 2027 completion looks optimistic for 30–32 floor towers registered in Feb 2024. Consider showing both dates.",
+   "slug": "anant-raj-estate-residences-sector-63a-gurgaon",
+   "name": "Anant Raj Estate Residences"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 7; units: 150; floors: —",
+   "web": "7 towers, ~500–520 residences of 40–41 floors (umso blog, NoBroker ~500); ~556 total, 356 in Phase 1 across 4 towers (ReraTracker); 613 units (Square Yards)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://reratracker.com/birla-arika-in-sector-31-gurgaon-by-birla-estates-rtid3539",
+    "https://www.nobroker.in/birla-arika-sector-31_gurgaon-prjt-8a9fb983958d756d01958dad418f09ea",
+    "https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project",
+    "https://birlaarikagurgaon.umso.co/blog/birla-arika-price-list-2026-floor-plans-sizes-and-payment-plan-explained"
+   ],
+   "note": "The 7 towers match. Our 150 units is far below every source (~500–613), which overstates exclusivity and understates density by more than 3x.",
+   "slug": "birla-arika-sector-31-nh8-gurgaon",
+   "name": "Birla Arika"
+  },
+  {
+   "field": "configurations",
+   "ours": "T6 - Type 2 — 2,100 sq ft — Price on Request | T6 - Type 1 — 2,100 sq ft — Price on Request | T8 - Type 2 — 2,100 sq ft — Price on Request | T8 - Type 1 — 2,100 sq ft — Price on Request",
+   "web": "3 BHK only, carpet 1,621-1,689 sq ft (99acres, Inframantra); ~2,100 sq ft super area quoted by broker sites; NoBroker also lists 2 BHK 1,042-1,654 and 3 BHK 1,323-2,459 sq ft super built-up",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram",
+    "https://www.99acres.com/bptp-gaia-residences-at-amstoria-102-sector-102-gurgaon-npxid-r447895",
+    "https://www.larisarealtech.com/properties/bptp-gaia-residences",
+    "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c"
+   ],
+   "note": "Our labels are tower/type codes with no BHK count; 2,100 sq ft appears to be super area of the 3 BHK, whereas RERA-style carpet areas are 1,621-1,689 sq ft. Sources disagree on whether 2 BHK exists (NoBroker only).",
+   "slug": "bptp-gaia-residences-sector-102-gurgaon",
+   "name": "BPTP Gaia Residences"
+  },
+  {
+   "field": "landArea",
+   "ours": "12.08 Acres",
+   "web": "12.08 acres (Larisa, broker sites); 12 acres (NoBroker); 3 acres (Inframantra); 1.68 acres for this phase (99acres snippet)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.larisarealtech.com/properties/bptp-gaia-residences",
+    "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c",
+    "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram",
+    "https://www.99acres.com/bptp-gaia-residences-at-amstoria-102-sector-102-gurgaon-npxid-r447895"
+   ],
+   "note": "12.08 acres likely refers to the wider Amstoria licensed parcel; the registered phase may be much smaller (1.68-3 acres). Sources disagree.",
+   "slug": "bptp-gaia-residences-sector-102-gurgaon",
+   "name": "BPTP Gaia Residences"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹2.5 Crores Onwards",
+   "web": "Rs 2.11 Cr (NoBroker); Rs 3.05 Cr (Square Yards); Rs 3.06 Cr (Inframantra); Rs 3.50 Cr for 2 BHK (Propzilla)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d",
+    "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project",
+    "https://inframantra.com/property/bptp-amstoria-verti-greens-sector-102-gurgaon",
+    "https://www.propzilla.in/property/bptp-verti-green-sector-102-dwarka-expressway-gurgaon"
+   ],
+   "note": "No source is within ±15% of Rs 2.5 Cr: NoBroker is ~16% lower, while most portals are ~22%+ higher (~Rs 3.05 Cr). Sources bracket our value, so severity set to medium; current market entry appears closer to Rs 3 Cr.",
+   "slug": "bptp-verti-greens-sector-102-gurgaon",
+   "name": "BPTP Verti Greens"
+  },
+  {
+   "field": "configurations",
+   "ours": "2 BHK TYPE 2 — 908 sq ft — Price on Request | 2 BHK TYPE 1 — 908 sq ft — Price on Request | 3 BHK TYPE 2 — 1,270 sq ft — Price on Request | 3 BHK TYPE 3 — 1,270 sq ft — Price on Request | 3 BHK TYPE 1 — 1,272sq ft — Price on Request",
+   "web": "2 BHK carpet 1,021 / super 1,621 sq ft; 3 BHK carpet 1,622 / super 2,575 sq ft (NoBroker); Square Yards 2 BHK 1,451-1,751 and 3 BHK 1,828-1,941 sq ft; Inframantra 2 BHK 1,656 / 3 BHK 2,463 sq ft",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d",
+    "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project",
+    "https://inframantra.com/property/bptp-amstoria-verti-greens-sector-102-gurgaon"
+   ],
+   "note": "2 and 3 BHK mix confirmed, but our sizes (908 / 1,270 sq ft) were not found on any source; even the carpet areas quoted (1,021 / 1,622) are larger. Ours may be a narrower RERA carpet definition, but this could not be confirmed.",
+   "slug": "bptp-verti-greens-sector-102-gurgaon",
+   "name": "BPTP Verti Greens"
+  },
+  {
+   "field": "landArea",
+   "ours": "5.5 Acres",
+   "web": "4.84 acres (19,601.96 sq m) per RERA tracker and Square Yards; 4.85 acres (Propzilla); 5.5 acres on marketing/broker sites",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://reratracker.com/conscient-elevate-reserve-in-gurugram-by-conscient-infrastructure-private-limited-rtid3637",
+    "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project",
+    "https://www.propzilla.in/property/conscient-elevate-reserve-in-gurgaon",
+    "https://www.luxuryresidences.in/conscient-hines-elevate-reserve-sector-62-gurgaon/"
+   ],
+   "note": "5.5 acres is a marketing figure (possibly including the retail block); RERA-based area is 4.84 acres.",
+   "slug": "conscient-elevate-reserve-sector-62-gurgaon",
+   "name": "Elevate Reserve"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹1.50 Crores Onwards",
+   "web": "₹1.50 Cr onwards (therealtyinfo); ₹1.6 Cr (Triverse / dlfhomes); ₹2.38 Cr onwards for an 881 sq ft shop (Square Yards)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://therealtyinfo.in/property/dlf-club-arcade-sector-91-gurugram/",
+    "https://www.triversehomes.com/dlf-club-arcade-sector-91-gurgaon/",
+    "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project"
+   ],
+   "note": "Broker sources match ₹1.5–1.6 Cr, but Square Yards' current listing starts at ₹2.38 Cr (~59% higher). Sources disagree; our figure may reflect launch pricing.",
+   "slug": "dlf-club-arcade-sector-91-gurgaon",
+   "name": "Club Arcade DLF"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹6.30 Crore Onwards",
+   "web": "₹6.90 Cr onwards (broker pages); ₹7.50 Cr – ₹11.47 Cr (Square Yards)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project",
+    "https://wealthwayluxury.com/dlf-privana-south/"
+   ],
+   "note": "Within 15% of the ₹6.90 Cr broker figure (+9.5%) but ~19% below Square Yards' ₹7.50 Cr. Sources disagree. Our figure is the lowest seen and may be launch-era pricing.",
+   "slug": "dlf-privana-south-sector-77-gurgaon",
+   "name": "DLF Privana South"
+  },
+  {
+   "field": "rera",
+   "ours": "RERA-GRG-1540-2024",
+   "web": "Registration certificate RC/REP/HARERA/GGM/819/551/2024/46 dated 18.04.2024; HARERA project/application ID RERA-GRG-1540-2024",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.dlf.in/homes/luxury/privanawest/",
+    "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617"
+   ],
+   "note": "Our value is the HARERA project/application ID (reratracker), not the registration certificate number that DLF publishes. We should show RC/REP/HARERA/GGM/819/551/2024/46.",
+   "slug": "dlf-privana-west-sector-76-gurgaon",
+   "name": "DLF Privana West"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹11 Crores Onwards",
+   "web": "₹9.44 Cr (Square Yards; ₹27,250/sq ft asking); ₹8.49 Cr onwards (broker); launch ~₹7 Cr per unit (2023 news)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/dlf-the-arbour/214735/project",
+    "https://wegrowinfraventures.com/gurgaon/residential/dlf-the-arbour",
+    "https://reratracker.com/dlf-arbour-in-sector-63-gurgaon-by-dlf-rtid4242"
+   ],
+   "note": "Ours is ~16.5% above Square Yards' ₹9.44 Cr and ~30% above the ₹8.49 Cr broker figure. However, Square Yards' own ₹27,250/sq ft × ~3,950 sq ft ≈ ₹10.8 Cr, close to ours. Sources are internally inconsistent; the project is sold out, so all prices are resale. Severity is medium rather than high for that reason.",
+   "slug": "dlf-the-arbour-sector-63-gurgaon",
+   "name": "DLF The Arbour"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹1 Crores Onwards",
+   "web": "₹74.25 Lac (Square Yards, 300 sq ft shop); ₹92.85 Lakh (megarealtymax); ₹70 Lakh (propzilla)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project",
+    "https://megarealtymax.com/commercial-property/elan-empire-gurgaon-sector-66",
+    "https://www.propzilla.in/property/elan-empire-sector-66-gurugram"
+   ],
+   "note": "megarealtymax (₹92.85 L) is within 15% of ours, but Square Yards (₹74.25 L) and propzilla (₹70 L) are 26-30% lower.",
+   "slug": "elan-empire-sector-66-gurgaon",
+   "name": "Elan Empire"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹1.43 Crores Onwards",
+   "web": "₹1.3 Cr onwards (marketing partner site); ₹1.89 Cr for 636 sq ft shop (Square Yards)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.elan.co.in/elan-imperial-sector-82-gurgaon/",
+    "https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project"
+   ],
+   "note": "₹1.3 Cr is within 15% of ours, but Square Yards' ₹1.89 Cr is about 32% higher. Sources disagree.",
+   "slug": "elan-imperial-sector-82-gurgaon",
+   "name": "Elan Imperial"
+  },
+  {
+   "field": "rera",
+   "ours": "GGM/447/179/2021/15",
+   "web": "GGM/447/179/2021/15 (Phase 1, registered 22.03.2021); GGM/584/316/2022/59 (Square Yards)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.propzilla.in/property/elan-paradise-sector-50-gurugram",
+    "https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194",
+    "https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project"
+   ],
+   "note": "Our number is correct for Phase 1. The 2022 registration (GGM/584/316/2022/59) is missing from our page.",
+   "slug": "elan-paradise-sector-50-gurgaon",
+   "name": "Elan Paradise"
+  },
+  {
+   "field": "status",
+   "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+   "web": "Under Construction (propzilla); Ready to Move (Square Yards, houssed)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.propzilla.in/property/elan-paradise-sector-50-gurugram",
+    "https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project",
+    "https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194"
+   ],
+   "note": "Sources disagree. The project may be at or near completion.",
+   "slug": "elan-paradise-sector-50-gurgaon",
+   "name": "Elan Paradise"
+  },
+  {
+   "field": "possession",
+   "ours": "2026-09 (from: \"possession timeline is September 2026\")",
+   "web": "30 June 2026 (houssed, Square Yards); September 2025 (propzilla)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194",
+    "https://www.squareyards.com/gurgaon-residential-property/elan-paradise/103855/project",
+    "https://www.propzilla.in/property/elan-paradise-sector-50-gurugram"
+   ],
+   "note": "No source gives September 2026. Our date is 3 to 12 months later than the dates found.",
+   "slug": "elan-paradise-sector-50-gurgaon",
+   "name": "Elan Paradise"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK — 2,450 sq ft — Price on Request | 3 BHK — 2,750 sq ft — Price on Request | 4 BHK — 3,075 sq ft — Price on Request | 4 BHK — 3,375 sq ft — Price on Request | 5 BHK — 4,095 sq ft — Price on Request | 5 BHK — 4,495 sq ft — Price on Request",
+   "web": "3 BHK 2,450 / 2,700; 4 BHK 3,075 / 3,395; 5 BHK 4,095 / 4,495 sq ft; plus penthouses 4,210 / 5,322 / 7,362 sq ft",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.luxuryroof.in/gurgaon/elan-the-presidential-sector-106",
+    "https://www.squareyards.com/gurgaon-residential-property/elan-the-presidential/205270/project"
+   ],
+   "note": "Our 2,750 and 3,375 sq ft sizes differ from the sources' 2,700 and 3,395 sq ft. The other four sizes match. We leave out the penthouses.",
+   "slug": "elan-the-presidential-sector-106-gurgaon",
+   "name": "Elan The Presidential"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 8; units: 886; floors: —",
+   "web": "8 towers, 866 units, 32 floors",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://reratracker.com/elan-the-presidential-in-sector-106-gurgaon-by-elan-rtid3631",
+    "https://www.luxuryroof.in/gurgaon/elan-the-presidential-sector-106",
+    "https://www.squareyards.com/gurgaon-residential-property/elan-the-presidential/205270/project"
+   ],
+   "note": "The 8 towers match, but our 886 units differ from the 866 every source gives (likely a typo).",
+   "slug": "elan-the-presidential-sector-106-gurgaon",
+   "name": "Elan The Presidential"
+  },
+  {
+   "field": "possession",
+   "ours": "2030-12 (from: \"possession is December 2030\")",
+   "web": "Developer: 'expected by 2030'; propertyveda: RERA completion September 2032, marketed ~2030; moneytreerealty: June 2033; other listings: October 2029",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.elan.co.in/elan-statement-sector-49-gurgaon/",
+    "https://www.propertyveda.com/property/elan-the-statement/",
+    "https://moneytreerealty.com/real-estate-projects/elan-the-statement-sector-49-gurgaon"
+   ],
+   "note": "December 2030 agrees with the developer's marketed 'by 2030'. The RERA completion date reported by portals (Sept 2032) is about 21 months later, and sources disagree with each other. Consider showing the RERA date as well.",
+   "slug": "elan-the-statement-sector-49-sohna-road-gurgaon",
+   "name": "Elan The Statement"
+  },
+  {
+   "field": "configurations",
+   "ours": "4 BHK Luxury Apartment — 4,285 sq ft — Price on Request | 4 BHK + Study — 4,500 sq ft — Price on Request | Duplex Penthouse — 7,500 sq ft — Price on Request",
+   "web": "4 BHK+SQ 4,285 sq ft (typical/corner); 4 BHK+SQ 4,340 sq ft (Tower 4); 5 BHK+SQ penthouses 7,270–7,395 sq ft",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.elan.co.in/elan-statement-sector-49-gurgaon/",
+    "https://www.propertyveda.com/property/elan-the-statement/"
+   ],
+   "note": "4,285 sq ft matches. No source lists a 4 BHK + Study of 4,500 sq ft; the second type is 4,340 sq ft. Penthouses are 7,270–7,395 sq ft 5 BHK+SQ units, not 7,500 sq ft.",
+   "slug": "elan-the-statement-sector-49-sohna-road-gurgaon",
+   "name": "Elan The Statement"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 5; units: 380; floors: —",
+   "web": "Towers: 6 (developer page), 5 (propertyveda, moneytreerealty, other listings); units: 458 (propertyveda), ~380 (moneytreerealty), 538 (another listing); floors G+35 to G+38",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.elan.co.in/elan-statement-sector-49-gurgaon/",
+    "https://www.propertyveda.com/property/elan-the-statement/",
+    "https://moneytreerealty.com/real-estate-projects/elan-the-statement-sector-49-gurgaon"
+   ],
+   "note": "Sources conflict. The developer page says 6 towers. Only one source supports 380 units.",
+   "slug": "elan-the-statement-sector-49-sohna-road-gurgaon",
+   "name": "Elan The Statement"
+  },
+  {
+   "field": "possession",
+   "ours": "2029-12 (from: \"possession is scheduled for December 2029\")",
+   "web": "RERA completion date 30 Aug 2030 (reratracker); Square Yards: August 2030; 99acres: from August 2029",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://reratracker.com/amaris-in-gurugram-by-emaar-india-limited-rtid3479",
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project",
+    "https://www.99acres.com/emaar-amaris-sector-62-gurgaon-npxid-r432558"
+   ],
+   "note": "No source states December 2029. The RERA date is 8 months later than ours, and 99acres is 4 months earlier.",
+   "slug": "emaar-amaris-sector-62-gurgaon",
+   "name": "Emaar Amaris"
+  },
+  {
+   "field": "rera",
+   "ours": "RC/REP/HARERA/GGM/993/725/2025/96",
+   "web": "Phase 1: GGM/993/725/2025/96; Phase 2: GGM/994/726/2025/97",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project",
+    "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"
+   ],
+   "note": "Our number is correct for Phase 1, but we omit the Phase 2 registration.",
+   "slug": "emaar-serenity-hills-sector-86-gurgaon",
+   "name": "Emaar Serenity Hills"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 7; units: 1800; floors: —",
+   "web": "13 towers (G+32 to G+39), 997 units",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project",
+    "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"
+   ],
+   "note": "Both the tower count and the unit count differ substantially.",
+   "slug": "emaar-serenity-hills-sector-86-gurgaon",
+   "name": "Emaar Serenity Hills"
+  },
+  {
+   "field": "possession",
+   "ours": "2028-12 (from: \"possession date is December 2028\")",
+   "web": "RERA completion July 2027 (wealthyventuresestate, 'as per HRERA document'); Square Yards: September 2028; NoBroker: October 2028; other listings: Sep 2029",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://wealthyventuresestate.com/house/emaar-urban-oasis-sector-62-golf-course-ext-road/",
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project",
+    "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"
+   ],
+   "note": "Ours is 2–3 months after the portal dates. The reported RERA date (July 2027) is 17 months earlier than ours and may have been extended. Sources disagree.",
+   "slug": "emaar-urban-oasis-sector-62-gurgaon",
+   "name": "Emaar Urban Oasis"
+  },
+  {
+   "field": "configurations",
+   "ours": "2 BHK — 1,500 sq ft — Price on Request | 3 BHK — 2,212 sq ft — Price on Request | 3 BHK — 2,262 sq ft — Price on Request | 4 BHK — 3,039 sq ft — Price on Request",
+   "web": "wealthyventuresestate: 2 BHK 1,525, 3 BHK 2,124–4,770, 4 BHK 3,589–5,224 sq ft; Square Yards: 3 BHK 2,122/2,410, 4 BHK 3,040/5,266 sq ft (no 2 BHK); NoBroker carpet: 2 BHK 900, 3 BHK 1,343, 4 BHK 1,804–2,783 sq ft",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://wealthyventuresestate.com/house/emaar-urban-oasis-sector-62-golf-course-ext-road/",
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project",
+    "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"
+   ],
+   "note": "Only 4 BHK 3,039 (vs 3,040) and 3 BHK 2,262 (cited as a range bound) are close. Our 2 BHK 1,500 and 3 BHK 2,212 were not found exactly. The larger duplex and penthouse sizes (up to 5,266 sq ft) are missing from our data.",
+   "slug": "emaar-urban-oasis-sector-62-gurgaon",
+   "name": "Emaar Urban Oasis"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 5; units: 424; floors: —",
+   "web": "wealthyventuresestate: 5 towers, 424 units; Square Yards: 4 towers (up to 26 floors), 525 units; NoBroker: 4 towers (G+30), 540 units",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://wealthyventuresestate.com/house/emaar-urban-oasis-sector-62-golf-course-ext-road/",
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project",
+    "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"
+   ],
+   "note": "One source matches us exactly, but the two major portals both say 4 towers with 525–540 units. The difference may reflect phase scope.",
+   "slug": "emaar-urban-oasis-sector-62-gurgaon",
+   "name": "Emaar Urban Oasis"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK — 2,013 sq ft — Price on Request | 4 BHK — 1,905 sq ft — Price on Request",
+   "web": "3 BHK 2,842–2,917 sq ft and 4 BHK 3,529–3,601 sq ft (super area); propgrow: 3 BHK 3,000 / 4 BHK 3,600 sq ft; Square Yards: 3 BHK 2,800/3,000, 4 BHK 3,600 sq ft (saleable)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.experionrealty.com/experion-trillion/",
+    "https://www.squareyards.com/gurgaon-residential-property/experion-the-trillion/325517/project",
+    "https://www.propgrow.in/properties/experion-the-trillion",
+    "https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244"
+   ],
+   "note": "No source lists 2,013 or 1,905 sq ft. Our 4 BHK being smaller than our 3 BHK suggests a data error, possibly swapped or partial carpet figures.",
+   "slug": "experion-the-trillion-sector-48-gurgaon",
+   "name": "Experion The Trillion"
+  },
+  {
+   "field": "rera",
+   "ours": "RC/REP/HARERA/GGM/908/640/2025/11",
+   "web": "Phase 1 (Tower E): RC/REP/HARERA/GGM/907/639/2025/10; Phase 2 (Tower D): RC/REP/HARERA/GGM/908/640/2025/11; Phase 4 (Towers A & B, club, commercial): RC/REP/HARERA/GGM/906/638/2025/09",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+    "https://infraguiderealtors.com/hero-homes-palatial-sector-104-gurgaon-p365"
+   ],
+   "note": "Our number is correct but covers only Phase 2 (Tower D). The project has at least three HARERA registrations; some sites cite only Phase 1 ('10 of 2025').",
+   "slug": "hero-homes-the-palatial-sector-104-gurgaon",
+   "name": "Hero Homes The Palatial"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 5; units: 750; floors: —",
+   "web": "5 towers (A-E), G+43; units: 552 (Square Yards), 500 / 650 (other listings)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+    "https://www.100acress.com/hero-homes-palatial/"
+   ],
+   "note": "Tower count (5) matches; one site says 4 towers. No source gives 750 units: sources say 500, 552 or 650. Floors (G+43) are available but we don't publish them.",
+   "slug": "hero-homes-the-palatial-sector-104-gurgaon",
+   "name": "Hero Homes The Palatial"
+  },
+  {
+   "field": "developer",
+   "ours": "Hines (listed as \"Hines Elevate\")",
+   "web": "Conscient Infrastructure Pvt. Ltd. in partnership with Hines",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+    "https://www.realestateindia.com/projects/conscient-hines-elevate-in-sector-59-gurgaon-pjid-43490/"
+   ],
+   "note": "Sources list Conscient as the developer/promoter, with Hines as partner. Naming only Hines leaves out the primary developer.",
+   "slug": "hines-elevate-sector-59-gurgaon",
+   "name": "Hines Elevate"
+  },
+  {
+   "field": "status",
+   "ours": "ready (source: READY)",
+   "web": "Ready to move (Square Yards); other sources: one phase ready since Dec 2024, remaining phase due Jan 2026; towers D and E listed as future development",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+    "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/"
+   ],
+   "note": "Phase 1 (towers A-C) is ready. Square Yards lists towers D and E as future development, so the whole project is not ready.",
+   "slug": "hines-elevate-sector-59-gurgaon",
+   "name": "Hines Elevate"
+  },
+  {
+   "field": "possession",
+   "ours": "2028-12 (from: \"possession date is December 2028\")",
+   "web": "Jun 2029 (PropertyPistol; realtyhunting search summary); 2028 (other listings); portals also print Jun 2026, May 2028, Jul 2028; developer reportedly says delivery by 2031",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043",
+    "https://realtyhunting.com/residential/m3m-altitude/",
+    "https://m3mpropertyindia.com/residential/gurgaon/m3m-altitude-sector-65/"
+   ],
+   "note": "Sources disagree widely. Several say 2028, which fits our Dec 2028, but PropertyPistol gives Jun 2029 and one source cites developer delivery by 2031. I couldn't confirm the HARERA completion date directly.",
+   "slug": "m3m-altitude-sector-65-gurgaon",
+   "name": "M3M Altitude"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 3; units: 128; floors: —",
+   "web": "3 towers, G+39 / G+43 floors; ~342-480 units (sources vary; ~350 typical)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://m3mpropertyindia.com/residential/gurgaon/m3m-altitude-sector-65/",
+    "https://realtyhunting.com/residential/m3m-altitude/"
+   ],
+   "note": "Tower count (3) matches. No source gives 128 units: sources say 342-480. Floors (G+39 / G+43) are available but we don't publish them.",
+   "slug": "m3m-altitude-sector-65-gurgaon",
+   "name": "M3M Altitude"
+  },
+  {
+   "field": "rera",
+   "ours": "RC/REP/HARERA/GGM/605/337/2022/80",
+   "web": "Phase-1: HARERA/GGM/605/337/2022/80; Phase-2: RC/REP/HARERA/GGM/612/344/2022/87 (dated 28.09.2022)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.m3mindian.com/m3m-capital-walk/",
+    "https://megarealtymax.com/sco-property/m3m-capital-walk-sector-113-gurgaon",
+    "https://realtyassistant.in/property/m3m-capital-walk-sector-113-gurgaon"
+   ],
+   "note": "Our number is correct for Phase 1 only. Most portals cite the Phase-2 number, which we don't publish.",
+   "slug": "m3m-capital-walk-sector-113-gurgaon",
+   "name": "M3M Capital Walk"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹1 Crore Onwards",
+   "web": "₹75 Lakh onwards (Propzilla); ₹1.20 Cr (m3mindian); ₹1.25 Cr (other listing); ₹53.34 L for 373 sq ft (cityspaceindia); ₹2.5 Cr (megarealtymax); ₹6.54 Cr (RealtyAssistant listing)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.propzilla.in/property/m3m-capital-walk-sector-113-gurgaon",
+    "https://www.m3mindian.com/m3m-capital-walk/",
+    "https://www.cityspaceindia.com/j/M3M-CAPITAL-WALK-113-Gurugram-(373-SqFt-to-373-SqFt)----5334-Lac-onwards/GPROJ171222-144153-1436",
+    "https://megarealtymax.com/sco-property/m3m-capital-walk-sector-113-gurgaon"
+   ],
+   "note": "Sources disagree widely and none states ₹1 Cr. The closest figures (₹75 L, ₹1.20 Cr) are each 20-25% away. Our value sits inside the range of sources but has no exact support.",
+   "slug": "m3m-capital-walk-sector-113-gurgaon",
+   "name": "M3M Capital Walk"
+  },
+  {
+   "field": "landArea",
+   "ours": "18.95 Acres",
+   "web": "18.95 acres / 876 units (portal search summary); 12 acres (ananthamgroup); 7.71 acres (m3mindian, riseinfraventures); 2 acres (Propzilla)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://m3mdevelopments.com/m3m-capital-walk-sector-113-gurugram",
+    "https://www.ananthamgroup.com/m3m-capital.html",
+    "https://www.m3mindian.com/m3m-capital-walk/",
+    "https://riseinfraventures.com/property-detail/m3m-capital-walk"
+   ],
+   "note": "Sources conflict. Search summaries support 18.95 acres, but I couldn't open that page (m3mdevelopments.com returned 404), and several sites give 7.71 acres. The 18.95 figure may cover a larger M3M Capital land parcel than Capital Walk alone.",
+   "slug": "m3m-capital-walk-sector-113-gurgaon",
+   "name": "M3M Capital Walk"
+  },
+  {
+   "field": "possession",
+   "ours": "2028-12 (from: \"possession date is December 2028\")",
+   "web": "January 2028 (Square Yards, VRK and most listings); February 2028 (one listing)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project",
+    "https://www.vrkhomeestates.com/m3m-crown-sector-111-gurgaon/"
+   ],
+   "note": "Ours is about 11 months later than the date most sources give. No source found cites December 2028.",
+   "slug": "m3m-crown-sector-111-gurgaon",
+   "name": "M3M Crown"
+  },
+  {
+   "field": "rera",
+   "ours": "GGM/704/436/2023/48",
+   "web": "GGM/704/436/2023/48 (Phase 1, dated 29.03.2023); GGM/809/541/2024/36 (Phase 2)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-golf-hills/220071/project",
+    "https://realtyassistant.in/property/m3m-golf-hills-sector-79-gurgaon"
+   ],
+   "note": "Our number is correct for Phase 1, but Square Yards lists a second RERA number for Phase 2.",
+   "slug": "m3m-golf-hills-sector-79-gurgaon",
+   "name": "M3M Golf Hills"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 26; units: 1809; floors: —",
+   "web": "16 towers, 1,899 units (Square Yards, whole project); 11 towers G+29, 1,309+ units (Phase 1, Propzilla)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-golf-hills/220071/project",
+    "https://www.propzilla.in/property/m3m-golf-hills-sector-79-gurgaon"
+   ],
+   "note": "No source supports 26 towers or 1,809 units.",
+   "slug": "m3m-golf-hills-sector-79-gurgaon",
+   "name": "M3M Golf Hills"
+  },
+  {
+   "field": "location",
+   "ours": "Golf Course Extension Road, Sector 25, Sector 25, Gurugram, Haryana",
+   "web": "MG Road, Sector 25 (DLF Phase 2), Gurgaon, next to MG Road Metro Station",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project",
+    "https://realtyassistant.in/property/m3m-jewel-sector-25-mg-road-gurgaon"
+   ],
+   "note": "Sector 25 is correct, but the project is on MG Road, not Golf Course Extension Road.",
+   "slug": "m3m-jewel-sector-25-gurgaon",
+   "name": "M3M Jewel"
+  },
+  {
+   "field": "status",
+   "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+   "web": "Under Construction (Square Yards); Ready to Move (Propzilla, RealtyAssistant)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-jewel/208748/project",
+    "https://www.propzilla.in/property/m3m-jewel-sector-25-gurgaon",
+    "https://realtyassistant.in/property/m3m-jewel-sector-25-mg-road-gurgaon"
+   ],
+   "note": "The sources disagree, and two of them say the project is ready to move.",
+   "slug": "m3m-jewel-sector-25-gurgaon",
+   "name": "M3M Jewel"
+  },
+  {
+   "field": "rera",
+   "ours": "RC/REP/HARERA/GGM/802/534/2024/29",
+   "web": "GGM/802/534/2024/29 and GGM/916/648/2025/19",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project",
+    "https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876"
+   ],
+   "note": "Our number is correct, but the project has a second registration (GGM/916/648/2025/19), which looks like Phase 2.",
+   "slug": "m3m-mansion-sector-113-gurgaon",
+   "name": "M3M Mansion"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 8; units: 1000; floors: —",
+   "web": "8 towers, G+32 (HomeBazaar, Houssed); units 961 (Houssed), 1,205 (Square Yards, which lists towers A–K plus EWS), about 1,212 (search snippet)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876",
+    "https://houssed.com/gurgaon/m3m-group/m3m-mansion-112180",
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project"
+   ],
+   "note": "The 8-tower count is confirmed. No source gives 1,000 units, and the sources disagree with each other.",
+   "slug": "m3m-mansion-sector-113-gurgaon",
+   "name": "M3M Mansion"
+  },
+  {
+   "field": "landArea",
+   "ours": "1.5 Acres",
+   "web": "3.16 acres",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-paragon-57/212144/project",
+    "https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073"
+   ],
+   "note": "Every source gives 3.16 acres.",
+   "slug": "m3m-paragon-57-sector-57-gurgaon",
+   "name": "M3M Paragon57"
+  },
+  {
+   "field": "rera",
+   "ours": "GGM/605/337/2022/80",
+   "web": "GGM/605/337/2022/80 (Propzilla, and others per search); RC/REP/HARERA/GGM/803/535/2024/30, dated 27.03.2024 (RealtyPromoo)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.propzilla.in/property/m3m-route-65-sector-65-gurgaon",
+    "https://realtypromoo.com/projects/m3m-route-65"
+   ],
+   "note": "The sources conflict on the RERA number. We could not confirm on the HARERA portal which number belongs to Route 65, or whether both do (for example, as separate phases).",
+   "slug": "m3m-route-65-sector-65-gurgaon",
+   "name": "M3M Route 65"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹1 Crores",
+   "web": "₹90 L–5.4 Cr (100acress, via search snippet); ₹75 L–10 Cr (RealtyPromoo); ₹68 L onwards (Propzilla); ₹54 L–3.85 Cr (search snippet)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.100acress.com/m3m-route-65/",
+    "https://realtypromoo.com/projects/m3m-route-65",
+    "https://www.propzilla.in/property/m3m-route-65-sector-65-gurgaon"
+   ],
+   "note": "Only 100acress (₹90 L) is within 15% of ours. Most sources start 25–46% lower.",
+   "slug": "m3m-route-65-sector-65-gurgaon",
+   "name": "M3M Route 65"
+  },
+  {
+   "field": "developer",
+   "ours": "M3M India (listed as \"M3M Trump Towers\")",
+   "web": "Tribeca Developers (Trump brand licensee) in collaboration with M3M India; NoBroker lists Tribeca Developers as developer",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9",
+    "https://www.m3mproperties.com/residential/gurugram/m3m-trump-towers-sector-65/",
+    "https://www.trueassetconsultancy.com/property/trump-tower-sector-65-gurgaon/"
+   ],
+   "note": "M3M India is a development partner, but Tribeca Developers is the co-developer/brand licensee; the 'listed as' value is just the project name, not a developer.",
+   "slug": "m3m-trump-towers-sector-65-gurgaon",
+   "name": "M3M Trump Towers"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹11 Crores Onwards",
+   "web": "₹12.34 Cr onwards (broker site); NoBroker ₹14 Cr - ₹18 Cr; m3mproperties.com lists stale prices from ₹4.85 Cr",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://luxurybrandedresidences.in/the-trump-era-of-real-estate-why-trump-towers-gurgaon-is-becoming-ultimate-prestige-investment/",
+    "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9",
+    "https://www.m3mproperties.com/residential/gurugram/m3m-trump-towers-sector-65/"
+   ],
+   "note": "Sources disagree: ₹12.34 Cr is within 15% of ours, NoBroker's ₹14 Cr is ~27% higher. Likely understated for the resale/ready market.",
+   "slug": "m3m-trump-towers-sector-65-gurgaon",
+   "name": "M3M Trump Towers"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹9.5 Crore Onwards",
+   "web": "₹9.50 Cr onwards (broker site); ₹10 Cr onwards (gurgaon-projects); ₹10.9 Cr (whitecollarrealty, BSP ₹23,000/sq ft); ₹12.99 Cr onwards (Square Yards)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.gurgaon-projects.com/projects/paras-manor.php",
+    "https://whitecollarrealty.com/residential_property/paras-manor",
+    "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project"
+   ],
+   "note": "Sources disagree; ₹10-10.9 Cr are within 15%, but Square Yards' ₹12.99 Cr is ~37% higher, suggesting our figure may be the launch price and now stale.",
+   "slug": "paras-manor-sector-2-gurgaon",
+   "name": "Paras Manor"
+  },
+  {
+   "field": "rera",
+   "ours": "GGM/787/519/14/2024",
+   "web": "RC/REP/HARERA/GGM/787/519/2024/14 dated 19.02.2024",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.360realtors.com/puri-construction-diplomatic-residences-sector-111-gurgaon-uid-6888",
+    "https://housivity.com/buy-puri-diplomatic-residences-by-puri-constructions-in-sector-111-gurgaon-pid-67e1496eb2ed5b24a4e988a9",
+    "https://www.expresswayproperties.com/puri-diplomatic-residences/"
+   ],
+   "note": "Same components, but year and serial are swapped; the correct format is GGM/787/519/2024/14. A search on HARERA with our string would fail.",
+   "slug": "puri-diplomatic-residency-sector-111-gurgaon",
+   "name": "Puri Diplomatic Residency"
+  },
+  {
+   "field": "configurations",
+   "ours": "2nd Floor — 2282 Sq.ft — Price on Request | 3rd Floor — 2440 Sq.ft — Price on Request | 4th Floor — 3475 Sq.ft — Price on Request",
+   "web": "3 BHK + 3T 2,282 sq ft; 3.5 BHK 2,380 sq ft; 3 BHK + 3T 2,440 sq ft; 4 BHK + 4T + S 3,475 sq ft",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.360realtors.com/puri-construction-diplomatic-residences-sector-111-gurgaon-uid-6888"
+   ],
+   "note": "Sizes match, but our labels ('2nd/3rd/4th Floor') are wrong; they should be 3 BHK / 3 BHK / 4 BHK. A 2,380 sq ft 3.5 BHK variant is missing.",
+   "slug": "puri-diplomatic-residency-sector-111-gurgaon",
+   "name": "Puri Diplomatic Residency"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 4; units: 320; floors: —",
+   "web": "2 towers (Tower A and B), G+40 to G+42 floors; 324 units (Square Yards, propsaltlandbase) or 640 units (luxuryresidences.in)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project",
+    "https://www.propsaltlandbase.com/property/puri-the-aravallis-sector-61-gurgaon/",
+    "https://www.luxuryresidences.in/puri-aravallis-sector-61-gurgaon/"
+   ],
+   "note": "No source supports 4 towers; units are 324 (or 640 across the full project), not 320. Our figure may combine phases incorrectly.",
+   "slug": "puri-the-aravallis-sector-61-gurgaon",
+   "name": "Puri The Aravallis"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹6 Crore Onwards",
+   "web": "Rs 5.94 Cr + charges (3 BHK 1,980 carpet, Larisa); ~Rs 6.47 Cr base (reratracker); Rs 6.84 Cr (Sapient); Rs 7.27 Cr starting on developer site",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.larisarealtech.com/properties/shapoorji-pallonji-the-dualis",
+    "https://reratracker.com/shapoorji-the-dualis-in-sector-46-gurgaon-by-shapoorji-pallonji-rtid5134",
+    "https://www.sapientrealty.com/properties/shapoorji-pallonji-dualis-sector-46/",
+    "https://shapoorjirealestate.com/residential/the-dualis"
+   ],
+   "note": "Broker figures are within 15% of ours, but the developer's own site quotes Rs 7.27 Cr (21% higher). Sources disagree.",
+   "slug": "shapoorji-pallonji-the-dualis-sector-46-gurgaon",
+   "name": "Shapoorji Pallonji The Dualis"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 8; units: 613; floors: —",
+   "web": "608 units (launch news, phase 1); 5 towers / 608 units (Square Yards); 7 towers / ~613 units (other listings)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.angelone.in/news/share-market/signature-global-sees-overwhelming-sales-titanium-spr-gurgaon",
+    "https://www.squareyards.com/gurgaon-residential-property/signature-global-titanium-spr/249570/project",
+    "https://www.amoghbuildtech.com/projects/signature-global-titanium-spr-sector-71-gurugram"
+   ],
+   "note": "No source found for 8 towers; sources disagree among themselves (5 vs 7). Units 613 vs 608 is minor.",
+   "slug": "signature-global-titanium-spr-sector-71-gurgaon",
+   "name": "Signature Global Titanium SPR"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 5; units: 956; floors: —",
+   "web": "5 towers, G+35/36 floors, 410 units",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.luxuryresidences.in/silverglades-legacy-sector-63a-gurgaon/",
+    "https://www.propzilla.in/property/silverglades-legacy-sector-63a-gurgaon",
+    "https://housiey.com/projects/silverglades-the-legacy"
+   ],
+   "note": "Listings give 410 units; no source found for 956.",
+   "slug": "silverglades-the-legacy-sector-63a-gurgaon",
+   "name": "Silverglades The Legacy"
+  },
+  {
+   "field": "rera",
+   "ours": "HARERA/GGM/645/377/2022/120",
+   "web": "RC/REP/HARERA/GGM/645/377/2022/120 (phase 1, 13.12.2022); also GGM/652/384/2022/127 and GGM/842/574/2024/69 (phase 2)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+    "https://www.sapientrealty.com/properties/smartworld-one-dxp-sector-113-gurgaon/",
+    "https://housiey.com/projects/smart-world-one-dxp"
+   ],
+   "note": "Our number is correct for phase 1 only; the project has multiple registrations.",
+   "slug": "smartworld-one-dxp-sector-113-gurgaon",
+   "name": "Smartworld One DXP"
+  },
+  {
+   "field": "landArea",
+   "ours": "12 Acres",
+   "web": "14 acres (Square Yards, LuxuryResidences); 6.97635 acres registered, part of 11.66875-acre licensed parcel (reratracker/RERA)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+    "https://www.luxuryresidences.in/smartworld-sky-arc-at-sector-69-gurgaon/",
+    "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138"
+   ],
+   "note": "No source gives 12 acres; 11.67 acres is the shared licensed parcel incl. Trump Residences.",
+   "slug": "smartworld-skyarc-sector-gurgaon-sector-69",
+   "name": "Smartworld SkyArc"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 6; units: 633; floors: —",
+   "web": "6 towers, G+41 floors, 952 units",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+    "https://www.luxuryresidences.in/smartworld-sky-arc-at-sector-69-gurgaon/",
+    "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138"
+   ],
+   "note": "Towers match; units 633 vs 952 consistently reported.",
+   "slug": "smartworld-skyarc-sector-gurgaon-sector-69",
+   "name": "Smartworld SkyArc"
+  },
+  {
+   "field": "possession",
+   "ours": "2028-12 (from: \"possession is scheduled for December 2028\")",
+   "web": "December 2028 per some sources citing HRERA documents; December 2030 per Square Yards and others; Aug 2030 and Apr 2027 also seen",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.sobharanya80gurugram.in/",
+    "https://whitecollarrealty.com/blogs/frequently-asked-questions-about-sobha-aranya",
+    "https://www.squareyards.com/gurgaon-residential-property/sobha-aranya/247019/project",
+    "https://www.sobhacitygurgaon.org.in/blog/sobha-aranya-sector-80-price-review/"
+   ],
+   "note": "Sources disagree; if the RERA date is Dec 2030, ours is 2 years early. Needs confirmation on the HARERA portal.",
+   "slug": "sobha-aranya-sector-80-gurgaon",
+   "name": "Sobha Aranya"
+  },
+  {
+   "field": "landArea",
+   "ours": "31.28 Acres",
+   "web": "31.28 acres (Investmango and others) vs 14.81 acres (Square Yards, several broker pages; phase 1)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.investmango.com/sobha-aranya-sector-80-gurugram",
+    "https://www.squareyards.com/gurgaon-residential-property/sobha-aranya/247019/project",
+    "https://www.sobharanya80gurugram.in/"
+   ],
+   "note": "Sources disagree; 14.81 acres appears to be the phase-1 / RERA-registered parcel.",
+   "slug": "sobha-aranya-sector-80-gurgaon",
+   "name": "Sobha Aranya"
+  },
+  {
+   "field": "possession",
+   "ours": "2030-03 (from: \"possession scheduled for March 2030\")",
+   "web": "March 2030 (HCO, described as RERA deadline); March 2033 RERA filing per another source; developer target December 2030",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://www.sobhacitygurgaon.org.in/blog/sobha-crescent-sector-63a-gurgaon-buyer-guide/",
+    "https://sobha-group.com/residential/sobha-crescent-sector-63a-gurgaon/"
+   ],
+   "note": "Sources disagree on the RERA date (2030 vs 2033); verify on HARERA.",
+   "slug": "sobha-sector-63a-gurgaon",
+   "name": "Sobha Crescent"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 1; units: —; floors: 5",
+   "web": "1 tower; 27 storeys (some sources) or 32 floors (Houssed); Phase 1 retail spans LG to 3rd floor; ~412 units (one source)",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.spj-group.in/vedatam",
+    "https://houssed.com/commercial/gurgaon/spj-group/spj-vedatam-147503",
+    "https://spjvedatamofficial.com/blog/spj-vedatam-sector-14-gurgaon/"
+   ],
+   "note": "Our 5 floors conflicts with every source; the sources also disagree with each other (27 vs 32).",
+   "slug": "spj-vedatam-sector-14-gurgaon",
+   "name": "SPJ Vedatam"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 5; units: 450; floors: —",
+   "web": "5 towers (G+40), 400 units",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/tarc-ishva/308402/project",
+    "https://www.propzilla.in/property/tarc-ishva-sector-63a-gurgaon"
+   ],
+   "note": "Tower count matches. Several sources say 400 residences, not 450. Floors (G+40) are available if we want to publish them.",
+   "slug": "tarc-ishva-sector-63a-gurgaon",
+   "name": "TARC Ishva"
+  },
+  {
+   "field": "developer",
+   "ours": "null",
+   "web": "Origen Realty",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://oryzabyorigenrealty.com/",
+    "https://www.100acress.com/origen-realty-oryza/",
+    "https://www.jllhomes.co.in/apartments-new/gurgaon/the-oryza-by-origen-realty"
+   ],
+   "note": "Our data has no developer. It should be Origen Realty.",
+   "slug": "the-oryza",
+   "name": "The Oryza"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 5; units: 478; floors: —",
+   "web": "2 towers (Phase 1, G+45), 344 residences (oryzabyorigenrealty.com, 100acress); axiomplus says 478 residences in 5 towers",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://oryzabyorigenrealty.com/",
+    "https://www.100acress.com/origen-realty-oryza/",
+    "https://www.axiomplusservices.in/property/origen-the-oryza-sector-88a-gurgaon/"
+   ],
+   "note": "Sources disagree. 344 units in 2 towers looks like Phase 1. 478 units in 5 towers may be the full plan. Check which one the RERA registration covers.",
+   "slug": "the-oryza",
+   "name": "The Oryza"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 2; units: 160; floors: —",
+   "web": "2 towers (A and B; G+22, some sources G+28), 172 units",
+   "verdict": "mismatch",
+   "severity": "medium",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/trevoc-royal-residences/308421/project",
+    "https://riseinfraventures.com/property-detail/trevoc-royal-residences-sector-56-gurgaon"
+   ],
+   "note": "Tower count matches. Sources consistently give 172 units, not 160.",
+   "slug": "trevoc-royal-residences-gurgaon",
+   "name": "Trevoc Royal Residences"
+  },
+  {
+   "field": "rera",
+   "ours": "RC/REP/HARERA/GGM/838/570/2024/65.",
+   "web": "RC/REP/HARERA/GGM/838/570/2024/65; project registered under RERA 65, 66 & 67 of 2024",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.100acress.com/whiteland-westin-residences/",
+    "https://whitecollarrealty.com/residential_property/whiteland-westin-residences"
+   ],
+   "note": "Our number is correct but covers only one of three registrations (65, 66 and 67 of 2024). Our value also has a trailing period.",
+   "slug": "whiteland-westin-residences-sector-103-gurgaon",
+   "name": "Whiteland Westin Residences"
+  },
+  {
+   "field": "landArea",
+   "ours": "6.15 Acres",
+   "web": "6.15 acres (whitelandgurgaon.com and others); 21 acres for the overall complex (100acress)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.whitelandgurgaon.com/whiteland-westin-residences/",
+    "https://www.100acress.com/whiteland-westin-residences/"
+   ],
+   "note": "Sources disagree. 6.15 acres may be one registered phase, while 21 acres is cited for the whole multi-phase project.",
+   "slug": "whiteland-westin-residences-sector-103-gurgaon",
+   "name": "Whiteland Westin Residences"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 12; units: 1302; floors: —",
+   "web": "12 towers, 1,302 apartments (whitelandgurgaon.com); 13 towers G+42 (100acress); 9 towers / 412 homes (another source)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.whitelandgurgaon.com/whiteland-westin-residences/",
+    "https://www.100acress.com/whiteland-westin-residences/"
+   ],
+   "note": "One source matches ours exactly, but others disagree, probably because they count different phases.",
+   "slug": "whiteland-westin-residences-sector-103-gurgaon",
+   "name": "Whiteland Westin Residences"
+  },
+  {
+   "field": "rera",
+   "ours": "PP1310002501906",
+   "web": "PP1310002501906, MahaRERA (Maharashtra), for Garden of Eden (residential plotted, Village Banda, Sawantwadi, Sindhudurg)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://yugeninfra.com/projects/garden-of-eden",
+    "https://www.axiomlandbase.in/property/yugen-infra-garden-of-eden-goa/",
+    "https://www.constructionworld.in/policy-updates-and-economic-news/yugen-infra-gets-maharera-nod-for-garden-of-eden-phase-2/84291"
+   ],
+   "note": "This is a Maharashtra RERA number, not Goa RERA, and it covers only the Garden of Eden plots, not the whole township, the villas or the studios. The MahaRERA portal itself was not fetched. Construction World calls Garden of Eden 'Phase 2'.",
+   "slug": "yugen-golf-city",
+   "name": "Yugen Golf City"
+  },
+  {
+   "field": "startingPrice",
+   "ours": "₹99.9 Lakhs onwards (Garden of Eden plots, 200 sq yd)",
+   "web": "Rs 49,990 per sq yd (≈Rs 99.98 L for 200 sq yd) per axiomlandbase; developer page says 'Starting at Rs 1.55 Crores' for 300+ sq yd",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://www.axiomlandbase.in/property/yugen-infra-garden-of-eden-goa/",
+    "https://yugeninfra.com/projects/garden-of-eden"
+   ],
+   "note": "The per-sq-yd rate supports Rs 99.9 L for a 200 sq yd plot. But the developer's own page now starts at Rs 1.55 Cr (300+ sq yd), and our brief records a sales message of Rs 1.35 Cr. The entry price varies with plot size and source.",
+   "slug": "yugen-golf-city",
+   "name": "Yugen Golf City"
+  },
+  {
+   "field": "configurations",
+   "ours": "Garden of Eden — villa plot — 200 sq yd onwards — ₹99.9 Lakhs onwards | Golf Drive — farmhouse plot — 1,300–3,000 sq yd — ₹2.99 Cr onwards | Acqua Front Villa — 390 sq yd onwards — ₹3.59 Cr onwards | Studio — ₹11,490 per sq ft onwards | 1 BHK — ₹11,490 per sq ft onwards | 2 BHK — ₹11,490 per sq ft onwards | Cricket Front Villa — By invitation",
+   "web": "Garden of Eden plots 200-500 sq yd (developer) or 200-1000 sq yd (broker); Acqua Front Villas: 3 BHK with private pool, ~3,000 sq ft on a 400 sq yd plot, from Rs 3.31 Cr, 62 villas (developer) or 70 villas (broker); Golf Drive Farmhouses (29); Cricket Front Villas (30)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://yugeninfra.com/projects/garden-of-eden",
+    "https://www.axiomlandbase.in/property/yugen-infra-garden-of-eden-goa/",
+    "https://cosmopolitanconsulting.in/property/yugen-infra-acqua-front-villas/"
+   ],
+   "note": "The component products are confirmed. The villa starting price varies (Rs 3.31 Cr broker vs our Rs 3.59 Cr; within 15%). The villa count conflicts (62 vs 70). Golf Drive's Rs 2.99 Cr and the Rs 11,490/sq ft studio/1/2 BHK pricing were not found independently.",
+   "slug": "yugen-golf-city",
+   "name": "Yugen Golf City"
+  },
+  {
+   "field": "other",
+   "ours": "\"Guaranteed monthly rental ₹1,75,000\" (Acqua Front Villas) | Wyndham partnership",
+   "web": "Acqua Front Villas managed by Wyndham (Registry Collection by Wyndham), marketed as pre-leased with a rental guarantee of Rs 21 L per annum (= Rs 1.75 L/month)",
+   "verdict": "partial",
+   "severity": "medium",
+   "sources": [
+    "https://yugeninfra.com/projects/garden-of-eden",
+    "https://cosmopolitanconsulting.in/property/yugen-infra-acqua-front-villas/",
+    "https://ghardekhogoa.com/projects/acqua-front-villas-by-yugen-infra"
+   ],
+   "note": "The amount matches developer and broker material, but no Wyndham announcement or independent news confirms either the tie-up or the guarantee. The developer page says 'pre-leased / Smart Returns' without giving a figure. Treat this as a developer claim.",
+   "slug": "yugen-golf-city",
+   "name": "Yugen Golf City"
+  },
+  {
+   "field": "possession",
+   "ours": "2029-06 (from: \"Possession is expected to begin in June 2029\")",
+   "web": "March 2029 (developer site, Square Yards); 2029-06-22 / June 2029 (Propzilla and other portals)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.adanirealty.com/residential-projects/gurugram/lushlands",
+    "https://www.squareyards.com/gurgaon-residential-property/adani-lushlands/251901/project",
+    "https://www.propzilla.in/property/adani-lushlands-sector-2-gwal-pahari-gurgaon"
+   ],
+   "note": "Sources disagree by 3 months. June 2029 may be the RERA date and March 2029 the developer's marketed target.",
+   "slug": "adani-lushlands-gurgaon",
+   "name": "Adani Lushlands"
+  },
+  {
+   "field": "status",
+   "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+   "web": "New launch (2026)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504"
+   ],
+   "note": "Portals describe it as a 2026 new launch. That is consistent with an early under-construction stage.",
+   "slug": "adani-the-marq-sector-102-gurgaon",
+   "name": "Adani The Marq"
+  },
+  {
+   "field": "configurations",
+   "ours": "not published",
+   "web": "3 BHK and 4 BHK (some list 3.5 BHK), super area ~2,300/2,375-3,200/3,295 sq ft",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504",
+    "https://www.opulnzabode.com/adani-the-marq-sector-102-dwarka-expressway-gurgaon-2026/"
+   ],
+   "note": "We omit configurations that are widely available.",
+   "slug": "adani-the-marq-sector-102-gurgaon",
+   "name": "Adani The Marq"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 2; units: 350; floors: 46",
+   "web": "2 towers, G+46 floors; 368 units (RERA Tracker) vs 350 residences (broker sites)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504",
+    "https://www.opulnzabode.com/adani-the-marq-sector-102-dwarka-expressway-gurgaon-2026/"
+   ],
+   "note": "Towers and floors match. Unit counts disagree between sources: 350 vs 368.",
+   "slug": "adani-the-marq-sector-102-gurgaon",
+   "name": "Adani The Marq"
+  },
+  {
+   "field": "landArea",
+   "ours": "5.25 Acres",
+   "web": "5.07 / 5.075 acres (Luxuryroof, broker sites); 5.5 acres (Square Yards, NoBroker); ~5 acres (land acquisition reports)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.luxuryroof.in/gurgaon/birla-pravaah",
+    "https://www.squareyards.com/gurgaon-residential-property/birla-pravaah/341472/project"
+   ],
+   "note": "No source states 5.25 acres. Sources range from 5.07 to 5.5 acres.",
+   "slug": "aditya-birla-pravaah-sector-71-gurgaon",
+   "name": "Aditya Birla Pravaah"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: —; units: —; floors: 12",
+   "web": "3 towers, 150 units, 11 floors (Houssed); towers G+12, G+5 and G+8 (broker); G+18 (Upscale Commercial)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448",
+    "https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project",
+    "https://upscalecommercial.in/aipl-autograph"
+   ],
+   "note": "Our 12 floors likely refers to the tallest tower (G+12); sources disagree. We could add 3 towers / 150 units.",
+   "slug": "aipl-autograph-sector-66-gurgaon",
+   "name": "AIPL Autograph"
+  },
+  {
+   "field": "landArea",
+   "ours": "11 Acres",
+   "web": "10.44 acres (Square Yards); 10.4375 / 10.42 acres (brokers, ReraTracker); 10 acres (Houssed)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project",
+    "https://reratracker.com/developers/aipl-35",
+    "https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410"
+   ],
+   "note": "Ours appears rounded up from ~10.44 acres; better to publish 10.44 acres.",
+   "slug": "aipl-joy-district-sector-88-gurgaon",
+   "name": "AIPL Joy District"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: —; units: —; floors: 5",
+   "web": "1,190 units; 1.2 million sq ft across four levels (ReraTracker/brokers); 1 tower with 17 floors (Houssed)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/aipl-joy-district/245791/project",
+    "https://reratracker.com/developers/aipl-35",
+    "https://houssed.com/commercial/gurgaon/aipl-group/aipl-joy-district-147410"
+   ],
+   "note": "Floor count is inconsistent across sources (4 retail levels vs 17 floors, the latter possibly including the hotel). No source states 5. We could add 1,190 units.",
+   "slug": "aipl-joy-district-sector-88-gurgaon",
+   "name": "AIPL Joy District"
+  },
+  {
+   "field": "rera",
+   "ours": "RC/REP/HARERA/GGM/914/646/2025/17",
+   "web": "Phase 1: GGM/914/646/2025/17 (registered Feb 2025; HARERA ID RERA-GRG-1823-2024). Phase 2: RC/REP/HARERA/GGM/1044/776/2026/16 (Feb 2026; ID RERA-GRG-2142-2025)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project",
+    "https://birlaarikagurgaon.umso.co/blog/birla-arika-price-list-2026-floor-plans-sizes-and-payment-plan-explained",
+    "https://reratracker.com/birla-arika-in-sector-31-gurgaon-by-birla-estates-rtid3539"
+   ],
+   "note": "Our number is correct for Phase 1, but the Phase 2 registration is missing.",
+   "slug": "birla-arika-sector-31-nh8-gurgaon",
+   "name": "Birla Arika"
+  },
+  {
+   "field": "configurations",
+   "ours": "Towers T-1, T-2, T-3 — 2,319–2,356 sq ft — ₹10.49 – ₹10.89 Cr (Launch) | Tower T-7 — 2,814–2,816 sq ft — ₹12.50 – ₹12.73 Cr (Launch)",
+   "web": "4 BHK only; carpet from 2,349 sq ft (NoBroker); super area 4,300 / 4,750 sq ft (Square Yards); Phase 1 towers 1, 2, 3 and 7 (Square Yards); price ₹11.18–12.35 Cr",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.nobroker.in/birla-arika-sector-31_gurgaon-prjt-8a9fb983958d756d01958dad418f09ea",
+    "https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project"
+   ],
+   "note": "Tower grouping (T1–T3 and T7) and the carpet-area range are consistent with sources, but our exact tower-wise carpet areas and prices were not found. Portals quote super area (4,300–4,750 sq ft), so the carpet vs super difference makes this partial. We should label our areas as carpet.",
+   "slug": "birla-arika-sector-31-nh8-gurgaon",
+   "name": "Birla Arika"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "October 2032 (RERA completion date 31 Oct 2032)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220",
+    "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project"
+   ],
+   "note": "We do not publish a possession date; sources agree on October 2032, which could be added.",
+   "slug": "bptp-downtown-66-sector-66-gurgaon",
+   "name": "BPTP Downtown 66"
+  },
+  {
+   "field": "configurations",
+   "ours": "not published",
+   "web": "3 BHK ~2,500-2,900 sq ft and 4 BHK ~2,900-3,400 sq ft (super area; sources differ)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220",
+    "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project"
+   ],
+   "note": "We publish no configurations; RERA tracker says 3 BHK ~2,500 / 4 BHK ~2,900 sq ft, Square Yards says 3 BHK 2,600/2,900 and 4 BHK 3,400 sq ft.",
+   "slug": "bptp-downtown-66-sector-66-gurgaon",
+   "name": "BPTP Downtown 66"
+  },
+  {
+   "field": "developer",
+   "ours": "BPTP (listed as \"BPTP Gaia Residences\")",
+   "web": "BPTP Limited",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c",
+    "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram"
+   ],
+   "note": "Developer is correct (BPTP) but the listed developer name is the project name, not 'BPTP Limited'.",
+   "slug": "bptp-gaia-residences-sector-102-gurgaon",
+   "name": "BPTP Gaia Residences"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "December 2032 (Inframantra, 99acres); NoBroker says July 2032; one broker site says 2029",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://inframantra.com/property/bptp-gaia-residences-sector-102-gurugram",
+    "https://www.99acres.com/bptp-gaia-residences-at-amstoria-102-sector-102-gurgaon-npxid-r447895",
+    "https://www.nobroker.in/bptp-gaia-residences-at-amstoria-sector-102_gurgaon-prjt-8a9fb086984fde63019850376e72286c"
+   ],
+   "note": "We publish no possession date; sources mostly say Dec 2032 but disagree.",
+   "slug": "bptp-gaia-residences-sector-102-gurgaon",
+   "name": "BPTP Gaia Residences"
+  },
+  {
+   "field": "developer",
+   "ours": "BPTP (listed as \"BPTP Verti Greens\")",
+   "web": "BPTP Limited",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d",
+    "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project"
+   ],
+   "note": "Developer is correct but listed under the project name rather than 'BPTP Limited'.",
+   "slug": "bptp-verti-greens-sector-102-gurgaon",
+   "name": "BPTP Verti Greens"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK — 1765 sq ft — Price on Request | 4 BHK — 2346 sq ft — Price on Request",
+   "web": "3 BHK 2,745 sq ft and 4 BHK 3,395 sq ft super area; carpet 1,765 sq ft (3 BHK) and 2,346 sq ft (4 BHK) per 99acres-type listings; RERA tracker cites ~1,840 sq ft carpet",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.99acres.com/conscient-elevate-reserve-sector-62-gurgaon-npxid-r426158",
+    "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate-reserve/234991/project",
+    "https://reratracker.com/conscient-elevate-reserve-in-gurugram-by-conscient-infrastructure-private-limited-rtid3637"
+   ],
+   "note": "Our sizes are carpet areas while most portals quote super area; one listing labels 2,346 as built-up rather than carpet. We do not state the area basis.",
+   "slug": "conscient-elevate-reserve-sector-62-gurgaon",
+   "name": "Elevate Reserve"
+  },
+  {
+   "field": "configurations",
+   "ours": "not published",
+   "web": "SCO plots from ~117 sq m (140 sq yd) per DLF; 142-491 sq yd per portals",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.dlf.in/home_press_releases/Press-Release-Central-67.pdf",
+    "https://assetzilla.com/projects/dlf-central-67-uTabJ14"
+   ],
+   "note": "We publish no plot sizes; these are available.",
+   "slug": "dlf-central-67-sector-67-gurgaon",
+   "name": "DLF Central 67"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: —; units: —; floors: 6",
+   "web": "~79 SCO plots; basement + ground + 4 floors, height up to 15 m",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.dlf.in/home_press_releases/Press-Release-Central-67.pdf",
+    "https://www.mncinfracapitals.com/project/dlf-central-67-premium-sco-plots/"
+   ],
+   "note": "'6 floors' only holds if the basement is counted; above ground it is G+4 (5 floors). Unit (plot) count of 79 is from broker sites only and is not published by us.",
+   "slug": "dlf-central-67-sector-67-gurgaon",
+   "name": "DLF Central 67"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "Expected possession 2027 (broker summaries); March 2028 (Square Yards)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/dlf-club-arcade/250588/project"
+   ],
+   "note": "We publish no possession date; web sources give 2027 or March 2028 and disagree with each other.",
+   "slug": "dlf-club-arcade-sector-91-gurgaon",
+   "name": "Club Arcade DLF"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "Expected possession around July 2029 (broker pages)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.triversehomes.com/dlf-privana-north-sector-76-gurgaon/"
+   ],
+   "note": "We publish no date; DLF's site does not state one either. Broker figure not confirmed by HARERA.",
+   "slug": "dlf-privana-north-sector-76-77-gurgaon",
+   "name": "DLF Privana North"
+  },
+  {
+   "field": "location",
+   "ours": "Central Peripheral Road, Sector 77, Sector 77, Gurugram, Haryana",
+   "web": "Sector 76-77, Gurugram, Haryana 122004 (DLF); Sector 76 (Square Yards); Sector 77 (99acres); near Southern Peripheral Road",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.dlf.in/homes/luxury/privanasouth/",
+    "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project",
+    "https://www.99acres.com/dlf-privana-south-sector-77-gurgaon-npxid-r412546"
+   ],
+   "note": "Sector 77 is consistent with DLF's 'Sector 76-77'. No source places it on 'Central Peripheral Road'. Sources reference the Southern Peripheral Road, and one broker says 'Northern Peripheral road'.",
+   "slug": "dlf-privana-south-sector-77-gurgaon",
+   "name": "DLF Privana South"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "June 2031 (Square Yards); July 2029 / December 2028 (broker pages)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project",
+    "https://www.luxuryresidences.in/dlf-privana-south-sector-77-gurgaon/"
+   ],
+   "note": "We publish no date. Sources disagree widely, and DLF's page gives no completion date.",
+   "slug": "dlf-privana-south-sector-77-gurgaon",
+   "name": "DLF Privana South"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "December 2028 (DLF website); RERA completion date 31 December 2031 (reratracker)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.dlf.in/homes/luxury/privanawest/",
+    "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617"
+   ],
+   "note": "We publish no date. DLF's marketed date (Dec 2028) and the RERA-filed completion date (Dec 2031) differ.",
+   "slug": "dlf-privana-west-sector-76-gurgaon",
+   "name": "DLF Privana West"
+  },
+  {
+   "field": "configurations",
+   "ours": "4 BHK — 3,577 sq ft — Price on Request | 4 BHK — 5,472 sq ft — Price on Request",
+   "web": "4 BHK from 3,577 sq ft (super area; ~2,136 sq ft carpet); penthouses 5,472 sq ft",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://reratracker.com/dlf-privana-west-in-sector-76-gurgaon-by-dlf-rtid3617",
+    "https://wealthwayluxury.com/dlf-privana-west/"
+   ],
+   "note": "Sizes match, but the 5,472 sq ft unit is a penthouse per broker pages, not a regular 4 BHK as we label it.",
+   "slug": "dlf-privana-west-sector-76-gurgaon",
+   "name": "DLF Privana West"
+  },
+  {
+   "field": "configurations",
+   "ours": "4 BHK — 3965 Sq.ft — Price on Request",
+   "web": "4 BHK (+ study + utility) only; ~3,900–3,950 sq ft",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/dlf-the-arbour/214735/project",
+    "https://reratracker.com/dlf-arbour-in-sector-63-gurgaon-by-dlf-rtid4242"
+   ],
+   "note": "Configuration matches. Size 3,965 sq ft is close to but not identical to the quoted 3,900 (Square Yards) / ~3,950 sq ft.",
+   "slug": "dlf-the-arbour-sector-63-gurgaon",
+   "name": "DLF The Arbour"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: —; units: —; floors: 6",
+   "web": "1 tower, 6 floors, 351 units (propzilla); 351 units (Square Yards)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.propzilla.in/property/elan-empire-sector-66-gurugram",
+    "https://www.squareyards.com/gurgaon-residential-property/elan-empire/112649/project"
+   ],
+   "note": "Only one broker page confirms 6 floors. We leave out the 351-unit count that two sources publish.",
+   "slug": "elan-empire-sector-66-gurgaon",
+   "name": "Elan Empire"
+  },
+  {
+   "field": "configurations",
+   "ours": "LGF / GF — Per sq.ft. — ₹45,750 / sq.ft. | 4th Floor (FEC) — Per sq.ft. — ₹24,750 / sq.ft. | Premium Retail — Per sq.ft. — ₹24,750 / sq.ft. | Second Floor — Per sq.ft. — ₹23,750 / sq.ft. | 4th Floor (Restaurant) — Per sq.ft. — ₹24,750 / sq.ft. | Third Floor (Food Court) — Per sq.ft. — ₹26,750 / sq.ft. | First Floor — Per sq.ft. — ₹29,750 / sq.ft.",
+   "web": "₹29,750 per sq ft; retail shops 636-870 sq ft (Square Yards)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/elan-imperial/244859/project"
+   ],
+   "note": "Square Yards' ₹29,750/sq ft matches our First Floor rate. No independent source for the other floor rates was found.",
+   "slug": "elan-imperial-sector-82-gurgaon",
+   "name": "Elan Imperial"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: —; units: —; floors: 4",
+   "web": "1 tower, 3 floors, 45 units (propzilla); 3 towers, 5 floors, 247 units (houssed); ~300 units (search snippet)",
+   "verdict": "mismatch",
+   "severity": "low",
+   "sources": [
+    "https://www.propzilla.in/property/elan-paradise-sector-50-gurugram",
+    "https://houssed.com/commercial/gurgaon/elan-group/elan-paradise-143194"
+   ],
+   "note": "No source states 4 floors, and sources disagree with each other (3 vs 5 floors).",
+   "slug": "elan-paradise-sector-50-gurgaon",
+   "name": "Elan Paradise"
+  },
+  {
+   "field": "configurations",
+   "ours": "4 BHK — 4,223 sq ft — Price on Request | 4 BHK — 4,640 sq ft — Price on Request | 4 BHK — 7,225 sq ft — Price on Request | 4 BHK — 8,053 sq ft — Price on Request | 5 BHK — 5,444 sq ft — Price on Request | 5 BHK — 5,891 sq ft — Price on Request | 5 BHK — 9,470 sq ft — Price on Request | 5 BHK — 10,347 sq ft — Price on Request",
+   "web": "4 BHK 4,223-4,640; 5 BHK 5,434-5,891; 4 BHK penthouse 7,225-8,053; 5 BHK penthouse 9,470-10,347 sq ft (super area)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project",
+    "https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628"
+   ],
+   "note": "All sizes match except our 5 BHK 5,444 sq ft, which sources give as 5,434 sq ft (possible typo). We do not label the 7,225-10,347 sq ft units as penthouses.",
+   "slug": "elan-the-emperor-sector-106-gurgaon",
+   "name": "Elan The Emperor"
+  },
+  {
+   "field": "landArea",
+   "ours": "6.5 Acres",
+   "web": "Developer: 5.875 acres (and also '6.5 acres' with 70% open greens); moneytreerealty: 5.87 acres; propertyveda: 6.5 acres",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.elan.co.in/elan-statement-sector-49-gurgaon/",
+    "https://moneytreerealty.com/real-estate-projects/elan-the-statement-sector-49-gurgaon",
+    "https://www.propertyveda.com/property/elan-the-statement/"
+   ],
+   "note": "The registered land area appears to be 5.875 acres, and 6.5 acres is the marketed campus size. Sources disagree.",
+   "slug": "elan-the-statement-sector-49-sohna-road-gurgaon",
+   "name": "Elan The Statement"
+  },
+  {
+   "field": "configurations",
+   "ours": "2 BHK — 1,239 sq ft — Price on Request | 2 BHK — 1,244 sq ft — Price on Request | 3 BHK — 1,450 sq ft — Price on Request | 3 BHK — 1,456 sq ft — Price on Request | 4 BHK — 1,895 sq ft — Price on Request | 4 BHK — 1,901 sq ft — Price on Request",
+   "web": "Carpet area 1,239–1,942 sq ft; super/saleable: 2 BHK 1,650, 3 BHK 2,200, 4 BHK 2,700–3,100 sq ft",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://ambak.com/projects/p1-amaris/eee3df1dedaf45199dcf1b4b542ccdf3",
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-amaris/324141/project"
+   ],
+   "note": "Our sizes fit the published carpet range, but only the 1,239 lower bound was confirmed exactly. Portals quote super area. Our page should label these as carpet area.",
+   "slug": "emaar-amaris-sector-62-gurgaon",
+   "name": "Emaar Amaris"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK Small — 1,183 sq ft — Price on Request | 3 BHK Large — 1,537 sq ft — Price on Request | 4 BHK — 2,079 sq ft — Price on Request",
+   "web": "Carpet area 1,183–2,079 sq ft (gurgaonpropertyinvestment); saleable 3 BHK 1,700–1,750 / 2,200–2,300, 4 BHK 2,700–3,000 sq ft (Square Yards, Homebazaar)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://gurgaonpropertyinvestment.in/property-detail/emaar-serenity-hills.html",
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project",
+    "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"
+   ],
+   "note": "Our sizes match a carpet-area range, but portals list saleable areas. Portals also show a second 4 BHK size that we do not list. Our page should label these as carpet area.",
+   "slug": "emaar-serenity-hills-sector-86-gurgaon",
+   "name": "Emaar Serenity Hills"
+  },
+  {
+   "field": "landArea",
+   "ours": "27 Acres",
+   "web": "25.9 acres",
+   "verdict": "mismatch",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project",
+    "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"
+   ],
+   "note": "About 4% off.",
+   "slug": "emaar-serenity-hills-sector-86-gurgaon",
+   "name": "Emaar Serenity Hills"
+  },
+  {
+   "field": "rera",
+   "ours": "HARERA/GGM/741/473/2023/85",
+   "web": "GGM/741/473/2023/85 (Urban Oasis Phase 1 & 2, dated 07.08.2023); GGM/888/620/2024/115 (Urban Oasis Phase 4)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project",
+    "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"
+   ],
+   "note": "Our number is correct for the main phases, but the separately registered Phase 4 is not listed.",
+   "slug": "emaar-urban-oasis-sector-62-gurgaon",
+   "name": "Emaar Urban Oasis"
+  },
+  {
+   "field": "landArea",
+   "ours": "9.25 Acres",
+   "web": "Square Yards: 9.53 acres; NoBroker: 9.5 acres; wealthyventuresestate: 6.64 acres",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project",
+    "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2",
+    "https://wealthyventuresestate.com/house/emaar-urban-oasis-sector-62-golf-course-ext-road/"
+   ],
+   "note": "No source states 9.25 acres exactly. The closest figure is 9.5 to 9.53 acres, and the 6.64 acres figure may refer to a single phase.",
+   "slug": "emaar-urban-oasis-sector-62-gurgaon",
+   "name": "Emaar Urban Oasis"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "Square Yards: December 2029; other listings: Phase 2 Apr 2028, Phase 3 Mar 2028, Phase 4 Jun 2030",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+    "https://infraguiderealtors.com/hero-homes-palatial-sector-104-gurgaon-p365"
+   ],
+   "note": "We publish no possession date, but portals give phase-wise dates of 2028-2030. Sources disagree with each other.",
+   "slug": "hero-homes-the-palatial-sector-104-gurgaon",
+   "name": "Hero Homes The Palatial"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK — 2,833 sq ft — Price on Request | 4 BHK — 3,457 sq ft — Price on Request",
+   "web": "3 BHK: 2,800 sq ft; 4 BHK: 3,460 sq ft (some sites market these as 3.5 / 4.5 BHK)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+    "https://www.100acress.com/hero-homes-palatial/"
+   ],
+   "note": "BHK types match; sizes differ slightly (2,833 vs 2,800; 3,457 vs 3,460), probably from rounding or a different area basis.",
+   "slug": "hero-homes-the-palatial-sector-104-gurgaon",
+   "name": "Hero Homes The Palatial"
+  },
+  {
+   "field": "possession",
+   "ours": "2025-12 (from: \"possession expected by December 2025\")",
+   "web": "January 2025 (Square Yards, phase 1); phase 1 ready Dec 2024, remaining phase Jan 2026 (other listings)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+    "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/"
+   ],
+   "note": "Dates differ by phase. Ours (Dec 2025) is within about a year of both phase dates but matches neither. Also, 'expected' possession conflicts with our 'ready' status.",
+   "slug": "hines-elevate-sector-59-gurgaon",
+   "name": "Hines Elevate"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK + SQ — 2,095 sq ft — Price on Request | 3 BHK + SQ — 2,295 sq ft — Price on Request | 3 BHK + SQ — 2,595 sq ft — Price on Request | 4 BHK + SQ — 3,300 sq ft — Price on Request",
+   "web": "3 BHK: 2,095-2,595 sq ft; 4 BHK: 3,395 sq ft",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/conscient-hines-elevate/10610/project",
+    "https://bestluxuryresidences.in/conscient-hines-elevate-sector-59-gurgaon/"
+   ],
+   "note": "3 BHK sizes match. Sources give the 4 BHK as 3,395 sq ft, not 3,300. The 2,295 sq ft size wasn't confirmed separately but falls inside the stated 3 BHK range.",
+   "slug": "hines-elevate-sector-59-gurgaon",
+   "name": "Hines Elevate"
+  },
+  {
+   "field": "configurations",
+   "ours": "4 BHK + Lounge — 3,712 sq ft — Price on Request | 4 BHK + Lounge — 3,755 sq ft — Price on Request | 4 BHK + Lounge — 4,270 sq ft — Price on Request",
+   "web": "4 BHK + servant (marketed 4.5 BHK): 3,712-4,270 sq ft; penthouses up to ~8,000 sq ft; one listing also shows 3 BHK 3,300 sq ft; PropertyPistol shows 4 BHK 2,780 / 5 BHK 4,270",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://realtyhunting.com/residential/m3m-altitude/",
+    "https://m3mpropertyindia.com/residential/gurgaon/m3m-altitude-sector-65/",
+    "https://www.propertypistol.com/projects/m3m-altitude-sector-65-pid-17043"
+   ],
+   "note": "The 3,712-4,270 sq ft range matches. The 3,755 sq ft unit wasn't confirmed separately. Sources label the type '4 BHK + servant' rather than '+ Lounge', and we leave out penthouses. Sources disagree on labels and sizes.",
+   "slug": "m3m-altitude-sector-65-gurgaon",
+   "name": "M3M Altitude"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "Dec 2025 (Propzilla); 30 March 2026 (m3mindian); Dec 2026 (RealtyAssistant, citing RERA); ~2028 (megarealtymax, riseinfraventures)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.m3mindian.com/m3m-capital-walk/",
+    "https://www.propzilla.in/property/m3m-capital-walk-sector-113-gurgaon",
+    "https://realtyassistant.in/property/m3m-capital-walk-sector-113-gurgaon",
+    "https://megarealtymax.com/sco-property/m3m-capital-walk-sector-113-gurgaon"
+   ],
+   "note": "We publish no possession date. Sources give conflicting dates from Dec 2025 to 2028, with no consensus.",
+   "slug": "m3m-capital-walk-sector-113-gurgaon",
+   "name": "M3M Capital Walk"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK — 1,605 sq ft — Price on Request | 3 BHK — 1,665 sq ft — Price on Request | 3 BHK + STUDY — 1,825 sq ft — Price on Request | 3 BHK — 1,895 sq ft — Price on Request | 3 BHK + UTILITY — 2,080 sq ft — Price on Request | 3 BHK — 2,170 sq ft — Price on Request | 4 BHK + UTILITY — 2,305 sq ft — Price on Request | 4 BHK — 2,400 sq ft — Price on Request | 4 BHK + UTILITY — 2,570 sq ft — Price on Request | 4 BHK + STUDY — 2,670 sq ft — Price on Request",
+   "web": "3/3.5/4/4.5 BHK. Sizes 1,605-2,670 sq ft (m3mrealty / floor-plan listings: 1,605 = 3 BHK, 2,670 = 4 BHK + study + utility); Square Yards: 1,555-2,525 sq ft (3 BHK 1,555/2,050, 4 BHK 2,270/2,525)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.m3mrealty.com/residential/m3m-crown-sector-111-gurgaon/",
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project"
+   ],
+   "note": "Our 1,605-2,670 range and both endpoint units match some listings, but Square Yards gives different sizes (1,555-2,525), probably on a different area basis. Intermediate sizes weren't confirmed one by one.",
+   "slug": "m3m-crown-sector-111-gurgaon",
+   "name": "M3M Crown"
+  },
+  {
+   "field": "configurations",
+   "ours": "2 BHK — 1,420 Sq ft — Price on Request | 3 BHK — 1,900 sq ft — Price on Request | 3 BHK — 1,902 sq ft — Price on Request | 4 BHK — 2,630 sq ft — Price on Request | 4 BHK — 2,650 sq ft — Price on Request",
+   "web": "2BHK+Study 1,420; 3BHK+Study 1,902 and 2,090; 4BHK+Study 2,630 sq ft (m3mindian.com). Other portals market 2.5/3.5/4.5 BHK at 2,260–2,685 sq ft super area, plus 8,120 sq ft penthouses (Square Yards)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.m3mindian.com/m3m-golf-hills/",
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-golf-hills/220071/project",
+    "https://realtyassistant.in/property/m3m-golf-hills-sector-79-gurgaon"
+   ],
+   "note": "The 1,420, 1,902 and 2,630 sq ft sizes are confirmed. 1,900 and 2,650 were not found. Sources label the units '+Study' or as 2.5/3.5/4.5 BHK, and some quote super area.",
+   "slug": "m3m-golf-hills-sector-79-gurgaon",
+   "name": "M3M Golf Hills"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: —; units: —; floors: 6",
+   "web": "4 floors, 1 tower, 200 units (Propzilla); 2 blocks, 7 floors, 200 units (search snippet)",
+   "verdict": "mismatch",
+   "severity": "low",
+   "sources": [
+    "https://www.propzilla.in/property/m3m-jewel-sector-25-gurgaon"
+   ],
+   "note": "No source states 6 floors, and the sources disagree with each other (4 vs 7 floors).",
+   "slug": "m3m-jewel-sector-25-gurgaon",
+   "name": "M3M Jewel"
+  },
+  {
+   "field": "configurations",
+   "ours": "3.5 BHK — 2,080 sq ft — Price on Request | 3.5 BHK — 2,310 sq ft — Price on Request | 3.5 BHK — 2,342 sq ft — Price on Request | 4.5 BHK — 2,700 sq ft — Price on Request | 4.5 BHK — 2,945 sq ft — Price on Request | 4.5 BHK — 3,000 sq ft — Price on Request | 4.5 BHK — 3,125 sq ft — Price on Request | 4.5 BHK — 3,230 sq ft — Price on Request | 4.5 BHK — 3,415 sq ft — Price on Request | Penthouse — 4,290 sq ft — Price on Request | Penthouse — 5,620 sq ft — Price on Request | Penthouse — 5,900 sq ft — Price on Request",
+   "web": "3.5 BHK 2,080–2,342 sq ft and 4.5 BHK 2,700–3,125 sq ft (HomeBazaar). Square Yards lists 2 BHK 1,638; 3 BHK 2,080/2,190; 4 BHK 2,700/3,230; penthouses 4,290/5,900 and 6,405/6,695 sq ft. Houssed gives a 2,070–5,640 sq ft carpet range",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.homebazaar.com/m3m-mansion-sector-113-gurgaon-7876",
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-mansion/246483/project",
+    "https://houssed.com/gurgaon/m3m-group/m3m-mansion-112180"
+   ],
+   "note": "Most of our sizes are confirmed (2,080, 2,342, 2,700, 3,125, 3,230, 4,290, 5,900). Square Yards also lists a 2 BHK and 5 BHK penthouses that we do not.",
+   "slug": "m3m-mansion-sector-113-gurgaon",
+   "name": "M3M Mansion"
+  },
+  {
+   "field": "possession",
+   "ours": "2026-08 (from: \"possession date of August 2026\")",
+   "web": "RERA possession date 30-Jun-2026 (Houssed, via search snippet); expected possession August 2026 (broker site)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073",
+    "https://m3mpropertyindia.com/m3m-paragon57-oc-possession/"
+   ],
+   "note": "Our date matches the marketed date and is 2 months after the reported RERA date.",
+   "slug": "m3m-paragon-57-sector-57-gurgaon",
+   "name": "M3M Paragon57"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: —; units: —; floors: 6",
+   "web": "858 units; 1 tower (Houssed) or 6 blocks R1–R6 (Square Yards); 4-level retail with a multiplex and food court on the 3rd–4th floors",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073",
+    "https://www.squareyards.com/gurgaon-residential-property/m3m-paragon-57/212144/project"
+   ],
+   "note": "Sources describe 4 retail levels, and our '6' may be the 6 blocks (R1–R6) rather than floors.",
+   "slug": "m3m-paragon-57-sector-57-gurgaon",
+   "name": "M3M Paragon57"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: —; units: —; floors: 4",
+   "web": "2 basements + ground + 5 floors, about 700–727 units, 1 tower (Propzilla); about 750 units (search snippet)",
+   "verdict": "mismatch",
+   "severity": "low",
+   "sources": [
+    "https://www.propzilla.in/property/m3m-route-65-sector-65-gurgaon"
+   ],
+   "note": "Sources give G+5 above ground, not 4 floors.",
+   "slug": "m3m-route-65-sector-65-gurgaon",
+   "name": "M3M Route 65"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "HRERA completion December 2024; NoBroker possession June 2025",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://nobroker.in/tribeca-trump-towers-sector-65_gurgaon-prjt-8a9fb0827cf40f69017cf45302f82da9",
+    "https://whitecollarrealty.com/blogs/frequently-asked-questions-about-trump-tower-sector-65-gurgaon"
+   ],
+   "note": "We omit a date that sources publish; not a contradiction.",
+   "slug": "m3m-trump-towers-sector-65-gurgaon",
+   "name": "M3M Trump Towers"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 6; units: 864; floors: —",
+   "web": "6 towers, G+35 to G+38 floors; 864 units (Homebazaar, others) vs 630 units (other broker sites)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.homebazaar.com/max-estate-360-sector-36a-gurugram-8115",
+    "https://www.jllhomes.co.in/apartments-new/gurgaon/max-estate-360"
+   ],
+   "note": "Towers confirmed; sources disagree on total units (864 vs 630, the latter possibly excluding senior-living towers).",
+   "slug": "max-estate-360-residences-sector-36a-gurgaon",
+   "name": "Max Estate 360 Residences"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "August 2028",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+    "https://whitecollarrealty.com/residential_property/paras-manor"
+   ],
+   "note": "We omit a date that sources publish.",
+   "slug": "paras-manor-sector-2-gurgaon",
+   "name": "Paras Manor"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 2; units: 116; floors: —",
+   "web": "2 towers (G+31 to G+33); 120 units (Square Yards, whitecollarrealty, launch news); 116 units (gurgaon-projects)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+    "https://www.gurgaon-projects.com/projects/paras-manor.php",
+    "https://whitecollarrealty.com/residential_property/paras-manor"
+   ],
+   "note": "Towers match; units disputed (116 vs 120, majority says 120).",
+   "slug": "paras-manor-sector-2-gurgaon",
+   "name": "Paras Manor"
+  },
+  {
+   "field": "landArea",
+   "ours": "10.4 Acres",
+   "web": "10 acres (Square Yards, propsaltlandbase, luxuryresidences.in); 10.4 acres on some broker sites",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/puri-the-aravallis/164945/project",
+    "https://www.propsaltlandbase.com/property/puri-the-aravallis-sector-61-gurgaon/"
+   ],
+   "note": "Most sources say 10 acres; small difference.",
+   "slug": "puri-the-aravallis-sector-61-gurgaon",
+   "name": "Puri The Aravallis"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "RERA completion date 31 December 2031",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://reratracker.com/shapoorji-the-dualis-in-sector-46-gurgaon-by-shapoorji-pallonji-rtid5134",
+    "https://www.larisarealtech.com/properties/shapoorji-pallonji-the-dualis"
+   ],
+   "note": "We publish no possession date; RERA-filed completion is Dec 2031.",
+   "slug": "shapoorji-pallonji-the-dualis-sector-46-gurgaon",
+   "name": "Shapoorji Pallonji The Dualis"
+  },
+  {
+   "field": "landArea",
+   "ours": "2 Acres",
+   "web": "~2 acres (developer); 1.74 acres / 7,037.79 sq m (RERA via reratracker); 1.73 acres (brokers); 4.5 acres (Sapient)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://shapoorjirealestate.com/residential/the-dualis",
+    "https://reratracker.com/shapoorji-the-dualis-in-sector-46-gurgaon-by-shapoorji-pallonji-rtid5134",
+    "https://www.sapientrealty.com/properties/shapoorji-pallonji-dualis-sector-46/"
+   ],
+   "note": "Developer rounds to ~2 acres; RERA-registered area is 1.74 acres.",
+   "slug": "shapoorji-pallonji-the-dualis-sector-46-gurgaon",
+   "name": "Shapoorji Pallonji The Dualis"
+  },
+  {
+   "field": "possession",
+   "ours": "not published",
+   "web": "RERA possession Dec 2031, target Dec 2030 (Housiey); May 2031 (other listings); Dec 2029 (PropertyPistol)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://housiey.com/projects/silverglades-the-legacy",
+    "https://www.luxuryresidences.in/silverglades-legacy-sector-63a-gurgaon/",
+    "https://www.propertypistol.com/projects/silverglades-the-legacy-sector-63a-pid-19667"
+   ],
+   "note": "We publish none; sources disagree among themselves.",
+   "slug": "silverglades-the-legacy-sector-63a-gurgaon",
+   "name": "Silverglades The Legacy"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK + SQ — 2,800 sq ft — Price on Request | 4 BHK + SQ — 3,800 sq ft — Price on Request | 4 BHK + SQ + Studay — 4,800 sq ft — Price on Request | Penthouse — 7,700 sq ft — Price on Request",
+   "web": "3 BHK 2,800; 4 BHK 3,800–4,800; 5 BHK 5,900 sq ft; 5 BHK duplex penthouses 5,900–7,700 sq ft (super area); carpet 1,614–4,164 sq ft",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.luxuryresidences.in/silverglades-legacy-sector-63a-gurgaon/",
+    "https://housiey.com/projects/silverglades-the-legacy",
+    "https://www.luxuryroof.in/gurgaon/silverglades-the-legacy"
+   ],
+   "note": "Sizes match, but the 5 BHK (5,900 sq ft) is missing from our list and the penthouse is a 5 BHK. 'Studay' is a typo for 'Study'.",
+   "slug": "silverglades-the-legacy-sector-63a-gurgaon",
+   "name": "Silverglades The Legacy"
+  },
+  {
+   "field": "possession",
+   "ours": "2028 (from: \"possession expected in 2028\")",
+   "web": "Dec 2027 (Square Yards); RERA Dec 2029, target July 2027 (Housiey)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+    "https://housiey.com/projects/smart-world-one-dxp"
+   ],
+   "note": "Our 2028 sits between sources; phases likely have different dates.",
+   "slug": "smartworld-one-dxp-sector-113-gurgaon",
+   "name": "Smartworld One DXP"
+  },
+  {
+   "field": "configurations",
+   "ours": "3.5 BHK+Utility — 2,450 sq ft — Price on Request | 3.5 BHK+Utility — 2,450 sq ft — Price on Request | 3.5 BHK+Utility — 2,465 sq ft — Price on Request | 3.5 BHK+Utility — 2,503 sq ft — Price on Request | 3.5 BHK+Utility — 2,533 sq ft — Price on Request | 3.5 BHK+Utility — 2,585 sq ft — Price on Request | 3.5 BHK+Utility — 2,585 sq ft — Price on Request | 3.5 BHK+Utility — 2,736 sq ft — Price on Request | 4.5 BHK+Utility — 3,006 sq ft — Price on Request | 4.5 BHK+Utility — 3,006 sq ft — Price on Request | 4.5 BHK+Utility — 3,016 sq ft — Price on Request | 4.5 BHK+Utility — 3,016 sq ft — Price on Request | 4.5 BHK+Utility — 3,055 sq ft — Price on Request | 4.5 BHK+Utility — 3,058 sq ft — Price on Request | 4.5 BHK+Utility — 3,069 sq ft — Price on Request | 4.5 BHK+Utility — 3,101 sq ft — Price on Request | 4.5 BHK+Utility — 3,108 sq ft — Price on Request | 4.5 BHK+Utility — 3,150 sq ft — Price on Request | 4.5 BHK+Utility — 3,154 sq ft — Price on Request | 4.5 BHK+Utility — 3,304 sq ft — Price on Request",
+   "web": "2/3/4 BHK, 600–3,055 sq ft (Square Yards, incl. retail); 3.5 BHK 2,450 and 4.5 BHK ~3,000 sq ft (brokers); 4.5 BHK penthouses (Housiey)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+    "https://whitecollarrealty.com/residential_property/smartworld-one-dxp",
+    "https://housiey.com/projects/smart-world-one-dxp"
+   ],
+   "note": "3.5 BHK 2,450 and 4.5 BHK ~3,000–3,055 confirmed; individual larger variants (up to 3,304) not independently seen; smaller 2/2.5 BHK units and penthouses exist but are not listed by us. Duplicate rows in our list.",
+   "slug": "smartworld-one-dxp-sector-113-gurgaon",
+   "name": "Smartworld One DXP"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 8; units: 1719; floors: —",
+   "web": "8 towers, 29 floors (99acres via search); 1,790 units (Square Yards); ~900 units (99acres snippet); 16 towers (Housiey)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.99acres.com/smartworld-one-dxp-sector-113-gurgaon-npxid-r400415",
+    "https://www.squareyards.com/gurgaon-residential-property/smart-world-one-dxp/210648/project",
+    "https://housiey.com/projects/smart-world-one-dxp"
+   ],
+   "note": "8 towers corroborated; 1,719 units not exactly matched (closest 1,790). Sources disagree.",
+   "slug": "smartworld-one-dxp-sector-113-gurgaon",
+   "name": "Smartworld One DXP"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK — 2,355 sq ft — Price on Request | 3.5 BHK — 2,690 sq ft — Price on Request | 4 BHK — 3,279 sq ft — Price on Request",
+   "web": "3 BHK 2,355 and 2,690 sq ft; 4 BHK 3,270 sq ft (super area)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/smart-world-sky-arc/311992/project",
+    "https://reratracker.com/smartworld-sky-arc-in-sector-69-gurgaon-by-smartworld-rtid4138"
+   ],
+   "note": "Our 4 BHK size 3,279 vs 3,270 on Square Yards and reratracker (likely typo).",
+   "slug": "smartworld-skyarc-sector-gurgaon-sector-69",
+   "name": "Smartworld SkyArc"
+  },
+  {
+   "field": "configurations",
+   "ours": "3.5 BHK+SQ — 2,945 sq ft — Price on Request | 3.5 BHK+SQ — 3,035 sq ft — Price on Request | 4 BHK+SQ — 3,505 sq ft — Price on Request | 4.5 BHK+SQ — 3,660 sq ft — Price on Request",
+   "web": "3.5 & 4.5 BHK, 2,945 – 3,660 sq ft (Houssed: 3.5 BHK 2,940; 4.5 BHK 3,510)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://houssed.com/gurgaon/smart-world-group/smart-world-the-edition-8269",
+    "https://megarealtymax.com/residential-property/smart-world-the-edition-sector-66-gurgaon"
+   ],
+   "note": "Size range matches; sources describe the ~3,505 sq ft unit as 4.5 BHK rather than 4 BHK+SQ, and the 3,035 sq ft variant was not individually confirmed.",
+   "slug": "smartworld-the-edition-sector-68-gurgaon",
+   "name": "Smartworld The Edition"
+  },
+  {
+   "field": "towersUnits",
+   "ours": "towers: 2; units: 336; floors: 42",
+   "web": "Phase 1: 2 towers, 336 units, G+40 floors (~4 towers / ~600 units planned overall)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.hcorealestates.com/project/sobha-crescent-gurgaon",
+    "https://www.sobhacitygurgaon.org.in/blog/sobha-crescent-sector-63a-gurgaon-buyer-guide/",
+    "https://sobha-group.com/residential/sobha-crescent-sector-63a-gurgaon/"
+   ],
+   "note": "Sources say G+40, not 42 floors. Towers and units are phase-1 figures.",
+   "slug": "sobha-sector-63a-gurgaon",
+   "name": "Sobha Crescent"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK — 2,858 sq ft — Price on Request | 3 BHK — 2,945 sq ft — Price on Request | 4 BHK — 3,883 sq ft — Price on Request",
+   "web": "3 BHK 2850 sq ft (Rs 6.98 Cr), 3 BHK 2950 sq ft (Rs 7.23 Cr), 4 BHK 3883 sq ft (Rs 9.51 Cr), 4 BHK 3900 sq ft (Rs 9.55 Cr)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/tarc-ishva/308402/project"
+   ],
+   "note": "Two sizes differ slightly (2858 vs 2850, 2945 vs 2950). The portal also lists a 3900 sq ft 4 BHK. Portals publish prices per unit where we say Price on Request.",
+   "slug": "tarc-ishva-sector-63a-gurgaon",
+   "name": "TARC Ishva"
+  },
+  {
+   "field": "status",
+   "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+   "web": "New Launch (launched February 2026)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://oryzabyorigenrealty.com/",
+    "https://www.axiomplusservices.in/property/origen-the-oryza-sector-88a-gurgaon/"
+   ],
+   "note": "Sources call it a new launch rather than under construction.",
+   "slug": "the-oryza",
+   "name": "The Oryza"
+  },
+  {
+   "field": "landArea",
+   "ours": "8.5 Acres",
+   "web": "8.26 acres (oryzabyorigenrealty.com); 8.2 acres (axiomplus)",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://oryzabyorigenrealty.com/",
+    "https://www.axiomplusservices.in/property/origen-the-oryza-sector-88a-gurgaon/"
+   ],
+   "note": "Small difference. No source gives 8.5 acres.",
+   "slug": "the-oryza",
+   "name": "The Oryza"
+  },
+  {
+   "field": "configurations",
+   "ours": "3 BHK — 2,642 sq ft — Price on Request | 4 BHK — 2,957 sq ft — Price on Request | 4 BHK — 3,380 sq ft — Price on Request",
+   "web": "3 BHK 2,642 sq ft (Rs 6.90 Cr), 3 BHK 2,957 sq ft (Rs 7.72 Cr), 4 BHK 3,380 sq ft (Rs 8.82 Cr); brokers market these as 3.5 BHK + servant and 4.5 BHK + servant",
+   "verdict": "partial",
+   "severity": "low",
+   "sources": [
+    "https://www.squareyards.com/gurgaon-residential-property/trevoc-royal-residences/308421/project",
+    "https://riseinfraventures.com/property-detail/trevoc-royal-residences-sector-56-gurgaon"
+   ],
+   "note": "All sizes match. Square Yards labels the 2,957 sq ft unit 3 BHK, not 4 BHK. Prices are published online.",
+   "slug": "trevoc-royal-residences-gurgaon",
+   "name": "Trevoc Royal Residences"
+  }
+ ]
+}

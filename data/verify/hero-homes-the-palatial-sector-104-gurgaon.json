@@ -1,0 +1,129 @@
+{
+  "slug": "hero-homes-the-palatial-sector-104-gurgaon",
+  "name": "Hero Homes The Palatial",
+  "overall": "minor-discrepancies",
+  "summary": "The project, developer (Hero Realty), Sector 104 Dwarka Expressway location, under-construction status, ~11 acre land area, 5 towers and ~₹4.9 Cr starting price are confirmed. Our RERA number is valid but only for Phase 2 (Tower D); the project has three registrations. Our unit count (750) does not match any source (500 / 552 / 650), unit sizes differ slightly (2,800 / 3,460 sq ft on portals), and we publish no possession date although portals cite 2028-2030 by phase.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Hero Homes The Palatial",
+      "web": "Hero Homes The Palatial (also listed as Hero Homes Palatial), Sector 104, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+        "https://houssed.com/gurgaon/hero-realty/hero-homes-the-palatial-136580"
+      ],
+      "note": "Project exists and is widely listed."
+    },
+    {
+      "field": "developer",
+      "ours": "Hero Realty (listed as \"Hero Homes The Palatial\")",
+      "web": "Hero Realty Ltd",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+        "https://houssed.com/gurgaon/hero-realty/hero-homes-the-palatial-136580"
+      ],
+      "note": "Developer confirmed as Hero Realty; the 'listed as' label is the project name rather than a developer name (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 104, Dwarka Expressway, Sector 104, Gurugram, Haryana",
+      "web": "Sector 104, Dwarka Expressway, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+        "https://www.reiasindia.com/hero-homes-the-palatial"
+      ],
+      "note": "Our location string repeats 'Sector 104' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/908/640/2025/11",
+      "web": "Phase 1 (Tower E): RC/REP/HARERA/GGM/907/639/2025/10; Phase 2 (Tower D): RC/REP/HARERA/GGM/908/640/2025/11; Phase 4 (Towers A & B, club, commercial): RC/REP/HARERA/GGM/906/638/2025/09",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+        "https://infraguiderealtors.com/hero-homes-palatial-sector-104-gurgaon-p365"
+      ],
+      "note": "Our number is correct but covers only Phase 2 (Tower D). The project has at least three HARERA registrations; some sites cite only Phase 1 ('10 of 2025')."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "Square Yards: December 2029; other listings: Phase 2 Apr 2028, Phase 3 Mar 2028, Phase 4 Jun 2030",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+        "https://infraguiderealtors.com/hero-homes-palatial-sector-104-gurgaon-p365"
+      ],
+      "note": "We publish no possession date, but portals give phase-wise dates of 2028-2030. Sources disagree with each other."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹4.89 Crores Onwards",
+      "web": "₹4.90 Cr - 6.05 Cr (100acress); ₹5.18 Cr - 6.40 Cr (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.100acress.com/hero-homes-palatial/",
+        "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project"
+      ],
+      "note": "Within ±15% of both sources (Square Yards ~6% higher)."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK — 2,833 sq ft — Price on Request | 4 BHK — 3,457 sq ft — Price on Request",
+      "web": "3 BHK: 2,800 sq ft; 4 BHK: 3,460 sq ft (some sites market these as 3.5 / 4.5 BHK)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+        "https://www.100acress.com/hero-homes-palatial/"
+      ],
+      "note": "BHK types match; sizes differ slightly (2,833 vs 2,800; 3,457 vs 3,460), probably from rounding or a different area basis."
+    },
+    {
+      "field": "landArea",
+      "ours": "11.25 Acres",
+      "web": "11.25 acres (100acress); 11 acres (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.100acress.com/hero-homes-palatial/",
+        "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 5; units: 750; floors: —",
+      "web": "5 towers (A-E), G+43; units: 552 (Square Yards), 500 / 650 (other listings)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/hero-homes-palatial/325116/project",
+        "https://www.100acress.com/hero-homes-palatial/"
+      ],
+      "note": "Tower count (5) matches; one site says 4 towers. No source gives 750 units: sources say 500, 552 or 650. Floors (G+43) are available but we don't publish them."
+    }
+  ],
+  "checkedAt": "2026-10-02T00:00:00Z",
+  "method": "subagent:web-research"
+}

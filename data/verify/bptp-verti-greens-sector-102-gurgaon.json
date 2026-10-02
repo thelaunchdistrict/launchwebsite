@@ -1,0 +1,138 @@
+{
+  "slug": "bptp-verti-greens-sector-102-gurgaon",
+  "name": "BPTP Verti Greens",
+  "overall": "minor-discrepancies",
+  "summary": "Project (BPTP Amstoria Verti Greens), Sector 102 Dwarka Expressway location, RERA number GGM/910/642/2025/13, under-construction status, June 2032 possession, 9.43 acres and 5 towers / 885 units are confirmed by at least one portal each, though other portals give 12 acres, 1,149 units and earlier possession dates. Our starting price of Rs 2.5 Cr is not within ±15% of any source (NoBroker Rs 2.11 Cr, Square Yards/Inframantra ~Rs 3.05 Cr), and our unit sizes (908 / 1,270 sq ft) were not found anywhere (NoBroker carpet: 1,021 / 1,622 sq ft).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "BPTP Verti Greens",
+      "web": "BPTP Amstoria Verti Greens, Sector 102, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project",
+        "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d"
+      ],
+      "note": "Portals use the full name 'Amstoria Verti Greens'."
+    },
+    {
+      "field": "developer",
+      "ours": "BPTP (listed as \"BPTP Verti Greens\")",
+      "web": "BPTP Limited",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project"
+      ],
+      "note": "Developer is correct but listed under the project name rather than 'BPTP Limited'."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 102, Dwarka Expressway, Sector 102, Gurugram, Haryana",
+      "web": "Sector 102, Dwarka Expressway, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d",
+        "https://www.propzilla.in/property/bptp-verti-green-sector-102-dwarka-expressway-gurgaon"
+      ],
+      "note": "Our location string repeats 'Sector 102' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "HARERA/GGM/ 910/642/2025/13",
+      "web": "RC/REP/HARERA/GGM/910/642/2025/13",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d",
+        "https://www.propzilla.in/property/bptp-verti-green-sector-102-dwarka-expressway-gurgaon",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project"
+      ],
+      "note": "Same number, but ours lacks the 'RC/REP/' prefix and contains a stray space after 'GGM/'. Inframantra additionally shows RERA-GRG-1830-2024 (the HARERA application id)."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project",
+        "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2032-06 (from: \"possession timeline is June 2032\")",
+      "web": "June 2032 (NoBroker, Inframantra); December 2031 (Square Yards); February 2030 (Propzilla)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d",
+        "https://inframantra.com/property/bptp-amstoria-verti-greens-sector-102-gurgaon",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project",
+        "https://www.propzilla.in/property/bptp-verti-green-sector-102-dwarka-expressway-gurgaon"
+      ],
+      "note": "Sources disagree; June 2032 is the most frequently cited date and likely the RERA date."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹2.5 Crores Onwards",
+      "web": "Rs 2.11 Cr (NoBroker); Rs 3.05 Cr (Square Yards); Rs 3.06 Cr (Inframantra); Rs 3.50 Cr for 2 BHK (Propzilla)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project",
+        "https://inframantra.com/property/bptp-amstoria-verti-greens-sector-102-gurgaon",
+        "https://www.propzilla.in/property/bptp-verti-green-sector-102-dwarka-expressway-gurgaon"
+      ],
+      "note": "No source is within ±15% of Rs 2.5 Cr: NoBroker is ~16% lower, while most portals are ~22%+ higher (~Rs 3.05 Cr). Sources bracket our value, so severity set to medium; current market entry appears closer to Rs 3 Cr."
+    },
+    {
+      "field": "configurations",
+      "ours": "2 BHK TYPE 2 — 908 sq ft — Price on Request | 2 BHK TYPE 1 — 908 sq ft — Price on Request | 3 BHK TYPE 2 — 1,270 sq ft — Price on Request | 3 BHK TYPE 3 — 1,270 sq ft — Price on Request | 3 BHK TYPE 1 — 1,272sq ft — Price on Request",
+      "web": "2 BHK carpet 1,021 / super 1,621 sq ft; 3 BHK carpet 1,622 / super 2,575 sq ft (NoBroker); Square Yards 2 BHK 1,451-1,751 and 3 BHK 1,828-1,941 sq ft; Inframantra 2 BHK 1,656 / 3 BHK 2,463 sq ft",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project",
+        "https://inframantra.com/property/bptp-amstoria-verti-greens-sector-102-gurgaon"
+      ],
+      "note": "2 and 3 BHK mix confirmed, but our sizes (908 / 1,270 sq ft) were not found on any source; even the carpet areas quoted (1,021 / 1,622) are larger. Ours may be a narrower RERA carpet definition, but this could not be confirmed."
+    },
+    {
+      "field": "landArea",
+      "ours": "9.43 Acres",
+      "web": "9.43 acres (NoBroker, Inframantra); 12 acres (Square Yards, Propzilla)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.nobroker.in/bptp-amstoria-verti-greens-sector-102_gurgaon-prjt-8a9fbc8395ea28020195ea7669ed109d",
+        "https://inframantra.com/property/bptp-amstoria-verti-greens-sector-102-gurgaon",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project"
+      ],
+      "note": "Sources disagree; 12 acres probably refers to the larger Amstoria parcel."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 5; units: 885; floors: —",
+      "web": "5 towers, 885 units (Inframantra); 5 towers G+45, 1,149 units (Square Yards); 7 towers (Propzilla)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://inframantra.com/property/bptp-amstoria-verti-greens-sector-102-gurgaon",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-amstoria-verti-greens/325205/project",
+        "https://www.propzilla.in/property/bptp-verti-green-sector-102-dwarka-expressway-gurgaon"
+      ],
+      "note": "Sources disagree on unit count (885 vs 1,149) and tower count (5 vs 7); our figures match the source quoting 9.43 acres."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:37:07Z",
+  "method": "subagent:web-research"
+}

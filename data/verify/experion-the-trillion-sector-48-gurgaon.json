@@ -1,0 +1,100 @@
+{
+  "slug": "experion-the-trillion-sector-48-gurgaon",
+  "name": "Experion The Trillion",
+  "overall": "major-discrepancies",
+  "summary": "The project, developer (Experion Developers Pvt Ltd), Sector 48 Sohna Road location, HARERA number GGM/911/643/2025/14, 5.5 acres, 3 towers and 540 units are all confirmed. Our July 2029 possession is close to the marketed August 2029, but the RERA completion date is 31 Dec 2032. Our unit sizes do not match any source: we list 3 BHK 2,013 and 4 BHK 1,905 sq ft, while sources give 3 BHK 2,842–3,000 and 4 BHK 3,529–3,601 sq ft. Our 4 BHK is also smaller than our 3 BHK. Our ₹5.83 Cr starting price is at the low end, since sources range from ₹5.96 Cr to ₹8.22 Cr.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Experion The Trillion",
+      "web": "Experion The Trillion, Plot GH3, Sector 48, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/experion-the-trillion/325517/project", "https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Experion Developers (listed as \"Experion The Trillion\")",
+      "web": "Experion Developers Private Limited (AT Holdings / AT Capital, Singapore)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244"],
+      "note": "Our raw developer label is the project name (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 48, Sohna Road, Sector 48, Gurugram, Haryana",
+      "web": "Plot GH3, Sector 48, Sohna Road, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "HARERA/GGM/911/643/2025/14",
+      "web": "HARERA/GGM/911/643/2025/14 (registered 15 Jan 2025)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/experion-the-trillion/325517/project", "https://www.experionrealty.com/experion-trillion/", "https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244"],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction (Tata Projects appointed contractor)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/experion-the-trillion/325517/project", "https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2029-07 (from: \"possession date is July 2029\")",
+      "web": "RERA completion 31 Dec 2032 (reratracker, Square Yards, marketing partner); marketed August 2029 (propgrow, 100acress)",
+      "verdict": "partial",
+      "severity": "high",
+      "sources": ["https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244", "https://www.squareyards.com/gurgaon-residential-property/experion-the-trillion/325517/project", "https://www.propgrow.in/properties/experion-the-trillion"],
+      "note": "Ours is close to the marketed Aug 2029 date but 3.5 years before the RERA completion date. Investors should see the RERA date."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹5.83 Crore Onwards",
+      "web": "Listing: 3 BHK from ₹5.96 Cr; marketing partner: ₹6.62 Cr – ₹8.39 Cr; Square Yards: ₹6.72 Cr – ₹8.64 Cr; propgrow: ₹7.5 Cr; reratracker: ~₹8.22 Cr",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.experionrealty.com/experion-trillion/", "https://www.squareyards.com/gurgaon-residential-property/experion-the-trillion/325517/project", "https://www.propgrow.in/properties/experion-the-trillion", "https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244"],
+      "note": "Ours is 12–13% below ₹6.62 to ₹6.72 Cr, which is within the ±15% tolerance, but it is the lowest figure seen. Other sources (₹7.5 to ₹8.22 Cr) are 29–41% higher, so ours may be stale or launch-era pricing."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK — 2,013 sq ft — Price on Request | 4 BHK — 1,905 sq ft — Price on Request",
+      "web": "3 BHK 2,842–2,917 sq ft and 4 BHK 3,529–3,601 sq ft (super area); propgrow: 3 BHK 3,000 / 4 BHK 3,600 sq ft; Square Yards: 3 BHK 2,800/3,000, 4 BHK 3,600 sq ft (saleable)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": ["https://www.experionrealty.com/experion-trillion/", "https://www.squareyards.com/gurgaon-residential-property/experion-the-trillion/325517/project", "https://www.propgrow.in/properties/experion-the-trillion", "https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244"],
+      "note": "No source lists 2,013 or 1,905 sq ft. Our 4 BHK being smaller than our 3 BHK suggests a data error, possibly swapped or partial carpet figures."
+    },
+    {
+      "field": "landArea",
+      "ours": "5.5 Acres",
+      "web": "5.496 acres (22,241.52 m²); 5.5 acres",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244", "https://www.squareyards.com/gurgaon-residential-property/experion-the-trillion/325517/project"],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 3; units: 540; floors: —",
+      "web": "3 towers, G+45, 540 units",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/experion-the-trillion/325517/project", "https://reratracker.com/the-trillion-in-gurugram-by-experion-developers-private-limited-rtid4244"],
+      "note": "Floors (G+45) not in our data."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:39:33Z",
+  "method": "subagent:web-research"
+}

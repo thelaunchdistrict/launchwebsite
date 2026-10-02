@@ -1,0 +1,100 @@
+{
+  "slug": "m3m-paragon-57-sector-57-gurgaon",
+  "name": "M3M Paragon57",
+  "overall": "minor-discrepancies",
+  "summary": "The project, M3M as developer, Sector 57 (Sushant Lok III), the RERA number GGM/651/383/2022/126, the ready status (an occupancy certificate is reported), the August 2026 marketed possession and a starting price around ₹1.25–1.4 Cr are confirmed. Our 1.5-acre land area conflicts with the 3.16 acres every source gives. Sources describe 4 retail levels, not 6 floors, and the reported RERA completion date is 30 June 2026.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "M3M Paragon57",
+      "web": "M3M Paragon 57, mixed-use commercial project in Sector 57, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-paragon-57/212144/project", "https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "M3M India (listed as \"M3M Paragon57\")",
+      "web": "M3M India Pvt Ltd",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.bigestate.io/in/project/m3m-paragon-57-by-m3m-india-pvt-ltd-in-sector-57-gurgaon"],
+      "note": "Our 'listed as' developer name is the project name, which is cosmetic."
+    },
+    {
+      "field": "location",
+      "ours": "Sushant Lok III, Sector 57, Sector 57, Gurugram, Haryana",
+      "web": "Sector 57, Gurgaon (Sushant Lok Phase 3)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-paragon-57/212144/project"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/651/383/2022/126",
+      "web": "RC/REP/HARERA/GGM/651/383/2022/126, registered 23 December 2022",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073", "https://www.squareyards.com/gurgaon-residential-property/m3m-paragon-57/212144/project"],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "ready (source: READY)",
+      "web": "Ready to Move (Houssed); Partially Ready To Move (Square Yards); M3M reportedly received the occupancy certificate",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073", "https://www.squareyards.com/gurgaon-residential-property/m3m-paragon-57/212144/project", "https://m3mpropertyindia.com/m3m-paragon57-oc-possession/"],
+      "note": "The occupancy certificate report comes from a broker site, not HARERA."
+    },
+    {
+      "field": "possession",
+      "ours": "2026-08 (from: \"possession date of August 2026\")",
+      "web": "RERA possession date 30-Jun-2026 (Houssed, via search snippet); expected possession August 2026 (broker site)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073", "https://m3mpropertyindia.com/m3m-paragon57-oc-possession/"],
+      "note": "Our date matches the marketed date and is 2 months after the reported RERA date."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "1.4 Crores Onwards",
+      "web": "₹1.25–8.35 Cr (Houssed); ₹46 L–2.07 Cr (Square Yards, from 200 sq ft shops)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073", "https://www.squareyards.com/gurgaon-residential-property/m3m-paragon-57/212144/project"],
+      "note": "Houssed's ₹1.25 Cr is within 15% of ours. The sources disagree: Square Yards lists small shops from ₹46 L."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "Shops and showrooms of 300–2,000 sq ft (Houssed); retail shops of 200–900 sq ft and 1,200 sq ft studios (Square Yards)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073", "https://www.squareyards.com/gurgaon-residential-property/m3m-paragon-57/212144/project"],
+      "note": "We publish no configurations."
+    },
+    {
+      "field": "landArea",
+      "ours": "1.5 Acres",
+      "web": "3.16 acres",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/m3m-paragon-57/212144/project", "https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073"],
+      "note": "Every source gives 3.16 acres."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: —; units: —; floors: 6",
+      "web": "858 units; 1 tower (Houssed) or 6 blocks R1–R6 (Square Yards); 4-level retail with a multiplex and food court on the 3rd–4th floors",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://houssed.com/commercial/gurgaon/m3m-group/m3m-paragon-57-157073", "https://www.squareyards.com/gurgaon-residential-property/m3m-paragon-57/212144/project"],
+      "note": "Sources describe 4 retail levels, and our '6' may be the 6 blocks (R1–R6) rather than floors."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

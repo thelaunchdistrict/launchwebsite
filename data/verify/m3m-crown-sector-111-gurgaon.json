@@ -1,0 +1,127 @@
+{
+  "slug": "m3m-crown-sector-111-gurgaon",
+  "name": "M3M Crown",
+  "overall": "minor-discrepancies",
+  "summary": "The project, developer (M3M India), Sector 111 Dwarka Expressway location, RERA GGM/687/419/2023/31, under-construction status, 16 acres, 11 towers, 1,332 units and ~₹3.3-3.4 Cr starting price are confirmed by most sources. Our possession date (Dec 2028) is about 11 months later than the January 2028 that most portals cite (one says Feb 2028). Some sources give unit sizes of 1,555-2,525 sq ft rather than our 1,605-2,670, and sources disagree on land area, tower and unit counts.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "M3M Crown",
+      "web": "M3M Crown, Sector 111, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project",
+        "https://www.vrkhomeestates.com/m3m-crown-sector-111-gurgaon/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "M3M India",
+      "web": "M3M India",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Sector 111, Dwarka Expressway, Sector 111, Gurugram, Haryana",
+      "web": "Sector 111, Dwarka Expressway, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project",
+        "https://www.vrkhomeestates.com/m3m-crown-sector-111-gurgaon/"
+      ],
+      "note": "Our location string repeats 'Sector 111' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/687/419/2023/31",
+      "web": "GGM/687/419/2023/31",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project",
+        "https://www.vrkhomeestates.com/m3m-crown-sector-111-gurgaon/"
+      ],
+      "note": "The number matches but lacks the 'RC/REP/HARERA/' prefix (cosmetic)."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2028-12 (from: \"possession date is December 2028\")",
+      "web": "January 2028 (Square Yards, VRK and most listings); February 2028 (one listing)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project",
+        "https://www.vrkhomeestates.com/m3m-crown-sector-111-gurgaon/"
+      ],
+      "note": "Ours is about 11 months later than the date most sources give. No source found cites December 2028."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹3.29 Crore Onwards",
+      "web": "₹3.41 Cr - ₹5.53 Cr (Square Yards, ~₹21,900/sq ft)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project"
+      ],
+      "note": "Within ±15% (about 4% lower)."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK — 1,605 sq ft — Price on Request | 3 BHK — 1,665 sq ft — Price on Request | 3 BHK + STUDY — 1,825 sq ft — Price on Request | 3 BHK — 1,895 sq ft — Price on Request | 3 BHK + UTILITY — 2,080 sq ft — Price on Request | 3 BHK — 2,170 sq ft — Price on Request | 4 BHK + UTILITY — 2,305 sq ft — Price on Request | 4 BHK — 2,400 sq ft — Price on Request | 4 BHK + UTILITY — 2,570 sq ft — Price on Request | 4 BHK + STUDY — 2,670 sq ft — Price on Request",
+      "web": "3/3.5/4/4.5 BHK. Sizes 1,605-2,670 sq ft (m3mrealty / floor-plan listings: 1,605 = 3 BHK, 2,670 = 4 BHK + study + utility); Square Yards: 1,555-2,525 sq ft (3 BHK 1,555/2,050, 4 BHK 2,270/2,525)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.m3mrealty.com/residential/m3m-crown-sector-111-gurgaon/",
+        "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project"
+      ],
+      "note": "Our 1,605-2,670 range and both endpoint units match some listings, but Square Yards gives different sizes (1,555-2,525), probably on a different area basis. Intermediate sizes weren't confirmed one by one."
+    },
+    {
+      "field": "landArea",
+      "ours": "16 Acres",
+      "web": "16 acres (Square Yards, others); 11.6 acres (VRK Home Estates)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project",
+        "https://www.vrkhomeestates.com/m3m-crown-sector-111-gurgaon/"
+      ],
+      "note": "Most sources say 16 acres. One says 11.6 acres."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 11; units: 1332; floors: —",
+      "web": "11 towers, G+32 floors, 1,332 units (VRK and most listings); Square Yards: 17 towers (T1-T17), 1,332 units; one listing: 726 units",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.vrkhomeestates.com/m3m-crown-sector-111-gurgaon/",
+        "https://www.squareyards.com/gurgaon-residential-property/m3m-crown/214724/project"
+      ],
+      "note": "Most sources agree on 11 towers and 1,332 units. Square Yards says 17 towers, and one listing says 726 units. Floors (G+32) are available but we don't publish them."
+    }
+  ],
+  "checkedAt": "2026-10-02T00:00:00Z",
+  "method": "subagent:web-research"
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "birla-arika-sector-31-nh8-gurgaon",
+  "name": "Birla Arika",
+  "overall": "minor-discrepancies",
+  "summary": "The project, developer (Birla Estates, Aditya Birla Group), Sector 31 off-NH-48 location, RERA GGM/914/646/2025/17 (Phase 1), 13.27 acres, 7 towers, 4 BHK-only configuration and ~₹10.5 Cr entry price are confirmed. The clear error is units: we publish 150, while all sources give roughly 500–613 residences. We also omit the Phase 2 RERA (GGM/1044/776/2026/16) and the RERA completion date (Dec 2031 / Jan 2032).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Birla Arika",
+      "web": "Birla Arika, luxury 4 BHK high-rise project, Sector 31, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project", "https://www.nobroker.in/birla-arika-sector-31_gurgaon-prjt-8a9fb983958d756d01958dad418f09ea"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Birla Estates (listed as \"Birla Estates Pvt. Ltd. (Aditya Birla Group)\")",
+      "web": "Birla Estates Private Limited (real-estate arm of Aditya Birla Group)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/birla-arika-in-sector-31-gurgaon-by-birla-estates-rtid3539", "https://www.nobroker.in/birla-arika-sector-31_gurgaon-prjt-8a9fb983958d756d01958dad418f09ea"],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Off NH – 48 (NH – 8), Sector 31, Sector 31, Gurugram, Haryana",
+      "web": "Sector 31 (ReraTracker: Sector 31-32A), adjacent to NH-48 (NH-8), Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project", "https://reratracker.com/birla-arika-in-sector-31-gurgaon-by-birla-estates-rtid3539"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/914/646/2025/17",
+      "web": "Phase 1: GGM/914/646/2025/17 (registered Feb 2025; HARERA ID RERA-GRG-1823-2024). Phase 2: RC/REP/HARERA/GGM/1044/776/2026/16 (Feb 2026; ID RERA-GRG-2142-2025)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project", "https://birlaarikagurgaon.umso.co/blog/birla-arika-price-list-2026-floor-plans-sizes-and-payment-plan-explained", "https://reratracker.com/birla-arika-in-sector-31-gurgaon-by-birla-estates-rtid3539"],
+      "note": "Our number is correct for Phase 1, but the Phase 2 registration is missing."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project", "https://www.nobroker.in/birla-arika-sector-31_gurgaon-prjt-8a9fb983958d756d01958dad418f09ea"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "December 2031 (Square Yards, NoBroker; ReraTracker Phase 1 completion 09-12-2031); RERA date 01-01-2032 and marketed target Nov 2030 (umso blog); Phase 2 July 2033 (ReraTracker)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project", "https://reratracker.com/birla-arika-in-sector-31-gurgaon-by-birla-estates-rtid3539", "https://birlaarikagurgaon.umso.co/blog/birla-arika-price-list-2026-floor-plans-sizes-and-payment-plan-explained"],
+      "note": "Not published by us. We could add Phase 1 RERA completion ~Dec 2031."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹10.49 Crores Onwards",
+      "web": "Entry ~₹10.5 Cr (ReraTracker, NoBroker 4 BHK from ₹10.50 Cr); ₹10.90 Cr Phase 1 (umso blog); ₹11.18–12.35 Cr (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/birla-arika-in-sector-31-gurgaon-by-birla-estates-rtid3539", "https://www.nobroker.in/birla-arika-sector-31_gurgaon-prjt-8a9fb983958d756d01958dad418f09ea", "https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project"],
+      "note": "All within ±15%. Phase 2 reportedly starts around ₹12.94 Cr."
+    },
+    {
+      "field": "configurations",
+      "ours": "Towers T-1, T-2, T-3 — 2,319–2,356 sq ft — ₹10.49 – ₹10.89 Cr (Launch) | Tower T-7 — 2,814–2,816 sq ft — ₹12.50 – ₹12.73 Cr (Launch)",
+      "web": "4 BHK only; carpet from 2,349 sq ft (NoBroker); super area 4,300 / 4,750 sq ft (Square Yards); Phase 1 towers 1, 2, 3 and 7 (Square Yards); price ₹11.18–12.35 Cr",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.nobroker.in/birla-arika-sector-31_gurgaon-prjt-8a9fb983958d756d01958dad418f09ea", "https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project"],
+      "note": "Tower grouping (T1–T3 and T7) and the carpet-area range are consistent with sources, but our exact tower-wise carpet areas and prices were not found. Portals quote super area (4,300–4,750 sq ft), so the carpet vs super difference makes this partial. We should label our areas as carpet."
+    },
+    {
+      "field": "landArea",
+      "ours": "13.27 Acres",
+      "web": "13.27 acres (~13.275 licensed; Phase 1 registered area 11.75 acres)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project", "https://reratracker.com/birla-arika-in-sector-31-gurgaon-by-birla-estates-rtid3539"],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 7; units: 150; floors: —",
+      "web": "7 towers, ~500–520 residences of 40–41 floors (umso blog, NoBroker ~500); ~556 total, 356 in Phase 1 across 4 towers (ReraTracker); 613 units (Square Yards)",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": ["https://reratracker.com/birla-arika-in-sector-31-gurgaon-by-birla-estates-rtid3539", "https://www.nobroker.in/birla-arika-sector-31_gurgaon-prjt-8a9fb983958d756d01958dad418f09ea", "https://www.squareyards.com/gurgaon-residential-property/birla-arika/325363/project", "https://birlaarikagurgaon.umso.co/blog/birla-arika-price-list-2026-floor-plans-sizes-and-payment-plan-explained"],
+      "note": "The 7 towers match. Our 150 units is far below every source (~500–613), which overstates exclusivity and understates density by more than 3x."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:38:45Z",
+  "method": "subagent:web-research"
+}

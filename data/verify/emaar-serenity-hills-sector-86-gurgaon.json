@@ -1,0 +1,100 @@
+{
+  "slug": "emaar-serenity-hills-sector-86-gurgaon",
+  "name": "Emaar Serenity Hills",
+  "overall": "major-discrepancies",
+  "summary": "The project, developer (Emaar India) and Sector 86 location are confirmed. Our RERA number is correct for Phase 1 only, because Phase 2 is GGM/994/726/2025/97. Our carpet sizes of 1,183–2,079 sq ft are confirmed by one source. Major differences: possession is September 2032 on all sources, not December 2028. The project has 13 towers and 997 units on 25.9 acres, not 7 towers, 1,800 units and 27 acres. Portals start at ₹2.72–2.98 Cr, about 19–26% above our ₹2.2 Cr.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Emaar Serenity Hills",
+      "web": "Emaar Serenity Hills, Sector 86, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project", "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Emaar India (listed as \"Emaar Serenity Hills Sector 86\")",
+      "web": "Emaar India",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project"],
+      "note": "Our raw developer label is the project name (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 86, Near Dwarka Expressway, Sector 86, Gurugram, Haryana",
+      "web": "Sector 86, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project", "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/993/725/2025/96",
+      "web": "Phase 1: GGM/993/725/2025/96; Phase 2: GGM/994/726/2025/97",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project", "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"],
+      "note": "Our number is correct for Phase 1, but we omit the Phase 2 registration."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction / New Launch",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162", "https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2028-12 (from: \"Possession is expected by December 2028\")",
+      "web": "September 2032",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project", "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"],
+      "note": "Ours is about 3 years and 9 months earlier than every source found. A 2025 registration makes December 2028 implausible."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹2.2 Crore Onwards",
+      "web": "Homebazaar: ₹2.72 Cr; Square Yards: ₹2.93 Cr – ₹4.83 Cr; gurgaonpropertyinvestment: from ₹2.98 Cr",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": ["https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162", "https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project", "https://gurgaonpropertyinvestment.in/property-detail/emaar-serenity-hills.html"],
+      "note": "The lowest web price (₹2.72 Cr) is about 19% above ours, which is outside the ±15% tolerance."
+    },
+    {
+      "field": "configurations",
+      "ours": "3 BHK Small — 1,183 sq ft — Price on Request | 3 BHK Large — 1,537 sq ft — Price on Request | 4 BHK — 2,079 sq ft — Price on Request",
+      "web": "Carpet area 1,183–2,079 sq ft (gurgaonpropertyinvestment); saleable 3 BHK 1,700–1,750 / 2,200–2,300, 4 BHK 2,700–3,000 sq ft (Square Yards, Homebazaar)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://gurgaonpropertyinvestment.in/property-detail/emaar-serenity-hills.html", "https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project", "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"],
+      "note": "Our sizes match a carpet-area range, but portals list saleable areas. Portals also show a second 4 BHK size that we do not list. Our page should label these as carpet area."
+    },
+    {
+      "field": "landArea",
+      "ours": "27 Acres",
+      "web": "25.9 acres",
+      "verdict": "mismatch",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project", "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"],
+      "note": "About 4% off."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 7; units: 1800; floors: —",
+      "web": "13 towers (G+32 to G+39), 997 units",
+      "verdict": "mismatch",
+      "severity": "medium",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-serenity-hills/341603/project", "https://www.homebazaar.com/emaar-serenity-hills-sector-86-gurgaon-8162"],
+      "note": "Both the tower count and the unit count differ substantially."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:39:33Z",
+  "method": "subagent:web-research"
+}

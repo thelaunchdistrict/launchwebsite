@@ -1,0 +1,100 @@
+{
+  "slug": "elan-the-emperor-sector-106-gurgaon",
+  "name": "Elan The Emperor",
+  "overall": "major-discrepancies",
+  "summary": "Existence, developer, Sector 106 Dwarka Expressway location, RERA GGM/902/634/2025/05, September 2032 RERA completion date, ₹12.99 Cr starting price, 4/5 BHK sizes, 5 towers and 580 units are confirmed. Our 50-acre land area is far larger than the 4.827 acres filed with RERA (24.10-acre licensed parcel), although Square Yards also states 50 acres. Our 5 BHK size of 5,444 sq ft differs from the 5,434 sq ft on portals.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Elan The Emperor",
+      "web": "Elan The Emperor, luxury residential project, Sector 106, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project", "https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Elan Group (listed as \"Elan The Emperor\")",
+      "web": "Elan Group; promoter Elan Avenue Limited (formerly Airmid Developers Limited)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628", "https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project"],
+      "note": "Our developer label 'Elan The Emperor' is the project name, not the developer (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 106, Dwarka Expressway, Sector 106, Gurugram, Haryana",
+      "web": "Sector 106, Village Pawala Khusrupur, Dwarka Expressway, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/902/634/2025/05",
+      "web": "GGM/902/634/2025/05 dated 17.01.2025 (HARERA project ID RERA-GRG-1774-2024)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project", "https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628"],
+      "note": "RERA-GRG-1774-2024 is the application/project ID; the registration certificate number matches ours."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2032-09 (from: \"Possession is expected by September 2032\")",
+      "web": "RERA completion 30 September 2032 (reratracker); December 2032 (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628", "https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project"],
+      "note": "Reportedly the developer is targeting an earlier phased handover (around late 2029)."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "12.99 Crores Onwards",
+      "web": "₹12.99 Cr (Square Yards); about ₹11.19 Cr base (reratracker); ₹9.99-10 Cr (broker sites)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project", "https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628"],
+      "note": "Square Yards matches exactly, and reratracker is within 15%. Some broker pages advertise ₹10 Cr onwards. Our value lacks the ₹ symbol (cosmetic)."
+    },
+    {
+      "field": "configurations",
+      "ours": "4 BHK — 4,223 sq ft — Price on Request | 4 BHK — 4,640 sq ft — Price on Request | 4 BHK — 7,225 sq ft — Price on Request | 4 BHK — 8,053 sq ft — Price on Request | 5 BHK — 5,444 sq ft — Price on Request | 5 BHK — 5,891 sq ft — Price on Request | 5 BHK — 9,470 sq ft — Price on Request | 5 BHK — 10,347 sq ft — Price on Request",
+      "web": "4 BHK 4,223-4,640; 5 BHK 5,434-5,891; 4 BHK penthouse 7,225-8,053; 5 BHK penthouse 9,470-10,347 sq ft (super area)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project", "https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628"],
+      "note": "All sizes match except our 5 BHK 5,444 sq ft, which sources give as 5,434 sq ft (possible typo). We do not label the 7,225-10,347 sq ft units as penthouses."
+    },
+    {
+      "field": "landArea",
+      "ours": "50 Acres",
+      "web": "4.827 acres registered (within a 24.10-acre licensed parcel) per RERA tracker; 50 acres (Square Yards); 33.5-37 acres (broker sites)",
+      "verdict": "mismatch",
+      "severity": "high",
+      "sources": ["https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628", "https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project", "https://elanpropertiesggn.com/elan-the-emperor-sector-106/"],
+      "note": "Sources disagree widely. The RERA-based figure is 4.827 acres. 50 acres likely refers to Elan's wider Sector 106 township, not this project."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 5; units: 580; floors: —",
+      "web": "5 buildings, 580 units, up to 45 floors (RERA tracker); 580 units in 2 towers of 39 floors (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://reratracker.com/elan-the-emperor-in-sector-106-gurgaon-by-elan-rtid3628", "https://elanpropertiesggn.com/elan-the-emperor-sector-106/", "https://www.squareyards.com/gurgaon-residential-property/elan-the-emperor/325052/project"],
+      "note": "Square Yards says 2 towers, which conflicts with the RERA tracker's 5. One broker snippet claims 1,800 units."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

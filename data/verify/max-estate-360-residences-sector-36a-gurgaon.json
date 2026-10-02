@@ -1,0 +1,130 @@
+{
+  "slug": "max-estate-360-residences-sector-36a-gurgaon",
+  "name": "Max Estate 360 Residences",
+  "overall": "minor-discrepancies",
+  "summary": "Developer (Max Estates), Sector 36A Dwarka Expressway location, RERA GGM/860/592/2024/87, under-construction status, August 2030 possession, 11.8 acres, 6 towers and the 2149-3531 sq ft unit mix are all confirmed. Starting price of Rs 5.2 Cr is within range of portal quotes (Rs 5.32-5.48 Cr), though some sites quote Rs 7 Cr. Unit count is disputed: 864 on several sites vs 630 on others; the promoter entity name 'Max Estates Gurgaon Ltd.' was not independently confirmed.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Max Estate 360 Residences",
+      "web": "Max Estate 360 / Estate 360 by Max Estates, Sector 36A, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.homebazaar.com/max-estate-360-sector-36a-gurugram-8115",
+        "https://www.jllhomes.co.in/apartments-new/gurgaon/max-estate-360"
+      ],
+      "note": "Marketed as 'Estate 360'; 'Residences' suffix not used by the developer."
+    },
+    {
+      "field": "developer",
+      "ours": "Max Estates (listed as \"Max Estates Limited (Promoter: Max Estates Gurgaon Ltd.)\")",
+      "web": "Max Estates (real estate arm of Max Group)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.homebazaar.com/max-estate-360-sector-36a-gurugram-8115",
+        "https://www.maxrealtyindia.com/max-estate-360/"
+      ],
+      "note": "Promoter entity 'Max Estates Gurgaon Ltd.' not independently confirmed (HARERA page not reached)."
+    },
+    {
+      "field": "location",
+      "ours": "Dwarka Expressway, Sector 36A, Sector 36A, Gurugram, Haryana",
+      "web": "Sector 36A, Dwarka Expressway, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.homebazaar.com/max-estate-360-sector-36a-gurugram-8115",
+        "https://www.vintagevista.co.in/blog/max-estate-360-sector-36a-gurgaon-luxury-apartments-dwarka-expressway"
+      ],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/860/592/2024/87",
+      "web": "RC/REP/HARERA/GGM/860/592/2024/87 dated 16.08.2024",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.homebazaar.com/max-estate-360-sector-36a-gurugram-8115",
+        "https://www.vintagevista.co.in/blog/max-estate-360-sector-36a-gurgaon-luxury-apartments-dwarka-expressway"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under construction (launched Aug 2024, possession Aug 2030)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.vintagevista.co.in/blog/max-estate-360-sector-36a-gurgaon-luxury-apartments-dwarka-expressway"
+      ],
+      "note": "Homebazaar mislabels it 'Ready Possession' while also giving Aug 2030 possession."
+    },
+    {
+      "field": "possession",
+      "ours": "2030-08 (from: \"possession is August 2030\")",
+      "web": "August 2030",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.homebazaar.com/max-estate-360-sector-36a-gurugram-8115",
+        "https://www.vintagevista.co.in/blog/max-estate-360-sector-36a-gurgaon-luxury-apartments-dwarka-expressway"
+      ],
+      "note": ""
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹5.2 Crores Onwards",
+      "web": "₹5.32 Cr - ₹7.59 Cr; ₹5.48 - 7.42 Cr; Homebazaar ₹7 Cr onwards",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.maxrealtyindia.com/max-estate-360/",
+        "https://www.maxestatessector36agurgaon.com/",
+        "https://www.homebazaar.com/max-estate-360-sector-36a-gurugram-8115"
+      ],
+      "note": "Within 15% of most quotes; Homebazaar's ₹7 Cr (3/4 BHK only) is ~35% higher."
+    },
+    {
+      "field": "configurations",
+      "ours": "2 BHK — 2149 sq ft — Price on Request | 2 BHK — 2263 sq ft — Price on Request | 3 BHK — 2611 sq ft — Price on Request | 3 BHK — 2802 sq ft — Price on Request | 3 BHK — 2844  sq ft — Price on Request | 4 BHK — 3531 sq ft — Price on Request",
+      "web": "2 BHK 2149-2263 sq ft, 3 BHK 2611-2844 sq ft, 4 BHK 3531 sq ft; Homebazaar: 3 BHK 3,211 / 4 BHK 4,063 sq ft",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.maxestatessector36agurgaon.com/",
+        "https://maxestatesproperties.com/gurgaon/max-estates-360-gurgaon/"
+      ],
+      "note": "2802 sq ft variant not individually confirmed but within stated 3 BHK range; Homebazaar lists larger sizes (different area basis)."
+    },
+    {
+      "field": "landArea",
+      "ours": "11.8 Acres",
+      "web": "11.8 acres (Homebazaar also mentions 18.23 acres)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.homebazaar.com/max-estate-360-sector-36a-gurugram-8115",
+        "https://www.vintagevista.co.in/blog/max-estate-360-sector-36a-gurgaon-luxury-apartments-dwarka-expressway"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 6; units: 864; floors: —",
+      "web": "6 towers, G+35 to G+38 floors; 864 units (Homebazaar, others) vs 630 units (other broker sites)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.homebazaar.com/max-estate-360-sector-36a-gurugram-8115",
+        "https://www.jllhomes.co.in/apartments-new/gurgaon/max-estate-360"
+      ],
+      "note": "Towers confirmed; sources disagree on total units (864 vs 630, the latter possibly excluding senior-living towers)."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

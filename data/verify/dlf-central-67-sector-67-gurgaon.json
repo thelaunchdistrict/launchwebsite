@@ -1,0 +1,126 @@
+{
+  "slug": "dlf-central-67-sector-67-gurgaon",
+  "name": "DLF Central 67",
+  "overall": "minor-discrepancies",
+  "summary": "DLF's own press release confirms the project (SCO plotted commercial development), Sector 67 Sohna Road location, HARERA RC/REP/HARERA/GGM/768/500/2023/112 dated 04.12.2023 (promoter DLF Home Developers Ltd) and 8.69 acres; starting price Rs 8 Cr is within 15% of portal figures (~Rs 7.5-7.8 Cr). Minor issues: our '6 floors' is a basement + ground + 4 configuration (5 above-ground floors, 15 m height), we omit the ~79 SCO plots, and the possession date (Dec 2027 per a broker) could not be confirmed against RERA.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "DLF Central 67",
+      "web": "DLF Central 67, SCO (shop-cum-office) plotted commercial development launched 20 Dec 2023",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/home_press_releases/Press-Release-Central-67.pdf"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "DLF",
+      "web": "DLF; promoter per HARERA: M/s DLF Home Developers Limited",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/home_press_releases/Press-Release-Central-67.pdf"
+      ],
+      "note": "Registered promoter is the subsidiary DLF Home Developers Ltd."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 67, Sohna Road, Gurgaon, Sector 67, Haryana",
+      "web": "Sector 67, Sohna Road, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/home_press_releases/Press-Release-Central-67.pdf",
+        "https://assetzilla.com/projects/dlf-central-67-uTabJ14"
+      ],
+      "note": "Our location string repeats 'Sector 67' and places it after the city (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/768/500/2023/112",
+      "web": "RC/REP/HARERA/GGM/768/500/2023/112 dated 04.12.2023",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/home_press_releases/Press-Release-Central-67.pdf",
+        "https://assetzilla.com/projects/dlf-central-67-uTabJ14"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://assetzilla.com/projects/dlf-central-67-uTabJ14"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "December 2027 (broker sites; not confirmed against RERA)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": [
+        "https://fabhomzz.com/dlf-central-67-sco-plots-gurgaon/"
+      ],
+      "note": "We publish none; only broker sites state Dec 2027, so the RERA completion date could not be verified."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹8 Crores Onwards",
+      "web": "Rs 7.5 Cr onwards (MNC Infra Capitals); ~Rs 5.5 lakh per sq yd x 142 sq yd smallest plot ≈ Rs 7.8 Cr",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.mncinfracapitals.com/project/dlf-central-67-premium-sco-plots/",
+        "https://www.triversehomes.com/dlf-sco-plots-central-sector-67-gurgaon/"
+      ],
+      "note": "Within ±15%."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "SCO plots from ~117 sq m (140 sq yd) per DLF; 142-491 sq yd per portals",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/home_press_releases/Press-Release-Central-67.pdf",
+        "https://assetzilla.com/projects/dlf-central-67-uTabJ14"
+      ],
+      "note": "We publish no plot sizes; these are available."
+    },
+    {
+      "field": "landArea",
+      "ours": "8.7 Acres",
+      "web": "8.69 acres (3.51 ha) per DLF; 8.7 acres per portals",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/home_press_releases/Press-Release-Central-67.pdf",
+        "https://assetzilla.com/projects/dlf-central-67-uTabJ14"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: —; units: —; floors: 6",
+      "web": "~79 SCO plots; basement + ground + 4 floors, height up to 15 m",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/home_press_releases/Press-Release-Central-67.pdf",
+        "https://www.mncinfracapitals.com/project/dlf-central-67-premium-sco-plots/"
+      ],
+      "note": "'6 floors' only holds if the basement is counted; above ground it is G+4 (5 floors). Unit (plot) count of 79 is from broker sites only and is not published by us."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:37:07Z",
+  "method": "subagent:web-research"
+}

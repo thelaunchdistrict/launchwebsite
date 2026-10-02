@@ -1,0 +1,131 @@
+{
+  "slug": "adani-samsara-ivana-sector-63-gurgaon",
+  "name": "Adani Samsara Ivana",
+  "overall": "major-discrepancies",
+  "summary": "The project exists. Its developer (Adani Realty), its location (Sector 63/63A, Golf Course Extension Road), its RERA number (RC/REP/HARERA/GGM/896/628/2024/123), the 1,702 sq ft 4 BHK, the 65 buildings and the 260 units are confirmed. Our June 2027 possession is only the developer's target: the RERA possession date is June 2029, which is 2 years later. A second phase, 'Ivana 2.0' (GGM/999/731/2025/102), exists. Land area varies across sources (3.44-7.5 acres), and Square Yards prices start higher (₹6.14 Cr).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Adani Samsara Ivana",
+      "web": "Adani Samsara Ivana, Sector 63, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project",
+        "https://housiey.com/projects/adani-samsara-ivana"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Adani Realty",
+      "web": "Adani Realty",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Golf Course Extension Road, Sector 63, Sector 63, Gurugram, Haryana",
+      "web": "Sector 63 (Housiey: Sector 63A, near Maidawas Road), Golf Course Extension Road, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project",
+        "https://housiey.com/projects/adani-samsara-ivana"
+      ],
+      "note": "Some sources say Sector 63A."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/896/628/2024/123",
+      "web": "RC/REP/HARERA/GGM/896/628/2024/123; Square Yards also lists GGM/999/731/2025/102 (Ivana 2.0 phase)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housiey.com/projects/adani-samsara-ivana",
+        "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project",
+        "https://www.toihomes.com/projects/adani-samsara-ivana-2"
+      ],
+      "note": "Our number is correct for the original phase. A second registration (2025/102) appears to belong to 'Ivana 2.0', which may be a separate listing."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction (Housiey: advance stage)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project",
+        "https://housiey.com/projects/adani-samsara-ivana"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2027-06 (from: \"Possession is expected to begin around June 2027\")",
+      "web": "Target June 2027; RERA possession June 2029 (Housiey); June 2029 (Square Yards)",
+      "verdict": "partial",
+      "severity": "high",
+      "sources": [
+        "https://housiey.com/projects/adani-samsara-ivana",
+        "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project"
+      ],
+      "note": "June 2027 is the developer's marketed target. The RERA date is June 2029, 2 years later. We should state the RERA date, or show both."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹5.2 Crores Onwards",
+      "web": "₹5.50 Cr all-inclusive for ~1,700 sq ft (Housiey); ₹6.14 Cr - ₹7.02 Cr (Square Yards); ₹5.92 Cr (other portal)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housiey.com/projects/adani-samsara-ivana",
+        "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project"
+      ],
+      "note": "Within 15% of Housiey's ₹5.50 Cr. Square Yards' ₹6.14 Cr is ~18% higher."
+    },
+    {
+      "field": "configurations",
+      "ours": "4 BHK — 1,702 Sq ft — Price on request | 4 BHK — 1,702 sq ft — Price on request",
+      "web": "4 BHK independent floors, carpet ~1,700-1,702 sq ft; built-up/super 2,800-3,200 sq ft",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housiey.com/projects/adani-samsara-ivana",
+        "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project"
+      ],
+      "note": "Our two entries are identical duplicates. Portals give 2,800-3,200 sq ft as super area."
+    },
+    {
+      "field": "landArea",
+      "ours": "7.5 Acres",
+      "web": "7.5 acres (broker sites); 7 acres (Housiey); 5.5 acres (Square Yards); 3.44 acres (another site)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://housiey.com/projects/adani-samsara-ivana",
+        "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project",
+        "https://www.propzilla.in/property/adani-samsara-ivana-sector-63-gurgaon"
+      ],
+      "note": "Sources disagree widely. This may reflect different phases inside the larger 70-acre Samsara township."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 65; units: 260; floors: —",
+      "web": "65 towers/buildings, S+4 floors, 1 unit per floor (Housiey); 260 units (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://housiey.com/projects/adani-samsara-ivana",
+        "https://www.squareyards.com/gurgaon-residential-property/adani-samsara-ivana/324662/project"
+      ],
+      "note": "Floors (S+4) could be added."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "anant-raj-estate-residences-sector-63a-gurgaon",
+  "name": "Anant Raj Estate Residences",
+  "overall": "minor-discrepancies",
+  "summary": "The project, developer (Anant Raj Limited), Sector 63A location, RERA GGM/785/517/2024/12 dated 09.02.2024 (confirmed on HARERA), 5.5 acres, 4 towers, 248 units and 4 BHK sizes from 3,610 sq ft are confirmed. The December 2027 completion matches the HARERA-cited date and a broker, but Square Yards lists possession as March 2030. The starting price is within range of one broker (₹7.22 Cr), while Square Yards' current listing starts at ₹8.90 Cr; Square Yards also lists 292 units.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Anant Raj Estate Residences",
+      "web": "The Estate Residences by Anant Raj Limited, Sector 63A, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://haryanarera.gov.in/view_project/searchprojectDetail/2567", "https://anantrajlimited.com/residential/the-estate-residences"],
+      "note": "The official name is 'The Estate Residences'."
+    },
+    {
+      "field": "developer",
+      "ours": "Anant Raj",
+      "web": "Anant Raj Limited",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://haryanarera.gov.in/view_project/searchprojectDetail/2567"],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Golf Course Extension Road, Sector 63A, Sector 63A, Gurugram, Haryana",
+      "web": "Sector 63A, Gurugram, near Golf Course Extension Road",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://haryanarera.gov.in/view_project/searchprojectDetail/2567", "https://www.squareyards.com/gurgaon-residential-property/anant-raj-the-estate-residences/244338/project"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/785/517/2024/12",
+      "web": "GGM/785/517/2024/12 dated 09.02.2024 (HARERA project ID RERA-GRG-1423-2023)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://haryanarera.gov.in/view_project/searchprojectDetail/2567", "https://anantrajlimited.com/residential/the-estate-residences"],
+      "note": "Confirmed on the HARERA portal."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/anant-raj-the-estate-residences/244338/project"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2027-12 (from: \"Possession is targeted for December 2027\")",
+      "web": "Expected completion December 2027 (LuxuryResidences; HRERA-cited per search results); possession March 2030 (Square Yards)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.luxuryresidences.in/anantraj-the-estate-residences-sector-63a-gurgaon/", "https://www.squareyards.com/gurgaon-residential-property/anant-raj-the-estate-residences/244338/project"],
+      "note": "Sources disagree by over two years. The HARERA page fetched did not show the completion date, so Dec 2027 could not be confirmed directly on the portal. A Dec 2027 completion looks optimistic for 30–32 floor towers registered in Feb 2024. Consider showing both dates."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹6.68 Crore Onwards",
+      "web": "₹7.22 Cr onwards (LuxuryResidences); ~₹6.5 Cr onwards (broker search snippet); ₹8.90 Cr – ₹11.47 Cr at ₹24,000/sq ft (Square Yards)",
+      "verdict": "match",
+      "severity": "medium",
+      "sources": ["https://www.luxuryresidences.in/anantraj-the-estate-residences-sector-63a-gurgaon/", "https://www.squareyards.com/gurgaon-residential-property/anant-raj-the-estate-residences/244338/project"],
+      "note": "Within ±15% of the broker launch prices (₹7.22 Cr is +8%), but Square Yards' current starting price is ~33% higher. Our price looks like a stale launch price."
+    },
+    {
+      "field": "configurations",
+      "ours": "4 BHK + SQ — 3,610 Sq ft — Price on request | 4 BHK + SQ — 4,800 sq ft — Price on request",
+      "web": "4 BHK + S from 3,610 sq ft; 4 BHK + Lounge + Servant + Study 4,781 sq ft (brokers); 4 BHK 3,710–4,781 sq ft (Square Yards)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.luxuryresidences.in/anantraj-the-estate-residences-sector-63a-gurgaon/", "https://www.squareyards.com/gurgaon-residential-property/anant-raj-the-estate-residences/244338/project"],
+      "note": "The larger unit is 4,781 sq ft, rounded to 4,800 by us; it is described as 4 BHK + Lounge + Servant + Study."
+    },
+    {
+      "field": "landArea",
+      "ours": "5.5 Acres",
+      "web": "5.5 Acres",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/anant-raj-the-estate-residences/244338/project", "https://www.luxuryresidences.in/anantraj-the-estate-residences-sector-63a-gurgaon/"],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 4; units: 248; floors: —",
+      "web": "4 towers, 248 units (developer site); 30/32 floors (brokers); Square Yards: 4 towers + EWS block, 292 units",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://anantrajlimited.com/residential/the-estate-residences", "https://www.luxuryresidences.in/anantraj-the-estate-residences-sector-63a-gurgaon/", "https://www.squareyards.com/gurgaon-residential-property/anant-raj-the-estate-residences/244338/project"],
+      "note": "Square Yards' 292 likely includes EWS units. We could add 30/32 floors."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:38:45Z",
+  "method": "subagent:web-research"
+}

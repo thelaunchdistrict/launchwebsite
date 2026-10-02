@@ -1,0 +1,130 @@
+{
+  "slug": "bptp-downtown-66-sector-66-gurgaon",
+  "name": "BPTP Downtown 66",
+  "overall": "minor-discrepancies",
+  "summary": "Project, developer (BPTP Limited), Sector 66 location, RERA number GGM/981/713/2025/84, under-construction status, starting price (~Rs 5.0-5.6 Cr on portals), 3 towers / 504 units / 46 floors and ~4.23 acres are all confirmed. Minor issues: land area is 4.235 acres per RERA-quoting sources (we say 4.25), Square Yards lists 592 units instead of 504, and we omit the possession date (October 2032 per RERA) and the 3/4 BHK configurations.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "BPTP Downtown 66",
+      "web": "BPTP Downtown 66 / Downtown-66, newly launched high-rise residential project in Sector 66, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project",
+        "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "BPTP (listed as \"BPTP Limited\")",
+      "web": "BPTP Limited (promoter per RERA-quoting source)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project"
+      ],
+      "note": "Reports also mention a Rs 488 crore construction contract awarded by BPTP to NCC Limited for this project."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 66, Golf Course Extn Rd, Sector 66, Gurugram, Haryana",
+      "web": "Sector 66, Golf Course Extension Road, Gurugram, Haryana",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project"
+      ],
+      "note": "Our location string repeats 'Sector 66' (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/981/713/2025/84",
+      "web": "GGM/981/713/2025/84 (Square Yards); RERA tracker lists application/project id RERA-GRG-2009-2025",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project",
+        "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220"
+      ],
+      "note": "RERA-GRG-2009-2025 is the HARERA project/application id, not a conflicting registration number."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "New launch / under construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project",
+        "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "October 2032 (RERA completion date 31 Oct 2032)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project"
+      ],
+      "note": "We do not publish a possession date; sources agree on October 2032, which could be added."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹5.2 Crore Onwards",
+      "web": "Rs 5.00 Cr entry (RERA tracker, at Rs 20,000/sq ft); Rs 5.59 Cr for 3 BHK 2,600 sq ft (Square Yards, Rs 21,500/sq ft)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project"
+      ],
+      "note": "Within ±15% of both sources."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "3 BHK ~2,500-2,900 sq ft and 4 BHK ~2,900-3,400 sq ft (super area; sources differ)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project"
+      ],
+      "note": "We publish no configurations; RERA tracker says 3 BHK ~2,500 / 4 BHK ~2,900 sq ft, Square Yards says 3 BHK 2,600/2,900 and 4 BHK 3,400 sq ft."
+    },
+    {
+      "field": "landArea",
+      "ours": "4.25 Acres",
+      "web": "4.235 acres (17,138.44 sq m) per RERA tracker; 4.23 acres per Square Yards (within a 14.518-acre licensed parcel)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project"
+      ],
+      "note": "Rounding difference only; 4.24 would be the accurate rounding of 4.235."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 3; units: 504; floors: 46",
+      "web": "3 towers, 504 units, 46 floors (RERA tracker); Square Yards says 3 towers and 592 homes",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/bptp-downtown-66-in-sector-66-gurgaon-by-bptp-rtid5220",
+        "https://www.squareyards.com/gurgaon-residential-property/bptp-downtown-66/340990/project"
+      ],
+      "note": "Sources disagree on unit count (504 vs 592); the RERA-based figure matches ours."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:37:07Z",
+  "method": "subagent:web-research"
+}

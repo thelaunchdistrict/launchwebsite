@@ -1,0 +1,100 @@
+{
+  "slug": "emaar-urban-oasis-sector-62-gurgaon",
+  "name": "Emaar Urban Oasis",
+  "overall": "minor-discrepancies",
+  "summary": "The project, developer (Emaar India), Sector 62 Golf Course Extension Road location and HARERA number GGM/741/473/2023/85 (Phase 1 & 2) are confirmed. Our ₹3.10 Cr starting price, 5 towers and 424 units match one source. Sources disagree heavily with each other: Square Yards shows ₹4.24 Cr, 4 towers, 525 units and 9.53 acres, and NoBroker shows 4 towers, 540 units and 9.5 acres. The RERA completion date is reported as July 2027, and marketed possession is Sep/Oct 2028, versus our December 2028. A Phase 4 is registered separately (GGM/888/620/2024/115).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Emaar Urban Oasis",
+      "web": "Emaar Urban Oasis, Sector 62, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project", "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Emaar India (listed as \"Emaar Urban Oasis\")",
+      "web": "Emaar India",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"],
+      "note": "Our raw developer label is the project name (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Golf Course Extension Road, Sector 62, Sector 62, Gurugram, Haryana",
+      "web": "Near Banjara Market, Golf Course Extension, Sector 62, Gurgaon, Haryana 122098",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"],
+      "note": ""
+    },
+    {
+      "field": "rera",
+      "ours": "HARERA/GGM/741/473/2023/85",
+      "web": "GGM/741/473/2023/85 (Urban Oasis Phase 1 & 2, dated 07.08.2023); GGM/888/620/2024/115 (Urban Oasis Phase 4)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project", "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"],
+      "note": "Our number is correct for the main phases, but the separately registered Phase 4 is not listed."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project", "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "2028-12 (from: \"possession date is December 2028\")",
+      "web": "RERA completion July 2027 (wealthyventuresestate, 'as per HRERA document'); Square Yards: September 2028; NoBroker: October 2028; other listings: Sep 2029",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://wealthyventuresestate.com/house/emaar-urban-oasis-sector-62-golf-course-ext-road/", "https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project", "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"],
+      "note": "Ours is 2–3 months after the portal dates. The reported RERA date (July 2027) is 17 months earlier than ours and may have been extended. Sources disagree."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹3.10 Crore Onwards",
+      "web": "wealthyventuresestate: ₹3.10 Cr onwards; NoBroker: ₹3 Cr – ₹9.41 Cr; Square Yards: ₹4.24 Cr – ₹10.53 Cr",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://wealthyventuresestate.com/house/emaar-urban-oasis-sector-62-golf-course-ext-road/", "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2", "https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project"],
+      "note": "Two sources agree with us. Square Yards' ₹4.24 Cr (about 37% higher) likely reflects current resale or remaining inventory."
+    },
+    {
+      "field": "configurations",
+      "ours": "2 BHK — 1,500 sq ft — Price on Request | 3 BHK — 2,212 sq ft — Price on Request | 3 BHK — 2,262 sq ft — Price on Request | 4 BHK — 3,039 sq ft — Price on Request",
+      "web": "wealthyventuresestate: 2 BHK 1,525, 3 BHK 2,124–4,770, 4 BHK 3,589–5,224 sq ft; Square Yards: 3 BHK 2,122/2,410, 4 BHK 3,040/5,266 sq ft (no 2 BHK); NoBroker carpet: 2 BHK 900, 3 BHK 1,343, 4 BHK 1,804–2,783 sq ft",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://wealthyventuresestate.com/house/emaar-urban-oasis-sector-62-golf-course-ext-road/", "https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project", "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"],
+      "note": "Only 4 BHK 3,039 (vs 3,040) and 3 BHK 2,262 (cited as a range bound) are close. Our 2 BHK 1,500 and 3 BHK 2,212 were not found exactly. The larger duplex and penthouse sizes (up to 5,266 sq ft) are missing from our data."
+    },
+    {
+      "field": "landArea",
+      "ours": "9.25 Acres",
+      "web": "Square Yards: 9.53 acres; NoBroker: 9.5 acres; wealthyventuresestate: 6.64 acres",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project", "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2", "https://wealthyventuresestate.com/house/emaar-urban-oasis-sector-62-golf-course-ext-road/"],
+      "note": "No source states 9.25 acres exactly. The closest figure is 9.5 to 9.53 acres, and the 6.64 acres figure may refer to a single phase."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 5; units: 424; floors: —",
+      "web": "wealthyventuresestate: 5 towers, 424 units; Square Yards: 4 towers (up to 26 floors), 525 units; NoBroker: 4 towers (G+30), 540 units",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://wealthyventuresestate.com/house/emaar-urban-oasis-sector-62-golf-course-ext-road/", "https://www.squareyards.com/gurgaon-residential-property/emaar-urban-oasis/229603/project", "https://www.nobroker.in/emaar-urban-oasis-sector-62_gurgaon-prjt-8a9fe9828894ae240188954d5b8c6af2"],
+      "note": "One source matches us exactly, but the two major portals both say 4 towers with 525–540 units. The difference may reflect phase scope."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:39:33Z",
+  "method": "subagent:web-research"
+}

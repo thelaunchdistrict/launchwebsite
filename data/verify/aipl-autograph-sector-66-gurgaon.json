@@ -1,0 +1,100 @@
+{
+  "slug": "aipl-autograph-sector-66-gurgaon",
+  "name": "AIPL Autograph",
+  "overall": "minor-discrepancies",
+  "summary": "Project, developer (Advance India Projects Ltd), Sector 66 Golf Course Extension Road location, RERA GGM/481/213/2021/49 and 6.13-acre land area are confirmed. Starting price varies widely across sources (₹65 L broker vs ₹1.15 Cr Houssed vs ₹2.85 Cr Square Yards), construction status is reported inconsistently (under construction vs ready to move), and floors are given as 11 or G+12/G+5/G+8 rather than a single 12. Possession (Oct 2025 / Apr 2026 per brokers) is not on our page.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "AIPL Autograph",
+      "web": "AIPL Autograph, commercial (retail + office) project in Sector 66, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448"],
+      "note": "Listed on Square Yards, Houssed and ReraTracker (RERA-GRG-818-2021)."
+    },
+    {
+      "field": "developer",
+      "ours": "AIPL (listed as \"AIPL Autograph\")",
+      "web": "Advance India Projects Limited (AIPL)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project"],
+      "note": "Developer is AIPL; our 'listed as' label uses the project name rather than the company name (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 66, Golf Course Extension Road, Sector 66, Gurugram, Haryana",
+      "web": "Sector 66, Golf Course Extension Road, Gurgaon",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448"],
+      "note": "Duplicated 'Sector 66' in our address is cosmetic."
+    },
+    {
+      "field": "rera",
+      "ours": "GGM/481/213/2021/49",
+      "web": "GGM/481/213/2021/49 dated 10.09.2021",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448", "https://reratracker.com/developers/aipl-35"],
+      "note": "ReraTracker lists HARERA project ID RERA-GRG-818-2021."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under construction (Square Yards, PropnKey, Upscale Commercial); Ready to move (Houssed)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448", "https://www.propnkey.com/property/aipl-autograph-sector-66-gurgaon/"],
+      "note": "Sources disagree; brokers cite possession Oct 2025 or Apr 2026, so the project may now be complete or near completion. Status should be re-checked."
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "Oct 2025 (Houssed search snippet) / April 2026 (broker) / 2025 (Upscale Commercial)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448", "https://upscalecommercial.in/aipl-autograph"],
+      "note": "We publish nothing; the web shows conflicting dates, all from brokers. HARERA completion date not retrieved."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹71 Lakhs Onwards",
+      "web": "₹65 Lacs onwards (PropnKey); ₹1.15–1.19 Cr (Houssed); ₹2.85 Cr – ₹8.36 Cr (Square Yards)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": ["https://www.propnkey.com/property/aipl-autograph-sector-66-gurgaon/", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448", "https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project"],
+      "note": "Within ±15% of one broker (₹65 L), but Houssed's starting price is ~65% higher and Square Yards' is ~4x higher. Sources disagree heavily."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "Retail shops ~628 sq ft; office spaces 500–4,400 sq ft (sources vary)",
+      "verdict": "unverified",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448"],
+      "note": "Nothing published by us to compare."
+    },
+    {
+      "field": "landArea",
+      "ours": "6.13 Acres",
+      "web": "6.13 Acres",
+      "verdict": "match",
+      "severity": "low",
+      "sources": ["https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project", "https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448"],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: —; units: —; floors: 12",
+      "web": "3 towers, 150 units, 11 floors (Houssed); towers G+12, G+5 and G+8 (broker); G+18 (Upscale Commercial)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": ["https://houssed.com/commercial/gurgaon/aipl-group/aipl-autograph-140448", "https://www.squareyards.com/gurgaon-residential-property/aipl-autograph/113267/project", "https://upscalecommercial.in/aipl-autograph"],
+      "note": "Our 12 floors likely refers to the tallest tower (G+12); sources disagree. We could add 3 towers / 150 units."
+    }
+  ],
+  "checkedAt": "2026-10-02T11:38:45Z",
+  "method": "subagent:web-research"
+}

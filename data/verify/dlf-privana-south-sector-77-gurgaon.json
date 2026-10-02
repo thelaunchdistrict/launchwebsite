@@ -1,0 +1,130 @@
+{
+  "slug": "dlf-privana-south-sector-77-gurgaon",
+  "name": "DLF Privana South",
+  "overall": "minor-discrepancies",
+  "summary": "DLF's site confirms the HARERA number RC/REP/HARERA/GGM/772/504/2023/116, 25.148 acres, 7 towers, 1,113 units and 14 penthouses (2 per tower), and broker pages confirm the 3,577 sq ft 4 BHK and 5,472 sq ft penthouse sizes. The ₹6.30 Cr starting price is below current listings (₹6.90 Cr broker, ₹7.50 Cr Square Yards). The 'Central Peripheral Road' address detail was not found in any source, which place it on Sector 76-77 near SPR. Possession is not published, and sources disagree on it (Dec 2028, July 2029, June 2031).",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "DLF Privana South",
+      "web": "DLF Privana South, luxury residential project by DLF in Sector 76-77, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanasouth/",
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "DLF (listed as \"DLF Limited\")",
+      "web": "DLF Limited",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanasouth/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Central Peripheral Road, Sector 77, Sector 77, Gurugram, Haryana",
+      "web": "Sector 76-77, Gurugram, Haryana 122004 (DLF); Sector 76 (Square Yards); Sector 77 (99acres); near Southern Peripheral Road",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanasouth/",
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project",
+        "https://www.99acres.com/dlf-privana-south-sector-77-gurgaon-npxid-r412546"
+      ],
+      "note": "Sector 77 is consistent with DLF's 'Sector 76-77'. No source places it on 'Central Peripheral Road'. Sources reference the Southern Peripheral Road, and one broker says 'Northern Peripheral road'."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/772/504/2023/116",
+      "web": "RC/REP/HARERA/GGM/772/504/2023/116 dated 18.12.2023",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanasouth/",
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under construction; structural works advancing across towers (Jan 2026 update)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanasouth/",
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "June 2031 (Square Yards); July 2029 / December 2028 (broker pages)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project",
+        "https://www.luxuryresidences.in/dlf-privana-south-sector-77-gurgaon/"
+      ],
+      "note": "We publish no date. Sources disagree widely, and DLF's page gives no completion date."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹6.30 Crore Onwards",
+      "web": "₹6.90 Cr onwards (broker pages); ₹7.50 Cr – ₹11.47 Cr (Square Yards)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project",
+        "https://wealthwayluxury.com/dlf-privana-south/"
+      ],
+      "note": "Within 15% of the ₹6.90 Cr broker figure (+9.5%) but ~19% below Square Yards' ₹7.50 Cr. Sources disagree. Our figure is the lowest seen and may be launch-era pricing."
+    },
+    {
+      "field": "configurations",
+      "ours": "4 BHK + Servant + Study (Typical Unit) — 3,577 sq ft — ~₹6.30 Crore Onwards | 14 Penthouses across the 7 towers — 5,472 sq ft — Price on Request",
+      "web": "4 BHK 3,577 sq ft; penthouses 5,472–7,000 sq ft; 2 penthouses per tower (14 total)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanasouth/",
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project",
+        "https://wealthwayluxury.com/dlf-privana-south/"
+      ],
+      "note": "Some brokers give penthouses as 5,472–7,000 sq ft. Square Yards' size range is 3,577–5,472 sq ft. One broker calls 3,577 sq ft 'carpet', but other sources treat it as super area."
+    },
+    {
+      "field": "landArea",
+      "ours": "25 Acres",
+      "web": "10.177 hectares (25.148 acres)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanasouth/"
+      ],
+      "note": "One broker cites 25.5 acres."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 7; units: 1113; floors: —",
+      "web": "7 towers; 1,113 apartments",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.dlf.in/homes/luxury/privanasouth/",
+        "https://www.squareyards.com/gurgaon-residential-property/dlf-privana-south/238058/project"
+      ],
+      "note": ""
+    }
+  ],
+  "checkedAt": "2026-10-02T11:36:45Z",
+  "method": "subagent:web-research"
+}

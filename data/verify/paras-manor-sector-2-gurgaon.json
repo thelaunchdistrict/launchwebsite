@@ -1,0 +1,133 @@
+{
+  "slug": "paras-manor-sector-2-gurgaon",
+  "name": "Paras Manor",
+  "overall": "minor-discrepancies",
+  "summary": "Developer (Paras Buildtech), Sector 2 Gwal Pahari location, RERA 38 of 2024 (GGM/811/543/2024/38), under-construction status, 4 BHK 4,750 sq ft, about 4.2 acres and 2 towers are confirmed. Sources disagree on starting price (Rs 9.5 Cr to Rs 12.99 Cr; Square Yards is 37% above ours) and on unit count (116 vs 120). We publish no possession date although sources give August 2028.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Paras Manor",
+      "web": "Paras The Manor / Paras Manor, Sector 2, Gwal Pahari, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+        "https://whitecollarrealty.com/residential_property/paras-manor"
+      ],
+      "note": "Often marketed as 'Paras The Manor'."
+    },
+    {
+      "field": "developer",
+      "ours": "Paras Buildtech (listed as \"Paras Manor\")",
+      "web": "Paras Buildtech India Pvt. Ltd.",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+        "https://winworldrealty.in/paras-buildtech-to-invest-500-crore-in-gwal-pahari-gurugram-project/"
+      ],
+      "note": "The 'listed as' value is the project name, not a developer (cosmetic)."
+    },
+    {
+      "field": "location",
+      "ours": "Sector 2, Gwal Pahari, Sector 2, Gwal Pahari, Gurugram, Haryana",
+      "web": "Sector 2, Gwal Pahari, Gurugram (Gurgaon-Faridabad Road)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+        "https://whitecollarrealty.com/residential_property/paras-manor"
+      ],
+      "note": "Duplicated locality text (cosmetic)."
+    },
+    {
+      "field": "rera",
+      "ours": "38 OF 2024",
+      "web": "38 of 2024; full number GGM/811/543/2024/38",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+        "https://whitecollarrealty.com/residential_property/paras-manor",
+        "https://www.gurgaon-projects.com/projects/paras-manor.php"
+      ],
+      "note": "Consider publishing the full registration number RC/REP/HARERA/GGM/811/543/2024/38."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "Under Construction",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+        "https://whitecollarrealty.com/residential_property/paras-manor"
+      ],
+      "note": ""
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "August 2028",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+        "https://whitecollarrealty.com/residential_property/paras-manor"
+      ],
+      "note": "We omit a date that sources publish."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹9.5 Crore Onwards",
+      "web": "₹9.50 Cr onwards (broker site); ₹10 Cr onwards (gurgaon-projects); ₹10.9 Cr (whitecollarrealty, BSP ₹23,000/sq ft); ₹12.99 Cr onwards (Square Yards)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://www.gurgaon-projects.com/projects/paras-manor.php",
+        "https://whitecollarrealty.com/residential_property/paras-manor",
+        "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project"
+      ],
+      "note": "Sources disagree; ₹10-10.9 Cr are within 15%, but Square Yards' ₹12.99 Cr is ~37% higher, suggesting our figure may be the launch price and now stale."
+    },
+    {
+      "field": "configurations",
+      "ours": "4 BHK — 4,750 sq ft — Price on Request",
+      "web": "4 BHK 4,750 sq ft",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+        "https://whitecollarrealty.com/residential_property/paras-manor"
+      ],
+      "note": ""
+    },
+    {
+      "field": "landArea",
+      "ours": "4.2 Acres",
+      "web": "4.26 acres (Square Yards); 4.15 acres (whitecollarrealty); 4.5 / 6.5 acres on other broker sites",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+        "https://whitecollarrealty.com/residential_property/paras-manor"
+      ],
+      "note": "Within rounding of the main sources; outlier figures exist."
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 2; units: 116; floors: —",
+      "web": "2 towers (G+31 to G+33); 120 units (Square Yards, whitecollarrealty, launch news); 116 units (gurgaon-projects)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://www.squareyards.com/gurgaon-residential-property/paras-manor/248461/project",
+        "https://www.gurgaon-projects.com/projects/paras-manor.php",
+        "https://whitecollarrealty.com/residential_property/paras-manor"
+      ],
+      "note": "Towers match; units disputed (116 vs 120, majority says 120)."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "adani-the-marq-sector-102-gurgaon",
+  "name": "Adani The Marq",
+  "overall": "minor-discrepancies",
+  "summary": "The project exists. Its developer (Adani Realty, via Adani M2K Realtors LLP), its location (Sector 102A, Dwarka Expressway), its RERA number (GGM/1042/774/2026/14), its 2 towers of G+46 floors, its ~5-acre site and its ₹3.99 Cr starting price are confirmed. Unit counts differ (350 ours and some brokers vs 368 per RERA Tracker). We publish no possession date, though the RERA date is 31 Dec 2031, and no configurations, though 3/4 BHK of ~2,300-3,295 sq ft are widely listed. Sources quote ₹17,500/sq ft against our ₹17,000.",
+  "checks": [
+    {
+      "field": "existence",
+      "ours": "Adani The Marq",
+      "web": "Adani The Marq (MarQ), Sector 102A, Gurugram, 2026 launch",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504",
+        "https://www.opulnzabode.com/adani-the-marq-sector-102-dwarka-expressway-gurgaon-2026/"
+      ],
+      "note": ""
+    },
+    {
+      "field": "developer",
+      "ours": "Adani Realty",
+      "web": "Adani Realty (promoter: Adani M2K Realtors LLP, with M2K Group)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504"
+      ],
+      "note": ""
+    },
+    {
+      "field": "location",
+      "ours": "Dwarka Expressway, Sector 102A, Sector 102A, Gurugram, Haryana",
+      "web": "Sector 102-102A, Dwarka Expressway, Gurugram",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504"
+      ],
+      "note": "Our slug says sector-102, but the location says 102A. Sources use both."
+    },
+    {
+      "field": "rera",
+      "ours": "RC/REP/HARERA/GGM/1042/774/2026/14",
+      "web": "GGM/1042/774/2026/14 (registered 20 Jan 2026)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://www.opulnzabode.com/adani-the-marq-sector-102-dwarka-expressway-gurgaon-2026/",
+        "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504"
+      ],
+      "note": "RERA Tracker also shows the application number RERA-GRG-2140-2025."
+    },
+    {
+      "field": "status",
+      "ours": "under-construction (source: UNDER_CONSTRUCTION)",
+      "web": "New launch (2026)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504"
+      ],
+      "note": "Portals describe it as a 2026 new launch. That is consistent with an early under-construction stage."
+    },
+    {
+      "field": "possession",
+      "ours": "not published",
+      "web": "RERA possession 31 Dec 2031 (RERA Tracker); May 2031 (broker blog)",
+      "verdict": "partial",
+      "severity": "medium",
+      "sources": [
+        "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504",
+        "https://www.opulnzabode.com/adani-the-marq-sector-102-dwarka-expressway-gurgaon-2026/"
+      ],
+      "note": "We omit a possession date that is available (RERA: Dec 2031)."
+    },
+    {
+      "field": "startingPrice",
+      "ours": "₹3.99 Crore Onwards",
+      "web": "~₹4.02-4.16 Cr for an entry 3 BHK (₹17,500/sq ft); 3 BHK from ₹3.75 Cr / ₹4 Cr on broker sites; 4 BHK ~₹5.60-5.77 Cr",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504",
+        "https://www.opulnzabode.com/adani-the-marq-sector-102-dwarka-expressway-gurgaon-2026/"
+      ],
+      "note": "Our range of ₹4.04-5.60 Cr at ₹17,000/sq ft is close. Sources quote ₹17,500/sq ft."
+    },
+    {
+      "field": "configurations",
+      "ours": "not published",
+      "web": "3 BHK and 4 BHK (some list 3.5 BHK), super area ~2,300/2,375-3,200/3,295 sq ft",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504",
+        "https://www.opulnzabode.com/adani-the-marq-sector-102-dwarka-expressway-gurgaon-2026/"
+      ],
+      "note": "We omit configurations that are widely available."
+    },
+    {
+      "field": "landArea",
+      "ours": "~5 Acres",
+      "web": "5.16 acres (20,891.90 m²)",
+      "verdict": "match",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504"
+      ],
+      "note": ""
+    },
+    {
+      "field": "towersUnits",
+      "ours": "towers: 2; units: 350; floors: 46",
+      "web": "2 towers, G+46 floors; 368 units (RERA Tracker) vs 350 residences (broker sites)",
+      "verdict": "partial",
+      "severity": "low",
+      "sources": [
+        "https://reratracker.com/adani-the-marq-in-sector-102a-gurgaon-by-adani-realty-rtid5504",
+        "https://www.opulnzabode.com/adani-the-marq-sector-102-dwarka-expressway-gurgaon-2026/"
+      ],
+      "note": "Towers and floors match. Unit counts disagree between sources: 350 vs 368."
+    }
+  ],
+  "checkedAt": "2026-10-02T12:00:00Z",
+  "method": "subagent:web-research"
+}
