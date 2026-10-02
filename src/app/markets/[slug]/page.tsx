@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps<'/markets/[slug]'>)
   if (!m) return {};
   const s = marketStats(slug);
   return {
-    title: `${m.name} — projects, ₹/sq ft and growth story`,
+    title: `${m.name}: prices & growth story`,
     description: `${s.count} tracked projects on ${m.name}, Gurugram. Median ${psf(s.medianPsf)}/sq ft, entry from ${inr(s.minPrice)}. Infrastructure drivers and risks.`,
     alternates: { canonical: `/markets/${slug}` },
   };

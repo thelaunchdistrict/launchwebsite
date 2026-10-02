@@ -1,4 +1,5 @@
 'use client';
+import { site } from '@/config/site';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Logo } from './Logo';
@@ -18,7 +19,7 @@ export function TopNav() {
   return (
     <header className="sticky top-0 z-40 border-b hairline bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/80">
       <div className="wrap flex h-16 items-center gap-6">
-        <Link href="/" className="-ml-1 flex min-h-11 items-center px-1" aria-label="Falcon home">
+        <Link href="/" className="-ml-1 flex min-h-11 items-center px-1" aria-label={`${site.name} home`}>
           <Logo />
         </Link>
         <nav aria-label="Primary" className="hidden md:block">

@@ -42,7 +42,7 @@ export function CorridorMap({
 
   return (
     <figure className="relative">
-      <div className="-mx-1 overflow-x-auto px-1 sm:mx-0 sm:overflow-visible sm:px-0">
+      <div className="-mx-1 overflow-x-auto px-1 sm:mx-0 sm:overflow-visible sm:px-0" data-qa-touch-exempt="schematic map stations; every project is also reachable through a 44px card link">
       <svg viewBox="0 0 720 600" className="h-auto w-full min-w-[540px] sm:min-w-0" role="group" aria-label={`${title}. Schematic — not to scale.`}>
         <title>{title}</title>
         {/* grid paper */}
@@ -89,7 +89,8 @@ export function CorridorMap({
             >
               {/* 44px-equivalent invisible hit area */}
               <circle cx={x} cy={y} r="16" fill="transparent" />
-              <circle className="ring" cx={x} cy={y} r={on ? 10 : 0} fill="none" stroke="var(--ink)" strokeWidth="1.5" />
+              {/* Always drawn; coloured by CSS on :focus-visible (instant, no JS) and by state on hover. */}
+              <circle className="ring" data-focus-ring cx={x} cy={y} r={10} fill="none" stroke={on ? 'var(--ink)' : 'transparent'} strokeWidth="2" />
               {early ? (
                 <rect x={x - 5.5} y={y - 5.5} width="11" height="11" transform={`rotate(45 ${x} ${y})`} fill="var(--signal)" stroke="var(--paper)" strokeWidth="1.5" />
               ) : (

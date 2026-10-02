@@ -1,6 +1,6 @@
 # Extraction report — realtycanvas.in/projects
 
-Generated 2026-10-02T07:15:33.431Z from data built at 2026-10-02T07:15:33.271Z.
+Generated 2026-10-02T09:07:34.678Z from data built at 2026-10-02T08:58:23.710Z.
 
 ## Summary
 
@@ -129,7 +129,7 @@ Share of projects with a non-empty value. *Derived* fields are computed by Falco
 | AIPL Joy District | possessionDate, configurations, units |
 | BPTP Downtown 66 | possessionDate, configurations |
 | DLF Central 67 | possessionDate, configurations, units |
-| Club Arcade Dlf | possessionDate, configurations, units, landArea |
+| Club Arcade DLF | possessionDate, configurations, units, landArea |
 | Elan Empire | configurations, units |
 | Elan Paradise | configurations, units |
 | M3M Capital Walk | possessionDate, configurations, units |

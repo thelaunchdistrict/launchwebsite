@@ -1,3 +1,5 @@
+import { site } from '@/config/site';
+
 // Editorial growth stories per corridor. Infrastructure status is written as of mid-2026 and is
 // deliberately hedged — re-verify before relying on any timeline.
 export interface MarketStory {
@@ -54,7 +56,7 @@ export const STORIES: Record<string, MarketStory> = {
   'new-gurgaon': {
     thesis: 'Sectors 76–95 south of NH-48 make up New Gurgaon: large planned townships and a growing number of premium launches on lower land costs than the core.',
     drivers: [
-      { title: 'Lower entry ₹/sq ft', body: 'Often the lowest entry rates among the corridors Falcon tracks, which suits buyers who want early-entry upside.' },
+      { title: 'Lower entry ₹/sq ft', body: 'Often the lowest entry rates among the corridors ' + site.name + ' tracks, which suits buyers who want early-entry upside.' },
       { title: 'NH-48 and Dwarka Expressway access', body: 'The Dwarka Expressway terminates near the area, and NH-48 links it to Manesar’s industrial belt and to Delhi.' },
     ],
     risks: ['Distance from the CBD; commute depends on NH-48 traffic.', 'Retail and healthcare density is still building.'],

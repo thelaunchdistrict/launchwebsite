@@ -136,6 +136,21 @@ export function projectName(p) {
   return cleanName(raw) || null;
 }
 
+/**
+ * The source replaces hyphens in compound words with spaced en dashes ("ultra – luxury",
+ * "state – of – the – art", "5 – Star"). Re-join them when the left side is a known compound prefix;
+ * genuine dashes between phrases ("Sobha Aranya – Residential Development") are left alone.
+ */
+const COMPOUND_LEFT = /\b(avant|ultra|high|low|mid|state|of|the|world|eco|well|top|semi|pre|post|non|multi|self|all|double|triple|full|open|sky|kid|kids|pet|child|gated|round|first|best|one|two|three|four|five|seven|\d+|wi|e|in|on|walk|ready|move|state-of|state-of-the|plug|end|stand|built|fully|air|world-class|eco-luxe|ultra-luxury)\s+–\s+(?=[A-Za-z0-9])/gi;
+export function fixCompoundDashes(s) {
+  if (s == null) return s;
+  let prev;
+  let out = String(s);
+  // Repeat so chains like "state – of – the – art" collapse fully.
+  do { prev = out; out = out.replace(COMPOUND_LEFT, '$1-'); } while (out !== prev);
+  return out;
+}
+
 /** Drop location/marketing suffixes: "Elan The Statement , Sector 49, Sohna Road Gurgaon" → "Elan The Statement". */
 export function cleanName(s) {
   let n = String(s || '').replace(/\s+/g, ' ').trim();
@@ -144,5 +159,7 @@ export function cleanName(s) {
   n = n.replace(/\s+(?:in|at)\s+sector.*$/i, '');
   n = n.replace(/\s+sector[-\s]*\d+[a-d]?$/i, '');
   n = n.replace(/\s+(gurgaon|gurugram)$/i, '');
+  // Developer acronyms are written in capitals ("Club Arcade Dlf" → "Club Arcade DLF").
+  n = n.replace(/\b(dlf|aipl|bptp|spj|tarc|spr|dxp|m3m)\b/gi, (m) => m.toUpperCase());
   return n.trim();
 }

@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import { site } from '@/config/site';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { WebImage } from '@/lib/types';
 import { Icon } from '../Icon';
@@ -79,8 +80,8 @@ export function Lightbox({ items, index, setIndex, name }: { items: GalleryItem[
       role="dialog"
       aria-modal="true"
       aria-label={`${name} images`}
-      className="fixed inset-0 z-[60] flex flex-col bg-[#0b0b0a] text-[#edebe6]"
-      style={{ animation: 'fade-in .18s both' }}
+      className="fixed inset-0 z-[60] flex flex-col"
+      style={{ animation: 'fade-in .18s both', background: site.colors.dark.paperSunk, color: site.colors.dark.ink }}
       onPointerDown={(e) => { startX.current = e.clientX; }}
       onPointerUp={(e) => { if (startX.current != null && Math.abs(e.clientX - startX.current) > 50) go(e.clientX < startX.current ? 1 : -1); startX.current = null; }}
     >

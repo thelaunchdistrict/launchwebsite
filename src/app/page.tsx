@@ -86,7 +86,7 @@ export default function Home() {
 
       {/* MARKETS */}
       <section className="wrap py-12" aria-labelledby="markets">
-        <SectionHead id="markets" eyebrow="Micro-markets" title="Corridor snapshots" intro="Medians are across the projects Falcon tracks, not the whole market." href="/markets" cta="All markets" />
+        <SectionHead id="markets" eyebrow="Micro-markets" title="Corridor snapshots" intro={`Medians are across the projects ${site.name} tracks, not the whole market.`} href="/markets" cta="All markets" />
         <div className="overflow-x-auto">
           <table className="ledger min-w-[640px]">
             <caption className="sr-only">Micro-market snapshot: projects tracked, median price per square foot, lowest entry price and possession window</caption>
@@ -97,7 +97,7 @@ export default function Home() {
               {markets.map((m) => (
                 <tr key={m.slug} className="hover:bg-raised">
                   <th scope="row" className="py-3 text-left font-normal">
-                    <Link href={`/markets/${m.slug}`} className="font-display text-xl hover:underline underline-offset-4">{m.name}</Link>
+                    <Link href={`/markets/${m.slug}`} className="inline-flex min-h-11 items-center font-display text-xl hover:underline underline-offset-4">{m.name}</Link>
                   </th>
                   <td className="n">{m.count}</td>
                   <td className="n">{psf(m.medianPsf)}</td>
@@ -139,7 +139,7 @@ export default function Home() {
           </div>
           <div className="card p-6">
             <p className="font-display text-2xl">Derived ≠ published</p>
-            <p className="mt-2 text-sm text-ink-2">Anything Falcon infers is labelled as inferred: indicative ₹/sq ft, construction progress, micro-market. Missing values stay blank. We never fill them in.</p>
+            <p className="mt-2 text-sm text-ink-2">Anything {site.name} infers is labelled as inferred: indicative ₹/sq ft, construction progress, micro-market. Missing values stay blank. We never fill them in.</p>
           </div>
           <div className="card p-6">
             <p className="font-display text-2xl">Risk on the page</p>

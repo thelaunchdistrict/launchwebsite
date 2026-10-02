@@ -7,7 +7,7 @@ import { CorridorMap } from '@/components/map/CorridorMap';
 
 export const metadata: Metadata = {
   title: 'Gurugram micro-markets — corridors, prices and growth drivers',
-  description: 'Dwarka Expressway, Golf Course Extension Road, Southern Peripheral Road, Sohna Road, New Gurgaon and more: tracked projects, median ₹/sq ft and the infrastructure story.',
+  description: 'Dwarka Expressway, Golf Course Extension, SPR, Sohna Road and New Gurgaon: tracked projects, median ₹/sq ft and the infrastructure story.',
   alternates: { canonical: '/markets' },
 };
 

@@ -1,3 +1,4 @@
+import { site } from '@/config/site';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { MARKETS, marketStats, sectorStats, summaries } from '@/lib/data';
@@ -7,7 +8,7 @@ import { Disclaimer } from '@/components/Section';
 
 export const metadata: Metadata = {
   title: 'Price per sq ft by sector — Gurugram',
-  description: 'Median, low and high ₹/sq ft by Gurugram sector and corridor, across the projects Falcon tracks.',
+  description: `Median, low and high ₹/sq ft by Gurugram sector and corridor, across the projects ${site.name} tracks.`,
   alternates: { canonical: '/tools/price-per-sqft' },
 };
 
@@ -38,7 +39,7 @@ export default function PsfPage() {
       <Bars title="By sector" rows={sectors.map((s) => ({ key: s.sector, label: `Sector ${s.sector}`, href: `/projects?sector=${s.sector}`, median: s.median, min: s.min, max: s.max, count: s.count }))} axisMax={axisMax} ticks={ticks} />
 
       <Disclaimer className="mt-10">
-        Medians cover only the projects Falcon tracks, so they are not an index of the whole market. Rates mix carpet and saleable-area bases as listed. Use this to rank options, not to value a unit.
+        Medians cover only the projects {site.name} tracks, so they are not an index of the whole market. Rates mix carpet and saleable-area bases as listed. Use this to rank options, not to value a unit.
       </Disclaimer>
     </div>
   );
@@ -60,7 +61,7 @@ function Bars({ title, rows, axisMax, ticks }: { title: string; rows: { key: str
         {rows.map((r) => (
           <li key={r.key} className="grid grid-cols-[1fr_auto] items-center gap-x-3 border-b hairline py-2 md:grid-cols-[13rem_1fr_6rem]">
             <span className="text-sm">
-              <Link href={r.href} className="hover:underline underline-offset-4">{r.label}</Link>
+              <Link href={r.href} className="inline-flex min-h-11 items-center hover:underline underline-offset-4">{r.label}</Link>
               <span className="ml-1 text-xs text-ink-2">({r.count} project{r.count === 1 ? '' : 's'})</span>
             </span>
             <span className="order-3 col-span-2 md:order-none md:col-span-1">

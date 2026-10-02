@@ -1,3 +1,4 @@
+import { site } from '../config/site';
 import type { Badge, Project, Stage } from './types';
 
 /** Typical Gurgaon high-rise build cycle used to place under-construction projects on the rail. */
@@ -36,7 +37,7 @@ export function badgesOf(p: Project, now = new Date()): Badge[] {
   if (stage === 'new-launch') out.push({ key: 'new-launch', label: 'New launch', early: true, note: p.status === 'new-launch' ? 'Listed status' : 'Stated in listing text' });
   const left = monthsUntil(p.possessionDate, now);
   if (!stage && p.status === 'under-construction' && left != null && left >= EARLY_CONSTRUCTION_MONTHS) {
-    out.push({ key: 'early-construction', label: 'Early construction', early: true, note: `Possession ${Math.round(left / 12)}+ years out — Falcon inference from the stated possession date` });
+    out.push({ key: 'early-construction', label: 'Early construction', early: true, note: `Possession ${Math.round(left / 12)}+ years out — ${site.name} inference from the stated possession date` });
   }
   const { units, availableUnits } = p.facts;
   if (units && availableUnits != null && availableUnits / units <= 0.15) {

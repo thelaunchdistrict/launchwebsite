@@ -33,18 +33,18 @@ export default function TimelinePage() {
 
       {/* Year histogram */}
       <figure className="card p-5">
-        <div className="flex h-40 items-end gap-2" role="img" aria-label={years.map((y) => `${y}: ${dated.filter((d) => d.possessionYear === y).length} projects`).join('; ')}>
+        <div className="-mx-1 overflow-x-auto px-1"><div className="flex h-40 min-w-max items-end gap-1 sm:min-w-0 sm:gap-2">
           {years.map((y) => {
             const n = dated.filter((d) => d.possessionYear === y).length;
             return (
-              <a key={y} href={`#y${y}`} className="group flex h-full flex-1 flex-col items-center gap-1" aria-hidden tabIndex={-1}>
+              <a key={y} href={`#y${y}`} className="group flex h-full min-w-11 flex-1 flex-col items-center gap-1" aria-label={`${y}: ${n} project${n === 1 ? '' : 's'} — jump to list`}>
                 <span className="num order-first text-xs">{n}</span>
                 <span className="flex w-full flex-1 items-end"><span className={`block w-full rounded-t ${y <= thisYear ? 'bg-rule-strong' : 'bg-ink'} group-hover:bg-signal`} style={{ height: `${(n / maxCount) * 100}%` }} /></span>
                 <span className="num text-xs text-ink-2">{y}</span>
               </a>
             );
           })}
-        </div>
+        </div></div>
         <figcaption className="mt-3 text-xs text-ink-2">Projects by stated possession year. Grey bars are years already reached ({thisYear} or earlier).</figcaption>
       </figure>
 
@@ -60,7 +60,7 @@ export default function TimelinePage() {
                 <li key={p.slug} className="grid grid-cols-[5.5rem_1fr] gap-3 py-3 md:grid-cols-[7rem_1fr_auto_8rem] md:items-center">
                   <span className="num text-sm text-ink-2">{monthYear(p.possession)}</span>
                   <div>
-                    <Link href={`/projects/${p.slug}`} className="font-display text-xl hover:underline underline-offset-4">{p.name}</Link>
+                    <Link href={`/projects/${p.slug}`} className="inline-flex min-h-11 items-center font-display text-xl hover:underline underline-offset-4">{p.name}</Link>
                     <p className="text-xs text-ink-2">{p.developer} · {p.sector ? `Sector ${p.sector}` : p.marketName}</p>
                   </div>
                   <Badges badges={p.badges} status={p.status} className="col-start-2 md:col-start-auto" />

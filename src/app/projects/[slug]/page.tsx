@@ -32,7 +32,8 @@ export async function generateMetadata({ params }: PageProps<'/projects/[slug]'>
   const p = getProject(slug);
   if (!p) return {};
   const s = summarize(p);
-  const title = `${p.name}${p.location.sector ? `, Sector ${p.location.sector}` : ''} — price, possession & RERA`;
+  const sectorPart = p.location.sector ? `, Sector ${p.location.sector}` : '';
+  const title = [`${p.name}${sectorPart} — price, possession & RERA`, `${p.name}${sectorPart} — price & RERA`, `${p.name}${sectorPart}`, `${p.name}`].find((t) => t.length <= 60) ?? `${p.name}`;
   const description = `${p.name} by ${p.developer.name ?? 'the developer'}${p.location.sector ? ` in Sector ${p.location.sector}, Gurugram` : ''}. ${s.priceFrom ? `From ${inr(s.priceFrom)}. ` : ''}${p.possessionDate ? `Possession ${monthYear(p.possessionDate)}. ` : ''}${p.reraNumber ? `RERA ${p.reraNumber}.` : ''}`.trim();
   return {
     title,
@@ -58,6 +59,9 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
   const left = monthsUntil(p.possessionDate);
   const checks = dueDiligence(p);
   const sim = similar(p, 3);
+  const byArea = new Map<number, Set<number | null>>();
+  p.pricing.configurations.forEach((c) => { if (c.areaSqft) (byArea.get(c.areaSqft) ?? byArea.set(c.areaSqft, new Set()).get(c.areaSqft)!).add(c.bhk); });
+  const dupAreas = [...byArea.entries()].filter(([, s]) => s.size > 1).map(([a]) => a);
 
   // ---- media
   const where = `${p.location.sector ? `Sector ${p.location.sector}, ` : ''}${p.location.city ?? 'Gurugram'}`;
@@ -225,6 +229,9 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
                   </tbody>
                 </table>
                 <p className="mt-2 text-xs text-ink-2">Areas as listed (RERA carpet/saleable basis not always specified). “Price on request” means the developer has not published a price for that unit.</p>
+                {dupAreas.length > 0 && (
+                  <p className="mt-2 flex gap-2 text-sm"><Icon name="alert" size={16} className="mt-0.5 shrink-0 text-caution" /><span>The source lists the same area for different configurations ({dupAreas.map((a) => sqft(Number(a))).join(', ')}). One of these rows is probably a data-entry error. Confirm sizes with the developer’s RERA-registered plans.</span></p>
+                )}
               </div>
             ) : (
               <p className="mt-4 text-ink-2">The developer has not published a configuration-wise price list. Starting price: <span className="num text-ink">{p.pricing.startingPriceRaw ?? 'not published'}</span>.</p>
@@ -354,7 +361,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
             <div className="card mt-6 flex flex-col gap-3 p-5 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <p className="font-display text-2xl">{p.developer.name ?? 'Not published'}</p>
-                <p className="text-sm text-ink-2">{summaries().filter((x) => x.developer === p.developer.name).length} project(s) tracked by Falcon. Delivery record: not assessed. Check completed projects and HARERA orders.</p>
+                <p className="text-sm text-ink-2">{summaries().filter((x) => x.developer === p.developer.name).length} project(s) tracked by {site.name}. Delivery record: not assessed. Check completed projects and HARERA orders.</p>
               </div>
               {p.developer.name && <Link href={`/projects?developer=${encodeURIComponent(p.developer.name)}`} className="btn btn-ghost">All {p.developer.name} projects</Link>}
             </div>

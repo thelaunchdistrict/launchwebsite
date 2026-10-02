@@ -1,7 +1,10 @@
+import { site } from '@/config/site';
+
 export type Block = { h: string } | { p: string } | { ul: string[] } | { note: string };
 export interface Article {
   slug: string;
   title: string;
+  seoTitle?: string; // ≤ 55 chars; the full title stays as the H1
   dek: string;
   date: string; // ISO
   readMins: number;
@@ -12,6 +15,7 @@ export const ARTICLES: Article[] = [
   {
     slug: 'pre-launch-vs-new-launch-vs-under-construction',
     title: 'Pre-launch, new launch, under construction: what you are actually buying at each stage',
+    seoTitle: 'Pre-launch vs new launch vs under construction',
     dek: 'The earlier you enter, the lower the price and the higher the uncertainty. A field guide to each stage, and what to ask before you pay anything.',
     date: '2026-09-15',
     readMins: 7,
@@ -28,12 +32,13 @@ export const ARTICLES: Article[] = [
       { ul: ['Compare the developer’s marketing possession date with the RERA completion date. The RERA date is the one that binds them.', 'Check quarterly progress updates on the RERA portal.', 'In a resale of an under-construction unit, factor in transfer charges and the original buyer’s payment status.'] },
       { h: 'Ready to move' },
       { p: 'No construction risk and immediate rent, at the highest price. For an early-stage investor, ready inventory is the benchmark: an under-construction purchase has to beat it after accounting for the wait.' },
-      { note: 'Falcon marks stage on every project using the Entry Rail. Where we infer a stage (for example "early construction" from a far-off possession date), we say so.' },
+      { note: site.name + ' marks stage on every project using the Entry Rail. Where we infer a stage (for example "early construction" from a far-off possession date), we say so.' },
     ],
   },
   {
     slug: 'reading-a-gurugram-price-sheet',
     title: 'Reading a Gurugram price sheet: from "₹3 Cr onwards" to what you will actually pay',
+    seoTitle: 'How to read a Gurugram price sheet',
     dek: 'The headline price is a starting point. Here is how to rebuild the all-in number line by line, and how to compare projects on ₹/sq ft without fooling yourself.',
     date: '2026-09-22',
     readMins: 6,
@@ -44,13 +49,14 @@ export const ARTICLES: Article[] = [
       { h: 'Carpet vs super area' },
       { p: 'RERA requires carpet area to be disclosed. Many listings still quote super area. A 1,000 sq ft carpet unit might be 1,350–1,450 sq ft super. Always convert to the same basis before comparing ₹/sq ft.' },
       { h: 'Using ₹/sq ft properly' },
-      { p: 'Falcon shows ₹/sq ft on every project. Where the developer has not published a rate, we compute an indicative one (starting price ÷ smallest listed unit) and mark it with an asterisk. It is good for ranking projects within a corridor. It is not good for valuing a specific unit.' },
+      { p: site.name + ' shows ₹/sq ft on every project. Where the developer has not published a rate, we compute an indicative one (starting price ÷ smallest listed unit) and mark it with an asterisk. It is good for ranking projects within a corridor. It is not good for valuing a specific unit.' },
       { note: 'Ask for the cost sheet as a PDF on the developer’s letterhead. If a number is not on paper, it does not exist.' },
     ],
   },
   {
     slug: 'due-diligence-checklist-under-construction',
     title: 'A due-diligence checklist for under-construction property in Haryana',
+    seoTitle: 'Due-diligence checklist: under-construction homes',
     dek: 'Ten checks you can do in an evening, before a site visit or a booking cheque.',
     date: '2026-09-29',
     readMins: 8,
@@ -62,7 +68,7 @@ export const ARTICLES: Article[] = [
       { ul: ['5. DTCP licence: the licence number and the licensee (often a group company). Make sure the licence is in force.', '6. Approved building plans and environmental clearance for the project’s size.', '7. Title and encumbrance: if the land is mortgaged to a lender, ask for the lender’s no-objection to sale.'] },
       { h: 'Money' },
       { ul: ['8. Payment plan: construction-linked is the default safe choice. Possession-linked and subvention plans move cost and risk around, so read who pays what if the project is late.', '9. Escrow: under RERA, 70% of collections must go into a project-specific account. Ask which bank holds it.', '10. Exit: check the transfer/resale policy and charges before possession. Your exit may depend on it.'] },
-      { note: 'Falcon’s project pages carry a short checklist built from what is published. Where something is not published, it shows "unknown", which is your cue to ask.' },
+      { note: site.name + '’s project pages carry a short checklist built from what is published. Where something is not published, it shows "unknown", which is your cue to ask.' },
     ],
   },
 ];

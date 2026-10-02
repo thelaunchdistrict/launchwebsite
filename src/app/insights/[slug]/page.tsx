@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: PageProps<'/insights/[slug]'>
   const { slug } = await params;
   const a = ARTICLES.find((x) => x.slug === slug);
   if (!a) return {};
-  return { title: a.title, description: a.dek, alternates: { canonical: `/insights/${slug}` }, openGraph: { type: 'article', title: a.title, description: a.dek, publishedTime: a.date } };
+  return { title: a.seoTitle ?? a.title, description: a.dek, alternates: { canonical: `/insights/${slug}` }, openGraph: { type: 'article', title: a.title, description: a.dek, publishedTime: a.date } };
 }
 
 export default async function ArticlePage({ params }: PageProps<'/insights/[slug]'>) {

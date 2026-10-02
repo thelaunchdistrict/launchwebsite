@@ -3,7 +3,7 @@ import { site } from '@/config/site';
 import { datasetMeta } from '@/lib/data';
 import { StaticPage } from '@/components/StaticPage';
 
-export const metadata: Metadata = { title: 'RERA note, disclaimer & methodology', alternates: { canonical: '/disclaimer' } };
+export const metadata: Metadata = { title: 'RERA note, disclaimer & methodology', description: `How ${site.name} classifies stage, computes indicative ₹/sq ft and assigns micro-markets, plus what to verify on the HARERA portal.`, alternates: { canonical: '/disclaimer' } };
 
 export default function DisclaimerPage() {
   return (
@@ -17,7 +17,7 @@ export default function DisclaimerPage() {
         <li><strong>Stage (Entry Rail):</strong> taken from the listed project status. If the listing text says the project is in a pre-launch or new-launch phase, we show that and say where it came from. For under-construction projects, the marker’s position is estimated from the stated possession date, assuming a 60-month build.</li>
         <li><strong>Early-entry badge:</strong> pre-launch or new launch (as listed), or under construction with stated possession at least 36 months away (“early construction”, our inference).</li>
         <li><strong>₹/sq ft:</strong> the developer’s published rate when available. Otherwise an indicative rate equal to the starting price divided by the smallest listed unit, marked with an asterisk. Values outside ₹4,000–₹60,000 are discarded as inconsistent.</li>
-        <li><strong>Micro-market:</strong> assigned by Falcon from the address and sector number.</li>
+        <li><strong>Micro-market:</strong> assigned by {site.name} from the address and sector number.</li>
         <li><strong>Projections:</strong> calculator outputs depend entirely on your assumptions and are illustrative.</li>
       </ul>
       <h2>Not advice</h2>

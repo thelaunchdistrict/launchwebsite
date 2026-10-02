@@ -5,7 +5,7 @@ import { sectorKey } from '@/lib/corridors';
 import { ProjectExplorer } from '@/components/listing/ProjectExplorer';
 
 export const metadata: Metadata = {
-  title: 'Projects in Gurugram — pre-launch, new launch & under construction',
+  title: 'Gurugram projects: pre-launch to ready',
   description: 'Filter Gurugram projects by stage, corridor, budget, configuration and possession year. Compare ₹/sq ft and shortlist early-entry opportunities.',
   alternates: { canonical: '/projects' },
 };

@@ -7,7 +7,7 @@ export const site = {
   legalName: 'Falcon Realty Research (placeholder entity)',
   tagline: 'Get in before the crowd.',
   description:
-    'Early-entry research on pre-launch, new-launch and under-construction projects in Gurugram — price per sq ft, possession horizons, RERA checks and corridor-level context for investors.',
+    'Early-entry research on pre-launch and under-construction projects in Gurugram: ₹/sq ft, possession dates, RERA checks and corridor context for investors.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://falcon.example.com',
   locale: 'en_IN',
   city: 'Gurugram',

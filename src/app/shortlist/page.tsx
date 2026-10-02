@@ -4,8 +4,9 @@ import { ShortlistView } from '@/components/shortlist/ShortlistView';
 
 export const metadata: Metadata = {
   title: 'Your shortlist',
-  description: 'Projects you saved on this device.',
+  description: 'Projects you saved on this device, ready to compare side by side or to request early-access pricing.',
   robots: { index: false },
+  alternates: { canonical: '/shortlist' },
 };
 
 export default function ShortlistPage() {

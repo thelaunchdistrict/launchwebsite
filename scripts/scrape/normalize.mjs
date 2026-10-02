@@ -7,7 +7,7 @@ import path from 'node:path';
 import { STATE_DIR, DATA_DIR, SOURCE, readJSON, writeJSON, log } from './lib.mjs';
 import { collectImageRefs } from './download-images.mjs';
 import {
-  parseInr, parseInrRange, parseAreaSqft, parseAcres, findPossession, findLaunch, parseBhk,
+  parseInr, parseInrRange, parseAreaSqft, parseAcres, findPossession, findLaunch, parseBhk, fixCompoundDashes,
   sectorFrom, normalizeStatus, normalizeType, projectName,
 } from './parse.mjs';
 import mm from '../../src/config/micromarkets.json' with { type: 'json' };
@@ -15,7 +15,16 @@ import mm from '../../src/config/micromarkets.json' with { type: 'json' };
 const RAW_DIR = path.join(STATE_DIR, 'raw');
 const imgState = readJSON(path.join(STATE_DIR, 'images-state.json'), { byUrl: {} });
 const nn = (v) => (v === undefined || v === '' ? null : v);
-const clean = (s) => (s == null ? null : String(s).replace(/\s+–\s+/g, ' – ').trim() || null);
+// Formatting-only clean-up of source text: spaced dashes, compound words, accidental doubled
+// function words ("developed by by"). Wording is never changed beyond that.
+// Unambiguous typos in the source (found by `npm run qa`). Regional spellings are left as written.
+const SOURCE_TYPOS = [[/\bAmenitics\b/g, 'Amenities'], [/\bHighspeed\b/g, 'High-speed'], [/\bhighspeed\b/g, 'high-speed']];
+const clean = (s) => {
+  if (s == null) return null;
+  let t = fixCompoundDashes(String(s).replace(/\s+–\s+/g, ' – ')).replace(/\b(by|the|a|an|and|of|to|in|for|with|is)\s+\1\b/gi, '$1');
+  for (const [re, to] of SOURCE_TYPOS) t = t.replace(re, to);
+  return t.trim() || null;
+};
 
 function microMarketFor(sector, ...texts) {
   const hay = texts.filter(Boolean).join(' ').toLowerCase();

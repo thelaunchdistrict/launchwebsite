@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   parseInr, parseInrRange, parseAreaSqft, parseAcres, parseMonthYear, findPossession, parseBhk,
-  sectorFrom, normalizeStatus, normalizeType, projectName,
+  sectorFrom, normalizeStatus, normalizeType, projectName, fixCompoundDashes,
 } from './parse.mjs';
 
 test('parseInr', () => {
@@ -36,6 +36,13 @@ test('dates', () => {
   assert.equal(findPossession('No dates here'), null);
 });
 
+test('compound dashes', () => {
+  assert.equal(fixCompoundDashes('ultra – luxury homes, high – end amenities'), 'ultra-luxury homes, high-end amenities');
+  assert.equal(fixCompoundDashes('state – of – the – art gym'), 'state-of-the-art gym');
+  assert.equal(fixCompoundDashes('Goa’s 5 – Star Golf Township'), 'Goa’s 5-Star Golf Township');
+  assert.equal(fixCompoundDashes('Sobha Aranya – Residential Development'), 'Sobha Aranya – Residential Development');
+});
+
 test('misc', () => {
   assert.equal(parseBhk('3BHK + SQ'), 3);
   assert.equal(parseBhk('Studio'), 0);
@@ -49,7 +56,8 @@ test('misc', () => {
   assert.equal(projectName({ title: 'M3M Crown – Residential Development in Sector 111' }), 'M3M Crown');
   assert.equal(projectName({ aboutTitle: 'Project Overview – Elan The Statement , Sector 49, Sohna Road Gurgaon' }), 'Elan The Statement');
   assert.equal(projectName({ aboutTitle: 'Project Overview – Aditya Birla Pravaah Sector 71' }), 'Aditya Birla Pravaah');
-  assert.equal(projectName({ aboutTitle: 'Project Overview – Tarc Ishva Gurgaon' }), 'Tarc Ishva');
+  assert.equal(projectName({ aboutTitle: 'Project Overview – Tarc Ishva Gurgaon' }), 'TARC Ishva');
+  assert.equal(projectName({ aboutTitle: 'Project Overview – Club Arcade Dlf' }), 'Club Arcade DLF');
   assert.equal(projectName({ aboutTitle: 'Project Overview – The Oryza, Dwarka Expressway Gurgaon' }), 'The Oryza');
   assert.equal(projectName({ aboutTitle: 'Project Overview – Yugen Greens: Goa’s 5 – Star Golf Township' }), 'Yugen Greens');
 });

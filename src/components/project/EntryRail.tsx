@@ -1,10 +1,11 @@
+import { site } from '@/config/site';
 import { RAIL_STATIONS } from '@/lib/stage';
 import type { Stage } from '@/lib/types';
 
 const BASIS_NOTE: Record<Stage['basis'], string> = {
   status: 'from the listed project status',
   'listing-text': 'as stated in the listing text',
-  derived: 'estimated by Falcon from the stated possession date',
+  derived: `estimated by ${site.name} from the stated possession date`,
   unknown: 'stage not published',
 };
 

@@ -1,4 +1,5 @@
 import 'server-only';
+import { site } from '../config/site';
 import dataset from '../../data/projects.json';
 import mediaMapJson from '../data/media-map.json';
 import mm from '../config/micromarkets.json';
@@ -156,7 +157,7 @@ export function dueDiligence(p: Project): Check[] {
   checks.push({
     label: 'Developer delivery record',
     state: 'unknown',
-    detail: `Not assessed by Falcon. Look up ${p.developer.name ?? 'the developer'}'s completed projects and any HARERA complaints or delay orders.`,
+    detail: `Not assessed by ${site.name}. Look up ${p.developer.name ?? 'the developer'}'s completed projects and any HARERA complaints or delay orders.`,
   });
   checks.push({ label: 'Approvals (licence, building plan, environmental clearance)', state: 'unknown', detail: 'Not published in the source listing. Ask for the DTCP licence number and approved building plan.' });
   const plan = p.pricing.paymentPlan ?? '';

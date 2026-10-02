@@ -93,7 +93,7 @@ export function CompareView({ rows }: { rows: CompareRow[] }) {
                 <div className="relative mb-3 aspect-[3/2] overflow-hidden rounded-xl bg-sunk">
                   {p.image && <Image src={p.image.src} alt="" fill sizes="300px" className="object-cover" />}
                 </div>
-                <Link href={`/projects/${p.slug}`} className="font-display text-xl font-normal text-ink hover:underline">{p.name}</Link>
+                <Link href={`/projects/${p.slug}`} className="inline-flex min-h-11 items-center font-display text-xl font-normal text-ink hover:underline">{p.name}</Link>
                 <button type="button" onClick={() => compare.remove(p.slug)} className="mt-1 flex min-h-11 items-center gap-1 text-xs text-ink-2 hover:text-ink">
                   <Icon name="close" size={14} /> Remove
                 </button>

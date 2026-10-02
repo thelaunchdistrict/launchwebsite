@@ -90,7 +90,7 @@ export function ProjectExplorer({ projects, options }: { projects: ProjectSummar
           </select>
           <div role="group" aria-label="View" className="inline-flex rounded-full border hairline p-0.5">
             {(['grid', 'map'] as const).map((v) => (
-              <button key={v} type="button" aria-pressed={view === v} onClick={() => setView(v)} className={`flex min-h-10 items-center gap-1.5 rounded-full px-3 text-sm capitalize ${view === v ? 'bg-ink text-paper' : 'text-ink-2 hover:text-ink'}`}>
+              <button key={v} type="button" aria-pressed={view === v} onClick={() => setView(v)} className={`flex min-h-11 items-center gap-1.5 rounded-full px-3 text-sm capitalize ${view === v ? 'bg-ink text-paper' : 'text-ink-2 hover:text-ink'}`}>
                 <Icon name={v === 'grid' ? 'grid' : 'map'} size={16} /> {v}
               </button>
             ))}

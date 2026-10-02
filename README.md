@@ -36,6 +36,22 @@ npm install && npm run dev
 | `npm test` | Parser and finance unit tests (`node --test`) |
 | `npm run lint` / `npm run typecheck` | ESLint / tsc |
 
+### Quality checker (`npm run qa`)
+
+`npm run build && npm run qa` renders every page of the production build (sitemap + client-only routes) in four passes: desktop/light, mobile/light, mobile/dark and desktop/dark. It writes `qa/report.md` and `qa/report.json`, and exits with code 1 if anything is error-level, so it can gate CI. Options: `--quick` (two project pages instead of 60), `--url https://staging…` (audit a deployed site), `--no-fail`.
+
+| Area | What it catches |
+|---|---|
+| Content | leaked `undefined`/`NaN`/`null`, placeholders, repeated words, spacing and punctuation, broken compound words, terminology drift (Gurugram vs Gurgaon, sq ft variants, colour/color, ₹ formats) |
+| Data consistency | each project page against `data/projects.json` (name, price, RERA, possession, developer, FAQs); home, listing, market and timeline counts against the dataset; source contradictions the page fails to flag |
+| Spelling | cspell (en + en-GB) over visible text and alt/aria/title text, each word attributed to *site copy* (error) or *source data* (info). Domain words go in `scripts/qa/words.txt` |
+| UI/UX | page and link status, missing #anchors, mailto/tel validity, broken, stretched or low-res images, clipped text, horizontal scroll at 375px, 44px touch targets, console errors |
+| Accessibility | axe-core WCAG 2.1 AA, colour contrast in all four theme/viewport passes, real keyboard Tab focus visibility, duplicate ids, nameless controls, missing alt |
+| SEO & structure | title and description length and uniqueness, canonical correctness, single h1, heading skips, JSON-LD validity |
+| Code hygiene | TODO/console.log, brand name hard-coded outside `src/config/site.ts`, raw hex colours outside tokens, placeholder contact config |
+
+Intentional exceptions are declared in markup (`data-qa-touch-exempt="reason"`, `data-focus-ring`) so they are reported as documented exceptions rather than hidden.
+
 ### Scraper behaviour
 
 - Reads `robots.txt` first and checks every URL against it. `/api/` is disallowed there, so the crawler never calls it. Data comes from the App Router flight payload embedded in each project page.

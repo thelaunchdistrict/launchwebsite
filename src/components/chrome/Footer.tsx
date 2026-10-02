@@ -17,7 +17,7 @@ export function Footer() {
         <FooterCol title="Research" links={[['/projects', 'All projects'], ['/projects?early=1', 'Early-entry only'], ['/compare', 'Compare'], ['/shortlist', 'Shortlist']]} />
         <FooterCol title="Markets" links={mm.markets.slice(0, 6).map((m) => [`/markets/${m.slug}`, m.name] as [string, string])} />
         <FooterCol
-          title="Falcon"
+          title={site.name}
           links={[['/tools', 'Investment tools'], ['/insights', 'Insights'], ['/about', 'About'], ['/contact', 'Contact'], ['/disclaimer', 'RERA & disclaimer'], ['/privacy', 'Privacy'], ['/terms', 'Terms']]}
         />
       </div>
@@ -39,7 +39,7 @@ function FooterCol({ title, links }: { title: string; links: [string, string][] 
       <ul className="space-y-0.5">
         {links.map(([href, label]) => (
           <li key={href}>
-            <Link href={href} className="inline-flex min-h-11 items-center text-sm text-ink-2 hover:text-ink md:min-h-9">{label}</Link>
+            <Link href={href} className="inline-flex min-h-11 min-w-11 items-center text-sm text-ink-2 hover:text-ink md:min-h-9">{label}</Link>
           </li>
         ))}
       </ul>
