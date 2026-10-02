@@ -9,7 +9,6 @@ import { imageSize } from 'image-size';
 import { STATE_DIR, DATA_DIR, CDN_HOSTS, politeFetch, readJSON, writeJSON, log, originalImageUrl } from './lib.mjs';
 
 const RAW_DIR = path.join(STATE_DIR, 'raw');
-const IMG_DIR = path.join(DATA_DIR, 'images');
 const STATE_FILE = path.join(STATE_DIR, 'images-state.json');
 const args = process.argv.slice(2);
 const only = (() => { const i = args.indexOf('--only'); return i >= 0 ? args[i + 1].split(',') : null; })();

@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+/* Colour tokens are injected from src/config/site.ts by app/layout.tsx (light, system-dark, forced-dark). */
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-raised: var(--paper-raised);
+  --color-sunk: var(--paper-sunk);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-signal: var(--signal);
+  --color-signal-soft: var(--signal-soft);
+  --color-on-signal: var(--on-signal);
+  --color-positive: var(--positive);
+  --color-caution: var(--caution);
+  --color-focus: var(--focus);
+
+  --font-display: var(--font-serif), "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SF Mono", Menlo, monospace;
+
+  --ease-out-soft: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: var(--signal-soft);
+    color: var(--ink);
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  img { color: transparent; }
+  [data-theme="dark"] img.photo, :root:not([data-theme="light"]) img.photo { outline-color: var(--rule); }
+}
+
+@layer components {
+  .wrap { width: 100%; max-width: 1240px; margin-inline: auto; padding-inline: 1rem; }
+  @media (min-width: 768px) { .wrap { padding-inline: 2rem; } }
+
+  .display { font-family: var(--font-display); font-size: clamp(2.5rem, 6.2vw, 5.5rem); line-height: 0.95; letter-spacing: -0.015em; }
+  .h2 { font-family: var(--font-display); font-size: clamp(1.75rem, 3.2vw, 2.6rem); line-height: 1.05; }
+  .h3 { font-family: var(--font-display); font-size: clamp(1.35rem, 2vw, 1.6rem); line-height: 1.15; }
+  .eyebrow { font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); }
+  .num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+  .hairline { border-color: var(--rule); }
+
+  /* Buttons — 44px minimum target */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; min-height: 44px; padding: 0 1.1rem; border-radius: 999px; font-weight: 500; font-size: 0.95rem; transition: background-color .15s var(--ease-out-soft), color .15s, border-color .15s, transform .15s; white-space: nowrap; }
+  .btn:active { transform: translateY(1px); }
+  .btn-primary { background: var(--signal); color: var(--on-signal); }
+  .btn-primary:hover { background: color-mix(in oklab, var(--signal) 88%, var(--ink)); }
+  .btn-ink { background: var(--ink); color: var(--paper); }
+  .btn-ink:hover { background: color-mix(in oklab, var(--ink) 85%, var(--paper)); }
+  .btn-ghost { border: 1px solid var(--rule-strong); color: var(--ink); background: transparent; }
+  .btn-ghost:hover { border-color: var(--ink); }
+  .btn-icon { min-width: 44px; padding: 0; }
+  .btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+  .field { display: block; width: 100%; min-height: 44px; padding: 0.6rem 0.8rem; border: 1px solid var(--rule-strong); border-radius: 10px; background: var(--paper-raised); color: var(--ink); font-size: 1rem; }
+  .field:focus-visible { outline: 2px solid var(--focus); outline-offset: 0; border-color: transparent; }
+  .field[aria-invalid="true"] { border-color: var(--signal); }
+  .label { display: block; font-size: 0.875rem; font-weight: 500; margin-bottom: 0.35rem; }
+
+  .card { background: var(--paper-raised); border: 1px solid var(--rule); border-radius: 14px; }
+  .chip { display: inline-flex; align-items: center; gap: 0.35rem; min-height: 28px; padding: 0 0.6rem; border-radius: 999px; border: 1px solid var(--rule-strong); font-size: 0.8125rem; line-height: 1; }
+  .link { text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
+  .link:hover { text-decoration-color: var(--ink); }
+
+  .ledger { width: 100%; border-collapse: collapse; }
+  .ledger th { text-align: left; font-weight: 500; font-size: 0.75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); padding: .6rem .75rem; border-bottom: 1px solid var(--ink); }
+  .ledger td { padding: .75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  .ledger td.n, .ledger th.n { text-align: right; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+  .prose-falcon p { margin: 0 0 1em; max-width: 68ch; }
+  .prose-falcon h2 { font-size: 1.75rem; margin: 2rem 0 .75rem; }
+  .prose-falcon h3 { font-size: 1.3rem; margin: 1.5rem 0 .5rem; }
+  .prose-falcon ul { list-style: none; padding: 0; margin: 0 0 1em; max-width: 68ch; }
+  .prose-falcon li { padding-left: 1.25rem; position: relative; margin-bottom: .4em; }
+  .prose-falcon li::before { content: ""; position: absolute; left: 0; top: .7em; width: .6rem; border-top: 1px solid var(--ink-2); }
+
+  .skip-link { position: absolute; left: 1rem; top: -100px; z-index: 100; background: var(--ink); color: var(--paper); padding: .75rem 1rem; border-radius: 8px; }
+  .skip-link:focus { top: 1rem; }
+
+  .safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+}
+
+/* Entry rail fill animates once on reveal */
+@keyframes rail-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.rail-fill { transform-origin: left center; animation: rail-fill .7s var(--ease-out-soft) both; }
+@keyframes sheet-up { from { transform: translateY(100%); } to { transform: translateY(0); } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; scroll-behavior: auto !important; }
+}
