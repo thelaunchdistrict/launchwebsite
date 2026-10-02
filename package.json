@@ -1,0 +1,41 @@
+{
+  "name": "falcon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Falcon — early-stage real-estate investment platform for Gurgaon / NCR",
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run media && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test scripts/scrape/parse.test.mjs src/lib/finance.test.ts",
+    "scrape": "node scripts/scrape/discover.mjs && node scripts/scrape/fetch-projects.mjs --force && node scripts/scrape/download-images.mjs && npm run normalize && node scripts/scrape/spot-check.mjs --n 10 && npm run report",
+    "scrape:resume": "node scripts/scrape/discover.mjs --resume && node scripts/scrape/fetch-projects.mjs && node scripts/scrape/download-images.mjs && npm run normalize && npm run report",
+    "scrape:test": "node scripts/scrape/discover.mjs --resume && node scripts/scrape/fetch-projects.mjs --limit 3",
+    "normalize": "node scripts/scrape/normalize.mjs",
+    "report": "node scripts/scrape/report.mjs",
+    "spot-check": "node scripts/scrape/spot-check.mjs --n 10",
+    "media": "node scripts/build/media.mjs",
+    "setup": "npm run scrape && npm run build"
+  },
+  "dependencies": {
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "image-size": "^2.0.4",
+    "playwright": "^1.63.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

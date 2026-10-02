@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://falcon.example/schemas/projects.schema.json",
+  "title": "Falcon projects dataset",
+  "type": "object",
+  "required": ["generatedAt", "source", "count", "projects"],
+  "properties": {
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "source": { "type": "string", "format": "uri" },
+    "count": { "type": "integer" },
+    "projects": { "type": "array", "items": { "$ref": "#/$defs/project" } }
+  },
+  "$defs": {
+    "nstr": { "type": ["string", "null"] },
+    "nnum": { "type": ["number", "null"] },
+    "nint": { "type": ["integer", "null"] },
+    "yearMonth": { "type": ["string", "null"], "pattern": "^\\d{4}(-\\d{2})?$", "description": "ISO year or year-month" },
+    "image": {
+      "type": ["object", "null"],
+      "required": ["originalUrl", "localPath"],
+      "properties": {
+        "originalUrl": { "type": "string", "format": "uri" },
+        "localPath": { "$ref": "#/$defs/nstr" },
+        "width": { "$ref": "#/$defs/nint" },
+        "height": { "$ref": "#/$defs/nint" }
+      }
+    },
+    "configuration": {
+      "type": "object",
+      "properties": {
+        "label": { "$ref": "#/$defs/nstr" },
+        "unitType": { "$ref": "#/$defs/nstr" },
+        "bhk": { "$ref": "#/$defs/nnum" },
+        "areaRaw": { "$ref": "#/$defs/nstr" },
+        "areaSqft": { "$ref": "#/$defs/nnum" },
+        "areaBasis": { "$ref": "#/$defs/nstr" },
+        "priceRaw": { "$ref": "#/$defs/nstr" },
+        "priceInr": { "$ref": "#/$defs/nnum" },
+        "pricePerSqftRaw": { "$ref": "#/$defs/nstr" },
+        "pricePerSqftInr": { "$ref": "#/$defs/nnum" },
+        "availability": { "$ref": "#/$defs/nstr" },
+        "features": {}
+      }
+    },
+    "project": {
+      "type": "object",
+      "required": ["id", "slug", "name", "sourceUrl", "status", "location", "pricing", "facts", "content", "media", "seo", "scrapedAt", "provenance"],
+      "properties": {
+        "id": { "type": "string" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "$ref": "#/$defs/nstr" },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "developer": { "type": "object", "properties": { "name": { "$ref": "#/$defs/nstr" } } },
+        "projectType": { "enum": ["residential", "commercial", "plots", "sco", "villas", "floors", null] },
+        "categoryRaw": { "$ref": "#/$defs/nstr" },
+        "typeRaw": { "$ref": "#/$defs/nstr" },
+        "status": { "enum": ["pre-launch", "new-launch", "under-construction", "ready", null] },
+        "statusRaw": { "$ref": "#/$defs/nstr" },
+        "reraNumber": { "$ref": "#/$defs/nstr" },
+        "launchDate": { "$ref": "#/$defs/yearMonth" },
+        "launchDateRaw": { "$ref": "#/$defs/nstr" },
+        "possessionDate": { "$ref": "#/$defs/yearMonth" },
+        "possessionDateRaw": { "$ref": "#/$defs/nstr", "description": "Sentence the date was extracted from" },
+        "location": {
+          "type": "object",
+          "properties": {
+            "sector": { "$ref": "#/$defs/nstr" },
+            "microMarket": { "$ref": "#/$defs/nstr", "description": "Derived; slug from src/config/micromarkets.json" },
+            "locality": { "$ref": "#/$defs/nstr" },
+            "city": { "$ref": "#/$defs/nstr" },
+            "state": { "$ref": "#/$defs/nstr" },
+            "address": { "$ref": "#/$defs/nstr" },
+            "latitude": { "$ref": "#/$defs/nnum" },
+            "longitude": { "$ref": "#/$defs/nnum" },
+            "landmarks": { "type": "array", "items": { "type": "string" } },
+            "connectivity": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": { "$ref": "#/$defs/nstr" },
+                  "category": { "$ref": "#/$defs/nstr" },
+                  "distanceRaw": {},
+                  "distanceKm": { "$ref": "#/$defs/nnum" },
+                  "travelTime": { "$ref": "#/$defs/nstr" }
+                }
+              }
+            },
+            "commentary": { "$ref": "#/$defs/nstr" }
+          }
+        },
+        "pricing": {
+          "type": "object",
+          "properties": {
+            "startingPriceRaw": { "$ref": "#/$defs/nstr" },
+            "startingPriceInr": { "$ref": "#/$defs/nnum" },
+            "priceRangeRaw": { "$ref": "#/$defs/nstr" },
+            "priceMinInr": { "$ref": "#/$defs/nnum" },
+            "priceMaxInr": { "$ref": "#/$defs/nnum" },
+            "pricePerSqftMinInr": { "$ref": "#/$defs/nnum" },
+            "pricePerSqftMaxInr": { "$ref": "#/$defs/nnum" },
+            "entryPricePerSqftInr": { "$ref": "#/$defs/nnum", "description": "Derived: startingPriceInr / unitSizeMinSqft" },
+            "unitSizeMinSqft": { "$ref": "#/$defs/nnum" },
+            "unitSizeMaxSqft": { "$ref": "#/$defs/nnum" },
+            "configurations": { "type": "array", "items": { "$ref": "#/$defs/configuration" } },
+            "paymentPlan": { "$ref": "#/$defs/nstr" },
+            "bookingAmount": { "$ref": "#/$defs/nstr" },
+            "otherCharges": { "$ref": "#/$defs/nstr" }
+          }
+        },
+        "facts": {
+          "type": "object",
+          "properties": {
+            "landAreaRaw": { "$ref": "#/$defs/nstr" },
+            "landAreaAcres": { "$ref": "#/$defs/nnum" },
+            "towers": { "$ref": "#/$defs/nint" },
+            "floors": { "$ref": "#/$defs/nint" },
+            "units": { "$ref": "#/$defs/nint" },
+            "soldUnits": { "$ref": "#/$defs/nint" },
+            "availableUnits": { "$ref": "#/$defs/nint" },
+            "unitsPerAcre": { "$ref": "#/$defs/nnum" },
+            "openSpacePercent": { "$ref": "#/$defs/nnum" },
+            "architect": { "$ref": "#/$defs/nstr" },
+            "landscapeDesigner": { "$ref": "#/$defs/nstr" },
+            "constructionPartner": { "$ref": "#/$defs/nstr" }
+          }
+        },
+        "content": {
+          "type": "object",
+          "properties": {
+            "title": { "$ref": "#/$defs/nstr" },
+            "subtitle": { "$ref": "#/$defs/nstr" },
+            "description": { "$ref": "#/$defs/nstr" },
+            "overview": { "$ref": "#/$defs/nstr" },
+            "highlights": { "type": "array", "items": { "type": "string" } },
+            "amenities": {
+              "type": "array",
+              "items": { "type": "object", "properties": { "category": { "$ref": "#/$defs/nstr" }, "name": { "$ref": "#/$defs/nstr" }, "details": { "$ref": "#/$defs/nstr" } } }
+            },
+            "specifications": { "type": "array" },
+            "faqs": {
+              "type": "array",
+              "items": { "type": "object", "properties": { "question": { "$ref": "#/$defs/nstr" }, "answer": { "$ref": "#/$defs/nstr" } } }
+            },
+            "investmentCommentary": { "$ref": "#/$defs/nstr" },
+            "offerings": { "type": "array" }
+          }
+        },
+        "media": {
+          "type": "object",
+          "properties": {
+            "hero": { "$ref": "#/$defs/image" },
+            "gallery": { "type": "array", "items": { "$ref": "#/$defs/image" } },
+            "floorPlans": {
+              "type": "array",
+              "items": { "type": "object", "properties": { "label": { "$ref": "#/$defs/nstr" }, "level": { "$ref": "#/$defs/nstr" }, "details": {}, "image": { "$ref": "#/$defs/image" } } }
+            },
+            "sitePlan": { "$ref": "#/$defs/image" },
+            "videos": { "type": "array", "items": { "type": "string", "format": "uri" } },
+            "virtualTours": { "type": "array", "items": { "type": "string" } },
+            "brochurePdf": { "$ref": "#/$defs/nstr" },
+            "developerLogo": { "$ref": "#/$defs/image" },
+            "imageCount": { "type": "integer" }
+          }
+        },
+        "seo": {
+          "type": "object",
+          "properties": {
+            "title": { "$ref": "#/$defs/nstr" },
+            "description": { "$ref": "#/$defs/nstr" },
+            "keywords": { "type": "array", "items": { "type": "string" } },
+            "h1": { "$ref": "#/$defs/nstr" }
+          }
+        },
+        "relatedSlugs": { "type": "array", "items": { "type": "string" } },
+        "sourceCreatedAt": { "$ref": "#/$defs/nstr" },
+        "scrapedAt": { "type": "string", "format": "date-time" },
+        "provenance": {
+          "type": "object",
+          "description": "Field → how the value was obtained when not a direct source field",
+          "additionalProperties": { "type": "string" }
+        }
+      }
+    }
+  }
+}
