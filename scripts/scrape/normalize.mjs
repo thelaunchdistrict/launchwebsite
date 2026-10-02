@@ -27,10 +27,13 @@ const clean = (s) => {
   return t.trim() || null;
 };
 
-function microMarketFor(sector, ...texts) {
-  const hay = texts.filter(Boolean).join(' ').toLowerCase();
-  for (const m of mm.markets) if (m.keywords.some((k) => new RegExp(k, 'i').test(hay))) return { slug: m.slug, method: 'keyword' };
+// The sector number decides the corridor. Keywords are a fallback for listings without a sector, and
+// only look at address-like fields: descriptions name *other* corridors for connectivity
+// ("10 minutes from Dwarka Expressway"), which previously put Sector 14 and 63A projects on DXP.
+function microMarketFor(sector, address, locality, title) {
   if (sector) for (const m of mm.markets) if (m.sectors.includes(sector)) return { slug: m.slug, method: 'sector-table' };
+  const hay = [address, locality, title].filter(Boolean).join(' ').toLowerCase();
+  for (const m of mm.markets) if (m.keywords.some((k) => new RegExp(k, 'i').test(hay))) return { slug: m.slug, method: 'keyword' };
   return null;
 }
 
@@ -86,7 +89,9 @@ function normalize(raw) {
 
   // ---- location
   const sector = sectorFrom(p.locality, p.address, p.title, p.slug);
-  const market = microMarketFor(sector, p.address, p.locality, p.title, p.subtitle, p.description, p.seo?.localContent);
+  // A named locality with its own sector numbering (e.g. Gwal Pahari) overrides the Gurugram sector table.
+  const namedLocality = (mm.localities ?? []).find((l) => new RegExp(l.keyword, 'i').test([p.address, p.locality, p.subtitle].filter(Boolean).join(' ')));
+  const market = namedLocality ? { slug: namedLocality.market, method: 'locality' } : microMarketFor(sector, p.address, p.locality, p.title);
   if (market) prov.microMarket = `derived:${market.method}`;
   const connectivity = (p.nearbyPoints || []).map((n) => ({
     name: nn(n.name || n.title),
@@ -170,7 +175,7 @@ function normalize(raw) {
     location: {
       sector,
       microMarket: market?.slug ?? null,
-      locality: nn(p.locality),
+      locality: nn(p.locality) ?? namedLocality?.name ?? null,
       city: p.city ? (/gurgaon|gurugram/i.test(p.city) ? 'Gurugram' : p.city) : null,
       cityRaw: nn(p.city),
       state: nn(p.state),

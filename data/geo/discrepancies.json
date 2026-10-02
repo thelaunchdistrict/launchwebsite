@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "adani-lushlands-gurgaon",
+  "issue": "Listing says Sector 2, but the address names Gwal Pahari (14.0 km from that sector). Plotted at Gwal Pahari."
+ },
+ {
+  "slug": "anant-raj-estate-residences-sector-63a-gurgaon",
+  "issue": "Sector 63A is not mapped in OpenStreetMap; placed between Sectors 62 and 63 on Golf Course Extension Road. Shown as approximate."
+ },
+ {
+  "slug": "birla-arika-sector-31-nh8-gurgaon",
+  "issue": "Published coordinate 28.472, 77.042 is 2.2 km from the centre of Sector 31; plotted at the sector centre instead."
+ },
+ {
+  "slug": "m3m-golf-hills-sector-79-gurgaon",
+  "issue": "Sector 79 is not mapped in OpenStreetMap; placed between Sectors 78 and 80. Shown as approximate."
+ },
+ {
+  "slug": "paras-manor-sector-2-gurgaon",
+  "issue": "Listing says Sector 2, but the address names Gwal Pahari (14.0 km from that sector). Plotted at Gwal Pahari."
+ },
+ {
+  "slug": "silverglades-the-legacy-sector-63a-gurgaon",
+  "issue": "Sector 63A is not mapped in OpenStreetMap; placed between Sectors 62 and 63 on Golf Course Extension Road. Shown as approximate."
+ },
+ {
+  "slug": "sobha-sector-63a-gurgaon",
+  "issue": "Sector 63A is not mapped in OpenStreetMap; placed between Sectors 62 and 63 on Golf Course Extension Road. Shown as approximate."
+ },
+ {
+  "slug": "spj-vedatam-sector-14-gurgaon",
+  "issue": "Published coordinate 28.4595, 77.0266 is 2.6 km from the centre of Sector 14; plotted at the sector centre instead."
+ },
+ {
+  "slug": "tarc-ishva-sector-63a-gurgaon",
+  "issue": "Sector 63A is not mapped in OpenStreetMap; placed between Sectors 62 and 63 on Golf Course Extension Road. Shown as approximate."
+ },
+ {
+  "slug": "yugen-golf-city",
+  "issue": "Outside Gurugram or no sector; not plotted on the Gurugram map."
+ }
+]

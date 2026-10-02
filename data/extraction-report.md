@@ -1,6 +1,6 @@
 # Extraction report — realtycanvas.in/projects
 
-Generated 2026-10-02T10:05:52.152Z from data built at 2026-10-02T10:05:52.061Z.
+Generated 2026-10-02T11:00:47.954Z from data built at 2026-10-02T11:00:04.397Z.
 
 ## Summary
 
@@ -176,6 +176,21 @@ Share of projects with a non-empty value. *Derived* fields are computed by Falco
 - 43/60 projects list every configuration as "Price on Request"; only the project-level starting price is numeric.
 - 55/60 projects carry the same templated location paragraph ("…enjoys a strategic address…"). Falcon treats it as boilerplate and does not show it as project-specific analysis.
 - 3/60 projects have generic placeholder highlights (e.g. "Prime Location", "24/7 Security").
+
+## Map positions
+
+Projects are plotted from OpenStreetMap geography (© OpenStreetMap contributors): the listing's own coordinate when it lies within 1.5 km of its stated sector, otherwise the sector centre. A named locality with its own sector numbering (Gwal Pahari) overrides the sector table. Sectors missing from OSM are placed between their numbered neighbours and drawn as approximate.
+
+- **adani-lushlands-gurgaon**: Listing says Sector 2, but the address names Gwal Pahari (14.0 km from that sector). Plotted at Gwal Pahari.
+- **anant-raj-estate-residences-sector-63a-gurgaon**: Sector 63A is not mapped in OpenStreetMap; placed between Sectors 62 and 63 on Golf Course Extension Road. Shown as approximate.
+- **birla-arika-sector-31-nh8-gurgaon**: Published coordinate 28.472, 77.042 is 2.2 km from the centre of Sector 31; plotted at the sector centre instead.
+- **m3m-golf-hills-sector-79-gurgaon**: Sector 79 is not mapped in OpenStreetMap; placed between Sectors 78 and 80. Shown as approximate.
+- **paras-manor-sector-2-gurgaon**: Listing says Sector 2, but the address names Gwal Pahari (14.0 km from that sector). Plotted at Gwal Pahari.
+- **silverglades-the-legacy-sector-63a-gurgaon**: Sector 63A is not mapped in OpenStreetMap; placed between Sectors 62 and 63 on Golf Course Extension Road. Shown as approximate.
+- **sobha-sector-63a-gurgaon**: Sector 63A is not mapped in OpenStreetMap; placed between Sectors 62 and 63 on Golf Course Extension Road. Shown as approximate.
+- **spj-vedatam-sector-14-gurgaon**: Published coordinate 28.4595, 77.0266 is 2.6 km from the centre of Sector 14; plotted at the sector centre instead.
+- **tarc-ishva-sector-63a-gurgaon**: Sector 63A is not mapped in OpenStreetMap; placed between Sectors 62 and 63 on Golf Course Extension Road. Shown as approximate.
+- **yugen-golf-city**: Outside Gurugram or no sector; not plotted on the Gurugram map.
 
 ## Spot-check against live pages
 

@@ -1,0 +1,5 @@
+{
+  "_comment": "Sectors with no area, address or name anywhere in OpenStreetMap (checked 2 Oct 2026 via Overpass and Nominatim). They are placed between their numbered neighbours and drawn as approximate. Replace with a surveyed point when one is available.",
+  "63A": { "between": ["62", "63"], "why": "Sector 63A is not mapped in OpenStreetMap; placed between Sectors 62 and 63 on Golf Course Extension Road" },
+  "79": { "between": ["78", "80"], "why": "Sector 79 is not mapped in OpenStreetMap; placed between Sectors 78 and 80" }
+}

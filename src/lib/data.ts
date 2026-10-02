@@ -85,7 +85,9 @@ export function summarize(p: Project): ProjectSummary {
     image: img(p.media.hero) ?? img(p.media.gallery[0]),
     createdAt: p.sourceCreatedAt,
     featured: p.featured ?? null,
-    locationLabel: p.location.sector ? `Sector ${p.location.sector}` : p.location.locality ?? p.location.city,
+    locationLabel: p.location.sector
+      ? `Sector ${p.location.sector}${p.location.locality && !/sector/i.test(p.location.locality) ? `, ${p.location.locality}` : ''}`
+      : p.location.locality ?? p.location.city,
   };
 }
 

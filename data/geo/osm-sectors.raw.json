@@ -1,0 +1,3588 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-02T10:35:21Z",
+    "timestamp_areas_base": "2026-10-01T05:50:35Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 312920687,
+  "lat": 28.4737840,
+  "lon": 77.0471827,
+  "tags": {
+    "name": "Sector 14",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 312920689,
+  "lat": 28.4758035,
+  "lon": 77.0607773,
+  "tags": {
+    "name": "Sector 17",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 312920692,
+  "lat": 28.4251572,
+  "lon": 77.0475128,
+  "tags": {
+    "name": "Sector 47",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 312920693,
+  "lat": 28.4540044,
+  "lon": 77.0497179,
+  "tags": {
+    "name": "Sector 31",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 312920707,
+  "lat": 28.4287011,
+  "lon": 77.0666877,
+  "tags": {
+    "name": "Sector 51",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 312921203,
+  "lat": 28.4253232,
+  "lon": 77.0985157,
+  "tags": {
+    "name": "Sector 56",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 312921204,
+  "lat": 28.4274166,
+  "lon": 77.1097538,
+  "tags": {
+    "name": "Sector 55",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 313444880,
+  "lat": 28.4669197,
+  "lon": 77.0671306,
+  "tags": {
+    "name": "Sector 29",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 316065940,
+  "lat": 28.4808477,
+  "lon": 77.0704447,
+  "tags": {
+    "name": "Sector 18",
+    "suburb": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 325428870,
+  "lat": 28.4618719,
+  "lon": 77.0568800,
+  "tags": {
+    "name": "Sector 30",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 448276344,
+  "lat": 28.4232478,
+  "lon": 77.0804487,
+  "tags": {
+    "name": "Sector 57",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 603560763,
+  "lat": 28.4500427,
+  "lon": 77.0577093,
+  "tags": {
+    "name": "Sector 40",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2717336068,
+  "lat": 28.4703865,
+  "lon": 77.0993053,
+  "tags": {
+    "name": "Sector 26A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2717359036,
+  "lat": 28.4779375,
+  "lon": 77.1032425,
+  "tags": {
+    "name": "Sector 26",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2718798288,
+  "lat": 28.3702173,
+  "lon": 76.9611159,
+  "tags": {
+    "name": "Sector 80",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2718798293,
+  "lat": 28.3725283,
+  "lon": 76.9702955,
+  "tags": {
+    "name": "Sector 78",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2718842434,
+  "lat": 28.4449004,
+  "lon": 77.0663545,
+  "tags": {
+    "name": "Sector 45",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2719341973,
+  "lat": 28.4741302,
+  "lon": 77.0825722,
+  "tags": {
+    "name": "Sector 28",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2720613381,
+  "lat": 28.4646566,
+  "lon": 77.0839505,
+  "tags": {
+    "name": "Sector 27",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2721312536,
+  "lat": 28.4860888,
+  "lon": 77.0842240,
+  "tags": {
+    "name": "Sector 25",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2721769300,
+  "lat": 28.4548735,
+  "lon": 77.0858864,
+  "tags": {
+    "name": "Sector 43",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2723958518,
+  "lat": 28.4944811,
+  "lon": 77.1013038,
+  "tags": {
+    "name": "Sector 24",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2723964210,
+  "lat": 28.4961217,
+  "lon": 77.0906503,
+  "tags": {
+    "name": "Sector 25A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2726779033,
+  "lat": 28.4558973,
+  "lon": 77.1084759,
+  "tags": {
+    "name": "Sector 42",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2726809111,
+  "lat": 28.4415191,
+  "lon": 77.0968050,
+  "tags": {
+    "name": "Sector 53",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2726809120,
+  "lat": 28.4421059,
+  "lon": 77.1112654,
+  "tags": {
+    "name": "Sector 54",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2726829170,
+  "lat": 28.4396186,
+  "lon": 77.0905891,
+  "tags": {
+    "name": "Sector 52A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2728145923,
+  "lat": 28.5357856,
+  "lon": 77.0062587,
+  "tags": {
+    "is_in": "South Dwarka",
+    "is_in:city": "Gurugram",
+    "is_in:country": "India",
+    "is_in:state": "Haryana",
+    "is_in:suburb": "South Dwarka",
+    "name": "Sector 115",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2728267868,
+  "lat": 28.5327129,
+  "lon": 77.0122454,
+  "tags": {
+    "is_in": "South Dwarka",
+    "is_in:city": "Gurugram",
+    "is_in:country": "India",
+    "is_in:state": "Haryana",
+    "is_in:suburb": "South Dwarka",
+    "name": "Sector 114",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2733135415,
+  "lat": 28.5203402,
+  "lon": 77.0188612,
+  "tags": {
+    "is_in:city": "Gurugram",
+    "is_in:country": "India",
+    "is_in:district": "Gurugram",
+    "is_in:state": "Haryana",
+    "is_in:suburb": "South Dwarka",
+    "name": "Sector 112",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2733182414,
+  "lat": 28.5286649,
+  "lon": 77.0250282,
+  "tags": {
+    "is_in:city": "Gurugram",
+    "is_in:country": "India",
+    "is_in:state": "Haryana",
+    "is_in:suburb": "South Dwarka",
+    "name": "Sector 113",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2733184042,
+  "lat": 28.5222773,
+  "lon": 77.0336203,
+  "tags": {
+    "name": "Sector 111",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230711,
+  "lat": 28.4613898,
+  "lon": 76.9712708,
+  "tags": {
+    "name": "Sector 100",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230712,
+  "lat": 28.4684077,
+  "lon": 76.9803787,
+  "tags": {
+    "name": "Sector 101",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230713,
+  "lat": 28.4754872,
+  "lon": 76.9711747,
+  "tags": {
+    "name": "Sector 102",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230714,
+  "lat": 28.4830826,
+  "lon": 76.9779064,
+  "tags": {
+    "name": "Sector 102A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230715,
+  "lat": 28.4930870,
+  "lon": 76.9866453,
+  "tags": {
+    "name": "Sector 103",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230716,
+  "lat": 28.4795324,
+  "lon": 76.9937197,
+  "tags": {
+    "name": "Sector 104",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230717,
+  "lat": 28.4943133,
+  "lon": 77.0081378,
+  "tags": {
+    "name": "Sector 105",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230718,
+  "lat": 28.5060806,
+  "lon": 76.9967796,
+  "tags": {
+    "name": "Sector 106",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230719,
+  "lat": 28.5069410,
+  "lon": 76.9752137,
+  "tags": {
+    "name": "Sector 107",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230720,
+  "lat": 28.5128994,
+  "lon": 76.9823615,
+  "tags": {
+    "name": "Sector 108",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230721,
+  "lat": 28.5109205,
+  "lon": 77.0065956,
+  "tags": {
+    "name": "Sector 109",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230722,
+  "lat": 28.5069625,
+  "lon": 77.0183210,
+  "tags": {
+    "name": "Sector 110",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230723,
+  "lat": 28.5159108,
+  "lon": 77.0276475,
+  "tags": {
+    "name": "Sector 110A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230724,
+  "lat": 28.4645549,
+  "lon": 76.9628585,
+  "tags": {
+    "name": "Sector 99",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733230725,
+  "lat": 28.4554059,
+  "lon": 76.9510278,
+  "tags": {
+    "name": "Sector 99A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733334978,
+  "lat": 28.5175247,
+  "lon": 77.0425692,
+  "tags": {
+    "name": "Sector 1",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423560,
+  "lat": 28.4539921,
+  "lon": 77.0025297,
+  "tags": {
+    "name": "Sector 10",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423564,
+  "lat": 28.4445813,
+  "lon": 77.0060231,
+  "tags": {
+    "name": "Sector 10A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423566,
+  "lat": 28.4522331,
+  "lon": 77.0267159,
+  "tags": {
+    "name": "Sector 11",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423573,
+  "lat": 28.4574922,
+  "lon": 77.0325439,
+  "tags": {
+    "name": "Sector 11A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423577,
+  "lat": 28.4640660,
+  "lon": 77.0259664,
+  "tags": {
+    "name": "Sector 12",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423580,
+  "lat": 28.4701041,
+  "lon": 77.0315426,
+  "tags": {
+    "name": "Sector 12A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423589,
+  "lat": 28.4687344,
+  "lon": 77.0511794,
+  "tags": {
+    "name": "Sector 16",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423592,
+  "lat": 28.4913452,
+  "lon": 77.0710259,
+  "tags": {
+    "name": "Sector 18",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423595,
+  "lat": 28.5030913,
+  "lon": 77.0817477,
+  "tags": {
+    "name": "Sector 19",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423598,
+  "lat": 28.5090499,
+  "lon": 77.0342831,
+  "tags": {
+    "name": "Sector 2",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423600,
+  "lat": 28.5107707,
+  "lon": 77.0847586,
+  "tags": {
+    "name": "Sector 20",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423604,
+  "lat": 28.5143629,
+  "lon": 77.0730087,
+  "tags": {
+    "name": "Sector 21",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423606,
+  "lat": 28.5063180,
+  "lon": 77.0655182,
+  "tags": {
+    "name": "Sector 22",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423609,
+  "lat": 28.5103190,
+  "lon": 77.0530094,
+  "tags": {
+    "name": "Sector 23",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423613,
+  "lat": 28.5056942,
+  "lon": 77.0463022,
+  "tags": {
+    "name": "Sector 23A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423616,
+  "lat": 28.4973905,
+  "lon": 77.0205260,
+  "tags": {
+    "name": "Sector 3",
+    "name:en": "Block C-1 & C-2",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423619,
+  "lat": 28.4809525,
+  "lon": 77.0090778,
+  "tags": {
+    "name": "Sector 3A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423622,
+  "lat": 28.4750063,
+  "lon": 77.0103535,
+  "tags": {
+    "name": "Sector 4",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423625,
+  "lat": 28.4803924,
+  "lon": 77.0190946,
+  "tags": {
+    "name": "Sector 5",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423627,
+  "lat": 28.4753259,
+  "lon": 77.0258279,
+  "tags": {
+    "name": "Sector 6",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423634,
+  "lat": 28.4598966,
+  "lon": 77.0198043,
+  "tags": {
+    "name": "Sector 8",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423637,
+  "lat": 28.4621791,
+  "lon": 77.0000718,
+  "tags": {
+    "name": "Sector 9",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2733423639,
+  "lat": 28.4690266,
+  "lon": 76.9962811,
+  "tags": {
+    "name": "Sector 9A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735757133,
+  "lat": 28.4384785,
+  "lon": 77.0251655,
+  "tags": {
+    "name": "Sector 33",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835347,
+  "lat": 28.4092824,
+  "lon": 76.8805901,
+  "tags": {
+    "name": "Sector 97",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835350,
+  "lat": 28.3858766,
+  "lon": 76.9639317,
+  "tags": {
+    "name": "Sector 82A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835353,
+  "lat": 28.4082289,
+  "lon": 76.9630245,
+  "tags": {
+    "name": "Sector 84",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835358,
+  "lat": 28.3873647,
+  "lon": 76.9475835,
+  "tags": {
+    "name": "Sector 81",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835361,
+  "lat": 28.4219647,
+  "lon": 76.9297711,
+  "tags": {
+    "name": "Sector 94",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835364,
+  "lat": 28.3922194,
+  "lon": 76.9291703,
+  "tags": {
+    "name": "Sector 87",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835367,
+  "lat": 28.4036520,
+  "lon": 76.9531428,
+  "tags": {
+    "name": "Sector 85",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835372,
+  "lat": 28.4069974,
+  "lon": 76.9365562,
+  "tags": {
+    "name": "Sector 90",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835375,
+  "lat": 28.4184455,
+  "lon": 76.9457567,
+  "tags": {
+    "name": "Sector 89",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835378,
+  "lat": 28.4149443,
+  "lon": 76.9114892,
+  "tags": {
+    "name": "Sector 95",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835381,
+  "lat": 28.3981205,
+  "lon": 76.9411257,
+  "tags": {
+    "name": "Sector 86",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835388,
+  "lat": 28.4007588,
+  "lon": 76.9210802,
+  "tags": {
+    "name": "Sector 91",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835394,
+  "lat": 28.4219647,
+  "lon": 76.9568078,
+  "tags": {
+    "name": "Sector 88",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835397,
+  "lat": 28.3810438,
+  "lon": 76.9513146,
+  "tags": {
+    "name": "Sector 81A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835406,
+  "lat": 28.3981087,
+  "lon": 76.9732873,
+  "tags": {
+    "name": "Sector 83",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835409,
+  "lat": 28.3931076,
+  "lon": 76.9588762,
+  "tags": {
+    "name": "Sector 82",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735835411,
+  "lat": 28.4089049,
+  "lon": 76.9155232,
+  "tags": {
+    "name": "Sector 92",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856037,
+  "lat": 28.3832337,
+  "lon": 76.9825570,
+  "tags": {
+    "name": "Sector 77",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856041,
+  "lat": 28.4004545,
+  "lon": 76.9944537,
+  "tags": {
+    "name": "Sector 75A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856046,
+  "lat": 28.4064564,
+  "lon": 77.0233125,
+  "tags": {
+    "name": "Sector 71",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856049,
+  "lat": 28.3910112,
+  "lon": 76.9900243,
+  "tags": {
+    "name": "Sector 76",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856054,
+  "lat": 28.3947261,
+  "lon": 77.0223138,
+  "tags": {
+    "name": "Sector 70",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856059,
+  "lat": 28.4108506,
+  "lon": 76.9991194,
+  "tags": {
+    "name": "Sector 74A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856063,
+  "lat": 28.4088081,
+  "lon": 77.0161691,
+  "tags": {
+    "name": "Sector 73",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856066,
+  "lat": 28.4110081,
+  "lon": 77.0101209,
+  "tags": {
+    "name": "Sector 74",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856069,
+  "lat": 28.3846684,
+  "lon": 77.0220391,
+  "tags": {
+    "name": "Sector 70A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856073,
+  "lat": 28.4145669,
+  "lon": 77.0018689,
+  "tags": {
+    "name": "Sector 35",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856078,
+  "lat": 28.4193340,
+  "lon": 76.9889256,
+  "tags": {
+    "name": "Sector 36",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735856081,
+  "lat": 28.3964476,
+  "lon": 77.0065896,
+  "tags": {
+    "name": "Sector 75",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894390,
+  "lat": 28.4480039,
+  "lon": 76.9697682,
+  "tags": {
+    "name": "Sector 37D",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894398,
+  "lat": 28.4333189,
+  "lon": 76.9813419,
+  "tags": {
+    "name": "Sector 37B",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894405,
+  "lat": 28.4289846,
+  "lon": 76.9682233,
+  "tags": {
+    "name": "Sector 36B",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894412,
+  "lat": 28.4280033,
+  "lon": 77.0115678,
+  "tags": {
+    "name": "Sector 34",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894419,
+  "lat": 28.4342681,
+  "lon": 76.9992940,
+  "tags": {
+    "name": "Sector 37",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894427,
+  "lat": 28.4416645,
+  "lon": 76.9919125,
+  "tags": {
+    "name": "Sector 37A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894434,
+  "lat": 28.3888970,
+  "lon": 77.0459859,
+  "tags": {
+    "name": "Sector 68",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894442,
+  "lat": 28.4159257,
+  "lon": 77.0290772,
+  "tags": {
+    "name": "Sector 72",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894455,
+  "lat": 28.4489095,
+  "lon": 76.9880502,
+  "tags": {
+    "name": "Sector 37C",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894462,
+  "lat": 28.4563803,
+  "lon": 76.9810120,
+  "tags": {
+    "name": "Sector 9B",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894470,
+  "lat": 28.3960701,
+  "lon": 77.0372311,
+  "tags": {
+    "name": "Sector 69",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894476,
+  "lat": 28.4233234,
+  "lon": 77.0187775,
+  "tags": {
+    "name": "Sector 72A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894483,
+  "lat": 28.4104903,
+  "lon": 77.0394627,
+  "tags": {
+    "name": "Sector 48",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735894492,
+  "lat": 28.4202285,
+  "lon": 76.9719998,
+  "tags": {
+    "name": "Sector 36A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735931801,
+  "lat": 28.4351423,
+  "lon": 77.0403538,
+  "tags": {
+    "name": "Sector 38",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735951204,
+  "lat": 28.4128851,
+  "lon": 77.0498362,
+  "tags": {
+    "name": "Sector 49",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735984416,
+  "lat": 28.4030162,
+  "lon": 77.0695893,
+  "tags": {
+    "name": "Sector 65",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735984426,
+  "lat": 28.4110188,
+  "lon": 77.0963685,
+  "tags": {
+    "name": "Sector 61",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735984435,
+  "lat": 28.3864052,
+  "lon": 77.0598046,
+  "tags": {
+    "name": "Sector 67",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735984441,
+  "lat": 28.4030162,
+  "lon": 77.1066682,
+  "tags": {
+    "name": "Sector 59",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735984448,
+  "lat": 28.3974292,
+  "lon": 77.0538823,
+  "tags": {
+    "name": "Sector 66",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735984454,
+  "lat": 28.3914643,
+  "lon": 77.0761983,
+  "tags": {
+    "name": "Sector 64",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735984459,
+  "lat": 28.3964476,
+  "lon": 77.0864980,
+  "tags": {
+    "name": "Sector 63",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735984467,
+  "lat": 28.4160012,
+  "lon": 77.1085564,
+  "tags": {
+    "name": "Sector 58",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735984472,
+  "lat": 28.3985617,
+  "lon": 77.0978276,
+  "tags": {
+    "name": "Sector 60",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2735984476,
+  "lat": 28.4076970,
+  "lon": 77.0823781,
+  "tags": {
+    "name": "Sector 62",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2736611167,
+  "lat": 28.4745997,
+  "lon": 77.0367190,
+  "tags": {
+    "name": "Sector 13",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2742247290,
+  "lat": 28.4569188,
+  "lon": 77.0646046,
+  "tags": {
+    "name": "Sector 41",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2742299746,
+  "lat": 28.4458035,
+  "lon": 77.0413169,
+  "tags": {
+    "name": "Sector 32",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2742306255,
+  "lat": 28.4423675,
+  "lon": 77.0504724,
+  "tags": {
+    "name": "Sector 39",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2742483294,
+  "lat": 28.4359133,
+  "lon": 77.0584045,
+  "tags": {
+    "name": "Sector 46",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2742541214,
+  "lat": 28.4507064,
+  "lon": 77.0738281,
+  "tags": {
+    "name": "Sector 44",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2742620469,
+  "lat": 28.4368166,
+  "lon": 77.0795276,
+  "tags": {
+    "name": "Sector 52",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2745391647,
+  "lat": 28.4166536,
+  "lon": 77.0611745,
+  "tags": {
+    "name": "Sector 50",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2860063424,
+  "lat": 28.4337898,
+  "lon": 76.9539433,
+  "tags": {
+    "name": "Sector 88A",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2860063425,
+  "lat": 28.4420223,
+  "lon": 76.9538495,
+  "tags": {
+    "name": "Sector 88B",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11630904751,
+  "lat": 28.4542084,
+  "lon": 77.0678486,
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "bus": "yes",
+    "departures_board": "realtime",
+    "highway": "bus_stop",
+    "lit": "yes",
+    "name": "Sector 44",
+    "name:en": "Sector 44",
+    "network": "Gurugaman",
+    "network:en": "Gurugaman",
+    "note": "Contributors are requested to not edit the \"network\", \"network:en\", \"operator\", \"operator:en\" and \"operator:hi\" tags. (2024/05/25)",
+    "operator": "Gurugram Metropolitan City Bus Limited (GMCBL)",
+    "operator:en": "Gurugram Metropolitan City Bus Limited (GMCBL)",
+    "operator:hi": "गुरुग्राम मेट्रोपोलिटन सिटी बस लिमिटेड",
+    "public_transport": "platform",
+    "ref": "19",
+    "shelter": "yes",
+    "tactile_paving": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11630917471,
+  "lat": 28.4472763,
+  "lon": 77.0611684,
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "bus": "yes",
+    "departures_board": "realtime",
+    "highway": "bus_stop",
+    "lit": "yes",
+    "name": "Sector 40",
+    "network": "Gurugaman",
+    "network:en": "Gurugaman",
+    "note": "Contributors are requested to not edit the \"network\", \"network:en\", \"operator\", \"operator:en\" and \"operator:hi\" tags. (2024/05/25)",
+    "operator": "Gurugram Metropolitan City Bus Limited (GMCBL)",
+    "operator:en": "Gurugram Metropolitan City Bus Limited (GMCBL)",
+    "operator:hi": "गुरुग्राम मेट्रोपोलिटन सिटी बस लिमिटेड",
+    "public_transport": "platform",
+    "shelter": "yes",
+    "tactile_paving": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11633737876,
+  "lat": 28.4398099,
+  "lon": 77.0544707,
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "bus": "yes",
+    "check_date": "2026-06-18",
+    "departures_board": "realtime",
+    "highway": "bus_stop",
+    "lit": "yes",
+    "name": "Sector 46",
+    "network": "Gurugaman",
+    "network:en": "Gurugaman",
+    "note": "Contributors are requested to not edit the \"network\", \"network:en\", \"operator\", \"operator:en\" and \"operator:hi\" tags. (2024/05/20)",
+    "operator": "Gurugram Metropolitan City Bus Limited (GMCBL)",
+    "operator:en": "Gurugram Metropolitan City Bus Limited (GMCBL)",
+    "operator:hi": "गुरुग्राम मेट्रोपोलिटन सिटी बस लिमिटेड",
+    "public_transport": "platform",
+    "ref": "15",
+    "route_ref": "212;121",
+    "shelter": "yes",
+    "tactile_paving": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11633737877,
+  "lat": 28.4415272,
+  "lon": 77.0556918,
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "bus": "yes",
+    "departures_board": "realtime",
+    "highway": "bus_stop",
+    "lit": "yes",
+    "name": "Sector 46",
+    "network": "Gurugaman",
+    "network:en": "Gurugaman",
+    "note": "Contributors are requested to not edit the \"network\", \"network:en\", \"operator\", \"operator:en\" and \"operator:hi\" tags. (2024/05/20)",
+    "operator": "Gurugram Metropolitan City Bus Limited (GMCBL)",
+    "operator:en": "Gurugram Metropolitan City Bus Limited (GMCBL)",
+    "operator:hi": "गुरुग्राम मेट्रोपोलिटन सिटी बस लिमिटेड",
+    "public_transport": "platform",
+    "shelter": "yes",
+    "tactile_paving": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11633737881,
+  "lat": 28.4544572,
+  "lon": 77.0685101,
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "bus": "yes",
+    "departures_board": "realtime",
+    "highway": "bus_stop",
+    "lit": "yes",
+    "name": "Sector 44",
+    "name:en": "Sector 44",
+    "network": "Gurugaman",
+    "network:en": "Gurugaman",
+    "note": "Contributors are requested to not edit the \"network\", \"network:en\", \"operator\", \"operator:en\" and \"operator:hi\" tags. (2024/05/20)",
+    "operator": "Gurugram Metropolitan City Bus Limited (GMCBL)",
+    "operator:en": "Gurugram Metropolitan City Bus Limited (GMCBL)",
+    "operator:hi": "गुरुग्राम मेट्रोपोलिटन सिटी बस लिमिटेड",
+    "public_transport": "platform",
+    "ref": "20",
+    "shelter": "yes",
+    "tactile_paving": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13566005348,
+  "lat": 28.4502689,
+  "lon": 76.9965148,
+  "tags": {
+    "bench": "no",
+    "bin": "no",
+    "bus": "yes",
+    "name": "Sector 10",
+    "name:en": "Sector 10",
+    "public_transport": "platform",
+    "shelter": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 25657431,
+  "center": {
+    "lat": 28.4628536,
+    "lon": 77.0003439
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "Sector 9"
+  }
+},
+{
+  "type": "way",
+  "id": 35344475,
+  "center": {
+    "lat": 28.4652488,
+    "lon": 77.0160261
+  },
+  "tags": {
+    "landuse": "residential",
+    "name": "Sector 7"
+  }
+},
+{
+  "type": "way",
+  "id": 42310640,
+  "center": {
+    "lat": 28.4319222,
+    "lon": 77.0546530
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Sector 46"
+  }
+},
+{
+  "type": "way",
+  "id": 125982857,
+  "center": {
+    "lat": 28.4450073,
+    "lon": 76.9986838
+  },
+  "tags": {
+    "name": "Sector 10",
+    "note": "Contributors are requested to not edit the \"operator\" and \"operator:en\" tags. (2024/06/01)",
+    "operator": "Dakshin Haryana Bijli Vitran Nigam Limited (DHBVN)",
+    "operator:en": "Dakshin Haryana Bijli Vitran Nigam Limited (DHBVN)",
+    "power": "substation"
+  }
+},
+{
+  "type": "way",
+  "id": 189074115,
+  "center": {
+    "lat": 28.4747795,
+    "lon": 77.0099498
+  },
+  "tags": {
+    "is_in": "Gurgaon",
+    "landuse": "residential",
+    "name": "Sector 4"
+  }
+},
+{
+  "type": "way",
+  "id": 189088019,
+  "center": {
+    "lat": 28.4812665,
+    "lon": 77.0077247
+  },
+  "tags": {
+    "is_in": "Gurgaon",
+    "landuse": "residential",
+    "name": "Sector 3A"
+  }
+},
+{
+  "type": "way",
+  "id": 189088020,
+  "center": {
+    "lat": 28.4805976,
+    "lon": 77.0189187
+  },
+  "tags": {
+    "is_in": "Gurgaon",
+    "landuse": "residential",
+    "name": "Sector 5"
+  }
+},
+{
+  "type": "way",
+  "id": 189088021,
+  "center": {
+    "lat": 28.4703802,
+    "lon": 76.9969244
+  },
+  "tags": {
+    "is_in": "Gurgaon",
+    "landuse": "residential",
+    "name": "Sector 9A"
+  }
+},
+{
+  "type": "way",
+  "id": 190021168,
+  "center": {
+    "lat": 28.4588665,
+    "lon": 76.9978466
+  },
+  "tags": {
+    "name": "Sector 9",
+    "note": "Contributors are requested to not edit the \"operator\" and \"operator:en\" tags. (2024/06/01)",
+    "operator": "Dakshin Haryana Bijli Vitran Nigam Limited (DHBVN)",
+    "operator:en": "Dakshin Haryana Bijli Vitran Nigam Limited (DHBVN)",
+    "power": "substation"
+  }
+},
+{
+  "type": "way",
+  "id": 190041781,
+  "center": {
+    "lat": 28.4305145,
+    "lon": 77.0196110
+  },
+  "tags": {
+    "name": "Sector 34",
+    "note": "Contributors are requested to not edit the \"operator\" and \"operator:en\" tags. (2024/06/01)",
+    "operator": "Dakshin Haryana Bijli Vitran Nigam Limited (DHBVN)",
+    "operator:en": "Dakshin Haryana Bijli Vitran Nigam Limited (DHBVN)",
+    "power": "substation"
+  }
+},
+{
+  "type": "way",
+  "id": 267205831,
+  "center": {
+    "lat": 28.3811138,
+    "lon": 77.0461296
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 68"
+  }
+},
+{
+  "type": "way",
+  "id": 457094279,
+  "center": {
+    "lat": 28.3979136,
+    "lon": 77.0456124
+  },
+  "tags": {
+    "boundary": "administrative",
+    "name": "Sector 69"
+  }
+},
+{
+  "type": "relation",
+  "id": 3576003,
+  "center": {
+    "lat": 28.4765086,
+    "lon": 77.1022157
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 26",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3577943,
+  "center": {
+    "lat": 28.4726628,
+    "lon": 77.0446139
+  },
+  "tags": {
+    "boundary": "place",
+    "is_in:city": "Gurgaon",
+    "is_in:district": "Gurgaon District",
+    "name": "Sector 14",
+    "place": "neighbourhood",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3577945,
+  "center": {
+    "lat": 28.3730027,
+    "lon": 76.9722063
+  },
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Sector 78",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3577946,
+  "center": {
+    "lat": 28.3701421,
+    "lon": 76.9616441
+  },
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Sector 80",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3577989,
+  "center": {
+    "lat": 28.4446727,
+    "lon": 77.0670502
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 45",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3578376,
+  "center": {
+    "lat": 28.4746918,
+    "lon": 77.0830978
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 28",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3578883,
+  "center": {
+    "lat": 28.4769004,
+    "lon": 77.0619211
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 17",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3580114,
+  "center": {
+    "lat": 28.4862366,
+    "lon": 77.0818097
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 25",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3580927,
+  "center": {
+    "lat": 28.4552389,
+    "lon": 77.0867722
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 43",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3583036,
+  "center": {
+    "lat": 28.4943225,
+    "lon": 77.1052234
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 24",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3583062,
+  "center": {
+    "lat": 28.4952821,
+    "lon": 77.0916695
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 25A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3585181,
+  "center": {
+    "lat": 28.4680777,
+    "lon": 77.0657607
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 29",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3586262,
+  "center": {
+    "lat": 28.4243750,
+    "lon": 77.0981987
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 56",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3586263,
+  "center": {
+    "lat": 28.4214622,
+    "lon": 77.0780311
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 57",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3586278,
+  "center": {
+    "lat": 28.4253384,
+    "lon": 77.1117995
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 55",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3586296,
+  "center": {
+    "lat": 28.4585890,
+    "lon": 77.1086552
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 42",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3586366,
+  "center": {
+    "lat": 28.4408933,
+    "lon": 77.1107431
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 54",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3586435,
+  "center": {
+    "lat": 28.4398836,
+    "lon": 77.0875342
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 52A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3586773,
+  "center": {
+    "lat": 28.4407712,
+    "lon": 77.0965020
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 53",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3587862,
+  "center": {
+    "lat": 28.5349236,
+    "lon": 77.0072982
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 115",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3587969,
+  "center": {
+    "lat": 28.5331451,
+    "lon": 77.0123582
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 114",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593131,
+  "center": {
+    "lat": 28.5222682,
+    "lon": 77.0337859
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "loc_name": "Amc it Solution",
+    "name": "Sector 111",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593183,
+  "center": {
+    "lat": 28.4690917,
+    "lon": 76.9808011
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 101",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593185,
+  "center": {
+    "lat": 28.4769560,
+    "lon": 76.9707809
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 102",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593186,
+  "center": {
+    "lat": 28.4835056,
+    "lon": 76.9785135
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 102A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593213,
+  "center": {
+    "lat": 28.4944795,
+    "lon": 76.9857274
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 103",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593214,
+  "center": {
+    "lat": 28.4808855,
+    "lon": 76.9947004
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 104",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593215,
+  "center": {
+    "lat": 28.4935981,
+    "lon": 77.0079603
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 105",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593216,
+  "center": {
+    "lat": 28.5071211,
+    "lon": 76.9737349
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 107",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593234,
+  "center": {
+    "lat": 28.5038052,
+    "lon": 76.9967979
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 106",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593235,
+  "center": {
+    "lat": 28.5099128,
+    "lon": 77.0067270
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 109",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593237,
+  "center": {
+    "lat": 28.5142117,
+    "lon": 76.9848709
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 108",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593242,
+  "center": {
+    "lat": 28.5070705,
+    "lon": 77.0175536
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 110",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593256,
+  "center": {
+    "lat": 28.5142584,
+    "lon": 77.0280221
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 110A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593257,
+  "center": {
+    "lat": 28.5240800,
+    "lon": 77.0170083
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 112",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593258,
+  "center": {
+    "lat": 28.5275015,
+    "lon": 77.0263152
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 113",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593295,
+  "center": {
+    "lat": 28.5179258,
+    "lon": 77.0405565
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 1",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593438,
+  "center": {
+    "lat": 28.5085029,
+    "lon": 77.0332324
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 2",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593454,
+  "center": {
+    "lat": 28.4928718,
+    "lon": 77.0198544
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 3",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593455,
+  "center": {
+    "lat": 28.4820832,
+    "lon": 77.0071296
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 3A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593530,
+  "center": {
+    "lat": 28.4747854,
+    "lon": 77.0099504
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 4",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593531,
+  "center": {
+    "lat": 28.4699652,
+    "lon": 76.9967752
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 9A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593544,
+  "center": {
+    "lat": 28.4795709,
+    "lon": 77.0189517
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 5",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593545,
+  "center": {
+    "lat": 28.4745732,
+    "lon": 77.0249729
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 6",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3593576,
+  "center": {
+    "lat": 28.4653598,
+    "lon": 77.0142775
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 7",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3594116,
+  "center": {
+    "lat": 28.5094769,
+    "lon": 77.0850523
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 20",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3594148,
+  "center": {
+    "lat": 28.5135146,
+    "lon": 77.0734106
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 21",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3596107,
+  "center": {
+    "lat": 28.4434066,
+    "lon": 77.0073684
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 10",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3596108,
+  "center": {
+    "lat": 28.4516425,
+    "lon": 77.0233219
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 11",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3596109,
+  "center": {
+    "lat": 28.4370511,
+    "lon": 77.0235689
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 33",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3596635,
+  "center": {
+    "lat": 28.4681501,
+    "lon": 77.0506780
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 16",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3596646,
+  "center": {
+    "lat": 28.4684849,
+    "lon": 77.0322823
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 12A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3596696,
+  "center": {
+    "lat": 28.4749462,
+    "lon": 77.0395037
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 13",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3597335,
+  "center": {
+    "lat": 28.4562283,
+    "lon": 77.0146090
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 8",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3597343,
+  "center": {
+    "lat": 28.4647936,
+    "lon": 77.0262292
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 12",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3597630,
+  "center": {
+    "lat": 28.4601786,
+    "lon": 76.9702773
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 100",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3600736,
+  "center": {
+    "lat": 28.5042646,
+    "lon": 77.0645209
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 22",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3600737,
+  "center": {
+    "lat": 28.5096196,
+    "lon": 77.0544775
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 23",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3600738,
+  "center": {
+    "lat": 28.5061580,
+    "lon": 77.0469270
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 23A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3600893,
+  "center": {
+    "lat": 28.4913979,
+    "lon": 77.0711840
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 18",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3600894,
+  "center": {
+    "lat": 28.5034609,
+    "lon": 77.0802140
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 19",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3603756,
+  "center": {
+    "lat": 28.4622764,
+    "lon": 77.0568814
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 30",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3603757,
+  "center": {
+    "lat": 28.4569830,
+    "lon": 77.0638254
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 41",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3603777,
+  "center": {
+    "lat": 28.4529189,
+    "lon": 77.0492875
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 31",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3603778,
+  "center": {
+    "lat": 28.4495892,
+    "lon": 77.0574587
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 40",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3603804,
+  "center": {
+    "lat": 28.4461546,
+    "lon": 77.0417657
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "description": "Hello, I am Sandip. I love shopping and always look around to find the best shop where i can get quality Stuff in minimum prices. Meanwhile I came across a site http://www.Andamen, which is selling men’s shirts online and it has really awesome clothing. ",
+    "landuse": "commercial",
+    "name": "Sector 32",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3603814,
+  "center": {
+    "lat": 28.4419094,
+    "lon": 77.0498357
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 39",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3603990,
+  "center": {
+    "lat": 28.4373081,
+    "lon": 77.0414844
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 38",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3603991,
+  "center": {
+    "lat": 28.4357674,
+    "lon": 77.0583019
+  },
+  "tags": {
+    "admin_level": "11",
+    "boundary": "administrative",
+    "name": "Sector 46",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3604010,
+  "center": {
+    "lat": 28.4523918,
+    "lon": 77.0729558
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "commercial",
+    "name": "Sector 44",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3604066,
+  "center": {
+    "lat": 28.4287036,
+    "lon": 77.0663837
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 51",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3604067,
+  "center": {
+    "lat": 28.4384915,
+    "lon": 77.0793102
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 52",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3606765,
+  "center": {
+    "lat": 28.4259050,
+    "lon": 77.0477164
+  },
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Sector 47",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3606794,
+  "center": {
+    "lat": 28.4110947,
+    "lon": 77.0496542
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 49",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3606795,
+  "center": {
+    "lat": 28.4165521,
+    "lon": 77.0632662
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 50",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611521,
+  "center": {
+    "lat": 28.3926942,
+    "lon": 76.9591594
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 82",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611522,
+  "center": {
+    "lat": 28.3853660,
+    "lon": 76.9647346
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 82A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611523,
+  "center": {
+    "lat": 28.3956760,
+    "lon": 76.9716883
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 83",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611524,
+  "center": {
+    "lat": 28.4082095,
+    "lon": 76.9637668
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 84",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611525,
+  "center": {
+    "lat": 28.4037730,
+    "lon": 76.9531253
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 85",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611526,
+  "center": {
+    "lat": 28.4210034,
+    "lon": 76.9569893
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 88",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611527,
+  "center": {
+    "lat": 28.4175846,
+    "lon": 76.9451355
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 89",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611748,
+  "center": {
+    "lat": 28.4076353,
+    "lon": 76.9990552
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 74A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611760,
+  "center": {
+    "lat": 28.4124208,
+    "lon": 77.0317895
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 72",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611773,
+  "center": {
+    "lat": 28.4103116,
+    "lon": 77.0234591
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 71",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611774,
+  "center": {
+    "lat": 28.4246706,
+    "lon": 77.0206941
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 72A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611775,
+  "center": {
+    "lat": 28.4114120,
+    "lon": 77.0162572
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 73",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611776,
+  "center": {
+    "lat": 28.4124554,
+    "lon": 77.0098540
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 74",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611777,
+  "center": {
+    "lat": 28.3986928,
+    "lon": 76.9938291
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 75A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3611779,
+  "center": {
+    "lat": 28.4284209,
+    "lon": 77.0103166
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 34",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3613068,
+  "center": {
+    "lat": 28.3882765,
+    "lon": 76.9462238
+  },
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Sector 81",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3613069,
+  "center": {
+    "lat": 28.3976082,
+    "lon": 76.9411196
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 86",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3613070,
+  "center": {
+    "lat": 28.3928680,
+    "lon": 76.9275356
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 87",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3613071,
+  "center": {
+    "lat": 28.4068047,
+    "lon": 76.9365200
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 90",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3613075,
+  "center": {
+    "lat": 28.4011004,
+    "lon": 76.9199765
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 91",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3613076,
+  "center": {
+    "lat": 28.4096725,
+    "lon": 76.9135383
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 92",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3613077,
+  "center": {
+    "lat": 28.4146089,
+    "lon": 76.9329029
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 93",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3613078,
+  "center": {
+    "lat": 28.4213247,
+    "lon": 76.9298666
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 94",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3632378,
+  "center": {
+    "lat": 28.3601206,
+    "lon": 76.9496581
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "residential",
+    "name": "Sector 1",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3632692,
+  "center": {
+    "lat": 28.3611900,
+    "lon": 76.9201026
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 3",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3632902,
+  "center": {
+    "lat": 28.3685136,
+    "lon": 76.9267320
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 5",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633262,
+  "center": {
+    "lat": 28.3687386,
+    "lon": 76.9121491
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 4",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633263,
+  "center": {
+    "lat": 28.3760150,
+    "lon": 76.9122261
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 7",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633269,
+  "center": {
+    "lat": 28.3746261,
+    "lon": 76.8917637
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 8",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633944,
+  "center": {
+    "lat": 28.3658015,
+    "lon": 76.8914176
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 3A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633979,
+  "center": {
+    "lat": 28.3912793,
+    "lon": 76.8862508
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 10",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633980,
+  "center": {
+    "lat": 28.3941709,
+    "lon": 76.9015961
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 12",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633981,
+  "center": {
+    "lat": 28.3995930,
+    "lon": 76.8865555
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 12",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633982,
+  "center": {
+    "lat": 28.3832747,
+    "lon": 76.9015808
+  },
+  "tags": {
+    "boundary": "place",
+    "is_in:city": "Manesar",
+    "is_in:county": "Gurugram District",
+    "landuse": "industrial",
+    "name": "Sector 14",
+    "place": "neighbourhood",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633983,
+  "center": {
+    "lat": 28.3831376,
+    "lon": 76.9168772
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 15",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633984,
+  "center": {
+    "lat": 28.3835269,
+    "lon": 76.8861053
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 9",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3633992,
+  "center": {
+    "lat": 28.3773800,
+    "lon": 76.8746228
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 11",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3642999,
+  "center": {
+    "lat": 28.3758203,
+    "lon": 76.9268069
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "landuse": "industrial",
+    "name": "Sector 6",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3737591,
+  "center": {
+    "lat": 28.4495892,
+    "lon": 77.0559104
+  },
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "landuse": "residential",
+    "name": "Sector 40",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3745550,
+  "center": {
+    "lat": 28.4454197,
+    "lon": 76.9543701
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 88B",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 3755626,
+  "center": {
+    "lat": 28.4335320,
+    "lon": 76.9549353
+  },
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "Sector 88A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5807646,
+  "center": {
+    "lat": 28.4102174,
+    "lon": 77.0966688
+  },
+  "tags": {
+    "boundary": "administrative",
+    "name": "Sector 61",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5807690,
+  "center": {
+    "lat": 28.4184133,
+    "lon": 77.1096941
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 58",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5807782,
+  "center": {
+    "lat": 28.4083999,
+    "lon": 77.0835067
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 62",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5810512,
+  "center": {
+    "lat": 28.3976552,
+    "lon": 77.0554281
+  },
+  "tags": {
+    "boundary": "administrative",
+    "name": "Sector 66",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5810556,
+  "center": {
+    "lat": 28.3835481,
+    "lon": 77.0228421
+  },
+  "tags": {
+    "boundary": "administrative",
+    "name": "Sector 70A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5810635,
+  "center": {
+    "lat": 28.4205120,
+    "lon": 76.9896908
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 36",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5810644,
+  "center": {
+    "lat": 28.3858464,
+    "lon": 77.0623971
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 67",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5810652,
+  "center": {
+    "lat": 28.4031396,
+    "lon": 77.0697818
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 65",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5810749,
+  "center": {
+    "lat": 28.4341442,
+    "lon": 76.9994124
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 37",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5811982,
+  "center": {
+    "lat": 28.4428765,
+    "lon": 76.9935834
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 37A",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5813971,
+  "center": {
+    "lat": 28.4313321,
+    "lon": 76.9850022
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 37B",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5814062,
+  "center": {
+    "lat": 28.3976573,
+    "lon": 77.0229707
+  },
+  "tags": {
+    "boundary": "administrative",
+    "name": "Sector 70",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5814104,
+  "center": {
+    "lat": 28.3979136,
+    "lon": 77.0386132
+  },
+  "tags": {
+    "boundary": "administrative",
+    "name": "Sector 69",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5814123,
+  "center": {
+    "lat": 28.3906011,
+    "lon": 77.0751639
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 64",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5814162,
+  "center": {
+    "lat": 28.4484585,
+    "lon": 76.9877786
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 37C",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5814401,
+  "center": {
+    "lat": 28.4528750,
+    "lon": 77.0030138
+  },
+  "tags": {
+    "boundary": "administrative",
+    "name": "Sector 10",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 5817637,
+  "center": {
+    "lat": 28.4457766,
+    "lon": 76.9722268
+  },
+  "tags": {
+    "admin_level": "9",
+    "boundary": "administrative",
+    "name": "Sector 37D",
+    "type": "boundary"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,114 @@
+{
+ "Sector 63A, Gurugram, Haryana": [
+  {
+   "name": "Sector 65, Gurgaon, Haryana, India",
+   "lat": 28.4030162,
+   "lon": 77.0695893,
+   "type": "administrative",
+   "class": "boundary"
+  },
+  {
+   "name": "Sector 67, Gurgaon, Haryana, India",
+   "lat": 28.3864052,
+   "lon": 77.0598046,
+   "type": "administrative",
+   "class": "boundary"
+  },
+  {
+   "name": "Sector 64, Gurgaon, Haryana, 122008, India",
+   "lat": 28.3898758,
+   "lon": 77.0762672,
+   "type": "administrative",
+   "class": "boundary"
+  }
+ ],
+ "Sector 79, Gurugram, Haryana": [
+  {
+   "name": "Sector 67, Gurgaon, Haryana, India",
+   "lat": 28.3864052,
+   "lon": 77.0598046,
+   "type": "administrative",
+   "class": "boundary"
+  },
+  {
+   "name": "Sector 24, Gurgaon, Haryana, 122010, India",
+   "lat": 28.4944811,
+   "lon": 77.1013038,
+   "type": "administrative",
+   "class": "boundary"
+  },
+  {
+   "name": "Sector 65, Gurgaon, Haryana, India",
+   "lat": 28.4030162,
+   "lon": 77.0695893,
+   "type": "administrative",
+   "class": "boundary"
+  }
+ ],
+ "Gwal Pahari, Gurugram, Haryana": [
+  {
+   "name": "Gwal Pahari, Sohna, Gurgaon, Haryana, India",
+   "lat": 28.4326344,
+   "lon": 77.1480585,
+   "type": "residential",
+   "class": "landuse"
+  }
+ ],
+ "Sohna, Gurugram, Haryana": [
+  {
+   "name": "Sohna, Gurgaon, Haryana, 122102, India",
+   "lat": 28.3241636,
+   "lon": 77.0848644,
+   "type": "administrative",
+   "class": "boundary"
+  },
+  {
+   "name": "Sohna, Gurgaon, Haryana, 122103, India",
+   "lat": 28.2459908,
+   "lon": 77.0670992,
+   "type": "town",
+   "class": "place"
+  }
+ ],
+ "Manesar, Gurugram, Haryana": [
+  {
+   "name": "Manesar, Gurgaon, Haryana, India",
+   "lat": 28.3247096,
+   "lon": 76.9263787,
+   "type": "administrative",
+   "class": "boundary"
+  },
+  {
+   "name": "Manesar, Gurgaon, Haryana, India",
+   "lat": 28.3617283,
+   "lon": 76.9402153,
+   "type": "administrative",
+   "class": "boundary"
+  }
+ ],
+ "Cyber City, Gurugram, Haryana": [
+  {
+   "name": "Cyber City, Underpass, Sector 25A, Gurgaon, Haryana, 122010, India",
+   "lat": 28.4980703,
+   "lon": 77.0892567,
+   "type": "station",
+   "class": "railway"
+  },
+  {
+   "name": "Cyber City, Sector 25A, Gurgaon, Haryana, 122010, India",
+   "lat": 28.4973098,
+   "lon": 77.091798,
+   "type": "administrative",
+   "class": "boundary"
+  }
+ ],
+ "Indira Gandhi International Airport, Delhi": [
+  {
+   "name": "Indira Gandhi International Airport, Abdul Gaffar Khan Marg, Mahipalpur, Najafgarh, Delhi, South West Delhi, Delhi, 110037, India",
+   "lat": 28.5554221,
+   "lon": 77.0848066,
+   "type": "aerodrome",
+   "class": "aeroway"
+  }
+ ]
+}

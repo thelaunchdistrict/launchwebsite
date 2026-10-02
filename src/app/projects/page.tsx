@@ -3,6 +3,7 @@ import { Suspense } from 'react';
 import { MARKETS, summaries } from '@/lib/data';
 import { sectorKey } from '@/lib/corridors';
 import { ProjectExplorer } from '@/components/listing/ProjectExplorer';
+import { mapProps } from '@/components/map/CorridorMap';
 
 export const metadata: Metadata = {
   title: 'Gurugram projects: pre-launch to ready',
@@ -27,7 +28,7 @@ export default function ProjectsPage() {
         <p className="mt-4 text-ink-2">Filters live in the URL, so a filtered view can be shared. Save projects to your shortlist, or queue up to three to compare.</p>
       </header>
       <Suspense fallback={<p className="text-ink-2">Loading projects…</p>}>
-        <ProjectExplorer projects={list} options={options} />
+        <ProjectExplorer projects={list} options={options} map={mapProps(list)} />
       </Suspense>
     </div>
   );

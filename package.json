@@ -13,13 +13,15 @@
     "scrape": "node scripts/scrape/discover.mjs && node scripts/scrape/fetch-projects.mjs --force && node scripts/scrape/download-images.mjs && npm run normalize && node scripts/scrape/spot-check.mjs --n 10 && npm run report",
     "scrape:resume": "node scripts/scrape/discover.mjs --resume && node scripts/scrape/fetch-projects.mjs && node scripts/scrape/download-images.mjs && npm run normalize && npm run report",
     "scrape:test": "node scripts/scrape/discover.mjs --resume && node scripts/scrape/fetch-projects.mjs --limit 3",
-    "normalize": "node scripts/scrape/normalize.mjs",
+    "normalize": "node scripts/scrape/normalize.mjs && node scripts/geo/build-geo.mjs",
     "report": "node scripts/scrape/report.mjs",
     "spot-check": "node scripts/scrape/spot-check.mjs --n 10",
     "media": "node scripts/build/media.mjs",
     "setup": "npm run scrape && npm run build",
     "qa": "node scripts/qa/run.mjs",
-    "qa:quick": "node scripts/qa/run.mjs --quick"
+    "qa:quick": "node scripts/qa/run.mjs --quick",
+    "geo:fetch": "node scripts/geo/fetch-osm.mjs",
+    "geo": "node scripts/geo/build-geo.mjs"
   },
   "dependencies": {
     "next": "16.3.8",

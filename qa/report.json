@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T10:26:38.486Z",
+ "generatedAt": "2026-10-02T11:11:41.172Z",
  "base": "http://localhost:3300",
  "pages": 85,
  "findings": [
@@ -238,14 +238,14 @@
    "sev": "warn",
    "cat": "Content",
    "check": "C06 inconsistent terminology",
-   "msg": "centre: \"center\" ×13, \"centre\" ×8",
-   "page": "/projects/adani-the-marq-sector-102-gurgaon, /projects/aditya-birla-pravaah-sector-71-gurgaon, /projects/bptp-downtown-66-sector-66-gurgaon",
-   "evidence": "Minority form appears on 7 page(s)",
+   "msg": "centre: \"centre\" ×151, \"center\" ×13",
+   "page": "/projects/elan-the-presidential-sector-106-gurgaon, /projects/emaar-amaris-sector-62-gurgaon, /projects/experion-the-trillion-sector-48-gurgaon",
+   "evidence": "Minority form appears on 9 page(s)",
    "pages": [
-    "/projects/adani-the-marq-sector-102-gurgaon, /projects/aditya-birla-pravaah-sector-71-gurgaon, /projects/bptp-downtown-66-sector-66-gurgaon"
+    "/projects/elan-the-presidential-sector-106-gurgaon, /projects/emaar-amaris-sector-62-gurgaon, /projects/experion-the-trillion-sector-48-gurgaon"
    ],
    "evidences": [
-    "Minority form appears on 7 page(s)"
+    "Minority form appears on 9 page(s)"
    ]
   },
   {
@@ -266,7 +266,7 @@
    "sev": "info",
    "cat": "Content",
    "check": "C06 inconsistent terminology",
-   "msg": "₹ format: \"₹N␠Cr\" ×834, \"₹N␠L\" ×53, \"₹N␠Crore\" ×5, \"₹N␠Crores\" ×5, \"₹N␠Lakhs\" ×1",
+   "msg": "₹ format: \"₹N␠Cr\" ×827, \"₹N␠L\" ×68, \"₹N␠Crore\" ×5, \"₹N␠Crores\" ×5, \"₹N␠Lakhs\" ×1",
    "page": "/, /projects, /projects/aipl-autograph-sector-66-gurgaon",
    "evidence": "Minority form appears on 1 page(s)",
    "pages": [
@@ -438,7 +438,7 @@
    "sev": "info",
    "cat": "UI/UX",
    "check": "U12 touch target (documented exception)",
-   "msg": "59 controls: schematic map stations; every project is also reachable through a 44px card link",
+   "msg": "59 controls: map stations; every project is also reachable through a 44px card link",
    "page": "/",
    "pages": [
     "/",
@@ -457,7 +457,7 @@
    "sev": "info",
    "cat": "UI/UX",
    "check": "U12 touch target (documented exception)",
-   "msg": "1 controls: schematic map stations; every project is also reachable through a 44px card link",
+   "msg": "1 controls: map stations; every project is also reachable through a 44px card link",
    "page": "/projects/4s-the-aurrum-sector-59-gurgaon",
    "pages": [
     "/projects/4s-the-aurrum-sector-59-gurgaon",
@@ -519,17 +519,6 @@
     "/projects/the-oryza",
     "/projects/trevoc-royal-residences-gurgaon",
     "/projects/whiteland-westin-residences-sector-103-gurgaon"
-   ],
-   "evidences": []
-  },
-  {
-   "sev": "info",
-   "cat": "UI/UX",
-   "check": "U12 touch target (documented exception)",
-   "msg": "0 controls: schematic map stations; every project is also reachable through a 44px card link",
-   "page": "/projects/yugen-golf-city",
-   "pages": [
-    "/projects/yugen-golf-city"
    ],
    "evidences": []
   }

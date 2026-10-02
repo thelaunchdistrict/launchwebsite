@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T10:17:30.235Z",
+  "generatedAt": "2026-10-02T11:00:04.397Z",
   "source": "https://www.realtycanvas.in",
   "count": 61,
   "projects": [
@@ -339,7 +339,7 @@
       "sourceCreatedAt": "2025-08-22T06:15:55.772Z",
       "scrapedAt": "2026-10-02T06:41:48.417Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -368,8 +368,8 @@
       "possessionDateRaw": "Possession is expected to begin in June 2029",
       "location": {
         "sector": "2",
-        "microMarket": "central-gurgaon",
-        "locality": null,
+        "microMarket": "golf-course-road",
+        "locality": "Gwal Pahari",
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
         "state": "Haryana",
@@ -712,7 +712,7 @@
       "scrapedAt": "2026-10-02T06:41:49.341Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:sector-table",
+        "microMarket": "derived:locality",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -1027,7 +1027,7 @@
       "scrapedAt": "2026-10-02T06:41:50.339Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -1482,7 +1482,7 @@
       "sourceCreatedAt": "2026-03-23T18:03:08.000Z",
       "scrapedAt": "2026-10-02T06:42:43.291Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "unitsPerAcre": "derived:units/landAcres"
       }
     },
@@ -1749,7 +1749,7 @@
       "scrapedAt": "2026-10-02T06:42:44.245Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -1975,7 +1975,7 @@
       "sourceCreatedAt": "2025-09-22T12:20:01.714Z",
       "scrapedAt": "2026-10-02T06:42:45.251Z",
       "provenance": {
-        "microMarket": "derived:keyword"
+        "microMarket": "derived:sector-table"
       }
     },
     {
@@ -2002,7 +2002,7 @@
       "possessionDateRaw": null,
       "location": {
         "sector": "88",
-        "microMarket": "dwarka-expressway",
+        "microMarket": "new-gurgaon",
         "locality": null,
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -2252,7 +2252,7 @@
       "sourceCreatedAt": "2025-08-20T12:24:56.475Z",
       "scrapedAt": "2026-10-02T06:42:46.607Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "paymentPlan": "extracted-from-faq-text"
       }
     },
@@ -2499,7 +2499,7 @@
       "scrapedAt": "2026-10-02T06:42:47.221Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -2795,7 +2795,7 @@
       "scrapedAt": "2026-10-02T06:42:48.262Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -3160,7 +3160,7 @@
       "possessionDateRaw": null,
       "location": {
         "sector": "66",
-        "microMarket": "sohna-road",
+        "microMarket": "golf-course-extension-road",
         "locality": null,
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -3605,7 +3605,7 @@
       "scrapedAt": "2026-10-02T06:42:50.375Z",
       "provenance": {
         "marketingStage": "extracted-from-listing-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "unitsPerAcre": "derived:units/landAcres"
       }
     },
@@ -3984,7 +3984,7 @@
       "sourceCreatedAt": "2025-08-29T13:28:29.212Z",
       "scrapedAt": "2026-10-02T06:42:51.406Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -4328,7 +4328,7 @@
       "scrapedAt": "2026-10-02T06:42:52.322Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -4563,7 +4563,7 @@
       "scrapedAt": "2026-10-02T06:42:53.375Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -4592,7 +4592,7 @@
       "possessionDateRaw": null,
       "location": {
         "sector": "67",
-        "microMarket": "golf-course-extension-road",
+        "microMarket": "southern-peripheral-road",
         "locality": null,
         "city": null,
         "cityRaw": null,
@@ -4780,7 +4780,7 @@
       "sourceCreatedAt": "2026-01-19T16:14:39.000Z",
       "scrapedAt": "2026-10-02T06:42:54.318Z",
       "provenance": {
-        "microMarket": "derived:keyword"
+        "microMarket": "derived:sector-table"
       }
     },
     {
@@ -4807,7 +4807,7 @@
       "possessionDateRaw": null,
       "location": {
         "sector": "91",
-        "microMarket": "dwarka-expressway",
+        "microMarket": "new-gurgaon",
         "locality": null,
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -5017,7 +5017,7 @@
       "sourceCreatedAt": "2026-01-20T15:53:03.000Z",
       "scrapedAt": "2026-10-02T06:42:55.320Z",
       "provenance": {
-        "microMarket": "derived:keyword"
+        "microMarket": "derived:sector-table"
       }
     },
     {
@@ -5319,7 +5319,7 @@
       "sourceCreatedAt": "2025-09-03T06:14:12.700Z",
       "scrapedAt": "2026-10-02T06:42:56.355Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -5896,7 +5896,7 @@
       "sourceCreatedAt": "2025-09-02T10:48:21.961Z",
       "scrapedAt": "2026-10-02T06:42:58.360Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -6179,7 +6179,7 @@
       "scrapedAt": "2026-10-02T06:42:59.388Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -6455,7 +6455,7 @@
       "scrapedAt": "2026-10-02T06:43:00.508Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword"
+        "microMarket": "derived:sector-table"
       }
     },
     {
@@ -6921,7 +6921,7 @@
       "sourceCreatedAt": "2025-08-21T10:56:57.329Z",
       "scrapedAt": "2026-10-02T06:43:01.470Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "unitsPerAcre": "derived:units/landAcres"
       }
     },
@@ -7671,7 +7671,7 @@
       "scrapedAt": "2026-10-02T06:43:03.388Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -8149,7 +8149,7 @@
       "scrapedAt": "2026-10-02T06:43:04.404Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -8178,7 +8178,7 @@
       "possessionDateRaw": "possession is December 2030",
       "location": {
         "sector": "49",
-        "microMarket": "dwarka-expressway",
+        "microMarket": "sohna-road",
         "locality": "Sector 49",
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -8672,7 +8672,7 @@
       "scrapedAt": "2026-10-02T06:43:05.454Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "paymentPlan": "extracted-from-faq-text",
         "unitsPerAcre": "derived:units/landAcres"
@@ -9068,7 +9068,7 @@
       "scrapedAt": "2026-10-02T06:43:06.416Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -9097,7 +9097,7 @@
       "possessionDateRaw": "Possession is expected by December 2028",
       "location": {
         "sector": "86",
-        "microMarket": "dwarka-expressway",
+        "microMarket": "new-gurgaon",
         "locality": null,
         "city": "Gurugram",
         "cityRaw": "Gurugram",
@@ -9446,7 +9446,7 @@
       "scrapedAt": "2026-10-02T06:43:07.426Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -9749,7 +9749,7 @@
       "scrapedAt": "2026-10-02T06:43:08.425Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -10140,7 +10140,7 @@
       "scrapedAt": "2026-10-02T06:43:09.442Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -10424,7 +10424,7 @@
       "sourceCreatedAt": "2025-09-02T06:45:33.700Z",
       "scrapedAt": "2026-10-02T06:43:10.454Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -10453,7 +10453,7 @@
       "possessionDateRaw": "possession expected by December 2025",
       "location": {
         "sector": "59",
-        "microMarket": "golf-course-road",
+        "microMarket": "golf-course-extension-road",
         "locality": "Sector 59",
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -10726,7 +10726,7 @@
       "scrapedAt": "2026-10-02T06:43:11.453Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -11065,7 +11065,7 @@
       "scrapedAt": "2026-10-02T06:43:12.470Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -11335,7 +11335,7 @@
       "sourceCreatedAt": "2025-09-25T07:33:52.520Z",
       "scrapedAt": "2026-10-02T06:43:13.471Z",
       "provenance": {
-        "microMarket": "derived:keyword"
+        "microMarket": "derived:sector-table"
       }
     },
     {
@@ -11809,7 +11809,7 @@
       "scrapedAt": "2026-10-02T06:43:14.484Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -11838,7 +11838,7 @@
       "possessionDateRaw": "possession timeline for M3M Golf Hills is December 2028",
       "location": {
         "sector": "79",
-        "microMarket": "golf-course-extension-road",
+        "microMarket": "new-gurgaon",
         "locality": "Sector 79",
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -12139,7 +12139,7 @@
       "scrapedAt": "2026-10-02T06:43:15.490Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -12168,7 +12168,7 @@
       "possessionDateRaw": null,
       "location": {
         "sector": "25",
-        "microMarket": "golf-course-extension-road",
+        "microMarket": "central-gurgaon",
         "locality": "Sector 25",
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -12430,7 +12430,7 @@
       "sourceCreatedAt": "2025-08-19T15:09:21.167Z",
       "scrapedAt": "2026-10-02T06:43:16.503Z",
       "provenance": {
-        "microMarket": "derived:keyword"
+        "microMarket": "derived:sector-table"
       }
     },
     {
@@ -13036,7 +13036,7 @@
       "scrapedAt": "2026-10-02T06:43:17.535Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -13643,7 +13643,7 @@
       "sourceCreatedAt": "2025-08-19T12:32:48.171Z",
       "scrapedAt": "2026-10-02T06:43:19.540Z",
       "provenance": {
-        "microMarket": "derived:keyword"
+        "microMarket": "derived:sector-table"
       }
     },
     {
@@ -13949,7 +13949,7 @@
       "sourceCreatedAt": "2025-09-10T06:16:15.598Z",
       "scrapedAt": "2026-10-02T06:43:20.537Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -14478,7 +14478,7 @@
       "scrapedAt": "2026-10-02T06:43:21.551Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -14507,8 +14507,8 @@
       "possessionDateRaw": null,
       "location": {
         "sector": "2",
-        "microMarket": "central-gurgaon",
-        "locality": null,
+        "microMarket": "golf-course-road",
+        "locality": "Gwal Pahari",
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
         "state": "Haryana",
@@ -14770,7 +14770,7 @@
       "sourceCreatedAt": "2025-09-03T07:34:26.271Z",
       "scrapedAt": "2026-10-02T06:43:22.558Z",
       "provenance": {
-        "microMarket": "derived:sector-table",
+        "microMarket": "derived:locality",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -15082,7 +15082,7 @@
       "scrapedAt": "2026-10-02T06:43:23.575Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -15369,7 +15369,7 @@
       "scrapedAt": "2026-10-02T06:43:24.585Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "paymentPlan": "extracted-from-faq-text",
         "unitsPerAcre": "derived:units/landAcres"
@@ -15789,7 +15789,7 @@
       "possessionDateRaw": "Possession is expected by February 2029",
       "location": {
         "sector": "71",
-        "microMarket": "dwarka-expressway",
+        "microMarket": "southern-peripheral-road",
         "locality": null,
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -16038,7 +16038,7 @@
       "scrapedAt": "2026-10-02T06:43:26.621Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -16362,7 +16362,7 @@
       "sourceCreatedAt": "2025-09-15T07:11:12.196Z",
       "scrapedAt": "2026-10-02T06:43:27.614Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -16930,7 +16930,7 @@
       "scrapedAt": "2026-10-02T06:43:28.636Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "paymentPlan": "extracted-from-faq-text",
         "unitsPerAcre": "derived:units/landAcres"
@@ -16960,7 +16960,7 @@
       "possessionDateRaw": "possession date is May 2032",
       "location": {
         "sector": "69",
-        "microMarket": "golf-course-extension-road",
+        "microMarket": "southern-peripheral-road",
         "locality": null,
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -17234,7 +17234,7 @@
       "scrapedAt": "2026-10-02T06:43:29.645Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -17263,7 +17263,7 @@
       "possessionDateRaw": null,
       "location": {
         "sector": "68",
-        "microMarket": "golf-course-extension-road",
+        "microMarket": "southern-peripheral-road",
         "locality": null,
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -17568,7 +17568,7 @@
       "sourceCreatedAt": "2025-08-26T07:07:56.706Z",
       "scrapedAt": "2026-10-02T06:43:30.646Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -17909,7 +17909,7 @@
       "sourceCreatedAt": "2025-08-27T06:15:54.418Z",
       "scrapedAt": "2026-10-02T06:43:31.718Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -18412,7 +18412,7 @@
       "possessionDateRaw": "possession scheduled for March 2030",
       "location": {
         "sector": "63A",
-        "microMarket": "dwarka-expressway",
+        "microMarket": "golf-course-extension-road",
         "locality": "Sector 63A, Golf Course Extension Road",
         "city": "Gurugram",
         "cityRaw": "Gurugram",
@@ -18847,7 +18847,7 @@
       "scrapedAt": "2026-10-02T06:43:33.689Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "unitsPerAcre": "derived:units/landAcres"
       }
     },
@@ -18875,7 +18875,7 @@
       "possessionDateRaw": null,
       "location": {
         "sector": "14",
-        "microMarket": "dwarka-expressway",
+        "microMarket": "central-gurgaon",
         "locality": "Sector 14",
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
@@ -19348,7 +19348,7 @@
       "sourceCreatedAt": "2025-08-21T12:25:43.675Z",
       "scrapedAt": "2026-10-02T06:43:34.717Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea"
       }
     },
@@ -19668,7 +19668,7 @@
       "sourceCreatedAt": "2025-08-25T05:30:08.801Z",
       "scrapedAt": "2026-10-02T06:43:35.792Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -19998,7 +19998,7 @@
       "scrapedAt": "2026-10-02T06:43:36.924Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "unitsPerAcre": "derived:units/landAcres"
       }
     },
@@ -20359,7 +20359,7 @@
       "scrapedAt": "2026-10-02T06:43:37.841Z",
       "provenance": {
         "possessionDate": "extracted-from-faq-text",
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }
@@ -20717,7 +20717,7 @@
       "sourceCreatedAt": "2025-08-29T12:10:39.161Z",
       "scrapedAt": "2026-10-02T06:43:38.879Z",
       "provenance": {
-        "microMarket": "derived:keyword",
+        "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
       }

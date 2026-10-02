@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ProjectSummary } from '@/lib/types';
 import { typeLabel } from '@/lib/format';
 import { ProjectCard } from '../project/ProjectCard';
-import { CorridorMap } from '../map/CorridorMap';
+import { CorridorMapView, type StationPos } from '../map/CorridorMapView';
 import { Icon } from '../Icon';
 import { activeCount, apply, BUDGETS, EMPTY, fromParams, SORTS, STAGES, toParams, type Filters, type SortKey } from './filters';
 
@@ -15,7 +15,7 @@ interface Options {
   types: string[];
 }
 
-export function ProjectExplorer({ projects, options }: { projects: ProjectSummary[]; options: Options }) {
+export function ProjectExplorer({ projects, options, map }: { projects: ProjectSummary[]; options: Options; map: { stations: StationPos[]; base: React.ReactNode; attribution: string } }) {
   // The page is prerendered with no filters (so the full grid is in the HTML); filters from the URL
   // are applied after mount. Reading search params during render would force a client-only bailout.
   const [f, setF] = useState<Filters>(EMPTY);
@@ -120,7 +120,7 @@ export function ProjectExplorer({ projects, options }: { projects: ProjectSummar
             </div>
           ) : view === 'map' ? (
             <div className="card p-3 md:p-6">
-              <CorridorMap projects={results} title="Filtered projects on the corridor map" />
+              <CorridorMapView {...map} projects={results} title="Filtered projects on the map" />
             </div>
           ) : (
             <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">

@@ -1,61 +1,228 @@
 {
-  "_note": "Sector → micro-market mapping used to derive `location.microMarket`. Derived by Falcon from public Gurugram master-plan geography, not from the source site. Keyword rules are checked first against address/locality/description, then the sector table.",
+  "_note": "Sector → micro-market mapping used to derive `location.microMarket`. Derived by Falcon from public Gurugram master-plan geography, not from the source site. Order: named localities (own sector numbering) → sector table → address keywords (only when no sector).",
   "markets": [
     {
       "slug": "dwarka-expressway",
       "name": "Dwarka Expressway",
       "short": "DXP",
-      "keywords": ["dwarka expressway", "northern peripheral road", "\\bnpr\\b"],
-      "sectors": ["36A", "37C", "37D", "88A", "88B", "99", "99A", "102", "102A", "103", "104", "105", "106", "107", "108", "109", "110", "110A", "111", "112", "113", "114", "115"]
+      "keywords": [
+        "dwarka expressway",
+        "northern peripheral road",
+        "\\bnpr\\b"
+      ],
+      "sectors": [
+        "36A",
+        "37C",
+        "37D",
+        "88A",
+        "88B",
+        "99",
+        "99A",
+        "102",
+        "102A",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "110",
+        "110A",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115"
+      ]
     },
     {
       "slug": "golf-course-road",
       "name": "Golf Course Road",
       "short": "GCR",
-      "keywords": ["golf course road(?! extension)"],
-      "sectors": ["27", "28", "42", "43", "53", "54", "55", "56"]
+      "keywords": [
+        "golf course road(?! extension)"
+      ],
+      "sectors": [
+        "27",
+        "28",
+        "42",
+        "43",
+        "53",
+        "54",
+        "55",
+        "56"
+      ]
     },
     {
       "slug": "golf-course-extension-road",
       "name": "Golf Course Extension Road",
       "short": "GCER",
-      "keywords": ["golf course extension", "\\bgcer\\b"],
-      "sectors": ["57", "58", "59", "60", "61", "62", "63", "63A", "64", "65", "66"]
+      "keywords": [
+        "golf course extension",
+        "\\bgcer\\b"
+      ],
+      "sectors": [
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "63A",
+        "64",
+        "65",
+        "66"
+      ]
     },
     {
       "slug": "southern-peripheral-road",
       "name": "Southern Peripheral Road",
       "short": "SPR",
-      "keywords": ["southern peripheral", "\\bspr\\b"],
-      "sectors": ["67", "67A", "68", "69", "70", "70A", "71", "72", "73", "74", "74A", "75", "75A", "76"]
+      "keywords": [
+        "southern peripheral",
+        "\\bspr\\b"
+      ],
+      "sectors": [
+        "67",
+        "67A",
+        "68",
+        "69",
+        "70",
+        "70A",
+        "71",
+        "72",
+        "73",
+        "74",
+        "74A",
+        "75",
+        "75A",
+        "76"
+      ]
     },
     {
       "slug": "sohna-road",
       "name": "Sohna Road",
       "short": "SR",
-      "keywords": ["sohna road"],
-      "sectors": ["33", "38", "47", "48", "49", "50"]
+      "keywords": [
+        "sohna road"
+      ],
+      "sectors": [
+        "33",
+        "38",
+        "47",
+        "48",
+        "49",
+        "50"
+      ]
     },
     {
       "slug": "new-gurgaon",
       "name": "New Gurgaon",
       "short": "NG",
-      "keywords": ["new gurgaon", "new gurugram"],
-      "sectors": ["77", "78", "79", "80", "81", "81A", "82", "82A", "83", "84", "85", "86", "87", "88", "89", "89A", "90", "91", "92", "93", "95", "95A", "95B"]
+      "keywords": [
+        "new gurgaon",
+        "new gurugram"
+      ],
+      "sectors": [
+        "77",
+        "78",
+        "79",
+        "80",
+        "81",
+        "81A",
+        "82",
+        "82A",
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "89A",
+        "90",
+        "91",
+        "92",
+        "93",
+        "95",
+        "95A",
+        "95B"
+      ]
     },
     {
       "slug": "sohna",
       "name": "Sohna",
       "short": "SOH",
-      "keywords": ["\\bsohna\\b(?! road)"],
+      "keywords": [
+        "\\bsohna\\b(?! road)"
+      ],
       "sectors": []
     },
     {
       "slug": "central-gurgaon",
       "name": "Central Gurgaon & MG Road",
       "short": "CG",
-      "keywords": ["mg road", "cyber city"],
-      "sectors": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10A", "11", "12", "12A", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "23A", "24", "25", "26", "29", "30", "31", "32", "34", "35", "36", "37", "39", "40", "41", "44", "45", "46", "51", "52"]
+      "keywords": [
+        "mg road",
+        "cyber city"
+      ],
+      "sectors": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "10A",
+        "11",
+        "12",
+        "12A",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "23A",
+        "24",
+        "25",
+        "26",
+        "29",
+        "30",
+        "31",
+        "32",
+        "34",
+        "35",
+        "36",
+        "37",
+        "39",
+        "40",
+        "41",
+        "44",
+        "45",
+        "46",
+        "51",
+        "52"
+      ]
+    }
+  ],
+  "localities": [
+    {
+      "keyword": "gwal pahari",
+      "name": "Gwal Pahari",
+      "market": "golf-course-road",
+      "why": "Gwal Pahari has its own sector numbering on the Gurgaon–Faridabad Road, at the end of Golf Course Road; its \"Sector 2\" is not Gurugram Sector 2."
     }
   ]
 }

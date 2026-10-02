@@ -162,6 +162,17 @@ anomalies.push(`${genericHl}/${projects.length} projects have generic placeholde
 anomalies.forEach((a) => L(`- ${a}`));
 L();
 
+// ---- map positions (scripts/geo/build-geo.mjs)
+const geoIssues = (() => { try { return JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'geo', 'discrepancies.json'), 'utf8')); } catch { return null; } })();
+if (geoIssues) {
+  L('## Map positions');
+  L();
+  L('Projects are plotted from OpenStreetMap geography (© OpenStreetMap contributors): the listing\'s own coordinate when it lies within 1.5 km of its stated sector, otherwise the sector centre. A named locality with its own sector numbering (Gwal Pahari) overrides the sector table. Sectors missing from OSM are placed between their numbered neighbours and drawn as approximate.');
+  L();
+  geoIssues.forEach((d) => L(`- **${d.slug}**: ${d.issue}`));
+  L();
+}
+
 // ---- spot check
 L('## Spot-check against live pages');
 L();

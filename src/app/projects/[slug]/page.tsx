@@ -15,6 +15,7 @@ import { CardActions } from '@/components/project/CardActions';
 import { ProjectCard } from '@/components/project/ProjectCard';
 import { StickyCTA } from '@/components/project/StickyCTA';
 import { CorridorMap } from '@/components/map/CorridorMap';
+import { stationsFor } from '@/lib/geo';
 import { LeadForm } from '@/components/lead/LeadForm';
 import { WhatsAppLink } from '@/components/lead/WhatsAppLink';
 import { Disclaimer } from '@/components/Section';
@@ -322,9 +323,13 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
             <h2 id="location-h" className="h2">Location & connectivity</h2>
             <p className="mt-2 text-ink-2">{p.location.address ?? where}{p.location.microMarket ? ` · ${marketName(p.location.microMarket)} corridor` : ''}</p>
             <div className="mt-6 grid gap-6 md:grid-cols-2">
-              <div className="card p-3">
-                <CorridorMap projects={[s]} highlight={p.location.microMarket ?? undefined} compact title={`${name} on the corridor map`} />
-              </div>
+              {stationsFor([s]).stations.length > 0 ? (
+                <div className="card p-3">
+                  <CorridorMap projects={[s]} highlight={p.location.microMarket ?? undefined} compact title={`${name} on the map of Gurugram`} />
+                </div>
+              ) : site_plan || p.media.floorPlans.some((f) => /map/i.test(f.label ?? '')) ? null : (
+                <p className="text-sm text-ink-2">This project is outside the Gurugram map.</p>
+              )}
               <div className="space-y-4">
                 {p.location.connectivity.length > 0 ? (
                   <table className="ledger">
