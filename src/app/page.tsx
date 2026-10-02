@@ -9,11 +9,15 @@ import { SectionHead, Disclaimer } from '@/components/Section';
 import { LeadForm } from '@/components/lead/LeadForm';
 import { WhatsAppLink } from '@/components/lead/WhatsAppLink';
 import { Icon } from '@/components/Icon';
+import { SpotlightCarousel } from '@/components/home/SpotlightCarousel';
 
 export default function Home() {
   const s = stats();
   const all = summaries();
-  const feat = featured(6);
+  // First five go to the spotlight carousel, the next six to the grid, so nothing repeats.
+  const ranked = featured(11);
+  const spotlight = ranked.slice(0, 5);
+  const feat = ranked.slice(5);
   const markets = MARKETS.map((m) => ({ ...m, ...marketStats(m.slug) })).filter((m) => m.count > 0).sort((a, b) => b.count - a.count);
   const updated = new Date(datasetMeta.generatedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
 
@@ -56,11 +60,17 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SPOTLIGHT */}
+      <section className="wrap py-12" aria-labelledby="spotlight">
+        <SectionHead id="spotlight" eyebrow="Spotlight" title="Five to look at first" intro="The earliest projects on the rail right now. Swipe, drag or use the arrows. Tap a project to open it." />
+        <SpotlightCarousel projects={spotlight} />
+      </section>
+
       {/* FEATURED */}
       <section className="wrap py-12" aria-labelledby="featured">
-        <SectionHead id="featured" eyebrow="Earliest on the rail" title="Featured early-entry opportunities" intro="Sorted by stage, then by the longest runway to possession. The ranking is rule-based, and nobody pays for placement." href="/projects?early=1" cta="All early-entry projects" />
+        <SectionHead id="featured" eyebrow="Earliest on the rail" title="More early-entry opportunities" intro="Sorted by stage, then by the longest runway to possession. The ranking is rule-based, and nobody pays for placement." href="/projects?early=1" cta="All early-entry projects" />
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {feat.map((p, i) => <ProjectCard key={p.slug} p={p} priority={i < 3} />)}
+          {feat.map((p) => <ProjectCard key={p.slug} p={p} />)}
         </div>
         <p className="mt-4 text-xs text-ink-2">* ₹/sq ft marked with an asterisk is indicative: starting price ÷ smallest listed unit. Developers rarely publish a per-sq-ft rate.</p>
       </section>
