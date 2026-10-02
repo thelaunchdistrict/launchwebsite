@@ -62,7 +62,7 @@ export default function Home() {
 
       {/* SPOTLIGHT */}
       <section className="wrap py-12" aria-labelledby="spotlight">
-        <SectionHead id="spotlight" eyebrow="Spotlight" title="Five to look at first" intro="The earliest projects on the rail right now. Swipe, drag or use the arrows. Tap a project to open it." />
+        <SectionHead id="spotlight" eyebrow="Spotlight" title="Five to look at first" intro="The earliest projects on the rail right now. Swipe or use the controls below. Tap a project to open it." />
         <SpotlightCarousel projects={spotlight} />
       </section>
 
