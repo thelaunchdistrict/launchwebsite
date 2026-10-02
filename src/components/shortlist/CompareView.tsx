@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import type { ProjectSummary } from '@/lib/types';
 import { inr, monthYear, psf, sqft, statusLabel } from '@/lib/format';
@@ -45,14 +45,20 @@ export function CompareView({ rows }: { rows: CompareRow[] }) {
   const sp = useSearchParams();
   const compare = useCompare();
   const fromUrl = (sp.get('p') ?? '').split(',').filter(Boolean);
-  // A shared /compare?p=… link seeds the local compare list.
+  // A shared /compare?p=… link seeds the local compare list once; after that the local list rules
+  // (so removing every project really empties the table).
+  const seeded = useRef(false);
   useEffect(() => {
-    if (!fromUrl.length) return;
+    if (seeded.current || !fromUrl.length) return;
+    seeded.current = true;
     compare.clear();
     fromUrl.slice(0, 3).forEach((s) => compare.toggle(s));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sp]);
-  const slugs = compare.items.length ? compare.items : fromUrl;
+  const [hydrated, setHydrated] = useState(false);
+  // eslint-disable-next-line react-hooks/set-state-in-effect -- flip once after mount so the server render can use the URL list
+  useEffect(() => setHydrated(true), []);
+  const slugs = hydrated ? compare.items : fromUrl;
   const picked = slugs.map((s) => rows.find((r) => r.slug === s)).filter((r): r is CompareRow => !!r);
 
   if (picked.length === 0) {

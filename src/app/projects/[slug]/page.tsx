@@ -272,11 +272,11 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
             <ul className="mt-4 divide-y divide-rule border-y hairline">
               {checks.map((c) => (
                 <li key={c.label} className="grid grid-cols-[auto_1fr] gap-3 py-3">
-                  <span className={`mt-0.5 inline-flex h-6 items-center gap-1 rounded-full px-2 text-xs font-medium ${c.state === 'ok' ? 'bg-positive/15 text-positive' : c.state === 'caution' ? 'bg-caution/15 text-caution' : 'bg-sunk text-ink-2'}`}>
+                  <span className={`mt-0.5 inline-flex h-6 items-center gap-1 rounded-full px-2 text-xs font-medium border ${c.state === 'ok' ? 'border-positive text-ink [&>svg]:text-positive' : c.state === 'caution' ? 'border-caution text-ink [&>svg]:text-caution' : 'border-rule-strong text-ink-2'}`}>
                     <Icon name={c.state === 'ok' ? 'check' : c.state === 'caution' ? 'alert' : 'question'} size={14} />
                     {c.state === 'ok' ? 'Published' : c.state === 'caution' ? 'Check' : 'Unknown'}
                   </span>
-                  <div><p className="font-medium">{c.label}</p><p className="text-sm text-ink-2">{c.detail}</p></div>
+                  <div className="min-w-0 [overflow-wrap:anywhere]"><p className="font-medium">{c.label}</p><p className="text-sm text-ink-2">{c.detail}</p></div>
                 </li>
               ))}
             </ul>

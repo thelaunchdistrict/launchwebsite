@@ -91,7 +91,7 @@ function normalize(raw) {
   const startingInr = nn(p.priceMin) ?? parseInr(p.basePrice);
   const range = parseInrRange(p.priceRange);
   const configurations = (p.pricingTable || []).map((r) => {
-    const label = nn(r.floorNumbers) || nn(r.type);
+    const label = (nn(r.floorNumbers) || nn(r.type))?.replace(/(\d(?:\.\d)?)\s*BHK/gi, '$1 BHK') ?? null;
     const areaSqft = parseAreaSqft(r.reraArea) ?? parseAreaSqft(r.unitArea);
     const priceInr = parseInr(r.price);
     const psfInr = parseInr(r.pricePerSqft);

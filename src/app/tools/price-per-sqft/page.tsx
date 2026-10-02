@@ -56,28 +56,24 @@ function Bars({ title, rows, axisMax, ticks }: { title: string; rows: { key: str
         </div>
         <span className="text-right">Median</span>
       </div>
-      <table className="mt-2 w-full">
-        <caption className="sr-only">{title}: median, lowest and highest ₹ per sq ft, and number of projects</caption>
-        <thead className="sr-only"><tr><th>Name</th><th>Range</th><th>Median</th></tr></thead>
-        <tbody>
-          {rows.map((r) => (
-            <tr key={r.key} className="grid grid-cols-[1fr_auto] items-center gap-x-3 border-b hairline py-2 md:grid-cols-[10rem_1fr_6rem]">
-              <th scope="row" className="text-left text-sm font-normal">
-                <Link href={r.href} className="hover:underline underline-offset-4">{r.label}</Link>
-                <span className="ml-1 text-xs text-ink-2">({r.count})</span>
-              </th>
-              <td className="order-3 col-span-2 md:order-none md:col-span-1">
-                <div className="relative h-6" aria-label={`Range ${psf(r.min)} to ${psf(r.max)}, median ${psf(r.median)}`}>
-                  {ticks.map((t) => <span key={t} aria-hidden className="absolute inset-y-0 w-px bg-rule" style={{ left: x(t) }} />)}
-                  <span aria-hidden className="absolute top-1/2 h-1 -translate-y-1/2 rounded-full bg-rule-strong" style={{ left: x(r.min), width: `calc(${x(r.max)} - ${x(r.min)} + 2px)` }} />
-                  <span aria-hidden className="absolute top-1/2 h-3.5 w-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-paper bg-signal" style={{ left: x(r.median) }} />
-                </div>
-              </td>
-              <td className="num text-right text-sm">{psf(r.median)}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <ol className="mt-2" aria-label={`${title}: median, lowest and highest ₹ per sq ft`}>
+        {rows.map((r) => (
+          <li key={r.key} className="grid grid-cols-[1fr_auto] items-center gap-x-3 border-b hairline py-2 md:grid-cols-[13rem_1fr_6rem]">
+            <span className="text-sm">
+              <Link href={r.href} className="hover:underline underline-offset-4">{r.label}</Link>
+              <span className="ml-1 text-xs text-ink-2">({r.count} project{r.count === 1 ? '' : 's'})</span>
+            </span>
+            <span className="order-3 col-span-2 md:order-none md:col-span-1">
+              <span className="relative block h-6" role="img" aria-label={`Range ${psf(r.min)} to ${psf(r.max)}, median ${psf(r.median)}`}>
+                {ticks.map((t) => <span key={t} aria-hidden className="absolute inset-y-0 w-px bg-rule" style={{ left: x(t) }} />)}
+                <span aria-hidden className="absolute top-1/2 h-1 -translate-y-1/2 rounded-full bg-rule-strong" style={{ left: x(r.min), width: `calc(${x(r.max)} - ${x(r.min)} + 2px)` }} />
+                <span aria-hidden className="absolute top-1/2 h-3.5 w-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-paper bg-signal" style={{ left: x(r.median) }} />
+              </span>
+            </span>
+            <span className="num text-right text-sm"><span className="sr-only">Median </span>{psf(r.median)}</span>
+          </li>
+        ))}
+      </ol>
       <p className="mt-2 text-xs text-ink-2">Dot = median; grey line = lowest to highest tracked project.</p>
     </section>
   );

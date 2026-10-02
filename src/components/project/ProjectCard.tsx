@@ -37,7 +37,7 @@ export function ProjectCard({ p, priority = false }: { p: ProjectSummary; priori
             {p.developer ?? 'Developer not published'} · {p.sector ? `Sector ${p.sector}` : p.marketName ?? '—'}
           </p>
           <h3 className="h3 mt-1">
-            <Link href={`/projects/${p.slug}`} className="after:absolute after:inset-0 after:content-[''] focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:outline-focus focus-visible:after:rounded-[14px]">
+            <Link href={`/projects/${p.slug}`} prefetch={false} className="after:absolute after:inset-0 after:content-[''] focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:outline-focus focus-visible:after:rounded-[14px]">
               {p.name}
             </Link>
           </h3>

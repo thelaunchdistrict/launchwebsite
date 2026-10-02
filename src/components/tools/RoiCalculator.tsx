@@ -1,6 +1,5 @@
 'use client';
-import { useMemo, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useEffect, useMemo, useState } from 'react';
 import { computeRoi, ROI_DEFAULTS, type RoiInput } from '@/lib/finance';
 import { inr, inrFull, pct } from '@/lib/format';
 
@@ -38,11 +37,15 @@ const GROUPS: { title: string; fields: Field[] }[] = [
 const fmt = (f: Field, v: number) => (f.unit === 'inr' ? inr(v) : f.unit === '%' ? `${v}%` : `${v} yrs`);
 
 export function RoiCalculator() {
-  const sp = useSearchParams();
-  const [i, setI] = useState<RoiInput>(() => {
+  const [i, setI] = useState<RoiInput>(ROI_DEFAULTS);
+  // Prefill from ?price=&years=&rent= (links from project pages) after mount, keeping the page static.
+  useEffect(() => {
+    const sp = new URLSearchParams(window.location.search);
     const n = (k: string) => (sp.get(k) && !isNaN(Number(sp.get(k))) && Number(sp.get(k)) > 0 ? Number(sp.get(k)) : null);
-    return { ...ROI_DEFAULTS, price: n('price') ?? ROI_DEFAULTS.price, holdYears: n('years') ?? ROI_DEFAULTS.holdYears, rentStartsYears: sp.get('rent') != null ? Number(sp.get('rent')) || 0 : ROI_DEFAULTS.rentStartsYears };
-  });
+    if (![...sp.keys()].length) return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time sync from the URL after hydration
+    setI((s) => ({ ...s, price: n('price') ?? s.price, holdYears: n('years') ?? s.holdYears, rentStartsYears: sp.get('rent') != null ? Number(sp.get('rent')) || 0 : s.rentStartsYears }));
+  }, []);
   const r = useMemo(() => computeRoi(i), [i]);
   const bear = useMemo(() => computeRoi({ ...i, appreciationPct: i.appreciationPct - 4 }), [i]);
   const set = (k: keyof RoiInput, v: number) => setI((s) => ({ ...s, [k]: v }));

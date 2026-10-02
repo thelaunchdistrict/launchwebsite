@@ -1,6 +1,6 @@
 # Extraction report — realtycanvas.in/projects
 
-Generated 2026-10-02T06:59:13.371Z from data built at 2026-10-02T06:56:42.828Z.
+Generated 2026-10-02T07:15:33.431Z from data built at 2026-10-02T07:15:33.271Z.
 
 ## Summary
 
@@ -138,8 +138,8 @@ Share of projects with a non-empty value. *Derived* fields are computed by Falco
 | M3M Route 65 | possessionDate, configurations, units |
 | Sobha Crescent | configurations, floorPlans |
 | SPJ Vedatam | possessionDate, units |
-| The Oryza, Dwarka Expressway Gurgaon | startingPrice, configurations |
-| Yugen Greens: Goa’s 5 – Star Golf Township | possessionDate, microMarket |
+| The Oryza | startingPrice, configurations |
+| Yugen Greens | possessionDate, microMarket |
 
 ## Failed downloads / fetches
 
@@ -170,7 +170,7 @@ Share of projects with a non-empty value. *Derived* fields are computed by Falco
 - Adani The Marq: slug says sector 102 but address/locality says 102A
 - Elan Empire: possession 2026-06 is in the past but status is under-construction
 - Elan Paradise: possession 2026-09 is in the past but status is under-construction
-- Yugen Greens: Goa’s 5 – Star Golf Township: no micro-market could be derived (sector —, city —)
+- Yugen Greens: no micro-market could be derived (sector —, city —)
 - 43/60 projects list every configuration as "Price on Request"; only the project-level starting price is numeric.
 - 55/60 projects carry the same templated location paragraph ("…enjoys a strategic address…"). Falcon treats it as boilerplate and does not show it as project-specific analysis.
 - 3/60 projects have generic placeholder highlights (e.g. "Prime Location", "24/7 Security").

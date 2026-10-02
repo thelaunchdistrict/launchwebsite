@@ -10,7 +10,18 @@ export type GalleryItem = WebImage & { alt: string; caption?: string };
 export function Gallery({ items, name }: { items: GalleryItem[]; name: string }) {
   const [open, setOpen] = useState<number | null>(null);
   if (!items.length) return null;
+  // Mosaic adapts to the count so there are never empty cells: 1 → full, 2 → halves, 3 → 1 big + 2,
+  // 4 → 1 big + 1 tall + 2, 5+ → 1 big + 4.
   const shown = items.slice(0, 5);
+  const n = shown.length;
+  const cell = (i: number) => {
+    if (i === 0) return n === 1 ? 'col-span-4 row-span-2' : 'col-span-4 row-span-2 md:col-span-2';
+    const base = 'hidden md:block';
+    if (n === 2) return `${base} md:col-span-2 md:row-span-2`;
+    if (n === 3) return `${base} md:col-span-2`;
+    if (n === 4 && i === 1) return `${base} md:row-span-2`;
+    return base;
+  };
   return (
     <>
       <div className="grid h-[52vw] max-h-[560px] min-h-[260px] grid-cols-4 grid-rows-2 gap-1.5 overflow-hidden rounded-2xl md:gap-2">
@@ -19,7 +30,7 @@ export function Gallery({ items, name }: { items: GalleryItem[]; name: string })
             key={it.src}
             type="button"
             onClick={() => setOpen(i)}
-            className={`group relative overflow-hidden bg-sunk focus-visible:z-10 ${i === 0 ? 'col-span-4 row-span-2 md:col-span-2' : 'hidden md:block'} ${shown.length === 2 && i === 1 ? 'md:col-span-2 md:row-span-2' : ''}`}
+            className={`group relative overflow-hidden bg-sunk focus-visible:z-10 ${cell(i)}`}
             aria-label={`Open photo ${i + 1} of ${items.length}: ${it.alt}`}
           >
             <Image src={it.src} alt="" fill priority={i === 0} sizes={i === 0 ? '(min-width: 768px) 620px, 100vw' : '300px'} className="object-cover transition-transform duration-300 group-hover:scale-[1.02]" />

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { site } from '@/config/site';
 import { datasetMeta, featured, MARKETS, marketStats, stats, summaries } from '@/lib/data';
-import { inr, monthYear, psf } from '@/lib/format';
+import { inr, monthRange, psf } from '@/lib/format';
 import { Counter } from '@/components/Counter';
 import { CorridorMap } from '@/components/map/CorridorMap';
 import { ProjectCard } from '@/components/project/ProjectCard';
@@ -102,7 +102,7 @@ export default function Home() {
                   <td className="n">{m.count}</td>
                   <td className="n">{psf(m.medianPsf)}</td>
                   <td className="n">{inr(m.minPrice)}</td>
-                  <td className="n">{m.possessionFrom ? `${monthYear(m.possessionFrom)} – ${monthYear(m.possessionTo)}` : '—'}</td>
+                  <td className="n">{monthRange(m.possessionFrom, m.possessionTo)}</td>
                 </tr>
               ))}
             </tbody>

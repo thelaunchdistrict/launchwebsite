@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { MARKETS, marketStats, summaries } from '@/lib/data';
-import { inr, monthYear, psf } from '@/lib/format';
+import { inr, monthRange, psf } from '@/lib/format';
 import { STORIES } from '@/content/markets';
 import { CorridorMap } from '@/components/map/CorridorMap';
 import { ProjectCard } from '@/components/project/ProjectCard';
@@ -51,7 +51,7 @@ export default async function MarketPage({ params }: PageProps<'/markets/[slug]'
             ['Median ₹/sq ft', psf(s.medianPsf)],
             ['Entry from', inr(s.minPrice)],
             ['₹/sq ft range', s.minPsf ? `${psf(s.minPsf)}–${psf(s.maxPsf)}` : '—'],
-            ['Possession window', s.possessionFrom ? `${monthYear(s.possessionFrom)}–${monthYear(s.possessionTo)}` : '—'],
+            ['Possession window', monthRange(s.possessionFrom, s.possessionTo)],
           ].map(([k, v], i) => (
             <div key={String(k)} className={`border-b hairline py-3 ${i % 2 ? 'pl-3 border-l' : 'pr-3'}`}>
               <dt className="eyebrow">{k}</dt>

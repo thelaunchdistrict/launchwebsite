@@ -116,7 +116,7 @@ export function LeadForm({
           <div>
             <label className="label" htmlFor={`${id}-timeline`}>Timeline</label>
             <select id={`${id}-timeline`} className="field" value={v.timeline} onChange={set('timeline')}>
-              <option value="">When would you invest?</option>
+              <option value="">Select timeline</option>
               {site.leads.timelines.map((b) => <option key={b}>{b}</option>)}
             </select>
           </div>

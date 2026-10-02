@@ -79,3 +79,10 @@ export function paragraphs(text: string | null | undefined): string[] {
   if (!text) return [];
   return text.split(/\n+/).map((s) => s.replace(/^[•\-•]\s*/, '').trim()).filter(Boolean);
 }
+
+/** "Jun 2026 – May 2032"; collapses to one value when both ends are equal. */
+export function monthRange(from: string | null | undefined, to: string | null | undefined): string {
+  if (!from) return '—';
+  if (!to || from === to) return monthYear(from);
+  return `${monthYear(from)} – ${monthYear(to)}`;
+}

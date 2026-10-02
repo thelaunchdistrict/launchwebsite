@@ -47,4 +47,9 @@ test('misc', () => {
   assert.equal(normalizeType('COMMERCIAL', null, ['SCO Plot']), 'sco');
   assert.equal(projectName({ aboutTitle: 'Project Overview – Sobha Aranya', title: 'x' }), 'Sobha Aranya');
   assert.equal(projectName({ title: 'M3M Crown – Residential Development in Sector 111' }), 'M3M Crown');
+  assert.equal(projectName({ aboutTitle: 'Project Overview – Elan The Statement , Sector 49, Sohna Road Gurgaon' }), 'Elan The Statement');
+  assert.equal(projectName({ aboutTitle: 'Project Overview – Aditya Birla Pravaah Sector 71' }), 'Aditya Birla Pravaah');
+  assert.equal(projectName({ aboutTitle: 'Project Overview – Tarc Ishva Gurgaon' }), 'Tarc Ishva');
+  assert.equal(projectName({ aboutTitle: 'Project Overview – The Oryza, Dwarka Expressway Gurgaon' }), 'The Oryza');
+  assert.equal(projectName({ aboutTitle: 'Project Overview – Yugen Greens: Goa’s 5 – Star Golf Township' }), 'Yugen Greens');
 });

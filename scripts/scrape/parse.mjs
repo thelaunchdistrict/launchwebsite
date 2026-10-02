@@ -132,7 +132,17 @@ export function normalizeType(category, type, unitTypes = [], text = '') {
 /** Strip the decorative suffix from realtycanvas titles: "Sobha Aranya – Residential Development in …" → "Sobha Aranya". */
 export function projectName(p) {
   const fromAbout = p.aboutTitle && p.aboutTitle.match(/^(?:project overview|about)\s*[–—-]\s*(.+)$/i);
-  if (fromAbout) return fromAbout[1].trim();
-  const t = String(p.title || '').split(/\s+[–—|-]\s+/)[0].trim();
-  return t.replace(/\s+(?:in|at)\s+sector.*$/i, '').trim() || null;
+  const raw = fromAbout ? fromAbout[1] : String(p.title || '').split(/\s+[–—|-]\s+/)[0];
+  return cleanName(raw) || null;
+}
+
+/** Drop location/marketing suffixes: "Elan The Statement , Sector 49, Sohna Road Gurgaon" → "Elan The Statement". */
+export function cleanName(s) {
+  let n = String(s || '').replace(/\s+/g, ' ').trim();
+  n = n.replace(/\s*,\s*.*\b(sector|expressway|road|gurgaon|gurugram)\b.*$/i, '');
+  n = n.replace(/\s*:\s*.{10,}$/, '');
+  n = n.replace(/\s+(?:in|at)\s+sector.*$/i, '');
+  n = n.replace(/\s+sector[-\s]*\d+[a-d]?$/i, '');
+  n = n.replace(/\s+(gurgaon|gurugram)$/i, '');
+  return n.trim();
 }

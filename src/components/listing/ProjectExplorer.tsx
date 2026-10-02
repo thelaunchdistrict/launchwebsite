@@ -1,6 +1,5 @@
 'use client';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import type { ProjectSummary } from '@/lib/types';
 import { typeLabel } from '@/lib/format';
 import { ProjectCard } from '../project/ProjectCard';
@@ -17,23 +16,38 @@ interface Options {
 }
 
 export function ProjectExplorer({ projects, options }: { projects: ProjectSummary[]; options: Options }) {
-  const sp = useSearchParams();
-  const router = useRouter();
-  const pathname = usePathname();
-  const initial = useMemo(() => fromParams(new URLSearchParams(sp.toString())), [sp]);
-  const [f, setF] = useState<Filters>(initial.f);
-  const [sort, setSort] = useState<SortKey>(initial.sort);
-  const [view, setView] = useState<'grid' | 'map'>(initial.view);
+  // The page is prerendered with no filters (so the full grid is in the HTML); filters from the URL
+  // are applied after mount. Reading search params during render would force a client-only bailout.
+  const [f, setF] = useState<Filters>(EMPTY);
+  const [sort, setSort] = useState<SortKey>('recommended');
+  const [view, setView] = useState<'grid' | 'map'>('grid');
   const [sheet, setSheet] = useState(false);
+  const PAGE = 18;
+  const [limit, setLimit] = useState(PAGE);
+  const ready = useRef(false);
 
-  // Keep the URL shareable without adding history entries per keystroke.
   useEffect(() => {
-    const next = `${pathname}${toParams(f, sort, view)}`;
-    if (next !== `${pathname}${sp.toString() ? `?${sp}` : ''}`) router.replace(next, { scroll: false });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const init = fromParams(new URLSearchParams(window.location.search));
+    /* eslint-disable react-hooks/set-state-in-effect -- one-time sync from the URL after hydration */
+    setF(init.f);
+    setSort(init.sort);
+    setView(init.view);
+    /* eslint-enable react-hooks/set-state-in-effect */
+    ready.current = true;
+  }, []);
+
+  // Keep the URL shareable without adding history entries (and without a server round-trip).
+  useEffect(() => {
+    if (!ready.current) return;
+    const next = `${window.location.pathname}${toParams(f, sort, view)}`;
+    if (next !== `${window.location.pathname}${window.location.search}`) window.history.replaceState(window.history.state, '', next);
   }, [f, sort, view]);
 
   const results = useMemo(() => apply(projects, f, sort), [projects, f, sort]);
+  // New filters or sort start again from the first page.
+  const [lastKey, setLastKey] = useState('');
+  const key = JSON.stringify([f, sort]);
+  if (key !== lastKey) { setLastKey(key); setLimit(PAGE); }
   const n = activeCount(f);
   const upd = <K extends keyof Filters>(k: K, v: Filters[K]) => setF((s) => ({ ...s, [k]: v }));
   const toggleIn = (k: 'stage' | 'market' | 'bhk' | 'type', v: string) => setF((s) => ({ ...s, [k]: s[k].includes(v) ? s[k].filter((x) => x !== v) : [...s[k], v] }));
@@ -64,14 +78,14 @@ export function ProjectExplorer({ projects, options }: { projects: ProjectSummar
       <div className="min-w-0">
         {/* Toolbar */}
         <div className="flex flex-wrap items-center gap-2 border-b border-ink pb-3">
-          <p className="mr-auto text-sm" role="status" aria-live="polite">
+          <p className="mr-auto w-full text-sm sm:w-auto" role="status" aria-live="polite">
             <span className="num text-lg">{results.length}</span> <span className="text-ink-2">of {projects.length} projects</span>
           </p>
           <button type="button" className="btn btn-ghost lg:hidden" onClick={() => setSheet(true)} aria-haspopup="dialog">
             <Icon name="filter" /> Filters{n ? ` (${n})` : ''}
           </button>
           <label className="sr-only" htmlFor="sort">Sort by</label>
-          <select id="sort" className="field w-auto min-w-0 rounded-full py-2 pr-8 text-sm" value={sort} onChange={(e) => setSort(e.target.value as SortKey)}>
+          <select id="sort" className="field w-auto min-w-0 flex-1 rounded-full py-2 pr-8 text-sm sm:flex-none" value={sort} onChange={(e) => setSort(e.target.value as SortKey)}>
             {Object.entries(SORTS).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
           </select>
           <div role="group" aria-label="View" className="inline-flex rounded-full border hairline p-0.5">
@@ -87,15 +101,16 @@ export function ProjectExplorer({ projects, options }: { projects: ProjectSummar
           <ul className="mt-3 flex flex-wrap gap-2" aria-label="Active filters">
             {tokens.map((t) => (
               <li key={t.label}>
-                <button type="button" onClick={t.clear} className="chip min-h-9 bg-raised hover:border-ink" aria-label={`Remove filter ${t.label}`}>
+                <button type="button" onClick={t.clear} className="chip min-h-11 bg-raised hover:border-ink" aria-label={`Remove filter ${t.label}`}>
                   {t.label} <Icon name="close" size={14} />
                 </button>
               </li>
             ))}
-            <li><button type="button" onClick={() => setF(EMPTY)} className="chip min-h-9 border-transparent underline underline-offset-4">Clear all</button></li>
+            <li><button type="button" onClick={() => setF(EMPTY)} className="chip min-h-11 border-transparent underline underline-offset-4">Clear all</button></li>
           </ul>
         )}
 
+        <h2 className="sr-only">Results</h2>
         <div className="mt-6">
           {results.length === 0 ? (
             <div className="card p-10 text-center">
@@ -109,7 +124,13 @@ export function ProjectExplorer({ projects, options }: { projects: ProjectSummar
             </div>
           ) : (
             <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
-              {results.map((p, i) => <ProjectCard key={p.slug} p={p} priority={i < 3} />)}
+              {results.slice(0, limit).map((p, i) => <ProjectCard key={p.slug} p={p} priority={i < 2} />)}
+            </div>
+          )}
+          {view === 'grid' && results.length > limit && (
+            <div className="mt-8 flex flex-col items-center gap-2">
+              <button type="button" className="btn btn-ink" onClick={() => setLimit((l) => l + PAGE)}>Show {Math.min(PAGE, results.length - limit)} more</button>
+              <p className="text-xs text-ink-2">Showing {limit} of {results.length}</p>
             </div>
           )}
         </div>

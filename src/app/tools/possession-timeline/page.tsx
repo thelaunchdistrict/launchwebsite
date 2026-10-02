@@ -37,9 +37,9 @@ export default function TimelinePage() {
           {years.map((y) => {
             const n = dated.filter((d) => d.possessionYear === y).length;
             return (
-              <a key={y} href={`#y${y}`} className="group flex flex-1 flex-col items-center justify-end gap-1" aria-hidden tabIndex={-1}>
-                <span className="num text-xs">{n}</span>
-                <span className={`w-full rounded-t ${y <= thisYear ? 'bg-rule-strong' : 'bg-ink'} group-hover:bg-signal`} style={{ height: `${(n / maxCount) * 100}%` }} />
+              <a key={y} href={`#y${y}`} className="group flex h-full flex-1 flex-col items-center gap-1" aria-hidden tabIndex={-1}>
+                <span className="num order-first text-xs">{n}</span>
+                <span className="flex w-full flex-1 items-end"><span className={`block w-full rounded-t ${y <= thisYear ? 'bg-rule-strong' : 'bg-ink'} group-hover:bg-signal`} style={{ height: `${(n / maxCount) * 100}%` }} /></span>
                 <span className="num text-xs text-ink-2">{y}</span>
               </a>
             );

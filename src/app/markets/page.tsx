@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { MARKETS, marketStats, summaries } from '@/lib/data';
-import { inr, monthYear, psf } from '@/lib/format';
+import { inr, monthRange, psf } from '@/lib/format';
 import { STORIES } from '@/content/markets';
 import { CorridorMap } from '@/components/map/CorridorMap';
 
@@ -31,7 +31,7 @@ export default function MarketsPage() {
                   <span className="num block">{m.count} projects</span>
                   <span className="num block text-ink-2">{psf(m.medianPsf)}/sq ft</span>
                   <span className="num block text-ink-2">from {inr(m.minPrice)}</span>
-                  {m.possessionFrom && <span className="num block text-xs text-ink-2">{monthYear(m.possessionFrom)}–{monthYear(m.possessionTo)}</span>}
+                  {m.possessionFrom && <span className="num block text-xs text-ink-2">{monthRange(m.possessionFrom, m.possessionTo)}</span>}
                 </span>
               </Link>
             </li>

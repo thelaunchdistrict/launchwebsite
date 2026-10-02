@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T06:56:42.828Z",
+  "generatedAt": "2026-10-02T07:15:33.271Z",
   "source": "https://www.realtycanvas.in",
   "count": 60,
   "projects": [
@@ -391,7 +391,7 @@
         "unitSizeMaxSqft": 7104,
         "configurations": [
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2,659 sq ft",
@@ -405,7 +405,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,291 sq ft",
@@ -419,7 +419,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,315 sq ft",
@@ -433,7 +433,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "4,079 sq ft",
@@ -777,7 +777,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "1,702 sq ft",
@@ -1485,7 +1485,7 @@
     {
       "id": "0d428cdd-2dcd-46ea-85ec-98471e318483",
       "slug": "aditya-birla-pravaah-sector-71-gurgaon",
-      "name": "Aditya Birla Pravaah Sector 71",
+      "name": "Aditya Birla Pravaah",
       "sourceUrl": "https://www.realtycanvas.in/projects/aditya-birla-pravaah-sector-71-gurgaon",
       "developer": {
         "name": "Birla Estates",
@@ -1530,7 +1530,7 @@
         "unitSizeMaxSqft": 1437,
         "configurations": [
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,357 Sq ft",
@@ -1544,7 +1544,7 @@
             "features": null
           },
           {
-            "label": "3BHK+utility",
+            "label": "3 BHK+utility",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,437 Sq ft",
@@ -2297,7 +2297,7 @@
         "unitSizeMaxSqft": 2800,
         "configurations": [
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,200 sq ft",
@@ -2311,7 +2311,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,400 sq ft",
@@ -2325,7 +2325,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2,800 sq ft",
@@ -4368,7 +4368,7 @@
         "unitSizeMaxSqft": 2346,
         "configurations": [
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1765 sq ft",
@@ -4382,7 +4382,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2346 sq ft",
@@ -5052,7 +5052,7 @@
         "unitSizeMaxSqft": 7714,
         "configurations": [
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,977 sq ft",
@@ -5066,7 +5066,7 @@
             "features": null
           },
           {
-            "label": "5BHK Penthouse",
+            "label": "5 BHK Penthouse",
             "unitType": "Apartment",
             "bhk": 5,
             "areaRaw": "7,714 sq ft",
@@ -5672,7 +5672,7 @@
         "unitSizeMaxSqft": 5472,
         "configurations": [
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,577 sq ft",
@@ -5686,7 +5686,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "5,472 sq ft",
@@ -7229,7 +7229,7 @@
         "unitSizeMaxSqft": 10347,
         "configurations": [
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "4,223 sq ft",
@@ -7243,7 +7243,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "4,640 sq ft",
@@ -7257,7 +7257,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "7,225 sq ft",
@@ -7271,7 +7271,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "8,053 sq ft",
@@ -7285,7 +7285,7 @@
             "features": null
           },
           {
-            "label": "5BHK",
+            "label": "5 BHK",
             "unitType": "Apartment",
             "bhk": 5,
             "areaRaw": "5,444 sq ft",
@@ -7299,7 +7299,7 @@
             "features": null
           },
           {
-            "label": "5BHK",
+            "label": "5 BHK",
             "unitType": "Apartment",
             "bhk": 5,
             "areaRaw": "5,891 sq ft",
@@ -7313,7 +7313,7 @@
             "features": null
           },
           {
-            "label": "5BHK",
+            "label": "5 BHK",
             "unitType": "Apartment",
             "bhk": 5,
             "areaRaw": "9,470 sq ft",
@@ -7327,7 +7327,7 @@
             "features": null
           },
           {
-            "label": "5BHK",
+            "label": "5 BHK",
             "unitType": "Apartment",
             "bhk": 5,
             "areaRaw": "10,347 sq ft",
@@ -7714,7 +7714,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,750 sq ft",
@@ -7756,7 +7756,7 @@
             "features": null
           },
           {
-            "label": "5BHK",
+            "label": "5 BHK",
             "unitType": "Apartment",
             "bhk": 5,
             "areaRaw": "4,095 sq ft",
@@ -7770,7 +7770,7 @@
             "features": null
           },
           {
-            "label": "5BHK",
+            "label": "5 BHK",
             "unitType": "Apartment",
             "bhk": 5,
             "areaRaw": "4,495 sq ft",
@@ -8132,7 +8132,7 @@
     {
       "id": "b49dd03f-64af-4566-a403-d1e99e39ab97",
       "slug": "elan-the-statement-sector-49-sohna-road-gurgaon",
-      "name": "Elan The Statement , Sector 49, Sohna Road Gurgaon",
+      "name": "Elan The Statement",
       "sourceUrl": "https://www.realtycanvas.in/projects/elan-the-statement-sector-49-sohna-road-gurgaon",
       "developer": {
         "name": "Elan Group",
@@ -9094,7 +9094,7 @@
         "unitSizeMaxSqft": 2079,
         "configurations": [
           {
-            "label": "3BHK Small",
+            "label": "3 BHK Small",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,183 sq ft",
@@ -9108,7 +9108,7 @@
             "features": null
           },
           {
-            "label": "3BHK Large",
+            "label": "3 BHK Large",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,537 sq ft",
@@ -9122,7 +9122,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2,079 sq ft",
@@ -9471,7 +9471,7 @@
         "unitSizeMaxSqft": 3039,
         "configurations": [
           {
-            "label": "2BHK",
+            "label": "2 BHK",
             "unitType": "Apartment",
             "bhk": 2,
             "areaRaw": "1,500 sq ft",
@@ -9485,7 +9485,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,212 sq ft",
@@ -9499,7 +9499,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,262 sq ft",
@@ -9513,7 +9513,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,039 sq ft",
@@ -10163,7 +10163,7 @@
         "unitSizeMaxSqft": 3457,
         "configurations": [
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,833 sq ft",
@@ -10177,7 +10177,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,457 sq ft",
@@ -10775,7 +10775,7 @@
             "features": null
           },
           {
-            "label": "4BHK + Lounge",
+            "label": "4 BHK + Lounge",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "4,270 sq ft",
@@ -11366,7 +11366,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,665 sq ft",
@@ -11380,7 +11380,7 @@
             "features": null
           },
           {
-            "label": "3BHK + STUDY",
+            "label": "3 BHK + STUDY",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,825 sq ft",
@@ -11394,7 +11394,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,895 sq ft",
@@ -11408,7 +11408,7 @@
             "features": null
           },
           {
-            "label": "3BHK + UTILITY",
+            "label": "3 BHK + UTILITY",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,080 sq ft",
@@ -11422,7 +11422,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,170 sq ft",
@@ -11436,7 +11436,7 @@
             "features": null
           },
           {
-            "label": "4BHK + UTILITY",
+            "label": "4 BHK + UTILITY",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2,305 sq ft",
@@ -11450,7 +11450,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2,400 sq ft",
@@ -11464,7 +11464,7 @@
             "features": null
           },
           {
-            "label": "4BHK + UTILITY",
+            "label": "4 BHK + UTILITY",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2,570 sq ft",
@@ -11478,7 +11478,7 @@
             "features": null
           },
           {
-            "label": "4BHK + STUDY",
+            "label": "4 BHK + STUDY",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2,670 sq ft",
@@ -11827,7 +11827,7 @@
         "unitSizeMaxSqft": 2650,
         "configurations": [
           {
-            "label": "2BHK",
+            "label": "2 BHK",
             "unitType": "Apartment",
             "bhk": 2,
             "areaRaw": "1,420 Sq ft",
@@ -11841,7 +11841,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,900 sq ft",
@@ -11855,7 +11855,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,902 sq ft",
@@ -11869,7 +11869,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2,630 sq ft",
@@ -11883,7 +11883,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2,650 sq ft",
@@ -14489,7 +14489,7 @@
         "unitSizeMaxSqft": 4750,
         "configurations": [
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "4,750 sq ft",
@@ -15378,7 +15378,7 @@
         "unitSizeMaxSqft": 2503,
         "configurations": [
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,980 sq ft",
@@ -15392,7 +15392,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "1,998 sq ft",
@@ -15406,7 +15406,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,087 sq ft",
@@ -15420,7 +15420,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "APARTMENT",
             "bhk": 3,
             "areaRaw": "2,089 sq ft",
@@ -15434,7 +15434,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "APARTMENT",
             "bhk": 4,
             "areaRaw": "2,443 sq ft",
@@ -15448,7 +15448,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "APARTMENT",
             "bhk": 4,
             "areaRaw": "2,503 sq ft",
@@ -15767,7 +15767,7 @@
         "unitSizeMaxSqft": 3780,
         "configurations": [
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,780 sq ft",
@@ -15781,7 +15781,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,780 sq ft",
@@ -16044,7 +16044,7 @@
         "unitSizeMaxSqft": 7700,
         "configurations": [
           {
-            "label": "3BHK + SQ",
+            "label": "3 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,800 sq ft",
@@ -16058,7 +16058,7 @@
             "features": null
           },
           {
-            "label": "4BHK + SQ",
+            "label": "4 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,800 sq ft",
@@ -16072,7 +16072,7 @@
             "features": null
           },
           {
-            "label": "4BHK + SQ + Studay",
+            "label": "4 BHK + SQ + Studay",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "4,800 sq ft",
@@ -17237,7 +17237,7 @@
         "unitSizeMaxSqft": 3660,
         "configurations": [
           {
-            "label": "3.5BHK+SQ",
+            "label": "3.5 BHK+SQ",
             "unitType": "Apartment",
             "bhk": 3.5,
             "areaRaw": "2,945 sq ft",
@@ -17251,7 +17251,7 @@
             "features": null
           },
           {
-            "label": "3.5BHK+SQ",
+            "label": "3.5 BHK+SQ",
             "unitType": "Apartment",
             "bhk": 3.5,
             "areaRaw": "3,035 sq ft",
@@ -17265,7 +17265,7 @@
             "features": null
           },
           {
-            "label": "4BHK+SQ",
+            "label": "4 BHK+SQ",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,505 sq ft",
@@ -17279,7 +17279,7 @@
             "features": null
           },
           {
-            "label": "4.5BHK+SQ",
+            "label": "4.5 BHK+SQ",
             "unitType": "Apartment",
             "bhk": 4.5,
             "areaRaw": "3,660 sq ft",
@@ -17910,7 +17910,7 @@
         "unitSizeMaxSqft": 4285,
         "configurations": [
           {
-            "label": "3BHK + SQ",
+            "label": "3 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,836 sq ft",
@@ -17924,7 +17924,7 @@
             "features": null
           },
           {
-            "label": "3BHK + SQ",
+            "label": "3 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,845 sq ft",
@@ -17938,7 +17938,7 @@
             "features": null
           },
           {
-            "label": "3BHK + SQ",
+            "label": "3 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,847 sq ft",
@@ -17952,7 +17952,7 @@
             "features": null
           },
           {
-            "label": "4BHK + SQ",
+            "label": "4 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,537 sq ft",
@@ -17966,7 +17966,7 @@
             "features": null
           },
           {
-            "label": "4BHK + SQ",
+            "label": "4 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,595 sq ft",
@@ -17980,7 +17980,7 @@
             "features": null
           },
           {
-            "label": "4BHK + SQ",
+            "label": "4 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,691 sq ft",
@@ -17994,7 +17994,7 @@
             "features": null
           },
           {
-            "label": "4BHK + SQ",
+            "label": "4 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,765 sq ft",
@@ -18008,7 +18008,7 @@
             "features": null
           },
           {
-            "label": "4BHK + SQ",
+            "label": "4 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "4,061 sq ft",
@@ -18022,7 +18022,7 @@
             "features": null
           },
           {
-            "label": "4BHK + SQ",
+            "label": "4 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "4,240 sq ft",
@@ -18036,7 +18036,7 @@
             "features": null
           },
           {
-            "label": "4BHK + SQ",
+            "label": "4 BHK + SQ",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "4,285 sq ft",
@@ -19300,7 +19300,7 @@
     {
       "id": "6b799d00-5a0b-4a72-be56-4bd7c78352b0",
       "slug": "tarc-ishva-sector-63a-gurgaon",
-      "name": "Tarc Ishva Gurgaon",
+      "name": "Tarc Ishva",
       "sourceUrl": "https://www.realtycanvas.in/projects/tarc-ishva-sector-63a-gurgaon",
       "developer": {
         "name": "TARC",
@@ -19345,7 +19345,7 @@
         "unitSizeMaxSqft": 3883,
         "configurations": [
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,858 sq ft",
@@ -19359,7 +19359,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,945 sq ft",
@@ -19373,7 +19373,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,883 sq ft",
@@ -19620,7 +19620,7 @@
     {
       "id": "786c9418-5eed-4bf1-b548-fde1fc5dbc5b",
       "slug": "the-oryza",
-      "name": "The Oryza, Dwarka Expressway Gurgaon",
+      "name": "The Oryza",
       "sourceUrl": "https://www.realtycanvas.in/projects/the-oryza",
       "developer": {
         "name": null,
@@ -19993,7 +19993,7 @@
         "unitSizeMaxSqft": 3380,
         "configurations": [
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "2,642 sq ft",
@@ -20007,7 +20007,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "2,957 sq ft",
@@ -20021,7 +20021,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "3,380 sq ft",
@@ -20666,7 +20666,7 @@
     {
       "id": "7dd8456b-dfd9-4960-bf55-5f165feaf48e",
       "slug": "yugen-greens-goa-golf-township",
-      "name": "Yugen Greens: Goa’s 5 – Star Golf Township",
+      "name": "Yugen Greens",
       "sourceUrl": "https://www.realtycanvas.in/projects/yugen-greens-goa-golf-township",
       "developer": {
         "name": "Yugen Greens",
@@ -20711,7 +20711,7 @@
         "unitSizeMaxSqft": 6300,
         "configurations": [
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "3,150 sq ft",
@@ -20725,7 +20725,7 @@
             "features": null
           },
           {
-            "label": "3BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
             "areaRaw": "3,600 sq ft",
@@ -20739,7 +20739,7 @@
             "features": null
           },
           {
-            "label": "4BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
             "areaRaw": "4,500 sq ft",
@@ -20753,7 +20753,7 @@
             "features": null
           },
           {
-            "label": "5BHK",
+            "label": "5 BHK",
             "unitType": "Apartment",
             "bhk": 5,
             "areaRaw": "6,300 sq ft",

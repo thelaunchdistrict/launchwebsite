@@ -86,13 +86,14 @@
   .field[aria-invalid="true"] { border-color: var(--signal); }
   .label { display: block; font-size: 0.875rem; font-weight: 500; margin-bottom: 0.35rem; }
 
-  .card { background: var(--paper-raised); border: 1px solid var(--rule); border-radius: 14px; }
+  .card { background: var(--paper-raised); border: 1px solid var(--rule); border-radius: 14px; min-width: 0; }
   .chip { display: inline-flex; align-items: center; gap: 0.35rem; min-height: 28px; padding: 0 0.6rem; border-radius: 999px; border: 1px solid var(--rule-strong); font-size: 0.8125rem; line-height: 1; }
   .link { text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
   .link:hover { text-decoration-color: var(--ink); }
 
   .ledger { width: 100%; border-collapse: collapse; }
-  .ledger th { text-align: left; font-weight: 500; font-size: 0.75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); padding: .6rem .75rem; border-bottom: 1px solid var(--ink); }
+  .ledger thead th { text-align: left; font-weight: 500; font-size: 0.75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); padding: .6rem .75rem; border-bottom: 1px solid var(--ink); }
+  .ledger tbody th { padding: .75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
   .ledger td { padding: .75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
   .ledger td.n, .ledger th.n { text-align: right; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 

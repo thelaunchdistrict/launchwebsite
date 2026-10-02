@@ -20,14 +20,18 @@ export function Counter({ value, format = 'int', duration = 900 }: { value: numb
       };
       setShown(0);
       raf = requestAnimationFrame(tick);
+      // rAF pauses in background tabs; never leave a half-counted number on screen.
+      done = window.setTimeout(() => { cancelAnimationFrame(raf); setShown(value); }, duration + 150);
     }, { threshold: 0.6 });
+    let done = 0;
     io.observe(el);
-    return () => { io.disconnect(); cancelAnimationFrame(raf); };
+    return () => { io.disconnect(); cancelAnimationFrame(raf); clearTimeout(done); };
   }, [value, duration]);
   const text = format === 'inr' ? `₹${shown.toLocaleString('en-IN')}` : shown.toLocaleString('en-IN');
   return (
-    <span ref={ref} className="num" aria-label={format === 'inr' ? `₹${value.toLocaleString('en-IN')}` : String(value)}>
+    <span ref={ref} className="num">
       <span aria-hidden>{text}</span>
+      <span className="sr-only">{format === 'inr' ? `₹${value.toLocaleString('en-IN')}` : value}</span>
     </span>
   );
 }
