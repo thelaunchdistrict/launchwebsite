@@ -11,9 +11,9 @@ export function Badges({ badges, status, className = '' }: { badges: Badge[]; st
         <li
           key={b.key}
           title={b.note}
-          className={`chip ${b.early ? 'border-signal bg-signal-soft text-ink' : 'bg-raised text-ink-2'}`}
+          className={`chip ${b.key === 'hero' ? 'border-ink bg-ink font-medium text-paper' : b.early ? 'border-signal bg-signal-soft text-ink' : 'bg-raised text-ink-2'}`}
         >
-          <span aria-hidden className={b.early ? 'h-1.5 w-1.5 rotate-45 bg-signal' : 'h-1.5 w-1.5 rounded-full bg-ink-2'} />
+          {b.key === 'hero' ? <span aria-hidden>★</span> : <span aria-hidden className={b.early ? 'h-1.5 w-1.5 rotate-45 bg-signal' : 'h-1.5 w-1.5 rounded-full bg-ink-2'} />}
           {b.label}
           <span className="sr-only"> ({b.note})</span>
         </li>

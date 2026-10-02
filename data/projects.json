@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-10-02T08:58:23.710Z",
+  "generatedAt": "2026-10-02T10:17:30.235Z",
   "source": "https://www.realtycanvas.in",
-  "count": 60,
+  "count": 61,
   "projects": [
     {
+      "source": "listing",
       "id": "c05bb44a-4d96-4c65-9703-923dd67a4b91",
       "slug": "4s-the-aurrum-sector-59-gurgaon",
       "name": "4S The Aurrum",
@@ -344,6 +345,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "ae24318b-3030-428a-94f6-c9c93e7789f6",
       "slug": "adani-lushlands-gurgaon",
       "name": "Adani Lushlands",
@@ -716,6 +718,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "0ef5cdef-6f02-4591-a386-553534d6cce0",
       "slug": "adani-samsara-ivana-sector-63-gurgaon",
       "name": "Adani Samsara Ivana",
@@ -1030,6 +1033,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "9f1e5e3d-18bb-450b-bd00-8c0406ff8d2c",
       "slug": "adani-the-marq-sector-102-gurgaon",
       "name": "Adani The Marq",
@@ -1483,6 +1487,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "0d428cdd-2dcd-46ea-85ec-98471e318483",
       "slug": "aditya-birla-pravaah-sector-71-gurgaon",
       "name": "Aditya Birla Pravaah",
@@ -1750,6 +1755,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "c9b9ee68-248e-48fb-ae77-1b082109a89c",
       "slug": "aipl-autograph-sector-66-gurgaon",
       "name": "AIPL Autograph",
@@ -1973,6 +1979,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "a0526302-80d5-40e4-ba4f-0e030521e651",
       "slug": "aipl-joy-district-sector-88-gurgaon",
       "name": "AIPL Joy District",
@@ -2250,6 +2257,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "b78f7b94-2629-4566-b8a8-a14b578d3434",
       "slug": "aipl-lake-city-sector-103-gurgaon",
       "name": "AIPL Lake City",
@@ -2497,6 +2505,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "12ae60bb-6415-427c-86ad-adcb52eb5a8f",
       "slug": "anant-raj-estate-residences-sector-63a-gurgaon",
       "name": "Anant Raj Estate Residences",
@@ -2792,6 +2801,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "92cbf452-4a30-4a42-8b55-61bc7ca8baf8",
       "slug": "birla-arika-sector-31-nh8-gurgaon",
       "name": "Birla Arika",
@@ -3127,6 +3137,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "0442a99c-6f74-4f69-b564-e0ed491e52ac",
       "slug": "bptp-downtown-66-sector-66-gurgaon",
       "name": "BPTP Downtown 66",
@@ -3599,6 +3610,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "d2afb735-8465-414a-924f-a7226ea3319a",
       "slug": "bptp-gaia-residences-sector-102-gurgaon",
       "name": "BPTP Gaia Residences",
@@ -3978,6 +3990,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "e59debce-1f67-4a5f-ab7e-613fe1441982",
       "slug": "bptp-verti-greens-sector-102-gurgaon",
       "name": "BPTP Verti Greens",
@@ -4321,6 +4334,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "37aab4b2-99cd-4d22-9d89-a29e1c2868c4",
       "slug": "conscient-elevate-reserve-sector-62-gurgaon",
       "name": "Elevate Reserve",
@@ -4555,6 +4569,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "982ed68a-ba24-4226-b101-01e7f90de70a",
       "slug": "dlf-central-67-sector-67-gurgaon",
       "name": "DLF Central 67",
@@ -4769,6 +4784,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "7c97e410-c9ab-43a3-bd32-65a83a08fd8b",
       "slug": "dlf-club-arcade-sector-91-gurgaon",
       "name": "Club Arcade DLF",
@@ -5005,6 +5021,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "d0e6ac5d-365e-4efb-87da-97f37581be3a",
       "slug": "dlf-privana-north-sector-76-77-gurgaon",
       "name": "DLF Privana North",
@@ -5308,6 +5325,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "254b6fe9-2325-4bb5-a35d-b214cb88764d",
       "slug": "dlf-privana-south-sector-77-gurgaon",
       "name": "DLF Privana South",
@@ -5625,6 +5643,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "8b6a09f7-9696-4811-ad43-bad1dea5f324",
       "slug": "dlf-privana-west-sector-76-gurgaon",
       "name": "DLF Privana West",
@@ -5883,6 +5902,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "a9fb2cee-4190-4f2f-9940-8be2199e38e3",
       "slug": "dlf-the-arbour-sector-63-gurgaon",
       "name": "DLF The Arbour",
@@ -6165,6 +6185,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "9301a8cc-a2ab-4828-98a8-455229bd4beb",
       "slug": "elan-empire-sector-66-gurgaon",
       "name": "Elan Empire",
@@ -6438,6 +6459,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "a3af1f05-e6bb-4a25-a7be-1f9115867304",
       "slug": "elan-imperial-sector-82-gurgaon",
       "name": "Elan Imperial",
@@ -6904,6 +6926,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "165ef67e-ef7b-4dde-9a9b-817a92875500",
       "slug": "elan-paradise-sector-50-gurgaon",
       "name": "Elan Paradise",
@@ -7182,6 +7205,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "5ff0bc90-310e-4041-b86c-812b13c5bdad",
       "slug": "elan-the-emperor-sector-106-gurgaon",
       "name": "Elan The Emperor",
@@ -7653,6 +7677,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "ead71e2f-5982-4c58-b243-5e9cd88d9fe9",
       "slug": "elan-the-presidential-sector-106-gurgaon",
       "name": "Elan The Presidential",
@@ -8130,6 +8155,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "b49dd03f-64af-4566-a403-d1e99e39ab97",
       "slug": "elan-the-statement-sector-49-sohna-road-gurgaon",
       "name": "Elan The Statement",
@@ -8653,6 +8679,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "06e0aa61-ef5c-4892-beec-a5a1df6ec52c",
       "slug": "emaar-amaris-sector-62-gurgaon",
       "name": "Emaar Amaris",
@@ -9047,6 +9074,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "06e26fdd-0848-4571-966b-9b596f668771",
       "slug": "emaar-serenity-hills-sector-86-gurgaon",
       "name": "Emaar Serenity Hills",
@@ -9424,6 +9452,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "21f65c22-0ac4-4e2e-92df-029afe926330",
       "slug": "emaar-urban-oasis-sector-62-gurgaon",
       "name": "Emaar Urban Oasis",
@@ -9726,6 +9755,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "6b1c33af-b1a9-49a4-a9ca-6fa3545214f2",
       "slug": "experion-the-trillion-sector-48-gurgaon",
       "name": "Experion The Trillion",
@@ -10116,6 +10146,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "7a117c0f-16eb-4536-a0a6-028271a06f3b",
       "slug": "hero-homes-the-palatial-sector-104-gurgaon",
       "name": "Hero Homes The Palatial",
@@ -10399,6 +10430,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "6abc2559-f9b4-4173-97fe-9b5e70f47bb1",
       "slug": "hines-elevate-sector-59-gurgaon",
       "name": "Hines Elevate",
@@ -10700,6 +10732,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "491d8e64-e144-40cd-bf4b-0273fc49acf7",
       "slug": "m3m-altitude-sector-65-gurgaon",
       "name": "M3M Altitude",
@@ -11038,6 +11071,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "d6239c57-d7ed-4da1-84cc-3330b1ea324c",
       "slug": "m3m-capital-walk-sector-113-gurgaon",
       "name": "M3M Capital Walk",
@@ -11305,6 +11339,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "3fed7102-bc0c-4fe5-a6b4-b30868757223",
       "slug": "m3m-crown-sector-111-gurgaon",
       "name": "M3M Crown",
@@ -11780,6 +11815,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "2a2c45d5-0f68-459c-a286-0509b7bb6073",
       "slug": "m3m-golf-hills-sector-79-gurgaon",
       "name": "M3M Golf Hills",
@@ -12109,6 +12145,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "25c84bea-37cc-4a00-a8eb-a504f8a191f4",
       "slug": "m3m-jewel-sector-25-gurgaon",
       "name": "M3M Jewel",
@@ -12397,6 +12434,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "6a3994f8-8b87-441d-8d43-732f7162ac90",
       "slug": "m3m-mansion-sector-113-gurgaon",
       "name": "M3M Mansion",
@@ -13004,6 +13042,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "4c17e492-2ed5-478e-82e3-2756706a85f9",
       "slug": "m3m-paragon-57-sector-57-gurgaon",
       "name": "M3M Paragon57",
@@ -13319,6 +13358,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "d9401432-af8d-41fc-8230-594a70cc2a98",
       "slug": "m3m-route-65-sector-65-gurgaon",
       "name": "M3M Route 65",
@@ -13607,6 +13647,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "c4348b89-26f3-4e74-9253-4a68bd32df22",
       "slug": "m3m-trump-towers-sector-65-gurgaon",
       "name": "M3M Trump Towers",
@@ -13914,6 +13955,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "20e1a7ff-2d5a-4bb7-b658-2b0c95a02d42",
       "slug": "max-estate-360-residences-sector-36a-gurgaon",
       "name": "Max Estate 360 Residences",
@@ -14442,6 +14484,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "ef4d244d-fb32-42d7-a4be-0f515c4ed2c8",
       "slug": "paras-manor-sector-2-gurgaon",
       "name": "Paras Manor",
@@ -14733,6 +14776,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "a44c5240-3c6f-4c6a-96ee-8ac62af3511e",
       "slug": "puri-diplomatic-residency-sector-111-gurgaon",
       "name": "Puri Diplomatic Residency",
@@ -15044,6 +15088,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "37475cb7-21c0-4c64-ba62-5174ca162a47",
       "slug": "puri-the-aravallis-sector-61-gurgaon",
       "name": "Puri The Aravallis",
@@ -15331,6 +15376,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "bfdbaac8-419e-473e-ae73-6edd80f14387",
       "slug": "shapoorji-pallonji-the-dualis-sector-46-gurgaon",
       "name": "Shapoorji Pallonji The Dualis",
@@ -15720,6 +15766,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "8e7d9d67-660b-4099-b583-f39f14bf9a26",
       "slug": "signature-global-titanium-spr-sector-71-gurgaon",
       "name": "Signature Global Titanium SPR",
@@ -15997,6 +16044,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "bccdee7e-3f5d-4e88-a0c9-070942334caa",
       "slug": "silverglades-the-legacy-sector-63a-gurgaon",
       "name": "Silverglades The Legacy",
@@ -16320,6 +16368,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "f9b16292-de07-471d-9d9c-d9f92bd44692",
       "slug": "smartworld-one-dxp-sector-113-gurgaon",
       "name": "Smartworld One DXP",
@@ -16888,6 +16937,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "728db93d-8501-488a-a01b-8917095530a1",
       "slug": "smartworld-skyarc-sector-gurgaon-sector-69",
       "name": "Smartworld SkyArc",
@@ -17190,6 +17240,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "90c0031f-c707-4bed-b8f7-75f690c2b088",
       "slug": "smartworld-the-edition-sector-68-gurgaon",
       "name": "Smartworld The Edition",
@@ -17523,6 +17574,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "8eab2ac6-fbc3-450e-b4a9-16ae669df765",
       "slug": "smartworld-the-trump-residences-sector-69-gurgaon",
       "name": "Smartworld The Trump Residences",
@@ -17863,6 +17915,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "049251cb-0089-4e71-8624-88c23074f082",
       "slug": "sobha-aranya-sector-80-gurgaon",
       "name": "Sobha Aranya",
@@ -18336,6 +18389,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "f07e7eba-d089-40ba-87d1-95ffb93a7f52",
       "slug": "sobha-sector-63a-gurgaon",
       "name": "Sobha Crescent",
@@ -18798,6 +18852,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "986e025d-5bf1-4c5d-90b9-2c5bda59d34a",
       "slug": "spj-vedatam-sector-14-gurgaon",
       "name": "SPJ Vedatam",
@@ -19298,6 +19353,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "6b799d00-5a0b-4a72-be56-4bd7c78352b0",
       "slug": "tarc-ishva-sector-63a-gurgaon",
       "name": "TARC Ishva",
@@ -19618,6 +19674,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "786c9418-5eed-4bf1-b548-fde1fc5dbc5b",
       "slug": "the-oryza",
       "name": "The Oryza",
@@ -19946,6 +20003,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "8853edc1-08b4-4512-b7d8-5e10800896fe",
       "slug": "trevoc-royal-residences-gurgaon",
       "name": "Trevoc Royal Residences",
@@ -20307,6 +20365,7 @@
       }
     },
     {
+      "source": "listing",
       "id": "bd535d19-6a06-45cc-a692-3d56849d8e89",
       "slug": "whiteland-westin-residences-sector-103-gurgaon",
       "name": "Whiteland Westin Residences",
@@ -20664,12 +20723,630 @@
       }
     },
     {
+      "id": "curated-yugen-golf-city",
+      "slug": "yugen-golf-city",
+      "name": "Yugen Golf City",
+      "source": "curated",
+      "sourceNote": "Developer brochure, layout plan, poster and sales message supplied to Falcon on 2 Oct 2026",
+      "featured": {
+        "rank": 1,
+        "label": "Hero project"
+      },
+      "supersedes": [
+        "yugen-greens-goa-golf-township"
+      ],
+      "sourceUrl": "developer-material:yugen-golf-city",
+      "developer": {
+        "name": "Yugen Infra",
+        "nameRaw": "Yugen Infra"
+      },
+      "projectType": "township",
+      "categoryRaw": "Golf-centric township (plots, villas, farmhouses, apartments)",
+      "typeRaw": null,
+      "status": "new-launch",
+      "statusRaw": "Developer material: Garden of Eden villa plots RERA-approved and selling; Phase I (Golfer's Paradise) sold out",
+      "marketingStage": null,
+      "marketingStageRaw": null,
+      "reraNumber": "PP1310002501906",
+      "launchDate": null,
+      "launchDateRaw": null,
+      "possessionDate": null,
+      "possessionDateRaw": null,
+      "location": {
+        "sector": null,
+        "microMarket": null,
+        "locality": "Banda, near Patradevi",
+        "city": "Banda (Goa–Maharashtra border, near Mopa)",
+        "cityRaw": "Next to Goa International Airport (Mopa)",
+        "state": "Maharashtra (verify)",
+        "address": "Banda, on NH-66 near the Goa border — next to Manohar International Airport (Mopa)",
+        "latitude": null,
+        "longitude": null,
+        "landmarks": [
+          "Manohar International Airport (Mopa)",
+          "NH-66 Goa–Mumbai Highway",
+          "Proposed Shakti Peeth Expressway (Goa–Nagpur)",
+          "Patradevi"
+        ],
+        "connectivity": [
+          {
+            "name": "Manohar International Airport (Mopa)",
+            "category": "airport",
+            "distanceKm": 5,
+            "travelTime": "15 min",
+            "travelTimeMin": 15
+          },
+          {
+            "name": "Upcoming casino zone (Dhargal)",
+            "category": "leisure",
+            "distanceKm": null,
+            "travelTime": "10 min",
+            "travelTimeMin": 10
+          },
+          {
+            "name": "All India Institute of Ayurveda (AYUSH hospital)",
+            "category": "hospital",
+            "distanceKm": null,
+            "travelTime": "15 min",
+            "travelTimeMin": 15
+          },
+          {
+            "name": "Panjim",
+            "category": "city",
+            "distanceKm": null,
+            "travelTime": "35 min",
+            "travelTimeMin": 35
+          },
+          {
+            "name": "North Goa beaches (Arambol, Mandrem, Morjim, Vagator)",
+            "category": "beach",
+            "distanceKm": null,
+            "travelTime": "30–40 min",
+            "travelTimeMin": 35
+          }
+        ],
+        "commentary": "The developer's map places Golf City at Banda, beside the NH-66 Goa–Mumbai highway and on the alignment of the proposed Shakti Peeth Expressway, about 5 km (aerial) north of Manohar International Airport at Mopa. Distances are the developer's drive-time estimates. The 5 km figure is an aerial distance."
+      },
+      "pricing": {
+        "startingPriceRaw": "₹99.9 Lakhs onwards (Garden of Eden plots, 200 sq yd)",
+        "startingPriceInr": 9990000,
+        "priceRangeRaw": "₹99.9 L (plots) to ₹3.59 Cr (villas)",
+        "priceMinInr": 9990000,
+        "priceMaxInr": null,
+        "pricePerSqftMinInr": 11490,
+        "pricePerSqftMaxInr": null,
+        "entryPricePerSqftInr": null,
+        "unitSizeMinSqft": 1800,
+        "unitSizeMaxSqft": 27000,
+        "configurations": [
+          {
+            "label": "Garden of Eden — villa plot",
+            "unitType": "Plot",
+            "bhk": null,
+            "areaRaw": "200 sq yd onwards",
+            "areaSqft": 1800,
+            "areaBasis": "plot area",
+            "priceRaw": "₹99.9 Lakhs onwards",
+            "priceInr": 9990000,
+            "pricePerSqftRaw": null,
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": "RERA PP1310002501906 · 278 plots on 45 acres"
+          },
+          {
+            "label": "Golf Drive — farmhouse plot",
+            "unitType": "Farmhouse",
+            "bhk": null,
+            "areaRaw": "1,300–3,000 sq yd",
+            "areaSqft": 11700,
+            "areaBasis": "plot area",
+            "priceRaw": "₹2.99 Cr onwards",
+            "priceInr": 29900000,
+            "pricePerSqftRaw": null,
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": "29 farmhouses with golf course membership"
+          },
+          {
+            "label": "Acqua Front Villa",
+            "unitType": "Villa",
+            "bhk": null,
+            "areaRaw": "390 sq yd onwards",
+            "areaSqft": 3510,
+            "areaBasis": "plot area",
+            "priceRaw": "₹3.59 Cr onwards",
+            "priceInr": 35900000,
+            "pricePerSqftRaw": null,
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": "Lake-facing; managed by The Registry Collection by Wyndham; rental commitment ₹1,75,000/month"
+          },
+          {
+            "label": "Studio",
+            "unitType": "Apartment",
+            "bhk": 0,
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": null,
+            "priceRaw": "₹11,490 per sq ft onwards",
+            "priceInr": null,
+            "pricePerSqftRaw": "₹11,490",
+            "pricePerSqftInr": 11490,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "1 BHK",
+            "unitType": "Apartment",
+            "bhk": 1,
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": null,
+            "priceRaw": "₹11,490 per sq ft onwards",
+            "priceInr": null,
+            "pricePerSqftRaw": "₹11,490",
+            "pricePerSqftInr": 11490,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "2 BHK",
+            "unitType": "Apartment",
+            "bhk": 2,
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": null,
+            "priceRaw": "₹11,490 per sq ft onwards",
+            "priceInr": null,
+            "pricePerSqftRaw": "₹11,490",
+            "pricePerSqftInr": 11490,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "Cricket Front Villa",
+            "unitType": "Villa",
+            "bhk": null,
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": null,
+            "priceRaw": "By invitation",
+            "priceInr": null,
+            "pricePerSqftRaw": null,
+            "pricePerSqftInr": null,
+            "availability": "by invitation",
+            "features": "30 villas, concept by Gary Kirsten"
+          }
+        ],
+        "paymentPlan": null,
+        "bookingAmount": null,
+        "otherCharges": null
+      },
+      "facts": {
+        "landAreaRaw": "500+ acres (proposed township) · Garden of Eden 45 acres",
+        "landAreaAcres": null,
+        "towers": null,
+        "floors": null,
+        "units": null,
+        "soldUnits": null,
+        "availableUnits": null,
+        "unitsPerAcre": null,
+        "openSpacePercent": null,
+        "architect": "Pinnacle Architects (villa design); Space Design Group (master plan)",
+        "landscapeDesigner": null,
+        "constructionPartner": null
+      },
+      "content": {
+        "title": "Yugen Golf City — 5-star golf resort living next to Mopa airport",
+        "subtitle": "North Goa region's first golf-centric township: plots, lake-facing villas, golf farmhouses and apartments beside Mopa airport",
+        "description": "Yugen Golf City is a proposed 500+ acre golf-centric township by Yugen Infra, next to Manohar International Airport (Mopa) and on the NH-66 Goa–Mumbai highway. It is planned around a 9-hole executive golf course designed by IDG (UK), and the township is to be managed by a five-star hospitality partner. It is being sold in parts: Garden of Eden villa plots (RERA-approved, 278 plots on 45 acres), Acqua Front lake-facing villas run with The Registry Collection by Wyndham, Golf Drive farmhouses, studio to 2 BHK apartments, and an invitation-only Cricket Front Villas enclave. Phase I, Golfer's Paradise, had 151 villa plots on 30 acres, which the developer reports as sold out.",
+        "overview": "Yugen Golf City is being developed by Yugen Infra, whose delivered projects include Sohna Greens (11 acres, DDJAY, Sector 4 Sohna, Gurugram), La Mandre (13 villas at Mandrem Beach, Goa) and a 250-acre industrial township at Sonipat.\n\nThe developer's case rests on three things:\n• Location beside the new Mopa airport and NH-66, with the proposed Shakti Peeth Expressway alongside\n• A golf course and resort-style amenities run by a five-star hospitality brand\n• Hotel-managed villas with a stated rental commitment",
+        "highlights": [
+          "Proposed 500+ acre golf-centric township",
+          "9-hole executive golf course designed by IDG, UK",
+          "5 km (aerial) from Mopa airport, about 15 min drive",
+          "On NH-66 Goa–Mumbai highway",
+          "Garden of Eden villa plots — RERA PP1310002501906",
+          "Acqua Front Villas managed by The Registry Collection by Wyndham",
+          "Approx. 2-acre artificial lake with floating restaurant",
+          "Helipad, lazy river and Olympic-size pool"
+        ],
+        "amenities": [
+          {
+            "category": "SPORTS",
+            "name": "9-hole executive golf course",
+            "details": "Designed by IDG, UK; access to the golf course for residents (terms apply)"
+          },
+          {
+            "category": "SPORTS",
+            "name": "Olympic-size swimming pool",
+            "details": null
+          },
+          {
+            "category": "SPORTS",
+            "name": "Indoor & outdoor games arena",
+            "details": null
+          },
+          {
+            "category": "SPORTS",
+            "name": "Cycling track",
+            "details": null
+          },
+          {
+            "category": "SPORTS",
+            "name": "Jogging track & fitness trail",
+            "details": null
+          },
+          {
+            "category": "SPORTS",
+            "name": "Cricket pitch",
+            "details": null
+          },
+          {
+            "category": "SPORTS",
+            "name": "Squash court & gym",
+            "details": null
+          },
+          {
+            "category": "CLUBHOUSE",
+            "name": "5-star clubhouse",
+            "details": "With modern amenities"
+          },
+          {
+            "category": "CLUBHOUSE",
+            "name": "Rooftop bar & restaurant",
+            "details": "360° hill views"
+          },
+          {
+            "category": "CLUBHOUSE",
+            "name": "Floating restaurant & bar",
+            "details": "On the artificial lake"
+          },
+          {
+            "category": "RECREATION",
+            "name": "Artificial lake (approx. 2 acres)",
+            "details": null
+          },
+          {
+            "category": "RECREATION",
+            "name": "Lazy river",
+            "details": null
+          },
+          {
+            "category": "RECREATION",
+            "name": "Water park & kids' play area",
+            "details": null
+          },
+          {
+            "category": "RECREATION",
+            "name": "Horse riding",
+            "details": null
+          },
+          {
+            "category": "RECREATION",
+            "name": "Trekking zone & nature trail",
+            "details": null
+          },
+          {
+            "category": "RECREATION",
+            "name": "Amphitheatre",
+            "details": null
+          },
+          {
+            "category": "RECREATION",
+            "name": "Water fountain at entrance plaza",
+            "details": null
+          },
+          {
+            "category": "WELLNESS",
+            "name": "Spa & massage centre",
+            "details": null
+          },
+          {
+            "category": "WELLNESS",
+            "name": "Yoga & meditation lawns",
+            "details": null
+          },
+          {
+            "category": "ENVIRONMENT",
+            "name": "Multiple theme-based gardens",
+            "details": "Resort-style landscaping and lighting"
+          },
+          {
+            "category": "ENVIRONMENT",
+            "name": "Organic farming zone",
+            "details": null
+          },
+          {
+            "category": "ENVIRONMENT",
+            "name": "Sewage treatment plant (STP)",
+            "details": null
+          },
+          {
+            "category": "SAFETY",
+            "name": "Gated community, 3-tier security",
+            "details": "CCTV surveillance"
+          },
+          {
+            "category": "SAFETY",
+            "name": "Quick Response Team (QRT)",
+            "details": "For contingencies"
+          },
+          {
+            "category": "CONVENIENCE",
+            "name": "12 m and 15 m wide internal roads",
+            "details": null
+          },
+          {
+            "category": "CONVENIENCE",
+            "name": "Underground electricity",
+            "details": "100% power and water backup"
+          },
+          {
+            "category": "CONVENIENCE",
+            "name": "Helipad",
+            "details": null
+          },
+          {
+            "category": "CONVENIENCE",
+            "name": "Round-the-clock concierge",
+            "details": null
+          },
+          {
+            "category": "CONVENIENCE",
+            "name": "Convenience shopping area",
+            "details": null
+          },
+          {
+            "category": "CONVENIENCE",
+            "name": "Bank loan facility & exit assistance",
+            "details": "As offered by the developer"
+          }
+        ],
+        "specifications": [],
+        "faqs": [
+          {
+            "question": "Where exactly is Yugen Golf City?",
+            "answer": "The developer's map and plan sheets place it at Banda, beside NH-66 and about 5 km (aerial) north of Manohar International Airport, Mopa. Banda lies just across the Goa border in Sindhudurg district, Maharashtra, although the project is marketed as Goa. Confirm the state, village and survey numbers in the sale documents."
+          },
+          {
+            "question": "Is the project RERA registered?",
+            "answer": "The Garden of Eden villa plots carry RERA number PP1310002501906 in the developer's material. Check that number on the relevant state RERA portal; its format suggests MahaRERA. Each other phase (villas, farmhouses, apartments) needs its own registration, so ask for the number of the exact phase you buy."
+          },
+          {
+            "question": "What can I buy and at what price?",
+            "answer": "Per the developer's poster: Garden of Eden plots from 200 sq yd at ₹99.9 lakh onwards; Golf Drive farmhouse plots from 1,300 sq yd at ₹2.99 Cr onwards; Acqua Front Villas from 390 sq yd at ₹3.59 Cr onwards; and studio, 1 BHK and 2 BHK apartments from ₹11,490 per sq ft. A separate sales message quotes plots from ₹1.35 Cr and villas from ₹3.50 Cr, so ask for the current price sheet."
+          },
+          {
+            "question": "What is the rental commitment on Acqua Front Villas?",
+            "answer": "The brochure lists a 15-year lease at ₹1,75,000 per month, locked for the first 3 years, then 85% of profit shared with the owner. It also lists lifetime Wyndham membership, 5 years of golf course membership and a 30-day free stay each year. These are contractual promises by the developer and operator, so read the lease deed before relying on them."
+          },
+          {
+            "question": "Who designs and manages the township?",
+            "answer": "The golf course is designed by IDG (UK). The developer says the township will be managed by a five-star hospitality partner, and the Acqua Front Villas by The Registry Collection by Wyndham."
+          },
+          {
+            "question": "Is bank finance available?",
+            "answer": "The developer states that bank loans are available. Confirm which lenders have approved the specific phase."
+          }
+        ],
+        "investmentCommentary": "Falcon's read: Golf City is a long-horizon land and leisure play. The upside depends on Mopa airport's growth, the proposed Shakti Peeth Expressway and how quickly the golf course and resort amenities are delivered.\n\nOn the stated villa rent: ₹1,75,000 a month is ₹21 lakh a year, about 5.9% gross on a ₹3.59 Cr entry price, before costs and tax. That is well above typical Indian residential yields, which is exactly why the lease terms, the operator's obligations and what happens after year 3 need to be read in the contract.\n\nThe brochure's appreciation chart projects land rates rising to ₹1,00,000+ per sq yd by 2030. That is a developer projection, not a market index.",
+        "offerings": [
+          {
+            "title": "Garden of Eden — villa plots",
+            "details": "278 plots on 45 acres, RERA PP1310002501906. From 200 sq yd at ₹99.9 L onwards."
+          },
+          {
+            "title": "Acqua Front Villas",
+            "details": "Lake-facing villas (62 per brochure, 70 per sales message) run with The Registry Collection by Wyndham. From ₹3.59 Cr; 15-year lease at ₹1.75 L/month, locked for 3 years."
+          },
+          {
+            "title": "Golf Drive — golf farm life",
+            "details": "29 farmhouses of 1,300 to 3,000 sq yd with golf course membership. From ₹2.99 Cr."
+          },
+          {
+            "title": "Apartments",
+            "details": "Studio, 1 BHK and 2 BHK from ₹11,490 per sq ft."
+          },
+          {
+            "title": "Cricket Front Villas",
+            "details": "By invitation: 30 bespoke villas conceptualised by Gary Kirsten."
+          },
+          {
+            "title": "Golfer's Paradise — Phase I",
+            "details": "151 villa plots on 30 acres; the developer reports it as sold out within 3 months."
+          }
+        ],
+        "developerClaims": [
+          {
+            "claim": "\"High appreciation & ROI guaranteed\"",
+            "note": "Returns on property cannot be guaranteed by a seller. Treat this as marketing, not a term of sale."
+          },
+          {
+            "claim": "\"Guaranteed monthly rental ₹1,75,000\" (Acqua Front Villas)",
+            "note": "Ask for the lease deed: who pays, what security backs it, what happens if the operator exits, and how profit is shared after year 3."
+          },
+          {
+            "claim": "Phase I \"sold out in 3 months, giving more than 2X return\"",
+            "note": "Ask for registered resale transactions that show the 2X. The figure is not verified."
+          },
+          {
+            "claim": "Plot price: ₹99.9 L onwards (poster) vs ₹1.35 Cr onwards (sales message)",
+            "note": "The two sources disagree. Falcon shows the poster figure. Ask for the current price sheet."
+          },
+          {
+            "claim": "Villas: 62 (brochure) vs 70 (sales message); from ₹3.59 Cr (poster) vs ₹3.50 Cr (message)",
+            "note": "The two sources disagree. Confirm inventory and price in writing."
+          },
+          {
+            "claim": "Land rate projected at ₹1,00,000+ per sq yd by 2030",
+            "note": "Developer projection from the brochure's appreciation chart."
+          }
+        ]
+      },
+      "diligenceNotes": [
+        {
+          "label": "Location and jurisdiction",
+          "state": "caution",
+          "detail": "Marketed as Goa, but the developer's plan sheets and map place the site at Banda, across the border in Sindhudurg, Maharashtra. Stamp duty, land-use rules and the RERA authority follow the state the land is actually in. Confirm survey numbers and the state before booking."
+        },
+        {
+          "label": "Rental commitment",
+          "state": "caution",
+          "detail": "The ₹1.75 L/month villa rent is a developer and operator promise, not a guarantee in law. Read the lease deed and the operator agreement with The Registry Collection by Wyndham."
+        },
+        {
+          "label": "Township vs phase",
+          "state": "caution",
+          "detail": "The 500+ acre township and golf course are described as proposed. Only the Garden of Eden phase shows a RERA number. Buy against the registered phase, not the township master plan."
+        }
+      ],
+      "media": {
+        "hero": {
+          "originalUrl": "developer-material:Golfcity.pdf#page=11",
+          "localPath": "data/curated/images/yugen-golf-city/hero/01-golf-course.jpg",
+          "width": 1536,
+          "height": 1024
+        },
+        "gallery": [
+          {
+            "originalUrl": "developer-material:poster.jpg",
+            "localPath": "data/curated/images/yugen-golf-city/gallery/01-acqua-front-villas-aerial.jpg",
+            "width": 539,
+            "height": 385
+          },
+          {
+            "originalUrl": "developer-material:poster.jpg",
+            "localPath": "data/curated/images/yugen-golf-city/gallery/02-garden-of-eden-plots-aerial.jpg",
+            "width": 539,
+            "height": 453
+          },
+          {
+            "originalUrl": "developer-material:Golfcity.pdf#page=21",
+            "localPath": "data/curated/images/yugen-golf-city/gallery/03-garden-of-eden-villa-render.jpg",
+            "width": 720,
+            "height": 720
+          },
+          {
+            "originalUrl": "developer-material:poster.jpg",
+            "localPath": "data/curated/images/yugen-golf-city/gallery/04-golf-drive-farmhouse.jpg",
+            "width": 502,
+            "height": 509
+          },
+          {
+            "originalUrl": "developer-material:Golfcity.pdf#page=31",
+            "localPath": "data/curated/images/yugen-golf-city/gallery/05-golf-drive-estate.jpg",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "originalUrl": "developer-material:Golfcity.pdf#page=26",
+            "localPath": "data/curated/images/yugen-golf-city/gallery/06-villa-elevation.jpg",
+            "width": 1248,
+            "height": 726
+          },
+          {
+            "originalUrl": "developer-material:Golfcity.pdf#page=27",
+            "localPath": "data/curated/images/yugen-golf-city/gallery/07-entrance-plaza.jpg",
+            "width": 1500,
+            "height": 806
+          },
+          {
+            "originalUrl": "developer-material:Golfcity.pdf#page=27",
+            "localPath": "data/curated/images/yugen-golf-city/gallery/08-villa-interior.jpg",
+            "width": 1200,
+            "height": 800
+          },
+          {
+            "originalUrl": "developer-material:poster.jpg",
+            "localPath": "data/curated/images/yugen-golf-city/gallery/10-apartments-rooftop.jpg",
+            "width": 502,
+            "height": 378
+          },
+          {
+            "originalUrl": "developer-material:poster.jpg",
+            "localPath": "data/curated/images/yugen-golf-city/gallery/11-project-poster.jpg",
+            "width": 1131,
+            "height": 1600
+          }
+        ],
+        "floorPlans": [
+          {
+            "label": "Acqua Front Villa — ground & first floor (plot 15.70 × 28.70 m, 540.71 sq yd)",
+            "level": "Villa",
+            "details": null,
+            "image": {
+              "originalUrl": "developer-material:Golfcity.pdf#page=28",
+              "localPath": "data/curated/images/yugen-golf-city/floor-plans/01-acqua-front-villa-ground-and-first-floor.jpg",
+              "width": 2400,
+              "height": 1695
+            }
+          },
+          {
+            "label": "Golfer's Paradise — Phase I site plan",
+            "level": "Site plans",
+            "details": null,
+            "image": {
+              "originalUrl": "developer-material:Golfcity.pdf#page=20",
+              "localPath": "data/curated/images/yugen-golf-city/floor-plans/02-golfers-paradise-phase-1-site-plan.jpg",
+              "width": 2100,
+              "height": 1575
+            }
+          },
+          {
+            "label": "Key destinations map",
+            "level": "Site plans",
+            "details": null,
+            "image": {
+              "originalUrl": "developer-material:Golfcity.pdf#page=16",
+              "localPath": "data/curated/images/yugen-golf-city/location-map/01-key-destinations.jpg",
+              "width": 2400,
+              "height": 1205
+            }
+          }
+        ],
+        "sitePlan": {
+          "originalUrl": "developer-material:layout-GOE.pdf",
+          "localPath": "data/curated/images/yugen-golf-city/site-plan/01-garden-of-eden-layout.jpg",
+          "width": 2600,
+          "height": 1840
+        },
+        "videos": [],
+        "virtualTours": [],
+        "brochurePdf": null,
+        "developerLogo": null,
+        "imageCount": 15
+      },
+      "seo": {
+        "title": "Yugen Golf City near Mopa — plots, villas & farmhouses",
+        "description": "Golf-centric township by Yugen Infra next to Mopa airport: Garden of Eden plots from ₹99.9 L, Acqua Front Villas from ₹3.59 Cr, Golf Drive farmhouses and apartments.",
+        "keywords": [
+          "yugen golf city",
+          "garden of eden plots",
+          "acqua front villa",
+          "mopa airport plots",
+          "golf township goa"
+        ],
+        "h1": "Yugen Golf City"
+      },
+      "relatedSlugs": [],
+      "sourceCreatedAt": "2026-10-02T00:00:00.000Z",
+      "scrapedAt": "2026-10-02T00:00:00.000Z",
+      "provenance": {
+        "pricing": "developer poster (supplied)",
+        "location.state": "falcon-inference: developer plan sheets name Banda (Sindhudurg, Maharashtra)",
+        "status": "falcon-inference: RERA-approved phase now selling",
+        "connectivity": "developer brochure key-destinations map"
+      }
+    },
+    {
+      "source": "listing",
       "id": "7dd8456b-dfd9-4960-bf55-5f165feaf48e",
       "slug": "yugen-greens-goa-golf-township",
       "name": "Yugen Greens",
       "sourceUrl": "https://www.realtycanvas.in/projects/yugen-greens-goa-golf-township",
       "developer": {
-        "name": "Yugen Greens",
+        "name": "Yugen Infra",
         "nameRaw": "Yugen Greens: Goa’s 5-Star Golf Township"
       },
       "projectType": "residential",
@@ -20927,7 +21604,8 @@
       "provenance": {
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres"
-      }
+      },
+      "supersededBy": "yugen-golf-city"
     }
   ]
 }

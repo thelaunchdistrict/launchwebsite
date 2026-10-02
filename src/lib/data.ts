@@ -8,7 +8,9 @@ import { badgesOf, monthsUntil, stageOf } from './stage';
 import type { ImageRef, Project, ProjectSummary, WebImage } from './types';
 
 const mediaMap = mediaMapJson as Record<string, WebImage>;
-const projects = (dataset as unknown as { projects: Project[] }).projects.filter((p) => p.name);
+const everything = (dataset as unknown as { projects: Project[] }).projects.filter((p) => p.name);
+// Listings replaced by a curated entry keep their page (with a pointer onward) but leave every list.
+const projects = everything.filter((p) => !p.supersededBy);
 
 export const datasetMeta = {
   generatedAt: (dataset as { generatedAt: string }).generatedAt,
@@ -29,12 +31,18 @@ export function img(ref: ImageRef | null | undefined): WebImage | null {
   return mediaMap[ref.localPath] ?? null;
 }
 
+/** Projects shown in lists, stats and the sitemap. */
 export function allProjects(): Project[] {
   return projects;
 }
 
+/** Every project that has a page, including superseded listings. */
+export function allPages(): Project[] {
+  return everything;
+}
+
 export function getProject(slug: string): Project | undefined {
-  return projects.find((p) => p.slug === slug);
+  return everything.find((p) => p.slug === slug);
 }
 
 /** ₹/sq ft used for comparisons: published rate when the source has one, else Falcon's derived entry rate. */
@@ -66,7 +74,9 @@ export function summarize(p: Project): ProjectSummary {
     sizeMin: p.pricing.unitSizeMinSqft,
     sizeMax: p.pricing.unitSizeMaxSqft,
     bhks,
-    configLabels: [...new Set(p.pricing.configurations.map((c) => c.label).filter((x): x is string => !!x))],
+    configLabels: p.projectType === 'township'
+      ? [...new Set(p.pricing.configurations.map((c) => (c.unitType ? `${c.unitType}s` : null)).filter((x): x is string => !!x))]
+      : [...new Set(p.pricing.configurations.map((c) => c.label).filter((x): x is string => !!x))],
     possession: p.possessionDate,
     possessionYear: p.possessionDate ? Number(p.possessionDate.slice(0, 4)) : null,
     rera: p.reraNumber,
@@ -74,6 +84,8 @@ export function summarize(p: Project): ProjectSummary {
     acres: p.facts.landAreaAcres,
     image: img(p.media.hero) ?? img(p.media.gallery[0]),
     createdAt: p.sourceCreatedAt,
+    featured: p.featured ?? null,
+    locationLabel: p.location.sector ? `Sector ${p.location.sector}` : p.location.locality ?? p.location.city,
   };
 }
 
@@ -83,10 +95,10 @@ export function summaries(): ProjectSummary[] {
 }
 
 export function featured(n = 6): ProjectSummary[] {
-  // Earliest on the rail first, then the furthest possession (more runway), then newest listing.
+  // Editorial picks first (by rank), then earliest on the rail, furthest possession, newest listing.
   return [...summaries()]
     .filter((s) => s.image && s.priceFrom)
-    .sort((a, b) => a.stage.position - b.stage.position || (b.possession ?? '').localeCompare(a.possession ?? '') || (b.createdAt ?? '').localeCompare(a.createdAt ?? ''))
+    .sort((a, b) => (a.featured?.rank ?? Infinity) - (b.featured?.rank ?? Infinity) || a.stage.position - b.stage.position || (b.possession ?? '').localeCompare(a.possession ?? '') || (b.createdAt ?? '').localeCompare(a.createdAt ?? ''))
     .slice(0, n);
 }
 
@@ -147,19 +159,29 @@ export function similar(p: Project, n = 3): ProjectSummary[] {
 export type Check = { label: string; state: 'ok' | 'caution' | 'unknown'; detail: string };
 
 /** Informational due-diligence checklist built only from what the data actually says. */
+/** Regulator wording depends on where the land is: HARERA/DTCP in Haryana, the state RERA elsewhere. */
+function regulator(p: Project) {
+  const where = [p.location.city, p.location.cityRaw, p.location.state, p.location.address].filter(Boolean).join(' ');
+  const haryana = !where || /gur(u)?g(r)?(a|aa)?on|gurugram|haryana/i.test(where);
+  return haryana
+    ? { portal: 'the HARERA Gurugram portal', rera: 'HARERA', approvals: 'Ask for the DTCP licence number and approved building plan.' }
+    : { portal: 'the RERA portal of the state where the land is registered', rera: 'state RERA', approvals: 'Ask for the land-conversion (NA) order, the approved layout and the environmental clearance.' };
+}
+
 export function dueDiligence(p: Project): Check[] {
   const checks: Check[] = [];
+  const reg = regulator(p);
   checks.push(
     p.reraNumber
-      ? { label: 'RERA registration', state: 'ok', detail: `Registration no. ${p.reraNumber} is published. Confirm it is active and matches this phase/tower on the HARERA Gurugram portal.` }
+      ? { label: 'RERA registration', state: 'ok', detail: `Registration no. ${p.reraNumber} is published. Confirm it is active and matches this phase/tower on ${reg.portal}.` }
       : { label: 'RERA registration', state: 'caution', detail: 'No RERA number is published for this listing. Do not pay a booking amount until you have one and have checked it.' },
   );
   checks.push({
     label: 'Developer delivery record',
     state: 'unknown',
-    detail: `Not assessed by ${site.name}. Look up ${p.developer.name ?? 'the developer'}'s completed projects and any HARERA complaints or delay orders.`,
+    detail: `Not assessed by ${site.name}. Look up ${p.developer.name ?? 'the developer'}'s completed projects and any ${reg.rera} complaints or delay orders.`,
   });
-  checks.push({ label: 'Approvals (licence, building plan, environmental clearance)', state: 'unknown', detail: 'Not published in the source listing. Ask for the DTCP licence number and approved building plan.' });
+  checks.push({ label: 'Approvals (licence, building plan, environmental clearance)', state: 'unknown', detail: `Not published in the source listing. ${reg.approvals}` });
   const plan = p.pricing.paymentPlan ?? '';
   if (!plan) checks.push({ label: 'Payment-plan type', state: 'unknown', detail: 'Payment plan not published. Prefer construction-linked plans; treat heavy up-front or subvention schemes with care.' });
   else if (/construction[-\s]linked|\bclp\b/i.test(plan)) checks.push({ label: 'Payment-plan type', state: 'ok', detail: 'Construction-linked plan mentioned — payments track build progress.' });
@@ -175,5 +197,5 @@ export function dueDiligence(p: Project): Check[] {
       ? { label: 'Price transparency', state: 'ok', detail: `${priced} of ${p.pricing.configurations.length} configurations have a published price.` }
       : { label: 'Price transparency', state: 'caution', detail: 'Configuration prices are "on request". Ask for an all-inclusive cost sheet (BSP, PLC, EDC/IDC, parking, club, GST).' },
   );
-  return checks;
+  return [...checks, ...(p.diligenceNotes ?? [])];
 }

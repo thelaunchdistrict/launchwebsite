@@ -3,7 +3,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { STATE_DIR, DATA_DIR, readJSON, log } from './lib.mjs';
 
-const { projects, generatedAt } = readJSON(path.join(DATA_DIR, 'projects.json'));
+const { projects: allRows, generatedAt } = readJSON(path.join(DATA_DIR, 'projects.json'));
+// Hand-curated entries (data/curated) are not part of the extraction; they are listed separately.
+const projects = allRows.filter((p) => p.source !== 'curated');
+const curatedRows = allRows.filter((p) => p.source === 'curated');
 const discovery = readJSON(path.join(STATE_DIR, 'discovery.json'), {});
 const imgState = readJSON(path.join(STATE_DIR, 'images-state.json'), { byUrl: {}, byHash: {}, failures: {} });
 const fetchFailures = readJSON(path.join(STATE_DIR, 'fetch-failures.json'), {});
@@ -63,6 +66,8 @@ L(`| Projects on rendered /projects listing | ${discovery.sources?.listing?.rend
 L(`| /sitemap HTML page | HTTP ${discovery.sources?.htmlSitemap?.status ?? '—'} (${discovery.sources?.htmlSitemap?.slugs?.length ?? 0} project links) |`);
 L(`| Unique projects discovered | ${discovery.slugs?.length ?? '—'} |`);
 L(`| Projects extracted | **${projects.length}** |`);
+L(`| Hand-curated projects (data/curated, not scraped) | ${curatedRows.length}${curatedRows.length ? ` (${curatedRows.map((p) => p.slug).join(', ')})` : ''} |`);
+L(`| Listings superseded by a curated entry | ${projects.filter((p) => p.supersededBy).map((p) => `${p.slug} → ${p.supersededBy}`).join(', ') || 'none'} |`);
 L(`| Page fetch failures | ${Object.keys(fetchFailures).length} |`);
 L(`| Image references (manifest rows) | ${manifest.length} |`);
 L(`| Unique image files stored (sha256-deduped) | ${Object.keys(imgState.byHash).length} |`);

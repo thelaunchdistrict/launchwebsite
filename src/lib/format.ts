@@ -57,7 +57,7 @@ export function bhkLabel(b: number) {
 
 export function typeLabel(t: string | null) {
   return (
-    { residential: 'Residential', commercial: 'Commercial', plots: 'Plots', sco: 'SCO', villas: 'Villas', floors: 'Builder floors' } as Record<string, string>
+    { residential: 'Residential', commercial: 'Commercial', plots: 'Plots', sco: 'SCO', villas: 'Villas', floors: 'Builder floors', township: 'Township' } as Record<string, string>
   )[t ?? ''] ?? 'Not specified';
 }
 

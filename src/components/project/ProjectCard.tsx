@@ -7,6 +7,7 @@ import { Badges } from './Badges';
 import { CardActions } from './CardActions';
 
 export function configSummary(p: Pick<ProjectSummary, 'bhks' | 'configLabels' | 'type'>) {
+  if (p.type === 'township' && p.configLabels.length) return p.configLabels.join(', ');
   if (p.bhks.length) return p.bhks.map(bhkLabel).join(', ').replace(/ BHK, /g, ', ');
   if (p.configLabels.length) return p.configLabels.slice(0, 2).join(', ') + (p.configLabels.length > 2 ? '…' : '');
   return '—';
@@ -34,7 +35,7 @@ export function ProjectCard({ p, priority = false }: { p: ProjectSummary; priori
       <div className="flex flex-1 flex-col gap-4 p-4">
         <div>
           <p className="text-[0.8125rem] text-ink-2">
-            {p.developer ?? 'Developer not published'} · {p.sector ? `Sector ${p.sector}` : p.marketName ?? '—'}
+            {p.developer ?? 'Developer not published'} · {p.locationLabel ?? p.marketName ?? '—'}
           </p>
           <h3 className="h3 mt-1">
             <Link href={`/projects/${p.slug}`} prefetch={false} className="after:absolute after:inset-0 after:content-[''] focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:outline-focus focus-visible:after:rounded-[14px]">

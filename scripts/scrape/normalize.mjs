@@ -6,6 +6,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { STATE_DIR, DATA_DIR, SOURCE, readJSON, writeJSON, log } from './lib.mjs';
 import { collectImageRefs } from './download-images.mjs';
+import { imageSize } from 'image-size';
 import {
   parseInr, parseInrRange, parseAreaSqft, parseAcres, findPossession, findLaunch, parseBhk, fixCompoundDashes,
   sectorFrom, normalizeStatus, normalizeType, projectName,
@@ -42,7 +43,7 @@ const DEVELOPERS = [
   [/\bpuri\b/i, 'Puri Constructions'], [/shapoorji/i, 'Shapoorji Pallonji'], [/signature global/i, 'Signature Global'],
   [/silverglades/i, 'Silverglades'], [/smart ?world/i, 'Smartworld Developers'], [/sobha/i, 'Sobha Limited'], [/\bspj\b/i, 'SPJ Group'],
   [/\btarc\b/i, 'TARC'], [/trevoc/i, 'Trevoc Group'], [/whiteland/i, 'Whiteland Corporation'], [/godrej/i, 'Godrej Properties'],
-  [/\bireo\b/i, 'Ireo'], [/\btata\b/i, 'Tata Housing'], [/central park/i, 'Central Park'], [/krisumi/i, 'Krisumi'], [/yugen/i, 'Yugen Greens'],
+  [/\bireo\b/i, 'Ireo'], [/\btata\b/i, 'Tata Housing'], [/central park/i, 'Central Park'], [/krisumi/i, 'Krisumi'], [/yugen/i, 'Yugen Infra'],
 ];
 function canonicalDeveloper(raw, title, slug) {
   for (const s of [raw, title, slug]) {
@@ -262,9 +263,42 @@ const CSV_COLS = [
 ];
 const csvCell = (v) => { if (v == null) return ''; const s = String(v); return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
 
+function loadCurated() {
+  const dir = path.join(DATA_DIR, 'curated');
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => {
+    const c = readJSON(path.join(dir, f));
+    delete c._comment;
+    for (const k of ['id', 'slug', 'name', 'status', 'location', 'pricing', 'facts', 'content', 'media', 'seo', 'provenance']) {
+      if (!(k in c)) throw new Error(`curated ${f}: missing "${k}"`);
+    }
+    // Fill image dimensions from the files so the schema matches scraped entries.
+    const dims = (ref) => {
+      if (!ref?.localPath) return ref;
+      try { const { width, height } = imageSize(fs.readFileSync(path.join(DATA_DIR, '..', ref.localPath))); return { ...ref, width, height }; }
+      catch { log(`curated ${c.slug}: image missing ${ref.localPath}`); return { ...ref, width: null, height: null }; }
+    };
+    c.media.hero = dims(c.media.hero);
+    c.media.gallery = (c.media.gallery || []).map(dims);
+    c.media.floorPlans = (c.media.floorPlans || []).map((fp) => ({ ...fp, image: dims(fp.image) }));
+    c.media.sitePlan = dims(c.media.sitePlan);
+    c.media.imageCount = 1 + c.media.gallery.length + c.media.floorPlans.length + (c.media.sitePlan ? 1 : 0);
+    return { ...c, source: 'curated' };
+  });
+}
+
 function main() {
   const files = fs.readdirSync(RAW_DIR).filter((f) => f.endsWith('.json')).sort();
-  const projects = files.map((f) => normalize(readJSON(path.join(RAW_DIR, f))));
+  const projects = files.map((f) => ({ source: 'listing', ...normalize(readJSON(path.join(RAW_DIR, f))) }));
+  // Hand-curated listings (data/curated/*.json) from developer material supplied to Falcon.
+  const curated = loadCurated();
+  for (const c of curated) {
+    for (const s of c.supersedes || []) {
+      const old = projects.find((p) => p.slug === s);
+      if (old) { old.supersededBy = c.slug; log(`${s} superseded by curated ${c.slug}`); }
+    }
+  }
+  projects.push(...curated);
   projects.sort((a, b) => a.slug.localeCompare(b.slug));
   writeJSON(path.join(DATA_DIR, 'projects.json'), { generatedAt: new Date().toISOString(), source: SOURCE, count: projects.length, projects });
   const csv = [CSV_COLS.map((c) => c[0]).join(','), ...projects.map((p) => CSV_COLS.map(([, f]) => csvCell(f(p))).join(','))].join('\n');

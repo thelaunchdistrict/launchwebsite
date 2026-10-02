@@ -1,6 +1,6 @@
 # Falcon QA report
 
-Generated 2026-10-02T09:07:16.579Z against `http://localhost:3300` · 85 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 500 s
+Generated 2026-10-02T10:26:38.487Z against `http://localhost:3300` · 85 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 524 s
 
 | Category | Errors | Warnings | Info |
 |---|---:|---:|---:|
@@ -28,9 +28,9 @@ Severity: **error** = wrong or broken for users (fix before launch) · **warn** 
 | 🟠 warn | C02 placeholder | Placeholder text "00000 00000" is visible | /contact | +91 00000 00000 @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.num |
 | 🟠 warn | C02 placeholder | Placeholder text "example.com" is visible | /contact, /privacy, /terms | hello@falcon.example.com @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.inline-flex ; hello@falcon.example.com @ div.wrap.py-10 > div.prose-falcon.mt-10 > p > a.link |
 | 🟠 warn | C02 placeholder | Placeholder text "Placeholder" is visible | /disclaimer | Falcon’s agent registration number will appear here once issued. [Placeholder: add the HARERA agent registration no.] @ main#main > div.wrap.py-10 > div.prose-falcon.mt-10 > p |
-| 🟠 warn | C06 inconsistent terminology | centre: "center" ×14, "centre" ×7 | /projects/adani-the-marq-sector-102-gurgaon, /projects/aditya-birla-pravaah-sector-71-gurgaon, /projects/bptp-downtown-66-sector-66-gurgaon | Minority form appears on 6 page(s) |
-| ⚪ info | C06 inconsistent terminology | sq ft: "sq ft" ×1102, "sq.ft" ×75, "sq. ft" ×6, "sqft" ×6 | /projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon | Minority form appears on 3 page(s) |
-| ⚪ info | C06 inconsistent terminology | ₹ format: "₹N␠Cr" ×821, "₹N␠L" ×46, "₹N␠Crore" ×5, "₹N␠Crores" ×5, "₹N␠Lakhs" ×1 | /, /projects, /projects/aipl-autograph-sector-66-gurgaon | Minority form appears on 1 page(s) |
+| 🟠 warn | C06 inconsistent terminology | centre: "center" ×13, "centre" ×8 | /projects/adani-the-marq-sector-102-gurgaon, /projects/aditya-birla-pravaah-sector-71-gurgaon, /projects/bptp-downtown-66-sector-66-gurgaon | Minority form appears on 7 page(s) |
+| ⚪ info | C06 inconsistent terminology | sq ft: "sq ft" ×1094, "sq.ft" ×75, "sq. ft" ×6, "sqft" ×6 | /projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon | Minority form appears on 3 page(s) |
+| ⚪ info | C06 inconsistent terminology | ₹ format: "₹N␠Cr" ×834, "₹N␠L" ×53, "₹N␠Crore" ×5, "₹N␠Crores" ×5, "₹N␠Lakhs" ×1 | /, /projects, /projects/aipl-autograph-sector-66-gurgaon | Minority form appears on 1 page(s) |
 
 ## Data consistency
 
@@ -59,7 +59,7 @@ Severity: **error** = wrong or broken for users (fix before launch) · **warn** 
 | ⚪ info | U07 low-res image | Image shown at 584px but only 300px wide | /projects/adani-samsara-ivana-sector-63-gurgaon, /projects/aditya-birla-pravaah-sector-71-gurgaon, /projects/aipl-autograph-sector-66-gurgaon +15 more | http://localhost:3300/_next/image?url=%2Fmedia%2Fadani-samsara-ivana-sector-63-gurgaon%2Fgallery%2F0 ; http://localhost:3300/_next/image?url=%2Fmedia%2Faditya-birla-pravaah-sector-71-gurgaon%2Fgallery%2F |
 | ⚪ info | U12 touch target (documented exception) | 59 controls: schematic map stations; every project is also reachable through a 44px card link | /, /markets, /markets/dwarka-expressway +6 more |  |
 | ⚪ info | U12 touch target (documented exception) | 1 controls: schematic map stations; every project is also reachable through a 44px card link | /projects/4s-the-aurrum-sector-59-gurgaon, /projects/adani-lushlands-gurgaon, /projects/adani-samsara-ivana-sector-63-gurgaon +56 more |  |
-| ⚪ info | U12 touch target (documented exception) | 0 controls: schematic map stations; every project is also reachable through a 44px card link | /projects/yugen-greens-goa-golf-township |  |
+| ⚪ info | U12 touch target (documented exception) | 0 controls: schematic map stations; every project is also reachable through a 44px card link | /projects/yugen-golf-city |  |
 
 ## Checks performed
 

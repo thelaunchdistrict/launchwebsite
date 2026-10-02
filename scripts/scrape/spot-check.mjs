@@ -16,7 +16,7 @@ const stripTags = (html) => html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]
 async function main() {
   await loadRobots();
   const { projects } = readJSON(path.join(DATA_DIR, 'projects.json'));
-  const pool = [...projects];
+  const pool = projects.filter((p) => p.source !== 'curated');
   const sample = [];
   while (sample.length < Math.min(N, pool.length)) sample.push(pool.splice(Math.floor(rand() * pool.length), 1)[0]);
   const results = [];

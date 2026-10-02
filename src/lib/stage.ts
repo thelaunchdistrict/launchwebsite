@@ -31,6 +31,7 @@ export function stageOf(p: Pick<Project, 'status' | 'marketingStage' | 'possessi
 
 export function badgesOf(p: Project, now = new Date()): Badge[] {
   const out: Badge[] = [];
+  if (p.featured) out.push({ key: 'hero', label: p.featured.label, early: false, note: `${site.name} spotlight` });
   const stage = p.status === 'pre-launch' || p.marketingStage === 'pre-launch' ? 'pre-launch'
     : p.status === 'new-launch' || p.marketingStage === 'new-launch' ? 'new-launch' : null;
   if (stage === 'pre-launch') out.push({ key: 'pre-launch', label: 'Pre-launch', early: true, note: p.status === 'pre-launch' ? 'Listed status' : 'Stated in listing text' });

@@ -1,5 +1,5 @@
 export type Status = 'pre-launch' | 'new-launch' | 'under-construction' | 'ready';
-export type ProjectType = 'residential' | 'commercial' | 'plots' | 'sco' | 'villas' | 'floors';
+export type ProjectType = 'residential' | 'commercial' | 'plots' | 'sco' | 'villas' | 'floors' | 'township';
 
 export interface ImageRef {
   originalUrl: string;
@@ -25,6 +25,16 @@ export interface Configuration {
 
 export interface Project {
   id: string;
+  /** 'listing' = scraped public listing; 'curated' = developer material supplied to Falcon (data/curated). */
+  source?: 'listing' | 'curated';
+  sourceNote?: string;
+  /** Editorial pin: lower rank shows first in the spotlight and listings. */
+  featured?: { rank: number; label: string };
+  supersedes?: string[];
+  /** Set on a scraped listing that a curated listing replaces; hidden from lists, page links onward. */
+  supersededBy?: string;
+  /** Project-specific due-diligence items added to the generated checklist. */
+  diligenceNotes?: { label: string; state: 'ok' | 'caution' | 'unknown'; detail: string }[];
   slug: string;
   name: string | null;
   sourceUrl: string;
@@ -96,6 +106,8 @@ export interface Project {
     faqs: { question: string | null; answer: string | null }[];
     investmentCommentary: string | null;
     offerings: { title: string | null; details: string | null }[];
+    /** Marketing claims shown with Falcon's caution notes. */
+    developerClaims?: { claim: string; note: string }[];
   };
   media: {
     hero: ImageRef | null;
@@ -141,6 +153,8 @@ export interface ProjectSummary {
   acres: number | null;
   image: WebImage | null;
   createdAt: string | null;
+  featured: { rank: number; label: string } | null;
+  locationLabel: string | null;
 }
 
 export interface WebImage {
@@ -158,7 +172,7 @@ export interface Stage {
 }
 
 export interface Badge {
-  key: 'pre-launch' | 'new-launch' | 'early-construction' | 'limited-inventory' | 'ready';
+  key: 'hero' | 'pre-launch' | 'new-launch' | 'early-construction' | 'limited-inventory' | 'ready';
   label: string;
   early: boolean;
   note: string;

@@ -1,6 +1,6 @@
 # Extraction report — realtycanvas.in/projects
 
-Generated 2026-10-02T09:07:34.678Z from data built at 2026-10-02T08:58:23.710Z.
+Generated 2026-10-02T10:05:52.152Z from data built at 2026-10-02T10:05:52.061Z.
 
 ## Summary
 
@@ -11,6 +11,8 @@ Generated 2026-10-02T09:07:34.678Z from data built at 2026-10-02T08:58:23.710Z.
 | /sitemap HTML page | HTTP 404 (0 project links) |
 | Unique projects discovered | 60 |
 | Projects extracted | **60** |
+| Hand-curated projects (data/curated, not scraped) | 1 (yugen-golf-city) |
+| Listings superseded by a curated entry | yugen-greens-goa-golf-township → yugen-golf-city |
 | Page fetch failures | 0 |
 | Image references (manifest rows) | 613 |
 | Unique image files stored (sha256-deduped) | 598 |

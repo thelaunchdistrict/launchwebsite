@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { site } from '@/config/site';
-import { allProjects, dueDiligence, getProject, img, marketName, marketStats, psfOf, similar, summarize } from '@/lib/data';
+import { allPages, dueDiligence, getProject, img, marketName, marketStats, psfOf, similar, summarize } from '@/lib/data';
 import { bhkLabel, inr, inrFull, monthYear, paragraphs, psf, sqft, statusLabel, typeLabel } from '@/lib/format';
 import { monthsUntil } from '@/lib/stage';
 import type { GalleryItem } from '@/components/project/Gallery';
@@ -23,7 +23,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { summaries } from '@/lib/data';
 
 export function generateStaticParams() {
-  return allProjects().map((p) => ({ slug: p.slug }));
+  return allPages().map((p) => ({ slug: p.slug }));
 }
 export const dynamicParams = false;
 
@@ -33,12 +33,13 @@ export async function generateMetadata({ params }: PageProps<'/projects/[slug]'>
   if (!p) return {};
   const s = summarize(p);
   const sectorPart = p.location.sector ? `, Sector ${p.location.sector}` : '';
-  const title = [`${p.name}${sectorPart} — price, possession & RERA`, `${p.name}${sectorPart} — price & RERA`, `${p.name}${sectorPart}`, `${p.name}`].find((t) => t.length <= 60) ?? `${p.name}`;
+  const title = p.source === 'curated' && p.seo.title ? p.seo.title : [`${p.name}${sectorPart} — price, possession & RERA`, `${p.name}${sectorPart} — price & RERA`, `${p.name}${sectorPart}`, `${p.name}`].find((t) => t.length <= 60) ?? `${p.name}`;
   const description = `${p.name} by ${p.developer.name ?? 'the developer'}${p.location.sector ? ` in Sector ${p.location.sector}, Gurugram` : ''}. ${s.priceFrom ? `From ${inr(s.priceFrom)}. ` : ''}${p.possessionDate ? `Possession ${monthYear(p.possessionDate)}. ` : ''}${p.reraNumber ? `RERA ${p.reraNumber}.` : ''}`.trim();
   return {
     title,
-    description,
-    alternates: { canonical: `/projects/${slug}` },
+    description: p.source === 'curated' && p.seo.description ? p.seo.description : description,
+    alternates: { canonical: `/projects/${p.supersededBy ?? slug}` },
+    ...(p.supersededBy ? { robots: { index: false, follow: true } } : {}),
     openGraph: { title, description, images: s.image ? [{ url: s.image.src, width: s.image.width, height: s.image.height }] : undefined },
   };
 }
@@ -86,7 +87,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
     ['From', <span key="f" title={inrFull(s.priceFrom)}>{inr(s.priceFrom)}</span>],
     [`₹ / sq ft${ps.derived && ps.value ? '*' : ''}`, psf(ps.value), ps.derived && ps.value ? 'Indicative: starting price ÷ smallest listed unit' : undefined],
     ['Possession', monthYear(p.possessionDate)],
-    ['Land', p.facts.landAreaAcres ? `${p.facts.landAreaAcres} acres` : '—'],
+    ['Land', p.facts.landAreaAcres ? `${p.facts.landAreaAcres} acres` : p.facts.landAreaRaw?.split(' · ')[0] ?? '—'],
     ['Towers', p.facts.towers ?? '—'],
     ['Units', p.facts.units?.toLocaleString('en-IN') ?? '—'],
   ];
@@ -139,6 +140,17 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
             <li aria-current="page" className="text-ink">{name}</li>
           </ol>
         </nav>
+
+        {p.supersededBy && (() => {
+          const next = getProject(p.supersededBy);
+          return next ? (
+            <div role="note" className="mt-4 flex flex-wrap items-center gap-3 rounded-xl border border-signal bg-signal-soft p-4 text-sm">
+              <Icon name="info" size={18} className="shrink-0" />
+              <span className="flex-1">This is an older public listing of the same township. The current, developer-sourced listing has newer prices, phases and RERA details.</span>
+              <Link href={`/projects/${next.slug}`} className="btn btn-primary">Go to {next.name}</Link>
+            </div>
+          ) : null;
+        })()}
 
         {/* HERO */}
         <header className="mt-6 grid gap-6 lg:grid-cols-[1fr_auto] lg:items-end">
@@ -250,29 +262,42 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
           <section id="investment" aria-labelledby="investment-h">
             <h2 id="investment-h" className="h2">Investment view</h2>
             <div className="mt-6 grid gap-4 sm:grid-cols-3">
-              <div className="card p-4">
-                <p className="eyebrow">₹/sq ft vs corridor</p>
-                {ps.value && market?.medianPsf ? (
-                  <>
-                    <p className="num mt-2 text-2xl">{ps.value > market.medianPsf ? '+' : '−'}{Math.abs(Math.round((ps.value / market.medianPsf - 1) * 100))}%</p>
-                    <p className="mt-1 text-sm text-ink-2">{psf(ps.value)} vs {marketName(p.location.microMarket)} median {psf(market.medianPsf)} across {market.count} tracked projects.</p>
-                  </>
-                ) : <p className="mt-2 text-sm text-ink-2">Not enough data to compare.</p>}
-              </div>
+              {ps.value && market?.medianPsf ? (
+                <div className="card p-4">
+                  <p className="eyebrow">₹/sq ft vs corridor</p>
+                  <p className="num mt-2 text-2xl">{ps.value > market.medianPsf ? '+' : '−'}{Math.abs(Math.round((ps.value / market.medianPsf - 1) * 100))}%</p>
+                  <p className="mt-1 text-sm text-ink-2">{psf(ps.value)} vs {marketName(p.location.microMarket)} median {psf(market.medianPsf)} across {market.count} tracked projects.</p>
+                </div>
+              ) : null}
               <div className="card p-4">
                 <p className="eyebrow">Runway to possession</p>
                 <p className="num mt-2 text-2xl">{left != null ? (left > 0 ? `${Math.floor(left / 12)}y ${left % 12}m` : 'Due') : '—'}</p>
                 <p className="mt-1 text-sm text-ink-2">{p.possessionDate ? `Stated possession ${monthYear(p.possessionDate, true)}.` : 'Possession date not published.'} A longer runway means more construction risk and more time for appreciation.</p>
               </div>
-              <div className="card p-4">
+              {p.facts.unitsPerAcre ? <div className="card p-4">
                 <p className="eyebrow">Density</p>
                 <p className="num mt-2 text-2xl">{p.facts.unitsPerAcre ? `${p.facts.unitsPerAcre}` : '—'}<span className="text-sm text-ink-2"> units/acre</span></p>
                 <p className="mt-1 text-sm text-ink-2">Computed from {p.facts.units ? `${p.facts.units} units` : 'units'} on {p.facts.landAreaAcres ? `${p.facts.landAreaAcres} acres` : 'the land area'}. Lower density usually means more open space per home.</p>
-              </div>
+              </div> : null}
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href={`/tools/roi-calculator?price=${s.priceFrom ?? ''}&years=${left && left > 0 ? Math.max(3, Math.ceil(left / 12) + 1) : 5}&rent=${left && left > 0 ? Math.ceil(left / 12) : 0}`} className="btn btn-ink">Model returns for this project</Link>
             </div>
+
+            {(p.content.developerClaims?.length ?? 0) > 0 && (
+              <>
+                <h3 className="h3 mt-10">Developer claims, and what to check</h3>
+                <p className="mt-1 text-sm text-ink-2">Quoted from the developer’s material. {site.name} has not verified these.</p>
+                <ul className="mt-4 grid gap-3 md:grid-cols-2">
+                  {p.content.developerClaims!.map((c) => (
+                    <li key={c.claim} className="card p-4">
+                      <p className="font-medium">{c.claim}</p>
+                      <p className="mt-1 flex gap-2 text-sm text-ink-2"><Icon name="alert" size={16} className="mt-0.5 shrink-0 text-caution" />{c.note}</p>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
 
             <h3 className="h3 mt-10">Due-diligence checklist</h3>
             <p className="mt-1 text-sm text-ink-2">For information only, built from what is published. Unknown means the source does not say.</p>
@@ -396,7 +421,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
           )}
 
           <Disclaimer>
-            Data retrieved {new Date(p.scrapedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })} from public listing material. Prices, availability and dates change. {site.disclaimer}
+            {p.source === 'curated' ? `${p.sourceNote ?? 'Compiled from developer material'}.` : `Data retrieved ${new Date(p.scrapedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })} from public listing material.`} Prices, availability and dates change. {site.disclaimer}
           </Disclaimer>
         </div>
 

@@ -32,7 +32,9 @@ export function projectPageChecks(path, r, p) {
   return out;
 }
 
-export function crossPageChecks(results, projects) {
+export function crossPageChecks(results, allRows) {
+  // Superseded listings keep a page but are intentionally left out of every list and count.
+  const projects = allRows.filter((p) => !p.supersededBy);
   const out = [];
   const total = projects.length;
   const home = results.get('/');

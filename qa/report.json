@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T09:07:16.578Z",
+ "generatedAt": "2026-10-02T10:26:38.486Z",
  "base": "http://localhost:3300",
  "pages": 85,
  "findings": [
@@ -84,7 +84,7 @@
     "/projects/the-oryza",
     "/projects/trevoc-royal-residences-gurgaon",
     "/projects/whiteland-westin-residences-sector-103-gurgaon",
-    "/projects/yugen-greens-goa-golf-township",
+    "/projects/yugen-golf-city",
     "/markets",
     "/markets/dwarka-expressway",
     "/markets/golf-course-road",
@@ -182,7 +182,7 @@
     "/projects/the-oryza",
     "/projects/trevoc-royal-residences-gurgaon",
     "/projects/whiteland-westin-residences-sector-103-gurgaon",
-    "/projects/yugen-greens-goa-golf-township",
+    "/projects/yugen-golf-city",
     "/contact"
    ],
    "evidences": [
@@ -238,21 +238,21 @@
    "sev": "warn",
    "cat": "Content",
    "check": "C06 inconsistent terminology",
-   "msg": "centre: \"center\" ×14, \"centre\" ×7",
+   "msg": "centre: \"center\" ×13, \"centre\" ×8",
    "page": "/projects/adani-the-marq-sector-102-gurgaon, /projects/aditya-birla-pravaah-sector-71-gurgaon, /projects/bptp-downtown-66-sector-66-gurgaon",
-   "evidence": "Minority form appears on 6 page(s)",
+   "evidence": "Minority form appears on 7 page(s)",
    "pages": [
     "/projects/adani-the-marq-sector-102-gurgaon, /projects/aditya-birla-pravaah-sector-71-gurgaon, /projects/bptp-downtown-66-sector-66-gurgaon"
    ],
    "evidences": [
-    "Minority form appears on 6 page(s)"
+    "Minority form appears on 7 page(s)"
    ]
   },
   {
    "sev": "info",
    "cat": "Content",
    "check": "C06 inconsistent terminology",
-   "msg": "sq ft: \"sq ft\" ×1102, \"sq.ft\" ×75, \"sq. ft\" ×6, \"sqft\" ×6",
+   "msg": "sq ft: \"sq ft\" ×1094, \"sq.ft\" ×75, \"sq. ft\" ×6, \"sqft\" ×6",
    "page": "/projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon",
    "evidence": "Minority form appears on 3 page(s)",
    "pages": [
@@ -266,7 +266,7 @@
    "sev": "info",
    "cat": "Content",
    "check": "C06 inconsistent terminology",
-   "msg": "₹ format: \"₹N␠Cr\" ×821, \"₹N␠L\" ×46, \"₹N␠Crore\" ×5, \"₹N␠Crores\" ×5, \"₹N␠Lakhs\" ×1",
+   "msg": "₹ format: \"₹N␠Cr\" ×834, \"₹N␠L\" ×53, \"₹N␠Crore\" ×5, \"₹N␠Crores\" ×5, \"₹N␠Lakhs\" ×1",
    "page": "/, /projects, /projects/aipl-autograph-sector-66-gurgaon",
    "evidence": "Minority form appears on 1 page(s)",
    "pages": [
@@ -527,9 +527,9 @@
    "cat": "UI/UX",
    "check": "U12 touch target (documented exception)",
    "msg": "0 controls: schematic map stations; every project is also reachable through a 44px card link",
-   "page": "/projects/yugen-greens-goa-golf-township",
+   "page": "/projects/yugen-golf-city",
    "pages": [
-    "/projects/yugen-greens-goa-golf-township"
+    "/projects/yugen-golf-city"
    ],
    "evidences": []
   }
