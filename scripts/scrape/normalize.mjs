@@ -7,6 +7,7 @@ import path from 'node:path';
 import { STATE_DIR, DATA_DIR, SOURCE, readJSON, writeJSON, log } from './lib.mjs';
 import { collectImageRefs } from './download-images.mjs';
 import { imageSize } from 'image-size';
+import { applyBuilderCorrections } from './apply-builder.mjs';
 import {
   parseInr, parseInrRange, parseAreaSqft, parseAcres, findPossession, findLaunch, parseBhk, fixCompoundDashes,
   sectorFrom, normalizeStatus, normalizeType, projectName,
@@ -304,6 +305,9 @@ function main() {
     }
   }
   projects.push(...curated);
+  // Builder-first corrections (data/verify/builder): the developer's own published values win.
+  const b = applyBuilderCorrections(projects, { dir: path.join(DATA_DIR, 'verify', 'builder'), marketFor: (sector, address, locality) => microMarketFor(sector, address, locality, null), log });
+  if (b.applied || b.rejected) log(`builder corrections: ${b.applied} applied, ${b.rejected} rejected`);
   projects.sort((a, b) => a.slug.localeCompare(b.slug));
   writeJSON(path.join(DATA_DIR, 'projects.json'), { generatedAt: new Date().toISOString(), source: SOURCE, count: projects.length, projects });
   const csv = [CSV_COLS.map((c) => c[0]).join(','), ...projects.map((p) => CSV_COLS.map(([, f]) => csvCell(f(p))).join(','))].join('\n');

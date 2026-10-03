@@ -192,7 +192,7 @@ export function dueDiligence(p: Project): Check[] {
   const left = monthsUntil(p.possessionDate);
   if (!p.possessionDate) checks.push({ label: 'Possession date', state: 'unknown', detail: 'No possession date published. Get the RERA-committed completion date in writing.' });
   else if (left != null && left < 0 && p.status !== 'ready') checks.push({ label: 'Possession date', state: 'caution', detail: `Stated possession (${p.possessionDate}) has passed but the project is not listed as ready. Ask about revised timelines.` });
-  else checks.push({ label: 'Possession date', state: 'ok', detail: `Possession stated as ${p.possessionDate}. Compare with the RERA completion date — marketing dates are often earlier.` });
+  else checks.push({ label: 'Possession date', state: 'ok', detail: p.reraCompletionDate && p.reraCompletionDate !== p.possessionDate ? `Possession marketed as ${p.possessionDate}; the RERA filing commits to ${p.reraCompletionDate}. Plan around the RERA date.` : `Possession stated as ${p.possessionDate}. Compare with the RERA completion date — marketing dates are often earlier.` });
   const priced = p.pricing.configurations.filter((c) => c.priceInr).length;
   checks.push(
     priced

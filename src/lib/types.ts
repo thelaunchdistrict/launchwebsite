@@ -35,6 +35,13 @@ export interface Project {
   supersededBy?: string;
   /** Project-specific due-diligence items added to the generated checklist. */
   diligenceNotes?: { label: string; state: 'ok' | 'caution' | 'unknown'; detail: string }[];
+  /** Values replaced by what the builder publishes (data/verify/builder); 'from' is our previous value. */
+  corrections?: { field: string; from: unknown; to: unknown; value: string; source: string; sourceType: string; quote: string; checkedAt: string }[];
+  builderUnresolved?: { field: string; note: string }[];
+  /** Completion date in the builder's RERA filing, when it differs from the marketed possession date. */
+  reraCompletionDate?: string | null;
+  /** Further RERA registrations (other phases/towers). */
+  additionalRera?: string[];
   slug: string;
   name: string | null;
   sourceUrl: string;

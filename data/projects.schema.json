@@ -586,6 +586,62 @@
               }
             }
           }
+        },
+        "corrections": {
+          "type": "array",
+          "description": "Values replaced by the builder-published value (data/verify/builder)",
+          "items": {
+            "type": "object",
+            "properties": {
+              "field": {
+                "type": "string"
+              },
+              "from": {},
+              "to": {},
+              "value": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              },
+              "sourceType": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "string"
+              },
+              "checkedAt": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "builderUnresolved": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "field": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "reraCompletionDate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^d{4}(-d{2})?$"
+        },
+        "additionalRera": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       }
     }

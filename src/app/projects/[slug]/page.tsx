@@ -48,6 +48,14 @@ export async function generateMetadata({ params }: PageProps<'/projects/[slug]'>
 const AMENITY_LABEL: Record<string, string> = {
   CLUBHOUSE: 'Clubhouse', SPORTS: 'Sports', RECREATION: 'Recreation', SAFETY: 'Safety & security', SECURITY: 'Safety & security', WELLNESS: 'Wellness', CONVENIENCE: 'Convenience', ENVIRONMENT: 'Green & sustainability', KIDS: 'Children', LIFESTYLE: 'Lifestyle', OTHER: 'Other',
 };
+function fmtPrev(v: unknown, field: string): string {
+  if (v == null || (Array.isArray(v) && !v.length)) return 'not published';
+  if (field === 'startingPrice' && typeof v === 'number') return inr(v);
+  if ((field === 'possessionDate' || field === 'reraCompletionDate') && typeof v === 'string') return monthYear(v, true);
+  if (field === 'landArea' && typeof v === 'number') return `${v} acres`;
+  if (Array.isArray(v)) return v.slice(0, 4).join(', ') + (v.length > 4 ? '…' : '');
+  return String(v);
+}
 const cap = (s: string) => s.charAt(0) + s.slice(1).toLowerCase().replace(/_/g, ' ');
 
 export default async function ProjectPage({ params }: PageProps<'/projects/[slug]'>) {
@@ -182,7 +190,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
           ))}
         </dl>
         <p className="mt-2 flex flex-wrap gap-x-4 text-xs text-ink-2">
-          <span>RERA: <span className="num text-ink">{p.reraNumber ?? 'not published'}</span></span>
+          <span>RERA: <span className="num text-ink">{p.reraNumber ?? 'not published'}</span>{p.additionalRera?.length ? <> · also <span className="num text-ink">{p.additionalRera.join(', ')}</span></> : null}</span>
           {ps.derived && ps.value ? <span>* Indicative: starting price ÷ smallest listed unit. The developer has not published a rate.</span> : null}
         </p>
       </div>
@@ -273,7 +281,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
               <div className="card p-4">
                 <p className="eyebrow">Runway to possession</p>
                 <p className="num mt-2 text-2xl">{left != null ? (left > 0 ? `${Math.floor(left / 12)}y ${left % 12}m` : 'Due') : '—'}</p>
-                <p className="mt-1 text-sm text-ink-2">{p.possessionDate ? `Stated possession ${monthYear(p.possessionDate, true)}.` : 'Possession date not published.'} A longer runway means more construction risk and more time for appreciation.</p>
+                <p className="mt-1 text-sm text-ink-2">{p.possessionDate ? `Stated possession ${monthYear(p.possessionDate, true)}.` : 'Possession date not published.'}{p.reraCompletionDate && p.reraCompletionDate !== p.possessionDate ? ` RERA completion date: ${monthYear(p.reraCompletionDate, true)}.` : ''} A longer runway means more construction risk and more time for appreciation.</p>
               </div>
               {p.facts.unitsPerAcre ? <div className="card p-4">
                 <p className="eyebrow">Density</p>
@@ -422,6 +430,28 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
                   </details>
                 ))}
               </div>
+            </section>
+          )}
+
+          {(p.corrections?.length ?? 0) > 0 && (
+            <section aria-labelledby="builder-h" className="card p-5">
+              <h2 id="builder-h" className="h3">Verified with the developer</h2>
+              <p className="mt-1 text-sm text-ink-2">Where sources disagreed, these values were updated to what {p.developer.name ?? 'the developer'} publishes.</p>
+              <ul className="mt-4 divide-y divide-rule border-t hairline">
+                {p.corrections!.map((c) => (
+                  <li key={c.field} className="grid gap-1 py-3 sm:grid-cols-[10rem_1fr]">
+                    <span className="text-sm font-medium">{({ possessionDate: 'Possession', reraCompletionDate: 'RERA completion date', startingPrice: 'Starting price', reraNumber: 'RERA number', additionalRera: 'Other RERA registrations', units: 'Units', towers: 'Towers', floors: 'Floors', landArea: 'Land area', developer: 'Developer', sector: 'Sector', locality: 'Locality', configurations: 'Configurations', status: 'Status' } as Record<string, string>)[c.field] ?? c.field}</span>
+                    <span className="text-sm">
+                      {c.value}
+                      <span className="block text-xs text-ink-2">
+                        Previously {fmtPrev(c.from, c.field)} ·{' '}
+                        <a href={c.source} target="_blank" rel="noopener noreferrer" className="link">{c.sourceType === 'rera-filing-by-developer' ? 'RERA filing' : 'developer source'}</a>
+                        {c.checkedAt ? ` · checked ${new Date(c.checkedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}` : ''}
+                      </span>
+                    </span>
+                  </li>
+                ))}
+              </ul>
             </section>
           )}
 
