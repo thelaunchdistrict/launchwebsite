@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T06:14:58.152Z",
+  "generatedAt": "2026-10-04T07:25:09.266Z",
   "source": "https://www.realtycanvas.in",
   "count": 61,
   "projects": [
@@ -24288,7 +24288,7 @@
       "slug": "yugen-golf-city",
       "name": "Yugen Golf City",
       "source": "curated",
-      "sourceNote": "Developer brochure, layout plan, poster and sales message supplied to Falcon on 2 Oct 2026",
+      "sourceNote": "Developer brochure, layout plan, poster and sales message supplied to The Launch District on 2 Oct 2026",
       "featured": {
         "rank": 1,
         "label": "Hero project"
@@ -24691,7 +24691,7 @@
             "answer": "The developer states that bank loans are available. Confirm which lenders have approved the specific phase."
           }
         ],
-        "investmentCommentary": "Falcon's read: Golf City is a long-horizon land and leisure play. The upside depends on Mopa airport's growth, the proposed Shakti Peeth Expressway and how quickly the golf course and resort amenities are delivered.\n\nOn the stated villa rent: ₹1,75,000 a month is ₹21 lakh a year, about 5.9% gross on a ₹3.59 Cr entry price, before costs and tax. That is well above typical Indian residential yields, which is exactly why the lease terms, the operator's obligations and what happens after year 3 need to be read in the contract.\n\nThe brochure's appreciation chart projects land rates rising to ₹1,00,000+ per sq yd by 2030. That is a developer projection, not a market index.",
+        "investmentCommentary": "The Launch District's read: Golf City is a long-horizon land and leisure play. The upside depends on Mopa airport's growth, the proposed Shakti Peeth Expressway and how quickly the golf course and resort amenities are delivered.\n\nOn the stated villa rent: ₹1,75,000 a month is ₹21 lakh a year, about 5.9% gross on a ₹3.59 Cr entry price, before costs and tax. That is well above typical Indian residential yields, which is exactly why the lease terms, the operator's obligations and what happens after year 3 need to be read in the contract.\n\nThe brochure's appreciation chart projects land rates rising to ₹1,00,000+ per sq yd by 2030. That is a developer projection, not a market index.",
         "offerings": [
           {
             "title": "Garden of Eden — villa plots",
@@ -24733,7 +24733,7 @@
           },
           {
             "claim": "Plot price: ₹99.9 L onwards (poster) vs ₹1.35 Cr onwards (sales message)",
-            "note": "The two sources disagree. Falcon shows the poster figure. Ask for the current price sheet."
+            "note": "The two sources disagree. The Launch District shows the poster figure. Ask for the current price sheet."
           },
           {
             "claim": "Villas: 62 (brochure) vs 70 (sales message); from ₹3.59 Cr (poster) vs ₹3.50 Cr (message)",
@@ -24879,7 +24879,7 @@
         "imageCount": 15
       },
       "seo": {
-        "title": "Yugen Golf City near Mopa — plots, villas & farmhouses",
+        "title": "Yugen Golf City, Mopa — plots & villas",
         "description": "Golf-centric township by Yugen Infra next to Mopa airport: Garden of Eden plots from ₹99.9 L, Acqua Front Villas from ₹3.59 Cr, Golf Drive farmhouses and apartments.",
         "keywords": [
           "yugen golf city",
@@ -24895,8 +24895,8 @@
       "scrapedAt": "2026-10-02T00:00:00.000Z",
       "provenance": {
         "pricing": "developer poster (supplied)",
-        "location.state": "falcon-inference: developer plan sheets name Banda (Sindhudurg, Maharashtra)",
-        "status": "falcon-inference: RERA-approved phase now selling",
+        "location.state": "site-inference: developer plan sheets name Banda (Sindhudurg, Maharashtra)",
+        "status": "site-inference: RERA-approved phase now selling",
         "connectivity": "developer brochure key-destinations map",
         "locality": "builder:rera-filing-by-developer:https://maharera.maharashtra.gov.in/projects-search-result?project_name=GARDEN+OF+EDEN&project_state=27&project_district=0&op=Search"
       },

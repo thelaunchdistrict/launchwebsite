@@ -6,8 +6,8 @@ type Mode = 'system' | 'light' | 'dark';
 function applyTheme(m: Mode) {
   const root = document.documentElement;
   try {
-    if (m === 'system') { localStorage.removeItem('falcon-theme'); root.removeAttribute('data-theme'); }
-    else { localStorage.setItem('falcon-theme', m); root.setAttribute('data-theme', m); }
+    if (m === 'system') { localStorage.removeItem('tld-theme'); root.removeAttribute('data-theme'); }
+    else { localStorage.setItem('tld-theme', m); root.setAttribute('data-theme', m); }
   } catch {
     // Storage unavailable: still apply for this page view.
     if (m === 'system') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', m);
@@ -19,7 +19,7 @@ export function ThemeSwitch() {
   const [mode, setMode] = useState<Mode>('system');
   useEffect(() => {
     try {
-      const t = localStorage.getItem('falcon-theme');
+      const t = localStorage.getItem('tld-theme');
       // eslint-disable-next-line react-hooks/set-state-in-effect -- read persisted preference after hydration
       if (t === 'light' || t === 'dark') setMode(t);
     } catch { /* ignore */ }

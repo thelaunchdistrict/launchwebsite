@@ -34,12 +34,12 @@ export function textChecks(page, r) {
   return out;
 }
 
-// C06 terminology / variant consistency across the whole site (Falcon-authored copy and data alike).
+// C06 terminology / variant consistency across the whole site (site-authored copy and data alike).
 const VARIANTS = [
   ['sq ft', /\bsq\.? ?ft\b|\bsqft\b|\bsq\. ?ft\.|\bsquare feet\b/gi, (m) => m.toLowerCase().replace(/\s+/g, ' ')],
   ['pre-launch', /\bpre[- ]?launch\b/gi, (m) => m.toLowerCase()],
   // House style: the city is "Gurugram"; "Gurgaon" survives only inside proper names (New Gurgaon, Central Gurgaon).
-  ['Gurugram/Gurgaon (Falcon copy)', /(?<!New |Central )\bGurgaon\b|\bGurugram\b/g, (m) => m],
+  ['Gurugram/Gurgaon (site copy)', /(?<!New |Central )\bGurgaon\b|\bGurugram\b/g, (m) => m],
   ['colour', /\bcolou?rs?\b/gi, (m) => (/ou/i.test(m) ? 'colour' : 'color')],
   ['centre', /\bcent(?:re|er)s?\b/gi, (m) => (/re$|res$/i.test(m) ? 'centre' : 'center')],
   ['-ise/-ize', /\b(?:organi|reali|recogni|priori|analy|utili|optimi)(?:s|z)e[sd]?\b/gi, (m) => (/s(e|es|ed)$/i.test(m) ? '-ise' : '-ize')],
@@ -50,14 +50,14 @@ const VARIANTS = [
 export function variantCheck(pagesText, authoredText) {
   const out = [];
   for (const [name, re, norm] of VARIANTS) {
-    const scope = name.includes('Falcon copy') ? authoredText : pagesText;
+    const scope = name.includes('site copy') ? authoredText : pagesText;
     const counts = {};
     for (const [page, text] of scope) for (const m of text.matchAll(re)) { const k = norm(m[0]); (counts[k] ??= { n: 0, pages: new Set() }).n++; counts[k].pages.add(page); }
     const keys = Object.keys(counts);
     if (keys.length > 1) {
       const sorted = keys.sort((a, b) => counts[b].n - counts[a].n);
       out.push({
-        sev: name.includes('Falcon copy') || ['colour', 'centre', '-ise/-ize'].includes(name) ? 'warn' : 'info',
+        sev: name.includes('site copy') || ['colour', 'centre', '-ise/-ize'].includes(name) ? 'warn' : 'info',
         cat: 'Content', check: 'C06 inconsistent terminology',
         msg: `${name}: ${sorted.map((k) => `"${k}" ×${counts[k].n}`).join(', ')}`,
         page: [...counts[sorted[1]].pages].slice(0, 3).join(', '),

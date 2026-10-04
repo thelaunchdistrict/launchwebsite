@@ -1,6 +1,6 @@
 # Extraction report — realtycanvas.in/projects
 
-Generated 2026-10-04T06:14:58.509Z from data built at 2026-10-04T06:14:58.152Z.
+Generated 2026-10-04T07:02:19.002Z from data built at 2026-10-04T07:02:18.888Z.
 
 ## Summary
 
@@ -32,7 +32,7 @@ Generated 2026-10-04T06:14:58.509Z from data built at 2026-10-04T06:14:58.152Z.
 
 ## Field coverage
 
-Share of projects with a non-empty value. *Derived* fields are computed by Falcon from source fields and labelled as such in `provenance`.
+Share of projects with a non-empty value. *Derived* fields are computed by The Launch District from source fields and labelled as such in `provenance`.
 
 ### Identity
 
@@ -169,7 +169,7 @@ Share of projects with a non-empty value. *Derived* fields are computed by Falco
 - Smartworld The Edition: slug says sector 68 but address/locality says 66
 - Yugen Greens: no micro-market could be derived (sector —, city —)
 - 48/60 projects list every configuration as "Price on Request"; only the project-level starting price is numeric.
-- 55/60 projects carry the same templated location paragraph ("…enjoys a strategic address…"). Falcon treats it as boilerplate and does not show it as project-specific analysis.
+- 55/60 projects carry the same templated location paragraph ("…enjoys a strategic address…"). The Launch District treats it as boilerplate and does not show it as project-specific analysis.
 - 3/60 projects have generic placeholder highlights (e.g. "Prime Location", "24/7 Security").
 
 ## Map positions

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { ARTICLES } from '@/content/articles';
 
 export const metadata: Metadata = {
-  title: 'Insights — early-stage real estate investing in Gurugram',
+  title: 'Insights on early-stage investing in Gurugram',
   description: 'Guides to investing early: stages, price sheets and due diligence for under-construction property in Gurugram.',
   alternates: { canonical: '/insights' },
 };

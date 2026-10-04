@@ -32,7 +32,7 @@ export default async function ArticlePage({ params }: PageProps<'/insights/[slug
         <h1 className="mt-3 font-display text-[clamp(2.25rem,4.6vw,3.75rem)] leading-[1.02]">{a.title}</h1>
         <p className="mt-5 text-xl text-ink-2">{a.dek}</p>
       </header>
-      <div className="prose-falcon mt-10 text-[1.075rem]">
+      <div className="prose-brand mt-10 text-[1.075rem]">
         {a.body.map((b, i) =>
           'h' in b ? <h2 key={i}>{b.h}</h2>
           : 'p' in b ? <p key={i}>{b.p}</p>

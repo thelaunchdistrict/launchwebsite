@@ -45,7 +45,7 @@ export function getProject(slug: string): Project | undefined {
   return everything.find((p) => p.slug === slug);
 }
 
-/** ₹/sq ft used for comparisons: published rate when the source has one, else Falcon's derived entry rate. */
+/** ₹/sq ft used for comparisons: published rate when the source has one, else The Launch District's derived entry rate. */
 export function psfOf(p: Project): { value: number | null; derived: boolean } {
   if (p.pricing.pricePerSqftMinInr) return { value: p.pricing.pricePerSqftMinInr, derived: false };
   const v = p.pricing.entryPricePerSqftInr;

@@ -1,4 +1,4 @@
-// Falcon QA — renders every page of the built site and reports discrepancies in content, data,
+// The Launch District QA — renders every page of the built site and reports discrepancies in content, data,
 // spelling, UI/UX, accessibility, SEO structure and code hygiene.
 //
 //   npm run build && npm run qa              full run (starts `next start` itself if nothing is listening)
@@ -283,7 +283,7 @@ function writeReport(all, pageCount, ms, speller) {
 
   fs.writeFileSync(path.join(OUT_DIR, 'report.json'), JSON.stringify({ generatedAt: new Date().toISOString(), base: BASE, pages: pageCount, findings: rest }, null, 1));
   const L = [];
-  L.push('# Falcon QA report', '');
+  L.push('# The Launch District QA report', '');
   L.push(`Generated ${new Date().toISOString()} against \`${BASE}\` · ${pageCount} pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · ${(ms / 1000).toFixed(0)} s`, '');
   L.push('| Category | Errors | Warnings | Info |', '|---|---:|---:|---:|');
   for (const c of cats) L.push(`| ${c} | ${count('error', c)} | ${count('warn', c)} | ${count('info', c)} |`);

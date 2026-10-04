@@ -1,6 +1,6 @@
 // Step 4: raw page payloads → one normalised schema.
 // Writes data/projects.json, data/projects.csv. Never invents values: anything not present in the
-// source is null. Values that Falcon *derives* (micro-market, entry ₹/sq ft, dates found in FAQ text)
+// source is null. Values that The Launch District *derives* (micro-market, entry ₹/sq ft, dates found in FAQ text)
 // are recorded in `provenance` so the UI and report can label them.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -296,7 +296,7 @@ function loadCurated() {
 function main() {
   const files = fs.readdirSync(RAW_DIR).filter((f) => f.endsWith('.json')).sort();
   const projects = files.map((f) => ({ source: 'listing', ...normalize(readJSON(path.join(RAW_DIR, f))) }));
-  // Hand-curated listings (data/curated/*.json) from developer material supplied to Falcon.
+  // Hand-curated listings (data/curated/*.json) from developer material supplied to The Launch District.
   const curated = loadCurated();
   for (const c of curated) {
     for (const s of c.supersedes || []) {

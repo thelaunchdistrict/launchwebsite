@@ -19,7 +19,7 @@ function curl(url, query) {
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')), '..', '..');
 const DIR = path.join(ROOT, 'data', 'geo');
-const UA = 'FalconGeo/1.0 (corridor map for a property-research prototype; low volume)';
+const UA = 'LaunchDistrictGeo/1.0 (corridor map for a property-research prototype; low volume)';
 const FORCE = process.argv.includes('--force');
 const ONLY = (() => { const i = process.argv.indexOf('--only'); return i >= 0 ? process.argv[i + 1] : null; })();
 const want = (k) => !ONLY || ONLY === k;

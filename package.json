@@ -1,8 +1,8 @@
 {
-  "name": "falcon",
+  "name": "the-launch-district",
   "version": "1.0.0",
   "private": true,
-  "description": "Falcon — early-stage real-estate investment platform for Gurgaon / NCR",
+  "description": "The Launch District — early-stage real-estate investment platform for Gurgaon / NCR",
   "scripts": {
     "dev": "next dev",
     "build": "npm run media && next build",

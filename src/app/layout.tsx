@@ -40,7 +40,7 @@ const themeCss = `:root{${vars(site.colors.light)};color-scheme:light}
 :root[data-theme="dark"]{${vars(site.colors.dark)};color-scheme:dark}`;
 
 // Runs before paint so a stored appearance override never flashes.
-const themeScript = `try{var t=localStorage.getItem('falcon-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}`;
+const themeScript = `try{var t=localStorage.getItem('tld-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}`;
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (

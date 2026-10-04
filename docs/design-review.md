@@ -1,4 +1,4 @@
-# Falcon — Design Review
+# The Launch District — Design Review
 
 *Phase 4. I reviewed the built site against `docs/design-brief.md` on a production build (`next build && next start`). Coverage: home, listing (grid, map, mobile filter sheet), project detail (M3M Crown, Sobha Aranya), ROI calculator, ₹/sq ft, possession timeline and market pages, at 375px and 1280px, in light and dark. The HIG reference is developer.apple.com (the HIG skill bundle is not installed here; see the brief).*
 
@@ -49,7 +49,7 @@ What the HIG asks for, what I found and what I changed.
 
 ## Point of view
 
-What makes this specifically Falcon, and where it slipped.
+What makes this specifically The Launch District, and where it slipped.
 
 - **The Entry Rail carries the brand.** It is on every card, the detail hero, compare and the market pages, and it says "how early" without copy. In review it read clearly at card size. Sharpened: the line under the rail now states where the position came from ("estimated from the stated possession date"), which turns a decoration into a claim with a source.
 - **The Corridor Map is the second signature,** and reviewers will screenshot it. On desktop it reads like a transit diagram on survey paper. On phones it was the weakest moment (finding 9), so it now scrolls in its frame rather than shrinking into noise.

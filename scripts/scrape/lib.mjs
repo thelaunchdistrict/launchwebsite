@@ -6,7 +6,7 @@ export const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.
 export const SOURCE = 'https://www.realtycanvas.in';
 export const CDN_HOSTS = ['cdn.realtycanvas.in'];
 export const USER_AGENT =
-  'FalconDataBot/1.0 (+research crawler for a project-catalogue prototype; 1 req/s; respects robots.txt)';
+  'LaunchDistrictDataBot/1.0 (+research crawler for a project-catalogue prototype; 1 req/s; respects robots.txt)';
 export const STATE_DIR = path.join(ROOT, '.scrape-state');
 export const DATA_DIR = path.join(ROOT, 'data');
 export const MIN_INTERVAL_MS = 1000; // never faster than 1 request / second

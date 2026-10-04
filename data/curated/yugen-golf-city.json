@@ -4,7 +4,7 @@
   "slug": "yugen-golf-city",
   "name": "Yugen Golf City",
   "source": "curated",
-  "sourceNote": "Developer brochure, layout plan, poster and sales message supplied to Falcon on 2 Oct 2026",
+  "sourceNote": "Developer brochure, layout plan, poster and sales message supplied to The Launch District on 2 Oct 2026",
   "featured": { "rank": 1, "label": "Hero project" },
   "supersedes": ["yugen-greens-goa-golf-township"],
   "sourceUrl": "developer-material:yugen-golf-city",
@@ -135,7 +135,7 @@
       { "question": "Who designs and manages the township?", "answer": "The golf course is designed by IDG (UK). The developer says the township will be managed by a five-star hospitality partner, and the Acqua Front Villas by The Registry Collection by Wyndham." },
       { "question": "Is bank finance available?", "answer": "The developer states that bank loans are available. Confirm which lenders have approved the specific phase." }
     ],
-    "investmentCommentary": "Falcon's read: Golf City is a long-horizon land and leisure play. The upside depends on Mopa airport's growth, the proposed Shakti Peeth Expressway and how quickly the golf course and resort amenities are delivered.\n\nOn the stated villa rent: ₹1,75,000 a month is ₹21 lakh a year, about 5.9% gross on a ₹3.59 Cr entry price, before costs and tax. That is well above typical Indian residential yields, which is exactly why the lease terms, the operator's obligations and what happens after year 3 need to be read in the contract.\n\nThe brochure's appreciation chart projects land rates rising to ₹1,00,000+ per sq yd by 2030. That is a developer projection, not a market index.",
+    "investmentCommentary": "The Launch District's read: Golf City is a long-horizon land and leisure play. The upside depends on Mopa airport's growth, the proposed Shakti Peeth Expressway and how quickly the golf course and resort amenities are delivered.\n\nOn the stated villa rent: ₹1,75,000 a month is ₹21 lakh a year, about 5.9% gross on a ₹3.59 Cr entry price, before costs and tax. That is well above typical Indian residential yields, which is exactly why the lease terms, the operator's obligations and what happens after year 3 need to be read in the contract.\n\nThe brochure's appreciation chart projects land rates rising to ₹1,00,000+ per sq yd by 2030. That is a developer projection, not a market index.",
     "offerings": [
       { "title": "Garden of Eden — villa plots", "details": "278 plots on 45 acres, RERA PP1310002501906. From 200 sq yd at ₹99.9 L onwards." },
       { "title": "Acqua Front Villas", "details": "Lake-facing villas (62 per brochure, 70 per sales message) run with The Registry Collection by Wyndham. From ₹3.59 Cr; 15-year lease at ₹1.75 L/month, locked for 3 years." },
@@ -148,7 +148,7 @@
       { "claim": "\"High appreciation & ROI guaranteed\"", "note": "Returns on property cannot be guaranteed by a seller. Treat this as marketing, not a term of sale." },
       { "claim": "\"Guaranteed monthly rental ₹1,75,000\" (Acqua Front Villas)", "note": "Ask for the lease deed: who pays, what security backs it, what happens if the operator exits, and how profit is shared after year 3." },
       { "claim": "Phase I \"sold out in 3 months, giving more than 2X return\"", "note": "Ask for registered resale transactions that show the 2X. The figure is not verified." },
-      { "claim": "Plot price: ₹99.9 L onwards (poster) vs ₹1.35 Cr onwards (sales message)", "note": "The two sources disagree. Falcon shows the poster figure. Ask for the current price sheet." },
+      { "claim": "Plot price: ₹99.9 L onwards (poster) vs ₹1.35 Cr onwards (sales message)", "note": "The two sources disagree. The Launch District shows the poster figure. Ask for the current price sheet." },
       { "claim": "Villas: 62 (brochure) vs 70 (sales message); from ₹3.59 Cr (poster) vs ₹3.50 Cr (message)", "note": "The two sources disagree. Confirm inventory and price in writing." },
       { "claim": "Land rate projected at ₹1,00,000+ per sq yd by 2030", "note": "Developer projection from the brochure's appreciation chart." }
     ]
@@ -184,7 +184,7 @@
     "developerLogo": null
   },
   "seo": {
-    "title": "Yugen Golf City near Mopa — plots, villas & farmhouses",
+    "title": "Yugen Golf City, Mopa — plots & villas",
     "description": "Golf-centric township by Yugen Infra next to Mopa airport: Garden of Eden plots from ₹99.9 L, Acqua Front Villas from ₹3.59 Cr, Golf Drive farmhouses and apartments.",
     "keywords": ["yugen golf city", "garden of eden plots", "acqua front villa", "mopa airport plots", "golf township goa"],
     "h1": "Yugen Golf City"
@@ -194,8 +194,8 @@
   "scrapedAt": "2026-10-02T00:00:00.000Z",
   "provenance": {
     "pricing": "developer poster (supplied)",
-    "location.state": "falcon-inference: developer plan sheets name Banda (Sindhudurg, Maharashtra)",
-    "status": "falcon-inference: RERA-approved phase now selling",
+    "location.state": "site-inference: developer plan sheets name Banda (Sindhudurg, Maharashtra)",
+    "status": "site-inference: RERA-approved phase now selling",
     "connectivity": "developer brochure key-destinations map"
   }
 }

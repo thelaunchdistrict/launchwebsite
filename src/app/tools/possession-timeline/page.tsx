@@ -6,7 +6,7 @@ import { ToolsNav } from '@/components/tools/ToolsNav';
 import { Badges } from '@/components/project/Badges';
 
 export const metadata: Metadata = {
-  title: 'Possession timeline — Gurugram projects by delivery year',
+  title: 'Gurugram possession timeline by year',
   description: 'When each tracked Gurugram project is due for possession, grouped by year, with stage and starting price.',
   alternates: { canonical: '/tools/possession-timeline' },
 };

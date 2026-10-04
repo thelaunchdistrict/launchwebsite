@@ -1,15 +1,16 @@
-# Falcon QA report
+# The Launch District QA report
 
-Generated 2026-10-04T06:33:23.311Z against `http://localhost:3300` · 85 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 493 s
+Generated 2026-10-04T07:35:04.327Z against `http://localhost:3300` · 85 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 509 s
 
 | Category | Errors | Warnings | Info |
 |---|---:|---:|---:|
 | Code hygiene | 0 | 1 | 0 |
 | Content | 0 | 6 | 2 |
 | Data consistency | 0 | 0 | 3 |
+| SEO & structure | 0 | 1 | 0 |
 | Spelling | 0 | 0 | 7 |
 | UI/UX | 0 | 0 | 3 |
-| **Total** | **0** | **7** | **15** |
+| **Total** | **0** | **8** | **15** |
 
 Severity: **error** = wrong or broken for users (fix before launch) · **warn** = inconsistent or weak · **info** = worth knowing; often caused by source data.
 
@@ -23,11 +24,11 @@ Severity: **error** = wrong or broken for users (fix before launch) · **warn** 
 
 | Sev | Check | Finding | Where | Evidence |
 |---|---|---|---|---|
-| 🟠 warn | C02 placeholder | Placeholder text "placeholder" is visible | /, /projects, /projects/4s-the-aurrum-sector-59-gurgaon +82 more | © 2026 Falcon Realty Research (placeholder entity). @ footer.mt-24.border-t > div.border-t.hairline > div.wrap.space-y-2 > p ; Operator: Falcon Realty Research (placeholder entity). @ main#main > div.wrap.py-10 > div.pro |
-| 🟠 warn | C02 placeholder | WhatsApp link points at the placeholder number | /, /projects/4s-the-aurrum-sector-59-gurgaon, /projects/adani-lushlands-gurgaon +59 more | https://wa.me/910000000000?text=Hi%20Falcon%2C%20I'd%20like% |
+| 🟠 warn | C02 placeholder | Placeholder text "placeholder" is visible | /, /projects, /projects/4s-the-aurrum-sector-59-gurgaon +82 more | © 2026 The Launch District (placeholder entity). @ footer.mt-24.border-t > div.border-t.hairline > div.wrap.space-y-2 > p ; Operator: The Launch District (placeholder entity). @ main#main > div.wrap.py-10 > div.prose-bra |
+| 🟠 warn | C02 placeholder | WhatsApp link points at the placeholder number | /, /projects/4s-the-aurrum-sector-59-gurgaon, /projects/adani-lushlands-gurgaon +59 more | https://wa.me/910000000000?text=Hi%20The%20Launch%20District |
 | 🟠 warn | C02 placeholder | Placeholder text "00000 00000" is visible | /contact | +91 00000 00000 @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.num |
-| 🟠 warn | C02 placeholder | Placeholder text "example.com" is visible | /contact, /privacy, /terms | hello@falcon.example.com @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.inline-flex ; hello@falcon.example.com @ div.wrap.py-10 > div.prose-falcon.mt-10 > p > a.link |
-| 🟠 warn | C02 placeholder | Placeholder text "Placeholder" is visible | /disclaimer | Falcon’s agent registration number will appear here once issued. [Placeholder: add the HARERA agent registration no.] @ main#main > div.wrap.py-10 > div.prose-falcon.mt-10 > p |
+| 🟠 warn | C02 placeholder | Placeholder text "example.com" is visible | /contact, /privacy, /terms | hello@thelaunchdistrict.example.com @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.inline-flex ; hello@thelaunchdistrict.example.com @ div.wrap.py-10 > div.prose-brand.mt-10 > p > a.link |
+| 🟠 warn | C02 placeholder | Placeholder text "Placeholder" is visible | /disclaimer | The Launch District’s agent registration number will appear here once issued. [Placeholder: add the HARERA agent registr @ main#main > div.wrap.py-10 > div.prose-brand.mt-10 > p |
 | 🟠 warn | C06 inconsistent terminology | centre: "centre" ×151, "center" ×13 | /projects/elan-the-presidential-sector-106-gurgaon, /projects/emaar-amaris-sector-62-gurgaon, /projects/experion-the-trillion-sector-48-gurgaon | Minority form appears on 9 page(s) |
 | ⚪ info | C06 inconsistent terminology | sq ft: "sq ft" ×1100, "sq.ft" ×75, "sq. ft" ×6, "sqft" ×6 | /projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon | Minority form appears on 3 page(s) |
 | ⚪ info | C06 inconsistent terminology | ₹ format: "₹N␠Cr" ×849, "₹N␠L" ×70, "₹N␠Crore" ×3, "₹N␠Crores" ×3, "₹N␠Lakhs" ×1 | /, /projects, /projects/aipl-autograph-sector-66-gurgaon | Minority form appears on 1 page(s) |
@@ -39,6 +40,12 @@ Severity: **error** = wrong or broken for users (fix before launch) · **warn** 
 | ⚪ info | D07 stale possession | Under construction but stated possession Jun 2026 has passed — page flags it in the due-diligence checklist | /projects/elan-empire-sector-66-gurgaon |  |
 | ⚪ info | D07 stale possession | Under construction but stated possession Sep 2026 has passed — page flags it in the due-diligence checklist | /projects/elan-paradise-sector-50-gurgaon |  |
 | ⚪ info | D08 config table | Source lists 2407 sq ft for both 3 BHK and 4 BHK — page shows a verification note | /projects/4s-the-aurrum-sector-59-gurgaon |  |
+
+## SEO & structure
+
+| Sev | Check | Finding | Where | Evidence |
+|---|---|---|---|---|
+| 🟠 warn | C07 title length | Title is 71 chars (search results cut at ~60–70) | /insights/due-diligence-checklist-under-construction | Due-diligence checklist: under-construction homes · The Launch District |
 
 ## Spelling
 

@@ -1,7 +1,7 @@
 // Build web derivatives of image originals for the site and write src/data/media-map.json
 // ({ "<localPath>": { src, width, height } }). Two source roots:
 //   data/images/<slug>/<category>/<file>          scraped originals (git-ignored)
-//   data/curated/images/<slug>/<category>/<file>  developer material supplied to Falcon (committed)
+//   data/curated/images/<slug>/<category>/<file>  developer material supplied to The Launch District (committed)
 // → public/media/<slug>/<category>/<file>.webp (committed).
 // Incremental: an existing derivative newer than its source is kept. Entries whose original is not
 // on disk (e.g. a fresh clone without data/images) are kept from the previous map as long as the

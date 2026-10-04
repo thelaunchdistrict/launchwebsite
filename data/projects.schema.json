@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://falcon.example/schemas/projects.schema.json",
-  "title": "Falcon projects dataset",
+  "$id": "https://thelaunchdistrict.example/schemas/projects.schema.json",
+  "title": "The Launch District projects dataset",
   "type": "object",
   "required": [
     "generatedAt",
@@ -536,7 +536,7 @@
             "listing",
             "curated"
           ],
-          "description": "listing = scraped public listing; curated = developer material supplied to Falcon (data/curated)"
+          "description": "listing = scraped public listing; curated = developer material supplied to The Launch District (data/curated)"
         },
         "sourceNote": {
           "type": "string"

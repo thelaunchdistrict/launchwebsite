@@ -1,5 +1,5 @@
 {
-  "_note": "Sector → micro-market mapping used to derive `location.microMarket`. Derived by Falcon from public Gurugram master-plan geography, not from the source site. Order: named localities (own sector numbering) → sector table → address keywords (only when no sector).",
+  "_note": "Sector → micro-market mapping used to derive `location.microMarket`. Derived by The Launch District from public Gurugram master-plan geography, not from the source site. Order: named localities (own sector numbering) → sector table → address keywords (only when no sector).",
   "markets": [
     {
       "slug": "dwarka-expressway",

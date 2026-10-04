@@ -98,12 +98,12 @@
   .ledger td { padding: .75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
   .ledger td.n, .ledger th.n { text-align: right; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 
-  .prose-falcon p { margin: 0 0 1em; max-width: 68ch; }
-  .prose-falcon h2 { font-size: 1.75rem; margin: 2rem 0 .75rem; }
-  .prose-falcon h3 { font-size: 1.3rem; margin: 1.5rem 0 .5rem; }
-  .prose-falcon ul { list-style: none; padding: 0; margin: 0 0 1em; max-width: 68ch; }
-  .prose-falcon li { padding-left: 1.25rem; position: relative; margin-bottom: .4em; }
-  .prose-falcon li::before { content: ""; position: absolute; left: 0; top: .7em; width: .6rem; border-top: 1px solid var(--ink-2); }
+  .prose-brand p { margin: 0 0 1em; max-width: 68ch; }
+  .prose-brand h2 { font-size: 1.75rem; margin: 2rem 0 .75rem; }
+  .prose-brand h3 { font-size: 1.3rem; margin: 1.5rem 0 .5rem; }
+  .prose-brand ul { list-style: none; padding: 0; margin: 0 0 1em; max-width: 68ch; }
+  .prose-brand li { padding-left: 1.25rem; position: relative; margin-bottom: .4em; }
+  .prose-brand li::before { content: ""; position: absolute; left: 0; top: .7em; width: .6rem; border-top: 1px solid var(--ink-2); }
 
   .skip-link { position: absolute; left: 1rem; top: -100px; z-index: 100; background: var(--ink); color: var(--paper); padding: .75rem 1rem; border-radius: 8px; }
   .skip-link:focus { top: 1rem; }

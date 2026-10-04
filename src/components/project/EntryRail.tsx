@@ -10,7 +10,7 @@ const BASIS_NOTE: Record<Stage['basis'], string> = {
 };
 
 /**
- * Falcon's signature: a four-station lifecycle rail. The vermilion fill runs from the start to the
+ * The Launch District's signature: a four-station lifecycle rail. The vermilion fill runs from the start to the
  * project's current position — the less vermilion, the earlier you are.
  */
 export function EntryRail({ stage, size = 'sm', className = '' }: { stage: Stage; size?: 'sm' | 'lg'; className?: string }) {

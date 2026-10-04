@@ -89,7 +89,7 @@ L('- Excluded on purpose: the source site\'s own phone numbers, e-mails, logo, b
 L();
 L('## Field coverage');
 L();
-L('Share of projects with a non-empty value. *Derived* fields are computed by Falcon from source fields and labelled as such in `provenance`.');
+L('Share of projects with a non-empty value. *Derived* fields are computed by The Launch District from source fields and labelled as such in `provenance`.');
 L();
 for (const [group, fields] of Object.entries(FIELDS)) {
   L(`### ${group}`);
@@ -156,7 +156,7 @@ for (const p of projects) {
 const allPor = projects.filter((p) => p.pricing.configurations.length && p.pricing.configurations.every((c) => !c.priceInr)).length;
 anomalies.push(`${allPor}/${projects.length} projects list every configuration as "Price on Request"; only the project-level starting price is numeric.`);
 const boiler = projects.filter((p) => /enjoys a strategic address/i.test(p.location.commentary || '')).length;
-anomalies.push(`${boiler}/${projects.length} projects carry the same templated location paragraph ("…enjoys a strategic address…"). Falcon treats it as boilerplate and does not show it as project-specific analysis.`);
+anomalies.push(`${boiler}/${projects.length} projects carry the same templated location paragraph ("…enjoys a strategic address…"). The Launch District treats it as boilerplate and does not show it as project-specific analysis.`);
 const genericHl = projects.filter((p) => p.content.highlights.some((h) => /^(prime location|24\/7 security|ample parking|modern infrastructure)$/i.test(h))).length;
 anomalies.push(`${genericHl}/${projects.length} projects have generic placeholder highlights (e.g. "Prime Location", "24/7 Security").`);
 anomalies.forEach((a) => L(`- ${a}`));

@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps<'/markets/[slug]'>)
   if (!m) return {};
   const s = marketStats(slug);
   return {
-    title: `${m.name}: prices & growth story`,
+    title: `${m.name}: prices & growth`,
     description: `${s.count} tracked projects on ${m.name}, Gurugram. Median ${psf(s.medianPsf)}/sq ft, entry from ${inr(s.minPrice)}. Infrastructure drivers and risks.`,
     alternates: { canonical: `/markets/${slug}` },
   };
@@ -74,7 +74,7 @@ export default async function MarketPage({ params }: PageProps<'/markets/[slug]'
               ))}
             </ol>
             <h2 className="h3 mt-10">What could go wrong</h2>
-            <ul className="prose-falcon mt-3 text-ink-2">{story.risks.map((r) => <li key={r}>{r}</li>)}</ul>
+            <ul className="prose-brand mt-3 text-ink-2">{story.risks.map((r) => <li key={r}>{r}</li>)}</ul>
             <Disclaimer className="mt-6">Infrastructure status is described as of 2026 and is not a forecast. Check current project status with the authorities (GMDA, NHAI, HSIIDC) before relying on any timeline.</Disclaimer>
           </div>
           <div className="card self-start p-3 md:p-5"><CorridorMap projects={summaries()} highlight={slug} title={`${m.name} on the corridor map`} /></div>

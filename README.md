@@ -1,4 +1,4 @@
-# Falcon
+# The Launch District
 
 An investment-research site for **early-stage real estate in Gurugram / NCR**: pre-launch, new-launch and under-construction projects, ranked by how early you are. Every project carries its ₹/sq ft, possession horizon, RERA number and a due-diligence checklist.
 

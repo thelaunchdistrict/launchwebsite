@@ -3,7 +3,7 @@ import { useCallback, useSyncExternalStore } from 'react';
 
 // Tiny localStorage-backed stores shared across components and tabs.
 function createStore(key: string, max = Infinity) {
-  const EVENT = `falcon:${key}`;
+  const EVENT = `tld:${key}`;
   let cache: string[] | null = null;
   const read = (): string[] => {
     if (cache) return cache;
@@ -46,7 +46,7 @@ function createStore(key: string, max = Infinity) {
   };
 }
 
-export const shortlistStore = createStore('falcon-shortlist');
-export const compareStore = createStore('falcon-compare', 3);
+export const shortlistStore = createStore('tld-shortlist');
+export const compareStore = createStore('tld-compare', 3);
 export const useShortlist = () => shortlistStore.use();
 export const useCompare = () => compareStore.use();

@@ -3,12 +3,12 @@
  * Colours are emitted as CSS custom properties by `src/app/layout.tsx`, so nothing else needs editing.
  */
 export const site = {
-  name: 'Falcon',
-  legalName: 'Falcon Realty Research (placeholder entity)',
+  name: 'The Launch District',
+  legalName: 'The Launch District (placeholder entity)',
   tagline: 'Get in before the crowd.',
   description:
     'Early-entry research on pre-launch and under-construction projects in Gurugram: ₹/sq ft, possession dates, RERA checks and corridor context for investors.',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://falcon.example.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://thelaunchdistrict.example.com',
   locale: 'en_IN',
   city: 'Gurugram',
 
@@ -17,7 +17,7 @@ export const site = {
     phone: '+91 00000 00000',
     phoneHref: 'tel:+910000000000',
     whatsapp: '910000000000', // digits only, with country code, for wa.me links
-    email: 'hello@falcon.example.com',
+    email: 'hello@thelaunchdistrict.example.com',
     address: 'Gurugram, Haryana, India',
     hours: 'Mon–Sat, 10:00–19:00 IST',
   },
@@ -77,7 +77,7 @@ export const site = {
   },
 
   disclaimer:
-    'Falcon publishes research for information only. It is not investment, legal or tax advice. Prices, dates and specifications come from public listings and developer material and can change; projections are illustrative. Verify every project on the HARERA Gurugram portal and with the developer before you commit money.',
+    'The Launch District publishes research for information only. It is not investment, legal or tax advice. Prices, dates and specifications come from public listings and developer material and can change; projections are illustrative. Verify every project on the HARERA Gurugram portal and with the developer before you commit money.',
   sourceNote:
     'Project facts are compiled from public listing pages and developer material. Images belong to their respective developers and are shown for identification.',
 } as const;

@@ -14,7 +14,7 @@ export function codeChecks(root) {
   const out = [];
   const f = (sev, check, msg, file, evidence = '') => out.push({ sev, cat: 'Code hygiene', check, msg, page: file, evidence });
   const site = fs.readFileSync(path.join(root, 'src/config/site.ts'), 'utf8');
-  const brand = (site.match(/name:\s*'([^']+)'/) || [])[1] || 'Falcon';
+  const brand = (site.match(/name:\s*'([^']+)'/) || [])[1] || 'The Launch District';
   for (const file of walk(path.join(root, 'src'))) {
     const rel = path.relative(root, file).split(path.sep).join('/');
     const lines = fs.readFileSync(file, 'utf8').split(/\r?\n/);

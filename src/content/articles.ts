@@ -56,7 +56,7 @@ export const ARTICLES: Article[] = [
   {
     slug: 'due-diligence-checklist-under-construction',
     title: 'A due-diligence checklist for under-construction property in Haryana',
-    seoTitle: 'Due-diligence checklist: under-construction homes',
+    seoTitle: 'Due-diligence checklist for new homes',
     dek: 'Ten checks you can do in an evening, before a site visit or a booking cheque.',
     date: '2026-09-29',
     readMins: 8,

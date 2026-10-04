@@ -4,7 +4,7 @@ import { RoiCalculator } from '@/components/tools/RoiCalculator';
 import { ToolsNav } from '@/components/tools/ToolsNav';
 
 export const metadata: Metadata = {
-  title: 'ROI & IRR calculator for under-construction property',
+  title: 'ROI & IRR calculator for new launches',
   description: 'Model total return, annualised IRR and money multiple for a Gurugram property: entry price, holding period, appreciation, rental yield, home loan EMI and exit costs.',
   alternates: { canonical: '/tools/roi-calculator' },
 };

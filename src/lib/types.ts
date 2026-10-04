@@ -25,7 +25,7 @@ export interface Configuration {
 
 export interface Project {
   id: string;
-  /** 'listing' = scraped public listing; 'curated' = developer material supplied to Falcon (data/curated). */
+  /** 'listing' = scraped public listing; 'curated' = developer material supplied to The Launch District (data/curated). */
   source?: 'listing' | 'curated';
   sourceNote?: string;
   /** Editorial pin: lower rank shows first in the spotlight and listings. */
@@ -114,7 +114,7 @@ export interface Project {
     faqs: { question: string | null; answer: string | null }[];
     investmentCommentary: string | null;
     offerings: { title: string | null; details: string | null }[];
-    /** Marketing claims shown with Falcon's caution notes. */
+    /** Marketing claims shown with The Launch District's caution notes. */
     developerClaims?: { claim: string; note: string }[];
   };
   media: {
@@ -175,7 +175,7 @@ export interface WebImage {
 export interface Stage {
   position: number;
   label: string;
-  /** 'status' = structured source field; 'listing-text' = stated in listing copy; 'derived' = Falcon's inference. */
+  /** 'status' = structured source field; 'listing-text' = stated in listing copy; 'derived' = The Launch District's inference. */
   basis: 'status' | 'listing-text' | 'derived' | 'unknown';
 }
 

@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps<'/projects/[slug]'>
   if (!p) return {};
   const s = summarize(p);
   const sectorPart = p.location.sector ? `, Sector ${p.location.sector}` : '';
-  const title = p.source === 'curated' && p.seo.title ? p.seo.title : [`${p.name}${sectorPart} — price, possession & RERA`, `${p.name}${sectorPart} — price & RERA`, `${p.name}${sectorPart}`, `${p.name}`].find((t) => t.length <= 60) ?? `${p.name}`;
+  const title = p.source === 'curated' && p.seo.title ? p.seo.title : [`${p.name}${sectorPart} — price, possession & RERA`, `${p.name}${sectorPart} — price & RERA`, `${p.name}${sectorPart}`, `${p.name}`].find((t) => t.length <= 70 - ` · ${site.name}`.length) ?? `${p.name}`;
   const description = `${p.name} by ${p.developer.name ?? 'the developer'}${p.location.sector ? ` in Sector ${p.location.sector}, Gurugram` : ''}. ${s.priceFrom ? `From ${inr(s.priceFrom)}. ` : ''}${p.possessionDate ? `Possession ${monthYear(p.possessionDate)}. ` : ''}${p.reraNumber ? `RERA ${p.reraNumber}.` : ''}`.trim();
   return {
     title,
@@ -213,7 +213,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
           {/* Overview */}
           <section aria-labelledby="overview">
             <h2 id="overview" className="h2">Overview</h2>
-            <div className="prose-falcon mt-4 text-ink-2">
+            <div className="prose-brand mt-4 text-ink-2">
               {p.content.subtitle && <p className="text-ink">{p.content.subtitle}</p>}
               {paragraphs(p.content.description).map((t) => <p key={t}>{t}</p>)}
             </div>
@@ -326,7 +326,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
               ))}
             </ul>
             {!isBoilerplate(p.content.investmentCommentary) && (
-              <div className="prose-falcon mt-6 text-ink-2">{paragraphs(p.content.investmentCommentary).map((t) => <p key={t}>{t}</p>)}</div>
+              <div className="prose-brand mt-6 text-ink-2">{paragraphs(p.content.investmentCommentary).map((t) => <p key={t}>{t}</p>)}</div>
             )}
           </section>
 

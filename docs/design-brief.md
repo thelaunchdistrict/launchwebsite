@@ -1,4 +1,4 @@
-# Falcon — Design Brief
+# The Launch District — Design Brief
 
 *Phase 1 output. Audience: early-stage real-estate investors in Gurgaon / NCR who buy at pre-launch, new-launch or under-construction stage and exit on appreciation or rental yield.*
 
@@ -23,16 +23,16 @@
 
 **What the Indian portals get wrong for *investors*:** cards lead with photography and BHK, but an investor's first questions are *how early am I, what does a sq ft cost here, and when do I get possession*. The developer sites build trust through scale stats but give no comparative data. The US platforms handle the investor's mental model well (metrics first, disclaimers that are honest without being buried), but they have no notion of construction-stage risk.
 
-**Falcon's position:** take the investor-metrics-first card and honest-disclaimer habits from the US platforms, keep the Indian norms buyers expect (RERA number up front, WhatsApp, configuration-wise pricing, possession date), and add one thing nobody shows: **where each project sits in its lifecycle, as a visual entry window.**
+**The Launch District's position:** take the investor-metrics-first card and honest-disclaimer habits from the US platforms, keep the Indian norms buyers expect (RERA number up front, WhatsApp, configuration-wise pricing, possession date), and add one thing nobody shows: **where each project sits in its lifecycle, as a visual entry window.**
 
 ---
 
 ## 1. Point of view: "The survey sheet"
 
-Falcon should look like a **surveyor's field sheet crossed with an analyst's ledger**: warm paper, ink, hairline rules, tabular numerals, and one vermilion signal colour that only ever means *early*.
+The Launch District should look like a **surveyor's field sheet crossed with an analyst's ledger**: warm paper, ink, hairline rules, tabular numerals, and one vermilion signal colour that only ever means *early*.
 
 - **Signature element: the Entry Rail.** A thin horizontal rail with four stations (Pre-launch, Launch, Construction, Possession). Every project carries a marker on this rail. It shows up on cards, the detail hero, compare and the timeline tool. The vermilion fill runs from the start of the rail to the marker, so the less vermilion you see, the earlier you are. No other property site encodes stage this way. It is honest, because it comes straight from the `status` field, and it explains the brand promise ("get in before the crowd") without a word.
-- **Signature map: the Corridor Map.** Most projects have no lat/long in the source, and I won't invent coordinates, so Falcon draws a schematic *transit-style* map of Gurgaon's growth corridors (Dwarka Expressway, NH-48, Golf Course Road / Extension, Southern Peripheral Road, Sohna Road, New Gurgaon). Projects appear as stations on their corridor, ordered by sector. It is honest about precision, reads well at phone width, and looks like nothing else in the category.
+- **Signature map: the Corridor Map.** Most projects have no lat/long in the source, and I won't invent coordinates, so The Launch District draws a schematic *transit-style* map of Gurgaon's growth corridors (Dwarka Expressway, NH-48, Golf Course Road / Extension, Southern Peripheral Road, Sohna Road, New Gurgaon). Projects appear as stations on their corridor, ordered by sector. It is honest about precision, reads well at phone width, and looks like nothing else in the category.
 - **Ledger cards, not hero-image cards.** Image on top at 3:2. Below it the numbers carry the card: price from, ₹/sq ft, possession and configurations, set in a mono tabular face and aligned like a ledger row. The project name sits in the display serif.
 - **No stock-gradient hero.** The home hero is type on paper: a large serif headline, a live counter strip set in mono, and the Corridor Map as the hero visual.
 - **Copy voice:** plain, numerate, slightly dry. "₹14,200 / sq ft. Possession Dec 2029. Pre-launch." We avoid "luxurious", "world-class" and "dream home".
@@ -102,7 +102,7 @@ Top nav, Mobile tab bar, Footer (with disclaimer and appearance switch), **Entry
 - ⚠️ **Custom fonts:** the HIG prefers system fonts for legibility. Geist is a close stand-in for SF, and the serif is used only at display sizes ≥ 28px.
 
 ### Point of view
-- The **Entry Rail** and **Corridor Map** are the two things that make a screenshot recognisably Falcon. Both come from real data (status, sector), not decoration.
+- The **Entry Rail** and **Corridor Map** are the two things that make a screenshot recognisably The Launch District. Both come from real data (status, sector), not decoration.
 - Warm paper, ink and one vermilion signal reads as a research publication, not a luxury brochure. There is no gold, no navy and no gradient.
 - Ledger cards with mono tabular numerals say "we did the maths". The serif names keep it human.
 - The risk is that this feels austere next to image-heavy portals. To counter that, give photography generous size on the detail page (gallery and hero) while the listing stays data-first.

@@ -1,6 +1,6 @@
 # Domain dictionary for the QA spell-checker. One word per line; case-insensitive.
 # Project, developer and place names from data/projects.json are added automatically at run time.
-Falcon
+Launch
 Gurugram
 Gurgaon
 HARERA
