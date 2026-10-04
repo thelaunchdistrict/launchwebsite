@@ -1,0 +1,58 @@
+{
+  "slug": "aipl-joy-district-sector-88-gurgaon",
+  "checkedAt": "2026-10-04T10:45:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "aipl.com",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "30th June, 2028",
+      "normalized": "2028-06",
+      "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU2MA==",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ending with 30th June, 2028 (completion date as declared by the promoter in REP-II)"
+    },
+    {
+      "field": "possessionDate",
+      "value": "30th June, 2028 (HARERA completion date declared by promoter; builder site states no possession date)",
+      "normalized": "2028-06",
+      "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU2MA==",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ending with 30th June, 2028 (completion date as declared by the promoter in REP-II)"
+    },
+    {
+      "field": "landArea",
+      "value": "10.42* Acres",
+      "normalized": 10.42,
+      "source": "https://aipl.com/project/aipl-joy-district/",
+      "sourceType": "developer-website",
+      "quote": "Spread over 10.42 * Acres, AIPL Joy District will have the perfect retail, F&B, recreation entertainment zone mix."
+    },
+    {
+      "field": "floors",
+      "value": "four levels",
+      "normalized": 4,
+      "source": "https://aipl.com/project/aipl-joy-district/",
+      "sourceType": "developer-website",
+      "quote": "Built across four levels with 1.2* million square feet of space across levels."
+    },
+    {
+      "field": "towers",
+      "value": "1",
+      "normalized": 1,
+      "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU2MA==",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Number of Towers 1"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "startingPrice",
+      "note": "Builder publishes no price for AIPL Joy District on aipl.com (project page and blogs are enquiry-only); our ₹83 lakh onwards is not stated by the builder."
+    },
+    {
+      "field": "units",
+      "note": "Builder filings conflict: Feb 2024 registration certificate says 'Number of units 1190'; Dec 2024 HARERA filing (id 3237) lists 1480 shops (317 booked). Builder site gives no count, only '1.2* million square feet'."
+    }
+  ]
+}

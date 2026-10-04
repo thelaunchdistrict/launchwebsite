@@ -1,0 +1,39 @@
+{
+  "slug": "m3m-crown-sector-111-gurgaon",
+  "checkedAt": "2026-10-04T10:15:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "m3mindia.com",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "31 January 2028 (completion date declared by the promoter in the HARERA filing; builder website gives no possession date)",
+      "normalized": "2028-01",
+      "source": "https://haryanarera.gov.in/view_project/view_certificate/MTI3MQ==",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ending with 31st January 2028 (completion date as declared by the promoter in REP-II)"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31 January 2028 (M3M Crown Phase 1)",
+      "normalized": "2028-01",
+      "source": "https://haryanarera.gov.in/view_project/view_certificate/MTI3MQ==",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ending with 31st January 2028 (completion date as declared by the promoter in REP-II)"
+    },
+    {
+      "field": "configurations",
+      "value": "3.5 & 4.5 BHK Luxury Residences (no unit sizes published by builder)",
+      "normalized": [
+        { "label": "3.5 BHK", "bhk": 3.5, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "4.5 BHK", "bhk": 4.5, "areaSqft": null, "areaBasis": "unspecified" }
+      ],
+      "source": "https://www.m3mindia.com/residential/m3m-crown",
+      "sourceType": "developer-website",
+      "quote": "3.5 & 4.5 BHK Luxury Residences"
+    }
+  ],
+  "unresolved": [
+    { "field": "configurations (sizes)", "note": "Builder website publishes only the 3.5 / 4.5 BHK types, no sq ft areas; the individual sizes (1,605-2,670 sq ft) could not be confirmed from a builder source." },
+    { "field": "landArea (note)", "note": "Not an open item. RERA certificate: total licensed area 15.99375 acres; Phase 1 registered area 11.6023 acres; 11 towers, 1332 residential units (matches our towers/units)." }
+  ]
+}

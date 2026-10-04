@@ -1,0 +1,46 @@
+{
+  "slug": "bptp-verti-greens-sector-102-gurgaon",
+  "checkedAt": "2026-10-04T05:45:57Z",
+  "method": "subagent:builder-first",
+  "builderSite": "bptp.com",
+  "corrections": [
+    {
+      "field": "developer",
+      "value": "BPTP LIMITED",
+      "normalized": "BPTP Limited",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3246",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Name and registered address of the company BPTP LIMITED"
+    },
+    {
+      "field": "startingPrice",
+      "value": "₹2.97 Cr* Onwards",
+      "normalized": 29700000,
+      "source": "https://www.bptp.com/lp/amstoria-verti-greens/campaign/index.html",
+      "sourceType": "developer-website",
+      "quote": "PRICE ₹2.97 Cr* Onwards BEDROOMS 2 & 3"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "14-06-2032 (HARERA REP-I; matches our June 2032. Builder site gives no live possession date; HARERA registered-projects list shows registration validity 14/12/2031)",
+      "normalized": "2032-06",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3246",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 14-06-2032"
+    },
+    {
+      "field": "configurations",
+      "value": "2 & 3 bedroom apartments (builder site gives no unit sizes)",
+      "normalized": [
+        { "label": "2 BHK", "bhk": 2 },
+        { "label": "3 BHK", "bhk": 3 }
+      ],
+      "source": "https://www.bptp.com/lp/amstoria-verti-greens/campaign/index.html",
+      "sourceType": "developer-website",
+      "quote": "BEDROOMS 2 & 3"
+    }
+  ],
+  "unresolved": [
+    { "field": "configurations.areaSqft", "note": "The builder does not publish unit sizes. The REP-I tower aggregates fit our figures as carpet areas: 2 towers of 177 units at 20,911.641 sq m (about 118.1 sq m, or 1,272 sq ft, each) and 3 towers of 177 units at about 14,930 sq m (about 84.4 sq m, or 908 sq ft, each). This is our arithmetic, not a per-unit statement in the filing, so it does not confirm the sizes directly." }
+  ]
+}

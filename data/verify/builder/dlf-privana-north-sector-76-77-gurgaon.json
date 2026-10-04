@@ -1,0 +1,25 @@
+{
+  "slug": "dlf-privana-north-sector-76-77-gurgaon",
+  "checkedAt": "2026-10-04T05:45:39Z",
+  "method": "subagent:builder-first",
+  "builderSite": "dlf.in",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "31-03-2034 (HARERA REP-I likely date of completing the project; the dlf.in page gives no possession date)",
+      "normalized": "2034-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3166",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project | 31-03-2034"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-03-2034 (the HARERA list shows registration valid up to 30/09/2034)",
+      "normalized": "2034-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3166",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project | 31-03-2034"
+    }
+  ],
+  "unresolved": []
+}

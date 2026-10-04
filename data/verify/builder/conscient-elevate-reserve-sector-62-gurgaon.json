@@ -1,0 +1,46 @@
+{
+  "slug": "conscient-elevate-reserve-sector-62-gurgaon",
+  "checkedAt": "2026-10-04T05:47:39Z",
+  "method": "subagent:builder-first",
+  "builderSite": "conscient.in (project site elevatereserve.com, which is the website named in the HARERA REP-I)",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "01-10-2030 (likely date of completing the project, HARERA REP-I; neither conscient.in nor elevatereserve.com gives a possession date. HARERA registered-projects list shows validity 30/10/2030)",
+      "normalized": "2030-10",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2618",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 01-10-2030"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "01-10-2030",
+      "normalized": "2030-10",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2618",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 01-10-2030"
+    },
+    {
+      "field": "configurations",
+      "value": "Tower A 3BHK: Carpet Area 139 sq. mt. / 1,496 sq. ft., Balcony 275 sq. ft.; Tower B 4BHK: Carpet Area 171 sq. mt. / 1,840 sq. ft., Balcony 506 sq. ft. (our 1,765 / 2,346 sq ft roughly equal carpet + balcony, not carpet)",
+      "normalized": [
+        { "label": "3 BHK", "bhk": 3, "areaSqft": 1496, "areaBasis": "carpet" },
+        { "label": "4 BHK", "bhk": 4, "areaSqft": 1840, "areaBasis": "carpet" }
+      ],
+      "source": "https://elevatereserve.com/assets/pdf/Floor_Plan.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "TOWER A (3BHK) Carpet Area: 139 sq. mt. / 1,496 sq. ft. ... TOWER B (4BHK) Carpet Area: 171 sq. mt. / 1,840 sq. ft."
+    },
+    {
+      "field": "landArea",
+      "value": "4.84375 (Acre)",
+      "normalized": 4.84375,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2618",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Land area of the project 4.84375 (Acre)"
+    }
+  ],
+  "unresolved": [
+    { "field": "startingPrice", "note": "Neither conscient.in/elevate-reserve nor elevatereserve.com publishes a price. The brochure PDF was too large to fetch." }
+  ]
+}

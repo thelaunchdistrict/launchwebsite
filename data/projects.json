@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T05:41:13.930Z",
+  "generatedAt": "2026-10-04T05:50:16.047Z",
   "source": "https://www.realtycanvas.in",
   "count": 61,
   "projects": [
@@ -1709,7 +1709,8 @@
       "sourceUrl": "https://www.realtycanvas.in/projects/aditya-birla-pravaah-sector-71-gurgaon",
       "developer": {
         "name": "Birla Estates",
-        "nameRaw": "Aditya Birla"
+        "nameRaw": "Aditya Birla",
+        "promoter": "Birla Estates"
       },
       "projectType": "residential",
       "categoryRaw": "RESIDENTIAL",
@@ -1969,6 +1970,7 @@
         "unitsPerAcre": "derived:units/landAcres",
         "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3724",
         "landArea": "builder:developer-website:https://www.birlaestates.com/birla-pravaah-gurugram/",
+        "developer": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3724",
         "floors": "builder:developer-website:https://www.birlaestates.com/birla-pravaah-gurugram/"
       },
       "corrections": [
@@ -1990,6 +1992,16 @@
           "source": "https://www.birlaestates.com/birla-pravaah-gurugram/",
           "sourceType": "developer-website",
           "quote": "Spread across 5.075 acres (approximately 20,537.79 Sq.M) with over 70% open spaces",
+          "checkedAt": "2026-10-03T18:38:25Z"
+        },
+        {
+          "field": "developer",
+          "from": "Birla Estates",
+          "to": "Birla Estates (promoter: Birla Estates)",
+          "value": "Birla Estates Private Limited",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3724",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "BIRLA ESTATES PRIVATE LIMITED",
           "checkedAt": "2026-10-03T18:38:25Z"
         },
         {
@@ -2029,14 +2041,14 @@
       "categoryRaw": "COMMERCIAL",
       "typeRaw": "Office Complex",
       "status": "under-construction",
-      "statusRaw": "UNDER_CONSTRUCTION",
+      "statusRaw": "Under construction (super structure up to 12th floor per July 2025 filing)",
       "marketingStage": null,
       "marketingStageRaw": null,
       "reraNumber": "GGM/481/213/2021/49",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": null,
-      "possessionDateRaw": null,
+      "possessionDate": "2029-09",
+      "possessionDateRaw": "30-09-2029 (latest HARERA filing by AIPL, July 2025; builder site states no possession date)",
       "location": {
         "sector": "66",
         "microMarket": "golf-course-extension-road",
@@ -2068,8 +2080,8 @@
         "otherCharges": null
       },
       "facts": {
-        "landAreaRaw": "6.13 Acres",
-        "landAreaAcres": 6.13,
+        "landAreaRaw": "6.1375 acre site",
+        "landAreaAcres": 6.14,
         "towers": null,
         "floors": 12,
         "units": null,
@@ -2236,8 +2248,62 @@
       "sourceCreatedAt": "2025-09-22T12:20:01.714Z",
       "scrapedAt": "2026-10-02T06:42:45.251Z",
       "provenance": {
-        "microMarket": "derived:sector-table"
-      }
+        "microMarket": "derived:sector-table",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3533",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3533",
+        "landArea": "builder:developer-website:https://aipl.com/project/aipl-autograph/"
+      },
+      "corrections": [
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2029-09",
+          "value": "Revised date of completion 30-09-2029 (earlier 08-04-2026)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3533",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "Earlier date of completion 08-04-2026 Revised date of completion 30-09-2029",
+          "checkedAt": "2026-10-04T10:45:00Z"
+        },
+        {
+          "field": "possessionDate",
+          "from": null,
+          "to": "2029-09",
+          "value": "30-09-2029 (latest HARERA filing by AIPL, July 2025; builder site states no possession date)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3533",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "Earlier date of completion 08-04-2026 Revised date of completion 30-09-2029",
+          "checkedAt": "2026-10-04T10:45:00Z"
+        },
+        {
+          "field": "landArea",
+          "from": 6.13,
+          "to": 6.14,
+          "value": "6.1375 acre site",
+          "source": "https://aipl.com/project/aipl-autograph/",
+          "sourceType": "developer-website",
+          "quote": "a Grade 'A' office building, offers an interactive environment for tenants and retail patrons on a 6.1375 acre site",
+          "checkedAt": "2026-10-04T10:45:00Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "startingPrice",
+          "note": "Builder publishes no price for AIPL Autograph (leasing-oriented office page, enquiry only)."
+        },
+        {
+          "field": "units",
+          "note": "Builder filings conflict: 2021 REP-I (id 1557) lists 126 + 24 = 150 units in 3 towers; July 2025 revised filing (id 3533) lists 2682 commercial/IT units, 527 booked. Builder site gives no count."
+        },
+        {
+          "field": "towers",
+          "note": "2021 REP-I says 3 towers; July 2025 filing says 1 tower 'to be/being constructed for booked apartments'. Builder site says 'Office tower' without a count."
+        },
+        {
+          "field": "floors",
+          "note": "Builder site and filings give no total floor count (filing reports structure at 12th floor; site mentions only '4 levels of basement parking'). Our 12 floors is not confirmed."
+        }
+      ],
+      "reraCompletionDate": "2029-09"
     },
     {
       "source": "listing",
@@ -2259,8 +2325,8 @@
       "reraNumber": "RC/REP/HARERA/GGM/780/512/2024/07",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": null,
-      "possessionDateRaw": null,
+      "possessionDate": "2028-06",
+      "possessionDateRaw": "30th June, 2028 (HARERA completion date declared by promoter; builder site states no possession date)",
       "location": {
         "sector": "88",
         "microMarket": "new-gurgaon",
@@ -2292,10 +2358,10 @@
         "otherCharges": null
       },
       "facts": {
-        "landAreaRaw": "11 Acres",
-        "landAreaAcres": 11,
-        "towers": null,
-        "floors": 5,
+        "landAreaRaw": "10.42* Acres",
+        "landAreaAcres": 10.42,
+        "towers": 1,
+        "floors": 4,
         "units": null,
         "soldUnits": null,
         "availableUnits": null,
@@ -2514,8 +2580,76 @@
       "scrapedAt": "2026-10-02T06:42:46.607Z",
       "provenance": {
         "microMarket": "derived:sector-table",
-        "paymentPlan": "extracted-from-faq-text"
-      }
+        "paymentPlan": "extracted-from-faq-text",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTU2MA==",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTU2MA==",
+        "landArea": "builder:developer-website:https://aipl.com/project/aipl-joy-district/",
+        "floors": "builder:developer-website:https://aipl.com/project/aipl-joy-district/",
+        "towers": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTU2MA=="
+      },
+      "corrections": [
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2028-06",
+          "value": "30th June, 2028",
+          "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU2MA==",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ending with 30th June, 2028 (completion date as declared by the promoter in REP-II)",
+          "checkedAt": "2026-10-04T10:45:00Z"
+        },
+        {
+          "field": "possessionDate",
+          "from": null,
+          "to": "2028-06",
+          "value": "30th June, 2028 (HARERA completion date declared by promoter; builder site states no possession date)",
+          "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU2MA==",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ending with 30th June, 2028 (completion date as declared by the promoter in REP-II)",
+          "checkedAt": "2026-10-04T10:45:00Z"
+        },
+        {
+          "field": "landArea",
+          "from": 11,
+          "to": 10.42,
+          "value": "10.42* Acres",
+          "source": "https://aipl.com/project/aipl-joy-district/",
+          "sourceType": "developer-website",
+          "quote": "Spread over 10.42 * Acres, AIPL Joy District will have the perfect retail, F&B, recreation entertainment zone mix.",
+          "checkedAt": "2026-10-04T10:45:00Z"
+        },
+        {
+          "field": "floors",
+          "from": 5,
+          "to": 4,
+          "value": "four levels",
+          "source": "https://aipl.com/project/aipl-joy-district/",
+          "sourceType": "developer-website",
+          "quote": "Built across four levels with 1.2* million square feet of space across levels.",
+          "checkedAt": "2026-10-04T10:45:00Z"
+        },
+        {
+          "field": "towers",
+          "from": null,
+          "to": 1,
+          "value": "1",
+          "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU2MA==",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "Number of Towers 1",
+          "checkedAt": "2026-10-04T10:45:00Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "startingPrice",
+          "note": "Builder publishes no price for AIPL Joy District on aipl.com (project page and blogs are enquiry-only); our ₹83 lakh onwards is not stated by the builder."
+        },
+        {
+          "field": "units",
+          "note": "Builder filings conflict: Feb 2024 registration certificate says 'Number of units 1190'; Dec 2024 HARERA filing (id 3237) lists 1480 shops (317 booked). Builder site gives no count, only '1.2* million square feet'."
+        }
+      ],
+      "reraCompletionDate": "2028-06"
     },
     {
       "source": "listing",
@@ -3417,8 +3551,8 @@
       "reraNumber": "RC/REP/HARERA/GGM/981/713/2025/84",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": null,
-      "possessionDateRaw": null,
+      "possessionDate": "2032-10",
+      "possessionDateRaw": "31-10-2032 (likely date of completing the project, HARERA REP-I; builder site gives no possession date)",
       "location": {
         "sector": "66",
         "microMarket": "golf-course-extension-road",
@@ -3434,30 +3568,59 @@
         "commentary": "• Close to M3M Urbana Park (1.7 km) and Omaxe City Centre (5.5 km) for shopping and dining\n• Akropolis Hospital just 2.6 km away for healthcare needs\n• Easy access to Badshahpur Sohna Road Highway (2.9 km) for daily commute\n• Near Gurugram University (5.1 km) and ORCHIDS The International School (7.7 km)\n• Close to Grand Hyatt Gurgaon and Tau Devi Lal Sports Complex for lifestyle and recreation\n• Good access to Millennium City Centre (9.9 km) and key business zones\n• Gurgaon Railway Station (14 km) and Indira Gandhi International Airport (39.7 km) ensure city-wide connectivity"
       },
       "pricing": {
-        "startingPriceRaw": "₹5.2 Crore Onwards",
-        "startingPriceInr": 52000000,
+        "startingPriceRaw": "₹5.45 Cr Onwards",
+        "startingPriceInr": 54500000,
         "priceRangeRaw": null,
-        "priceMinInr": 52000000,
+        "priceMinInr": 54500000,
         "priceMaxInr": null,
         "pricePerSqftMinInr": null,
         "pricePerSqftMaxInr": null,
         "entryPricePerSqftInr": null,
         "unitSizeMinSqft": null,
         "unitSizeMaxSqft": null,
-        "configurations": [],
+        "configurations": [
+          {
+            "label": "3 BHK",
+            "unitType": null,
+            "bhk": 3,
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
+            "priceInr": null,
+            "pricePerSqftRaw": null,
+            "pricePerSqftInr": null,
+            "availability": null,
+            "features": null
+          },
+          {
+            "label": "3.5 BHK",
+            "unitType": null,
+            "bhk": 3.5,
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
+            "priceInr": null,
+            "pricePerSqftRaw": null,
+            "pricePerSqftInr": null,
+            "availability": null,
+            "features": null
+          }
+        ],
         "paymentPlan": null,
         "bookingAmount": null,
         "otherCharges": null
       },
       "facts": {
-        "landAreaRaw": "4.25 Acres",
-        "landAreaAcres": 4.25,
+        "landAreaRaw": "4.235 (Acre)",
+        "landAreaAcres": 4.24,
         "towers": 3,
         "floors": 46,
         "units": 504,
         "soldUnits": null,
         "availableUnits": null,
-        "unitsPerAcre": 118.6,
+        "unitsPerAcre": 118.9,
         "openSpacePercent": null,
         "architect": null,
         "landscapeDesigner": null,
@@ -3867,8 +4030,75 @@
       "provenance": {
         "marketingStage": "extracted-from-listing-text",
         "microMarket": "derived:sector-table",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3592",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3592",
+        "startingPrice": "builder:developer-website:https://www.bptp.com/projects/downtown-66",
+        "configurations": "builder:developer-press-release:https://www.bptp.com/media/bptp-limited-launches-downtown-66-in-sector-66-gurugram-a-curated-downtown-living-experience-rooted-in-design-culture-and-community",
+        "landArea": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3592"
+      },
+      "corrections": [
+        {
+          "field": "possessionDate",
+          "from": null,
+          "to": "2032-10",
+          "value": "31-10-2032 (likely date of completing the project, HARERA REP-I; builder site gives no possession date)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3592",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 31-10-2032",
+          "checkedAt": "2026-10-04T05:43:05Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2032-10",
+          "value": "31-10-2032",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3592",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 31-10-2032",
+          "checkedAt": "2026-10-04T05:43:05Z"
+        },
+        {
+          "field": "startingPrice",
+          "from": 52000000,
+          "to": 54500000,
+          "value": "₹5.45 Cr Onwards",
+          "source": "https://www.bptp.com/projects/downtown-66",
+          "sourceType": "developer-website",
+          "quote": "₹5.45 Cr Onwards*",
+          "checkedAt": "2026-10-04T05:43:05Z"
+        },
+        {
+          "field": "configurations",
+          "from": [],
+          "to": [
+            "3 BHK",
+            "3.5 BHK"
+          ],
+          "value": "3 & 3.5 BHK (no unit sizes published by the builder)",
+          "source": "https://www.bptp.com/media/bptp-limited-launches-downtown-66-in-sector-66-gurugram-a-curated-downtown-living-experience-rooted-in-design-culture-and-community",
+          "sourceType": "developer-press-release",
+          "quote": "504 luxury residences in 3 & 3.5 BHK configurations",
+          "checkedAt": "2026-10-04T05:43:05Z"
+        },
+        {
+          "field": "landArea",
+          "from": 4.25,
+          "to": 4.24,
+          "value": "4.235 (Acre)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3592",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "1. Land area of the project 4.235 (Acre)",
+          "checkedAt": "2026-10-04T05:43:05Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "configurations.areaSqft",
+          "note": "Builder site and press release state no unit sizes; REP-I gives only per-tower aggregate carpet areas (168 apartments per tower), not per-unit sizes."
+        }
+      ],
+      "reraCompletionDate": "2032-10"
     },
     {
       "source": "listing",
@@ -3878,7 +4108,8 @@
       "sourceUrl": "https://www.realtycanvas.in/projects/bptp-gaia-residences-sector-102-gurgaon",
       "developer": {
         "name": "BPTP",
-        "nameRaw": "BPTP Gaia Residences"
+        "nameRaw": "BPTP Gaia Residences",
+        "promoter": "BPTP Limited"
       },
       "projectType": "residential",
       "categoryRaw": "RESIDENTIAL",
@@ -3890,8 +4121,8 @@
       "reraNumber": "RC/REP/HARERA/GGM/963/695/2025/66",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": null,
-      "possessionDateRaw": null,
+      "possessionDate": "2032-12",
+      "possessionDateRaw": "31-12-2032 (likely date of completing the project, HARERA REP-I; builder site gives no possession date. Note: HARERA registered-projects list shows registration validity 31/07/2032)",
       "location": {
         "sector": "102",
         "microMarket": "dwarka-expressway",
@@ -3907,71 +4138,29 @@
         "commentary": "BPTP Gaia Residences enjoys a strategic address in Sector 102, Gurgaon.\n\nConnectivity & Accessibility:\n• Located in a well-established catchment with strong access to key roads and daily-use infrastructure around Sector 102.\n• Suitable for buyers evaluating residential development opportunities with better livability, visibility, and future appreciation.\n• Supported by nearby schools, hospitals, work hubs, retail zones, and lifestyle destinations depending on the surrounding micro-market.\n• Easy movement for residents, customers, employees, and investors across major parts of Gurugram / NCR."
       },
       "pricing": {
-        "startingPriceRaw": "₹3.75 Crores Onwards",
-        "startingPriceInr": 37500000,
+        "startingPriceRaw": "₹4.08 Cr (GAIA 3 BHK, BPTP blog). The combined GAIA + Amstoria Verti-Greens project page shows ₹3.38 Cr. onwards for both phases together.",
+        "startingPriceInr": 40800000,
         "priceRangeRaw": null,
-        "priceMinInr": 37500000,
+        "priceMinInr": 40800000,
         "priceMaxInr": null,
         "pricePerSqftMinInr": null,
         "pricePerSqftMaxInr": null,
-        "entryPricePerSqftInr": 17857,
+        "entryPricePerSqftInr": 19429,
         "unitSizeMinSqft": 2100,
         "unitSizeMaxSqft": 2100,
         "configurations": [
           {
-            "label": "T6 - Type 2",
+            "label": "3 BHK",
             "unitType": "Apartment",
-            "bhk": null,
-            "areaRaw": "2,100 sq ft",
-            "areaSqft": 2100,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "bhk": 3,
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "T6 - Type 1",
-            "unitType": "Apartment",
-            "bhk": null,
-            "areaRaw": "2,100 sq ft",
-            "areaSqft": 2100,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "T8 - Type 2",
-            "unitType": "Apartment",
-            "bhk": null,
-            "areaRaw": "2,100 sq ft",
-            "areaSqft": 2100,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "T8 - Type 1",
-            "unitType": "Apartment",
-            "bhk": null,
-            "areaRaw": "2,100 sq ft",
-            "areaSqft": 2100,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           }
         ],
@@ -3980,14 +4169,14 @@
         "otherCharges": null
       },
       "facts": {
-        "landAreaRaw": "12.08 Acres",
-        "landAreaAcres": 12.08,
+        "landAreaRaw": "1.6838 acres (Phase 2) out of a 12.05-acre licensed colony",
+        "landAreaAcres": 1.68,
         "towers": 3,
         "floors": null,
         "units": 531,
         "soldUnits": null,
         "availableUnits": null,
-        "unitsPerAcre": 44,
+        "unitsPerAcre": 316.1,
         "openSpacePercent": null,
         "architect": null,
         "landscapeDesigner": null,
@@ -4247,8 +4436,90 @@
       "provenance": {
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "developer": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3491",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3491",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3491",
+        "landArea": "builder:developer-website:https://www.bptp.com/projects/gaia-residences-and-amstoria-verti-greens",
+        "configurations": "builder:developer-website:https://www.bptp.com/blogs/guide-to-3-bhk-flats-luxury-apartments-in-gurgaon-best-residential-projects",
+        "startingPrice": "builder:developer-website:https://www.bptp.com/blogs/guide-to-3-bhk-flats-luxury-apartments-in-gurgaon-best-residential-projects"
+      },
+      "corrections": [
+        {
+          "field": "developer",
+          "from": "BPTP",
+          "to": "BPTP (promoter: BPTP Limited)",
+          "value": "BPTP LIMITED",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3491",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "1. Name and registered address of the company BPTP LIMITED",
+          "checkedAt": "2026-10-04T05:45:25Z"
+        },
+        {
+          "field": "possessionDate",
+          "from": null,
+          "to": "2032-12",
+          "value": "31-12-2032 (likely date of completing the project, HARERA REP-I; builder site gives no possession date. Note: HARERA registered-projects list shows registration validity 31/07/2032)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3491",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 31-12-2032",
+          "checkedAt": "2026-10-04T05:45:25Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2032-12",
+          "value": "31-12-2032",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3491",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 31-12-2032",
+          "checkedAt": "2026-10-04T05:45:25Z"
+        },
+        {
+          "field": "landArea",
+          "from": 12.08,
+          "to": 1.68,
+          "value": "1.6838 acres (Phase 2) out of a 12.05-acre licensed colony",
+          "source": "https://www.bptp.com/projects/gaia-residences-and-amstoria-verti-greens",
+          "sourceType": "developer-website",
+          "quote": "License No. 123 of 2014 dated 22.08.2014 for an area measuring 12.05 acres, being developed in a phased manner, current phase/Project having area 1.6838 acres (Phase 2)",
+          "checkedAt": "2026-10-04T05:45:25Z"
+        },
+        {
+          "field": "configurations",
+          "from": [
+            "T6 - Type 2 2100 sq ft",
+            "T6 - Type 1 2100 sq ft",
+            "T8 - Type 2 2100 sq ft",
+            "T8 - Type 1 2100 sq ft"
+          ],
+          "to": [
+            "3 BHK"
+          ],
+          "value": "3 BHK (no unit sizes published by the builder)",
+          "source": "https://www.bptp.com/blogs/guide-to-3-bhk-flats-luxury-apartments-in-gurgaon-best-residential-projects",
+          "sourceType": "developer-website",
+          "quote": "3 BHK flats for sale in Gurgaon, with the starting price at ₹4.08 Cr.",
+          "checkedAt": "2026-10-04T05:45:25Z"
+        },
+        {
+          "field": "startingPrice",
+          "from": 37500000,
+          "to": 40800000,
+          "value": "₹4.08 Cr (GAIA 3 BHK, BPTP blog). The combined GAIA + Amstoria Verti-Greens project page shows ₹3.38 Cr. onwards for both phases together.",
+          "source": "https://www.bptp.com/blogs/guide-to-3-bhk-flats-luxury-apartments-in-gurgaon-best-residential-projects",
+          "sourceType": "developer-website",
+          "quote": "3 BHK flats for sale in Gurgaon, with the starting price at ₹4.08 Cr.",
+          "checkedAt": "2026-10-04T05:45:25Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "configurations.areaSqft",
+          "note": "The builder publishes no unit sizes on its site; REP-I gives only per-tower aggregate carpet areas (3 towers x 177 apartments), not per-unit sizes. The 2,100 sq ft figure cannot be confirmed."
+        }
+      ],
+      "reraCompletionDate": "2032-12"
     },
     {
       "source": "listing",
@@ -4258,7 +4529,8 @@
       "sourceUrl": "https://www.realtycanvas.in/projects/bptp-verti-greens-sector-102-gurgaon",
       "developer": {
         "name": "BPTP",
-        "nameRaw": "BPTP Verti Greens"
+        "nameRaw": "BPTP Verti Greens",
+        "promoter": "BPTP Limited"
       },
       "projectType": "residential",
       "categoryRaw": "RESIDENTIAL",
@@ -4287,85 +4559,43 @@
         "commentary": "BPTP Verti Greens enjoys a strategic address in Sector 102, Gurgaon.\n\nConnectivity & Accessibility:\n• Located in a well-established catchment with strong access to key roads and daily-use infrastructure around Sector 102.\n• Suitable for buyers evaluating residential development opportunities with better livability, visibility, and future appreciation.\n• Supported by nearby schools, hospitals, work hubs, retail zones, and lifestyle destinations depending on the surrounding micro-market.\n• Easy movement for residents, customers, employees, and investors across major parts of Gurugram / NCR."
       },
       "pricing": {
-        "startingPriceRaw": "₹2.5 Crores Onwards",
-        "startingPriceInr": 25000000,
+        "startingPriceRaw": "₹2.97 Cr* Onwards",
+        "startingPriceInr": 29700000,
         "priceRangeRaw": null,
-        "priceMinInr": 25000000,
+        "priceMinInr": 29700000,
         "priceMaxInr": null,
         "pricePerSqftMinInr": null,
         "pricePerSqftMaxInr": null,
-        "entryPricePerSqftInr": 27533,
+        "entryPricePerSqftInr": 32709,
         "unitSizeMinSqft": 908,
         "unitSizeMaxSqft": 1272,
         "configurations": [
           {
-            "label": "2 BHK TYPE 2",
+            "label": "2 BHK",
             "unitType": "Apartment",
             "bhk": 2,
-            "areaRaw": "908 sq ft",
-            "areaSqft": 908,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           },
           {
-            "label": "2 BHK TYPE 1",
-            "unitType": "Apartment",
-            "bhk": 2,
-            "areaRaw": "908 sq ft",
-            "areaSqft": 908,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "3 BHK TYPE 2",
+            "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
-            "areaRaw": "1,270 sq ft",
-            "areaSqft": 1270,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "3 BHK TYPE 3",
-            "unitType": "Apartment",
-            "bhk": 3,
-            "areaRaw": "1,270 sq ft",
-            "areaSqft": 1270,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "3 BHK TYPE 1",
-            "unitType": "Apartment",
-            "bhk": 3,
-            "areaRaw": "1,272sq ft",
-            "areaSqft": 1272,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           }
         ],
@@ -4591,8 +4821,70 @@
         "possessionDate": "extracted-from-faq-text",
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "developer": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3246",
+        "startingPrice": "builder:developer-website:https://www.bptp.com/lp/amstoria-verti-greens/campaign/index.html",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3246",
+        "configurations": "builder:developer-website:https://www.bptp.com/lp/amstoria-verti-greens/campaign/index.html"
+      },
+      "corrections": [
+        {
+          "field": "developer",
+          "from": "BPTP",
+          "to": "BPTP (promoter: BPTP Limited)",
+          "value": "BPTP LIMITED",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3246",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "1. Name and registered address of the company BPTP LIMITED",
+          "checkedAt": "2026-10-04T05:45:57Z"
+        },
+        {
+          "field": "startingPrice",
+          "from": 25000000,
+          "to": 29700000,
+          "value": "₹2.97 Cr* Onwards",
+          "source": "https://www.bptp.com/lp/amstoria-verti-greens/campaign/index.html",
+          "sourceType": "developer-website",
+          "quote": "PRICE ₹2.97 Cr* Onwards BEDROOMS 2 & 3",
+          "checkedAt": "2026-10-04T05:45:57Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2032-06",
+          "value": "14-06-2032 (HARERA REP-I; matches our June 2032. Builder site gives no live possession date; HARERA registered-projects list shows registration validity 14/12/2031)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3246",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 14-06-2032",
+          "checkedAt": "2026-10-04T05:45:57Z"
+        },
+        {
+          "field": "configurations",
+          "from": [
+            "2 BHK TYPE 2 908 sq ft",
+            "2 BHK TYPE 1 908 sq ft",
+            "3 BHK TYPE 2 1270 sq ft",
+            "3 BHK TYPE 3 1270 sq ft",
+            "3 BHK TYPE 1 1272 sq ft"
+          ],
+          "to": [
+            "2 BHK",
+            "3 BHK"
+          ],
+          "value": "2 & 3 bedroom apartments (builder site gives no unit sizes)",
+          "source": "https://www.bptp.com/lp/amstoria-verti-greens/campaign/index.html",
+          "sourceType": "developer-website",
+          "quote": "BEDROOMS 2 & 3",
+          "checkedAt": "2026-10-04T05:45:57Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "configurations.areaSqft",
+          "note": "The builder does not publish unit sizes. The REP-I tower aggregates fit our figures as carpet areas: 2 towers of 177 units at 20,911.641 sq m (about 118.1 sq m, or 1,272 sq ft, each) and 3 towers of 177 units at about 14,930 sq m (about 84.4 sq m, or 908 sq ft, each). This is our arithmetic, not a per-unit statement in the filing, so it does not confirm the sizes directly."
+        }
+      ],
+      "reraCompletionDate": "2032-06"
     },
     {
       "source": "listing",
@@ -4614,8 +4906,8 @@
       "reraNumber": "GGM/757/489/2023/101",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": "2028-03",
-      "possessionDateRaw": "possession date is March 2028",
+      "possessionDate": "2030-10",
+      "possessionDateRaw": "01-10-2030 (likely date of completing the project, HARERA REP-I; neither conscient.in nor elevatereserve.com gives a possession date. HARERA registered-projects list shows validity 30/10/2030)",
       "location": {
         "sector": "62",
         "microMarket": "golf-course-extension-road",
@@ -4638,36 +4930,36 @@
         "priceMaxInr": null,
         "pricePerSqftMinInr": null,
         "pricePerSqftMaxInr": null,
-        "entryPricePerSqftInr": 31898,
-        "unitSizeMinSqft": 1765,
-        "unitSizeMaxSqft": 2346,
+        "entryPricePerSqftInr": 37634,
+        "unitSizeMinSqft": 1496,
+        "unitSizeMaxSqft": 1840,
         "configurations": [
           {
             "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
-            "areaRaw": "1765 sq ft",
-            "areaSqft": 1765,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "areaRaw": "1,496 sq ft (carpet)",
+            "areaSqft": 1496,
+            "areaBasis": "carpet area (developer)",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           },
           {
             "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
-            "areaRaw": "2346 sq ft",
-            "areaSqft": 2346,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "areaRaw": "1,840 sq ft (carpet)",
+            "areaSqft": 1840,
+            "areaBasis": "carpet area (developer)",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           }
         ],
@@ -4676,14 +4968,14 @@
         "otherCharges": null
       },
       "facts": {
-        "landAreaRaw": "5.5 Acres",
-        "landAreaAcres": 5.5,
+        "landAreaRaw": "4.84375 (Acre)",
+        "landAreaAcres": 4.84,
         "towers": 2,
         "floors": null,
         "units": 240,
         "soldUnits": null,
         "availableUnits": null,
-        "unitsPerAcre": 43.6,
+        "unitsPerAcre": 49.6,
         "openSpacePercent": null,
         "architect": null,
         "landscapeDesigner": null,
@@ -4823,11 +5115,69 @@
       "sourceCreatedAt": "2025-09-12T06:52:04.424Z",
       "scrapedAt": "2026-10-02T06:42:53.375Z",
       "provenance": {
-        "possessionDate": "extracted-from-faq-text",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2618",
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2618",
+        "configurations": "builder:developer-brochure:https://elevatereserve.com/assets/pdf/Floor_Plan.pdf",
+        "landArea": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2618"
+      },
+      "corrections": [
+        {
+          "field": "possessionDate",
+          "from": "2028-03",
+          "to": "2030-10",
+          "value": "01-10-2030 (likely date of completing the project, HARERA REP-I; neither conscient.in nor elevatereserve.com gives a possession date. HARERA registered-projects list shows validity 30/10/2030)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2618",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 01-10-2030",
+          "checkedAt": "2026-10-04T05:47:39Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2030-10",
+          "value": "01-10-2030",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2618",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 01-10-2030",
+          "checkedAt": "2026-10-04T05:47:39Z"
+        },
+        {
+          "field": "configurations",
+          "from": [
+            "3 BHK 1765 sq ft",
+            "4 BHK 2346 sq ft"
+          ],
+          "to": [
+            "3 BHK 1496 sq ft",
+            "4 BHK 1840 sq ft"
+          ],
+          "value": "Tower A 3BHK: Carpet Area 139 sq. mt. / 1,496 sq. ft., Balcony 275 sq. ft.; Tower B 4BHK: Carpet Area 171 sq. mt. / 1,840 sq. ft., Balcony 506 sq. ft. (our 1,765 / 2,346 sq ft roughly equal carpet + balcony, not carpet)",
+          "source": "https://elevatereserve.com/assets/pdf/Floor_Plan.pdf",
+          "sourceType": "developer-brochure",
+          "quote": "TOWER A (3BHK) Carpet Area: 139 sq. mt. / 1,496 sq. ft. ... TOWER B (4BHK) Carpet Area: 171 sq. mt. / 1,840 sq. ft.",
+          "checkedAt": "2026-10-04T05:47:39Z"
+        },
+        {
+          "field": "landArea",
+          "from": 5.5,
+          "to": 4.84,
+          "value": "4.84375 (Acre)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2618",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "1. Land area of the project 4.84375 (Acre)",
+          "checkedAt": "2026-10-04T05:47:39Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "startingPrice",
+          "note": "Neither conscient.in/elevate-reserve nor elevatereserve.com publishes a price. The brochure PDF was too large to fetch."
+        }
+      ],
+      "reraCompletionDate": "2030-10"
     },
     {
       "source": "listing",
@@ -4837,7 +5187,8 @@
       "sourceUrl": "https://www.realtycanvas.in/projects/dlf-central-67-sector-67-gurgaon",
       "developer": {
         "name": "DLF",
-        "nameRaw": "DLF"
+        "nameRaw": "DLF",
+        "promoter": "DLF Home Developers Limited"
       },
       "projectType": "commercial",
       "categoryRaw": "COMMERCIAL",
@@ -4849,8 +5200,8 @@
       "reraNumber": "RC/REP/HARERA/GGM/768/500/2023/112",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": null,
-      "possessionDateRaw": null,
+      "possessionDate": "2027-12",
+      "possessionDateRaw": "31-12-2027 (likely date of completing the project, HARERA REP-I; central67.dlf.in gives no possession date)",
       "location": {
         "sector": "67",
         "microMarket": "southern-peripheral-road",
@@ -4873,23 +5224,38 @@
         "priceMaxInr": null,
         "pricePerSqftMinInr": null,
         "pricePerSqftMaxInr": null,
-        "entryPricePerSqftInr": null,
-        "unitSizeMinSqft": null,
-        "unitSizeMaxSqft": null,
-        "configurations": [],
+        "entryPricePerSqftInr": 62992,
+        "unitSizeMinSqft": 1270,
+        "unitSizeMaxSqft": 1270,
+        "configurations": [
+          {
+            "label": "SCO plot (from)",
+            "unitType": null,
+            "bhk": 0,
+            "areaRaw": "1,270 sq ft",
+            "areaSqft": 1270,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
+            "priceInr": null,
+            "pricePerSqftRaw": null,
+            "pricePerSqftInr": null,
+            "availability": null,
+            "features": null
+          }
+        ],
         "paymentPlan": null,
         "bookingAmount": null,
         "otherCharges": null
       },
       "facts": {
-        "landAreaRaw": "8.7 Acres",
+        "landAreaRaw": "8.6987 acres",
         "landAreaAcres": 8.7,
         "towers": null,
-        "floors": 6,
-        "units": null,
+        "floors": 5,
+        "units": 75,
         "soldUnits": null,
         "availableUnits": null,
-        "unitsPerAcre": null,
+        "unitsPerAcre": 8.6,
         "openSpacePercent": null,
         "architect": null,
         "landscapeDesigner": null,
@@ -5041,8 +5407,80 @@
       "sourceCreatedAt": "2026-01-19T16:14:39.000Z",
       "scrapedAt": "2026-10-02T06:42:54.318Z",
       "provenance": {
-        "microMarket": "derived:sector-table"
-      }
+        "microMarket": "derived:sector-table",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2632",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2632",
+        "configurations": "builder:developer-website:https://central67.dlf.in/",
+        "units": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2632",
+        "floors": "builder:developer-website:https://central67.dlf.in/",
+        "developer": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2632"
+      },
+      "corrections": [
+        {
+          "field": "possessionDate",
+          "from": null,
+          "to": "2027-12",
+          "value": "31-12-2027 (likely date of completing the project, HARERA REP-I; central67.dlf.in gives no possession date)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2632",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 31-12-2027",
+          "checkedAt": "2026-10-04T05:48:25Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2027-12",
+          "value": "31-12-2027",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2632",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 31-12-2027",
+          "checkedAt": "2026-10-04T05:48:25Z"
+        },
+        {
+          "field": "configurations",
+          "from": [],
+          "to": [
+            "SCO plot (from) 1270 sq ft"
+          ],
+          "value": "SCO plots starting from 118 sq. m. (about 1,270 sq ft). REP-I lists 15 plot sizes from 118.58 to 402.57 sq m.",
+          "source": "https://central67.dlf.in/",
+          "sourceType": "developer-website",
+          "quote": "Efficient Basement, Ground, 4-floor configuration with plots starting from 118 sq. m., including larger and corner options",
+          "checkedAt": "2026-10-04T05:48:25Z"
+        },
+        {
+          "field": "units",
+          "from": null,
+          "to": 75,
+          "value": "75 plots (Total of plot schedule in REP-I; the builder site states no count)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2632",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "iii) Sizes of the plots to be offered in the project ... Total 75",
+          "checkedAt": "2026-10-04T05:48:25Z"
+        },
+        {
+          "field": "floors",
+          "from": 6,
+          "to": 5,
+          "value": "Basement + Ground + 4 floors (5 storeys above ground; our 6 counts the basement)",
+          "source": "https://central67.dlf.in/",
+          "sourceType": "developer-website",
+          "quote": "DEVELOPMENT POTENTIAL Basement + Ground + 4 floors",
+          "checkedAt": "2026-10-04T05:48:25Z"
+        },
+        {
+          "field": "developer",
+          "from": "DLF",
+          "to": "DLF (promoter: DLF Home Developers Limited)",
+          "value": "DLF Home Developers Limited (promoter in the HARERA filing; a DLF group company)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2632",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "1. Name and registered address of the company DLF HOME DEVELEOPERS LIMITED",
+          "checkedAt": "2026-10-04T05:48:25Z"
+        }
+      ],
+      "builderUnresolved": [],
+      "reraCompletionDate": "2027-12"
     },
     {
       "source": "listing",
@@ -5064,8 +5502,8 @@
       "reraNumber": "RC/REP/HARERA/GGM/806/538/2024/33",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": null,
-      "possessionDateRaw": null,
+      "possessionDate": "2028-03",
+      "possessionDateRaw": "31-03-2028 (HARERA REP-I likely date of completing the project; DLF site gives no possession date)",
       "location": {
         "sector": "91",
         "microMarket": "new-gurgaon",
@@ -5088,23 +5526,52 @@
         "priceMaxInr": null,
         "pricePerSqftMinInr": null,
         "pricePerSqftMaxInr": null,
-        "entryPricePerSqftInr": null,
-        "unitSizeMinSqft": null,
-        "unitSizeMaxSqft": null,
-        "configurations": [],
+        "entryPricePerSqftInr": 192308,
+        "unitSizeMinSqft": 78,
+        "unitSizeMaxSqft": 2532,
+        "configurations": [
+          {
+            "label": "Retail shop (smallest)",
+            "unitType": null,
+            "bhk": null,
+            "areaRaw": "78 sq ft",
+            "areaSqft": 78,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
+            "priceInr": null,
+            "pricePerSqftRaw": null,
+            "pricePerSqftInr": null,
+            "availability": null,
+            "features": null
+          },
+          {
+            "label": "Retail shop (largest)",
+            "unitType": null,
+            "bhk": null,
+            "areaRaw": "2,532 sq ft",
+            "areaSqft": 2532,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
+            "priceInr": null,
+            "pricePerSqftRaw": null,
+            "pricePerSqftInr": null,
+            "availability": null,
+            "features": null
+          }
+        ],
         "paymentPlan": null,
         "bookingAmount": null,
         "otherCharges": null
       },
       "facts": {
-        "landAreaRaw": null,
-        "landAreaAcres": null,
-        "towers": null,
-        "floors": 4,
-        "units": null,
+        "landAreaRaw": "0.89 acre",
+        "landAreaAcres": 0.89,
+        "towers": 1,
+        "floors": 3,
+        "units": 72,
         "soldUnits": null,
         "availableUnits": null,
-        "unitsPerAcre": null,
+        "unitsPerAcre": 80.9,
         "openSpacePercent": null,
         "architect": null,
         "landscapeDesigner": null,
@@ -5278,8 +5745,97 @@
       "sourceCreatedAt": "2026-01-20T15:53:03.000Z",
       "scrapedAt": "2026-10-02T06:42:55.320Z",
       "provenance": {
-        "microMarket": "derived:sector-table"
-      }
+        "microMarket": "derived:sector-table",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2786",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2786",
+        "floors": "builder:developer-website:https://clubarcade.dlf.in/",
+        "units": "builder:developer-website:https://clubarcade.dlf.in/",
+        "towers": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2786",
+        "landArea": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2786",
+        "configurations": "builder:developer-website:https://clubarcade.dlf.in/"
+      },
+      "corrections": [
+        {
+          "field": "possessionDate",
+          "from": null,
+          "to": "2028-03",
+          "value": "31-03-2028 (HARERA REP-I likely date of completing the project; DLF site gives no possession date)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2786",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project | 31-03-2028",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2028-03",
+          "value": "31-03-2028",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2786",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project | 31-03-2028",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "floors",
+          "from": 4,
+          "to": 3,
+          "value": "2 Basements and 3 Floors",
+          "source": "https://clubarcade.dlf.in/",
+          "sourceType": "developer-website",
+          "quote": "2 Basements and 3 Floors",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "units",
+          "from": null,
+          "to": 72,
+          "value": "72 units",
+          "source": "https://clubarcade.dlf.in/",
+          "sourceType": "developer-website",
+          "quote": "Comprising 72 units only",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "towers",
+          "from": null,
+          "to": 1,
+          "value": "1",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2786",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "Apartment/Shops/Other Buildings | 2545 | 72 | 1",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "landArea",
+          "from": null,
+          "to": 0.89,
+          "value": "0.89 acre",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2786",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "1. Land area of the project | 0.89 (Acre)",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "configurations",
+          "from": [],
+          "to": [
+            "Retail shop (smallest) 78 sq ft",
+            "Retail shop (largest) 2532 sq ft"
+          ],
+          "value": "Retail units from 77.93 sq. ft. to 2531.80 sq. ft. (7.24 to 235.21 sq. mt.)",
+          "source": "https://clubarcade.dlf.in/",
+          "sourceType": "developer-website",
+          "quote": "Unit sizes ranging from 7.24 sq. mt. to 235.21 sq. mt. (77.93 sq. ft. to 2531.80 sq. ft.)",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "startingPrice",
+          "note": "clubarcade.dlf.in publishes no price or price list, and no DLF press release with a Club Arcade price was found. Our Rs 1.50 Cr cannot be confirmed from the builder."
+        }
+      ],
+      "reraCompletionDate": "2028-03"
     },
     {
       "source": "listing",
@@ -5301,8 +5857,8 @@
       "reraNumber": "RC/REP/HARERA/GGM/954/686/2025/57",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": null,
-      "possessionDateRaw": null,
+      "possessionDate": "2034-03",
+      "possessionDateRaw": "31-03-2034 (HARERA REP-I likely date of completing the project; the dlf.in page gives no possession date)",
       "location": {
         "sector": "76",
         "microMarket": "southern-peripheral-road",
@@ -5582,8 +6138,34 @@
       "provenance": {
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3166",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3166"
+      },
+      "corrections": [
+        {
+          "field": "possessionDate",
+          "from": null,
+          "to": "2034-03",
+          "value": "31-03-2034 (HARERA REP-I likely date of completing the project; the dlf.in page gives no possession date)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3166",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project | 31-03-2034",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2034-03",
+          "value": "31-03-2034 (the HARERA list shows registration valid up to 30/09/2034)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3166",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project | 31-03-2034",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        }
+      ],
+      "builderUnresolved": [],
+      "reraCompletionDate": "2034-03"
     },
     {
       "source": "listing",
@@ -5605,12 +6187,12 @@
       "reraNumber": "RC/REP/HARERA/GGM/772/504/2023/116",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": null,
-      "possessionDateRaw": null,
+      "possessionDate": "2031-06",
+      "possessionDateRaw": "30-06-2031 (HARERA REP-I likely date of completing the project; the dlf.in page gives no possession date)",
       "location": {
         "sector": "77",
         "microMarket": "new-gurgaon",
-        "locality": "Sector 77",
+        "locality": "Central Peripheral Road",
         "city": "Gurugram",
         "cityRaw": "Gurgaon",
         "state": "Haryana",
@@ -5900,8 +6482,50 @@
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "paymentPlan": "extracted-from-faq-text",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "locality": "builder:developer-website:https://www.dlf.in/homes/luxury/privanasouth/",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2540",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2540"
+      },
+      "corrections": [
+        {
+          "field": "locality",
+          "from": "Sector 77",
+          "to": "Central Peripheral Road",
+          "value": "Sector 77, Gurgaon, pin code 122004, with connectivity via Central Peripheral Road (CPR) and proximity to Southern Peripheral Road (SPR); the disclaimer says Sector 76-77, Gurugram",
+          "source": "https://www.dlf.in/homes/luxury/privanasouth/",
+          "sourceType": "developer-website",
+          "quote": "DLF Privana South is in Sector 77, Gurgaon, The project falls under pin code 122004 with connectivity via Central Peripheral Road (CPR)",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "possessionDate",
+          "from": null,
+          "to": "2031-06",
+          "value": "30-06-2031 (HARERA REP-I likely date of completing the project; the dlf.in page gives no possession date)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2540",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project | 30-06-2031",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2031-06",
+          "value": "30-06-2031",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2540",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project | 30-06-2031",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "startingPrice",
+          "note": "dlf.in says price is on request: 'Pricing and payment plan is available on request and varies by configuration, floor, and view.' Our Rs 6.30 Cr cannot be confirmed from the builder."
+        }
+      ],
+      "reraCompletionDate": "2031-06"
     },
     {
       "source": "listing",
@@ -5920,11 +6544,11 @@
       "statusRaw": "UNDER_CONSTRUCTION",
       "marketingStage": null,
       "marketingStageRaw": null,
-      "reraNumber": "RERA-GRG-1540-2024",
+      "reraNumber": "RC/REP/HARERA/GGM/819/551/2024/46",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": null,
-      "possessionDateRaw": null,
+      "possessionDate": "2028-12",
+      "possessionDateRaw": "December 2028",
       "location": {
         "sector": "76",
         "microMarket": "southern-peripheral-road",
@@ -5947,36 +6571,36 @@
         "priceMaxInr": null,
         "pricePerSqftMinInr": null,
         "pricePerSqftMaxInr": null,
-        "entryPricePerSqftInr": 20995,
-        "unitSizeMinSqft": 3577,
-        "unitSizeMaxSqft": 5472,
+        "entryPricePerSqftInr": 35159,
+        "unitSizeMinSqft": 2136,
+        "unitSizeMaxSqft": 3562,
         "configurations": [
           {
             "label": "4 BHK",
             "unitType": "Apartment",
             "bhk": 4,
-            "areaRaw": "3,577 sq ft",
-            "areaSqft": 3577,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "areaRaw": "2,136 sq ft (carpet)",
+            "areaSqft": 2136,
+            "areaBasis": "carpet area (developer)",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           },
           {
-            "label": "4 BHK",
+            "label": "Larger unit type (10 units, 2 per tower)",
             "unitType": "Apartment",
-            "bhk": 4,
-            "areaRaw": "5,472 sq ft",
-            "areaSqft": 5472,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "bhk": null,
+            "areaRaw": "3,562 sq ft (carpet)",
+            "areaSqft": 3562,
+            "areaBasis": "carpet area (developer)",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           }
         ],
@@ -5988,11 +6612,11 @@
         "landAreaRaw": "12.6 Acres",
         "landAreaAcres": 12.6,
         "towers": 5,
-        "floors": null,
-        "units": 164,
+        "floors": 38,
+        "units": 795,
         "soldUnits": null,
         "availableUnits": null,
-        "unitsPerAcre": 13,
+        "unitsPerAcre": 63.1,
         "openSpacePercent": null,
         "architect": null,
         "landscapeDesigner": null,
@@ -6159,8 +6783,89 @@
       "provenance": {
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "reraNumber": "builder:developer-website:https://www.dlf.in/homes/luxury/privanawest/",
+        "possessionDate": "builder:developer-website:https://www.dlf.in/homes/luxury/privanawest/",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2779",
+        "units": "builder:developer-website:https://www.dlf.in/homes/luxury/privanawest/",
+        "floors": "builder:developer-website:https://www.dlf.in/homes/luxury/privanawest/",
+        "configurations": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2779"
+      },
+      "corrections": [
+        {
+          "field": "reraNumber",
+          "from": "RERA-GRG-1540-2024",
+          "to": "RC/REP/HARERA/GGM/819/551/2024/46",
+          "value": "RC/REP/HARERA/GGM/819/551/2024/46 dated 18.04.2024 (RERA-GRG-1540-2024 is the HARERA project/application ID, not the registration number)",
+          "source": "https://www.dlf.in/homes/luxury/privanawest/",
+          "sourceType": "developer-website",
+          "quote": "HARERA Registration No.: RC/REP/HARERA/GGM/819/ 551/2024/46",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "possessionDate",
+          "from": null,
+          "to": "2028-12",
+          "value": "December 2028",
+          "source": "https://www.dlf.in/homes/luxury/privanawest/",
+          "sourceType": "developer-website",
+          "quote": "Scheduled for possession in December 2028",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2031-12",
+          "value": "31-12-2031",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2779",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project | 31-12-2031",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "units",
+          "from": 164,
+          "to": 795,
+          "value": "Approximately 795 units (HARERA filing: 785 + 10)",
+          "source": "https://www.dlf.in/homes/luxury/privanawest/",
+          "sourceType": "developer-website",
+          "quote": "Approximately 795 units of spacious luxury apartments",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "floors",
+          "from": null,
+          "to": 38,
+          "value": "G+38",
+          "source": "https://www.dlf.in/homes/luxury/privanawest/",
+          "sourceType": "developer-website",
+          "quote": "5 high-rise towers with G+38 Floors each",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "configurations",
+          "from": [
+            "4 BHK 3577 sq ft",
+            "4 BHK 5472 sq ft"
+          ],
+          "to": [
+            "4 BHK 2136 sq ft",
+            "Larger unit type (10 units, 2 per tower) 3562 sq ft"
+          ],
+          "value": "The HARERA filing lists two unit types: 785 units of 198.475 sq m carpet and 10 units of 330.881 sq m carpet across 5 towers. dlf.in describes only 4 BHK and does not label the larger type.",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2779",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "Apartment/Shops/Other Buildings | 198.475 | 785 | 5 ... 330.881 | 10 | 5",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "configurations (super area / penthouse label)",
+          "note": "dlf.in publishes no unit sizes and does not call the 5,472 sq ft type a penthouse. Only the RERA carpet areas above come from the builder; the 3,577 / 5,472 sq ft super areas are not builder-published."
+        }
+      ],
+      "reraCompletionDate": "2031-12"
     },
     {
       "source": "listing",
@@ -6170,7 +6875,8 @@
       "sourceUrl": "https://www.realtycanvas.in/projects/dlf-the-arbour-sector-63-gurgaon",
       "developer": {
         "name": "DLF",
-        "nameRaw": "DLF The Arbour"
+        "nameRaw": "DLF The Arbour",
+        "promoter": "DLF Home Developers Limited"
       },
       "projectType": "residential",
       "categoryRaw": "RESIDENTIAL",
@@ -6179,11 +6885,11 @@
       "statusRaw": "UNDER_CONSTRUCTION",
       "marketingStage": null,
       "marketingStageRaw": null,
-      "reraNumber": "GGM/671/403/2023/15",
+      "reraNumber": "RC/REP/HARERA/GGM/671/403/2023/15",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": "2028",
-      "possessionDateRaw": "Possession is expected by 2028",
+      "possessionDate": "2030-03",
+      "possessionDateRaw": "31-03-2030 (HARERA REP-I likely date of completing the project, registration GGM/671/403/2023/15 filed under the name THE SIXTY THREE; dlf.in gives no possession date and nothing supports 2028)",
       "location": {
         "sector": "63",
         "microMarket": "golf-course-extension-road",
@@ -6439,11 +7145,67 @@
       "sourceCreatedAt": "2025-08-25T11:03:20.863Z",
       "scrapedAt": "2026-10-02T06:42:59.388Z",
       "provenance": {
-        "possessionDate": "extracted-from-faq-text",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2076",
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2076",
+        "developer": "builder:developer-website:https://www.dlf.in/homes/luxury/thearbour/",
+        "reraNumber": "builder:developer-website:https://www.dlf.in/homes/luxury/thearbour/"
+      },
+      "corrections": [
+        {
+          "field": "possessionDate",
+          "from": "2028",
+          "to": "2030-03",
+          "value": "31-03-2030 (HARERA REP-I likely date of completing the project, registration GGM/671/403/2023/15 filed under the name THE SIXTY THREE; dlf.in gives no possession date and nothing supports 2028)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2076",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project | 31-03-2030",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2030-03",
+          "value": "31-03-2030",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2076",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project | 31-03-2030",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "developer",
+          "from": "DLF",
+          "to": "DLF (promoter: DLF Home Developers Limited)",
+          "value": "M/s DLF Home Developers Limited (promoter)",
+          "source": "https://www.dlf.in/homes/luxury/thearbour/",
+          "sourceType": "developer-website",
+          "quote": "Promoter: M/s DLF Home Developers Limited",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        },
+        {
+          "field": "reraNumber",
+          "from": "GGM/671/403/2023/15",
+          "to": "RC/REP/HARERA/GGM/671/403/2023/15",
+          "value": "RC/REP/HARERA/GGM/671/403/2023/15 dated 23.01.2023",
+          "source": "https://www.dlf.in/homes/luxury/thearbour/",
+          "sourceType": "developer-website",
+          "quote": "HARERA registration No - RC/REP/HARERA/GGM/671/403/2023/ 15 Dated: 23.01.2023",
+          "checkedAt": "2026-10-04T05:45:39Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "startingPrice",
+          "note": "dlf.in publishes no price for The Arbour. DLF's Q4FY23 results presentation says it sold out in pre-launch with 'Average realization: ~ Rs 17,800 psf' (https://www.dlf.in/qu-result/Q4-and-FY23-Results-Presentation.pdf), which is not a starting price. Our Rs 11 Cr cannot be confirmed."
+        },
+        {
+          "field": "configurations",
+          "note": "dlf.in publishes no unit size. The HARERA filing lists 1137 apartments of 209.51 sq m carpet (~2,255 sq ft) in 5 towers; the builder publishes no super area, so 3,965 vs ~3,950 sq ft cannot be resolved."
+        }
+      ],
+      "reraCompletionDate": "2030-03"
     },
     {
       "source": "listing",
@@ -11550,8 +12312,8 @@
       "reraNumber": "RC/REP/HARERA/GGM/821/553/2024/48",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": "2028-12",
-      "possessionDateRaw": "possession date is December 2028",
+      "possessionDate": "2031-07",
+      "possessionDateRaw": "31-07-2031 (HARERA REP-I likely date of completing the project; builder website gives no possession date)",
       "location": {
         "sector": "65",
         "microMarket": "golf-course-extension-road",
@@ -11579,45 +12341,17 @@
         "unitSizeMaxSqft": 4270,
         "configurations": [
           {
-            "label": "4 BHK + Lounge",
+            "label": "4 BHK + Lounge + Study",
             "unitType": "Apartment",
             "bhk": 4,
-            "areaRaw": "3,712 sq ft",
-            "areaSqft": 3712,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "4 BHK + Lounge",
-            "unitType": "Apartment",
-            "bhk": 4,
-            "areaRaw": "3,755 sq ft",
-            "areaSqft": 3755,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "4 BHK + Lounge",
-            "unitType": "Apartment",
-            "bhk": 4,
-            "areaRaw": "4,270 sq ft",
-            "areaSqft": 4270,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           }
         ],
@@ -11630,10 +12364,10 @@
         "landAreaAcres": 4,
         "towers": 3,
         "floors": null,
-        "units": 128,
+        "units": 342,
         "soldUnits": null,
         "availableUnits": null,
-        "unitsPerAcre": 32,
+        "unitsPerAcre": 85.5,
         "openSpacePercent": null,
         "architect": null,
         "landscapeDesigner": null,
@@ -11863,11 +12597,81 @@
       "sourceCreatedAt": "2025-08-26T06:04:21.914Z",
       "scrapedAt": "2026-10-02T06:43:12.470Z",
       "provenance": {
-        "possessionDate": "extracted-from-faq-text",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2884",
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTU5MQ==",
+        "units": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTU5MQ==",
+        "configurations": "builder:developer-website:https://www.m3mindia.com/residential/m3m-altitude"
+      },
+      "corrections": [
+        {
+          "field": "possessionDate",
+          "from": "2028-12",
+          "to": "2031-07",
+          "value": "31-07-2031 (HARERA REP-I likely date of completing the project; builder website gives no possession date)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/2884",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 31-07-2031",
+          "checkedAt": "2026-10-04T10:30:00Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2031-07",
+          "value": "31 July 2031",
+          "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU5MQ==",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ending with 31st July 2031 (completion date as declared by the promoter in REP-II for this phase)",
+          "checkedAt": "2026-10-04T10:30:00Z"
+        },
+        {
+          "field": "units",
+          "from": 128,
+          "to": 342,
+          "value": "342 Residential",
+          "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU5MQ==",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "(ix) Number of units 342 Residential",
+          "checkedAt": "2026-10-04T10:30:00Z"
+        },
+        {
+          "field": "configurations",
+          "from": [
+            "4 BHK + Lounge 3712 sq ft",
+            "4 BHK + Lounge 3755 sq ft",
+            "4 BHK + Lounge 4270 sq ft"
+          ],
+          "to": [
+            "4 BHK + Lounge + Study"
+          ],
+          "value": "4 BHK + Lounge + Study (only configuration listed by builder; no sizes published)",
+          "source": "https://www.m3mindia.com/residential/m3m-altitude",
+          "sourceType": "developer-website",
+          "quote": "Project Configuration 4 BHK + Lounge + Study",
+          "checkedAt": "2026-10-04T10:30:00Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "startingPrice",
+          "note": "Builder website publishes no price (enquiry form only); our 11.46 Cr cannot be confirmed or corrected from a builder source."
+        },
+        {
+          "field": "configurations (sizes)",
+          "note": "Builder website and REP-I give no per-unit sizes (REP-I lists only aggregate carpet area for 342 apartments); 3,712 / 3,755 / 4,270 sq ft unconfirmed. Page title markets it as 'Ultra-Luxury 4.5 BHK'."
+        },
+        {
+          "field": "floors",
+          "note": "Builder site and RERA filing pages checked state no floor count."
+        },
+        {
+          "field": "landArea (note)",
+          "note": "Not an open item, but the RERA filing registers 2.79 acres for this phase (part of the 60.025-acre M3M Golfestate licence); our 4 acres is not supported by the filing."
+        }
+      ],
+      "reraCompletionDate": "2031-07"
     },
     {
       "source": "listing",
@@ -12157,8 +12961,8 @@
       "reraNumber": "GGM/687/419/2023/31",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": "2028-12",
-      "possessionDateRaw": "possession date is December 2028",
+      "possessionDate": "2028-01",
+      "possessionDateRaw": "31 January 2028 (completion date declared by the promoter in the HARERA filing; builder website gives no possession date)",
       "location": {
         "sector": "111",
         "microMarket": "dwarka-expressway",
@@ -12186,143 +12990,31 @@
         "unitSizeMaxSqft": 2670,
         "configurations": [
           {
-            "label": "3 BHK",
+            "label": "3.5 BHK",
             "unitType": "Apartment",
-            "bhk": 3,
-            "areaRaw": "1,605 sq ft",
-            "areaSqft": 1605,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "bhk": 3.5,
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           },
           {
-            "label": "3 BHK",
+            "label": "4.5 BHK",
             "unitType": "Apartment",
-            "bhk": 3,
-            "areaRaw": "1,665 sq ft",
-            "areaSqft": 1665,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "bhk": 4.5,
+            "areaRaw": null,
+            "areaSqft": null,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "3 BHK + STUDY",
-            "unitType": "Apartment",
-            "bhk": 3,
-            "areaRaw": "1,825 sq ft",
-            "areaSqft": 1825,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "3 BHK",
-            "unitType": "Apartment",
-            "bhk": 3,
-            "areaRaw": "1,895 sq ft",
-            "areaSqft": 1895,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "3 BHK + UTILITY",
-            "unitType": "Apartment",
-            "bhk": 3,
-            "areaRaw": "2,080 sq ft",
-            "areaSqft": 2080,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "3 BHK",
-            "unitType": "Apartment",
-            "bhk": 3,
-            "areaRaw": "2,170 sq ft",
-            "areaSqft": 2170,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "4 BHK + UTILITY",
-            "unitType": "Apartment",
-            "bhk": 4,
-            "areaRaw": "2,305 sq ft",
-            "areaSqft": 2305,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "4 BHK",
-            "unitType": "Apartment",
-            "bhk": 4,
-            "areaRaw": "2,400 sq ft",
-            "areaSqft": 2400,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "4 BHK + UTILITY",
-            "unitType": "Apartment",
-            "bhk": 4,
-            "areaRaw": "2,570 sq ft",
-            "areaSqft": 2570,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
-            "features": null
-          },
-          {
-            "label": "4 BHK + STUDY",
-            "unitType": "Apartment",
-            "bhk": 4,
-            "areaRaw": "2,670 sq ft",
-            "areaSqft": 2670,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
-            "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
-            "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           }
         ],
@@ -12607,11 +13299,70 @@
       "sourceCreatedAt": "2025-09-08T06:44:48.580Z",
       "scrapedAt": "2026-10-02T06:43:14.484Z",
       "provenance": {
-        "possessionDate": "extracted-from-faq-text",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTI3MQ==",
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTI3MQ==",
+        "configurations": "builder:developer-website:https://www.m3mindia.com/residential/m3m-crown"
+      },
+      "corrections": [
+        {
+          "field": "possessionDate",
+          "from": "2028-12",
+          "to": "2028-01",
+          "value": "31 January 2028 (completion date declared by the promoter in the HARERA filing; builder website gives no possession date)",
+          "source": "https://haryanarera.gov.in/view_project/view_certificate/MTI3MQ==",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ending with 31st January 2028 (completion date as declared by the promoter in REP-II)",
+          "checkedAt": "2026-10-04T10:15:00Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2028-01",
+          "value": "31 January 2028 (M3M Crown Phase 1)",
+          "source": "https://haryanarera.gov.in/view_project/view_certificate/MTI3MQ==",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ending with 31st January 2028 (completion date as declared by the promoter in REP-II)",
+          "checkedAt": "2026-10-04T10:15:00Z"
+        },
+        {
+          "field": "configurations",
+          "from": [
+            "3 BHK 1605 sq ft",
+            "3 BHK 1665 sq ft",
+            "3 BHK + STUDY 1825 sq ft",
+            "3 BHK 1895 sq ft",
+            "3 BHK + UTILITY 2080 sq ft",
+            "3 BHK 2170 sq ft",
+            "4 BHK + UTILITY 2305 sq ft",
+            "4 BHK 2400 sq ft",
+            "4 BHK + UTILITY 2570 sq ft",
+            "4 BHK + STUDY 2670 sq ft"
+          ],
+          "to": [
+            "3.5 BHK",
+            "4.5 BHK"
+          ],
+          "value": "3.5 & 4.5 BHK Luxury Residences (no unit sizes published by builder)",
+          "source": "https://www.m3mindia.com/residential/m3m-crown",
+          "sourceType": "developer-website",
+          "quote": "3.5 & 4.5 BHK Luxury Residences",
+          "checkedAt": "2026-10-04T10:15:00Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "configurations (sizes)",
+          "note": "Builder website publishes only the 3.5 / 4.5 BHK types, no sq ft areas; the individual sizes (1,605-2,670 sq ft) could not be confirmed from a builder source."
+        },
+        {
+          "field": "landArea (note)",
+          "note": "Not an open item. RERA certificate: total licensed area 15.99375 acres; Phase 1 registered area 11.6023 acres; 11 towers, 1332 residential units (matches our towers/units)."
+        }
+      ],
+      "reraCompletionDate": "2028-01"
     },
     {
       "source": "listing",

@@ -1,0 +1,83 @@
+{
+  "slug": "dlf-privana-west-sector-76-gurgaon",
+  "checkedAt": "2026-10-04T05:45:39Z",
+  "method": "subagent:builder-first",
+  "builderSite": "dlf.in",
+  "corrections": [
+    {
+      "field": "reraNumber",
+      "value": "RC/REP/HARERA/GGM/819/551/2024/46 dated 18.04.2024 (RERA-GRG-1540-2024 is the HARERA project/application ID, not the registration number)",
+      "normalized": "RC/REP/HARERA/GGM/819/551/2024/46",
+      "source": "https://www.dlf.in/homes/luxury/privanawest/",
+      "sourceType": "developer-website",
+      "quote": "HARERA Registration No.: RC/REP/HARERA/GGM/819/ 551/2024/46"
+    },
+    {
+      "field": "possessionDate",
+      "value": "December 2028",
+      "normalized": "2028-12",
+      "source": "https://www.dlf.in/homes/luxury/privanawest/",
+      "sourceType": "developer-website",
+      "quote": "Scheduled for possession in December 2028"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-12-2031",
+      "normalized": "2031-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2779",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project | 31-12-2031"
+    },
+    {
+      "field": "units",
+      "value": "Approximately 795 units (HARERA filing: 785 + 10)",
+      "normalized": 795,
+      "source": "https://www.dlf.in/homes/luxury/privanawest/",
+      "sourceType": "developer-website",
+      "quote": "Approximately 795 units of spacious luxury apartments"
+    },
+    {
+      "field": "towers",
+      "value": "5 high-rise towers with G+38 floors each",
+      "normalized": 5,
+      "source": "https://www.dlf.in/homes/luxury/privanawest/",
+      "sourceType": "developer-website",
+      "quote": "5 high-rise towers with G+38 Floors each"
+    },
+    {
+      "field": "floors",
+      "value": "G+38",
+      "normalized": 38,
+      "source": "https://www.dlf.in/homes/luxury/privanawest/",
+      "sourceType": "developer-website",
+      "quote": "5 high-rise towers with G+38 Floors each"
+    },
+    {
+      "field": "configurations",
+      "value": "The HARERA filing lists two unit types: 785 units of 198.475 sq m carpet and 10 units of 330.881 sq m carpet across 5 towers. dlf.in describes only 4 BHK and does not label the larger type.",
+      "normalized": [
+        {
+          "label": "4 BHK",
+          "bhk": 4,
+          "areaSqft": 2136,
+          "areaBasis": "carpet"
+        },
+        {
+          "label": "Larger unit type (10 units, 2 per tower)",
+          "bhk": null,
+          "areaSqft": 3562,
+          "areaBasis": "carpet"
+        }
+      ],
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2779",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Apartment/Shops/Other Buildings | 198.475 | 785 | 5 ... 330.881 | 10 | 5"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "configurations (super area / penthouse label)",
+      "note": "dlf.in publishes no unit sizes and does not call the 5,472 sq ft type a penthouse. Only the RERA carpet areas above come from the builder; the 3,577 / 5,472 sq ft super areas are not builder-published."
+    }
+  ]
+}

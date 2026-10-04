@@ -45,7 +45,8 @@ export interface Project {
   slug: string;
   name: string | null;
   sourceUrl: string;
-  developer: { name: string | null; nameRaw: string | null };
+  /** promoter: the registered company in the builder's RERA filing, when it differs from the brand. */
+  developer: { name: string | null; nameRaw: string | null; promoter?: string };
   projectType: ProjectType | null;
   categoryRaw: string | null;
   typeRaw: string | null;

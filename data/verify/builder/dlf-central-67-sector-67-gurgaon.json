@@ -1,0 +1,67 @@
+{
+  "slug": "dlf-central-67-sector-67-gurgaon",
+  "checkedAt": "2026-10-04T05:48:25Z",
+  "method": "subagent:builder-first",
+  "builderSite": "dlf.in (project site central67.dlf.in)",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "31-12-2027 (likely date of completing the project, HARERA REP-I; central67.dlf.in gives no possession date)",
+      "normalized": "2027-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2632",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-12-2027"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-12-2027",
+      "normalized": "2027-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2632",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-12-2027"
+    },
+    {
+      "field": "configurations",
+      "value": "SCO plots starting from 118 sq. m. (about 1,270 sq ft). REP-I lists 15 plot sizes from 118.58 to 402.57 sq m.",
+      "normalized": [
+        { "label": "SCO plot (from)", "bhk": 0, "areaSqft": 1270, "areaBasis": "unspecified" }
+      ],
+      "source": "https://central67.dlf.in/",
+      "sourceType": "developer-website",
+      "quote": "Efficient Basement, Ground, 4-floor configuration with plots starting from 118 sq. m., including larger and corner options"
+    },
+    {
+      "field": "units",
+      "value": "75 plots (Total of plot schedule in REP-I; the builder site states no count)",
+      "normalized": 75,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2632",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "iii) Sizes of the plots to be offered in the project ... Total 75"
+    },
+    {
+      "field": "floors",
+      "value": "Basement + Ground + 4 floors (5 storeys above ground; our 6 counts the basement)",
+      "normalized": 5,
+      "source": "https://central67.dlf.in/",
+      "sourceType": "developer-website",
+      "quote": "DEVELOPMENT POTENTIAL Basement + Ground + 4 floors"
+    },
+    {
+      "field": "landArea",
+      "value": "8.6987 acres",
+      "normalized": 8.6987,
+      "source": "https://central67.dlf.in/",
+      "sourceType": "developer-website",
+      "quote": "Area measuring 8.6987 acres at Village-Badshahpur, Sector 67, Gurugram"
+    },
+    {
+      "field": "developer",
+      "value": "DLF Home Developers Limited (promoter in the HARERA filing; a DLF group company)",
+      "normalized": "DLF Home Developers Limited",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2632",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Name and registered address of the company DLF HOME DEVELEOPERS LIMITED"
+    }
+  ],
+  "unresolved": []
+}

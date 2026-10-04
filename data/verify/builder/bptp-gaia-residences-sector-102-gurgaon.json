@@ -1,0 +1,59 @@
+{
+  "slug": "bptp-gaia-residences-sector-102-gurgaon",
+  "checkedAt": "2026-10-04T05:45:25Z",
+  "method": "subagent:builder-first",
+  "builderSite": "bptp.com",
+  "corrections": [
+    {
+      "field": "developer",
+      "value": "BPTP LIMITED",
+      "normalized": "BPTP Limited",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3491",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Name and registered address of the company BPTP LIMITED"
+    },
+    {
+      "field": "possessionDate",
+      "value": "31-12-2032 (likely date of completing the project, HARERA REP-I; builder site gives no possession date. Note: HARERA registered-projects list shows registration validity 31/07/2032)",
+      "normalized": "2032-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3491",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-12-2032"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-12-2032",
+      "normalized": "2032-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3491",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-12-2032"
+    },
+    {
+      "field": "landArea",
+      "value": "1.6838 acres (Phase 2) out of a 12.05-acre licensed colony",
+      "normalized": 1.6838,
+      "source": "https://www.bptp.com/projects/gaia-residences-and-amstoria-verti-greens",
+      "sourceType": "developer-website",
+      "quote": "License No. 123 of 2014 dated 22.08.2014 for an area measuring 12.05 acres, being developed in a phased manner, current phase/Project having area 1.6838 acres (Phase 2)"
+    },
+    {
+      "field": "configurations",
+      "value": "3 BHK (no unit sizes published by the builder)",
+      "normalized": [ { "label": "3 BHK", "bhk": 3 } ],
+      "source": "https://www.bptp.com/blogs/guide-to-3-bhk-flats-luxury-apartments-in-gurgaon-best-residential-projects",
+      "sourceType": "developer-website",
+      "quote": "3 BHK flats for sale in Gurgaon, with the starting price at ₹4.08 Cr."
+    },
+    {
+      "field": "startingPrice",
+      "value": "₹4.08 Cr (GAIA 3 BHK, BPTP blog). The combined GAIA + Amstoria Verti-Greens project page shows ₹3.38 Cr. onwards for both phases together.",
+      "normalized": 40800000,
+      "source": "https://www.bptp.com/blogs/guide-to-3-bhk-flats-luxury-apartments-in-gurgaon-best-residential-projects",
+      "sourceType": "developer-website",
+      "quote": "3 BHK flats for sale in Gurgaon, with the starting price at ₹4.08 Cr."
+    }
+  ],
+  "unresolved": [
+    { "field": "configurations.areaSqft", "note": "The builder publishes no unit sizes on its site; REP-I gives only per-tower aggregate carpet areas (3 towers x 177 apartments), not per-unit sizes. The 2,100 sq ft figure cannot be confirmed." }
+  ]
+}

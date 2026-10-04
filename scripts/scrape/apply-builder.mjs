@@ -48,7 +48,7 @@ function read(p, field) {
     case 'towers': return p.facts.towers;
     case 'floors': return p.facts.floors;
     case 'landArea': return p.facts.landAreaAcres;
-    case 'developer': return p.developer.name;
+    case 'developer': return p.developer.promoter ? `${p.developer.name} (promoter: ${p.developer.promoter})` : p.developer.name;
     case 'sector': return p.location.sector;
     case 'locality': return p.location.locality;
     case 'status': return p.status;
@@ -91,9 +91,14 @@ function write(p, c, marketFor) {
       if (p.facts.units) p.facts.unitsPerAcre = +(p.facts.units / p.facts.landAreaAcres).toFixed(1);
       return true;
     }
-    case 'developer':
+    case 'developer': {
       if (typeof v !== 'string' || !v.trim()) return false;
+      // A promoter company of the same brand ("DLF Home Developers Limited" for DLF) is recorded as the
+      // promoter; the brand stays the developer so filters and counts keep grouping correctly.
+      const brandWord = (p.developer.name ?? '').split(/\s+/)[0];
+      if (brandWord && new RegExp(`\\b${brandWord.replace(/[^\w]/g, '')}\\b`, 'i').test(v)) { p.developer.promoter = v.trim(); return true; }
       p.developer.name = v.trim(); return true;
+    }
     case 'sector': {
       const sec = typeof v === 'string' ? v.trim().replace(/^sector[\s-]*/i, '') : '';
       if (!/^\d{1,3}[A-D]?$/i.test(sec)) return false;

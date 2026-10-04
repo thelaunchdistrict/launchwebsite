@@ -1,0 +1,83 @@
+{
+  "slug": "dlf-club-arcade-sector-91-gurgaon",
+  "checkedAt": "2026-10-04T05:45:39Z",
+  "method": "subagent:builder-first",
+  "builderSite": "clubarcade.dlf.in (dlf.in)",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "31-03-2028 (HARERA REP-I likely date of completing the project; DLF site gives no possession date)",
+      "normalized": "2028-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2786",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project | 31-03-2028"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-03-2028",
+      "normalized": "2028-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2786",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project | 31-03-2028"
+    },
+    {
+      "field": "floors",
+      "value": "2 Basements and 3 Floors",
+      "normalized": 3,
+      "source": "https://clubarcade.dlf.in/",
+      "sourceType": "developer-website",
+      "quote": "2 Basements and 3 Floors"
+    },
+    {
+      "field": "units",
+      "value": "72 units",
+      "normalized": 72,
+      "source": "https://clubarcade.dlf.in/",
+      "sourceType": "developer-website",
+      "quote": "Comprising 72 units only"
+    },
+    {
+      "field": "towers",
+      "value": "1",
+      "normalized": 1,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2786",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Apartment/Shops/Other Buildings | 2545 | 72 | 1"
+    },
+    {
+      "field": "landArea",
+      "value": "0.89 acre",
+      "normalized": 0.89,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2786",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Land area of the project | 0.89 (Acre)"
+    },
+    {
+      "field": "configurations",
+      "value": "Retail units from 77.93 sq. ft. to 2531.80 sq. ft. (7.24 to 235.21 sq. mt.)",
+      "normalized": [
+        {
+          "label": "Retail shop (smallest)",
+          "bhk": null,
+          "areaSqft": 78,
+          "areaBasis": "unspecified"
+        },
+        {
+          "label": "Retail shop (largest)",
+          "bhk": null,
+          "areaSqft": 2532,
+          "areaBasis": "unspecified"
+        }
+      ],
+      "source": "https://clubarcade.dlf.in/",
+      "sourceType": "developer-website",
+      "quote": "Unit sizes ranging from 7.24 sq. mt. to 235.21 sq. mt. (77.93 sq. ft. to 2531.80 sq. ft.)"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "startingPrice",
+      "note": "clubarcade.dlf.in publishes no price or price list, and no DLF press release with a Club Arcade price was found. Our Rs 1.50 Cr cannot be confirmed from the builder."
+    }
+  ]
+}

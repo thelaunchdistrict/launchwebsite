@@ -1,0 +1,58 @@
+{
+  "slug": "aipl-autograph-sector-66-gurgaon",
+  "checkedAt": "2026-10-04T10:45:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "aipl.com",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "Revised date of completion 30-09-2029 (earlier 08-04-2026)",
+      "normalized": "2029-09",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3533",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Earlier date of completion 08-04-2026 Revised date of completion 30-09-2029"
+    },
+    {
+      "field": "possessionDate",
+      "value": "30-09-2029 (latest HARERA filing by AIPL, July 2025; builder site states no possession date)",
+      "normalized": "2029-09",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3533",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Earlier date of completion 08-04-2026 Revised date of completion 30-09-2029"
+    },
+    {
+      "field": "status",
+      "value": "Under construction (super structure up to 12th floor per July 2025 filing)",
+      "normalized": "under-construction",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3533",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "SUPER STRICTURE WORK COMPLETED OF SOLD UNITS/ 12TH FLOOR"
+    },
+    {
+      "field": "landArea",
+      "value": "6.1375 acre site",
+      "normalized": 6.1375,
+      "source": "https://aipl.com/project/aipl-autograph/",
+      "sourceType": "developer-website",
+      "quote": "a Grade 'A' office building, offers an interactive environment for tenants and retail patrons on a 6.1375 acre site"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "startingPrice",
+      "note": "Builder publishes no price for AIPL Autograph (leasing-oriented office page, enquiry only)."
+    },
+    {
+      "field": "units",
+      "note": "Builder filings conflict: 2021 REP-I (id 1557) lists 126 + 24 = 150 units in 3 towers; July 2025 revised filing (id 3533) lists 2682 commercial/IT units, 527 booked. Builder site gives no count."
+    },
+    {
+      "field": "towers",
+      "note": "2021 REP-I says 3 towers; July 2025 filing says 1 tower 'to be/being constructed for booked apartments'. Builder site says 'Office tower' without a count."
+    },
+    {
+      "field": "floors",
+      "note": "Builder site and filings give no total floor count (filing reports structure at 12th floor; site mentions only '4 levels of basement parking'). Our 12 floors is not confirmed."
+    }
+  ]
+}

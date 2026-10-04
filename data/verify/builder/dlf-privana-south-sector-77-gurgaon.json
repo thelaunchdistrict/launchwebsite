@@ -1,0 +1,38 @@
+{
+  "slug": "dlf-privana-south-sector-77-gurgaon",
+  "checkedAt": "2026-10-04T05:45:39Z",
+  "method": "subagent:builder-first",
+  "builderSite": "dlf.in",
+  "corrections": [
+    {
+      "field": "locality",
+      "value": "Sector 77, Gurgaon, pin code 122004, with connectivity via Central Peripheral Road (CPR) and proximity to Southern Peripheral Road (SPR); the disclaimer says Sector 76-77, Gurugram",
+      "normalized": "Central Peripheral Road",
+      "source": "https://www.dlf.in/homes/luxury/privanasouth/",
+      "sourceType": "developer-website",
+      "quote": "DLF Privana South is in Sector 77, Gurgaon, The project falls under pin code 122004 with connectivity via Central Peripheral Road (CPR)"
+    },
+    {
+      "field": "possessionDate",
+      "value": "30-06-2031 (HARERA REP-I likely date of completing the project; the dlf.in page gives no possession date)",
+      "normalized": "2031-06",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2540",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project | 30-06-2031"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "30-06-2031",
+      "normalized": "2031-06",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2540",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project | 30-06-2031"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "startingPrice",
+      "note": "dlf.in says price is on request: 'Pricing and payment plan is available on request and varies by configuration, floor, and view.' Our Rs 6.30 Cr cannot be confirmed from the builder."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "bptp-downtown-66-sector-66-gurgaon",
+  "checkedAt": "2026-10-04T05:43:05Z",
+  "method": "subagent:builder-first",
+  "builderSite": "bptp.com",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "31-10-2032 (likely date of completing the project, HARERA REP-I; builder site gives no possession date)",
+      "normalized": "2032-10",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3592",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-10-2032"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-10-2032",
+      "normalized": "2032-10",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3592",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-10-2032"
+    },
+    {
+      "field": "startingPrice",
+      "value": "₹5.45 Cr Onwards",
+      "normalized": 54500000,
+      "source": "https://www.bptp.com/projects/downtown-66",
+      "sourceType": "developer-website",
+      "quote": "₹5.45 Cr Onwards*"
+    },
+    {
+      "field": "configurations",
+      "value": "3 & 3.5 BHK (no unit sizes published by the builder)",
+      "normalized": [
+        { "label": "3 BHK", "bhk": 3 },
+        { "label": "3.5 BHK", "bhk": 3.5 }
+      ],
+      "source": "https://www.bptp.com/media/bptp-limited-launches-downtown-66-in-sector-66-gurugram-a-curated-downtown-living-experience-rooted-in-design-culture-and-community",
+      "sourceType": "developer-press-release",
+      "quote": "504 luxury residences in 3 & 3.5 BHK configurations"
+    },
+    {
+      "field": "landArea",
+      "value": "4.235 (Acre)",
+      "normalized": 4.235,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3592",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Land area of the project 4.235 (Acre)"
+    }
+  ],
+  "unresolved": [
+    { "field": "configurations.areaSqft", "note": "Builder site and press release state no unit sizes; REP-I gives only per-tower aggregate carpet areas (168 apartments per tower), not per-unit sizes." }
+  ]
+}

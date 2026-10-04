@@ -1,0 +1,56 @@
+{
+  "slug": "m3m-altitude-sector-65-gurgaon",
+  "checkedAt": "2026-10-04T10:30:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "m3mindia.com",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "31-07-2031 (HARERA REP-I likely date of completing the project; builder website gives no possession date)",
+      "normalized": "2031-07",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2884",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-07-2031"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31 July 2031",
+      "normalized": "2031-07",
+      "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU5MQ==",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ending with 31st July 2031 (completion date as declared by the promoter in REP-II for this phase)"
+    },
+    {
+      "field": "units",
+      "value": "342 Residential",
+      "normalized": 342,
+      "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU5MQ==",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "(ix) Number of units 342 Residential"
+    },
+    {
+      "field": "towers",
+      "value": "3 Towers",
+      "normalized": 3,
+      "source": "https://haryanarera.gov.in/view_project/view_certificate/MTU5MQ==",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "(viii) Number of Towers 3 Towers"
+    },
+    {
+      "field": "configurations",
+      "value": "4 BHK + Lounge + Study (only configuration listed by builder; no sizes published)",
+      "normalized": [
+        { "label": "4 BHK + Lounge + Study", "bhk": 4, "areaSqft": null, "areaBasis": "unspecified" }
+      ],
+      "source": "https://www.m3mindia.com/residential/m3m-altitude",
+      "sourceType": "developer-website",
+      "quote": "Project Configuration 4 BHK + Lounge + Study"
+    }
+  ],
+  "unresolved": [
+    { "field": "startingPrice", "note": "Builder website publishes no price (enquiry form only); our 11.46 Cr cannot be confirmed or corrected from a builder source." },
+    { "field": "configurations (sizes)", "note": "Builder website and REP-I give no per-unit sizes (REP-I lists only aggregate carpet area for 342 apartments); 3,712 / 3,755 / 4,270 sq ft unconfirmed. Page title markets it as 'Ultra-Luxury 4.5 BHK'." },
+    { "field": "floors", "note": "Builder site and RERA filing pages checked state no floor count." },
+    { "field": "landArea (note)", "note": "Not an open item, but the RERA filing registers 2.79 acres for this phase (part of the 60.025-acre M3M Golfestate licence); our 4 acres is not supported by the filing." }
+  ]
+}

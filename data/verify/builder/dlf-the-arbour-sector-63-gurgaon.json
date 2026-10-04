@@ -1,0 +1,50 @@
+{
+  "slug": "dlf-the-arbour-sector-63-gurgaon",
+  "checkedAt": "2026-10-04T05:45:39Z",
+  "method": "subagent:builder-first",
+  "builderSite": "dlf.in",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "31-03-2030 (HARERA REP-I likely date of completing the project, registration GGM/671/403/2023/15 filed under the name THE SIXTY THREE; dlf.in gives no possession date and nothing supports 2028)",
+      "normalized": "2030-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2076",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project | 31-03-2030"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-03-2030",
+      "normalized": "2030-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2076",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project | 31-03-2030"
+    },
+    {
+      "field": "developer",
+      "value": "M/s DLF Home Developers Limited (promoter)",
+      "normalized": "DLF Home Developers Limited",
+      "source": "https://www.dlf.in/homes/luxury/thearbour/",
+      "sourceType": "developer-website",
+      "quote": "Promoter: M/s DLF Home Developers Limited"
+    },
+    {
+      "field": "reraNumber",
+      "value": "RC/REP/HARERA/GGM/671/403/2023/15 dated 23.01.2023",
+      "normalized": "RC/REP/HARERA/GGM/671/403/2023/15",
+      "source": "https://www.dlf.in/homes/luxury/thearbour/",
+      "sourceType": "developer-website",
+      "quote": "HARERA registration No - RC/REP/HARERA/GGM/671/403/2023/ 15 Dated: 23.01.2023"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "startingPrice",
+      "note": "dlf.in publishes no price for The Arbour. DLF's Q4FY23 results presentation says it sold out in pre-launch with 'Average realization: ~ Rs 17,800 psf' (https://www.dlf.in/qu-result/Q4-and-FY23-Results-Presentation.pdf), which is not a starting price. Our Rs 11 Cr cannot be confirmed."
+    },
+    {
+      "field": "configurations",
+      "note": "dlf.in publishes no unit size. The HARERA filing lists 1137 apartments of 209.51 sq m carpet (~2,255 sq ft) in 5 towers; the builder publishes no super area, so 3,965 vs ~3,950 sq ft cannot be resolved."
+    }
+  ]
+}
