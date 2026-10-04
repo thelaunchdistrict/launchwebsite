@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T11:11:41.172Z",
+ "generatedAt": "2026-10-04T06:33:23.309Z",
  "base": "http://localhost:3300",
  "pages": 85,
  "findings": [
@@ -252,7 +252,7 @@
    "sev": "info",
    "cat": "Content",
    "check": "C06 inconsistent terminology",
-   "msg": "sq ft: \"sq ft\" ×1094, \"sq.ft\" ×75, \"sq. ft\" ×6, \"sqft\" ×6",
+   "msg": "sq ft: \"sq ft\" ×1100, \"sq.ft\" ×75, \"sq. ft\" ×6, \"sqft\" ×6",
    "page": "/projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon",
    "evidence": "Minority form appears on 3 page(s)",
    "pages": [
@@ -266,7 +266,7 @@
    "sev": "info",
    "cat": "Content",
    "check": "C06 inconsistent terminology",
-   "msg": "₹ format: \"₹N␠Cr\" ×827, \"₹N␠L\" ×68, \"₹N␠Crore\" ×5, \"₹N␠Crores\" ×5, \"₹N␠Lakhs\" ×1",
+   "msg": "₹ format: \"₹N␠Cr\" ×849, \"₹N␠L\" ×70, \"₹N␠Crore\" ×3, \"₹N␠Crores\" ×3, \"₹N␠Lakhs\" ×1",
    "page": "/, /projects, /projects/aipl-autograph-sector-66-gurgaon",
    "evidence": "Minority form appears on 1 page(s)",
    "pages": [

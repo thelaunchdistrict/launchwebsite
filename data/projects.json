@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T06:11:56.335Z",
+  "generatedAt": "2026-10-04T06:14:58.152Z",
   "source": "https://www.realtycanvas.in",
   "count": 61,
   "projects": [
@@ -4390,17 +4390,59 @@
         "unitSizeMaxSqft": 2100,
         "configurations": [
           {
-            "label": "3 BHK",
+            "label": "T6 - Type 2",
             "unitType": "Apartment",
-            "bhk": 3,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "bhk": null,
+            "areaRaw": "2,100 sq ft",
+            "areaSqft": 2100,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "T6 - Type 1",
+            "unitType": "Apartment",
+            "bhk": null,
+            "areaRaw": "2,100 sq ft",
+            "areaSqft": 2100,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "T8 - Type 2",
+            "unitType": "Apartment",
+            "bhk": null,
+            "areaRaw": "2,100 sq ft",
+            "areaSqft": 2100,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "T8 - Type 1",
+            "unitType": "Apartment",
+            "bhk": null,
+            "areaRaw": "2,100 sq ft",
+            "areaSqft": 2100,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
             "features": null
           }
         ],
@@ -4681,7 +4723,6 @@
         "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3491",
         "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3491",
         "landArea": "builder:developer-website:https://www.bptp.com/projects/gaia-residences-and-amstoria-verti-greens",
-        "configurations": "builder:developer-website:https://www.bptp.com/blogs/guide-to-3-bhk-flats-luxury-apartments-in-gurgaon-best-residential-projects",
         "startingPrice": "builder:developer-website:https://www.bptp.com/blogs/guide-to-3-bhk-flats-luxury-apartments-in-gurgaon-best-residential-projects"
       },
       "corrections": [
@@ -4726,23 +4767,6 @@
           "checkedAt": "2026-10-04T05:45:25Z"
         },
         {
-          "field": "configurations",
-          "from": [
-            "T6 - Type 2 2100 sq ft",
-            "T6 - Type 1 2100 sq ft",
-            "T8 - Type 2 2100 sq ft",
-            "T8 - Type 1 2100 sq ft"
-          ],
-          "to": [
-            "3 BHK"
-          ],
-          "value": "3 BHK (no unit sizes published by the builder)",
-          "source": "https://www.bptp.com/blogs/guide-to-3-bhk-flats-luxury-apartments-in-gurgaon-best-residential-projects",
-          "sourceType": "developer-website",
-          "quote": "3 BHK flats for sale in Gurgaon, with the starting price at ₹4.08 Cr.",
-          "checkedAt": "2026-10-04T05:45:25Z"
-        },
-        {
           "field": "startingPrice",
           "from": 37500000,
           "to": 40800000,
@@ -4757,6 +4781,10 @@
         {
           "field": "configurations.areaSqft",
           "note": "The builder publishes no unit sizes on its site; REP-I gives only per-tower aggregate carpet areas (3 towers x 177 apartments), not per-unit sizes. The 2,100 sq ft figure cannot be confirmed."
+        },
+        {
+          "field": "configurations",
+          "note": "Developer lists 3 BHK without sizes; sizes shown are from listing material."
         }
       ],
       "reraCompletionDate": "2032-12"
@@ -4811,31 +4839,73 @@
         "unitSizeMaxSqft": 1272,
         "configurations": [
           {
-            "label": "2 BHK",
+            "label": "2 BHK TYPE 2",
             "unitType": "Apartment",
             "bhk": 2,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "areaRaw": "908 sq ft",
+            "areaSqft": 908,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
-            "label": "3 BHK",
+            "label": "2 BHK TYPE 1",
+            "unitType": "Apartment",
+            "bhk": 2,
+            "areaRaw": "908 sq ft",
+            "areaSqft": 908,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "3 BHK TYPE 2",
             "unitType": "Apartment",
             "bhk": 3,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "areaRaw": "1,270 sq ft",
+            "areaSqft": 1270,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "3 BHK TYPE 3",
+            "unitType": "Apartment",
+            "bhk": 3,
+            "areaRaw": "1,270 sq ft",
+            "areaSqft": 1270,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "3 BHK TYPE 1",
+            "unitType": "Apartment",
+            "bhk": 3,
+            "areaRaw": "1,272sq ft",
+            "areaSqft": 1272,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
             "features": null
           }
         ],
@@ -5064,8 +5134,7 @@
         "unitsPerAcre": "derived:units/landAcres",
         "developer": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3246",
         "startingPrice": "builder:developer-website:https://www.bptp.com/lp/amstoria-verti-greens/campaign/index.html",
-        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3246",
-        "configurations": "builder:developer-website:https://www.bptp.com/lp/amstoria-verti-greens/campaign/index.html"
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3246"
       },
       "corrections": [
         {
@@ -5097,31 +5166,16 @@
           "sourceType": "rera-filing-by-developer",
           "quote": "ii) Likely date of completing the project 14-06-2032",
           "checkedAt": "2026-10-04T05:45:57Z"
-        },
-        {
-          "field": "configurations",
-          "from": [
-            "2 BHK TYPE 2 908 sq ft",
-            "2 BHK TYPE 1 908 sq ft",
-            "3 BHK TYPE 2 1270 sq ft",
-            "3 BHK TYPE 3 1270 sq ft",
-            "3 BHK TYPE 1 1272 sq ft"
-          ],
-          "to": [
-            "2 BHK",
-            "3 BHK"
-          ],
-          "value": "2 & 3 bedroom apartments (builder site gives no unit sizes)",
-          "source": "https://www.bptp.com/lp/amstoria-verti-greens/campaign/index.html",
-          "sourceType": "developer-website",
-          "quote": "BEDROOMS 2 & 3",
-          "checkedAt": "2026-10-04T05:45:57Z"
         }
       ],
       "builderUnresolved": [
         {
           "field": "configurations.areaSqft",
           "note": "The builder does not publish unit sizes. The REP-I tower aggregates fit our figures as carpet areas: 2 towers of 177 units at 20,911.641 sq m (about 118.1 sq m, or 1,272 sq ft, each) and 3 towers of 177 units at about 14,930 sq m (about 84.4 sq m, or 908 sq ft, each). This is our arithmetic, not a per-unit statement in the filing, so it does not confirm the sizes directly."
+        },
+        {
+          "field": "configurations",
+          "note": "Developer lists 2 BHK, 3 BHK without sizes; sizes shown are from listing material."
         }
       ],
       "reraCompletionDate": "2032-06"
@@ -11950,11 +12004,11 @@
       "statusRaw": "UNDER_CONSTRUCTION",
       "marketingStage": null,
       "marketingStageRaw": null,
-      "reraNumber": "RC/REP/HARERA/GGM/908/640/2025/11",
+      "reraNumber": "RC/REP/HARERA/GGM/907/639/2025/10",
       "launchDate": null,
       "launchDateRaw": null,
-      "possessionDate": null,
-      "possessionDateRaw": null,
+      "possessionDate": "2029-12",
+      "possessionDateRaw": "31-12-2029 (HARERA REP-I likely date of completing the project, identical for Phases 1, 2 and 4; builder website gives no possession date)",
       "location": {
         "sector": "104",
         "microMarket": "dwarka-expressway",
@@ -11970,43 +12024,43 @@
         "commentary": "Hero Homes The Palatial enjoys a strategic address in Sector 104, Gurgaon.\n\nConnectivity & Accessibility:\n• Located in a well-established catchment with strong access to key roads and daily-use infrastructure around Sector 104.\n• Suitable for buyers evaluating residential development opportunities with better livability, visibility, and future appreciation.\n• Supported by nearby schools, hospitals, work hubs, retail zones, and lifestyle destinations depending on the surrounding micro-market.\n• Easy movement for residents, customers, employees, and investors across major parts of Gurugram / NCR."
       },
       "pricing": {
-        "startingPriceRaw": "₹4.89 Crores Onwards",
-        "startingPriceInr": 48900000,
+        "startingPriceRaw": "INR 45,500,000 (lowPrice in the AggregateOffer structured data on the builder's project page; highPrice 60,800,000). Not shown as visible text.",
+        "startingPriceInr": 45500000,
         "priceRangeRaw": null,
-        "priceMinInr": 48900000,
+        "priceMinInr": 45500000,
         "priceMaxInr": null,
         "pricePerSqftMinInr": null,
         "pricePerSqftMaxInr": null,
-        "entryPricePerSqftInr": 17261,
-        "unitSizeMinSqft": 2833,
-        "unitSizeMaxSqft": 3457,
+        "entryPricePerSqftInr": 16066,
+        "unitSizeMinSqft": 2832,
+        "unitSizeMaxSqft": 3456,
         "configurations": [
           {
-            "label": "3 BHK",
+            "label": "3.5 BHK",
             "unitType": "Apartment",
-            "bhk": 3,
-            "areaRaw": "2,833 sq ft",
-            "areaSqft": 2833,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "bhk": 3.5,
+            "areaRaw": "2,832 sq ft",
+            "areaSqft": 2832,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           },
           {
-            "label": "4 BHK",
+            "label": "4.5 BHK",
             "unitType": "Apartment",
-            "bhk": 4,
-            "areaRaw": "3,457 sq ft",
-            "areaSqft": 3457,
-            "areaBasis": "RERA carpet/saleable (as listed)",
-            "priceRaw": "Price on Request",
+            "bhk": 4.5,
+            "areaRaw": "3,456 sq ft",
+            "areaSqft": 3456,
+            "areaBasis": "as published by the developer",
+            "priceRaw": "Price on request",
             "priceInr": null,
-            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftRaw": null,
             "pricePerSqftInr": null,
-            "availability": "available",
+            "availability": null,
             "features": null
           }
         ],
@@ -12018,7 +12072,7 @@
         "landAreaRaw": "11.25 Acres",
         "landAreaAcres": 11.25,
         "towers": 5,
-        "floors": null,
+        "floors": 43,
         "units": 750,
         "soldUnits": null,
         "availableUnits": null,
@@ -12214,8 +12268,119 @@
       "provenance": {
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
-        "unitsPerAcre": "derived:units/landAcres"
-      }
+        "unitsPerAcre": "derived:units/landAcres",
+        "reraNumber": "builder:developer-website:https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+        "additionalRera": "builder:developer-website:https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+        "possessionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3185",
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3231",
+        "startingPrice": "builder:developer-website:https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+        "configurations": "builder:developer-website:https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+        "floors": "builder:developer-website:https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes"
+      },
+      "corrections": [
+        {
+          "field": "reraNumber",
+          "from": "RC/REP/HARERA/GGM/908/640/2025/11",
+          "to": "RC/REP/HARERA/GGM/907/639/2025/10",
+          "value": "PHASE 1: RC/REP/HARERA/GGM/907/639/2025/10 (listed first by builder; Phase 1 = Tower E)",
+          "source": "https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+          "sourceType": "developer-website",
+          "quote": "PHASE 1:RC/REP/HARERA/GGM/907/639/2025/10",
+          "checkedAt": "2026-10-04T12:20:00Z"
+        },
+        {
+          "field": "additionalRera",
+          "from": [],
+          "to": [
+            "RC/REP/HARERA/GGM/908/640/2025/11 (Phase 2, Tower D)",
+            "RC/REP/HARERA/GGM/906/638/2025/09 (Phase 4, Towers A & B, club & commercial)"
+          ],
+          "value": "PHASE 2: RC/REP/HARERA/GGM/908/640/2025/11; PHASE 4: RC/REP/HARERA/GGM/906/638/2025/09",
+          "source": "https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+          "sourceType": "developer-website",
+          "quote": "PHASE 2:RC/REP/HARERA/GGM/908/640/2025/11 | PHASE 4: RC/REP/HARERA/GGM/906/638/2025/09",
+          "checkedAt": "2026-10-04T12:20:00Z"
+        },
+        {
+          "field": "possessionDate",
+          "from": null,
+          "to": "2029-12",
+          "value": "31-12-2029 (HARERA REP-I likely date of completing the project, identical for Phases 1, 2 and 4; builder website gives no possession date)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3185",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 31-12-2029",
+          "checkedAt": "2026-10-04T12:20:00Z"
+        },
+        {
+          "field": "reraCompletionDate",
+          "from": null,
+          "to": "2029-12",
+          "value": "31-12-2029 (Phase 1 Tower E, Phase 2 Tower D and Phase 4 Towers A-B all declare the same date)",
+          "source": "https://haryanarera.gov.in/view_project/project_preview_open/3231",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "ii) Likely date of completing the project 31-12-2029",
+          "checkedAt": "2026-10-04T12:20:00Z"
+        },
+        {
+          "field": "startingPrice",
+          "from": 48900000,
+          "to": 45500000,
+          "value": "INR 45,500,000 (lowPrice in the AggregateOffer structured data on the builder's project page; highPrice 60,800,000). Not shown as visible text.",
+          "source": "https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+          "sourceType": "developer-website",
+          "quote": "\"@type\":\"AggregateOffer\",\"priceCurrency\":\"INR\",\"lowPrice\":\"45500000\",\"highPrice\":\"60800000\"",
+          "checkedAt": "2026-10-04T12:20:00Z"
+        },
+        {
+          "field": "configurations",
+          "from": [
+            "3 BHK 2833 sq ft",
+            "4 BHK 3457 sq ft"
+          ],
+          "to": [
+            "3.5 BHK 2832 sq ft",
+            "4.5 BHK 3456 sq ft"
+          ],
+          "value": "3.5 - 4.5 BHK, 263.1 - 321.1 sq. mtr. (= approx. 2,832 - 3,456 sq ft; area basis not stated, larger than the RERA carpet areas so likely super area)",
+          "source": "https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+          "sourceType": "developer-website",
+          "quote": "3.5 - 4.5 BHK | 263.1 - 321.1 sq. mtr.",
+          "checkedAt": "2026-10-04T12:20:00Z"
+        },
+        {
+          "field": "floors",
+          "from": null,
+          "to": 43,
+          "value": "G+43 high-rise towers",
+          "source": "https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+          "sourceType": "developer-website",
+          "quote": "An exquisite palace-themed low-density residential ecosystem featuring G+43 high-rise premium towers.",
+          "checkedAt": "2026-10-04T12:20:00Z"
+        }
+      ],
+      "builderUnresolved": [
+        {
+          "field": "units",
+          "note": "Builder states no total unit count. RERA filings by the developer (herohomes.in named as website): Phase 1 Tower E 170 apartments (164 x 134.35 sqm + 6 x 118.14 sqm carpet); Phase 2 Tower D 174 (168 + 6); Phase 4 Towers A-B 254 apartments (236 x 167.997 + 12 x 146.345 + 2 + 4) plus shops. Registered total = 598 apartments in 4 towers; Phase 3 (presumably Tower C) registration not found. Our 750 is unsupported."
+        },
+        {
+          "field": "towers",
+          "note": "Builder site names no tower count; RERA phases name Towers A, B, D, E (Phase 3 not found). 5 towers is consistent but not stated by the builder."
+        },
+        {
+          "field": "configurations (carpet)",
+          "note": "RERA carpet areas: 3.5 BHK 134.35 sqm (~1,446 sq ft), 4.5 BHK 167.997 sqm (~1,808 sq ft). Our 2,833 / 3,457 sq ft match the builder's 263.1 / 321.1 sq m (non-carpet) figures; labels should be 3.5 / 4.5 BHK."
+        },
+        {
+          "field": "landArea (note)",
+          "note": "Not an open item: RERA total licensed area 11.0901 acres (phases: 1.3980 + 1.0768 + 4.6531 acres)."
+        }
+      ],
+      "additionalRera": [
+        "RC/REP/HARERA/GGM/908/640/2025/11 (Phase 2, Tower D)",
+        "RC/REP/HARERA/GGM/906/638/2025/09 (Phase 4, Towers A & B, club & commercial)"
+      ],
+      "reraCompletionDate": "2029-12"
     },
     {
       "source": "listing",
@@ -12644,17 +12809,45 @@
         "unitSizeMaxSqft": 4270,
         "configurations": [
           {
-            "label": "4 BHK + Lounge + Study",
+            "label": "4 BHK + Lounge",
             "unitType": "Apartment",
             "bhk": 4,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "areaRaw": "3,712 sq ft",
+            "areaSqft": 3712,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4 BHK + Lounge",
+            "unitType": "Apartment",
+            "bhk": 4,
+            "areaRaw": "3,755 sq ft",
+            "areaSqft": 3755,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4 BHK + Lounge",
+            "unitType": "Apartment",
+            "bhk": 4,
+            "areaRaw": "4,270 sq ft",
+            "areaSqft": 4270,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
             "features": null
           }
         ],
@@ -12905,8 +13098,7 @@
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres",
         "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTU5MQ==",
-        "units": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTU5MQ==",
-        "configurations": "builder:developer-website:https://www.m3mindia.com/residential/m3m-altitude"
+        "units": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTU5MQ=="
       },
       "corrections": [
         {
@@ -12938,22 +13130,6 @@
           "sourceType": "rera-filing-by-developer",
           "quote": "(ix) Number of units 342 Residential",
           "checkedAt": "2026-10-04T10:30:00Z"
-        },
-        {
-          "field": "configurations",
-          "from": [
-            "4 BHK + Lounge 3712 sq ft",
-            "4 BHK + Lounge 3755 sq ft",
-            "4 BHK + Lounge 4270 sq ft"
-          ],
-          "to": [
-            "4 BHK + Lounge + Study"
-          ],
-          "value": "4 BHK + Lounge + Study (only configuration listed by builder; no sizes published)",
-          "source": "https://www.m3mindia.com/residential/m3m-altitude",
-          "sourceType": "developer-website",
-          "quote": "Project Configuration 4 BHK + Lounge + Study",
-          "checkedAt": "2026-10-04T10:30:00Z"
         }
       ],
       "builderUnresolved": [
@@ -12972,6 +13148,10 @@
         {
           "field": "landArea (note)",
           "note": "Not an open item, but the RERA filing registers 2.79 acres for this phase (part of the 60.025-acre M3M Golfestate licence); our 4 acres is not supported by the filing."
+        },
+        {
+          "field": "configurations",
+          "note": "Developer lists 4 BHK + Lounge + Study without sizes; sizes shown are from listing material."
         }
       ],
       "reraCompletionDate": "2031-07"
@@ -12993,7 +13173,7 @@
       "statusRaw": "UNDER_CONSTRUCTION",
       "marketingStage": null,
       "marketingStageRaw": null,
-      "reraNumber": "RC/REP/HARERA/GGM/605/337/2022/80",
+      "reraNumber": null,
       "launchDate": null,
       "launchDateRaw": null,
       "possessionDate": null,
@@ -13242,7 +13422,8 @@
       "scrapedAt": "2026-10-02T06:43:13.471Z",
       "provenance": {
         "microMarket": "derived:sector-table",
-        "units": "builder:developer-website:https://m3mindia.com/retail/m3m-capital-walk"
+        "units": "builder:developer-website:https://m3mindia.com/retail/m3m-capital-walk",
+        "reraNumber": "builder:rera-filing-by-developer:https://haryanarera.gov.in/admincontrol/searchprojectDetail/2053"
       },
       "corrections": [
         {
@@ -13253,6 +13434,16 @@
           "source": "https://m3mindia.com/retail/m3m-capital-walk",
           "sourceType": "developer-website",
           "quote": "Featuring a 1 km wide frontage and 876 shops in a strip mall-inspired layout",
+          "checkedAt": "2026-10-04T11:05:00Z"
+        },
+        {
+          "field": "reraNumber",
+          "from": "RC/REP/HARERA/GGM/605/337/2022/80",
+          "to": null,
+          "value": "Not published by M3M for Capital Walk; the number previously shown is registered to M3M Route65 (Sector 65)",
+          "source": "https://haryanarera.gov.in/admincontrol/searchprojectDetail/2053",
+          "sourceType": "rera-filing-by-developer",
+          "quote": "M3M Route65 ... GGM/605/337/2022/80 DATED 31.08.2022 (SUPERSEDED BY GGM/803/535/2024/30 DATED 27.03.2024)",
           "checkedAt": "2026-10-04T11:05:00Z"
         }
       ],
@@ -13328,31 +13519,143 @@
         "unitSizeMaxSqft": 2670,
         "configurations": [
           {
-            "label": "3.5 BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
-            "bhk": 3.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "bhk": 3,
+            "areaRaw": "1,605 sq ft",
+            "areaSqft": 1605,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
-            "label": "4.5 BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
-            "bhk": 4.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "bhk": 3,
+            "areaRaw": "1,665 sq ft",
+            "areaSqft": 1665,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "3 BHK + STUDY",
+            "unitType": "Apartment",
+            "bhk": 3,
+            "areaRaw": "1,825 sq ft",
+            "areaSqft": 1825,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "3 BHK",
+            "unitType": "Apartment",
+            "bhk": 3,
+            "areaRaw": "1,895 sq ft",
+            "areaSqft": 1895,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "3 BHK + UTILITY",
+            "unitType": "Apartment",
+            "bhk": 3,
+            "areaRaw": "2,080 sq ft",
+            "areaSqft": 2080,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "3 BHK",
+            "unitType": "Apartment",
+            "bhk": 3,
+            "areaRaw": "2,170 sq ft",
+            "areaSqft": 2170,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4 BHK + UTILITY",
+            "unitType": "Apartment",
+            "bhk": 4,
+            "areaRaw": "2,305 sq ft",
+            "areaSqft": 2305,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4 BHK",
+            "unitType": "Apartment",
+            "bhk": 4,
+            "areaRaw": "2,400 sq ft",
+            "areaSqft": 2400,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4 BHK + UTILITY",
+            "unitType": "Apartment",
+            "bhk": 4,
+            "areaRaw": "2,570 sq ft",
+            "areaSqft": 2570,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4 BHK + STUDY",
+            "unitType": "Apartment",
+            "bhk": 4,
+            "areaRaw": "2,670 sq ft",
+            "areaSqft": 2670,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
             "features": null
           }
         ],
@@ -13641,8 +13944,7 @@
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres",
-        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTI3MQ==",
-        "configurations": "builder:developer-website:https://www.m3mindia.com/residential/m3m-crown"
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/view_certificate/MTI3MQ=="
       },
       "corrections": [
         {
@@ -13664,30 +13966,6 @@
           "sourceType": "rera-filing-by-developer",
           "quote": "ending with 31st January 2028 (completion date as declared by the promoter in REP-II)",
           "checkedAt": "2026-10-04T10:15:00Z"
-        },
-        {
-          "field": "configurations",
-          "from": [
-            "3 BHK 1605 sq ft",
-            "3 BHK 1665 sq ft",
-            "3 BHK + STUDY 1825 sq ft",
-            "3 BHK 1895 sq ft",
-            "3 BHK + UTILITY 2080 sq ft",
-            "3 BHK 2170 sq ft",
-            "4 BHK + UTILITY 2305 sq ft",
-            "4 BHK 2400 sq ft",
-            "4 BHK + UTILITY 2570 sq ft",
-            "4 BHK + STUDY 2670 sq ft"
-          ],
-          "to": [
-            "3.5 BHK",
-            "4.5 BHK"
-          ],
-          "value": "3.5 & 4.5 BHK Luxury Residences (no unit sizes published by builder)",
-          "source": "https://www.m3mindia.com/residential/m3m-crown",
-          "sourceType": "developer-website",
-          "quote": "3.5 & 4.5 BHK Luxury Residences",
-          "checkedAt": "2026-10-04T10:15:00Z"
         }
       ],
       "builderUnresolved": [
@@ -13698,6 +13976,10 @@
         {
           "field": "landArea (note)",
           "note": "Not an open item. RERA certificate: total licensed area 15.99375 acres; Phase 1 registered area 11.6023 acres; 11 towers, 1332 residential units (matches our towers/units)."
+        },
+        {
+          "field": "configurations",
+          "note": "Developer lists 3.5 BHK, 4.5 BHK without sizes; sizes shown are from listing material."
         }
       ],
       "reraCompletionDate": "2028-01"
@@ -13751,59 +14033,73 @@
         "unitSizeMaxSqft": 2650,
         "configurations": [
           {
-            "label": "2.5 BHK",
+            "label": "2 BHK",
             "unitType": "Apartment",
-            "bhk": 2.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "bhk": 2,
+            "areaRaw": "1,420 Sq ft",
+            "areaSqft": 1420,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
-            "label": "3.5 BHK",
+            "label": "3 BHK",
             "unitType": "Apartment",
-            "bhk": 3.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "bhk": 3,
+            "areaRaw": "1,900 sq ft",
+            "areaSqft": 1900,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
-            "label": "3.5 BHK + Servant Room",
+            "label": "3 BHK",
             "unitType": "Apartment",
-            "bhk": 3.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "bhk": 3,
+            "areaRaw": "1,902 sq ft",
+            "areaSqft": 1902,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
-            "label": "4.5 BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
-            "bhk": 4.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "bhk": 4,
+            "areaRaw": "2,630 sq ft",
+            "areaSqft": 2630,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4 BHK",
+            "unitType": "Apartment",
+            "bhk": 4,
+            "areaRaw": "2,650 sq ft",
+            "areaSqft": 2650,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
             "features": null
           }
         ],
@@ -14019,8 +14315,7 @@
         "additionalRera": "builder:developer-website:https://m3mindia.com/residential/m3m-golf-hills",
         "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2405",
         "towers": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2405 ; https://haryanarera.gov.in/view_project/project_preview_open/2838",
-        "units": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2405 ; https://haryanarera.gov.in/view_project/project_preview_open/2838",
-        "configurations": "builder:developer-website:https://m3mindia.com/residential/m3m-golf-hills"
+        "units": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2405 ; https://haryanarera.gov.in/view_project/project_preview_open/2838"
       },
       "corrections": [
         {
@@ -14064,27 +14359,6 @@
           "sourceType": "rera-filing-by-developer",
           "quote": "Phase 1: Total number of apartments 1309; Phase 2: Total number of apartments 590",
           "checkedAt": "2026-10-03T18:38:14Z"
-        },
-        {
-          "field": "configurations",
-          "from": [
-            "2 BHK 1420 sq ft",
-            "3 BHK 1900 sq ft",
-            "3 BHK 1902 sq ft",
-            "4 BHK 2630 sq ft",
-            "4 BHK 2650 sq ft"
-          ],
-          "to": [
-            "2.5 BHK",
-            "3.5 BHK",
-            "3.5 BHK + Servant Room",
-            "4.5 BHK"
-          ],
-          "value": "2.5 BHK, 3.5 BHK, 3.5 BHK+ Servant Room, 4.5 BHK (no sizes published by builder)",
-          "source": "https://m3mindia.com/residential/m3m-golf-hills",
-          "sourceType": "developer-website",
-          "quote": "2.5 BHK, 3.5 BHK, 3.5 BHK+ Servant Room, 4.5 BHK",
-          "checkedAt": "2026-10-03T18:38:14Z"
         }
       ],
       "builderUnresolved": [
@@ -14099,6 +14373,10 @@
         {
           "field": "configurations (sizes)",
           "note": "Builder publishes unit types only (2.5/3.5/3.5+SR/4.5 BHK), no sq ft areas; RERA Phase 1 filing gives only aggregate carpet area. Our sizes (1,420/1,900/1,902/2,630/2,650) cannot be confirmed from builder sources."
+        },
+        {
+          "field": "configurations",
+          "note": "Developer lists 2.5 BHK, 3.5 BHK, 3.5 BHK + Servant Room, 4.5 BHK without sizes; sizes shown are from listing material."
         }
       ],
       "additionalRera": [
@@ -14524,42 +14802,168 @@
             "label": "3.5 BHK",
             "unitType": "Apartment",
             "bhk": 3.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "areaRaw": "2,080 sq ft",
+            "areaSqft": 2080,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "3.5 BHK",
+            "unitType": "Apartment",
+            "bhk": 3.5,
+            "areaRaw": "2,310 sq ft",
+            "areaSqft": 2310,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "3.5 BHK",
+            "unitType": "Apartment",
+            "bhk": 3.5,
+            "areaRaw": "2,342 sq ft",
+            "areaSqft": 2342,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
             "features": null
           },
           {
             "label": "4.5 BHK",
             "unitType": "Apartment",
             "bhk": 4.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "areaRaw": "2,700 sq ft",
+            "areaSqft": 2700,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
-            "label": "5 BHK",
+            "label": "4.5 BHK",
             "unitType": "Apartment",
-            "bhk": 5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "bhk": 4.5,
+            "areaRaw": "2,945 sq ft",
+            "areaSqft": 2945,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4.5 BHK",
+            "unitType": "Apartment",
+            "bhk": 4.5,
+            "areaRaw": "3,000 sq ft",
+            "areaSqft": 3000,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4.5 BHK",
+            "unitType": "Apartment",
+            "bhk": 4.5,
+            "areaRaw": "3,125 sq ft",
+            "areaSqft": 3125,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4.5 BHK",
+            "unitType": "Apartment",
+            "bhk": 4.5,
+            "areaRaw": "3,230 sq ft",
+            "areaSqft": 3230,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "4.5 BHK",
+            "unitType": "Apartment",
+            "bhk": 4.5,
+            "areaRaw": "3,415 sq ft",
+            "areaSqft": 3415,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "Penthouse",
+            "unitType": "Apartment",
+            "bhk": null,
+            "areaRaw": "4,290 sq ft",
+            "areaSqft": 4290,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "Penthouse",
+            "unitType": "Apartment",
+            "bhk": null,
+            "areaRaw": "5,620 sq ft",
+            "areaSqft": 5620,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
+            "features": null
+          },
+          {
+            "label": "Penthouse",
+            "unitType": "Apartment",
+            "bhk": null,
+            "areaRaw": "5,900 sq ft",
+            "areaSqft": 5900,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
+            "priceInr": null,
+            "pricePerSqftRaw": "Price on Request",
+            "pricePerSqftInr": null,
+            "availability": "available",
             "features": null
           }
         ],
@@ -14952,8 +15356,7 @@
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres",
-        "units": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2790",
-        "configurations": "builder:developer-website:https://m3mindia.com/residential/m3m-mansion"
+        "units": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2790"
       },
       "corrections": [
         {
@@ -14964,33 +15367,6 @@
           "source": "https://haryanarera.gov.in/view_project/project_preview_open/2790",
           "sourceType": "rera-filing-by-developer",
           "quote": "Total number of apartments: 961 (8 towers) + 7 shops",
-          "checkedAt": "2026-10-03T18:38:14Z"
-        },
-        {
-          "field": "configurations",
-          "from": [
-            "3.5 BHK 2080 sq ft",
-            "3.5 BHK 2310 sq ft",
-            "3.5 BHK 2342 sq ft",
-            "4.5 BHK 2700 sq ft",
-            "4.5 BHK 2945 sq ft",
-            "4.5 BHK 3000 sq ft",
-            "4.5 BHK 3125 sq ft",
-            "4.5 BHK 3230 sq ft",
-            "4.5 BHK 3415 sq ft",
-            "Penthouse 4290 sq ft",
-            "Penthouse 5620 sq ft",
-            "Penthouse 5900 sq ft"
-          ],
-          "to": [
-            "3.5 BHK",
-            "4.5 BHK",
-            "5 BHK"
-          ],
-          "value": "3.5, 4.5, and 5 BHK Luxury Apartments & Penthouses (no sizes published by builder)",
-          "source": "https://m3mindia.com/residential/m3m-mansion",
-          "sourceType": "developer-website",
-          "quote": "3.5, 4.5, and 5 BHK Luxury Apartments & Penthouses",
           "checkedAt": "2026-10-03T18:38:14Z"
         }
       ],
@@ -15006,6 +15382,10 @@
         {
           "field": "landArea (note)",
           "note": "Not an open item, but the RERA filing gives Phase 1 land as 8.71 acres (licensed area ~10.225 acres); our 10 acres reflects the licensed area."
+        },
+        {
+          "field": "configurations",
+          "note": "Developer lists 3.5 BHK, 4.5 BHK, 5 BHK without sizes; sizes shown are from listing material."
         }
       ]
     },
@@ -19589,42 +19969,42 @@
             "label": "3 BHK",
             "unitType": "Apartment",
             "bhk": 3,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "areaRaw": "2,355 sq ft",
+            "areaSqft": 2355,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
             "label": "3.5 BHK",
             "unitType": "Apartment",
             "bhk": 3.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "areaRaw": "2,690 sq ft",
+            "areaSqft": 2690,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
-            "label": "4.5 BHK",
+            "label": "4 BHK",
             "unitType": "Apartment",
-            "bhk": 4.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "bhk": 4,
+            "areaRaw": "3,279 sq ft",
+            "areaSqft": 3279,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           }
         ],
@@ -19838,31 +20218,12 @@
         "microMarket": "derived:sector-table",
         "entryPricePerSqft": "derived:startingPrice/smallestUnitArea",
         "unitsPerAcre": "derived:units/landAcres",
-        "configurations": "builder:developer-website:https://smartworlddevelopers.com/projects/skyarc",
         "floors": "builder:developer-website:https://smartworlddevelopers.com/projects/skyarc",
         "units": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3075",
         "landArea": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3075",
         "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/3075"
       },
       "corrections": [
-        {
-          "field": "configurations",
-          "from": [
-            "3 BHK 2355 sq ft",
-            "3.5 BHK 2690 sq ft",
-            "4 BHK 3279 sq ft"
-          ],
-          "to": [
-            "3 BHK",
-            "3.5 BHK",
-            "4.5 BHK"
-          ],
-          "value": "3 BHK, 3.5 BHK and 4.5 BHK (builder calls the largest type 4.5 BHK, not 4 BHK; no sizes stated)",
-          "source": "https://smartworlddevelopers.com/projects/skyarc",
-          "sourceType": "developer-website",
-          "quote": "The project offers 3 BHK, 3.5 BHK, and 4.5 BHK luxury residences.",
-          "checkedAt": "2026-10-03T18:41:08Z"
-        },
         {
           "field": "floors",
           "from": null,
@@ -19908,6 +20269,10 @@
         {
           "field": "configurations",
           "note": "The builder site and floor plans state no unit sizes, so the 4 BHK area (3,279 vs 3,270) cannot be confirmed from the builder. The RERA largest carpet sizes are 243.92 to 304.79 sq m (penthouse-type units)."
+        },
+        {
+          "field": "configurations",
+          "note": "Developer lists 3 BHK, 3.5 BHK, 4.5 BHK without sizes; sizes shown are from listing material."
         }
       ],
       "reraCompletionDate": "2032-05"
@@ -19961,59 +20326,59 @@
         "unitSizeMaxSqft": 3660,
         "configurations": [
           {
-            "label": "3.5 BHK (Type A, 3 BHK + Utility)",
+            "label": "3.5 BHK+SQ",
             "unitType": "Apartment",
             "bhk": 3.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "areaRaw": "2,945 sq ft",
+            "areaSqft": 2945,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
-            "label": "3.5 BHK (Type A1, 3 BHK + Study + Utility)",
+            "label": "3.5 BHK+SQ",
             "unitType": "Apartment",
             "bhk": 3.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "areaRaw": "3,035 sq ft",
+            "areaSqft": 3035,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
-            "label": "4.5 BHK (Type B, 4 BHK + Study + Utility)",
+            "label": "4 BHK+SQ",
             "unitType": "Apartment",
-            "bhk": 4.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "bhk": 4,
+            "areaRaw": "3,505 sq ft",
+            "areaSqft": 3505,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           },
           {
-            "label": "4.5 BHK (Type B1, 4 BHK + Study + Utility)",
+            "label": "4.5 BHK+SQ",
             "unitType": "Apartment",
             "bhk": 4.5,
-            "areaRaw": null,
-            "areaSqft": null,
-            "areaBasis": "as published by the developer",
-            "priceRaw": "Price on request",
+            "areaRaw": "3,660 sq ft",
+            "areaSqft": 3660,
+            "areaBasis": "RERA carpet/saleable (as listed)",
+            "priceRaw": "Price on Request",
             "priceInr": null,
-            "pricePerSqftRaw": null,
+            "pricePerSqftRaw": "Price on Request",
             "pricePerSqftInr": null,
-            "availability": null,
+            "availability": "available",
             "features": null
           }
         ],
@@ -20246,8 +20611,7 @@
         "unitsPerAcre": "derived:units/landAcres",
         "sector": "builder:developer-website:https://smartworlddevelopers.com/projects/theedition",
         "locality": "builder:developer-website:https://smartworlddevelopers.com/projects/",
-        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2527",
-        "configurations": "builder:developer-website:https://smartworlddevelopers.com/projects/theedition"
+        "reraCompletionDate": "builder:rera-filing-by-developer:https://haryanarera.gov.in/view_project/project_preview_open/2527"
       },
       "corrections": [
         {
@@ -20279,26 +20643,6 @@
           "sourceType": "rera-filing-by-developer",
           "quote": "ii) Likely date of completing the project 01-02-2031",
           "checkedAt": "2026-10-03T18:41:20Z"
-        },
-        {
-          "field": "configurations",
-          "from": [
-            "3.5 BHK+SQ 2945 sq ft",
-            "3.5 BHK+SQ 3035 sq ft",
-            "4 BHK+SQ 3505 sq ft",
-            "4.5 BHK+SQ 3660 sq ft"
-          ],
-          "to": [
-            "3.5 BHK (Type A, 3 BHK + Utility)",
-            "3.5 BHK (Type A1, 3 BHK + Study + Utility)",
-            "4.5 BHK (Type B, 4 BHK + Study + Utility)",
-            "4.5 BHK (Type B1, 4 BHK + Study + Utility)"
-          ],
-          "value": "3.5 BHK and 4.5 BHK only (floor plans: Type A 3 BHK + Utility, Type A1 3 BHK + Study + Utility, Type B and B1 4 BHK + Study + Utility); no unit areas published on the builder site",
-          "source": "https://smartworlddevelopers.com/projects/theedition",
-          "sourceType": "developer-website",
-          "quote": "The project offers 3.5 BHK and 4.5 BHK luxury residences with spacious layouts.",
-          "checkedAt": "2026-10-03T18:41:20Z"
         }
       ],
       "builderUnresolved": [
@@ -20309,6 +20653,10 @@
         {
           "field": "configurations (unit areas)",
           "note": "Builder site lists 3.5 BHK and 4.5 BHK types but publishes no sq ft areas, so our 2,945 / 3,035 / 3,505 / 3,660 sq ft figures cannot be confirmed from the builder. There is no '4 BHK+SQ' type on the builder site; the ~3,505 sq ft unit should be labelled 4.5 BHK."
+        },
+        {
+          "field": "configurations",
+          "note": "Developer lists 3.5 BHK (Type A, 3 BHK + Utility), 3.5 BHK (Type A1, 3 BHK + Study + Utility), 4.5 BHK (Type B, 4 BHK + Study + Utility), 4.5 BHK (Type B1, 4 BHK + Study + Utility) without sizes; sizes shown are from listing material."
         }
       ],
       "reraCompletionDate": "2031-02"

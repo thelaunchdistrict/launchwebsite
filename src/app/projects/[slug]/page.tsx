@@ -449,7 +449,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
                       {c.value}
                       <span className="block text-xs text-ink-2">
                         Previously {fmtPrev(c.from, c.field)} ·{' '}
-                        <a href={c.source} target="_blank" rel="noopener noreferrer" className="link">{c.sourceType === 'rera-filing-by-developer' ? 'RERA filing' : 'developer source'}</a>
+                        <a href={c.source} target="_blank" rel="noopener noreferrer" className="link inline-flex min-h-11 items-center sm:min-h-0">{c.sourceType === 'rera-filing-by-developer' ? 'RERA filing' : 'developer source'}</a>
                         {c.checkedAt ? ` · checked ${new Date(c.checkedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}` : ''}
                       </span>
                     </span>

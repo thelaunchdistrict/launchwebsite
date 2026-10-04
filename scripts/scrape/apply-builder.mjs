@@ -30,6 +30,7 @@ export function applyBuilderCorrections(projects, { dir, marketFor, log = consol
       const before = read(p, c.field);
       const ok = write(p, c, marketFor);
       if (!ok) { rejected++; log(`builder: rejected ${p.slug}.${c.field} — value ${JSON.stringify(c.normalized)} not usable`); continue; }
+      if (ok === 'kept') continue;
       const after = read(p, c.field);
       if (JSON.stringify(before) === JSON.stringify(after)) continue; // builder confirms what we had
       p.corrections.push({ field: c.field, from: before, to: after, value: c.value, source: c.source, sourceType: c.sourceType, quote: c.quote, checkedAt: doc.checkedAt });
@@ -77,6 +78,8 @@ function write(p, c, marketFor) {
       return true;
     }
     case 'reraNumber':
+      // null = the registry shows our number belongs to another project and the builder publishes none.
+      if (v === null && c.sourceType === 'rera-filing-by-developer') { p.reraNumber = null; return true; }
       if (typeof v !== 'string' || v.length < 5) return false;
       p.reraNumber = v.trim(); return true;
     case 'additionalRera':
@@ -129,6 +132,11 @@ function write(p, c, marketFor) {
         priceRaw: 'Price on request', priceInr: null, pricePerSqftRaw: null, pricePerSqftInr: null, availability: null, features: null,
       }));
       if (!rows.length) return false;
+      // A size-less list from the builder doesn't contradict sizes we already have: keep ours, flag it.
+      if (!rows.some((r) => r.areaSqft) && p.pricing.configurations.some((r) => r.areaSqft)) {
+        p.builderUnresolved.push({ field: 'configurations', note: `Developer lists ${rows.map((r) => r.label).join(', ')} without sizes; sizes shown are from listing material.` });
+        return 'kept';
+      }
       p.pricing.configurations = rows.sort((a, b) => (a.bhk ?? 99) - (b.bhk ?? 99) || (a.areaSqft ?? 0) - (b.areaSqft ?? 0));
       const areas = rows.map((r) => r.areaSqft).filter(Boolean);
       if (areas.length) { p.pricing.unitSizeMinSqft = Math.min(...areas); p.pricing.unitSizeMaxSqft = Math.max(...areas); }

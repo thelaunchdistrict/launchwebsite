@@ -1,6 +1,6 @@
 # Extraction report — realtycanvas.in/projects
 
-Generated 2026-10-02T11:00:47.954Z from data built at 2026-10-02T11:00:04.397Z.
+Generated 2026-10-04T06:14:58.509Z from data built at 2026-10-04T06:14:58.152Z.
 
 ## Summary
 
@@ -39,12 +39,12 @@ Share of projects with a non-empty value. *Derived* fields are computed by Falco
 | Field | Coverage | Count |
 |---|---:|---:|
 | name | 100% | 60/60 |
-| developer | 98% | 59/60 |
+| developer | 100% | 60/60 |
 | projectType | 100% | 60/60 |
 | status | 100% | 60/60 |
-| reraNumber | 100% | 60/60 |
+| reraNumber | 98% | 59/60 |
 | launchDate | 2% | 1/60 |
-| possessionDate | 55% | 33/60 |
+| possessionDate | 75% | 45/60 |
 
 ### Location
 
@@ -65,10 +65,10 @@ Share of projects with a non-empty value. *Derived* fields are computed by Falco
 | startingPrice | 98% | 59/60 |
 | priceMax | 10% | 6/60 |
 | pricePerSqft (source) | 0% | 0/60 |
-| entryPricePerSqft (derived) | 75% | 45/60 |
-| configurations | 77% | 46/60 |
+| entryPricePerSqft (derived) | 78% | 47/60 |
+| configurations | 85% | 51/60 |
 | config-level price | 5% | 3/60 |
-| config-level area | 75% | 45/60 |
+| config-level area | 80% | 48/60 |
 | paymentPlan | 8% | 5/60 |
 | bookingAmount | 0% | 0/60 |
 | otherCharges | 0% | 0/60 |
@@ -77,11 +77,11 @@ Share of projects with a non-empty value. *Derived* fields are computed by Falco
 
 | Field | Coverage | Count |
 |---|---:|---:|
-| landArea | 98% | 59/60 |
-| towers | 82% | 49/60 |
-| floors | 25% | 15/60 |
-| units | 82% | 49/60 |
-| unitsPerAcre (derived) | 82% | 49/60 |
+| landArea | 100% | 60/60 |
+| towers | 90% | 54/60 |
+| floors | 40% | 24/60 |
+| units | 95% | 57/60 |
+| unitsPerAcre (derived) | 95% | 57/60 |
 | openSpacePercent | 0% | 0/60 |
 | architect | 0% | 0/60 |
 | landscapeDesigner | 0% | 0/60 |
@@ -126,21 +126,13 @@ Share of projects with a non-empty value. *Derived* fields are computed by Falco
 
 | Project | Missing |
 |---|---|
-| Adani The Marq | possessionDate, configurations |
-| AIPL Autograph | possessionDate, configurations, units |
-| AIPL Joy District | possessionDate, configurations, units |
-| BPTP Downtown 66 | possessionDate, configurations |
-| DLF Central 67 | possessionDate, configurations, units |
-| Club Arcade DLF | possessionDate, configurations, units, landArea |
-| Elan Empire | configurations, units |
-| Elan Paradise | configurations, units |
-| M3M Capital Walk | possessionDate, configurations, units |
-| M3M Jewel | possessionDate, configurations, units |
-| M3M Paragon57 | configurations, units |
+| AIPL Autograph | configurations, units |
+| AIPL Joy District | configurations, units |
+| M3M Capital Walk | reraNumber, possessionDate, configurations |
+| M3M Jewel | possessionDate, configurations |
 | M3M Route 65 | possessionDate, configurations, units |
 | Sobha Crescent | configurations, floorPlans |
-| SPJ Vedatam | possessionDate, units |
-| The Oryza | startingPrice, configurations |
+| The Oryza | startingPrice |
 | Yugen Greens | possessionDate, microMarket |
 
 ## Failed downloads / fetches
@@ -170,10 +162,13 @@ Share of projects with a non-empty value. *Derived* fields are computed by Falco
 
 - 4S The Aurrum: the same area (2407 sq ft) is listed for different BHK types (3, 4) — likely a data-entry error at source
 - Adani The Marq: slug says sector 102 but address/locality says 102A
+- DLF Central 67: derived entry ₹/sq ft 62,992 is outside the plausible 4k–60k band for Gurgaon — starting price and smallest unit probably refer to different units
+- Club Arcade DLF: derived entry ₹/sq ft 1,92,308 is outside the plausible 4k–60k band for Gurgaon — starting price and smallest unit probably refer to different units
 - Elan Empire: possession 2026-06 is in the past but status is under-construction
 - Elan Paradise: possession 2026-09 is in the past but status is under-construction
+- Smartworld The Edition: slug says sector 68 but address/locality says 66
 - Yugen Greens: no micro-market could be derived (sector —, city —)
-- 43/60 projects list every configuration as "Price on Request"; only the project-level starting price is numeric.
+- 48/60 projects list every configuration as "Price on Request"; only the project-level starting price is numeric.
 - 55/60 projects carry the same templated location paragraph ("…enjoys a strategic address…"). Falcon treats it as boilerplate and does not show it as project-specific analysis.
 - 3/60 projects have generic placeholder highlights (e.g. "Prime Location", "24/7 Security").
 

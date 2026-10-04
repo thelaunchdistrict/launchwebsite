@@ -1,6 +1,6 @@
 # Falcon QA report
 
-Generated 2026-10-02T11:11:41.174Z against `http://localhost:3300` · 85 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 547 s
+Generated 2026-10-04T06:33:23.311Z against `http://localhost:3300` · 85 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 493 s
 
 | Category | Errors | Warnings | Info |
 |---|---:|---:|---:|
@@ -29,8 +29,8 @@ Severity: **error** = wrong or broken for users (fix before launch) · **warn** 
 | 🟠 warn | C02 placeholder | Placeholder text "example.com" is visible | /contact, /privacy, /terms | hello@falcon.example.com @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.inline-flex ; hello@falcon.example.com @ div.wrap.py-10 > div.prose-falcon.mt-10 > p > a.link |
 | 🟠 warn | C02 placeholder | Placeholder text "Placeholder" is visible | /disclaimer | Falcon’s agent registration number will appear here once issued. [Placeholder: add the HARERA agent registration no.] @ main#main > div.wrap.py-10 > div.prose-falcon.mt-10 > p |
 | 🟠 warn | C06 inconsistent terminology | centre: "centre" ×151, "center" ×13 | /projects/elan-the-presidential-sector-106-gurgaon, /projects/emaar-amaris-sector-62-gurgaon, /projects/experion-the-trillion-sector-48-gurgaon | Minority form appears on 9 page(s) |
-| ⚪ info | C06 inconsistent terminology | sq ft: "sq ft" ×1094, "sq.ft" ×75, "sq. ft" ×6, "sqft" ×6 | /projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon | Minority form appears on 3 page(s) |
-| ⚪ info | C06 inconsistent terminology | ₹ format: "₹N␠Cr" ×827, "₹N␠L" ×68, "₹N␠Crore" ×5, "₹N␠Crores" ×5, "₹N␠Lakhs" ×1 | /, /projects, /projects/aipl-autograph-sector-66-gurgaon | Minority form appears on 1 page(s) |
+| ⚪ info | C06 inconsistent terminology | sq ft: "sq ft" ×1100, "sq.ft" ×75, "sq. ft" ×6, "sqft" ×6 | /projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon | Minority form appears on 3 page(s) |
+| ⚪ info | C06 inconsistent terminology | ₹ format: "₹N␠Cr" ×849, "₹N␠L" ×70, "₹N␠Crore" ×3, "₹N␠Crores" ×3, "₹N␠Lakhs" ×1 | /, /projects, /projects/aipl-autograph-sector-66-gurgaon | Minority form appears on 1 page(s) |
 
 ## Data consistency
 
