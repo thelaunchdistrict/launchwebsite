@@ -1,0 +1,75 @@
+{
+  "slug": "puri-diplomatic-residency-sector-111-gurgaon",
+  "checkedAt": "2026-10-04T05:59:16Z",
+  "method": "subagent:builder-first",
+  "builderSite": "puriconstructions.com (website named in the HARERA REP-I filing; project page /project-details/puri-diplomatic-residences)",
+  "corrections": [
+    {
+      "field": "reraNumber",
+      "value": "RC/REP/HARERA/GGM/787/519/2024/14 dt. 19.2.2024 (HRERA Regn. No. 14 of 2024)",
+      "normalized": "RC/REP/HARERA/GGM/787/519/2024/14",
+      "source": "https://www.puriconstructions.com/project-details/puri-diplomatic-residences",
+      "sourceType": "developer-website",
+      "quote": "RERA REG. NO. rc/rep/harera/ggm/787/519/ 2024/14 dt. 19.2.2024"
+    },
+    {
+      "field": "possessionDate",
+      "value": "On or before 31st March 2031 (proposed date of possession and of obtaining OC, builder's application form, Schedule II and IV)",
+      "normalized": "2031-03",
+      "source": "https://www.puriconstructions.com/uploads/project/pdf/application-form-4BHK-Luxury-Tower-PDR.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "Proposed date of Possession of the unit | On or before 31st March 2031"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31.03.2032 (registration valid upto, and the completion date in the HARERA registered-projects list). The REP-I 'Likely date of completing the project' is 31-03-2031.",
+      "normalized": "2032-03",
+      "source": "https://haryanarera.gov.in/admincontrol/registered_projects/2 ; https://haryanarera.gov.in/view_project/project_preview_open/2755",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/787/519/2024/14 DATED 19.02.2024 ... PURI DIPLOMATIC RESIDENCES ... 31/03/2032"
+    },
+    {
+      "field": "configurations",
+      "value": "Type 1 3BHK+3T+S(C) 1323.65 sq ft; Type 2 3BHK+3T+S(L1) 1398.89 sq ft; Type 3 3BHK+3T+S(L2) 1405.02 sq ft; Type 4 4BHK+4T+S 1981.22 sq ft (all RERA carpet, each on the 2nd to 32nd floor). Our '2nd/3rd/4th Floor' labels appear to come from the '2ND TO 32ND FLOOR' line. The builder does not publish our super areas (2282/2440/3475).",
+      "normalized": [
+        { "label": "3 BHK + 3T + S (Type 1)", "bhk": 3, "areaSqft": 1324, "areaBasis": "carpet" },
+        { "label": "3 BHK + 3T + S (Type 2)", "bhk": 3, "areaSqft": 1399, "areaBasis": "carpet" },
+        { "label": "3 BHK + 3T + S (Type 3)", "bhk": 3, "areaSqft": 1405, "areaBasis": "carpet" },
+        { "label": "4 BHK + 4T + S", "bhk": 4, "areaSqft": 1981, "areaBasis": "carpet" }
+      ],
+      "source": "https://www.puriconstructions.com/uploads/project/pdf/17086040573343.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "TYPE 4 - 4BHK+4T+S UNIT - 1 2ND TO 32ND FLOOR RERA CARPET AREA 184.06 SQ. M. (1981.22 SQ. FT.)"
+    },
+    {
+      "field": "floors",
+      "value": "6 high-rise towers of G+32 floors",
+      "normalized": 32,
+      "source": "https://www.puriconstructions.com/uploads/project/pdf/17086040573343.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "Gated community with 6 high rise luxury towers of G+32 floor"
+    },
+    {
+      "field": "units",
+      "value": "692 apartments across 6 towers (sum of REP-I apartment rows: 248+4+308+6+60+2+64)",
+      "normalized": 692,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2755",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "122.97 248 6 ... 102.93 4 6 ... 129.96 308 6 ... 108.89 6 6 ... 184.06 60 6 ... 177.34 2 6 ... 130.53 64 6"
+    },
+    {
+      "field": "landArea",
+      "value": "5.4112 acres",
+      "normalized": 5.4112,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2755",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Land area of the project 5.4112 (Acre)"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "startingPrice",
+      "note": "puriconstructions.com publishes no price or price list for Diplomatic Residences. The project page, brochure and application form give no price. Our Rs 4 Cr cannot be confirmed or corrected."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "m3m-trump-towers-sector-65-gurgaon",
+  "checkedAt": "2026-10-04T05:51:12Z",
+  "method": "subagent:builder-first",
+  "builderSite": "tribecadevelopers.com (project page /trump-tower-delhincr.php). m3mindia.com has no Trump Towers project page. The HARERA filing names the promoter Olive Realcon Pvt. Ltd. (website oliverealconpvtltd.com).",
+  "corrections": [
+    {
+      "field": "developer",
+      "value": "Tribeca Developers and M3M India (jointly). Olive Realcon Pvt. Ltd. is the registered co-developer/promoter",
+      "normalized": "Tribeca Developers & M3M India",
+      "source": "https://www.tribecadevelopers.com/trump-tower-delhincr.php",
+      "sourceType": "developer-website",
+      "quote": "Trump Towers Delhi NCR are being developed jointly by Tribeca Developers and M3M India."
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "28/06/2027 (completion date shown for the project's current HARERA registration GGM/734/466/2023/78, Olive Realcon Pvt. Ltd.). The 2023 REP-I gave 'Revised date of completion 30-06-2025', and the original registration 375 of 2017 (now 'Lapsed Project') gave 31-12-2024",
+      "normalized": "2027-06",
+      "source": "https://haryanarera.gov.in/admincontrol/registered_projects/2 ; https://haryanarera.gov.in/view_project/project_preview_open/2511",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/734/466/2023/78 DATED 17.07.2023 ... TRUMP TOWERS DELHI NCR ... OLIVE REALCON PRIVATE LIMITED ... 28/06/2027"
+    },
+    {
+      "field": "additionalRera",
+      "value": "RC/REP/HARERA/GGM/734/466/2023/78 dated 17.07.2023 (re-registration as an ongoing project; the original 375 of 2017 registration is listed by HARERA as 'Lapsed Project')",
+      "normalized": ["GGM/734/466/2023/78 (re-registration; 375 of 2017 lapsed)"],
+      "source": "https://haryanarera.gov.in/admincontrol/registered_projects/2",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "375 OF 2017 DATED 28.11.2017 ... Lapsed Project ... TRUMP TOWERS DELHI NCR"
+    },
+    {
+      "field": "landArea",
+      "value": "2.83125 acres (part of a 56.05-acre licensed colony)",
+      "normalized": 2.83125,
+      "source": "https://www.tribecadevelopers.com/trump-tower-delhincr.php",
+      "sourceType": "developer-website",
+      "quote": "2.83125 acres ... 56.05 acres [22.683 Hectares]"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Neither tribecadevelopers.com nor the builder's allotment-letter draft (tribecadevelopers.com/trump-towers-delhi-ncr/pdf/Trump_Tower_Allotment_Draft.pdf) states a marketed possession date. Only the RERA completion date is available, recorded as reraCompletionDate (2027-06). The filing also shows the project under construction (38% infrastructure progress in 2023), which does not match our status 'ready'."
+    },
+    {
+      "field": "startingPrice",
+      "note": "The builder publishes no price or price list on tribecadevelopers.com. The m3mproperties.com and similar M3M-named domains are broker sites and do not count. Our Rs 11 Cr cannot be confirmed or corrected."
+    }
+  ]
+}

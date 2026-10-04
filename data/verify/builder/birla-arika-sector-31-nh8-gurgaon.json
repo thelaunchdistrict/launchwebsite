@@ -1,0 +1,62 @@
+{
+  "slug": "birla-arika-sector-31-nh8-gurgaon",
+  "checkedAt": "2026-10-04T12:00:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "birlaestates.com",
+  "corrections": [
+    {
+      "field": "startingPrice",
+      "value": "Price From ₹10.42 Cr*",
+      "normalized": 104200000,
+      "source": "https://www.birlaestates.com/birla-arika-gurugram/",
+      "sourceType": "developer-website",
+      "quote": "Configuration 4 BHK Residences Price From ₹10.42 Cr*"
+    },
+    {
+      "field": "additionalRera",
+      "value": "Birla Arika Phase 2: RC/REP/HARERA/GGM/1044/776/2026/16 dated 25.02.2026",
+      "normalized": ["RC/REP/HARERA/GGM/1044/776/2026/16 (Phase 2)"],
+      "source": "https://www.birlaestates.com/birla-arika-gurugram/",
+      "sourceType": "developer-website",
+      "quote": "Birla Arika Phase 2 is registered with Haryana RERA vide Registration No. RC/REP/HARERA/GGM/1044/776/2026/16 dated 25.02.2026"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "09-12-2031 (Phase 1); Phase 2: 09-10-2033",
+      "normalized": "2031-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3235",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 09-12-2031"
+    },
+    {
+      "field": "possessionDate",
+      "value": "09-12-2031 (Phase 1 HARERA REP-I likely completion date; builder site states no possession date)",
+      "normalized": "2031-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3235",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 09-12-2031"
+    },
+    {
+      "field": "landArea",
+      "value": "13.275 Acres (approx. 53,722.01 sq. m)",
+      "normalized": 13.275,
+      "source": "https://www.birlaestates.com/birla-arika-gurugram/",
+      "sourceType": "developer-website",
+      "quote": "Birla Arika Gurugram spans across 13.275 Acres equivalent to approximately 53722.01 Sq. M."
+    },
+    {
+      "field": "units",
+      "value": "556 apartments: Phase 1 = 322 (80+80+40+40+41+41) in 4 towers; Phase 2 = 234 (77+77+40+40) in 3 towers; excludes small 18.60/21.02 sq m units",
+      "normalized": 556,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3235",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "218.26 80 2 ... 215.45 80 2 ... 218.89 40 1 ... 218.06 40 1 ... 261.56 41 1 ... 261.41 41 1 (Phase 2, id 3892: 218.26 77 2 ... 215.45 77 2 ... 218.89 40 1 ... 218.06 40 1)"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "floors",
+      "note": "Builder site states only '2 Residences on Each Floor'; no floor count published."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "whiteland-westin-residences-sector-103-gurgaon",
+  "checkedAt": "2026-10-04T06:08:03Z",
+  "method": "subagent:builder-first",
+  "builderSite": "theresidencesgurugram.com (linked from wlcorp.com, the website in Whiteland's HARERA filings)",
+  "corrections": [
+    {
+      "field": "reraNumber",
+      "value": "RC/REP/HARERA/GGM/838/570/2024/65 (project 'URBAN RESORT'); our value has a stray trailing period",
+      "normalized": "RC/REP/HARERA/GGM/838/570/2024/65",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2966",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/838/570/2024/65 DATED 18.06.2024 | URBAN RESORT | WHITELAND CORPORATION PVT LTD | SECTOR-103, GURUGRAM | 30/09/2031"
+    },
+    {
+      "field": "additionalRera",
+      "value": "Builder lists HARERA Nos. 65, 66 & 67 dated 18.06.2024 and 52 & 53 dated 16.05.2025 (Urban Resort Phase-2, Phase-3, Phase 4, Phase 6)",
+      "normalized": [
+        "RC/REP/HARERA/GGM/839/571/2024/66 (Urban Resort Phase-2)",
+        "RC/REP/HARERA/GGM/840/572/2024/67 (Urban Resort Phase-3)",
+        "RC/REP/HARERA/GGM/949/681/2025/52 (Urban Resort Phase 4)",
+        "RC/REP/HARERA/GGM/950/682/2025/53 (Urban Resort Phase 6)"
+      ],
+      "source": "https://www.theresidencesgurugram.com/",
+      "sourceType": "developer-website",
+      "quote": "HARERA NO.: 65, 66 & 67 | DATED: 18.06.2024 | HARERA NO.: 52 & 53 | DATED: 16.05.2025"
+    },
+    {
+      "field": "landArea",
+      "value": "Land parcel admeasuring 19.23126 acres (legal disclaimer); marketed as 'approximately 20 acres'",
+      "normalized": 19.23,
+      "source": "https://www.theresidencesgurugram.com/",
+      "sourceType": "developer-website",
+      "quote": "the mixed land use project named 'URBAN RESORT' being developed on land parcel admeasuring 19.23126 acres situated at Sector 103"
+    },
+    {
+      "field": "units",
+      "value": "1,700 three and four BHK residences in total; 1,464 units launched in the first phase (founder Navdeep Sardana to Business Standard, 30 May 2025)",
+      "normalized": 1700,
+      "source": "https://www.business-standard.com/industry/news/whiteland-launches-westin-residences-marriott-first-project-gurugram-125053001501_1.html",
+      "sourceType": "developer-press-release",
+      "quote": "the 20-acre development will include 1,700 three and four BHK residences, ranging from 2,673 to 4,328 square feet in size"
+    },
+    {
+      "field": "possessionDate",
+      "value": "Project expected to be completed by 2031 (founder Navdeep Sardana)",
+      "normalized": "2031",
+      "source": "https://www.business-standard.com/industry/news/whiteland-launches-westin-residences-marriott-first-project-gurugram-125053001501_1.html",
+      "sourceType": "developer-press-release",
+      "quote": "with the project expected to be completed by 2031"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "30/09/2031 for registrations 65, 66 and 67 of 2024 (Phase 4 and Phase 6, regs 52 and 53 of 2025: 31/12/2032)",
+      "normalized": "2031-09",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2966",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of starting the construction work 01-07-2024 | Likely date of completing the project 30-09-2031"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "startingPrice",
+      "note": "Builder site publishes no price. Business Standard's Rs 6-12 Cr range is attributed to 'people in the know', not the developer."
+    },
+    {
+      "field": "towers",
+      "note": "Builder states no tower count. HARERA filings show 3 towers (reg 65), 2 (reg 66), 5 (Phase 4, reg 52) among others; our 12 is not confirmed by builder material."
+    },
+    {
+      "field": "configurations",
+      "note": "Builder statement gives only the range 2,673 to 4,328 sq ft for 3 and 4 BHK; this matches our range except 4,328 vs our 4,329. The middle sizes (2,945, 3,500) are not stated by the builder."
+    },
+    {
+      "field": "units",
+      "note": "Our 1,302 is not stated by the builder. Developer gives 1,700 total / 1,464 in Phase 1 (May 2025). Choose whether to publish the total or phase figure."
+    }
+  ]
+}

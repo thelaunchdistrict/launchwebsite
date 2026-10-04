@@ -1,0 +1,66 @@
+{
+  "slug": "tarc-ishva-sector-63a-gurgaon",
+  "checkedAt": "2026-10-04T06:03:32Z",
+  "method": "subagent:builder-first",
+  "builderSite": "tarc.in",
+  "corrections": [
+    {
+      "field": "startingPrice",
+      "value": "Price Starts From ₹ 7.58 Cr* (taxes and statutory charges extra)",
+      "normalized": 75800000,
+      "source": "https://www.tarc.in/tarc-ishva-landingpage/",
+      "sourceType": "developer-website",
+      "quote": "3 & 4 BHK Residences Price Starts From ₹ 7.58 Cr*"
+    },
+    {
+      "field": "units",
+      "value": "518 residences across the full TARC Ishva masterplan after the Ishvara final phase (TARC press release, 20 Mar 2026). The original RERA filing (before the April 2026 addendum) lists 458 apartments.",
+      "normalized": 518,
+      "source": "https://www.constructionworld.in/policy-updates-and-economic-news/tarc-unveils-ishvara-in-gurugram/88418",
+      "sourceType": "developer-press-release",
+      "quote": "The development now comprises six towers with 518 residences"
+    },
+    {
+      "field": "towers",
+      "value": "Six towers across the full masterplan including the Ishvara phase (TARC press release, 20 Mar 2026)",
+      "normalized": 6,
+      "source": "https://www.constructionworld.in/policy-updates-and-economic-news/tarc-unveils-ishvara-in-gurugram/88418",
+      "sourceType": "developer-press-release",
+      "quote": "The development now comprises six towers with 518 residences"
+    },
+    {
+      "field": "landArea",
+      "value": "Over nine acres after land acquisition for Ishvara (TARC press release); the original RERA filing registered 6.95 acres",
+      "normalized": 9,
+      "source": "https://www.constructionworld.in/policy-updates-and-economic-news/tarc-unveils-ishvara-in-gurugram/88418",
+      "sourceType": "developer-press-release",
+      "quote": "strategic land acquisition that expanded the site to over nine acres"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31/12/2031",
+      "normalized": "2031-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3042",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/865/597/2024/92 DATED 04.09.2024 | TARC ISHVA | TARC LIMITED | SECTOR 63A GURUGRAM | 31/12/2031"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "tarc.in Ishva page gives no possession date. Only the RERA completion date (31 Dec 2031) exists, recorded as reraCompletionDate."
+    },
+    {
+      "field": "configurations",
+      "note": "Builder site says only '3 & 4 BHK Residences' with no unit sizes. The RERA filing gives carpet areas in sq m (e.g. 147.60, 154.02, 200.35, 327.58 sq m), which do not map directly to our super-area sizes (2,858 / 2,945 / 3,883 sq ft). Not changed."
+    },
+    {
+      "field": "floors",
+      "note": "Neither tarc.in nor the press release states a floor count."
+    },
+    {
+      "field": "units",
+      "note": "Context: the HARERA filing (pre-addendum) totals 458 apartments on 6.95 acres, including 72 units of 20.31 sq m. The 15 Apr 2026 addendum (additional licences, revised building plans) presumably covers the Ishvara expansion to 518 / 6 towers / 9+ acres. Decide whether our listing should describe the whole masterplan (518) or the original registration (458)."
+    }
+  ]
+}

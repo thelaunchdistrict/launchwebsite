@@ -1,0 +1,74 @@
+{
+  "slug": "aipl-lake-city-sector-103-gurgaon",
+  "checkedAt": "2026-10-04T11:20:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "aipl.com",
+  "corrections": [
+    {
+      "field": "reraNumber",
+      "value": "RERA Registration No.: 122 of 2025 (RC/REP/HARERA/GGM/1019/751/2025/122 dated 08.12.2025, Riviera at AIPL Lake City). Our GGM/844/576/2024/71 is registered to M3M Antalya Hills 3, not AIPL.",
+      "normalized": "RC/REP/HARERA/GGM/1019/751/2025/122",
+      "source": "https://aipl.com/riviera/",
+      "sourceType": "developer-website",
+      "quote": "AIPL Riviera is registered under Haryana RERA with Registration Number 122 of 2025."
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "30-06-2033",
+      "normalized": "2033-06",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3752",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 30-06-2033"
+    },
+    {
+      "field": "landArea",
+      "value": "5.14 acres (Phase 1, Riviera); REP-I 5.1375 acres",
+      "normalized": 5.14,
+      "source": "https://aipl.com/residential/",
+      "sourceType": "developer-website",
+      "quote": "Rising across *5.14 acres (Phase 1) with 80% open spaces, Riviera features two striking 43-storey towers"
+    },
+    {
+      "field": "towers",
+      "value": "two 43-storey towers",
+      "normalized": 2,
+      "source": "https://aipl.com/residential/",
+      "sourceType": "developer-website",
+      "quote": "Riviera features two striking 43-storey towers, a serene central lake"
+    },
+    {
+      "field": "floors",
+      "value": "G+43",
+      "normalized": 43,
+      "source": "https://aipl.com/designed-for-distinction-inside-aipl-rivieras-spacious-3-5-bhk-and-4-bhk-homes-in-sector-103-gurugram/",
+      "sourceType": "developer-website",
+      "quote": "With only four units to a core across G+43 floors"
+    },
+    {
+      "field": "units",
+      "value": "344 apartments (RERA table: 83+3+83+35+45+3+86+6; excludes 68 small 17.73/11.96 sq m units)",
+      "normalized": 344,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3752",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "170.94 83 0 ... 149.57 3 0 ... 146.60 83 0 ... 137.87 35 0 ... 132.02 45 0 ... 125.14 3 0 ... 119.75 86 0 ... 110.83 6 0"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "aipl.com states no possession date; our 'December 2030' is not supported by the builder. RERA completion 30-06-2033 recorded as reraCompletionDate."
+    },
+    {
+      "field": "startingPrice",
+      "note": "aipl.com publishes no price for Riviera at AIPL LakeCity (enquiry form only); our ₹3.6 Cr onwards is not stated by the builder."
+    },
+    {
+      "field": "configurations",
+      "note": "Builder says 3 BHK and 4 BHK (a blog also says 3.5 BHK) and 'Floor plans are available on request'; no sq ft sizes published. REP-I carpet areas (110.83-170.94 sq m) are not labelled by BHK. Our 2,200/2,400/2,800 sq ft are not stated by the builder."
+    },
+    {
+      "field": "landArea (township)",
+      "note": "Builder gives only the Riviera Phase 1 area (5.14 acres) and calls it part of 'the AIPL LakeCity township'; no township acreage stated, so our 30 acres is unsupported. HARERA also lists 'Aquaria at AIPL Lake City' (GGM/1063/795/2026/35, promoter Floralessence Projects Pvt Ltd), which is not on aipl.com."
+    }
+  ]
+}

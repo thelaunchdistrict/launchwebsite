@@ -1,0 +1,61 @@
+{
+  "slug": "anant-raj-estate-residences-sector-63a-gurgaon",
+  "checkedAt": "2026-10-04T11:45:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "anantrajlimited.com",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "31-03-2030",
+      "normalized": "2030-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2567",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-03-2030"
+    },
+    {
+      "field": "possessionDate",
+      "value": "31-03-2030 (HARERA REP-I likely completion date; builder site states no possession date)",
+      "normalized": "2030-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2567",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-03-2030"
+    },
+    {
+      "field": "landArea",
+      "value": "5.43263 (Acre)",
+      "normalized": 5.43263,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2567",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Land area of the project 5.43263 (Acre)"
+    },
+    {
+      "field": "floors",
+      "value": "30+ floors each",
+      "normalized": 30,
+      "source": "https://anantrajlimited.com/residential/the-estate-residences",
+      "sourceType": "developer-website",
+      "quote": "4 TOWERS 30+ FLOORS EACH 248 EXCLUSIVE UNITS"
+    },
+    {
+      "field": "configurations",
+      "value": "4 BHK + Lounge + Servant Room (Tower 01): 2586 sq ft carpet, 779 sq ft deck, 4781 SFS saleable; 4 BHK + Servant Room (Tower 03): 2073 sq ft carpet, 481 sq ft deck, 3710 SFS saleable",
+      "normalized": [
+        { "label": "4 BHK + Servant Room", "bhk": 4, "areaSqft": 3710, "areaBasis": "super" },
+        { "label": "4 BHK + Lounge + Servant Room", "bhk": 4, "areaSqft": 4781, "areaBasis": "super" }
+      ],
+      "source": "https://anantrajlimited.com/assets/estate-residences/estate-residences.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "4 BHK + LOUNGE + SERVANT ROOM ... 2586 SQFT. CARPET AREA | 779 SQFT. DECK AREA | 4781 SFS SALEABLE AREA"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "startingPrice",
+      "note": "anantrajlimited.com project page and brochure publish no price; our ₹6.68 Cr onwards is not stated by the builder."
+    },
+    {
+      "field": "status",
+      "note": "Builder site labels the project 'New Launch' (no construction status/OC stated); our under-construction is consistent with REP-I but not an explicit builder statement."
+    }
+  ]
+}

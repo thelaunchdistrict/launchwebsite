@@ -1,0 +1,23 @@
+{
+  "slug": "m3m-capital-walk-sector-113-gurgaon",
+  "checkedAt": "2026-10-04T11:05:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "m3mindia.com",
+  "corrections": [
+    {
+      "field": "units",
+      "value": "876 shops",
+      "normalized": 876,
+      "source": "https://m3mindia.com/retail/m3m-capital-walk",
+      "sourceType": "developer-website",
+      "quote": "Featuring a 1 km wide frontage and 876 shops in a strip mall-inspired layout"
+    }
+  ],
+  "unresolved": [
+    { "field": "reraNumber", "note": "IMPORTANT: our number GGM/605/337/2022/80 is NOT Capital Walk. On HARERA (searchprojectDetail/2053) it is 'M3M Route65', Village Maidawas, Sector-65, promoter Manglam Multiplex Pvt Ltd, 'GGM/605/337/2022/80 DATED 31.08.2022 (SUPERSEDED BY GGM/803/535/2024/30 DATED 27.03.2024)'. The builder's Capital Walk page (m3mindia.com/retail/m3m-capital-walk) prints no RERA number. Portals cite GGM/612/344/2022/87, but the builder's own M3M Capital page assigns that number to the residential 'M3M Capital' Phase 2 (Union Buildmart; also 531/263/2022/06 Phase 1 and 825/557/2024/52 Phase 3). Capital Walk's own registration could not be established from a builder source; recommend removing the Route65 number." },
+    { "field": "possession", "note": "Builder page gives no possession date, and because the project's registration could not be identified, no REP-I completion date can be attributed. (For reference only: M3M Capital Phase 2 REP-I, GGM/612/344/2022/87, shows likely completion 31-12-2026 and 2.98 acres under commercial units out of 7.71 acres, but the builder does not link it to Capital Walk.)" },
+    { "field": "startingPrice", "note": "Builder page publishes no price (enquiry form only)." },
+    { "field": "configurations", "note": "Builder lists retail and F&B, double-height showrooms, 876 shops; no unit sizes published." },
+    { "field": "landArea", "note": "Builder page states no land area; 18.95 acres unconfirmed. The 7.71-acre figure some sites quote matches the M3M Capital Phase 2 RERA filing, not a Capital Walk filing." }
+  ]
+}

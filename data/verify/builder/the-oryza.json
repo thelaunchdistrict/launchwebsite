@@ -1,0 +1,90 @@
+{
+  "slug": "the-oryza",
+  "checkedAt": "2026-10-04T06:04:39Z",
+  "method": "subagent:builder-first",
+  "builderSite": "origenrealty.in",
+  "corrections": [
+    {
+      "field": "developer",
+      "value": "Origen Realty (the HARERA promoter of record is Aura Builders and Developers Private Limited, which lists www.origenrealty.in as its website)",
+      "normalized": "Origen Realty",
+      "source": "https://www.origenrealty.in/projects/theoryza",
+      "sourceType": "developer-website",
+      "quote": "An architectural masterpiece, crafted to be the Origen Realty flagship development"
+    },
+    {
+      "field": "landArea",
+      "value": "8.26 Acres (builder site). The Phase I HARERA registration covers 4.6545 acres.",
+      "normalized": 8.26,
+      "source": "https://www.origenrealty.in/projects/theoryza",
+      "sourceType": "developer-website",
+      "quote": "The Oryza Sector 88A Gurgaon offers luxury 3 BHK homes across 8.26 acres"
+    },
+    {
+      "field": "towers",
+      "value": "2 (Phase 1)",
+      "normalized": 2,
+      "source": "https://www.origenrealty.in/projects/theoryza",
+      "sourceType": "developer-website",
+      "quote": "Two 45-storey towers (Phase I) with engineered façade systems"
+    },
+    {
+      "field": "floors",
+      "value": "45 Storeys (G+45)",
+      "normalized": 45,
+      "source": "https://www.origenrealty.in/projects/theoryza",
+      "sourceType": "developer-website",
+      "quote": "45 Storeys | Two iconic residential towers"
+    },
+    {
+      "field": "units",
+      "value": "344 apartments in the registered project (8 + 172 + 80 + 84, 2 towers); builder site states no unit count",
+      "normalized": 344,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3931",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Carpet area | Number of apartments | Number of towers ... 674.56|8|2 ... 18180.4|172|2 ... 9758.4|80|2 ... 10589.04|84|2"
+    },
+    {
+      "field": "configurations",
+      "value": "3 BHK Type 1: carpet 1,350.84 sq ft, super built-up 2,597.77 sq ft; 3 BHK Type 2: carpet 1,142.19 sq ft, super 2,196.52 sq ft; 3 BHK Type 3: carpet 1,394.58 sq ft, super 2,681.88 sq ft. Site also lists '3 BHK, 3BHK + U, 3BHK + SP' and 'Super Built-up Area 2350 sq ft onwards'.",
+      "normalized": [
+        { "label": "3 BHK Type 2", "bhk": 3, "areaSqft": 2197, "areaBasis": "super" },
+        { "label": "3 BHK Type 1", "bhk": 3, "areaSqft": 2598, "areaBasis": "super" },
+        { "label": "3 BHK Type 3", "bhk": 3, "areaSqft": 2682, "areaBasis": "super" }
+      ],
+      "source": "https://www.origenrealty.in/projects/theoryza",
+      "sourceType": "developer-website",
+      "quote": "Typical - 3 BHK Type 1 ... Carpet Area: 125.50 Sq. Mtr. (1,350.84 Sq. Ft.) ... Super Built-Up Area: 241.34 sq. Mtr. (2,597.77 sq. ft.)"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "30/09/2033 (registration list); the application form's 'Likely date of completing the project' says 31-12-2033",
+      "normalized": "2033-09",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3931",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/1043/775/2026/15 DATED 24.02.2026 | THE ORYZA | AURA BUILDERS AND DEVELOPERS PRIVATE LIMITED | 30/09/2033"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "origenrealty.in gives no possession date. Our '2033' is consistent with the RERA completion date (30 Sep 2033), recorded as reraCompletionDate."
+    },
+    {
+      "field": "startingPrice",
+      "note": "origenrealty.in publishes no price (schema says availability PreOrder, no amount). Leave unpublished."
+    },
+    {
+      "field": "status",
+      "note": "Builder site does not state a status. The RERA filing gives 'Likely date of starting the construction work 01-10-2026', so 'new launch' may be more accurate than 'under construction'."
+    },
+    {
+      "field": "units",
+      "note": "Our 478 units / 5 towers is not stated by the builder anywhere; the builder shows only Phase I (2 towers), and RERA registers 344 apartments for it. 478/5 may be a full-masterplan figure from a broker."
+    },
+    {
+      "field": "configurations",
+      "note": "The builder's 'Super Built-up Area 2350 sq ft onwards' conflicts with its own Type 2 plan (2,196.52 sq ft super). Builder does not show the separate 3BHK + U / 3BHK + SP sizes individually."
+    }
+  ]
+}

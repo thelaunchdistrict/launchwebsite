@@ -1,0 +1,30 @@
+{
+  "slug": "max-estate-360-residences-sector-36a-gurgaon",
+  "checkedAt": "2026-10-04T05:55:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "maxestates.in (website named in the HARERA REP-I filing for GGM/860/592/2024/87)",
+  "corrections": [
+    {
+      "field": "units",
+      "value": "864 apartments (sum of residential apartment rows in HARERA REP-I: 362 large units of 130.48-342.73 sq m carpet plus 502 units of 107.05-142.11 sq m carpet; excludes 161 small shop/commercial units of 18.72-89.27 sq m). This confirms our 864. The 630 figure on broker sites is not supported by the builder.",
+      "normalized": 864,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2993",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Type of apartments to be constructed in the project: ... 130.48 140 2 ... 163.55 66 2 ... 176.46 140 2 ... 122.98 144 2 ... 142.11 134 2 ... 140.01 134 2"
+    },
+    {
+      "field": "towers",
+      "value": "Six residences (towers), two of them senior living managed by Antara",
+      "normalized": 6,
+      "source": "https://maxestates.in/residential-projects/gurgaon/estate-360",
+      "sourceType": "developer-website",
+      "quote": "Two of our six residences offer dedicated senior living residences managed by Antara Senior Living."
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "floors",
+      "note": "maxestates.in does not state floor counts, and floors could not be read from the REP-I text (it lists only drawing names)."
+    }
+  ]
+}

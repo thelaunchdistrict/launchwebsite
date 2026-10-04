@@ -48,6 +48,8 @@ export async function generateMetadata({ params }: PageProps<'/projects/[slug]'>
 const AMENITY_LABEL: Record<string, string> = {
   CLUBHOUSE: 'Clubhouse', SPORTS: 'Sports', RECREATION: 'Recreation', SAFETY: 'Safety & security', SECURITY: 'Safety & security', WELLNESS: 'Wellness', CONVENIENCE: 'Convenience', ENVIRONMENT: 'Green & sustainability', KIDS: 'Children', LIFESTYLE: 'Lifestyle', OTHER: 'Other',
 };
+const FIELD_LABEL: Record<string, string> = { possessionDate: 'Possession', reraCompletionDate: 'RERA completion date', startingPrice: 'Starting price', reraNumber: 'RERA number', additionalRera: 'Other RERA registrations', units: 'Units', towers: 'Towers', floors: 'Floors', landArea: 'Land area', developer: 'Developer', sector: 'Sector', locality: 'Locality', configurations: 'Configurations', status: 'Status' };
+
 function fmtPrev(v: unknown, field: string): string {
   if (v == null || (Array.isArray(v) && !v.length)) return 'not published';
   if (field === 'startingPrice' && typeof v === 'number') return inr(v);
@@ -64,6 +66,8 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
   if (!p) notFound();
   const s = summarize(p);
   const name = p.name ?? p.slug;
+  const corrected = new Set(p.corrections?.map((c) => c.field));
+  const unconfirmed = [...new Set((p.builderUnresolved ?? []).filter((u) => !corrected.has(u.field)).map((u) => FIELD_LABEL[u.field]).filter(Boolean))];
   const ps = psfOf(p);
   const market = p.location.microMarket ? marketStats(p.location.microMarket) : null;
   const left = monthsUntil(p.possessionDate);
@@ -433,14 +437,14 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
             </section>
           )}
 
-          {(p.corrections?.length ?? 0) > 0 && (
+          {((p.corrections?.length ?? 0) > 0 || unconfirmed.length > 0) && (
             <section aria-labelledby="builder-h" className="card p-5">
               <h2 id="builder-h" className="h3">Verified with the developer</h2>
-              <p className="mt-1 text-sm text-ink-2">Where sources disagreed, these values were updated to what {p.developer.name ?? 'the developer'} publishes.</p>
-              <ul className="mt-4 divide-y divide-rule border-t hairline">
+              {(p.corrections?.length ?? 0) > 0 && <p className="mt-1 text-sm text-ink-2">Where sources disagreed, these values were updated to what {p.developer.name ?? 'the developer'} publishes.</p>}
+              {(p.corrections?.length ?? 0) > 0 && <ul className="mt-4 divide-y divide-rule border-t hairline">
                 {p.corrections!.map((c) => (
                   <li key={c.field} className="grid gap-1 py-3 sm:grid-cols-[10rem_1fr]">
-                    <span className="text-sm font-medium">{({ possessionDate: 'Possession', reraCompletionDate: 'RERA completion date', startingPrice: 'Starting price', reraNumber: 'RERA number', additionalRera: 'Other RERA registrations', units: 'Units', towers: 'Towers', floors: 'Floors', landArea: 'Land area', developer: 'Developer', sector: 'Sector', locality: 'Locality', configurations: 'Configurations', status: 'Status' } as Record<string, string>)[c.field] ?? c.field}</span>
+                    <span className="text-sm font-medium">{FIELD_LABEL[c.field] ?? c.field}</span>
                     <span className="text-sm">
                       {c.value}
                       <span className="block text-xs text-ink-2">
@@ -451,7 +455,10 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
                     </span>
                   </li>
                 ))}
-              </ul>
+              </ul>}
+              {unconfirmed.length > 0 && (
+                <p className="mt-3 text-sm text-ink-2">Not published by the developer: {unconfirmed.join(', ')}. Ask us before relying on these figures.</p>
+              )}
             </section>
           )}
 

@@ -1,0 +1,55 @@
+{
+  "slug": "hines-elevate-sector-59-gurgaon",
+  "checkedAt": "2026-10-04T11:45:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "conscient.in",
+  "corrections": [
+    {
+      "field": "developer",
+      "value": "Conscient (project listed under Conscient's own residential portfolio; HARERA promoter: Heritage Max Realtech Pvt. Ltd., a Conscient-group company). The builder page does not mention Hines.",
+      "normalized": "Conscient Infrastructure",
+      "source": "https://www.conscient.in/elevate/",
+      "sourceType": "developer-website",
+      "quote": "In the heart of Gurugram's Sector 59, Elevate offers 3 & 4 BHK luxury apartments."
+    },
+    {
+      "field": "status",
+      "value": "Ready to move in (listed under Delivered Projects)",
+      "normalized": "ready",
+      "source": "https://www.conscient.in/residential/",
+      "sourceType": "developer-website",
+      "quote": "Delivered Projects ELEVATE ... Project Status: Ready to move in ... DELIVERED"
+    },
+    {
+      "field": "reraNumber",
+      "value": "RC/REP/HARERA/GGM/308/40/2019/02 (as printed on the builder's Elevate page)",
+      "normalized": "RC/REP/HARERA/GGM/308/40/2019/02",
+      "source": "https://www.conscient.in/elevate/",
+      "sourceType": "developer-website",
+      "quote": "RC/REP/HARERA/GGM/308/40/2019/02"
+    },
+    {
+      "field": "additionalRera",
+      "value": "HARERA filings by the promoter (Heritage Max Realtech Pvt. Ltd.): ELEVATE PHASE I GGM/325/57/2019/19 dated 01.04.2019; ELEVATE (PHASE II) GGM/459/191/2021/27 dated 22.06.2021",
+      "normalized": ["GGM/325/57/2019/19 (Phase I)", "GGM/459/191/2021/27 (Phase II)"],
+      "source": "https://haryanarera.gov.in/view_project/searchprojectDetail/307 ; https://haryanarera.gov.in/view_project/searchprojectDetail/1395",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ELEVATE PHASE I ... GGM/325/57/2019/19 DATED 01.04.2019 / ELEVATE (PHASE II) ... GGM/459/191/2021/27 DATED 22.06.2021"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "Phase I: 31-12-2024; Phase II (final phase): likely completion 30-06-2025 (Phase II REP-I also shows earlier projected completion 31-01-2025; an extension certificate has since been uploaded)",
+      "normalized": "2025-06",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/1395",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "11. Likely date of completion of the project. 30-06-2025"
+    }
+  ],
+  "unresolved": [
+    { "field": "reraNumber (conflict)", "note": "The builder's page number GGM/308/40/2019/02 does not match either HARERA record found for Elevate (Phase I 325/57/2019/19, Phase II 459/191/2021/27). Builder value recorded per rule, but it may be a typo on the builder's site; our current RC/HARERA/GGM/2019/10 matches neither." },
+    { "field": "possessionDate", "note": "Builder gives no possession date; it lists Elevate as 'Ready to move in' / 'DELIVERED'. 'Possession expected by December 2025' should be dropped or replaced. Phase I RERA completion date was 31-12-2024 (project_preview_open/307)." },
+    { "field": "configurations", "note": "Builder site states only '3 & 4 BHK'; no unit sizes, so 4 BHK 3,300 vs 3,395 sq ft cannot be settled from a builder source." },
+    { "field": "startingPrice", "note": "Builder site publishes no price." },
+    { "field": "status (towers D/E)", "note": "The builder's separate ongoing 'Elevate Reserve' is in Sector 62 (RERA 101 of 2023), not towers of this project; builder lists Elevate itself as delivered." }
+  ]
+}

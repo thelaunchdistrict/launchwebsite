@@ -7,7 +7,7 @@ import path from 'node:path';
 import { normalizeStatus, parseBhk } from './parse.mjs';
 
 // Third-party sources that must never be treated as "the builder", even if an agent cites them.
-const NOT_BUILDER = /(^|\.)(99acres\.com|magicbricks\.com|housing\.com|squareyards\.com|nobroker\.in|proptiger\.com|realtycanvas\.in|luxuryroof\.com|reratracker\.com|youtube\.com|propertypistol\.com|houssed\.com|housiey\.com|commonfloor\.com|makaan\.com)$/i;
+const NOT_BUILDER = /(^|\.)(99acres\.com|magicbricks\.com|housing\.com|squareyards\.com|nobroker\.in|proptiger\.com|realtycanvas\.in|luxuryroof\.com|reratracker\.com|youtube\.com|propertypistol\.com|houssed\.com|housiey\.com|commonfloor\.com|makaan\.com|business-standard\.com|economictimes\.indiatimes\.com|livemint\.com|moneycontrol\.com|financialexpress\.com|hindustantimes\.com|thehindubusinessline\.com|constructionworld\.in|thepropertytimes\.in)$/i;
 const YM = /^\d{4}(-(0[1-9]|1[0-2]))?$/;
 
 export function applyBuilderCorrections(projects, { dir, marketFor, log = console.log }) {
@@ -23,7 +23,10 @@ export function applyBuilderCorrections(projects, { dir, marketFor, log = consol
     for (const c of doc.corrections ?? []) {
       let host = '';
       try { host = new URL(c.source).hostname.replace(/^www\./, ''); } catch { /* invalid URL */ }
-      if (!host || (NOT_BUILDER.test(host) && c.sourceType !== 'rera-filing-by-developer')) { rejected++; log(`builder: rejected ${p.slug}.${c.field} — source ${host || c.source} is not the builder`); continue; }
+      if (!host || (NOT_BUILDER.test(host) && c.sourceType !== 'rera-filing-by-developer')) { rejected++; log(`builder: rejected ${p.slug}.${c.field} — source ${host || c.source} is not the builder`); p.builderUnresolved.push({ field: c.field, note: `Reported only by ${host || 'an unverified source'} ("${c.value}"), not by the builder; value not changed.` }); continue; }
+      // Curated projects were entered from the developer's own brochure and price sheet supplied by the site owner;
+      // only the regulator filing may override them. Differences on the developer's website are surfaced instead.
+      if (p.source === 'curated' && c.sourceType !== 'rera-filing-by-developer') { p.builderUnresolved.push({ field: c.field, note: `Developer website states "${c.value}", which differs from the developer material on file; value not changed.` }); continue; }
       const before = read(p, c.field);
       const ok = write(p, c, marketFor);
       if (!ok) { rejected++; log(`builder: rejected ${p.slug}.${c.field} — value ${JSON.stringify(c.normalized)} not usable`); continue; }

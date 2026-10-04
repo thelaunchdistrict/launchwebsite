@@ -1,0 +1,50 @@
+{
+  "slug": "paras-manor-sector-2-gurgaon",
+  "checkedAt": "2026-10-04T05:57:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "parasbuildtech.com (project page /property/the-manor/). The HARERA filing names parasmanor.com, which redirects to themanorparas.com and names M/s Paras Buildtech India Pvt Ltd and M/s Cordial Infrastructure Pvt Ltd as developers.",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "31-08-2028 (likely date of completing the project, HARERA REP-I, The Manor, promoter Fantasy Buildwell Pvt Ltd)",
+      "normalized": "2028-08",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2707",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-08-2028"
+    },
+    {
+      "field": "units",
+      "value": "120 apartments of 242.54 sq m carpet in 2 towers. The filing also lists 12 small units of 12.36 sq m in 1 tower, which are not residences.",
+      "normalized": 120,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2707",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Apartment/Shops/Other Buildings 242.54 120 2 Apartment/Shops/Other Buildings 12.36 12 1"
+    },
+    {
+      "field": "reraNumber",
+      "value": "RC/REP/HARERA/GGM/811/543/2024/38 dated 08.04.2024 (the builder's site abbreviates this as '38 OF 2024 DATED 08.04.2024')",
+      "normalized": "RC/REP/HARERA/GGM/811/543/2024/38",
+      "source": "https://haryanarera.gov.in/admincontrol/registered_projects/2",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/811/543/2024/38 DATED 08.04.2024 ... THE MANOR ... FANTASY BUILDWELL PRIVATE LIMITED ... SECTOR - 2, GWAL PAHARI"
+    },
+    {
+      "field": "landArea",
+      "value": "4.26875 acres",
+      "normalized": 4.26875,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2707",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Land area of the project 4.26875 (Acre)"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Neither parasbuildtech.com nor themanorparas.com (the project site) states a marketed possession date. Only the RERA completion date (Aug 2028) is available, recorded as reraCompletionDate."
+    },
+    {
+      "field": "startingPrice",
+      "note": "The builder publishes no price on parasbuildtech.com or themanorparas.com. The pages offer only an enquiry form and a brochure download. Our Rs 9.5 Cr cannot be confirmed or corrected."
+    }
+  ]
+}

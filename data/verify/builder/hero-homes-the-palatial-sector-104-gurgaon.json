@@ -1,0 +1,73 @@
+{
+  "slug": "hero-homes-the-palatial-sector-104-gurgaon",
+  "checkedAt": "2026-10-04T12:20:00Z",
+  "method": "subagent:builder-first",
+  "builderSite": "herohomes.in",
+  "corrections": [
+    {
+      "field": "reraNumber",
+      "value": "PHASE 1: RC/REP/HARERA/GGM/907/639/2025/10 (listed first by builder; Phase 1 = Tower E)",
+      "normalized": "RC/REP/HARERA/GGM/907/639/2025/10",
+      "source": "https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+      "sourceType": "developer-website",
+      "quote": "PHASE 1:RC/REP/HARERA/GGM/907/639/2025/10"
+    },
+    {
+      "field": "additionalRera",
+      "value": "PHASE 2: RC/REP/HARERA/GGM/908/640/2025/11; PHASE 4: RC/REP/HARERA/GGM/906/638/2025/09",
+      "normalized": ["RC/REP/HARERA/GGM/908/640/2025/11 (Phase 2, Tower D)", "RC/REP/HARERA/GGM/906/638/2025/09 (Phase 4, Towers A & B, club & commercial)"],
+      "source": "https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+      "sourceType": "developer-website",
+      "quote": "PHASE 2:RC/REP/HARERA/GGM/908/640/2025/11 | PHASE 4: RC/REP/HARERA/GGM/906/638/2025/09"
+    },
+    {
+      "field": "possessionDate",
+      "value": "31-12-2029 (HARERA REP-I likely date of completing the project, identical for Phases 1, 2 and 4; builder website gives no possession date)",
+      "normalized": "2029-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3185",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-12-2029"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-12-2029 (Phase 1 Tower E, Phase 2 Tower D and Phase 4 Towers A-B all declare the same date)",
+      "normalized": "2029-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3231",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-12-2029"
+    },
+    {
+      "field": "startingPrice",
+      "value": "INR 45,500,000 (lowPrice in the AggregateOffer structured data on the builder's project page; highPrice 60,800,000). Not shown as visible text.",
+      "normalized": 45500000,
+      "source": "https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+      "sourceType": "developer-website",
+      "quote": "\"@type\":\"AggregateOffer\",\"priceCurrency\":\"INR\",\"lowPrice\":\"45500000\",\"highPrice\":\"60800000\""
+    },
+    {
+      "field": "configurations",
+      "value": "3.5 - 4.5 BHK, 263.1 - 321.1 sq. mtr. (= approx. 2,832 - 3,456 sq ft; area basis not stated, larger than the RERA carpet areas so likely super area)",
+      "normalized": [
+        { "label": "3.5 BHK", "bhk": 3.5, "areaSqft": 2832, "areaBasis": "unspecified" },
+        { "label": "4.5 BHK", "bhk": 4.5, "areaSqft": 3456, "areaBasis": "unspecified" }
+      ],
+      "source": "https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+      "sourceType": "developer-website",
+      "quote": "3.5 - 4.5 BHK | 263.1 - 321.1 sq. mtr."
+    },
+    {
+      "field": "floors",
+      "value": "G+43 high-rise towers",
+      "normalized": 43,
+      "source": "https://www.herohomes.in/projects/apartments/gurugram-haryana/the-palatial-by-hero-homes",
+      "sourceType": "developer-website",
+      "quote": "An exquisite palace-themed low-density residential ecosystem featuring G+43 high-rise premium towers."
+    }
+  ],
+  "unresolved": [
+    { "field": "units", "note": "Builder states no total unit count. RERA filings by the developer (herohomes.in named as website): Phase 1 Tower E 170 apartments (164 x 134.35 sqm + 6 x 118.14 sqm carpet); Phase 2 Tower D 174 (168 + 6); Phase 4 Towers A-B 254 apartments (236 x 167.997 + 12 x 146.345 + 2 + 4) plus shops. Registered total = 598 apartments in 4 towers; Phase 3 (presumably Tower C) registration not found. Our 750 is unsupported." },
+    { "field": "towers", "note": "Builder site names no tower count; RERA phases name Towers A, B, D, E (Phase 3 not found). 5 towers is consistent but not stated by the builder." },
+    { "field": "configurations (carpet)", "note": "RERA carpet areas: 3.5 BHK 134.35 sqm (~1,446 sq ft), 4.5 BHK 167.997 sqm (~1,808 sq ft). Our 2,833 / 3,457 sq ft match the builder's 263.1 / 321.1 sq m (non-carpet) figures; labels should be 3.5 / 4.5 BHK." },
+    { "field": "landArea (note)", "note": "Not an open item: RERA total licensed area 11.0901 acres (phases: 1.3980 + 1.0768 + 4.6531 acres)." }
+  ]
+}

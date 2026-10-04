@@ -1,0 +1,54 @@
+{
+  "slug": "trevoc-royal-residences-gurgaon",
+  "checkedAt": "2026-10-04T06:06:15Z",
+  "method": "subagent:builder-first",
+  "builderSite": "trevocroyalresidences.com (linked from trevocgroup.com; jhsestate.com, the website in the HARERA filing, redirects to trevocgroup.com)",
+  "corrections": [
+    {
+      "field": "units",
+      "value": "A limited edition of 172 units (registration certificate: 172 Residential units and 31 Commercial)",
+      "normalized": 172,
+      "source": "https://trevocroyalresidences.com/the-house-of-royals",
+      "sourceType": "developer-website",
+      "quote": "Presenting an exclusive collection of 3 and 4 BHK luxe residences. With a limited edition of 172 units"
+    },
+    {
+      "field": "floors",
+      "value": "Rising 27 stories above the ground",
+      "normalized": 27,
+      "source": "https://trevocroyalresidences.com/design",
+      "sourceType": "developer-website",
+      "quote": "Rising 27 stories above the ground, TREVOC Royal Residences is a marvel of modern architecture."
+    },
+    {
+      "field": "landArea",
+      "value": "2.059 acres (HARERA registration certificate, published on the builder's site as its 'Brochure' link)",
+      "normalized": 2.059,
+      "source": "https://trevocroyalresidences.com/images/trr.pdf",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Total licensed area of the project | 2.059 acres"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "06 February 2030 (completion date as declared by the promoter); matches our Feb 2030 possession",
+      "normalized": "2030-02",
+      "source": "https://trevocroyalresidences.com/images/trr.pdf",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "valid for the period commencing from 02nd September 2024 and ending with 06th February 2030 (completion date as declared by the promoter"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Builder site gives no marketed possession date; only the RERA completion date (6 Feb 2030), which matches our 2030-02."
+    },
+    {
+      "field": "startingPrice",
+      "note": "Neither trevocroyalresidences.com nor trevocgroup.com publishes a price."
+    },
+    {
+      "field": "configurations",
+      "note": "Builder says only '3 and 4 BHK luxe residences' with no sizes, so the 3 BHK vs 4 BHK label of the 2,957 sq ft unit cannot be settled from builder material. The HARERA filing lists carpet areas of 128.68, 146.52, 171.11 and 338.68 sq m only."
+    }
+  ]
+}

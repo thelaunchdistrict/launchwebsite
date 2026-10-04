@@ -1,0 +1,73 @@
+{
+  "slug": "yugen-golf-city",
+  "checkedAt": "2026-10-04T06:10:33Z",
+  "method": "subagent:builder-first",
+  "builderSite": "yugeninfra.com",
+  "corrections": [
+    {
+      "field": "startingPrice",
+      "value": "Starting at ₹1.55 Crores* (Garden of Eden). Same figure on the homepage and projects page ('Starting ₹1.55 Cr*'). The page's hidden meta/schema text still says 'Starting ₹45 Lakhs'.",
+      "normalized": 15500000,
+      "source": "https://yugeninfra.com/projects/garden-of-eden",
+      "sourceType": "developer-website",
+      "quote": "Starting at ₹1.55 Crores*. Bank loan options available."
+    },
+    {
+      "field": "configurations",
+      "value": "Garden of Eden villa plots: 'premium villa plots from 300 sq. yards' / '300+ Sq.Yd Starting Plot Size' (the same page's product card says '200-500 sq.yd plots'); Acqua Front Villas: 62 premium 3 BHK villas managed by Wyndham group (no size or price stated). Builder site does not list Golf Drive farmhouses, studio/1/2 BHK apartments or Cricket Front Villas.",
+      "normalized": [
+        { "label": "Garden of Eden villa plot (300 sq yd onwards)", "bhk": null, "areaSqft": 2700, "areaBasis": "unspecified" },
+        { "label": "Acqua Front Villa, 3 BHK (62 villas)", "bhk": 3, "areaSqft": null, "areaBasis": "unspecified" }
+      ],
+      "source": "https://yugeninfra.com/projects/garden-of-eden",
+      "sourceType": "developer-website",
+      "quote": "Offering premium villa plots from 300 sq. yards, it features 278 plots ... 62 Luxury Villas Beyond Time | Acqua Front Villas (Garden of Eden) | Premium 3 bhk villas managed by wyndham group"
+    },
+    {
+      "field": "units",
+      "value": "278 plots (Garden of Eden only, the RERA-registered part of the proposed township)",
+      "normalized": 278,
+      "source": "https://yugeninfra.com/projects/garden-of-eden",
+      "sourceType": "developer-website",
+      "quote": "~45 | Acres | Gated Township | 278 | Plots | Premium Villa Plots"
+    },
+    {
+      "field": "landArea",
+      "value": "~45 acres (Garden of Eden), forming part of the proposed 500-acre Yugen Golf City",
+      "normalized": 45,
+      "source": "https://yugeninfra.com/projects/garden-of-eden",
+      "sourceType": "developer-website",
+      "quote": "Garden of Eden is a RERA-approved plotted development spread across ~45 acres, forming part of the proposed 500-acre Yugen Golf City"
+    },
+    {
+      "field": "locality",
+      "value": "Sawantwadi, District Sindhudurg, Maharashtra, PIN 416511 (MahaRERA registry listing for PP1310002501906, promoter Yugen Infra Private Limited). The builder site itself says only 'near Mopa International Airport, North of Goa'.",
+      "normalized": "Sawantwadi, Sindhudurg, Maharashtra 416511",
+      "source": "https://maharera.maharashtra.gov.in/projects-search-result?project_name=GARDEN+OF+EDEN&project_state=27&project_district=0&op=Search",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "# PP1310002501906 | GARDEN OF EDEN | YUGEN INFRA PRIVATE LIMITED | Sawantwadi | State MAHARASHTRA | Pincode 416511 | District Sindhudurg"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "yugeninfra.com gives no possession date for Garden of Eden or the villas. The MahaRERA project page (maharerait.maharashtra.gov.in/public/project/view/61381) that holds the proposed completion date is behind a CAPTCHA, so the RERA completion date could not be read."
+    },
+    {
+      "field": "reraNumber",
+      "note": "PP1310002501906 is confirmed (builder site: 'MahaRERA Registration | PP1310002501906'; MahaRERA registry lists GARDEN OF EDEN, Yugen Infra Private Limited, Sindhudurg). It covers the Garden of Eden plotted project only, not the whole township. No other registration is shown by the builder."
+    },
+    {
+      "field": "startingPrice",
+      "note": "Our ₹99.9 L (200 sq yd plot) is not published by the builder; the builder's current figure is ₹1.55 Cr (recorded above). The builder's own page is internally inconsistent: visible text says plots from 300 sq yd and ₹1.55 Cr, a card says 200-500 sq yd, and meta/schema text says 'Starting ₹45 Lakhs'. No builder price for Acqua Front Villas, Golf Drive farmhouses or apartments."
+    },
+    {
+      "field": "location",
+      "note": "Builder's founder (press-media page) says 'Just 18–19 km from MOPA Airport ... 20-minute drive via National Highway 66'; the project page says '15 min' to Mopa. Our '5 km (aerial)' / 'next to' the airport is not supported by builder material."
+    },
+    {
+      "field": "status",
+      "note": "Builder marks Garden of Eden 'Ongoing'. The Golfer's Paradise page (yugeninfra.com/golfers-paradise/) now returns 404, so the 'Phase I sold out' claim is no longer on the builder site."
+    }
+  ]
+}

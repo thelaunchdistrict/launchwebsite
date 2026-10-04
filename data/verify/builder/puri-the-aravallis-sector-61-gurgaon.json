@@ -1,0 +1,69 @@
+{
+  "slug": "puri-the-aravallis-sector-61-gurgaon",
+  "checkedAt": "2026-10-04T05:59:42Z",
+  "method": "subagent:builder-first",
+  "builderSite": "puriconstructions.com (website named in the HARERA REP-I filing; project page /project-details/the-aravallis)",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "On or before 1st July 2029 (proposed date of possession). Phase-I completion is on or before 30th June 2029.",
+      "normalized": "2029-07",
+      "source": "https://www.puriconstructions.com/uploads/project/pdf/the-aravallis%20-%20application-form.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "Proposed date of Possession of the unit On or before 1st July 2029"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "30-06-2029 (likely date of completing the project, HARERA REP-I, Puri Construction Pvt Ltd)",
+      "normalized": "2029-06",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/1915",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 30-06-2029"
+    },
+    {
+      "field": "towers",
+      "value": "2 towers/blocks in the current phase (Phase-I). The builder says up to 3 more may be launched later, for up to 5 in total.",
+      "normalized": 2,
+      "source": "https://www.puriconstructions.com/uploads/project/pdf/the-aravallis%20-%20application-form.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "At present the company shall be developing 2 Towers/ Blocks and in future the Company shall be launching and developing upto 3 more Towers/Blocks"
+    },
+    {
+      "field": "units",
+      "value": "324 apartments in 2 towers (REP-I: 160 of 151.19 sq m + 160 of 116.09 sq m + 4 of 119.34 sq m carpet)",
+      "normalized": 324,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/1915",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "151.19 160 2 Apartment/Shops/Other Buildings 116.09 160 2 Apartment/Shops/Other Buildings 119.34 4 2"
+    },
+    {
+      "field": "landArea",
+      "value": "Project land 10.39375 acres (10 acres licensed, with a licence for 0.39375 acres under process). The HARERA REP-I registers 10 acres.",
+      "normalized": 10.39375,
+      "source": "https://www.puriconstructions.com/uploads/project/pdf/the-aravallis%20-%20application-form.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "at present the Project area/ land is 10.39375 Acres out of which 10 Acres is currently Licensed"
+    },
+    {
+      "field": "configurations",
+      "value": "Type 1 4BHK + S, carpet area 1627.45 sq ft (151.19 sq m); Types 2 and 3 3BHK + S, carpet area 1249.65 sq ft (116.09 sq m)",
+      "normalized": [
+        { "label": "3 BHK + S", "bhk": 3, "areaSqft": 1250, "areaBasis": "carpet" },
+        { "label": "4 BHK + S", "bhk": 4, "areaSqft": 1627, "areaBasis": "carpet" }
+      ],
+      "source": "https://www.puriconstructions.com/project-details/the-aravallis",
+      "sourceType": "developer-website",
+      "quote": "TYPE 1-UNIT 4BHK + S CARPET AREA 1627.45 SQ.FT. (151.19 SQ.M.)"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "startingPrice",
+      "note": "puriconstructions.com publishes no 'onwards' price or price list for The Aravallis. The payment plan gives only booking amounts: Rs 15 Lacs for 3BHK + S and Rs 20 Lacs for 4BHK + S. Our Rs 4.25 Cr cannot be confirmed or corrected."
+    },
+    {
+      "field": "floors",
+      "note": "The builder's payment plan mentions a 'Completion of 40th floor roof slab' milestone, but no total floor count is stated on the builder's site."
+    }
+  ]
+}
