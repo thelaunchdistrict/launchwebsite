@@ -1,0 +1,62 @@
+{
+  "slug": "experion-the-trillion-sector-48-gurgaon",
+  "checkedAt": "2026-10-03T18:40:23Z",
+  "method": "subagent:builder-first",
+  "builderSite": "experion.co",
+  "corrections": [
+    {
+      "field": "configurations",
+      "value": "3BHK Type 4: RERA carpet 1,534.84 sq ft (+478.24 sq ft balcony); 4BHK Type 1: RERA carpet 1,905.87 sq ft (+539.71 sq ft balcony)",
+      "normalized": [
+        {
+          "label": "3 BHK",
+          "bhk": 3,
+          "areaSqft": 1535,
+          "areaBasis": "carpet"
+        },
+        {
+          "label": "4 BHK",
+          "bhk": 4,
+          "areaSqft": 1906,
+          "areaBasis": "carpet"
+        }
+      ],
+      "source": "https://trillion.experion.co/",
+      "sourceType": "developer-website",
+      "quote": "3BHK TYPE 4 RERA Unit Carpet Area – 142.59 SQ. M / 1534.84 SQ. FT"
+    },
+    {
+      "field": "possessionDate",
+      "value": "Builder site gives no marketed date; HARERA Form REP-I likely completion 31-12-2032",
+      "normalized": "2032-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3155",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of completing the project | 31-12-2032"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-12-2032",
+      "normalized": "2032-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3155",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of completing the project | 31-12-2032"
+    },
+    {
+      "field": "startingPrice",
+      "value": "Prices begin at ₹5.99 crores (launch press release, 28 Apr 2025)",
+      "normalized": 59900000,
+      "source": "https://thepropertytimes.in/experion-developers-unveils-the-trillion-gurugrams-latest-luxury-landmark/",
+      "sourceType": "developer-press-release",
+      "quote": "Prices for this exclusive living experience begin at ₹5.99 crores."
+    },
+    {
+      "field": "floors",
+      "value": "45-floor towers",
+      "normalized": 45,
+      "source": "https://thepropertytimes.in/experion-developers-unveils-the-trillion-gurugrams-latest-luxury-landmark/",
+      "sourceType": "developer-press-release",
+      "quote": "three iconic and ultra-luxury 45-floor towers"
+    }
+  ],
+  "unresolved": []
+}

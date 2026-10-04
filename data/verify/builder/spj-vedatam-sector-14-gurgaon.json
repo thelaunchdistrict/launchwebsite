@@ -1,0 +1,42 @@
+{
+  "slug": "spj-vedatam-sector-14-gurgaon",
+  "checkedAt": "2026-10-03T18:41:20Z",
+  "method": "subagent:builder-first",
+  "builderSite": "spj-group.in (project site vedatam.com, linked from spj-group.in)",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "30-06-2030 (likely date of completing the project, HARERA Form REP-I, VEDATAM, reg. GGM/927/659/2025/30)",
+      "normalized": "2030-06",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3251",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 30-06-2030"
+    },
+    {
+      "field": "units",
+      "value": "412 units in 1 tower (sum of the unit-type table in the RERA filing; carpet areas 21.93 to 515.66 sq m)",
+      "normalized": 412,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3251",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Type Carpet area(In Square Meter) Number of apartments Number of towers Apartment/Shops/Other Buildings 25.590 2 1"
+    },
+    {
+      "field": "additionalRera",
+      "value": "GGM/927/659/2025/30 supersedes the earlier registration GGM/775/507/2024/02 dated 08.01.2024",
+      "normalized": ["GGM/775/507/2024/02 (superseded 25.03.2025)"],
+      "source": "https://haryanarera.gov.in/view_project/searchprojectDetail/3251",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/927/659/2025/30 DATED 25.03.2025 (SUPERSEDES GGM/775/507/2024/02 DATED 08.01.2024)"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "floors",
+      "note": "Builder (spj-group.in/vedatam, vedatam.com, Commercial Brochure 10.01.2026) describes only the Phase 1 retail levels: Lower Ground, Upper Ground, First (Kanaka retail), Second (Raasa F&B) and Third (Tarang entertainment / multiplex), plus 3 basement parking levels and studio apartments. That is 5 above-ground retail levels, consistent with our '5' for the retail podium only. The builder gives no total storey count for the tower (portals' 27/32 are not builder-sourced)."
+    },
+    {
+      "field": "possessionDate",
+      "note": "Builder sites give no marketed possession date; only the RERA completion date (30-06-2030) is available, recorded as reraCompletionDate."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "m3m-jewel-sector-25-gurgaon",
+  "checkedAt": "2026-10-03T18:38:14Z",
+  "method": "subagent:builder-first",
+  "builderSite": "m3mindia.com",
+  "corrections": [
+    {
+      "field": "locality",
+      "value": "MG Road, Sector 25, Gurugram",
+      "normalized": "MG Road",
+      "source": "https://m3mindia.com/retail/m3m-jewel",
+      "sourceType": "developer-website",
+      "quote": "MG Road, Sector 25, Gurugram"
+    },
+    {
+      "field": "status",
+      "value": "Ongoing (listed under Ongoing retail projects)",
+      "normalized": "under-construction",
+      "source": "https://m3mindia.com/retail-projects",
+      "sourceType": "developer-website",
+      "quote": "M3M Jewel ... Ongoing ... MG Road, Sector 25, Gurugram"
+    },
+    {
+      "field": "floors",
+      "value": "Six Levels of Experiential Luxury",
+      "normalized": 6,
+      "source": "https://m3mindia.com/retail/m3m-jewel",
+      "sourceType": "developer-website",
+      "quote": "Six Levels of Experiential Luxury"
+    },
+    {
+      "field": "additionalRera",
+      "value": "GGM/722/454/2023/66 dated 29.05.2023 (M3M JEWEL, promoter Lekh Buildtech Private Limited, Sector-25)",
+      "normalized": ["GGM/722/454/2023/66"],
+      "source": "https://haryanarera.gov.in/view_project/searchprojectDetail/2417",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "M3M JEWEL ... GGM/722/454/2023/66 DATED 29.05.2023 ... Lekh Buildtech Private Limited"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-03-2026 (registration GGM/722/454/2023/66, after Extension No. 02 of 2026 dated 22.01.2026)",
+      "normalized": "2026-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2417",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Revised date of completion 31-03-2026"
+    },
+    {
+      "field": "towers",
+      "value": "1",
+      "normalized": 1,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2417",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "No. of towers to be/ being constructed for booked apartments 1"
+    },
+    {
+      "field": "units",
+      "value": "398",
+      "normalized": 398,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2417",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Total number of plots/apartments in the project 398"
+    }
+  ],
+  "unresolved": [
+    { "field": "possessionDate", "note": "m3mindia.com gives no marketed possession date. The HARERA filing for GGM/722/454/2023/66 also appears to show an Occupation Certificate document uploaded 18-09-2026, but this could not be confirmed verbatim and the builder site still lists the project as Ongoing. The HARERA page for our registration RC/REP/HARERA/GGM/635/367/2022/110 (the number the builder's site displays) was not found." },
+    { "field": "startingPrice", "note": "m3mindia.com publishes no price or price list for M3M Jewel." },
+    { "field": "floors (detail)", "note": "Builder site says six retail levels; the RERA filing lists floor plans from basement up to an eighth floor (offices above retail), so total storeys may exceed 6." }
+  ]
+}

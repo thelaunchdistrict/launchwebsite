@@ -1,0 +1,50 @@
+{
+  "slug": "4s-the-aurrum-sector-59-gurgaon",
+  "checkedAt": "2026-10-03T18:38:25Z",
+  "method": "subagent:builder-first",
+  "builderSite": "4sdevelopers.com",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "Registration up-to 31/10/2029 (application preview projects completion 31-10-2030)",
+      "normalized": "2029-10",
+      "source": "https://haryanarera.gov.in/admincontrol/registered_projects/2",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/849/581/2024/76 DATED 15.07.2024 ... 4S THE AURRUM ... 31/10/2029"
+    },
+    {
+      "field": "landArea",
+      "value": "5.42957 acres",
+      "normalized": 5.42957,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2831",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Land area of the project: 5.42957 (Acre)"
+    },
+    {
+      "field": "units",
+      "value": "243 apartments (sum of RERA unit table: 40 x 122.97 sqm, 120 x 134.06 sqm, 40 x 166.42 sqm, 40 x 181.986 sqm, 3 larger units)",
+      "normalized": 243,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2831",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "122.97 | 32 ... 134.06 | 96 ... 166.42 | 32 ... 181.986 | 32 ... 355.03 | 1"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Builder site (4sdevelopers.com/the-aurrum) states no possession date; only the RERA registration validity (Oct 2029) is available, recorded as reraCompletionDate."
+    },
+    {
+      "field": "configurations",
+      "note": "Builder site lists 3-BHK Small/Large and 4-BHK Small/Large floor plans without areas. RERA carpet areas are 122.97, 134.06, 166.42, 181.986 sq m (~1,324/1,443/1,791/1,959 sq ft) plus 265.15/276.21/355.03 sq m, but the filing does not map them to BHK labels. Our 2,407/3,562/2,624 sq ft figures are not stated by the builder."
+    },
+    {
+      "field": "towers",
+      "note": "Builder site does not state tower count; RERA preview does not list tower names clearly. 6 not confirmed."
+    },
+    {
+      "field": "startingPrice",
+      "note": "Builder site publishes no price."
+    }
+  ]
+}

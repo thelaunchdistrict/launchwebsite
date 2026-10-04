@@ -1,0 +1,46 @@
+{
+  "slug": "sobha-sector-63a-gurgaon",
+  "checkedAt": "2026-10-03T18:41:20Z",
+  "method": "subagent:builder-first",
+  "builderSite": "sobha.com",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "March 2033",
+      "normalized": "2033-03",
+      "source": "https://www.sobha.com/delhi-ncr/sobha-crescent-sector-63a-gurgaon/",
+      "sourceType": "developer-website",
+      "quote": "The completion date for SOBHA Crescent is March 2033."
+    },
+    {
+      "field": "startingPrice",
+      "value": "Starting from INR 5.86 Cr.*",
+      "normalized": 58600000,
+      "source": "https://www.sobha.com/delhi-ncr/sobha-crescent-sector-63a-gurgaon/",
+      "sourceType": "developer-website",
+      "quote": "Starting from INR 5.86 Cr.*"
+    },
+    {
+      "field": "units",
+      "value": "336 residences across 2 towers in Phase I",
+      "normalized": 336,
+      "source": "https://www.sobha.com/delhi-ncr/sobha-crescent-sector-63a-gurgaon/",
+      "sourceType": "developer-website",
+      "quote": "In Phase I, SOBHA Crescent hosts 336 residences across 2 towers."
+    },
+    {
+      "field": "towers",
+      "value": "2 towers (Phase I)",
+      "normalized": 2,
+      "source": "https://www.sobha.com/delhi-ncr/sobha-crescent-sector-63a-gurgaon/",
+      "sourceType": "developer-website",
+      "quote": "In Phase I, SOBHA Crescent hosts 336 residences across 2 towers."
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "floors",
+      "note": "Neither sobha.com nor Sobha's own Crescent blog post states a floor count (G+40 vs 42), and the RERA Form REP-I does not list floors."
+    }
+  ]
+}

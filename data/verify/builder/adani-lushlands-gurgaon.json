@@ -1,0 +1,93 @@
+{
+  "slug": "adani-lushlands-gurgaon",
+  "checkedAt": "2026-10-03T18:38:25Z",
+  "method": "subagent:builder-first",
+  "builderSite": "adanirealty.com",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "March 2029",
+      "normalized": "2029-03",
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/lushlands",
+      "sourceType": "developer-website",
+      "quote": "Possession Date - March 2029"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "30-06-2029",
+      "normalized": "2029-06",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2753",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of completing the project: 30-06-2029"
+    },
+    {
+      "field": "startingPrice",
+      "value": "₹ 14.04 Cr. Onwards",
+      "normalized": 140400000,
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/lushlands",
+      "sourceType": "developer-website",
+      "quote": "₹ 14.04 Cr. Onwards"
+    },
+    {
+      "field": "reraNumber",
+      "value": "RC/REP/HARERA/GGM/837/569/2024/64 date 14.06.24",
+      "normalized": "RC/REP/HARERA/GGM/837/569/2024/64",
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/lushlands",
+      "sourceType": "developer-website",
+      "quote": "RC/REP/HARERA/GGM/837/569/2024/64 date 14.06.24"
+    },
+    {
+      "field": "configurations",
+      "value": "4 BHK (Tower A & C) 2659.71 sq ft carpet; 4 BHK (Tower B & D) 3291.59 sq ft carpet; 6 BHK Duplex Penthouse (Tower B & D) 602.38-603.38 sq m (site shows both 6383.99 and 6484.99 sq ft)",
+      "normalized": [
+        {
+          "label": "4 BHK + Lounge + Powder + Utility (Tower A & C)",
+          "bhk": 4,
+          "areaSqft": 2659.71,
+          "areaBasis": "carpet"
+        },
+        {
+          "label": "4 BHK + Utility + Powder (Tower B & D)",
+          "bhk": 4,
+          "areaSqft": 3291.59,
+          "areaBasis": "carpet"
+        },
+        {
+          "label": "6 BHK Duplex Penthouse (Tower B & D)",
+          "bhk": 6,
+          "areaSqft": 6484.99,
+          "areaBasis": "carpet"
+        }
+      ],
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/lushlands",
+      "sourceType": "developer-website",
+      "quote": "Carpet Area: 247.10 m2 - 2659.71 sqft ... 305.80 Sq. Mtrs. | 3291.59 Sq. Ft. ... 247.10 - 602.38 Sq. Mtrs. | 2659.71 - 6484.99 Sq. Ft."
+    },
+    {
+      "field": "landArea",
+      "value": "12.356 Acres (Phase 1 : 8.3491 Acres)",
+      "normalized": 12.356,
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/lushlands",
+      "sourceType": "developer-website",
+      "quote": "12.356 Acres ( Phase 1 : 8.3491 Acres )"
+    },
+    {
+      "field": "units",
+      "value": "208 residences in registered Phase 1 (72 + 128 4 BHK, 8 penthouses) plus 43 EWS = 251 total",
+      "normalized": 208,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2753",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "4 BHK 305.80 | 72 ... 247.10 | 128 ... 602.38 | 8 ... EWS | 43 ... TOTAL 251"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "floors",
+      "note": "Builder site does not state floor count."
+    },
+    {
+      "field": "configurations-note",
+      "note": "Our 3,315 and 4,079 sq ft 4 BHK and 6,483/6,494/7,104 sq ft GF entries do not appear on the builder site. The site's penthouse figure is internally inconsistent (603.38 sq m / 6383.99 sq ft on plan vs 602.38 sq m / 6484.99 sq ft in range; RERA lists 602.38 sq m)."
+    }
+  ]
+}

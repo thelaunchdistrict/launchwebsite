@@ -1,0 +1,72 @@
+{
+  "slug": "emaar-urban-oasis-sector-62-gurgaon",
+  "checkedAt": "2026-10-03T18:40:23Z",
+  "method": "subagent:builder-first",
+  "builderSite": "in.emaar.com",
+  "corrections": [
+    {
+      "field": "startingPrice",
+      "value": "Starting at ₹3.6 Cr",
+      "normalized": 36000000,
+      "source": "https://in.emaar.com/en/our-communities/urban-oasis-gurugram/",
+      "sourceType": "developer-website",
+      "quote": "STARTING AT ₹ 3.6 CR"
+    },
+    {
+      "field": "possessionDate",
+      "value": "Builder site gives no date; HARERA Form REP-I likely completion 30-09-2028 (Phase 1 & 2)",
+      "normalized": "2028-09",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2518",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of completing the project | 30-09-2028"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "30-09-2028 (Phase 1 & 2); Phase 4: 30-09-2029",
+      "normalized": "2028-09",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2518",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of completing the project | 30-09-2028"
+    },
+    {
+      "field": "additionalRera",
+      "value": "Urban Oasis Phase 4: GGM/888/620/2024/115 dated 22.11.2024 (1 tower, 100 units, 1.62 acres)",
+      "normalized": [
+        "GGM/888/620/2024/115 (Phase 4)"
+      ],
+      "source": "https://haryanarera.gov.in/admincontrol/registered_projects/2",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/888/620/2024/115 DATED 22.11.2024 | URBAN OASIS PHASE 4 | EMAAR INDIA LIMITED"
+    },
+    {
+      "field": "towers",
+      "value": "4 towers in Phase 1 & 2 (T1-T4); Phase 4 adds 1 tower per its own RERA filing",
+      "normalized": 4,
+      "source": "https://cdn.in.emaar.com/wp-content/uploads/2025/03/Emaar-Urban-Oasis-Application-Process-Unit-Allocation.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "Unit codes UO-T1-.. through UO-T4-.. only"
+    },
+    {
+      "field": "units",
+      "value": "424 units (Phase 1 & 2)",
+      "normalized": 424,
+      "source": "https://cdn.in.emaar.com/wp-content/uploads/2025/03/Emaar-Urban-Oasis-Application-Process-Unit-Allocation.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "Heartiest congratulations to all the 424 lucky applicants"
+    },
+    {
+      "field": "landArea",
+      "value": "6.64 acres (Phase 1 & 2); Phase 4 registered separately on 1.62 acres",
+      "normalized": 6.64,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2518",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Land area of the project | 6.64 (Acre)"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "configurations",
+      "note": "in.emaar.com states only '3 and 4 BHK LUXURY APARTMENTS' with no sizes, so our 2 BHK 1,500 sq ft is not supported by the builder. The allocation PDF uses types 3 BHK-3T, 3 BHK-3T-U-T and 4 BHK-4T-S-T. HARERA carpet areas for Phase 1&2 run from 117.1 to 258.5 sq m (~1,260-2,783 sq ft) with no BHK labels, so our sizes cannot be confirmed. Note: the builder site marks the project 'Sold Out'."
+    }
+  ]
+}

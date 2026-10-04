@@ -1,0 +1,36 @@
+{
+  "slug": "m3m-paragon-57-sector-57-gurgaon",
+  "checkedAt": "2026-10-03T18:38:14Z",
+  "method": "subagent:builder-first",
+  "builderSite": "m3mindia.com",
+  "corrections": [
+    {
+      "field": "landArea",
+      "value": "3.16 (Acre)",
+      "normalized": 3.16,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/1897",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Land area of the project 3.16 (Acre)"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-08-2026 (Project Extension No. 16 of 2026 dated 23.07.2026)",
+      "normalized": "2026-08",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/1897",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of completing the project 31-08-2026"
+    },
+    {
+      "field": "units",
+      "value": "858",
+      "normalized": 858,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/1897",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Total number of apartments 858"
+    }
+  ],
+  "unresolved": [
+    { "field": "possessionDate", "note": "m3mindia.com gives no marketed possession date. The retail listing (m3mindia.com/retail-projects) marks Paragon57 as 'Delivered' while the project page lists it under Ongoing; only the RERA completion date (31-08-2026) is available, which matches our 2026-08." },
+    { "field": "floors", "note": "Builder states '4 levels of retail' plus duplex apartments; the RERA filing's floor plans run from a basement up to a 13th floor. Neither supports our 6 floors, but no single builder floor count was found." }
+  ]
+}

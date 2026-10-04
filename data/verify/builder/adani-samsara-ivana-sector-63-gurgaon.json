@@ -1,0 +1,61 @@
+{
+  "slug": "adani-samsara-ivana-sector-63-gurgaon",
+  "checkedAt": "2026-10-03T18:38:25Z",
+  "method": "subagent:builder-first",
+  "builderSite": "adanirealty.com",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "30/06/2029",
+      "normalized": "2029-06",
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/samsara-ivana",
+      "sourceType": "developer-website",
+      "quote": "Possession Date ... 30/06/2029"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31-03-2029 (registration application preview, temp ID RERA-GRG-PROJ-1787-2024)",
+      "normalized": "2029-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3172",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely Date of Completing the Project: 31-03-2029"
+    },
+    {
+      "field": "startingPrice",
+      "value": "₹ 6.09 Cr. Onwards",
+      "normalized": 60900000,
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/samsara-ivana",
+      "sourceType": "developer-website",
+      "quote": "Price ₹ 6.09 Cr. Onwards*"
+    },
+    {
+      "field": "landArea",
+      "value": "3.4355 Acres (RERA project area; builder blog says part of a 75-acre township)",
+      "normalized": 3.4355,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3172",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Land Area of the Project: 3.4355 Acres"
+    },
+    {
+      "field": "configurations",
+      "value": "4BHK+Private Terrace/Basement+ Utility, 158.16 Sq. Mtrs. | 1702.45 Sq. Ft. (basis not labelled on site; RERA lists 158.16 sq m as carpet)",
+      "normalized": [
+        {
+          "label": "4 BHK + Private Terrace/Basement + Utility",
+          "bhk": 4,
+          "areaSqft": 1702.45,
+          "areaBasis": "carpet"
+        }
+      ],
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/samsara-ivana",
+      "sourceType": "developer-website",
+      "quote": "4BHK+Private Terrace/Basement+ Utility ... 158.16 Sq. Mtrs. | 1702.45 Sq. Ft."
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "units/towers",
+      "note": "Not flagged, but note: RERA application preview (3172) lists 192 floors across 48 buildings (12 x 133.05, 32 x 157.53, 148 x 158.16 sq m), not our 65 towers / 260 units. Builder site gives no count. A separate project Samsara Ivana 2.0 (RC/REP/HARERA/GGM/999/731/2025/102, possession 30/09/2030) exists on adanirealty.com."
+    }
+  ]
+}

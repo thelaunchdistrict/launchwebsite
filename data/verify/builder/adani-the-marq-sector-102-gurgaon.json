@@ -1,0 +1,91 @@
+{
+  "slug": "adani-the-marq-sector-102-gurgaon",
+  "checkedAt": "2026-10-03T18:38:25Z",
+  "method": "subagent:builder-first",
+  "builderSite": "adanirealty.com",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "31-12-2031",
+      "normalized": "2031-12",
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/the-marq",
+      "sourceType": "developer-website",
+      "quote": "Possession Date 31-12-2031"
+    },
+    {
+      "field": "startingPrice",
+      "value": "Price starting @ 4.25 Cr.",
+      "normalized": 42500000,
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/the-marq",
+      "sourceType": "developer-website",
+      "quote": "Price starting @ 4.25 Cr."
+    },
+    {
+      "field": "status",
+      "value": "Rera Under Construction",
+      "normalized": "under-construction",
+      "source": "https://www.adanirealty.com/under-construction-projects-on-dwarka-expressway-gurgaon-cpic",
+      "sourceType": "developer-website",
+      "quote": "Rera Under Construction"
+    },
+    {
+      "field": "units",
+      "value": "about 368 units",
+      "normalized": 368,
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/the-marq",
+      "sourceType": "developer-website",
+      "quote": "The project comprises 2 towers of 46 storeys with about 368 units."
+    },
+    {
+      "field": "towers",
+      "value": "2 towers",
+      "normalized": 2,
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/the-marq",
+      "sourceType": "developer-website",
+      "quote": "The project comprises 2 towers of 46 storeys"
+    },
+    {
+      "field": "floors",
+      "value": "46 storeys",
+      "normalized": 46,
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/the-marq",
+      "sourceType": "developer-website",
+      "quote": "2 towers of 46 storeys"
+    },
+    {
+      "field": "landArea",
+      "value": "5.16 Acres",
+      "normalized": 5.16,
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/the-marq",
+      "sourceType": "developer-website",
+      "quote": "5.16 Acres"
+    },
+    {
+      "field": "configurations",
+      "value": "3 BHK (A, B, B', A Service Personnel) and 4 BHK; unit size 220.64 - 306.11 Sq. Mtrs. | 2375 - 3295 Sq. Ft. (RERA Carpet + Exclusive Area); per-type sizes not given",
+      "normalized": [
+        {
+          "label": "3 BHK",
+          "bhk": 3,
+          "areaSqft": null,
+          "areaBasis": "carpet"
+        },
+        {
+          "label": "4 BHK",
+          "bhk": 4,
+          "areaSqft": null,
+          "areaBasis": "carpet"
+        }
+      ],
+      "source": "https://www.adanirealty.com/residential-projects/gurugram/the-marq",
+      "sourceType": "developer-website",
+      "quote": "Unit Size (RERA Carpet + Exclusive Area) 220.64 – 306.11 Sq. Mtrs. | 2375 – 3295 Sq. Ft."
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "configurations-areas",
+      "note": "Builder gives only the overall 2,375-3,295 sq ft (RERA carpet + exclusive area) range, not per-type sizes."
+    }
+  ]
+}

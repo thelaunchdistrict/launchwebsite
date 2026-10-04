@@ -1,0 +1,50 @@
+{
+  "slug": "elan-empire-sector-66-gurgaon",
+  "checkedAt": "2026-10-03T18:36:54Z",
+  "method": "subagent:builder-first",
+  "builderSite": "elanlimited.com",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "30/04/2028 (revised from 14/04/2026)",
+      "normalized": "2028-04",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2474",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Earlier date of completion | 14-04-2026 | Revised date of completion | 30-04-2028"
+    },
+    {
+      "field": "units",
+      "value": "351 shops",
+      "normalized": 351,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2474",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "APARTMENT/SHOPS/OTHER BUILDINGS Type SHOP | 10482.99 | 351 | 3679529.49 | 312 | 39 | 1"
+    },
+    {
+      "field": "towers",
+      "value": "1",
+      "normalized": 1,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2474",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Total | 351 | 3679529.49 | 312 | 39 | 1"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "elanlimited.com/elan-empire.php gives no marketed possession date; only the RERA completion date (2028-04) is available. Our \"June 2026\" has no builder support."
+    },
+    {
+      "field": "startingPrice",
+      "note": "Builder site publishes no price for Elan Empire; no builder price list or press release found."
+    },
+    {
+      "field": "configurations",
+      "note": "Builder site lists only use types (luxury retail, food court, office space, restaurants), no unit sizes. RERA REP-I gives only an aggregate shop carpet figure."
+    },
+    {
+      "field": "floors",
+      "note": "Neither the builder site nor the RERA REP-I states a floor count; our 6 floors is unconfirmed."
+    }
+  ]
+}

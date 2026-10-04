@@ -1,0 +1,58 @@
+{
+  "slug": "m3m-golf-hills-sector-79-gurgaon",
+  "checkedAt": "2026-10-03T18:38:14Z",
+  "method": "subagent:builder-first",
+  "builderSite": "m3mindia.com",
+  "corrections": [
+    {
+      "field": "additionalRera",
+      "value": "RC/REP/HARERA/GGM/809/541/2024/36 dated 01.04.2024 for Phase 2",
+      "normalized": ["GGM/809/541/2024/36 (Phase 2)"],
+      "source": "https://m3mindia.com/residential/m3m-golf-hills",
+      "sourceType": "developer-website",
+      "quote": "vide Regn. No. RC/REP/HARERA/GGM/809/541/2024/36 dated 01.04.2024 for Phase 2"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "28-02-2031 (Phase 1, GGM/704/436/2023/48); Phase 2 (GGM/809/541/2024/36) proposed completion 30-04-2032",
+      "normalized": "2031-02",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2405",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "M3M GOLF HILLS PHASE 1 ... Proposed/Revised date of completion 28-02-2031"
+    },
+    {
+      "field": "towers",
+      "value": "11 towers (Phase 1) + 5 towers (Phase 2) = 16",
+      "normalized": 16,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2405 ; https://haryanarera.gov.in/view_project/project_preview_open/2838",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Phase 1: No. of towers 11; Phase 2: No. of towers 5"
+    },
+    {
+      "field": "units",
+      "value": "1,309 units (Phase 1) + 590 units (Phase 2) = 1,899",
+      "normalized": 1899,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2405 ; https://haryanarera.gov.in/view_project/project_preview_open/2838",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Phase 1: Total number of apartments 1309; Phase 2: Total number of apartments 590"
+    },
+    {
+      "field": "configurations",
+      "value": "2.5 BHK, 3.5 BHK, 3.5 BHK+ Servant Room, 4.5 BHK (no sizes published by builder)",
+      "normalized": [
+        { "label": "2.5 BHK", "bhk": 2.5, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "3.5 BHK", "bhk": 3.5, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "3.5 BHK + Servant Room", "bhk": 3.5, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "4.5 BHK", "bhk": 4.5, "areaSqft": null, "areaBasis": "unspecified" }
+      ],
+      "source": "https://m3mindia.com/residential/m3m-golf-hills",
+      "sourceType": "developer-website",
+      "quote": "2.5 BHK, 3.5 BHK, 3.5 BHK+ Servant Room, 4.5 BHK"
+    }
+  ],
+  "unresolved": [
+    { "field": "possessionDate", "note": "m3mindia.com project page gives no marketed possession date; only the RERA completion dates (Phase 1 Feb 2031, Phase 2 Apr 2032) are available. Our 'December 2028' is not supported by the builder." },
+    { "field": "startingPrice", "note": "m3mindia.com does not publish a price or price list for Golf Hills; no builder price found." },
+    { "field": "configurations (sizes)", "note": "Builder publishes unit types only (2.5/3.5/3.5+SR/4.5 BHK), no sq ft areas; RERA Phase 1 filing gives only aggregate carpet area. Our sizes (1,420/1,900/1,902/2,630/2,650) cannot be confirmed from builder sources." }
+  ]
+}

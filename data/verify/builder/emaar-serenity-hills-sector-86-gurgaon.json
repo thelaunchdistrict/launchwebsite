@@ -1,0 +1,94 @@
+{
+  "slug": "emaar-serenity-hills-sector-86-gurgaon",
+  "checkedAt": "2026-10-03T18:40:23Z",
+  "method": "subagent:builder-first",
+  "builderSite": "in.emaar.com",
+  "corrections": [
+    {
+      "field": "additionalRera",
+      "value": "Phase 2: RC/REP/HARERA/GGM/994/726/2025/97 dated 16.10.2025",
+      "normalized": [
+        "GGM/994/726/2025/97 (Phase 2)"
+      ],
+      "source": "https://in.emaar.com/en/properties/emaar-serenity-hills/",
+      "sourceType": "developer-website",
+      "quote": "RC/REP/HARERA/GGM/994/726/2025/97 DATED. 16.10.2025"
+    },
+    {
+      "field": "possessionDate",
+      "value": "Builder site gives no date; HARERA Form REP-I likely completion 30-09-2032 (Phase 1 and Phase 2)",
+      "normalized": "2032-09",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3689",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of completing the project | 30-09-2032"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "30-09-2032 (both phases)",
+      "normalized": "2032-09",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3689",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of completing the project | 30-09-2032"
+    },
+    {
+      "field": "startingPrice",
+      "value": "3 BHK (Small) from Rs. 2.98 Cr* (incl. EDC/IDC, IFMS, car park and club membership; GST extra)",
+      "normalized": 29800000,
+      "source": "https://cdn.in.emaar.com/wp-content/uploads/2026/02/serenity-hills-payment-plan-2026-1.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "3 BHK (SMALL) FROM Rs.2.98 CR*"
+    },
+    {
+      "field": "towers",
+      "value": "Seven towers",
+      "normalized": 7,
+      "source": "https://in.emaar.com/en/properties/emaar-serenity-hills/",
+      "sourceType": "developer-website",
+      "quote": "Seven towers overlooking a vast central meadow"
+    },
+    {
+      "field": "units",
+      "value": "997 apartments (Phase 1: 581, Phase 2: 416, per the two HARERA filings)",
+      "normalized": 997,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3689",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Type of apartments to be constructed in the project ... Number of apartments (Phase 1 rows total 581; Phase 2 rows total 416 at https://haryanarera.gov.in/view_project/project_preview_open/3690)"
+    },
+    {
+      "field": "landArea",
+      "value": "15.217 acres registered (Phase 1 8.004 + Phase 2 7.213); builder site markets '20+ acres of landscaped open area'",
+      "normalized": 15.217,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3689",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Land area of the project | 8.004 (Acre) [Phase 2: 7.213 (Acre)]"
+    },
+    {
+      "field": "configurations",
+      "value": "Carpet areas: 3BHK Small 948.24 sq ft; 3BHK Large 1,218.25-1,220.54 sq ft; 4BHK Small 1,576.47 sq ft (balconies extra: 235-268 / 318-412 / 430-504 sq ft)",
+      "normalized": [
+        {
+          "label": "3 BHK Small",
+          "bhk": 3,
+          "areaSqft": 948,
+          "areaBasis": "carpet"
+        },
+        {
+          "label": "3 BHK Large",
+          "bhk": 3,
+          "areaSqft": 1219,
+          "areaBasis": "carpet"
+        },
+        {
+          "label": "4 BHK Small",
+          "bhk": 4,
+          "areaSqft": 1576,
+          "areaBasis": "carpet"
+        }
+      ],
+      "source": "https://cdn.in.emaar.com/wp-content/uploads/2025/11/serenity-hills-e-brochure.pdf",
+      "sourceType": "developer-brochure",
+      "quote": "Carpet Area - 88.094 sq. m. (948.24 sq. ft.) Balcony Area - 21.836 sq. m. (235.04 sq. ft.)"
+    }
+  ],
+  "unresolved": []
+}

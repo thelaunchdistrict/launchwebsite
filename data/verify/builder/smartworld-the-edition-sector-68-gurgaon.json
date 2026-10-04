@@ -1,0 +1,55 @@
+{
+  "slug": "smartworld-the-edition-sector-68-gurgaon",
+  "checkedAt": "2026-10-03T18:41:20Z",
+  "method": "subagent:builder-first",
+  "builderSite": "smartworlddevelopers.com",
+  "corrections": [
+    {
+      "field": "sector",
+      "value": "Sector 66, Gurugram, along Golf Course Extension Road",
+      "normalized": "Sector 66",
+      "source": "https://smartworlddevelopers.com/projects/theedition",
+      "sourceType": "developer-website",
+      "quote": "The project is located in Sector 66, Gurugram, along Golf Course Extension Road."
+    },
+    {
+      "field": "locality",
+      "value": "Golf Course Road Extn., Sector 66, Gurugram",
+      "normalized": "Golf Course Extension Road",
+      "source": "https://smartworlddevelopers.com/projects/",
+      "sourceType": "developer-website",
+      "quote": "Smartworld The Edition 3.5 & 4.5 BHK Apartments | Golf Course Road Extn., Sector 66, Gurugram"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "01-02-2031 (likely date of completing the project, HARERA Form REP-I, Smartworld The Edition, promoter ETSY Realcon Pvt Ltd)",
+      "normalized": "2031-02",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2527",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 01-02-2031"
+    },
+    {
+      "field": "configurations",
+      "value": "3.5 BHK and 4.5 BHK only (floor plans: Type A 3 BHK + Utility, Type A1 3 BHK + Study + Utility, Type B and B1 4 BHK + Study + Utility); no unit areas published on the builder site",
+      "normalized": [
+        { "label": "3.5 BHK (Type A, 3 BHK + Utility)", "bhk": 3.5, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "3.5 BHK (Type A1, 3 BHK + Study + Utility)", "bhk": 3.5, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "4.5 BHK (Type B, 4 BHK + Study + Utility)", "bhk": 4.5, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "4.5 BHK (Type B1, 4 BHK + Study + Utility)", "bhk": 4.5, "areaSqft": null, "areaBasis": "unspecified" }
+      ],
+      "source": "https://smartworlddevelopers.com/projects/theedition",
+      "sourceType": "developer-website",
+      "quote": "The project offers 3.5 BHK and 4.5 BHK luxury residences with spacious layouts."
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Builder site and Smartworld press coverage give no marketed possession date; only the RERA likely completion date (Feb 2031) is available, recorded as reraCompletionDate."
+    },
+    {
+      "field": "configurations (unit areas)",
+      "note": "Builder site lists 3.5 BHK and 4.5 BHK types but publishes no sq ft areas, so our 2,945 / 3,035 / 3,505 / 3,660 sq ft figures cannot be confirmed from the builder. There is no '4 BHK+SQ' type on the builder site; the ~3,505 sq ft unit should be labelled 4.5 BHK."
+    }
+  ]
+}

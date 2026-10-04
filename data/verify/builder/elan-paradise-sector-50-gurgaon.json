@@ -1,0 +1,80 @@
+{
+  "slug": "elan-paradise-sector-50-gurgaon",
+  "checkedAt": "2026-10-03T18:36:54Z",
+  "method": "subagent:builder-first",
+  "builderSite": "elanlimited.com",
+  "corrections": [
+    {
+      "field": "reraNumber",
+      "value": "HARERA Regn. No. 59/2022 (GGM/584/316/2022/59 dated 04.07.2022)",
+      "normalized": "GGM/584/316/2022/59",
+      "source": "https://www.elanlimited.com/elan-paradise.php",
+      "sourceType": "developer-website",
+      "quote": "\"Elan Paradise\", having HARERA Regn. No. 59/2022 is being developed by Elan Ltd."
+    },
+    {
+      "field": "additionalRera",
+      "value": "GGM/447/179/2021/15 dated 22.03.2021, lapsed and superseded by GGM/584/316/2022/59",
+      "normalized": [
+        "GGM/447/179/2021/15 (lapsed, superseded by GGM/584/316/2022/59)"
+      ],
+      "source": "https://haryanarera.gov.in/admincontrol/registered_projects/2",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/447/179/2021/15 DATED 22.03.2021 (SUPERSEDED BY GGM/584/316/2022/59 DATED 04.07.2022)"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "16/06/2027 per HARERA register (REP-I form shows revised completion 16-06-2026; earlier 30-09-2025)",
+      "normalized": "2027-06",
+      "source": "https://haryanarera.gov.in/admincontrol/registered_projects/2",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/584/316/2022/59 DATED 04.07.2022 ... ELAN PARADISE ... 16/06/2027"
+    },
+    {
+      "field": "landArea",
+      "value": "3.35 acres (13556.97 sq. mtrs.)",
+      "normalized": 3.35,
+      "source": "https://www.elanlimited.com/elan-paradise.php",
+      "sourceType": "developer-website",
+      "quote": "licensed land admeasuring 13556.97 sq. mtrs. (3.35 acres) in Sector-50"
+    },
+    {
+      "field": "units",
+      "value": "457 (235 retail units, 5 retail kiosks, 66 restaurants, 146 kiosk-restaurants, 5 multiplex)",
+      "normalized": 457,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/1944",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Total | 457 | 2270457.901569 | 228 | 229"
+    },
+    {
+      "field": "towers",
+      "value": "2",
+      "normalized": 2,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/1944",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Type RETAIL UNIT | 8318.539265 | 235 | 1954856.727275 | 111 | 124 | 2"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Builder site gives no marketed possession date; only the RERA date is available. Our \"September 2026\" has no builder support."
+    },
+    {
+      "field": "startingPrice",
+      "note": "Builder site publishes no price; no builder price list or press release found."
+    },
+    {
+      "field": "status",
+      "note": "Builder does not state a status. HARERA register shows registration GGM/584/316/2022/59 active (valid to 16/06/2027) with no OC/CC link, so ready-to-move is not supported, but under-construction is not stated by the builder either."
+    },
+    {
+      "field": "floors",
+      "note": "Neither builder site nor RERA REP-I states a floor count; our 4 floors is unconfirmed."
+    },
+    {
+      "field": "configurations",
+      "note": "Builder site lists use types only (retail, food court, 5-screen multiplex, restaurants), no unit sizes."
+    }
+  ]
+}

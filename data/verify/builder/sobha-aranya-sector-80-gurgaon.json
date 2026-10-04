@@ -1,0 +1,30 @@
+{
+  "slug": "sobha-aranya-sector-80-gurgaon",
+  "checkedAt": "2026-10-03T18:41:20Z",
+  "method": "subagent:builder-first",
+  "builderSite": "sobha.com",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "31-12-2030 (likely date of completing the project, HARERA Form REP-I, SOBHA ARANYA PHASE-1, reg. GGM/808/540/2024/35)",
+      "normalized": "2030-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2820",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 31-12-2030"
+    },
+    {
+      "field": "landArea",
+      "value": "31.28 acres overall; Phase 1 (the RERA-registered phase with 5 towers) is 14.81 acres",
+      "normalized": 31.28,
+      "source": "https://www.sobha.com/delhi-ncr/sobha-aranya-flats-sector-80-karma-lakelands/",
+      "sourceType": "developer-website",
+      "quote": "lies verdant 31.28 acres (126590.52 sq. mtr.) of Aranya by SOBHA. Phase 1 comprising 14.81 acres (59964.16 sq. mtr.) hosts 5 towers"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "sobha.com gives no marketed possession date for Aranya. The RERA filing's completion date is 31-12-2030, so our 'December 2028' is not supported by the builder. The 31-12-2028 date seen in the same filing belongs to an earlier Sobha project listed in Part G, which probably explains the 2028 figure."
+    }
+  ]
+}

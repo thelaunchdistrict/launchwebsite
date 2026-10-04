@@ -1,0 +1,41 @@
+{
+  "slug": "m3m-mansion-sector-113-gurgaon",
+  "checkedAt": "2026-10-03T18:38:14Z",
+  "method": "subagent:builder-first",
+  "builderSite": "m3mindia.com",
+  "corrections": [
+    {
+      "field": "units",
+      "value": "961 apartments (+7 shops; 968 units total) in Phase 1 registration GGM/802/534/2024/29",
+      "normalized": 961,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2790",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Total number of apartments: 961 (8 towers) + 7 shops"
+    },
+    {
+      "field": "towers",
+      "value": "8",
+      "normalized": 8,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2790",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "No. of towers 8"
+    },
+    {
+      "field": "configurations",
+      "value": "3.5, 4.5, and 5 BHK Luxury Apartments & Penthouses (no sizes published by builder)",
+      "normalized": [
+        { "label": "3.5 BHK", "bhk": 3.5, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "4.5 BHK", "bhk": 4.5, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "5 BHK", "bhk": 5, "areaSqft": null, "areaBasis": "unspecified" }
+      ],
+      "source": "https://m3mindia.com/residential/m3m-mansion",
+      "sourceType": "developer-website",
+      "quote": "3.5, 4.5, and 5 BHK Luxury Apartments & Penthouses"
+    }
+  ],
+  "unresolved": [
+    { "field": "additionalRera", "note": "Builder site lists only RC/REP/HARERA/GGM/802/534/2024/29 and calls the project 'M3M Mansion Phase 1'. The second number GGM/916/648/2025/19 (Union Buildmart, 20.02.2025) is not attributed to Mansion by the builder; search results tie it to M3M St Andrews. Not confirmed." },
+    { "field": "configurations (sizes)", "note": "Builder publishes no sq ft areas; the RERA filing gives only aggregate carpet area. Builder also lists a 5 BHK type that our data lacks." },
+    { "field": "landArea (note)", "note": "Not an open item, but the RERA filing gives Phase 1 land as 8.71 acres (licensed area ~10.225 acres); our 10 acres reflects the licensed area." }
+  ]
+}

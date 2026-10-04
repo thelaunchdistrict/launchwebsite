@@ -1,0 +1,66 @@
+{
+  "slug": "smartworld-skyarc-sector-gurgaon-sector-69",
+  "checkedAt": "2026-10-03T18:41:08Z",
+  "method": "subagent:builder-first",
+  "builderSite": "smartworlddevelopers.com",
+  "corrections": [
+    {
+      "field": "configurations",
+      "value": "3 BHK, 3.5 BHK and 4.5 BHK (builder calls the largest type 4.5 BHK, not 4 BHK; no sizes stated)",
+      "normalized": [
+        { "label": "3 BHK", "bhk": 3, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "3.5 BHK", "bhk": 3.5, "areaSqft": null, "areaBasis": "unspecified" },
+        { "label": "4.5 BHK", "bhk": 4.5, "areaSqft": null, "areaBasis": "unspecified" }
+      ],
+      "source": "https://smartworlddevelopers.com/projects/skyarc",
+      "sourceType": "developer-website",
+      "quote": "The project offers 3 BHK, 3.5 BHK, and 4.5 BHK luxury residences."
+    },
+    {
+      "field": "floors",
+      "value": "41 floors",
+      "normalized": 41,
+      "source": "https://smartworlddevelopers.com/projects/skyarc",
+      "sourceType": "developer-website",
+      "quote": "6 Towers 41 Floors Large Leisure Facilities on Rooftop"
+    },
+    {
+      "field": "towers",
+      "value": "6 towers",
+      "normalized": 6,
+      "source": "https://smartworlddevelopers.com/projects/skyarc",
+      "sourceType": "developer-website",
+      "quote": "The project consists of 6 towers with 40+ floors"
+    },
+    {
+      "field": "units",
+      "value": "952 apartments (RERA unit table: 2+6+12+72+144+156+78+312+156+4+4+2+2+2)",
+      "normalized": 952,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3075",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "135.20 | 312 | 6 ... 166.98 | 156 | 6 (Carpet area | Number of apartments | Number of towers)"
+    },
+    {
+      "field": "landArea",
+      "value": "6.97635 acres registered (part of an 11.66875-acre licensed area)",
+      "normalized": 6.97635,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3075",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "1. Land area of the project 6.97635 (Acre) ... 4. Total licensed area ... 11.66875 (Acre)"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31/05/2032",
+      "normalized": "2032-05",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3075",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/878/610/2024/105 DATED 11.10.2024 | SMARTWORLD SKY ARC | RIVERDAY INFRASTRUCTURE PRIVATE LIMITED | 31/05/2032"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "configurations",
+      "note": "The builder site and floor plans state no unit sizes, so the 4 BHK area (3,279 vs 3,270) cannot be confirmed from the builder. The RERA largest carpet sizes are 243.92 to 304.79 sq m (penthouse-type units)."
+    }
+  ]
+}

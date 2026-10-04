@@ -1,0 +1,30 @@
+{
+  "slug": "elan-imperial-sector-82-gurgaon",
+  "checkedAt": "2026-10-03T18:36:54Z",
+  "method": "subagent:builder-first",
+  "builderSite": "elanlimited.com",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "31/12/2028",
+      "normalized": "2028-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2724",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project | 31-12-2028"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "elanlimited.com/elan-imperial gives no marketed possession date; only the RERA completion date (2028-12) is available."
+    },
+    {
+      "field": "startingPrice",
+      "note": "Builder site publishes no price; no builder price list found. elan.co.in (which shows Rs 1.3 Cr) is an authorised marketing partner site per its own disclaimer, so it does not count."
+    },
+    {
+      "field": "configurations",
+      "note": "Builder site publishes no floor-wise rates or unit sizes; the per-floor price table cannot be confirmed from the builder."
+    }
+  ]
+}

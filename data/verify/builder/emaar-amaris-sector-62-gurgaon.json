@@ -1,0 +1,34 @@
+{
+  "slug": "emaar-amaris-sector-62-gurgaon",
+  "checkedAt": "2026-10-03T18:40:23Z",
+  "method": "subagent:builder-first",
+  "builderSite": "in.emaar.com",
+  "corrections": [
+    {
+      "field": "possessionDate",
+      "value": "Builder site gives no date; HARERA Form REP-I likely completion 30-08-2030",
+      "normalized": "2030-08",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3180",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of completing the project | 30-08-2030"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "30-08-2030",
+      "normalized": "2030-08",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3180",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Likely date of completing the project | 30-08-2030"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "configurations",
+      "note": "in.emaar.com/en/properties/amaris/ lists '2, 3 & 4 BHK' with no sizes. The HARERA filing gives carpet areas with no BHK labels: 97.85-98.29 sq m (~1,053-1,058 sq ft; 8 units, matching the 8 '2BHK' units in Emaar's EOI list), 117.43-117.95 sq m (~1,264-1,270 sq ft), 152.32-155.10 sq m (~1,640-1,669 sq ft) and 170.05-170.83 sq m (~1,830-1,839 sq ft). None equals our 1,239/1,244/1,450/1,456/1,895/1,901 sq ft, which may include balcony area. Not resolvable from builder sources."
+    },
+    {
+      "field": "startingPrice",
+      "note": "Builder site states price 'ON REQUEST'; no builder-published starting price."
+    }
+  ]
+}

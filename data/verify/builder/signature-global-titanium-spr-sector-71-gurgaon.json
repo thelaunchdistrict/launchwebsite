@@ -1,0 +1,46 @@
+{
+  "slug": "signature-global-titanium-spr-sector-71-gurgaon",
+  "checkedAt": "2026-10-03T18:41:08Z",
+  "method": "subagent:builder-first",
+  "builderSite": "signatureglobal.in",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "28/02/2031",
+      "normalized": "2031-02",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2936",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/831/563/2024/58 DATED 03.06.2024 | SIGNATUREGLOBAL TITANIUM SPR | SIGNATUREGLOBAL (INDIA) LIMITED | 28/02/2031"
+    },
+    {
+      "field": "units",
+      "value": "608 (builder's own blog; the RERA filing's unit table sums to 613: 370+10+222+6+5)",
+      "normalized": 608,
+      "source": "https://www.signatureglobal.in/blog/balancing-progress-with-preservation-gurugrams-sustainable-real-estate-evolution/",
+      "sourceType": "developer-website",
+      "quote": "Signature Global Titanium SPR in Sector 71, Gurugram, offers 608 ultra-luxury 3&4 Bhk apartments"
+    },
+    {
+      "field": "towers",
+      "value": "8 (RERA unit-type table: 5 towers + 2 towers + 1 tower); builder site states no tower count",
+      "normalized": 8,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2936",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "183.189 | 370 | 5 ... 133.9 | 222 | 2 ... 158.644 | 5 | 1 (Carpet area | Number of apartments | Number of towers)"
+    },
+    {
+      "field": "reraNumber",
+      "value": "RC/REP/HARERA/GGM/831/563/2024/58 DATED 03.06.2024",
+      "normalized": "RC/REP/HARERA/GGM/831/563/2024/58",
+      "source": "https://www.signatureglobal.in/residential/titanium-spr",
+      "sourceType": "developer-website",
+      "quote": "RC/REP/HARERA/GGM/831/563/2024/58 DATED 03.06.2024"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Builder project page shows no marketed possession date (a hidden CMS field in the page data reads possessionDate 2027-05-13 but is not displayed and is not used). Our 'February 2029' has no builder support; RERA-registered completion is 28 Feb 2031 (recorded as reraCompletionDate)."
+    }
+  ]
+}

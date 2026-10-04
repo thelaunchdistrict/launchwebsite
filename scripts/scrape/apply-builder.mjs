@@ -95,8 +95,9 @@ function write(p, c, marketFor) {
       if (typeof v !== 'string' || !v.trim()) return false;
       p.developer.name = v.trim(); return true;
     case 'sector': {
-      if (typeof v !== 'string' || !/^\d{1,3}[A-D]?$/i.test(v.trim())) return false;
-      p.location.sector = v.trim().toUpperCase();
+      const sec = typeof v === 'string' ? v.trim().replace(/^sector[\s-]*/i, '') : '';
+      if (!/^\d{1,3}[A-D]?$/i.test(sec)) return false;
+      p.location.sector = sec.toUpperCase();
       const m = marketFor?.(p.location.sector, p.location.address, p.location.locality);
       if (m) p.location.microMarket = m.slug;
       return true;

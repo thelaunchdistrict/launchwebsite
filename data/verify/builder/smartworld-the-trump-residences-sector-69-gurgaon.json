@@ -1,0 +1,26 @@
+{
+  "slug": "smartworld-the-trump-residences-sector-69-gurgaon",
+  "checkedAt": "2026-10-03T18:41:20Z",
+  "method": "subagent:builder-first",
+  "builderSite": "smartworlddevelopers.com (project site tribecadevelopers.com/trumpresidences-gurgaon, linked from Smartworld's projects page)",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "30-04-2033 (likely date of completing the project, HARERA Form REP-I, Trump Residences Gurgaon, promoter Riverday Infrastructure Pvt Ltd)",
+      "normalized": "2033-04",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3283",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "ii) Likely date of completing the project 30-04-2033"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Neither smartworlddevelopers.com, the Trump Residences project site nor Smartworld's March 2026 press release states a marketed possession date; only the RERA completion date (Apr 2033) is available, recorded as reraCompletionDate. The 31-05-2032 date that also appears in the filing belongs to Smartworld Sky Arc (Part G), not this project."
+    },
+    {
+      "field": "startingPrice",
+      "note": "Builder publishes no 'onwards' price or price list. Smartworld's press release (newsvoir.com, 12 Mar 2026) gives only per-sq-ft rates: 'prices rising from Rs. 25,000 per sq. ft. at launch to Rs. 32,000 per sq. ft.' The project was reported 100% sold out on launch day. Our Rs 7.99 Cr cannot be confirmed or corrected from builder sources."
+    }
+  ]
+}

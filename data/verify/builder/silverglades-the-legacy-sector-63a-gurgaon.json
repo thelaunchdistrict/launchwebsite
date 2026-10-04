@@ -1,0 +1,51 @@
+{
+  "slug": "silverglades-the-legacy-sector-63a-gurgaon",
+  "checkedAt": "2026-10-03T18:41:08Z",
+  "method": "subagent:builder-first",
+  "builderSite": "silverglades.com",
+  "corrections": [
+    {
+      "field": "configurations",
+      "value": "3 BHK 2800 sq.ft; 4 BHK 3800 sq.ft; 4 BHK + Study 4800 sq.ft; 4 BHK Penthouse (no size stated). Builder lists type as '3 & 4 BHK' only (no 5 BHK).",
+      "normalized": [
+        { "label": "3 BHK + Family Room + Powder Room + Utility Room", "bhk": 3, "areaSqft": 2800, "areaBasis": "unspecified" },
+        { "label": "4 BHK + Family Room + Powder Room + Utility Room", "bhk": 4, "areaSqft": 3800, "areaBasis": "unspecified" },
+        { "label": "4 BHK + Study + Family Room + Powder Room + Utility Room", "bhk": 4, "areaSqft": 4800, "areaBasis": "unspecified" },
+        { "label": "4 BHK Penthouse", "bhk": 4, "areaSqft": null, "areaBasis": "unspecified" }
+      ],
+      "source": "https://silverglades.com/the-legacy/",
+      "sourceType": "developer-website",
+      "quote": "Type 3 & 4 BHK ... 3BHK + Family Room + Powder Room + Utility Room: 2800 sq.ft 4BHK + Family Room + Powder Room + Utility Room: 3800 sq.ft 4BHK + Study + Family Room+ Powder Room + Utility Room: 4800 sq.ft"
+    },
+    {
+      "field": "units",
+      "value": "341 apartments in THE LEGACY PHASE-I registration (132+4+132+4+67+2); builder site states no unit count",
+      "normalized": 341,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3014",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "149.980 | 132 | 1 ... 205.433 | 132 | 2 ... 261.091 | 67 | 1 (Carpet area | Number of apartments | Number of towers)"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31/05/2031 (The Legacy Phase-I)",
+      "normalized": "2031-05",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3014",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/861/593/2024/88 DATED 16.08.2024 | THE LEGACY PHASE-I | SILVERGLADES HOMES LLP | 31/05/2031"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Builder site (silverglades.com/the-legacy) gives no possession date; only the RERA completion date of 31 May 2031 exists (recorded as reraCompletionDate)."
+    },
+    {
+      "field": "towers",
+      "note": "Builder site states no tower count. The Phase-I RERA filing's unit table implies 4 towers (1+2+1); our 5 may include a later phase not found in the Haryana RERA list. Not changed."
+    },
+    {
+      "field": "configurations",
+      "note": "Builder gives no size for the 4 BHK penthouse and does not mention a 5 BHK or a 7,700 sq ft unit; the area basis (super vs carpet) is not stated. 'Studay' in our data should read 'Study'."
+    }
+  ]
+}

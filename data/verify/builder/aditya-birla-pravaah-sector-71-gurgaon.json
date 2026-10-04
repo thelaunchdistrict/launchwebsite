@@ -1,0 +1,58 @@
+{
+  "slug": "aditya-birla-pravaah-sector-71-gurgaon",
+  "checkedAt": "2026-10-03T18:38:25Z",
+  "method": "subagent:builder-first",
+  "builderSite": "birlaestates.com",
+  "corrections": [
+    {
+      "field": "reraCompletionDate",
+      "value": "31-03-2032",
+      "normalized": "2032-03",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3724",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "LIKELY DATE OF COMPLETING THE PROJECT: 31-03-2032"
+    },
+    {
+      "field": "landArea",
+      "value": "5.075 acres (approximately 20,537.79 Sq.M)",
+      "normalized": 5.075,
+      "source": "https://www.birlaestates.com/birla-pravaah-gurugram/",
+      "sourceType": "developer-website",
+      "quote": "Spread across 5.075 acres (approximately 20,537.79 Sq.M) with over 70% open spaces"
+    },
+    {
+      "field": "developer",
+      "value": "Birla Estates Private Limited",
+      "normalized": "Birla Estates",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3724",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "BIRLA ESTATES PRIVATE LIMITED"
+    },
+    {
+      "field": "floors",
+      "value": "35 floors (Tower A up to 36)",
+      "normalized": 35,
+      "source": "https://www.birlaestates.com/birla-pravaah-gurugram/",
+      "sourceType": "developer-website",
+      "quote": "35 Floors of Elevated Living"
+    },
+    {
+      "field": "units",
+      "value": "492 apartments (RERA table, excluding 95 small 16.38/18.678 sq m units)",
+      "normalized": 492,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3724",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "120.73 | 184 ... 120.73 | 16 ... 98.342 | 242 ... 98.342 | 32 ..."
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Builder site states no possession date; RERA completion 31-03-2032 recorded as reraCompletionDate. Our 2028 is not supported."
+    },
+    {
+      "field": "configurations",
+      "note": "Builder site says '3 & 3.5 BHK Residences' with no areas. RERA main carpet areas are 98.342 sq m (~1,058.5 sq ft, 274 units) and 120.73 sq m (~1,299.5 sq ft, 200 units) but are not labelled by BHK. Our 1,357/1,437 sq ft are not stated by the builder."
+    }
+  ]
+}

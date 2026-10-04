@@ -1,0 +1,22 @@
+{
+  "slug": "elan-the-emperor-sector-106-gurgaon",
+  "checkedAt": "2026-10-03T18:36:54Z",
+  "method": "subagent:builder-first",
+  "builderSite": "elanlimited.com",
+  "corrections": [
+    {
+      "field": "landArea",
+      "value": "4.82 acres (1.95 hectares), part of a 33.5125-acre licensed parcel",
+      "normalized": 4.82,
+      "source": "https://www.elanlimited.com/elan-emperor",
+      "sourceType": "developer-website",
+      "quote": "project on land admeasuring 4.82 acres (1.95 hectares) forming an integral part of the licensed land in total admeasuring 33.5125 acres"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "configurations",
+      "note": "Builder site says only \"4 & 5 BHK residences\", with no sizes. RERA REP-I gives carpet areas in sq m (214.49, 215.43, 282.32, 283.91, 342.39, 343.33, 467.71, 469.32), not the super areas we list, so the 5,444 vs 5,434 sq ft question cannot be settled from the builder."
+    }
+  ]
+}

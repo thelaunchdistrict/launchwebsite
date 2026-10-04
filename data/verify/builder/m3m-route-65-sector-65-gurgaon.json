@@ -1,0 +1,38 @@
+{
+  "slug": "m3m-route-65-sector-65-gurgaon",
+  "checkedAt": "2026-10-03T18:38:14Z",
+  "method": "subagent:builder-first",
+  "builderSite": "m3mindia.com",
+  "corrections": [
+    {
+      "field": "reraNumber",
+      "value": "RC/REP/HARERA/GGM/803/535/2024/30 dated 27.03.2024",
+      "normalized": "RC/REP/HARERA/GGM/803/535/2024/30",
+      "source": "https://www.m3mindia.com/projects/route65/",
+      "sourceType": "developer-website",
+      "quote": "H-RERA Regn No. RC/REP/HARERA/GGM/803/535/2024/30 dated 27.03.2024"
+    },
+    {
+      "field": "status",
+      "value": "Delivered (listed under Delivered retail projects)",
+      "normalized": "ready",
+      "source": "https://m3mindia.com/retail-projects",
+      "sourceType": "developer-website",
+      "quote": "M3M Route65 ... Delivered ... Sector 65, Gurugram"
+    },
+    {
+      "field": "landArea",
+      "value": "4-Acre Development",
+      "normalized": 4,
+      "source": "https://www.m3mindia.com/projects/route65/",
+      "sourceType": "developer-website",
+      "quote": "4-Acre Development"
+    }
+  ],
+  "unresolved": [
+    { "field": "possessionDate", "note": "Builder lists the project as Delivered but gives no date. HARERA project page for GGM/803/535/2024/30 not located; a HARERA order (scanned PDF, not readable) reportedly cites a REP-II completion date of 28.02.2027, unconfirmed." },
+    { "field": "startingPrice", "note": "m3mindia.com publishes no price or price list for Route65." },
+    { "field": "floors", "note": "Builder site states no floor count; RERA filing not located." },
+    { "field": "additionalRera", "note": "Our old number GGM/605/337/2022/80 (31.08.2022, Manglam Multiplex) appears only on unofficial microsites/brochures; the builder's site shows only GGM/803/535/2024/30. Whether 605/337/2022/80 was an earlier registration of Route 65 could not be confirmed." }
+  ]
+}

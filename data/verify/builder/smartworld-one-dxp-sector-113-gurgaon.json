@@ -1,0 +1,74 @@
+{
+  "slug": "smartworld-one-dxp-sector-113-gurgaon",
+  "checkedAt": "2026-10-03T18:41:08Z",
+  "method": "subagent:builder-first",
+  "builderSite": "smartworlddevelopers.com",
+  "corrections": [
+    {
+      "field": "reraNumber",
+      "value": "PHASE 1- RC/REP/HARERA/GGM/645/377/2022/120",
+      "normalized": "RC/REP/HARERA/GGM/645/377/2022/120",
+      "source": "https://smartworlddevelopers.com/projects/onedxp",
+      "sourceType": "developer-website",
+      "quote": "NOURISH DEVELOPERS PRIVATE LIMITED | PHASE 1- RC/REP/HARERA/GGM/645/377/2022/120 PHASE 2 - RC/REP/HARERA/GGM/842/574/2024/69"
+    },
+    {
+      "field": "additionalRera",
+      "value": "PHASE 2 - RC/REP/HARERA/GGM/842/574/2024/69",
+      "normalized": ["RC/REP/HARERA/GGM/842/574/2024/69 (Phase 2)"],
+      "source": "https://smartworlddevelopers.com/projects/onedxp",
+      "sourceType": "developer-website",
+      "quote": "PHASE 2 - RC/REP/HARERA/GGM/842/574/2024/69"
+    },
+    {
+      "field": "possessionDate",
+      "value": "Phase 2 (Towers I-P) offer of possession Sep '27 to Mar '28 (projected construction schedule updated 1 Sept 2025)",
+      "normalized": "2028-03",
+      "source": "https://smartworlddevelopers.com/assets/images/projects/onedxp/one-dxp-construction-schedule-sept-25.jpg",
+      "sourceType": "developer-website",
+      "quote": "PROJECTED CONSTRUCTION SCHEDULE (PH-2) ... ON OFFER OF POSSESSION ... SEP '27 ... MAR '28"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "Phase 1: 31/12/2027",
+      "normalized": "2027-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2222",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/645/377/2022/120 DATED 13.12.2022 | SMARTWORLD ONE DXP | NOURISH DEVELOPERS PRIVATE LIMITED | 31/12/2027"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "Phase 2: 31/08/2031",
+      "normalized": "2031-08",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2937",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/842/574/2024/69 DATED 24.06.2024 | SMARTWORLD ONE DXP PHASE-2 | NOURISH DEVELOPERS PRIVATE LIMITED | 31/08/2031"
+    },
+    {
+      "field": "towers",
+      "value": "16 (Phase 1: 8 towers; Phase 2: 8 towers, I to P on the builder's schedule)",
+      "normalized": 16,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2937",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Phase 1: 98472.66 | 900 | 8; Phase 2: 125791 | 890 | 8 (Carpet area | Number of apartments | Number of towers)"
+    },
+    {
+      "field": "units",
+      "value": "1,790 (Phase 1: 900; Phase 2: 890)",
+      "normalized": 1790,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2222",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Phase 1: 98472.66 | 900 | 8; Phase 2 (project 2937): 125791 | 890 | 8"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "configurations",
+      "note": "Builder site lists 3.5 BHK + Utility (Deck, XL Deck, XXL Deck) and 4.5 BHK + Utility (Deck, XL Deck, XXL Deck) with apartment codes A 2450, A 2503, A 2585, A 3055, A 3150, A 3203, but states no sq ft areas. Its intro also mentions 2.5 BHK. Sizes cannot be confirmed from the builder."
+    },
+    {
+      "field": "possessionDate",
+      "note": "The builder schedule found covers Phase 2 only. No builder-marketed date was found for Phase 1 (towers A-H); its RERA completion is Dec 2027."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "elan-the-presidential-sector-106-gurgaon",
+  "checkedAt": "2026-10-03T18:36:54Z",
+  "method": "subagent:builder-first",
+  "builderSite": "elanlimited.com",
+  "corrections": [
+    {
+      "field": "landArea",
+      "value": "12.767 acres (51666.22 sq. mtrs.)",
+      "normalized": 12.767,
+      "source": "https://www.elanlimited.com/elan-presidential/index.php",
+      "sourceType": "developer-website",
+      "quote": "licensed land admeasuring 51666.22 sq. mtrs. (12.767 acres) in Sector-106"
+    },
+    {
+      "field": "units",
+      "value": "728 apartments in 8 towers; the filing also lists 138 units (2,484 sq m total carpet, 1 tower, EWS-scale) and 14 units (291 sq m total, 1 tower): 880 in all, 866 = 728 + 138",
+      "normalized": 728,
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/2177",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "Apartment/Shops/Other Buildings | 116640.86 | 728 | 8 | Apartment/Shops/Other Buildings | 2484 | 138 | 1"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "configurations",
+      "note": "Builder site gives no unit sizes (mentions penthouses only). RERA REP-I gives only an aggregate carpet area (116640.86 sq m for 728 units), so 2,750 vs 2,700 and 3,375 vs 3,395 sq ft cannot be settled from the builder."
+    }
+  ]
+}

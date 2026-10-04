@@ -1,0 +1,46 @@
+{
+  "slug": "shapoorji-pallonji-the-dualis-sector-46-gurgaon",
+  "checkedAt": "2026-10-03T18:41:08Z",
+  "method": "subagent:builder-first",
+  "builderSite": "shapoorjirealestate.com",
+  "corrections": [
+    {
+      "field": "startingPrice",
+      "value": "Starting at ₹7.27 Cr",
+      "normalized": 72700000,
+      "source": "https://shapoorjirealestate.com/residential/the-dualis",
+      "sourceType": "developer-website",
+      "quote": "3 & 4 bed residences now starting at ₹7.27 CR^"
+    },
+    {
+      "field": "landArea",
+      "value": "approximately 2 acres (RERA filing registers 7,037.79 sq m, about 1.74 acres)",
+      "normalized": 2,
+      "source": "https://shapoorjirealestate.com/residential/the-dualis",
+      "sourceType": "developer-website",
+      "quote": "The project spans approximately 2 acres, featuring two exclusive high-rise towers"
+    },
+    {
+      "field": "reraCompletionDate",
+      "value": "31/12/2031",
+      "normalized": "2031-12",
+      "source": "https://haryanarera.gov.in/view_project/project_preview_open/3345",
+      "sourceType": "rera-filing-by-developer",
+      "quote": "GGM/939/671/2025/42 DATED 01.05.2025 | THE DUALIS | SPRE GURUGRAM PROPERTIES PVT. LTD. | 31/12/2031"
+    },
+    {
+      "field": "reraNumber",
+      "value": "RC/REP/HARERA/GGM/939/671/2025/42",
+      "normalized": "RC/REP/HARERA/GGM/939/671/2025/42",
+      "source": "https://shapoorjirealestate.com/residential/the-dualis",
+      "sourceType": "developer-website",
+      "quote": "RC/REP/HARERA/GGM/939/671/2025/42"
+    }
+  ],
+  "unresolved": [
+    {
+      "field": "possessionDate",
+      "note": "Builder site gives no marketed date: 'Possession timelines will align with project progress and RERA guidelines.' The only date is the RERA-registered completion (Dec 2031), recorded as reraCompletionDate."
+    }
+  ]
+}
