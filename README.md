@@ -115,3 +115,21 @@ GA4 and the Meta Pixel load only when `NEXT_PUBLIC_GA4_ID` / `NEXT_PUBLIC_META_P
 - Replace the placeholder contact details and add the HARERA agent registration number (`/disclaimer`).
 - Have counsel review `/privacy`, `/terms` and `/disclaimer`.
 - **Image rights:** project photos and plans belong to the developers. Get permission, or swap in licensed or own photography, before public launch.
+
+## Deploy on Cloudflare Workers
+
+The site runs as a Cloudflare Worker through the OpenNext adapter (`@opennextjs/cloudflare`); config is in `wrangler.jsonc` and `open-next.config.ts`.
+
+Workers Builds (Git-connected), project settings:
+
+| Setting | Value |
+|---|---|
+| Build command | `npx opennextjs-cloudflare build` |
+| Deploy command | `npx opennextjs-cloudflare deploy` |
+| Non-production branch deploy command | `npx opennextjs-cloudflare upload` |
+| Root directory | `/` |
+| Node.js version (build variable `NODE_VERSION`) | `22` |
+
+Runtime variables and secrets (Settings → Variables and Secrets): `LEAD_WEBHOOK_URL` (secret), optional `LEAD_WEBHOOK_SECRET` (secret), `NEXT_PUBLIC_SITE_URL` (also as a *build* variable), optional `NEXT_PUBLIC_GA4_ID` / `NEXT_PUBLIC_META_PIXEL_ID` (build variables). `LEAD_STORE=webhook` is already set in `wrangler.jsonc`.
+
+Local commands: `npm run preview` (build + run in the Workers runtime), `npm run deploy` (build + deploy from your machine).

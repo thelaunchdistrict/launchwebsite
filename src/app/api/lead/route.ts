@@ -1,11 +1,9 @@
-import { appendFile, mkdir } from 'node:fs/promises';
-import path from 'node:path';
 import { site } from '@/config/site';
 
 /**
  * Lead capture. Storage is configurable:
  *   LEAD_STORE=webhook + LEAD_WEBHOOK_URL=… → POST JSON to Zapier / Make / Google Apps Script (→ Sheet) / CRM
- *   LEAD_STORE=file (default locally)       → append to .leads/leads.jsonl
+ *   LEAD_STORE=file (default, dev only)      → append to .leads/leads.jsonl
  * Both can run together: if a webhook URL is set it is always called.
  */
 const MAX = { name: 80, phone: 20, text: 120 };
@@ -62,10 +60,12 @@ export async function POST(req: Request) {
       });
       if (!r.ok) throw new Error(`webhook ${r.status}`);
     }
-    if (store === 'file' && !process.env.VERCEL) {
-      const dir = path.join(process.cwd(), '.leads');
+    if (store === 'file' && process.env.NODE_ENV !== 'production') {
+      // Local development only: Workers and other serverless hosts have no writable disk.
+      const { appendFile, mkdir } = await import('node:fs/promises');
+      const dir = `${process.cwd()}/.leads`;
       await mkdir(dir, { recursive: true });
-      await appendFile(path.join(dir, 'leads.jsonl'), JSON.stringify(lead) + '\n');
+      await appendFile(`${dir}/leads.jsonl`, JSON.stringify(lead) + '\n');
     } else if (!webhook) {
       // Nowhere durable to write: log so it is at least visible in platform logs, and tell the operator.
       console.warn('[lead] no LEAD_WEBHOOK_URL configured — lead logged only', { ...lead, phone: `******${phone.slice(-4)}` });

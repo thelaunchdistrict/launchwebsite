@@ -12,3 +12,7 @@ site-tmp/
 data/images/
 .leads/
 .claude/
+
+.open-next/
+.wrangler/
+.dev.vars
