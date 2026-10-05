@@ -5,7 +5,7 @@ import mediaMapJson from '../data/media-map.json';
 import mm from '../config/micromarkets.json';
 import { median } from './format';
 import { badgesOf, monthsUntil, stageOf } from './stage';
-import type { ImageRef, Project, ProjectSummary, WebImage } from './types';
+import type { ImageRef, Project, ProjectSummary, ProjectUpdate, WebImage } from './types';
 
 const mediaMap = mediaMapJson as Record<string, WebImage>;
 const everything = (dataset as unknown as { projects: Project[] }).projects.filter((p) => p.name);
@@ -85,10 +85,28 @@ export function summarize(p: Project): ProjectSummary {
     image: img(p.media.hero) ?? img(p.media.gallery[0]),
     createdAt: p.sourceCreatedAt,
     featured: p.featured ?? null,
+    updates: updatesOf(p),
+    verifiedAt: (p.corrections ?? []).map((c) => c.checkedAt).filter(Boolean).sort().at(-1) ?? null,
     locationLabel: p.location.sector
       ? `Sector ${p.location.sector}${p.location.locality && !/sector/i.test(p.location.locality) ? `, ${p.location.locality}` : ''}`
       : p.location.locality ?? p.location.city,
   };
+}
+
+const DAY = 86_400_000;
+const shortDate = (iso: string) => new Date(iso).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+
+/** Signals relative to the dataset refresh date, so they age out naturally when the data is refreshed. */
+export function updatesOf(p: Project): ProjectUpdate[] {
+  const ref = Date.parse(datasetMeta.generatedAt);
+  const within = (iso: string | null | undefined, days: number) => !!iso && ref - Date.parse(iso) <= days * DAY && Date.parse(iso) <= ref + DAY;
+  const out: ProjectUpdate[] = [];
+  if (within(p.sourceCreatedAt, 45)) out.push({ key: 'new', label: 'Newly listed', note: `Added ${shortDate(p.sourceCreatedAt!)}` });
+  const price = p.corrections?.find((c) => c.field === 'startingPrice');
+  if (price && within(price.checkedAt, 60)) out.push({ key: 'price', label: 'Price updated', note: `Starting price confirmed with the developer on ${shortDate(price.checkedAt)}` });
+  const checked = (p.corrections ?? []).map((c) => c.checkedAt).filter(Boolean).sort().at(-1);
+  if (checked && within(checked, 60)) out.push({ key: 'verified', label: `Verified ${shortDate(checked)}`, note: 'Key facts checked against what the developer publishes' });
+  return out;
 }
 
 let _summaries: ProjectSummary[] | null = null;

@@ -25,6 +25,7 @@ export const SORTS = {
   'possession-asc': 'Possession: soonest',
   'possession-desc': 'Possession: latest',
   newest: 'Newest listed',
+  verified: 'Recently verified',
 } as const;
 export type SortKey = keyof typeof SORTS;
 
@@ -72,6 +73,7 @@ export function apply(list: ProjectSummary[], f: Filters, sort: SortKey): Projec
       case 'possession-asc': return nullsLast(ym(a.possession), ym(b.possession), 1);
       case 'possession-desc': return nullsLast(ym(a.possession), ym(b.possession), -1);
       case 'newest': return (b.createdAt ?? '').localeCompare(a.createdAt ?? '');
+      case 'verified': return b.updates.length - a.updates.length || (b.verifiedAt ?? '').localeCompare(a.verifiedAt ?? '');
       default: return a.stage.position - b.stage.position || nullsLast(ym(a.possession), ym(b.possession), -1);
     }
   });

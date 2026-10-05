@@ -19,7 +19,7 @@ export default function AboutPage() {
         <li>Rankings are rule-based: stage first, then runway to possession. Nobody pays for placement.</li>
       </ul>
       <h2>How we make money</h2>
-      <p>When you ask for early-access pricing, an advisor works with you and the developer on allotment. Like most channel partners in India, we may be paid a brokerage by the developer on a completed booking. You can always book directly with the developer instead.</p>
+      <p>When you ask for a private price sheet, an advisor works with you and the developer on allotment. Like most channel partners in India, we may be paid a brokerage by the developer on a completed booking. You can always book directly with the developer instead.</p>
       <p><Link href="/disclaimer" className="link">Read our disclaimer and RERA note →</Link></p>
     </StaticPage>
   );

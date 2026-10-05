@@ -1,8 +1,24 @@
 {
- "generatedAt": "2026-10-05T15:37:26.279Z",
+ "generatedAt": "2026-10-05T16:30:16.576Z",
  "base": "http://localhost:3300",
  "pages": 85,
  "findings": [
+  {
+   "sev": "error",
+   "cat": "Accessibility",
+   "check": "A01 scrollable-region-focusable",
+   "msg": "Scrollable region must have keyboard access",
+   "page": "/projects/birla-arika-sector-31-nh8-gurgaon",
+   "evidence": ".overflow-x-auto.mt-6",
+   "pages": [
+    "/projects/birla-arika-sector-31-nh8-gurgaon",
+    "/projects/elan-imperial-sector-82-gurgaon",
+    "/projects/yugen-golf-city"
+   ],
+   "evidences": [
+    ".overflow-x-auto.mt-6"
+   ]
+  },
   {
    "sev": "warn",
    "cat": "Code hygiene",
@@ -21,7 +37,7 @@
    "check": "C02 placeholder",
    "msg": "Placeholder text \"placeholder\" is visible",
    "page": "/",
-   "evidence": "© 2026 The Launch District (placeholder entity). @ footer.mt-24.border-t > div.border-t.hairline > div.wrap.space-y-2 > p",
+   "evidence": "© 2026 The Launch District (placeholder entity). @ footer.band-night.mt-16 > div.border-t.hairline > div.wrap.space-y-2 > p",
    "pages": [
     "/",
     "/projects",
@@ -110,7 +126,7 @@
     "/shortlist"
    ],
    "evidences": [
-    "© 2026 The Launch District (placeholder entity). @ footer.mt-24.border-t > div.border-t.hairline > div.wrap.space-y-2 > p",
+    "© 2026 The Launch District (placeholder entity). @ footer.band-night.mt-16 > div.border-t.hairline > div.wrap.space-y-2 > p",
     "Operator: The Launch District (placeholder entity). @ main#main > div.wrap.py-10 > div.prose-brand.mt-10 > p.text-xs"
    ]
   },
@@ -250,9 +266,23 @@
   },
   {
    "sev": "info",
+   "cat": "Code hygiene",
+   "check": "K04 raw colour",
+   "msg": "Hex colour outside the token config",
+   "page": "src/app/globals.css:131",
+   "evidence": "--signal: #E3906B; --signal-soft: #3A2117; --on-signal: var(--night); --brass: var(--brass-bright); ",
+   "pages": [
+    "src/app/globals.css:131"
+   ],
+   "evidences": [
+    "--signal: #E3906B; --signal-soft: #3A2117; --on-signal: var(--night); --brass: var(--brass-bright); "
+   ]
+  },
+  {
+   "sev": "info",
    "cat": "Content",
    "check": "C06 inconsistent terminology",
-   "msg": "sq ft: \"sq ft\" ×1100, \"sq.ft\" ×75, \"sq. ft\" ×6, \"sqft\" ×6",
+   "msg": "sq ft: \"sq ft\" ×1099, \"sq.ft\" ×75, \"sq. ft\" ×6, \"sqft\" ×6",
    "page": "/projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon",
    "evidence": "Minority form appears on 3 page(s)",
    "pages": [
@@ -266,7 +296,7 @@
    "sev": "info",
    "cat": "Content",
    "check": "C06 inconsistent terminology",
-   "msg": "₹ format: \"₹N␠Cr\" ×849, \"₹N␠L\" ×70, \"₹N␠Crore\" ×3, \"₹N␠Crores\" ×3, \"₹N␠Lakhs\" ×1",
+   "msg": "₹ format: \"₹N␠Cr\" ×853, \"₹N␠L\" ×70, \"₹N␠Crore\" ×3, \"₹N␠Crores\" ×3, \"₹N␠Lakhs\" ×1",
    "page": "/, /projects, /projects/aipl-autograph-sector-66-gurgaon",
    "evidence": "Minority form appears on 1 page(s)",
    "pages": [
@@ -432,6 +462,80 @@
    "evidences": [
     "http://localhost:3300/_next/image?url=%2Fmedia%2Fadani-samsara-ivana-sector-63-gurgaon%2Fgallery%2F0",
     "http://localhost:3300/_next/image?url=%2Fmedia%2Faditya-birla-pravaah-sector-71-gurgaon%2Fgallery%2F"
+   ]
+  },
+  {
+   "sev": "info",
+   "cat": "UI/UX",
+   "check": "U09 clipped text",
+   "msg": "1 element(s) clip their text",
+   "page": "/projects/4s-the-aurrum-sector-59-gurgaon",
+   "evidence": "section#developer > div.card.mt-6 > a.btn.btn-ghost «All 4S Developers projects»",
+   "pages": [
+    "/projects/4s-the-aurrum-sector-59-gurgaon",
+    "/projects/adani-lushlands-gurgaon",
+    "/projects/adani-samsara-ivana-sector-63-gurgaon",
+    "/projects/adani-the-marq-sector-102-gurgaon",
+    "/projects/aditya-birla-pravaah-sector-71-gurgaon",
+    "/projects/aipl-autograph-sector-66-gurgaon",
+    "/projects/aipl-joy-district-sector-88-gurgaon",
+    "/projects/aipl-lake-city-sector-103-gurgaon",
+    "/projects/anant-raj-estate-residences-sector-63a-gurgaon",
+    "/projects/birla-arika-sector-31-nh8-gurgaon",
+    "/projects/bptp-downtown-66-sector-66-gurgaon",
+    "/projects/bptp-gaia-residences-sector-102-gurgaon",
+    "/projects/bptp-verti-greens-sector-102-gurgaon",
+    "/projects/conscient-elevate-reserve-sector-62-gurgaon",
+    "/projects/dlf-central-67-sector-67-gurgaon",
+    "/projects/dlf-club-arcade-sector-91-gurgaon",
+    "/projects/dlf-privana-north-sector-76-77-gurgaon",
+    "/projects/dlf-privana-south-sector-77-gurgaon",
+    "/projects/dlf-privana-west-sector-76-gurgaon",
+    "/projects/dlf-the-arbour-sector-63-gurgaon",
+    "/projects/elan-empire-sector-66-gurgaon",
+    "/projects/elan-imperial-sector-82-gurgaon",
+    "/projects/elan-paradise-sector-50-gurgaon",
+    "/projects/elan-the-emperor-sector-106-gurgaon",
+    "/projects/elan-the-presidential-sector-106-gurgaon",
+    "/projects/elan-the-statement-sector-49-sohna-road-gurgaon",
+    "/projects/emaar-amaris-sector-62-gurgaon",
+    "/projects/emaar-serenity-hills-sector-86-gurgaon",
+    "/projects/emaar-urban-oasis-sector-62-gurgaon",
+    "/projects/experion-the-trillion-sector-48-gurgaon",
+    "/projects/hero-homes-the-palatial-sector-104-gurgaon",
+    "/projects/hines-elevate-sector-59-gurgaon",
+    "/projects/m3m-altitude-sector-65-gurgaon",
+    "/projects/m3m-capital-walk-sector-113-gurgaon",
+    "/projects/m3m-crown-sector-111-gurgaon",
+    "/projects/m3m-golf-hills-sector-79-gurgaon",
+    "/projects/m3m-jewel-sector-25-gurgaon",
+    "/projects/m3m-mansion-sector-113-gurgaon",
+    "/projects/m3m-paragon-57-sector-57-gurgaon",
+    "/projects/m3m-route-65-sector-65-gurgaon",
+    "/projects/m3m-trump-towers-sector-65-gurgaon",
+    "/projects/max-estate-360-residences-sector-36a-gurgaon",
+    "/projects/paras-manor-sector-2-gurgaon",
+    "/projects/puri-diplomatic-residency-sector-111-gurgaon",
+    "/projects/puri-the-aravallis-sector-61-gurgaon",
+    "/projects/shapoorji-pallonji-the-dualis-sector-46-gurgaon",
+    "/projects/signature-global-titanium-spr-sector-71-gurgaon",
+    "/projects/silverglades-the-legacy-sector-63a-gurgaon",
+    "/projects/smartworld-one-dxp-sector-113-gurgaon",
+    "/projects/smartworld-skyarc-sector-gurgaon-sector-69",
+    "/projects/smartworld-the-edition-sector-68-gurgaon",
+    "/projects/smartworld-the-trump-residences-sector-69-gurgaon",
+    "/projects/sobha-aranya-sector-80-gurgaon",
+    "/projects/sobha-sector-63a-gurgaon",
+    "/projects/spj-vedatam-sector-14-gurgaon",
+    "/projects/tarc-ishva-sector-63a-gurgaon",
+    "/projects/the-oryza",
+    "/projects/trevoc-royal-residences-gurgaon",
+    "/projects/whiteland-westin-residences-sector-103-gurgaon",
+    "/projects/yugen-golf-city"
+   ],
+   "evidences": [
+    "section#developer > div.card.mt-6 > a.btn.btn-ghost «All 4S Developers projects»",
+    "section#developer > div.card.mt-6 > a.btn.btn-ghost «All Adani Realty projects»"
    ]
   },
   {

@@ -10,7 +10,7 @@ export function SectionHead({ eyebrow, title, intro, href, cta, id }: { eyebrow?
         {intro && <p className="mt-3 text-ink-2">{intro}</p>}
       </div>
       {href && (
-        <Link href={href} className="inline-flex min-h-11 items-center gap-2 text-sm font-medium hover:underline underline-offset-4">
+        <Link href={href} className="cta-line shrink-0">
           {cta ?? 'View all'} <Icon name="arrowRight" size={16} />
         </Link>
       )}
@@ -20,8 +20,8 @@ export function SectionHead({ eyebrow, title, intro, href, cta, id }: { eyebrow?
 
 export function Disclaimer({ children, className = '' }: { children: React.ReactNode; className?: string }) {
   return (
-    <p className={`flex gap-2 rounded-xl border border-dashed border-rule-strong p-3 text-xs leading-relaxed text-ink-2 ${className}`}>
-      <Icon name="info" size={16} className="mt-0.5 shrink-0" />
+    <p className={`flex gap-3 border-l-2 border-brass bg-sunk px-4 py-3 text-xs leading-relaxed text-ink-2 ${className}`}>
+      <Icon name="info" size={16} className="mt-0.5 shrink-0 text-brass" />
       <span>{children}</span>
     </p>
   );

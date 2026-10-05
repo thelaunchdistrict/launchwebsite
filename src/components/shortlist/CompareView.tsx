@@ -81,7 +81,7 @@ export function CompareView({ rows }: { rows: CompareRow[] }) {
   };
 
   return (
-    <div className="mt-8 overflow-x-auto">
+    <div className="mt-8 overflow-x-auto" tabIndex={0} role="region" aria-label="Comparison table, scrolls sideways">
       <table className="ledger min-w-[720px] table-fixed">
         <caption className="sr-only">Comparison of {picked.map((p) => p.name).join(', ')}</caption>
         <colgroup><col className="w-44" />{picked.map((p) => <col key={p.slug} />)}</colgroup>
@@ -90,7 +90,7 @@ export function CompareView({ rows }: { rows: CompareRow[] }) {
             <td />
             {picked.map((p) => (
               <th key={p.slug} scope="col" className="align-bottom normal-case tracking-normal">
-                <div className="relative mb-3 aspect-[3/2] overflow-hidden rounded-xl bg-sunk">
+                <div className="relative mb-3 aspect-[3/2] overflow-hidden rounded-[4px] bg-sunk">
                   {p.image && <Image src={p.image.src} alt="" fill sizes="300px" className="object-cover" />}
                 </div>
                 <Link href={`/projects/${p.slug}`} className="inline-flex min-h-11 items-center font-display text-xl font-normal text-ink hover:underline">{p.name}</Link>

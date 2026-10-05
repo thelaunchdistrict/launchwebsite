@@ -14,7 +14,7 @@ export function Counter({ value, format = 'int', duration = 900 }: { value: numb
       io.disconnect();
       const t0 = performance.now();
       const tick = (t: number) => {
-        const k = Math.min(1, (t - t0) / duration);
+        const k = Math.min(1, Math.max(0, (t - t0) / duration)); // first rAF timestamp can precede t0
         setShown(Math.round(value * (1 - (1 - k) ** 3)));
         if (k < 1) raf = requestAnimationFrame(tick);
       };

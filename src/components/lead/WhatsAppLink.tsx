@@ -2,9 +2,11 @@ import { site } from '@/config/site';
 import { Icon } from '../Icon';
 
 /** WhatsApp deep link. The pre-filled text carries only the project name — no personal data in the URL. */
-export function whatsappHref(projectName?: string) {
-  const text = projectName
-    ? `Hi ${site.name}, I'd like early-access pricing for ${projectName}.`
+export function whatsappHref(projectName?: string, intent: 'price' | 'visit' = 'price') {
+  const text = intent === 'visit'
+    ? `Hi ${site.name}, I'd like to plan a site visit${projectName ? ` to ${projectName}` : ''}.`
+    : projectName
+    ? `Hi ${site.name}, I'd like the private price sheet for ${projectName}.`
     : `Hi ${site.name}, I'd like to discuss early-stage projects in Gurugram.`;
   return `https://wa.me/${site.contact.whatsapp}?text=${encodeURIComponent(text)}`;
 }

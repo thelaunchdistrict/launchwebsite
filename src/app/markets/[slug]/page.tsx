@@ -87,10 +87,10 @@ export default async function MarketPage({ params }: PageProps<'/markets/[slug]'
         <Link href={`/projects?market=${slug}`} className="btn btn-ghost mt-6">Filter these projects</Link>
       </section>
 
-      <section className="mt-16 grid gap-8 rounded-3xl border border-ink p-6 md:grid-cols-2 md:p-10" aria-label="Early access">
+      <section className="band-night mt-16 grid gap-8 rounded-[4px] p-6 md:grid-cols-2 md:p-10" aria-label="Private preview">
         <div>
           <h2 className="h2">Watching {m.name}?</h2>
-          <p className="mt-3 text-ink-2">Get the next launch on this corridor before the price list is public.</p>
+          <p className="mt-3 text-ink-2">Be first to see the next launch on this corridor, before the price list is public.</p>
         </div>
         <LeadForm heading="" projects={s.projects.map((p) => ({ slug: p.slug, name: p.name }))} compact source={`market:${slug}`} />
       </section>

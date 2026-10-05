@@ -94,7 +94,7 @@ export function RoiCalculator() {
       <div className="lg:sticky lg:top-24 lg:self-start">
         <section aria-labelledby="roi-results" className="card p-5 md:p-6" aria-live="polite">
           <h2 id="roi-results" className="eyebrow">Result over {i.holdYears} years</h2>
-          <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-xl border hairline bg-rule">
+          <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-[4px] border hairline bg-rule">
             <Big label="Annualised return (IRR)" value={r.irr != null ? pct(r.irr) : '—'} tone={r.irr != null && r.irr < 0 ? 'neg' : 'pos'} />
             <Big label="Net profit" value={inr(r.profit)} title={inrFull(r.profit)} tone={r.profit < 0 ? 'neg' : 'pos'} />
             <Big label="Money multiple" value={`${r.multiple.toFixed(2)}×`} />
@@ -161,11 +161,11 @@ function ValueChart({ r, years }: { r: ReturnType<typeof computeRoi>; years: num
         {ticks.map((t) => (
           <g key={t}>
             <line x1={P.l} x2={W - P.r} y1={y(t)} y2={y(t)} stroke="var(--rule)" />
-            <text x={P.l - 6} y={y(t) + 4} textAnchor="end" fontSize="10" fill="var(--ink-2)" fontFamily="var(--font-mono)">{inr(t)}</text>
+            <text x={P.l - 6} y={y(t) + 4} textAnchor="end" fontSize="10" fill="var(--ink-2)" fontFamily="var(--font-sans)">{inr(t)}</text>
           </g>
         ))}
         {r.path.filter((p) => Number.isInteger(p.year)).map((p) => (
-          <text key={p.year} x={x(p.year)} y={H - 6} textAnchor="middle" fontSize="10" fill="var(--ink-2)" fontFamily="var(--font-mono)">Y{p.year}</text>
+          <text key={p.year} x={x(p.year)} y={H - 6} textAnchor="middle" fontSize="10" fill="var(--ink-2)" fontFamily="var(--font-sans)">Y{p.year}</text>
         ))}
         <polygon points={`${val} ${[...r.path].reverse().map((p) => `${x(p.year)},${y(p.loan)}`).join(' ')}`} fill="var(--signal-soft)" />
         <polyline points={val} fill="none" stroke="var(--signal)" strokeWidth="2.5" />

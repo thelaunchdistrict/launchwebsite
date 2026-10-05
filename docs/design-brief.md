@@ -29,7 +29,7 @@
 
 ## 1. Point of view: "The survey sheet"
 
-The Launch District should look like a **surveyor's field sheet crossed with an analyst's ledger**: warm paper, ink, hairline rules, tabular numerals, and one vermilion signal colour that only ever means *early*.
+The Launch District should look like a **surveyor's field sheet crossed with an analyst's ledger**: sandstone paper, midnight ink, hairline rules, tabular numerals, and one terracotta signal colour that only ever means *early*.
 
 - **Signature element: the Entry Rail.** A thin horizontal rail with four stations (Pre-launch, Launch, Construction, Possession). Every project carries a marker on this rail. It shows up on cards, the detail hero, compare and the timeline tool. The vermilion fill runs from the start of the rail to the marker, so the less vermilion you see, the earlier you are. No other property site encodes stage this way. It is honest, because it comes straight from the `status` field, and it explains the brand promise ("get in before the crowd") without a word.
 - **Signature map: the Corridor Map.** Most projects have no lat/long in the source, and I won't invent coordinates, so The Launch District draws a schematic *transit-style* map of Gurgaon's growth corridors (Dwarka Expressway, NH-48, Golf Course Road / Extension, Southern Peripheral Road, Sohna Road, New Gurgaon). Projects appear as stations on their corridor, ordered by sector. It is honest about precision, reads well at phone width, and looks like nothing else in the category.
@@ -41,9 +41,9 @@ The Launch District should look like a **surveyor's field sheet crossed with an 
 
 | Role | Face | Why |
 |---|---|---|
-| Display (h1–h3, project names) | **Instrument Serif** (Google Fonts, 400 + italic) | A tall, narrow editorial serif. It gives the brand a point of view and stays out of the "luxury gold serif" cliché because it is set large, in ink, and never in gold. |
-| UI and body | **Geist** (variable) | A neutral grotesk with good small-size legibility, standing in for SF on the web. |
-| Data | **Geist Mono** with `font-variant-numeric: tabular-nums` | Prices, ₹/sq ft, dates and counters line up in columns, which is the ledger feel. |
+| Display (h1–h3, project names, logo) | **Bodoni Moda** (Google Fonts, variable with optical sizes + italic) | A high-contrast Didone, the register of couture and hospitality brands. Optical sizing keeps hairlines intact at small sizes; used at 18 px and up. |
+| UI, body and labels | **Jost** (variable, 300–600) | A geometric sans in the Futura tradition; small-caps labels are tracked wide (0.18–0.24em). Body is 17 px at 1.7 line height. |
+| Data | **Jost** with `font-variant-numeric: tabular-nums lining-nums` | Prices and ₹/sq ft still align in columns without the spreadsheet look of a monospace face. |
 
 - Scale in rem, fluid with `clamp()`. Body is 1rem (16px) minimum and never below 0.8125rem (13px) even for captions, following the HIG's recommended minimums. Text survives 200% browser zoom (HIG: "enlarge text by at least 200 percent") because all type is rem and the layouts reflow.
 - Display: `clamp(2.5rem, 6vw, 5.5rem)`, line-height 0.95, tracking −0.01em. H2 `clamp(1.75rem, 3vw, 2.5rem)`.
@@ -55,17 +55,21 @@ The palette is restrained: paper, ink, three greys and **one signature accent**.
 
 | Token | Light | Dark | Use | Contrast (text on bg) |
 |---|---|---|---|---|
-| `--paper` (bg) | `#F5F3EE` | `#121211` | Page | — |
-| `--paper-raised` | `#FFFFFF` | `#1C1C1A` | Cards, sheets (dark elevated surfaces are *lighter*, per HIG dark mode) | — |
-| `--ink` | `#141412` | `#EDEBE6` | Primary text | 16.6 / 15.7 |
-| `--ink-2` | `#5E5B54` | `#A3A099` | Secondary text | 6.1 / 7.2 |
-| `--rule` | `#DAD6CC` | `#2C2B28` | Hairlines | — |
-| `--signal` (accent) | `#B83A0B` (vermilion) | `#FF7A45` | Entry Rail, primary CTA, "early" badges | 5.2 / 7.3 |
-| `--on-signal` | `#FFFFFF` | `#121211` | Text on accent buttons | 5.8 / 7.3 |
+| `--paper` (bg) | `#F4EFE7` sandstone | `#0C1220` | Page | — |
+| `--paper-raised` | `#FBF8F3` | `#131C30` | Cards, sheets | — |
+| `--paper-sunk` | `#EAE3D7` stone | `#080D18` | Stone section bands | — |
+| `--ink` | `#111A2C` midnight | `#EEE8DC` | Primary text, structure | 15.2 / 15.3 |
+| `--ink-2` | `#545B6B` | `#A7AEBD` | Secondary text | 6.0 / 8.4 |
+| `--signal` (accent) | `#A9472B` terracotta | `#E3906B` | "Early" marks and the one primary action per view | 5.1 / 7.5 |
+| `--on-signal` | `#FFFFFF` | `#0C1220` | Text on accent buttons | 5.8 / 7.5 |
+| `--brass` | `#7E602C` | `#D3B27A` | Reward and status only: hero project, verified, price updated, progress | 4.9 / 9.3 |
+| `--night` | `#0E1626` | `#060A14` | Full-width bands: spotlight, private preview, footer, announcement bar | 14.8 (night ink) |
 | `--positive` | `#2F6B4F` | `#6FCF97` | Gains in calculator | 5.7 / 9.9 |
 | `--caution` | `#8A6A12` | `#E2B84A` | Due-diligence flags | 4.6 / 10.0 |
 
-All pairs meet WCAG AA (4.5:1 for text). The accent is **reserved**: it marks "early" and the one primary action per view, and nothing else. Dark mode follows the system (`prefers-color-scheme`), with a manual override in the footer because the brief requires a toggle. The HIG discourages app-specific appearance settings, so the default is always "System". No pure black. Images get a 1px `--rule` outline in dark mode so light renders don't glare.
+All pairs meet WCAG AA (4.5:1 for text). **Midnight and terracotta** (October 2026): midnight navy gives structure and the private "night" bands, terracotta carries warmth and the single primary action, and brass is used sparingly, like jewellery, for status and reward moments. Inside a `.band-night` section the theme tokens are re-pointed, so cards, buttons and links adapt without extra classes. Buttons have 2px corners, tracked small-caps labels, a colour sweep and an arrow nudge on hover; secondary actions are text links with a growing brass underline. Light is the default appearance; Dark and System are available in the footer. Images get a 1px `--rule` outline in dark mode.
+
+**Engagement, honestly.** The site uses the motivation patterns games use, with real data only and no dark patterns (no countdowns, no invented scarcity or "people viewing"; India's 2023 dark-pattern guidelines and RERA advertising rules apply): a commitment ladder (save → compare → price sheet → site visit) with visible progress, dated update signals (newly listed, price updated, verified with the developer) that refresh with the data, a dismissible announcement bar that returns only after a refresh, a three-question "Find your entry point" quiz that turns answers into real filters, and a curiosity gap where prices are on request ("Unlock the price sheet").
 
 ## 4. Layout system
 
@@ -99,10 +103,10 @@ Top nav, Mobile tab bar, Footer (with disclaimer and appearance switch), **Entry
 - ✅ **Navigation:** the tab bar is for navigation only, with 4 items (HIG tab bars recommend ≤ 5). Filters live in a sheet with an explicit commit, and active filters show as tokens.
 - ⚠️ **Appearance toggle:** the HIG advises against app-specific appearance settings. The project brief requires light/dark, so the default is *System* and the override is tucked in the footer, not in the nav.
 - ⚠️ **Maps:** the HIG Maps page assumes a real map. The Corridor Map is schematic, so it must say so on its face ("Schematic — not to scale") and link to Google Maps when real coordinates exist.
-- ⚠️ **Custom fonts:** the HIG prefers system fonts for legibility. Geist is a close stand-in for SF, and the serif is used only at display sizes ≥ 28px.
+- ⚠️ **Custom fonts:** the HIG prefers system fonts for legibility. Jost replaces the system font for brand reasons, and the serif is used only at display sizes ≥ 28px.
 
 ### Point of view
 - The **Entry Rail** and **Corridor Map** are the two things that make a screenshot recognisably The Launch District. Both come from real data (status, sector), not decoration.
-- Warm paper, ink and one vermilion signal reads as a research publication, not a luxury brochure. There is no gold, no navy and no gradient.
+- Sandstone, midnight and terracotta, with brass used sparingly, reads as private-client research rather than a developer brochure. There is no gradient.
 - Ledger cards with mono tabular numerals say "we did the maths". The serif names keep it human.
 - The risk is that this feels austere next to image-heavy portals. To counter that, give photography generous size on the detail page (gallery and hero) while the listing stays data-first.

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Geist, Geist_Mono, Instrument_Serif } from 'next/font/google';
+import { Bodoni_Moda, Jost } from 'next/font/google';
 import { site } from '@/config/site';
 import { TopNav } from '@/components/chrome/TopNav';
 import { TabBar } from '@/components/chrome/TabBar';
@@ -7,11 +7,13 @@ import { Footer } from '@/components/chrome/Footer';
 import { CompareTray } from '@/components/shortlist/CompareTray';
 import { Analytics } from '@/components/chrome/Analytics';
 import { JsonLd } from '@/components/JsonLd';
+import { AnnouncementBar } from '@/components/chrome/AnnouncementBar';
+import { datasetMeta, summaries } from '@/lib/data';
 import './globals.css';
 
-const serif = Instrument_Serif({ subsets: ['latin'], weight: '400', style: ['normal', 'italic'], variable: '--font-serif', display: 'swap' });
-const sans = Geist({ subsets: ['latin'], variable: '--font-geist', display: 'swap' });
-const mono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono', display: 'swap' });
+// Couture direction: high-contrast Didone for display (optical sizes keep hairlines intact when small), geometric Jost for text and figures.
+const serif = Bodoni_Moda({ subsets: ['latin'], style: ['normal', 'italic'], axes: ['opsz'], variable: '--font-serif', display: 'swap' });
+const sans = Jost({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-jost', display: 'swap' });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -32,7 +34,8 @@ export const viewport: Viewport = {
   ],
 };
 
-const kebab = (k: string) => k.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`);
+// ink2 → --ink-2, nightInk2 → --night-ink-2 (digits get their own segment, matching globals.css).
+const kebab = (k: string) => k.replace(/[A-Z]|\d+/g, (c) => `-${c.toLowerCase()}`);
 const vars = (o: Record<string, string>) => Object.entries(o).map(([k, v]) => `--${kebab(k)}:${v}`).join(';');
 const themeCss = `:root{${vars(site.colors.light)};color-scheme:light}
 @media (prefers-color-scheme: dark){:root[data-theme="system"]{${vars(site.colors.dark)};color-scheme:dark}}
@@ -41,9 +44,22 @@ const themeCss = `:root{${vars(site.colors.light)};color-scheme:light}
 // Runs before paint so a stored appearance override never flashes.
 const themeScript = `try{var t=localStorage.getItem('tld-theme');if(t==='light'||t==='dark'||t==='system')document.documentElement.dataset.theme=t}catch(e){}`;
 
+function announcement() {
+  const s = summaries();
+  const verified = s.filter((p) => p.updates.some((u) => u.key === 'verified')).length;
+  const prices = s.filter((p) => p.updates.some((u) => u.key === 'price')).length;
+  const fresh = s.filter((p) => p.updates.some((u) => u.key === 'new')).length;
+  const parts = [
+    verified ? `${verified} projects re-verified with their developers` : null,
+    prices ? `${prices} starting price${prices > 1 ? 's' : ''} updated` : null,
+    fresh ? `${fresh} newly listed` : null,
+  ].filter(Boolean);
+  return parts.length ? { message: `Updated ${new Date(datasetMeta.generatedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}: ${parts.join(' · ')}`, version: datasetMeta.generatedAt.slice(0, 10) } : null;
+}
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-IN" className={`${serif.variable} ${sans.variable} ${mono.variable}`} suppressHydrationWarning>
+    <html lang="en-IN" className={`${serif.variable} ${sans.variable}`} suppressHydrationWarning>
       <head>
         <style dangerouslySetInnerHTML={{ __html: themeCss }} />
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
@@ -61,6 +77,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             address: { '@type': 'PostalAddress', addressLocality: 'Gurugram', addressRegion: 'Haryana', addressCountry: 'IN' },
           }}
         />
+        {(() => { const a = announcement(); return a ? <AnnouncementBar {...a} href="/projects?sort=verified" cta="See what changed" /> : null; })()}
         <TopNav />
         <main id="main" className="flex-1 pb-20 md:pb-0">{children}</main>
         <Footer />

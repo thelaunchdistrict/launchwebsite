@@ -21,12 +21,12 @@ export function StickyCTA({ name, priceFrom }: { name: string; priceFrom: number
       <div className="flex items-center gap-2">
         <div className="min-w-0 flex-1">
           <p className="truncate font-display text-lg leading-tight">{name}</p>
-          <p className="num text-xs text-ink-2">From {inr(priceFrom)}</p>
+          <p className="num text-xs text-ink-2">{priceFrom ? `From ${inr(priceFrom)}` : 'Price on request'}</p>
         </div>
         <a href={whatsappHref(name)} target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-icon" aria-label="WhatsApp about this project" tabIndex={show ? 0 : -1}>
           <Icon name="whatsapp" />
         </a>
-        <a href="#early-access" className="btn btn-primary" tabIndex={show ? 0 : -1}>Get pricing</a>
+        <a href="#early-access" className="btn btn-primary px-4" tabIndex={show ? 0 : -1}>Price sheet</a>
       </div>
     </div>
   );

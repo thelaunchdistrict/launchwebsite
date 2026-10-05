@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { ProjectSummary } from '@/lib/types';
 import { inr, inrFull, monthYear, psf, bhkLabel } from '@/lib/format';
 import { EntryRail } from './EntryRail';
-import { Badges } from './Badges';
+import { Badges, UpdateTags } from './Badges';
 import { CardActions } from './CardActions';
 
 export function configSummary(p: Pick<ProjectSummary, 'bhks' | 'configLabels' | 'type'>) {
@@ -16,7 +16,7 @@ export function configSummary(p: Pick<ProjectSummary, 'bhks' | 'configLabels' | 
 /** Ledger card: photo for recognition, numbers for the decision. */
 export function ProjectCard({ p, priority = false }: { p: ProjectSummary; priority?: boolean }) {
   return (
-    <article className="card group relative flex flex-col overflow-hidden transition-shadow hover:shadow-[0_1px_0_var(--rule),0_12px_32px_-16px_rgba(0,0,0,.25)]">
+    <article className="card group relative flex flex-col overflow-hidden transition-shadow hover:-translate-y-0.5 hover:border-rule-strong hover:shadow-[0_18px_40px_-24px_rgba(14,22,38,.45)] duration-300">
       <div className="relative aspect-[3/2] bg-sunk">
         {p.image ? (
           <Image
@@ -38,16 +38,17 @@ export function ProjectCard({ p, priority = false }: { p: ProjectSummary; priori
             {p.developer ?? 'Developer not published'} · {p.locationLabel ?? p.marketName ?? '—'}
           </p>
           <h3 className="h3 mt-1">
-            <Link href={`/projects/${p.slug}`} prefetch={false} className="after:absolute after:inset-0 after:content-[''] focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:outline-focus focus-visible:after:rounded-[14px]">
+            <Link href={`/projects/${p.slug}`} prefetch={false} className="after:absolute after:inset-0 after:content-[''] focus-visible:outline-none focus-visible:after:outline-2 focus-visible:after:outline-focus focus-visible:after:rounded-[4px]">
               {p.name}
             </Link>
           </h3>
         </div>
+        <UpdateTags updates={p.updates} />
         <EntryRail stage={p.stage} />
         <dl className="grid grid-cols-2 gap-x-4 gap-y-3 border-t hairline pt-3 text-sm">
           <div>
             <dt className="eyebrow">From</dt>
-            <dd className="num mt-0.5 text-[1.05rem]" title={inrFull(p.priceFrom)}>{inr(p.priceFrom)}</dd>
+            <dd className="num mt-0.5 text-[1.05rem]" title={inrFull(p.priceFrom)}>{p.priceFrom ? inr(p.priceFrom) : <span className="text-brass">On request</span>}</dd>
           </div>
           <div>
             <dt className="eyebrow">₹ / sq ft{p.psfDerived && p.psf ? '*' : ''}</dt>

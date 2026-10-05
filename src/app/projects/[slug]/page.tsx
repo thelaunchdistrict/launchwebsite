@@ -10,7 +10,7 @@ import type { GalleryItem } from '@/components/project/Gallery';
 import { Gallery } from '@/components/project/Gallery';
 import { FloorPlans } from '@/components/project/FloorPlans';
 import { EntryRail } from '@/components/project/EntryRail';
-import { Badges } from '@/components/project/Badges';
+import { Badges, UpdateTags } from '@/components/project/Badges';
 import { CardActions } from '@/components/project/CardActions';
 import { ProjectCard } from '@/components/project/ProjectCard';
 import { StickyCTA } from '@/components/project/StickyCTA';
@@ -157,7 +157,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
         {p.supersededBy && (() => {
           const next = getProject(p.supersededBy);
           return next ? (
-            <div role="note" className="mt-4 flex flex-wrap items-center gap-3 rounded-xl border border-signal bg-signal-soft p-4 text-sm">
+            <div role="note" className="mt-4 flex flex-wrap items-center gap-3 rounded-[4px] border border-signal bg-signal-soft p-4 text-sm">
               <Icon name="info" size={18} className="shrink-0" />
               <span className="flex-1">This is an older public listing of the same township. The current, developer-sourced listing has newer prices, phases and RERA details.</span>
               <Link href={`/projects/${next.slug}`} className="btn btn-primary">Go to {next.name}</Link>
@@ -169,6 +169,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
         <header className="mt-6 grid gap-6 lg:grid-cols-[1fr_auto] lg:items-end">
           <div>
             <Badges badges={s.badges} status={p.status} />
+            <UpdateTags updates={s.updates} className="mt-2" />
             <h1 className="display mt-3 text-[clamp(2.4rem,5.5vw,4.75rem)]">{name}</h1>
             <p className="mt-3 text-lg text-ink-2">
               {typeLabel(p.projectType)} by <Link href={`/projects?developer=${encodeURIComponent(p.developer.name ?? '')}`} className="link text-ink">{p.developer.name ?? 'developer not published'}</Link>
@@ -237,7 +238,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
           <section id="pricing" aria-labelledby="pricing-h">
             <h2 id="pricing-h" className="h2">Configurations & pricing</h2>
             {p.pricing.configurations.length ? (
-              <div className="mt-6 overflow-x-auto">
+              <div className="mt-6 overflow-x-auto" tabIndex={0} role="region" aria-label={`Configurations and prices for ${name}, scrolls sideways`}>
                 <table className="ledger min-w-[560px]">
                   <caption className="sr-only">Configurations, unit areas and prices for {name}</caption>
                   <thead><tr><th scope="col">Configuration</th><th scope="col" className="n">Area</th><th scope="col" className="n">Price</th><th scope="col" className="n">₹/sq ft</th><th scope="col">Status</th></tr></thead>
@@ -246,14 +247,14 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
                       <tr key={i}>
                         <th scope="row" className="text-left font-normal">{c.label ?? (c.bhk != null ? bhkLabel(c.bhk) : c.unitType)}<span className="block text-xs text-ink-2">{c.unitType}</span></th>
                         <td className="n">{c.areaSqft ? sqft(c.areaSqft) : '—'}</td>
-                        <td className="n" title={c.priceRaw ?? undefined}>{c.priceInr ? inr(c.priceInr) : <span className="font-sans text-ink-2">{c.priceRaw ?? '—'}</span>}</td>
+                        <td className="n" title={c.priceRaw ?? undefined}>{c.priceInr ? inr(c.priceInr) : /on request/i.test(c.priceRaw ?? '') ? <a href="#early-access" className="link font-sans text-brass">Unlock the price sheet</a> : <span className="font-sans text-ink-2">{c.priceRaw ?? '—'}</span>}</td>
                         <td className="n">{c.pricePerSqftInr ? psf(c.pricePerSqftInr) : '—'}</td>
                         <td className="capitalize">{c.availability ?? '—'}</td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
-                <p className="mt-2 text-xs text-ink-2">Areas as listed (RERA carpet/saleable basis not always specified). “Price on request” means the developer has not published a price for that unit.</p>
+                <p className="mt-2 text-xs text-ink-2">Areas as listed (RERA carpet/saleable basis not always specified). “Unlock the price sheet” means the developer has not published a price for that unit; ask us and we send the current sheet.</p>
                 {dupAreas.length > 0 && (
                   <p className="mt-2 flex gap-2 text-sm"><Icon name="alert" size={16} className="mt-0.5 shrink-0 text-caution" /><span>The source lists the same area for different configurations ({dupAreas.map((a) => sqft(Number(a))).join(', ')}). One of these rows is probably a data-entry error. Confirm sizes with the developer’s RERA-registered plans.</span></p>
                 )}
@@ -468,17 +469,17 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
           <div className="card flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-sm text-ink-2">Prices and project information may differ from current actuals, as details can change after a project is launched. Feel free to raise a query about this project for detailed, up-to-date information.</p>
             <div className="flex shrink-0 gap-2">
-              <a href="#early-access" className="btn btn-primary">Raise a query</a>
+              <a href="#early-access" className="btn btn-primary">Speak to an advisor <Icon name="arrowRight" size={16} /></a>
               <WhatsAppLink projectName={name} className="btn btn-ghost" />
             </div>
           </div>
         </div>
 
         {/* Right rail — sticky lead capture on desktop */}
-        <aside id="early-access" aria-label="Request pricing" className="scroll-mt-24">
+        <aside id="early-access" aria-label="Private price sheet" className="scroll-mt-24">
           <div className="space-y-3 lg:sticky lg:top-24">
             <div className="card p-5">
-              <LeadForm defaultProject={{ slug: p.slug, name }} heading="Request early-access pricing" compact source="project" />
+              <LeadForm defaultProject={{ slug: p.slug, name }} heading="Receive the private price sheet" compact source="project" />
             </div>
             <WhatsAppLink projectName={name} className="btn btn-ghost w-full" label="Ask on WhatsApp" />
           </div>

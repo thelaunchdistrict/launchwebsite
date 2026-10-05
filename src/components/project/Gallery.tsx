@@ -25,7 +25,7 @@ export function Gallery({ items, name }: { items: GalleryItem[]; name: string })
   };
   return (
     <>
-      <div className="grid h-[52vw] max-h-[560px] min-h-[260px] grid-cols-4 grid-rows-2 gap-1.5 overflow-hidden rounded-2xl md:gap-2">
+      <div className="grid h-[52vw] max-h-[560px] min-h-[260px] grid-cols-4 grid-rows-2 gap-1.5 overflow-hidden rounded-[4px] md:gap-2">
         {shown.map((it, i) => (
           <button
             key={it.src}

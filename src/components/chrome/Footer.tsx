@@ -7,7 +7,7 @@ import mm from '@/config/micromarkets.json';
 export function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="mt-24 border-t border-ink bg-paper">
+    <footer className="band-night mt-16">
       <div className="wrap grid gap-10 py-12 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div className="space-y-4">
           <Logo />

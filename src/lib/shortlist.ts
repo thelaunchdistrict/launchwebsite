@@ -39,9 +39,10 @@ function createStore(key: string, max = Infinity) {
         write([...cur, s]);
         return true;
       }, []);
+      const add = useCallback((s: string) => { const cur = read(); if (!cur.includes(s) && cur.length < max) write([...cur, s]); }, []);
       const remove = useCallback((s: string) => write(read().filter((x) => x !== s)), []);
       const clear = useCallback(() => write([]), []);
-      return { items, has, toggle, remove, clear, full: items.length >= max };
+      return { items, has, toggle, add, remove, clear, full: items.length >= max };
     },
   };
 }
@@ -50,3 +51,6 @@ export const shortlistStore = createStore('tld-shortlist');
 export const compareStore = createStore('tld-compare', 3);
 export const useShortlist = () => shortlistStore.use();
 export const useCompare = () => compareStore.use();
+/** Milestones on this device only ('price-sheet', 'visit'); never sent anywhere. Powers the journey ladder. */
+export const journeyStore = createStore('tld-journey');
+export const useJourney = () => journeyStore.use();

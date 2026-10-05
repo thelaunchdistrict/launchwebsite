@@ -10,6 +10,7 @@ import { LeadForm } from '@/components/lead/LeadForm';
 import { WhatsAppLink } from '@/components/lead/WhatsAppLink';
 import { Icon } from '@/components/Icon';
 import { SpotlightCarousel } from '@/components/home/SpotlightCarousel';
+import { FindYourEntry } from '@/components/home/FindYourEntry';
 
 export default function Home() {
   const s = stats();
@@ -23,21 +24,21 @@ export default function Home() {
 
   return (
     <>
-      {/* HERO — type on paper, the corridor map as the visual */}
-      <section className="wrap grid gap-10 pt-10 pb-12 md:pt-16 lg:grid-cols-[1.05fr_1fr] lg:items-center">
+      {/* HERO: type on paper, the corridor map as the visual */}
+      <section className="wrap grid gap-10 pt-12 pb-16 md:pt-20 md:pb-24 lg:grid-cols-[1.05fr_1fr] lg:items-center">
         <div>
-          <p className="eyebrow">Gurugram · Early-entry research · Updated {updated}</p>
+          <p className="eyebrow">Gurugram · Private early-entry research · Updated {updated}</p>
           <h1 className="display mt-5">
-            Get in <em className="text-signal not-italic md:italic">before</em> the crowd.
+            Own the address <em className="text-signal">before</em> the city does.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-ink-2">
-            Pre-launch, new-launch and under-construction projects, ranked by how early you are, priced per square foot and checked for RERA, with the possession horizon on every card.
+            Pre-launch and early-construction residences across Gurugram, each checked against what its developer publishes, priced per square foot and placed on the possession timeline. See the whole picture before the price list moves.
           </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/projects?early=1" className="btn btn-primary">Browse early-entry projects <Icon name="arrowRight" size={18} /></Link>
-            <Link href="/tools/roi-calculator" className="btn btn-ghost">Run the numbers</Link>
+          <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-3">
+            <Link href="/projects?early=1" className="btn btn-primary">View the collection <Icon name="arrowRight" size={18} /></Link>
+            <Link href="/tools/roi-calculator" className="cta-line">See your returns <Icon name="arrowRight" size={16} /></Link>
           </div>
-          <dl className="mt-10 grid grid-cols-2 border-t border-ink sm:grid-cols-4">
+          <dl className="mt-12 grid grid-cols-2 border-t border-ink sm:grid-cols-4">
             {[
               ['Projects tracked', <Counter key="a" value={s.tracked} />],
               ['At early-entry stage', <Counter key="b" value={s.early} />],
@@ -46,7 +47,7 @@ export default function Home() {
             ].map(([k, v], i) => (
               <div key={String(k)} className={`py-4 pr-3 ${i % 2 ? 'pl-3 border-l hairline sm:border-l' : 'sm:pl-0'} ${i > 1 ? 'border-t hairline sm:border-t-0 sm:border-l sm:pl-3' : ''}`}>
                 <dt className="eyebrow">{k}</dt>
-                <dd className="mt-1 text-2xl md:text-3xl">{v}</dd>
+                <dd className="mt-1 font-display text-3xl md:text-4xl">{v}</dd>
               </div>
             ))}
           </dl>
@@ -60,15 +61,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SPOTLIGHT */}
-      <section className="wrap py-12" aria-labelledby="spotlight">
-        <SectionHead id="spotlight" eyebrow="Spotlight" title="Five to look at first" intro="The earliest projects on the rail right now. Swipe or use the controls below. Tap a project to open it." />
-        <SpotlightCarousel projects={spotlight} />
+      {/* SPOTLIGHT: full-width night band */}
+      <section className="band-night py-16 md:py-24" aria-labelledby="spotlight">
+        <div className="wrap">
+          <SectionHead id="spotlight" eyebrow="The spotlight" title="Five to see first" intro="The earliest addresses on the rail right now, each with its developer-checked facts. Swipe through, or open one to see the full file." />
+          <SpotlightCarousel projects={spotlight} />
+        </div>
+      </section>
+
+      {/* FIND YOUR ENTRY: three-question personal shortlist */}
+      <section className="band-stone py-16 md:py-24" aria-labelledby="find">
+        <div className="wrap"><FindYourEntry projects={all} /></div>
       </section>
 
       {/* FEATURED */}
-      <section className="wrap py-12" aria-labelledby="featured">
-        <SectionHead id="featured" eyebrow="Earliest on the rail" title="More early-entry opportunities" intro="Sorted by stage, then by the longest runway to possession. The ranking is rule-based, and nobody pays for placement." href="/projects?early=1" cta="All early-entry projects" />
+      <section className="wrap py-16 md:py-24" aria-labelledby="featured">
+        <SectionHead id="featured" eyebrow="Earliest on the rail" title="The early-entry collection" intro="Ordered by stage, then by the longest runway to possession. The ranking follows fixed rules, and no developer pays for placement." href="/projects?early=1" cta="View the collection" />
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {feat.map((p) => <ProjectCard key={p.slug} p={p} />)}
         </div>
@@ -76,16 +84,16 @@ export default function Home() {
       </section>
 
       {/* WHY EARLY */}
-      <section className="wrap py-12" aria-labelledby="why">
+      <section className="wrap pb-16 md:pb-24" aria-labelledby="why">
         <SectionHead id="why" eyebrow="The case, and the catch" title="Why invest early?" />
-        <div className="grid gap-px overflow-hidden rounded-2xl border hairline bg-rule md:grid-cols-3">
+        <div className="grid gap-px overflow-hidden rounded-[4px] border hairline bg-rule md:grid-cols-3">
           {[
             ['01', 'Lower entry price', 'Launch-phase price lists are usually the lowest a project will see. Developers price early tranches to build momentum and fund construction.', 'Launch pricing is not guaranteed to be below resale later. Check comparable ₹/sq ft in the same sector.'],
             ['02', 'Staggered payments', 'Construction-linked plans spread payments over 3–5 years, so your capital is deployed gradually rather than on day one.', 'Possession-linked and subvention plans shift risk. Read who pays the interest if the project slips.'],
             ['03', 'Appreciation into possession', 'Gurugram projects have historically re-rated as infrastructure (Dwarka Expressway, SPR, metro extensions) lands near them.', 'Past performance is no guarantee. Delays, oversupply and developer risk can erase the early-entry discount.'],
           ].map(([n, t, body, risk]) => (
-            <div key={n} className="bg-raised p-6">
-              <p className="num text-signal">{n}</p>
+            <div key={n} className="bg-raised p-7">
+              <p className="font-display text-3xl text-brass">{n}</p>
               <h3 className="h3 mt-3">{t}</h3>
               <p className="mt-3 text-sm text-ink-2">{body}</p>
               <p className="mt-4 border-t hairline pt-3 text-sm"><span className="font-medium">The catch: </span><span className="text-ink-2">{risk}</span></p>
@@ -94,44 +102,46 @@ export default function Home() {
         </div>
       </section>
 
-      {/* MARKETS */}
-      <section className="wrap py-12" aria-labelledby="markets">
-        <SectionHead id="markets" eyebrow="Micro-markets" title="Corridor snapshots" intro={`Medians are across the projects ${site.name} tracks, not the whole market.`} href="/markets" cta="All markets" />
-        <div className="overflow-x-auto">
-          <table className="ledger min-w-[640px]">
-            <caption className="sr-only">Micro-market snapshot: projects tracked, median price per square foot, lowest entry price and possession window</caption>
-            <thead>
-              <tr><th scope="col">Corridor</th><th scope="col" className="n">Projects</th><th scope="col" className="n">Median ₹/sq ft</th><th scope="col" className="n">Entry from</th><th scope="col" className="n">Possession window</th></tr>
-            </thead>
-            <tbody>
-              {markets.map((m) => (
-                <tr key={m.slug} className="hover:bg-raised">
-                  <th scope="row" className="py-3 text-left font-normal">
-                    <Link href={`/markets/${m.slug}`} className="inline-flex min-h-11 items-center font-display text-xl hover:underline underline-offset-4">{m.name}</Link>
-                  </th>
-                  <td className="n">{m.count}</td>
-                  <td className="n">{psf(m.medianPsf)}</td>
-                  <td className="n">{inr(m.minPrice)}</td>
-                  <td className="n">{monthRange(m.possessionFrom, m.possessionTo)}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+      {/* MARKETS: stone band */}
+      <section className="band-stone py-16 md:py-24" aria-labelledby="markets">
+        <div className="wrap">
+          <SectionHead id="markets" eyebrow="Micro-markets" title="Corridor snapshots" intro={`Medians are across the projects ${site.name} tracks, not the whole market.`} href="/markets" cta="All markets" />
+          <div className="overflow-x-auto" tabIndex={0} role="region" aria-label="Corridor snapshot table, scrolls sideways">
+            <table className="ledger min-w-[640px]">
+              <caption className="sr-only">Micro-market snapshot: projects tracked, median price per square foot, lowest entry price and possession window</caption>
+              <thead>
+                <tr><th scope="col">Corridor</th><th scope="col" className="n">Projects</th><th scope="col" className="n">Median ₹/sq ft</th><th scope="col" className="n">Entry from</th><th scope="col" className="n">Possession window</th></tr>
+              </thead>
+              <tbody>
+                {markets.map((m) => (
+                  <tr key={m.slug} className="transition-colors hover:bg-raised">
+                    <th scope="row" className="py-3 text-left font-normal">
+                      <Link href={`/markets/${m.slug}`} className="inline-flex min-h-11 items-center font-display text-xl hover:underline underline-offset-4">{m.name}</Link>
+                    </th>
+                    <td className="n">{m.count}</td>
+                    <td className="n">{psf(m.medianPsf)}</td>
+                    <td className="n">{inr(m.minPrice)}</td>
+                    <td className="n">{monthRange(m.possessionFrom, m.possessionTo)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="wrap py-12" aria-labelledby="how">
-        <SectionHead id="how" eyebrow="How it works" title="From shortlist to allotment" />
+      <section className="wrap py-16 md:py-24" aria-labelledby="how">
+        <SectionHead id="how" eyebrow="How it works" title="From first look to allotment" />
         <ol className="grid gap-6 md:grid-cols-4">
           {[
-            ['Screen', 'Filter by stage, corridor, budget and possession year. The Entry Rail shows how early each project is.'],
+            ['Discover', 'Filter by stage, corridor, budget and possession year. The Entry Rail shows how early each project is.'],
             ['Compare', 'Put up to three projects side by side: ₹/sq ft, unit sizes, density, RERA and payment terms.'],
             ['Model', 'Run your own assumptions through the ROI calculator: appreciation, rent, loan, exit costs.'],
-            ['Get access', 'Ask for the current price sheet. We confirm the inventory and the all-inclusive cost before you visit.'],
+            ['Private access', 'Receive the current price sheet. We confirm inventory and the all-inclusive cost before you visit the site.'],
           ].map(([t, d], i) => (
-            <li key={t} className="border-t border-ink pt-4">
-              <p className="num text-sm text-ink-2">Step {i + 1}</p>
+            <li key={t} className="border-t border-ink pt-5">
+              <p className="font-display text-3xl text-brass">0{i + 1}</p>
               <h3 className="h3 mt-1">{t}</h3>
               <p className="mt-2 text-sm text-ink-2">{d}</p>
             </li>
@@ -140,39 +150,44 @@ export default function Home() {
       </section>
 
       {/* TRUST */}
-      <section className="wrap py-12" aria-labelledby="trust">
-        <SectionHead id="trust" eyebrow="Why trust the numbers" title="Every figure shows where it came from" />
+      <section className="wrap pb-16 md:pb-24" aria-labelledby="trust">
+        <SectionHead id="trust" eyebrow="Why trust the numbers" title="Every figure shows its source" />
         <div className="grid gap-5 md:grid-cols-3">
-          <div className="card p-6">
-            <p className="num text-4xl">{s.withRera}<span className="text-ink-2">/{s.tracked}</span></p>
-            <p className="mt-2 text-sm text-ink-2">projects have a published HARERA registration number. Where one is missing, we say so on the card.</p>
+          <div className="card p-7">
+            <p className="font-display text-5xl">{s.withRera}<span className="text-ink-2">/{s.tracked}</span></p>
+            <p className="mt-3 text-sm text-ink-2">projects have a published HARERA registration number. Where one is missing, we say so on the card.</p>
           </div>
-          <div className="card p-6">
-            <p className="font-display text-2xl">Derived ≠ published</p>
-            <p className="mt-2 text-sm text-ink-2">Anything {site.name} infers is labelled as inferred: indicative ₹/sq ft, construction progress, micro-market. Missing values stay blank. We never fill them in.</p>
+          <div className="card p-7">
+            <p className="font-display text-2xl">Verified at the source</p>
+            <p className="mt-3 text-sm text-ink-2">Where sources disagree, we use what the developer publishes and show the change. Anything {site.name} infers is labelled as inferred, and missing values stay blank. We never fill them in.</p>
           </div>
-          <div className="card p-6">
-            <p className="font-display text-2xl">Risk on the page</p>
-            <p className="mt-2 text-sm text-ink-2">Each project carries a due-diligence checklist covering RERA, approvals, payment-plan type and possession, so the questions to ask are written down before you visit.</p>
+          <div className="card p-7">
+            <p className="font-display text-2xl">Nothing hidden</p>
+            <p className="mt-3 text-sm text-ink-2">Each project carries a due-diligence checklist covering RERA, approvals, payment-plan type and possession, so the questions to ask are written down before you visit.</p>
           </div>
         </div>
       </section>
 
-      {/* LEAD */}
-      <section id="early-access" className="wrap py-12" aria-labelledby="lead">
-        <div className="grid gap-10 rounded-3xl bg-ink p-6 text-paper md:grid-cols-[1fr_1.1fr] md:p-12">
+      {/* PRIVATE PREVIEW: full-width night band */}
+      <section id="early-access" className="band-night scroll-mt-16 py-16 md:py-24" aria-labelledby="lead">
+        <div className="wrap grid gap-10 md:grid-cols-[1fr_1.1fr] md:items-center">
           <div>
-            <p className="eyebrow" style={{ color: 'inherit', opacity: 0.7 }}>Early access</p>
-            <h2 id="lead" className="h2 mt-2">Hear about launches before the price list moves.</h2>
-            <p className="mt-4 opacity-80">Tell us your budget and timeline. We’ll send the current price sheet, inventory status and our view on the corridor, usually within one working day.</p>
-            <div className="mt-6"><WhatsAppLink className="btn border border-paper/30 text-paper hover:border-paper" label="Chat on WhatsApp" /></div>
+            <p className="eyebrow">Private preview</p>
+            <h2 id="lead" className="h2 mt-3">Receive the price sheet before the price list moves.</h2>
+            <p className="mt-4 text-ink-2">Tell us your budget and timeline. An advisor sends the current price sheet, live inventory and our view on the corridor, usually within one working day.</p>
+            <ul className="mt-6 space-y-2 text-sm">
+              {['Current price sheet and payment plans', 'Inventory confirmed with the developer', 'No spam, and your number is never shared without consent'].map((t) => (
+                <li key={t} className="flex gap-2"><span aria-hidden className="text-brass">✦</span>{t}</li>
+              ))}
+            </ul>
+            <div className="mt-7"><WhatsAppLink className="cta-line" label="Or chat on WhatsApp" /></div>
           </div>
-          <div className="rounded-2xl bg-paper p-5 text-ink md:p-6">
+          <div className="card p-5 md:p-7">
             <LeadForm heading="" projects={all.map((p) => ({ slug: p.slug, name: p.name }))} source="home" />
           </div>
         </div>
-        <Disclaimer className="mt-6">{site.disclaimer}</Disclaimer>
       </section>
+      <div className="wrap py-8"><Disclaimer>{site.disclaimer}</Disclaimer></div>
     </>
   );
 }

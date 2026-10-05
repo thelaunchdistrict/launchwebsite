@@ -1,36 +1,44 @@
 # The Launch District QA report
 
-Generated 2026-10-05T15:37:26.285Z against `http://localhost:3300` · 85 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 1188 s
+Generated 2026-10-05T16:30:16.582Z against `http://localhost:3300` · 85 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 1033 s
 
 | Category | Errors | Warnings | Info |
 |---|---:|---:|---:|
-| Code hygiene | 0 | 1 | 0 |
+| Accessibility | 1 | 0 | 0 |
+| Code hygiene | 0 | 1 | 1 |
 | Content | 0 | 6 | 2 |
 | Data consistency | 0 | 0 | 3 |
 | Spelling | 0 | 0 | 7 |
-| UI/UX | 0 | 0 | 3 |
-| **Total** | **0** | **7** | **15** |
+| UI/UX | 0 | 0 | 4 |
+| **Total** | **1** | **7** | **17** |
 
 Severity: **error** = wrong or broken for users (fix before launch) · **warn** = inconsistent or weak · **info** = worth knowing; often caused by source data.
+
+## Accessibility
+
+| Sev | Check | Finding | Where | Evidence |
+|---|---|---|---|---|
+| 🔴 error | A01 scrollable-region-focusable | Scrollable region must have keyboard access | /projects/birla-arika-sector-31-nh8-gurgaon, /projects/elan-imperial-sector-82-gurgaon, /projects/yugen-golf-city | .overflow-x-auto.mt-6 |
 
 ## Code hygiene
 
 | Sev | Check | Finding | Where | Evidence |
 |---|---|---|---|---|
 | 🟠 warn | K05 placeholder config | Contact details in src/config/site.ts are still placeholders | src/config/site.ts |  |
+| ⚪ info | K04 raw colour | Hex colour outside the token config | src/app/globals.css:131 | --signal: #E3906B; --signal-soft: #3A2117; --on-signal: var(--night); --brass: var(--brass-bright);  |
 
 ## Content
 
 | Sev | Check | Finding | Where | Evidence |
 |---|---|---|---|---|
-| 🟠 warn | C02 placeholder | Placeholder text "placeholder" is visible | /, /projects, /projects/4s-the-aurrum-sector-59-gurgaon +82 more | © 2026 The Launch District (placeholder entity). @ footer.mt-24.border-t > div.border-t.hairline > div.wrap.space-y-2 > p ; Operator: The Launch District (placeholder entity). @ main#main > div.wrap.py-10 > div.prose-bra |
+| 🟠 warn | C02 placeholder | Placeholder text "placeholder" is visible | /, /projects, /projects/4s-the-aurrum-sector-59-gurgaon +82 more | © 2026 The Launch District (placeholder entity). @ footer.band-night.mt-16 > div.border-t.hairline > div.wrap.space-y-2 > p ; Operator: The Launch District (placeholder entity). @ main#main > div.wrap.py-10 > div.prose-b |
 | 🟠 warn | C02 placeholder | WhatsApp link points at the placeholder number | /, /projects/4s-the-aurrum-sector-59-gurgaon, /projects/adani-lushlands-gurgaon +59 more | https://wa.me/910000000000?text=Hi%20The%20Launch%20District |
 | 🟠 warn | C02 placeholder | Placeholder text "00000 00000" is visible | /contact | +91 00000 00000 @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.num |
 | 🟠 warn | C02 placeholder | Placeholder text "example.com" is visible | /contact, /privacy, /terms | hello@thelaunchdistrict.example.com @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.inline-flex ; hello@thelaunchdistrict.example.com @ div.wrap.py-10 > div.prose-brand.mt-10 > p > a.link |
 | 🟠 warn | C02 placeholder | Placeholder text "Placeholder" is visible | /disclaimer | The Launch District’s agent registration number will appear here once issued. [Placeholder: add the HARERA agent registr @ main#main > div.wrap.py-10 > div.prose-brand.mt-10 > p |
 | 🟠 warn | C06 inconsistent terminology | centre: "centre" ×151, "center" ×13 | /projects/elan-the-presidential-sector-106-gurgaon, /projects/emaar-amaris-sector-62-gurgaon, /projects/experion-the-trillion-sector-48-gurgaon | Minority form appears on 9 page(s) |
-| ⚪ info | C06 inconsistent terminology | sq ft: "sq ft" ×1100, "sq.ft" ×75, "sq. ft" ×6, "sqft" ×6 | /projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon | Minority form appears on 3 page(s) |
-| ⚪ info | C06 inconsistent terminology | ₹ format: "₹N␠Cr" ×849, "₹N␠L" ×70, "₹N␠Crore" ×3, "₹N␠Crores" ×3, "₹N␠Lakhs" ×1 | /, /projects, /projects/aipl-autograph-sector-66-gurgaon | Minority form appears on 1 page(s) |
+| ⚪ info | C06 inconsistent terminology | sq ft: "sq ft" ×1099, "sq.ft" ×75, "sq. ft" ×6, "sqft" ×6 | /projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon | Minority form appears on 3 page(s) |
+| ⚪ info | C06 inconsistent terminology | ₹ format: "₹N␠Cr" ×853, "₹N␠L" ×70, "₹N␠Crore" ×3, "₹N␠Crores" ×3, "₹N␠Lakhs" ×1 | /, /projects, /projects/aipl-autograph-sector-66-gurgaon | Minority form appears on 1 page(s) |
 
 ## Data consistency
 
@@ -57,6 +65,7 @@ Severity: **error** = wrong or broken for users (fix before launch) · **warn** 
 | Sev | Check | Finding | Where | Evidence |
 |---|---|---|---|---|
 | ⚪ info | U07 low-res image | Image shown at 584px but only 300px wide | /projects/adani-samsara-ivana-sector-63-gurgaon, /projects/aditya-birla-pravaah-sector-71-gurgaon, /projects/aipl-autograph-sector-66-gurgaon +15 more | http://localhost:3300/_next/image?url=%2Fmedia%2Fadani-samsara-ivana-sector-63-gurgaon%2Fgallery%2F0 ; http://localhost:3300/_next/image?url=%2Fmedia%2Faditya-birla-pravaah-sector-71-gurgaon%2Fgallery%2F |
+| ⚪ info | U09 clipped text | 1 element(s) clip their text | /projects/4s-the-aurrum-sector-59-gurgaon, /projects/adani-lushlands-gurgaon, /projects/adani-samsara-ivana-sector-63-gurgaon +57 more | section#developer > div.card.mt-6 > a.btn.btn-ghost «All 4S Developers projects» ; section#developer > div.card.mt-6 > a.btn.btn-ghost «All Adani Realty projects» |
 | ⚪ info | U12 touch target (documented exception) | 59 controls: map stations; every project is also reachable through a 44px card link | /, /markets, /markets/dwarka-expressway +6 more |  |
 | ⚪ info | U12 touch target (documented exception) | 1 controls: map stations; every project is also reachable through a 44px card link | /projects/4s-the-aurrum-sector-59-gurgaon, /projects/adani-lushlands-gurgaon, /projects/adani-samsara-ivana-sector-63-gurgaon +56 more |  |
 

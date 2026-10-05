@@ -163,6 +163,16 @@ export interface ProjectSummary {
   createdAt: string | null;
   featured: { rank: number; label: string } | null;
   locationLabel: string | null;
+  /** Recent, data-backed changes worth a returning visitor's attention. Never invented: each comes from a dated record. */
+  updates: ProjectUpdate[];
+  /** Latest date any fact was checked against the developer (ISO), or null. */
+  verifiedAt: string | null;
+}
+
+export interface ProjectUpdate {
+  key: 'new' | 'verified' | 'price';
+  label: string;
+  note: string;
 }
 
 export interface WebImage {

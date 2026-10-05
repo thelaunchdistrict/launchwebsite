@@ -27,7 +27,7 @@ export default function ContactPage() {
           </div>
         </div>
         <div id="early-access" className="card scroll-mt-24 p-5 md:p-8">
-          <LeadForm heading="Request early-access pricing" projects={summaries().map((p) => ({ slug: p.slug, name: p.name }))} source="contact" />
+          <LeadForm heading="Receive the private price sheet" projects={summaries().map((p) => ({ slug: p.slug, name: p.name }))} source="contact" />
         </div>
       </div>
     </div>

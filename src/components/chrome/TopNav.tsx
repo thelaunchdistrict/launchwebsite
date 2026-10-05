@@ -18,7 +18,7 @@ export function TopNav() {
   const { items } = useShortlist();
   return (
     <header className="sticky top-0 z-40 border-b hairline bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/80">
-      <div className="wrap flex h-16 items-center gap-6">
+      <div className="wrap flex h-16 items-center gap-3 md:gap-6">
         <Link href="/" className="-ml-1 flex min-h-11 items-center px-1" aria-label={`${site.name} home`}>
           <Logo />
         </Link>
@@ -45,8 +45,8 @@ export function TopNav() {
             <Icon name={items.length ? 'bookmarkFilled' : 'bookmark'} />
             {items.length > 0 && <span className="num absolute -right-1 -top-1 grid h-5 min-w-5 place-items-center rounded-full bg-ink px-1 text-[0.7rem] text-paper">{items.length}</span>}
           </Link>
-          <Link href="/contact#early-access" className="btn btn-primary">
-            Early access
+          <Link href="/contact#early-access" className="btn btn-primary px-4 sm:px-6">
+            <span className="sm:hidden">Preview</span><span className="hidden sm:inline">Private preview</span>
           </Link>
         </div>
       </div>

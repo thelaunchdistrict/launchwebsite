@@ -14,13 +14,13 @@ export function MapBase({ highlight }: { highlight?: string }) {
       </defs>
       <rect width={VIEW.w} height={VIEW.h} fill="url(#survey-grid)" opacity="0.7" />
       {/* sector numbers, for orientation */}
-      <g aria-hidden fontFamily="var(--font-mono)" fontSize="8" className="fill-ink-2" opacity="0.55" textAnchor="middle">
+      <g aria-hidden fontFamily="var(--font-sans)" fontSize="8" className="fill-ink-2" opacity="0.55" textAnchor="middle">
         {sectorLabels().map((s) => <text key={s.n} x={s.xy[0]} y={s.xy[1] + 3}>{s.n}</text>)}
       </g>
       {nh48 && (
         <g aria-hidden>
           <path d={nh48.d} fill="none" stroke="var(--rule-strong)" strokeWidth="9" strokeLinecap="round" strokeLinejoin="round" opacity="0.55" />
-          {nh48.anchor && <text x={nh48.anchor[0] + 10} y={nh48.anchor[1]} fontSize="11" fontFamily="var(--font-mono)" className="fill-ink-2" style={{ paintOrder: 'stroke', stroke: 'var(--paper)', strokeWidth: 3 }}>NH-48</text>}
+          {nh48.anchor && <text x={nh48.anchor[0] + 10} y={nh48.anchor[1]} fontSize="11" fontFamily="var(--font-sans)" className="fill-ink-2" style={{ paintOrder: 'stroke', stroke: 'var(--paper)', strokeWidth: 3 }}>NH-48</text>}
         </g>
       )}
       {corridors.map((r) => {
@@ -41,7 +41,7 @@ export function MapBase({ highlight }: { highlight?: string }) {
       {placeLabels().map((p) => (
         <g key={p.name} aria-hidden>
           {!p.edge && <circle cx={p.x} cy={p.y} r="2.5" className="fill-ink-2" />}
-          <text x={p.x + (p.edge ? 0 : p.flip ? -6 : 6)} y={p.y + 4} textAnchor={p.flip ? 'end' : 'start'} fontSize="11" fontFamily="var(--font-mono)" className="fill-ink-2" style={{ paintOrder: 'stroke', stroke: 'var(--paper)', strokeWidth: 3 }}>{p.name}</text>
+          <text x={p.x + (p.edge ? 0 : p.flip ? -6 : 6)} y={p.y + 4} textAnchor={p.flip ? 'end' : 'start'} fontSize="11" fontFamily="var(--font-sans)" className="fill-ink-2" style={{ paintOrder: 'stroke', stroke: 'var(--paper)', strokeWidth: 3 }}>{p.name}</text>
         </g>
       ))}
     </g>

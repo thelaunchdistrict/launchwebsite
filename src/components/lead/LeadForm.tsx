@@ -2,7 +2,9 @@
 import { useId, useState } from 'react';
 import { site } from '@/config/site';
 import { track } from '@/lib/track';
-import { WhatsAppLink } from './WhatsAppLink';
+import { useJourney } from '@/lib/shortlist';
+import { whatsappHref } from './WhatsAppLink';
+import { Icon } from '../Icon';
 
 type Errors = Partial<Record<'name' | 'phone' | 'consent' | 'form', string>>;
 
@@ -13,7 +15,7 @@ type Errors = Partial<Record<'name' | 'phone' | 'consent' | 'form', string>>;
 export function LeadForm({
   projects = [],
   defaultProject,
-  heading = 'Request early-access pricing',
+  heading = 'Receive the private price sheet',
   compact = false,
   source = 'site',
 }: {
@@ -25,6 +27,7 @@ export function LeadForm({
 }) {
   const id = useId();
   const [step, setStep] = useState<1 | 2 | 'done'>(1);
+  const journey = useJourney();
   const [busy, setBusy] = useState(false);
   const [errors, setErrors] = useState<Errors>({});
   const [v, setV] = useState({
@@ -68,6 +71,7 @@ export function LeadForm({
       });
       if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error || 'Something went wrong.');
       track('generate_lead', { project: v.project || 'general', budget: v.budget });
+      journey.add('price-sheet');
       setStep('done');
     } catch (err) {
       setErrors({ form: err instanceof Error ? err.message : 'Something went wrong. Please try WhatsApp instead.' });
@@ -79,11 +83,17 @@ export function LeadForm({
   if (step === 'done') {
     return (
       <div className="space-y-3" role="status" aria-live="polite">
-        <p className="h3">Thanks — you’re on the list.</p>
+        <p className="h3">Your price sheet is on its way.</p>
         <p className="text-sm text-ink-2">
-          An advisor will call within one working day{projectName ? ` with the current price sheet for ${projectName}` : ''}. Prefer chat?
+          An advisor will call within one working day{projectName ? ` with the current price sheet for ${projectName}` : ''}.
         </p>
-        <WhatsAppLink projectName={projectName} className="btn btn-ghost" />
+        <div className="border-t hairline pt-3">
+          <p className="eyebrow">Next step</p>
+          <p className="mt-1 text-sm text-ink-2">Seeing the site settles most questions. Pick a time that suits you on WhatsApp.</p>
+          <a href={whatsappHref(projectName, 'visit')} target="_blank" rel="noopener noreferrer" className="btn btn-ghost mt-3" onClick={() => journey.add('visit')}>
+            <Icon name="whatsapp" /> Plan a site visit<span className="sr-only"> (opens WhatsApp)</span>
+          </a>
+        </div>
       </div>
     );
   }
@@ -158,7 +168,7 @@ export function LeadForm({
           <button type="button" className="btn btn-ghost" onClick={() => setStep(1)}>Back</button>
         )}
         <button type="submit" className="btn btn-primary" disabled={busy}>
-          {step === 1 ? 'Continue' : busy ? 'Sending…' : 'Get early-access pricing'}
+          {step === 1 ? 'Continue' : busy ? 'Sending…' : 'Send me the price sheet'}
         </button>
       </div>
       <p className="text-xs text-ink-2">No spam. We never share your number with developers without asking.</p>
