@@ -6,22 +6,22 @@ type Mode = 'system' | 'light' | 'dark';
 function applyTheme(m: Mode) {
   const root = document.documentElement;
   try {
-    if (m === 'system') { localStorage.removeItem('tld-theme'); root.removeAttribute('data-theme'); }
+    if (m === 'light') { localStorage.removeItem('tld-theme'); root.removeAttribute('data-theme'); }
     else { localStorage.setItem('tld-theme', m); root.setAttribute('data-theme', m); }
   } catch {
     // Storage unavailable: still apply for this page view.
-    if (m === 'system') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', m);
+    if (m === 'light') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', m);
   }
 }
 
-/** Appearance override. Default is System (HIG discourages app-specific appearance settings), so this lives in the footer. */
+/** Appearance override. Default is Light; visitors can switch to Dark or follow their System setting. Lives in the footer. */
 export function ThemeSwitch() {
-  const [mode, setMode] = useState<Mode>('system');
+  const [mode, setMode] = useState<Mode>('light');
   useEffect(() => {
     try {
       const t = localStorage.getItem('tld-theme');
       // eslint-disable-next-line react-hooks/set-state-in-effect -- read persisted preference after hydration
-      if (t === 'light' || t === 'dark') setMode(t);
+      if (t === 'system' || t === 'dark') setMode(t);
     } catch { /* ignore */ }
   }, []);
   const set = (m: Mode) => {
@@ -33,7 +33,7 @@ export function ThemeSwitch() {
       <legend className="sr-only">Appearance</legend>
       <span className="text-sm text-ink-2" aria-hidden>Appearance</span>
       <div className="inline-flex rounded-full border hairline p-0.5">
-        {(['system', 'light', 'dark'] as Mode[]).map((m) => (
+        {(['light', 'dark', 'system'] as Mode[]).map((m) => (
           <label key={m} className={`cursor-pointer rounded-full px-3 py-2 text-sm capitalize min-h-11 flex items-center has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-focus ${mode === m ? 'bg-ink text-paper' : 'text-ink-2 hover:text-ink'}`}>
             <input type="radio" name="theme" value={m} checked={mode === m} onChange={() => set(m)} className="sr-only" />
             {m}

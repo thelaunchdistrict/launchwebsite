@@ -63,8 +63,8 @@ export const site = {
   },
 
   analytics: {
-    // Off unless the env vars are set.
-    ga4Id: process.env.NEXT_PUBLIC_GA4_ID || '',
+    // GA4 uses the property below unless NEXT_PUBLIC_GA4_ID overrides it. Meta Pixel is off unless its env var is set.
+    ga4Id: process.env.NEXT_PUBLIC_GA4_ID || 'G-M9FV3ZFH8Y',
     metaPixelId: process.env.NEXT_PUBLIC_META_PIXEL_ID || '',
   },
 

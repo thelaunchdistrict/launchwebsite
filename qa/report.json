@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-04T07:35:04.325Z",
+ "generatedAt": "2026-10-05T15:37:26.279Z",
  "base": "http://localhost:3300",
  "pages": 85,
  "findings": [
@@ -246,20 +246,6 @@
    ],
    "evidences": [
     "Minority form appears on 9 page(s)"
-   ]
-  },
-  {
-   "sev": "warn",
-   "cat": "SEO & structure",
-   "check": "C07 title length",
-   "msg": "Title is 71 chars (search results cut at ~60–70)",
-   "page": "/insights/due-diligence-checklist-under-construction",
-   "evidence": "Due-diligence checklist: under-construction homes · The Launch District",
-   "pages": [
-    "/insights/due-diligence-checklist-under-construction"
-   ],
-   "evidences": [
-    "Due-diligence checklist: under-construction homes · The Launch District"
    ]
   },
   {

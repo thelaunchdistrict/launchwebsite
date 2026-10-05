@@ -206,6 +206,7 @@ async function main() {
   // Pass 2/3 — mobile light + dark: layout, touch targets, colour contrast in both themes
   for (const scheme of ['light', 'dark']) {
     const ctx = await browser.newContext({ viewport: { width: 375, height: 812 }, colorScheme: scheme, isMobile: true, hasTouch: true, reducedMotion: 'reduce' });
+    if (scheme === 'dark') await ctx.addInitScript(() => { try { localStorage.setItem('tld-theme', 'dark'); } catch { /* ignore */ } });
     const page = await ctx.newPage();
     let i = 0;
     for (const p of paths) {
@@ -227,6 +228,7 @@ async function main() {
   // Pass 4 — desktop dark: contrast
   {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 860 }, colorScheme: 'dark', reducedMotion: 'reduce' });
+    await ctx.addInitScript(() => { try { localStorage.setItem('tld-theme', 'dark'); } catch { /* ignore */ } });
     const page = await ctx.newPage();
     for (const p of paths) {
       const res = await page.goto(BASE + p, { waitUntil: 'networkidle' }).catch(() => null);

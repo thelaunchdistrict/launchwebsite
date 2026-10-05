@@ -55,7 +55,8 @@
   }
   p { text-wrap: pretty; }
   img { color: transparent; }
-  [data-theme="dark"] img.photo, :root:not([data-theme="light"]) img.photo { outline-color: var(--rule); }
+  [data-theme="dark"] img.photo { outline-color: var(--rule); }
+  @media (prefers-color-scheme: dark) { [data-theme="system"] img.photo { outline-color: var(--rule); } }
 }
 
 @layer components {

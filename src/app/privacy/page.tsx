@@ -11,7 +11,7 @@ export default function PrivacyPage() {
       <ul>
         <li><strong>Enquiries:</strong> name, mobile number, budget, timeline and project interest, but only when you submit a form.</li>
         <li><strong>On your device only:</strong> your shortlist, compare list and appearance preference live in your browser’s local storage and are never sent to us.</li>
-        <li><strong>Analytics:</strong> only if enabled by the operator (Google Analytics 4 / Meta Pixel), for aggregate usage and ad measurement.</li>
+        <li><strong>Analytics:</strong> Google Analytics 4 (IP addresses anonymised) for aggregate usage statistics. Meta Pixel is used only if enabled by the operator for ad measurement.</li>
       </ul>
       <h2>Why</h2>
       <p>To respond to your enquiry, share pricing and inventory, and arrange site visits. We share your details with a developer only for the project you asked about and with your consent.</p>

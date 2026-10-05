@@ -28,19 +28,18 @@ export const viewport: Viewport = {
   initialScale: 1,
   viewportFit: 'cover',
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: site.colors.light.paper },
-    { media: '(prefers-color-scheme: dark)', color: site.colors.dark.paper },
+    { color: site.colors.light.paper },
   ],
 };
 
 const kebab = (k: string) => k.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`);
 const vars = (o: Record<string, string>) => Object.entries(o).map(([k, v]) => `--${kebab(k)}:${v}`).join(';');
 const themeCss = `:root{${vars(site.colors.light)};color-scheme:light}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){${vars(site.colors.dark)};color-scheme:dark}}
+@media (prefers-color-scheme: dark){:root[data-theme="system"]{${vars(site.colors.dark)};color-scheme:dark}}
 :root[data-theme="dark"]{${vars(site.colors.dark)};color-scheme:dark}`;
 
 // Runs before paint so a stored appearance override never flashes.
-const themeScript = `try{var t=localStorage.getItem('tld-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}`;
+const themeScript = `try{var t=localStorage.getItem('tld-theme');if(t==='light'||t==='dark'||t==='system')document.documentElement.dataset.theme=t}catch(e){}`;
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (

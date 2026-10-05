@@ -1,16 +1,15 @@
 # The Launch District QA report
 
-Generated 2026-10-04T07:35:04.327Z against `http://localhost:3300` · 85 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 509 s
+Generated 2026-10-05T15:37:26.285Z against `http://localhost:3300` · 85 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 1188 s
 
 | Category | Errors | Warnings | Info |
 |---|---:|---:|---:|
 | Code hygiene | 0 | 1 | 0 |
 | Content | 0 | 6 | 2 |
 | Data consistency | 0 | 0 | 3 |
-| SEO & structure | 0 | 1 | 0 |
 | Spelling | 0 | 0 | 7 |
 | UI/UX | 0 | 0 | 3 |
-| **Total** | **0** | **8** | **15** |
+| **Total** | **0** | **7** | **15** |
 
 Severity: **error** = wrong or broken for users (fix before launch) · **warn** = inconsistent or weak · **info** = worth knowing; often caused by source data.
 
@@ -40,12 +39,6 @@ Severity: **error** = wrong or broken for users (fix before launch) · **warn** 
 | ⚪ info | D07 stale possession | Under construction but stated possession Jun 2026 has passed — page flags it in the due-diligence checklist | /projects/elan-empire-sector-66-gurgaon |  |
 | ⚪ info | D07 stale possession | Under construction but stated possession Sep 2026 has passed — page flags it in the due-diligence checklist | /projects/elan-paradise-sector-50-gurgaon |  |
 | ⚪ info | D08 config table | Source lists 2407 sq ft for both 3 BHK and 4 BHK — page shows a verification note | /projects/4s-the-aurrum-sector-59-gurgaon |  |
-
-## SEO & structure
-
-| Sev | Check | Finding | Where | Evidence |
-|---|---|---|---|---|
-| 🟠 warn | C07 title length | Title is 71 chars (search results cut at ~60–70) | /insights/due-diligence-checklist-under-construction | Due-diligence checklist: under-construction homes · The Launch District |
 
 ## Spelling
 
