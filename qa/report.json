@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T08:43:23.673Z",
+ "generatedAt": "2026-10-06T08:51:48.760Z",
  "base": "http://localhost:3300",
  "pages": 27,
  "findings": [
@@ -71,20 +71,6 @@
    ],
    "evidences": [
     "https://wa.me/910000000000?text=Hi%20The%20Launch%20District"
-   ]
-  },
-  {
-   "sev": "warn",
-   "cat": "Content",
-   "check": "C02 placeholder",
-   "msg": "Placeholder text \"00000 00000\" is visible",
-   "page": "/contact",
-   "evidence": "+91 00000 00000 @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.num",
-   "pages": [
-    "/contact"
-   ],
-   "evidences": [
-    "+91 00000 00000 @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.num"
    ]
   },
   {

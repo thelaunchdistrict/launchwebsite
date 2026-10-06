@@ -13,10 +13,9 @@ export const site = {
   city: 'Gurugram',
 
   contact: {
-    // Placeholders — replace before launch.
-    phone: '+91 00000 00000',
-    phoneHref: 'tel:+910000000000',
-    whatsapp: '910000000000', // digits only, with country code, for wa.me links
+    // No phone number is ever shown on the site: visitors leave their details or message on WhatsApp.
+    // Placeholder: replace before launch. Digits only, with country code; used only inside wa.me links.
+    whatsapp: '910000000000',
     email: 'hello@thelaunchdistrict.example.com',
     address: 'Gurugram, Haryana, India',
     hours: 'Mon–Sat, 10:00–19:00 IST',

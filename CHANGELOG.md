@@ -11,6 +11,7 @@ All notable changes to The Launch District are recorded here. The format follows
 - Readability pass across the site: labels, form labels, table headers, tags and buttons are larger with less letter spacing; the serif uses a sturdier cut below 20 px; map labels are larger and heavier.
 - The due-diligence checklist is now a single **Verified** row above the project gallery: confirmed items as chips, then a "N to verify" dropdown menu listing everything still to check or missing.
 - The configurations and pricing table shows three different configurations up front, with a "Show N more" toggle for the rest.
+- **No phone number on the site.** The contact page no longer shows a number or a Call button, and the number is removed from the structured data and the config. Visitors leave their details in the form or message on WhatsApp.
 
 ### Added
 - `npm run map:webp` script and an export-only page (404 on the live site) that renders the map base for it.
