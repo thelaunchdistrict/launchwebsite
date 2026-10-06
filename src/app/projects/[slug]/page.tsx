@@ -184,11 +184,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
           Listed status: {statusLabel(p.status)}{p.marketingStage ? ` · Listing text says “${p.marketingStage.replace('-', ' ')}”` : ''}{s.stage.basis === 'derived' ? ' · Position estimated from the stated possession date' : ''}.
         </p>
 
-        <VerificationPanel
-          className="mt-6"
-          checks={checks}
-          verifiedOn={s.verifiedAt ? new Date(s.verifiedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) : null}
-        />
+        <VerificationPanel className="mt-5" checks={checks} />
 
         <div className="mt-6"><Gallery items={gallery} name={name} /></div>
 

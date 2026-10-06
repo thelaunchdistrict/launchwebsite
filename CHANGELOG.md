@@ -9,7 +9,7 @@ All notable changes to The Launch District are recorded here. The format follows
 - Headings (h1–h3 and large serif text) are easier to read: Bodoni's optical size is pinned to a sturdier cut, weight is 500, and tracking and line height are looser.
 
 - Readability pass across the site: labels, form labels, table headers, tags and buttons are larger with less letter spacing; the serif uses a sturdier cut below 20 px; map labels are larger and heavier.
-- The due-diligence checklist is now a compact **Verification** panel above the project gallery: confirmed items as chips, with a dropdown listing everything still to verify or missing.
+- The due-diligence checklist is now a single **Verified** row above the project gallery: confirmed items as chips, then a "N to verify" dropdown menu listing everything still to check or missing.
 
 ### Added
 - `npm run map:webp` script and an export-only page (404 on the live site) that renders the map base for it.
