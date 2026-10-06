@@ -25,13 +25,13 @@ export function Gallery({ items, name }: { items: GalleryItem[]; name: string })
   };
   return (
     <>
-      <div className="grid h-[52vw] max-h-[560px] min-h-[260px] grid-cols-4 grid-rows-2 gap-1.5 overflow-hidden rounded-[4px] md:gap-2">
+      <div className="grid h-[52vw] max-h-[560px] min-h-[260px] grid-cols-4 grid-rows-2 gap-1.5 md:gap-2">
         {shown.map((it, i) => (
           <button
             key={it.src}
             type="button"
             onClick={() => setOpen(i)}
-            className={`group relative overflow-hidden bg-sunk focus-visible:z-10 ${cell(i)}`}
+            className={`group relative overflow-hidden rounded-[14px] bg-sunk focus-visible:z-10 ${cell(i)}`}
             aria-label={`Open photo ${i + 1} of ${items.length}: ${it.alt}`}
           >
             <Image src={it.src} alt="" fill priority={i === 0} sizes={i === 0 ? '(min-width: 768px) 620px, 100vw' : '300px'} className="object-cover transition-transform duration-300 group-hover:scale-[1.02]" />

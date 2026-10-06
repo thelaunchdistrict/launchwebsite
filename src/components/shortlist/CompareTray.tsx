@@ -10,7 +10,7 @@ export function CompareTray() {
   const path = usePathname();
   if (!items.length || path.startsWith('/compare')) return null;
   return (
-    <aside aria-label="Compare tray" className="band-night fixed inset-x-3 bottom-[4.5rem] z-40 mx-auto max-w-xl rounded-[4px] p-3 shadow-2xl md:bottom-5" style={{ animation: 'fade-in .2s both' }}>
+    <aside aria-label="Compare tray" className="band-night fixed inset-x-3 bottom-[4.5rem] z-40 mx-auto max-w-xl rounded-[18px] p-3 shadow-2xl md:bottom-5" style={{ animation: 'fade-in .2s both' }}>
       <div className="flex items-center gap-3">
         <div className="text-sm">
           <p>{items.length < 2 ? `Add ${2 - items.length} more to compare` : `${items.length} ready to compare`}</p>
@@ -20,7 +20,7 @@ export function CompareTray() {
         </div>
         <ul className="hidden min-w-0 flex-1 gap-1 sm:flex">
           {items.map((s) => (
-            <li key={s} className="flex min-w-0 items-center rounded-[2px] bg-ink/10 pl-3 text-xs">
+            <li key={s} className="flex min-w-0 items-center rounded-[8px] bg-ink/10 pl-3 text-xs">
               <span className="truncate">{s.replace(/-sector.*|-gurgaon.*/, '').replace(/-/g, ' ')}</span>
               <button type="button" onClick={() => remove(s)} className="grid h-11 w-9 place-items-center" aria-label={`Remove ${s} from compare`}>
                 <Icon name="close" size={14} />

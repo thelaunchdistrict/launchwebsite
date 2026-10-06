@@ -36,7 +36,7 @@ export function CardActions({ slug, name, variant = 'icon' }: { slug: string; na
         <Icon name="compare" />
         {full && (comparing ? 'Comparing' : 'Compare')}
       </button>
-      <span role="status" aria-live="polite" className={msg ? 'absolute bottom-full right-0 mb-2 w-56 rounded-lg bg-ink p-2 text-xs text-paper' : 'sr-only'}>
+      <span role="status" aria-live="polite" className={msg ? 'absolute bottom-full right-0 mb-2 w-56 rounded-[12px] bg-ink p-2 text-xs text-paper' : 'sr-only'}>
         {msg}
       </span>
     </div>

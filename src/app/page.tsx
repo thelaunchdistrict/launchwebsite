@@ -86,7 +86,7 @@ export default function Home() {
       {/* WHY EARLY */}
       <section className="wrap pb-16 md:pb-24" aria-labelledby="why">
         <SectionHead id="why" eyebrow="The case, and the catch" title="Why invest early?" />
-        <div className="grid gap-px overflow-hidden rounded-[4px] border hairline bg-rule md:grid-cols-3">
+        <div className="grid gap-px overflow-hidden rounded-[18px] border hairline bg-rule md:grid-cols-3">
           {[
             ['01', 'Lower entry price', 'Launch-phase price lists are usually the lowest a project will see. Developers price early tranches to build momentum and fund construction.', 'Launch pricing is not guaranteed to be below resale later. Check comparable ₹/sq ft in the same sector.'],
             ['02', 'Staggered payments', 'Construction-linked plans spread payments over 3–5 years, so your capital is deployed gradually rather than on day one.', 'Possession-linked and subvention plans shift risk. Read who pays the interest if the project slips.'],

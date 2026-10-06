@@ -143,7 +143,7 @@ export function LeadForm({
           <div>
             <label className="label" htmlFor={`${id}-phone`}>Mobile</label>
             <div className="flex">
-              <span className="inline-flex items-center rounded-l-[10px] border border-r-0 border-rule-strong bg-sunk px-3 text-ink-2 num" aria-hidden>+91</span>
+              <span className="inline-flex items-center rounded-l-[12px] border border-r-0 border-rule-strong bg-sunk px-3 text-ink-2 num" aria-hidden>+91</span>
               <input id={`${id}-phone`} className="field rounded-l-none" type="tel" inputMode="tel" autoComplete="tel-national" placeholder="98xxxxxxxx" value={v.phone} onChange={set('phone')} aria-invalid={!!errors.phone} aria-describedby={errors.phone ? `${id}-phone-err` : undefined} />
             </div>
             {errors.phone && <p id={`${id}-phone-err`} className="mt-1 text-sm text-signal">⚠ {errors.phone}</p>}

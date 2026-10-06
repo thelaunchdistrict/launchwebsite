@@ -13,6 +13,7 @@ All notable changes to The Launch District are recorded here. The format follows
 - The configurations and pricing table shows three different configurations up front, with a "Show N more" toggle for the rest.
 - **No phone number or email on the site.** The contact page no longer shows a number, a Call button or an email address; privacy and content-removal requests go through WhatsApp; both are removed from the structured data and the config. Visitors leave their details in the form or message on WhatsApp.
 - **About page rewritten** around the site's purpose: a curated, live portfolio of pre-launch and early-construction projects for early investors, updated as the market moves. Covers who it is for, how projects are chosen, how to work with us, principles and how we are paid.
+- **Softer corners site-wide:** 18 px for cards, panels and image tiles, 12 px for buttons, fields and menus, 8 px for tags and chips (was 2–4 px).
 
 ### Added
 - **Complete meta, Open Graph and canonical tags on every page** via a shared `pageMeta()` helper: title, description, canonical, og:title/description/url/type/site_name/locale/image and a Twitter large-image card. Branded 1200×630 share cards (`npm run og`): a default card and one per project with photo, name, location, price and possession. Browsers no longer auto-link numbers or emails.

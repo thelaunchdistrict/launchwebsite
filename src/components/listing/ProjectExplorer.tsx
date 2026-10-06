@@ -85,12 +85,12 @@ export function ProjectExplorer({ projects, options, map }: { projects: ProjectS
             <Icon name="filter" /> Filters{n ? ` (${n})` : ''}
           </button>
           <label className="sr-only" htmlFor="sort">Sort by</label>
-          <select id="sort" className="field order-last w-full rounded-[2px] py-2 pr-8 text-sm sm:order-none sm:w-auto" value={sort} onChange={(e) => setSort(e.target.value as SortKey)}>
+          <select id="sort" className="field order-last w-full rounded-[12px] py-2 pr-8 text-sm sm:order-none sm:w-auto" value={sort} onChange={(e) => setSort(e.target.value as SortKey)}>
             {Object.entries(SORTS).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
           </select>
-          <div role="group" aria-label="View" className="inline-flex rounded-[2px] border hairline p-0.5">
+          <div role="group" aria-label="View" className="inline-flex rounded-[12px] border hairline p-0.5">
             {(['grid', 'map'] as const).map((v) => (
-              <button key={v} type="button" aria-pressed={view === v} onClick={() => setView(v)} className={`flex min-h-11 items-center gap-1.5 rounded-[2px] px-3 text-sm capitalize ${view === v ? 'bg-ink text-paper' : 'text-ink-2 hover:text-ink'}`}>
+              <button key={v} type="button" aria-pressed={view === v} onClick={() => setView(v)} className={`flex min-h-11 items-center gap-1.5 rounded-[9px] px-3 text-sm capitalize ${view === v ? 'bg-ink text-paper' : 'text-ink-2 hover:text-ink'}`}>
                 <Icon name={v === 'grid' ? 'grid' : 'map'} size={16} /> {v}
               </button>
             ))}
@@ -195,7 +195,7 @@ function FilterPanel({ f, options, upd, toggleIn }: {
         </div>
       </div>
 
-      <label className="flex min-h-11 cursor-pointer items-center justify-between gap-3 rounded-[4px] border border-signal bg-signal-soft px-3">
+      <label className="flex min-h-11 cursor-pointer items-center justify-between gap-3 rounded-[12px] border border-signal bg-signal-soft px-3">
         <span className="text-sm font-medium">Early-entry only</span>
         <input type="checkbox" role="switch" className="h-5 w-5 accent-[var(--signal)]" checked={f.early} onChange={(e) => upd('early', e.target.checked)} />
       </label>

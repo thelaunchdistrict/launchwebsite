@@ -94,7 +94,7 @@ export default function AboutPage() {
           <p className="eyebrow">How a project makes the cut</p>
           <h2 id="choose" className="h2 mt-2">Four questions before anything goes on the site</h2>
         </div>
-        <ol className="grid gap-px overflow-hidden rounded-[4px] border hairline bg-rule md:grid-cols-4">
+        <ol className="grid gap-px overflow-hidden rounded-[18px] border hairline bg-rule md:grid-cols-4">
           {[
             ['Is it early?', 'Pre-launch, launch or early construction, with a real runway to possession.'],
             ['Is it registered?', 'A RERA registration we can point to, or a clear note where one is still pending.'],

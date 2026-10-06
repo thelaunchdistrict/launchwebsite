@@ -94,7 +94,8 @@ Defined in [`src/config/site.ts`](src/config/site.ts) (tokens) and [`src/app/glo
 Light is the default appearance. Dark and System are available in the footer, and the choice is remembered.
 
 **Components.**
-- Buttons have 2 px corners and tracked capitals. On hover, the colour sweeps across and the arrow moves forward.
+- Corners are soft and consistent: 18 px for cards, panels and image tiles; 12 px for buttons, fields and menus; 8 px for tags and chips.
+- Buttons use tracked capitals. On hover, the colour sweeps across and the arrow moves forward.
 - Secondary actions are text links (`.cta-line`) whose brass underline grows on hover.
 - Tags (`.tag`, `.tag-early`, `.tag-hero`, `.tag-brass`) always combine text with a shape, never colour alone.
 - Sections alternate paper, stone (`.band-stone`) and night (`.band-night`). Night bands re-point the theme tokens, so anything placed inside adapts automatically.

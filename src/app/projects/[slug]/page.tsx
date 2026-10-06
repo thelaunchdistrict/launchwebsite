@@ -168,7 +168,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
         {p.supersededBy && (() => {
           const next = getProject(p.supersededBy);
           return next ? (
-            <div role="note" className="mt-4 flex flex-wrap items-center gap-3 rounded-[4px] border border-signal bg-signal-soft p-4 text-sm">
+            <div role="note" className="mt-4 flex flex-wrap items-center gap-3 rounded-[12px] border border-signal bg-signal-soft p-4 text-sm">
               <Icon name="info" size={18} className="shrink-0" />
               <span className="flex-1">This is an older public listing of the same township. The current, developer-sourced listing has newer prices, phases and RERA details.</span>
               <Link href={`/projects/${next.slug}`} className="btn btn-primary">Go to {next.name}</Link>
