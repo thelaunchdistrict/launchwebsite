@@ -12,6 +12,7 @@ All notable changes to The Launch District are recorded here. The format follows
 - The due-diligence checklist is now a single **Verified** row above the project gallery: confirmed items as chips, then a "N to verify" dropdown menu listing everything still to check or missing.
 - The configurations and pricing table shows three different configurations up front, with a "Show N more" toggle for the rest.
 - **No phone number on the site.** The contact page no longer shows a number or a Call button, and the number is removed from the structured data and the config. Visitors leave their details in the form or message on WhatsApp.
+- **About page rewritten** around the site's purpose: a curated, live portfolio of pre-launch and early-construction projects for early investors, updated as the market moves. Covers who it is for, how projects are chosen, how to work with us, principles and how we are paid.
 
 ### Added
 - `npm run map:webp` script and an export-only page (404 on the live site) that renders the map base for it.

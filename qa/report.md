@@ -1,6 +1,6 @@
 # The Launch District QA report
 
-Generated 2026-10-06T08:51:48.762Z against `http://localhost:3300` · 27 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 200 s
+Generated 2026-10-06T09:00:55.325Z against `http://localhost:3300` · 27 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 196 s
 
 | Category | Errors | Warnings | Info |
 |---|---:|---:|---:|
@@ -25,7 +25,7 @@ Severity: **error** = wrong or broken for users (fix before launch) · **warn** 
 | Sev | Check | Finding | Where | Evidence |
 |---|---|---|---|---|
 | 🟠 warn | C02 placeholder | Placeholder text "placeholder" is visible | /, /projects, /markets +24 more | © 2026 The Launch District (placeholder entity). @ footer.band-night.mt-16 > div.border-t.hairline > div.wrap.space-y-2 > p ; Operator: The Launch District (placeholder entity). @ main#main > div.wrap.py-10 > div.prose-b |
-| 🟠 warn | C02 placeholder | WhatsApp link points at the placeholder number | /, /contact, /projects/4s-the-aurrum-sector-59-gurgaon +1 more | https://wa.me/910000000000?text=Hi%20The%20Launch%20District |
+| 🟠 warn | C02 placeholder | WhatsApp link points at the placeholder number | /, /about, /contact +2 more | https://wa.me/910000000000?text=Hi%20The%20Launch%20District |
 | 🟠 warn | C02 placeholder | Placeholder text "example.com" is visible | /contact, /privacy, /terms | hello@thelaunchdistrict.example.com @ dl.divide-y.divide-rule > div.flex.items-center > dd > a.link.inline-flex ; hello@thelaunchdistrict.example.com @ div.wrap.py-10 > div.prose-brand.mt-10 > p > a.link |
 | 🟠 warn | C02 placeholder | Placeholder text "Placeholder" is visible | /disclaimer | The Launch District’s agent registration number will appear here once issued. [Placeholder: add the HARERA agent registr @ main#main > div.wrap.py-10 > div.prose-brand.mt-10 > p |
 | ⚪ info | C06 inconsistent terminology | ₹ format: "₹N␠Cr" ×377, "₹N␠L" ×37 | /, /projects, /markets | Minority form appears on 8 page(s) |

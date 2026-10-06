@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T08:51:48.760Z",
+ "generatedAt": "2026-10-06T09:00:55.322Z",
  "base": "http://localhost:3300",
  "pages": 27,
  "findings": [
@@ -65,6 +65,7 @@
    "evidence": "https://wa.me/910000000000?text=Hi%20The%20Launch%20District",
    "pages": [
     "/",
+    "/about",
     "/contact",
     "/projects/4s-the-aurrum-sector-59-gurgaon",
     "/projects/adani-lushlands-gurgaon"
