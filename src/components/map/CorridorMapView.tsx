@@ -78,10 +78,10 @@ export function CorridorMapView({
         <div aria-live="polite" className="pointer-events-none absolute right-2 top-2 w-64 max-w-[60%]">
           {current && (
             <div className="card p-3 text-sm shadow-lg">
-              <p className="font-display text-lg leading-tight">{current.name}</p>
+              <p className="display-sm font-display text-lg leading-tight">{current.name}</p>
               <p className="text-xs text-ink-2">{current.developer} · {current.locationLabel}{current.marketName ? ` · ${current.marketName}` : ''}</p>
               <p className="num mt-2 text-xs">From {inr(current.priceFrom)} · {psf(current.psf)}/sq ft · {monthYear(current.possession)}</p>
-              {currentNote && <p className="mt-1 text-[0.6875rem] text-ink-2">{currentNote}</p>}
+              {currentNote && <p className="mt-1 text-xs text-ink-2">{currentNote}</p>}
             </div>
           )}
         </div>

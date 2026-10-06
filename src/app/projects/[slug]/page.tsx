@@ -11,6 +11,7 @@ import { Gallery } from '@/components/project/Gallery';
 import { FloorPlans } from '@/components/project/FloorPlans';
 import { EntryRail } from '@/components/project/EntryRail';
 import { Badges, UpdateTags } from '@/components/project/Badges';
+import { VerificationPanel } from '@/components/project/VerificationPanel';
 import { CardActions } from '@/components/project/CardActions';
 import { ProjectCard } from '@/components/project/ProjectCard';
 import { StickyCTA } from '@/components/project/StickyCTA';
@@ -183,7 +184,13 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
           Listed status: {statusLabel(p.status)}{p.marketingStage ? ` · Listing text says “${p.marketingStage.replace('-', ' ')}”` : ''}{s.stage.basis === 'derived' ? ' · Position estimated from the stated possession date' : ''}.
         </p>
 
-        <div className="mt-8"><Gallery items={gallery} name={name} /></div>
+        <VerificationPanel
+          className="mt-6"
+          checks={checks}
+          verifiedOn={s.verifiedAt ? new Date(s.verifiedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) : null}
+        />
+
+        <div className="mt-6"><Gallery items={gallery} name={name} /></div>
 
         {/* KEY FACTS BAR */}
         <dl className="mt-8 grid grid-cols-2 border-y border-ink sm:grid-cols-3 lg:grid-cols-6">
@@ -313,19 +320,6 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
               </>
             )}
 
-            <h3 className="h3 mt-10">Due-diligence checklist</h3>
-            <p className="mt-1 text-sm text-ink-2">For information only, built from what is published. Unknown means the source does not say.</p>
-            <ul className="mt-4 divide-y divide-rule border-y hairline">
-              {checks.map((c) => (
-                <li key={c.label} className="grid grid-cols-[auto_1fr] gap-3 py-3">
-                  <span className={`mt-0.5 inline-flex h-6 items-center gap-1 rounded-full px-2 text-xs font-medium border ${c.state === 'ok' ? 'border-positive text-ink [&>svg]:text-positive' : c.state === 'caution' ? 'border-caution text-ink [&>svg]:text-caution' : 'border-rule-strong text-ink-2'}`}>
-                    <Icon name={c.state === 'ok' ? 'check' : c.state === 'caution' ? 'alert' : 'question'} size={14} />
-                    {c.state === 'ok' ? 'Published' : c.state === 'caution' ? 'Check' : 'Unknown'}
-                  </span>
-                  <div className="min-w-0 [overflow-wrap:anywhere]"><p className="font-medium">{c.label}</p><p className="text-sm text-ink-2">{c.detail}</p></div>
-                </li>
-              ))}
-            </ul>
             {!isBoilerplate(p.content.investmentCommentary) && (
               <div className="prose-brand mt-6 text-ink-2">{paragraphs(p.content.investmentCommentary).map((t) => <p key={t}>{t}</p>)}</div>
             )}

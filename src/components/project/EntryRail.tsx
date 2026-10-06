@@ -35,7 +35,7 @@ export function EntryRail({ stage, size = 'sm', className = '' }: { stage: Stage
           style={{ left: `${pct}%` }}
         />
       </div>
-      <div aria-hidden className={`mt-2 grid grid-cols-4 ${lg ? 'text-xs' : 'text-[0.6875rem]'} text-ink-2`}>
+      <div aria-hidden className={`mt-2 grid grid-cols-4 ${lg ? 'text-xs' : 'text-xs'} text-ink-2`}>
         {RAIL_STATIONS.map((s, i) => (
           <span key={s} className={i === 0 ? 'text-left' : i === 3 ? 'text-right' : 'text-center'}>{s}</span>
         ))}

@@ -1,0 +1,13 @@
+import { chromium } from 'playwright';
+import sharp from 'sharp';
+const browser = await chromium.launch();
+const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 }, deviceScaleFactor: 2, colorScheme: 'light', reducedMotion: 'reduce' });
+const page = await ctx.newPage();
+await page.goto('http://localhost:3200/', { waitUntil: 'networkidle' });
+const fig = page.locator('figure').filter({ has: page.locator('svg') }).first();
+await fig.scrollIntoViewIfNeeded();
+const png = await fig.screenshot();
+const out = 'C:/moondesk/falcon/exports/corridor-map.webp';
+const info = await sharp(png).webp({ quality: 92, effort: 6 }).toFile(out);
+console.log(info.width + 'x' + info.height, Math.round(info.size / 1024) + ' KB');
+await browser.close();

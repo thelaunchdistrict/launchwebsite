@@ -31,7 +31,7 @@ export function JourneyLadder({ className = '' }: { className?: string }) {
       <ol className="mt-4 grid gap-3 sm:grid-cols-4">
         {steps.map((s, i) => (
           <li key={s.label} className="flex items-center gap-2 text-sm">
-            <span aria-hidden className={`grid h-6 w-6 shrink-0 place-items-center rounded-full border text-[0.7rem] ${s.done ? 'border-brass bg-brass text-paper' : 'border-rule-strong text-ink-2'}`}>
+            <span aria-hidden className={`grid h-6 w-6 shrink-0 place-items-center rounded-full border text-xs ${s.done ? 'border-brass bg-brass text-paper' : 'border-rule-strong text-ink-2'}`}>
               {s.done ? '✓' : i + 1}
             </span>
             <span className={s.done ? 'text-ink' : 'text-ink-2'}>{s.label}<span className="sr-only">{s.done ? ' (done)' : ' (to do)'}</span></span>

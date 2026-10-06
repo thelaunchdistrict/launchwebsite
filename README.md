@@ -49,7 +49,8 @@ A fresh clone already contains `data/projects.json` and the web-optimised images
 | `npm run scrape` / `scrape:resume` / `scrape:test` | Extract projects from the source listing (see [Data pipeline](#data-pipeline)) |
 | `npm run normalize` | Re-normalise the dataset and rebuild map geometry |
 | `npm run verify` / `verify:report` | Independent web verification of every project |
-| `npm run geo:fetch` / `geo` | Fetch OpenStreetMap geography / rebuild the corridor map |
+| `npm run geo:fetch` / `geo` | Fetch OpenStreetMap geography / rebuild the corridor map data |
+| `npm run map:webp` | Re-render the corridor map's base layer as WebP files (needs `npm run build` first) |
 
 ---
 
@@ -143,7 +144,7 @@ Missing values are `null`, never guessed. Derived values (indicative ₹/sq ft, 
 
 **Curated projects.** Files in `data/curated/*.json` are merged at normalise time (`source: "curated"`). They can supersede a scraped listing (`supersedes`) and carry a spotlight rank (`featured`). Yugen Golf City, the hero project, is curated from the developer's brochure, layout plan and poster.
 
-**Map.** Corridors and sectors are drawn from OpenStreetMap data (© OpenStreetMap contributors, ODbL). Projects are placed at their published coordinates when those check out, otherwise at their sector's centre. Approximate placements are marked as such.
+**Map.** Corridors and sectors come from OpenStreetMap data (© OpenStreetMap contributors, ODbL). Projects are placed at their published coordinates when those check out, otherwise at their sector's centre, and approximate placements are marked as such. The base layer (grid, sector numbers, roads, labels) ships as pre-rendered WebP images in `public/media/map/` (light and dark, plus one variant per corridor with the others dimmed). The project markers stay a live SVG layer on top, so they remain links with hover details. After changing `data/geo` or the map styling, run `npm run build && npm run map:webp` and commit `public/media/map/`. The export page behind this (`/map-base/…`) returns 404 unless the server is started with `MAP_BASE_EXPORT=1`, which the script does itself.
 
 ---
 

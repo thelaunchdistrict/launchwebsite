@@ -4,7 +4,15 @@ All notable changes to The Launch District are recorded here. The format follows
 
 ## [Unreleased]
 
+### Changed
+- The corridor map's base layer (grid, sector numbers, roads, labels) is now served as pre-rendered **WebP** images (light and dark, with one variant per corridor) instead of inline SVG. Project markers remain an interactive SVG layer. Regenerate with `npm run map:webp`.
+- Headings (h1–h3 and large serif text) are easier to read: Bodoni's optical size is pinned to a sturdier cut, weight is 500, and tracking and line height are looser.
+
+- Readability pass across the site: labels, form labels, table headers, tags and buttons are larger with less letter spacing; the serif uses a sturdier cut below 20 px; map labels are larger and heavier.
+- The due-diligence checklist is now a compact **Verification** panel above the project gallery: confirmed items as chips, with a dropdown listing everything still to verify or missing.
+
 ### Added
+- `npm run map:webp` script and an export-only page (404 on the live site) that renders the map base for it.
 - Project README rewritten for the current stack, design system, engagement features and Cloudflare deployment.
 - This changelog.
 

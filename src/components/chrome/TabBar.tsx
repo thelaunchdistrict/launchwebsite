@@ -25,7 +25,7 @@ export function TabBar() {
               <Link
                 href={t.href}
                 aria-current={active ? 'page' : undefined}
-                className={`relative flex min-h-14 flex-col items-center justify-center gap-0.5 text-[0.7rem] ${active ? 'text-ink' : 'text-ink-2'}`}
+                className={`relative flex min-h-14 flex-col items-center justify-center gap-0.5 text-xs ${active ? 'text-ink' : 'text-ink-2'}`}
               >
                 <Icon name={t.icon === 'bookmark' && items.length ? 'bookmarkFilled' : t.icon} size={22} />
                 <span>{t.label}{t.href === '/shortlist' && items.length ? ` (${items.length})` : ''}</span>
