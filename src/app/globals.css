@@ -84,6 +84,10 @@
   .num { font-family: var(--font-sans); font-variant-numeric: tabular-nums lining-nums; letter-spacing: 0.01em; }
   .hairline { border-color: var(--rule); }
 
+  /* Stat blocks (label over value) in a grid: each item becomes a two-row subgrid, so labels share one track and
+     values the next. Values line up across a row whether a label takes one line or two. */
+  dl.grid > div:has(> dt + dd) { display: grid; grid-template-rows: subgrid; grid-row: span 2; row-gap: 0; align-content: start; }
+
   /* Buttons — 44px minimum target */
   .btn { position: relative; isolation: isolate; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-height: 48px; padding: 0 1.5rem; border-radius: 12px; font-weight: 500; font-size: 0.84375rem; letter-spacing: 0.12em; text-transform: uppercase; transition: background-color .2s var(--ease-out-soft), color .25s, border-color .2s, transform .15s; white-space: nowrap; }
   .btn:active { transform: translateY(1px); }

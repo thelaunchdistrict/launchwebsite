@@ -128,7 +128,7 @@ export function RoiCalculator() {
 
 function Big({ label, value, title, tone }: { label: string; value: string; title?: string; tone?: 'pos' | 'neg' }) {
   return (
-    <div className="bg-raised p-4">
+    <div className="row-span-2 grid grid-rows-subgrid gap-y-0 bg-raised p-4">
       <p className="text-xs text-ink-2">{label}</p>
       <p className={`num mt-1 text-2xl md:text-3xl ${tone === 'neg' ? 'text-signal' : tone === 'pos' ? 'text-positive' : ''}`} title={title}>{value}</p>
     </div>

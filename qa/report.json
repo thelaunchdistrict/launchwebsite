@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T09:28:52.336Z",
+ "generatedAt": "2026-10-06T10:06:45.593Z",
  "base": "http://localhost:3300",
  "pages": 27,
  "findings": [
@@ -95,10 +95,10 @@
    "cat": "Code hygiene",
    "check": "K04 raw colour",
    "msg": "Hex colour outside the token config",
-   "page": "src/app/globals.css:147",
+   "page": "src/app/globals.css:151",
    "evidence": "--signal: #E3906B; --signal-soft: #3A2117; --on-signal: var(--night); --brass: var(--brass-bright); ",
    "pages": [
-    "src/app/globals.css:147"
+    "src/app/globals.css:151"
    ],
    "evidences": [
     "--signal: #E3906B; --signal-soft: #3A2117; --on-signal: var(--night); --brass: var(--brass-bright); "

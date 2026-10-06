@@ -1,6 +1,6 @@
 # The Launch District QA report
 
-Generated 2026-10-06T09:28:52.336Z against `http://localhost:3300` · 27 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 194 s
+Generated 2026-10-06T10:06:45.596Z against `http://localhost:3300` · 27 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 248 s
 
 | Category | Errors | Warnings | Info |
 |---|---:|---:|---:|
@@ -18,7 +18,7 @@ Severity: **error** = wrong or broken for users (fix before launch) · **warn** 
 | Sev | Check | Finding | Where | Evidence |
 |---|---|---|---|---|
 | 🟠 warn | K05 placeholder config | Contact details in src/config/site.ts are still placeholders | src/config/site.ts |  |
-| ⚪ info | K04 raw colour | Hex colour outside the token config | src/app/globals.css:147 | --signal: #E3906B; --signal-soft: #3A2117; --on-signal: var(--night); --brass: var(--brass-bright);  |
+| ⚪ info | K04 raw colour | Hex colour outside the token config | src/app/globals.css:151 | --signal: #E3906B; --signal-soft: #3A2117; --on-signal: var(--night); --brass: var(--brass-bright);  |
 
 ## Content
 
