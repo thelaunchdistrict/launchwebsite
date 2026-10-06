@@ -1,16 +1,16 @@
 import { site } from '@/config/site';
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import Link from 'next/link';
 import { MARKETS, marketStats, sectorStats, summaries } from '@/lib/data';
 import { psf } from '@/lib/format';
 import { ToolsNav } from '@/components/tools/ToolsNav';
 import { Disclaimer } from '@/components/Section';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Price per sq ft by sector — Gurugram',
   description: `Median, low and high ₹/sq ft by Gurugram sector and corridor, across the projects ${site.name} tracks.`,
-  alternates: { canonical: '/tools/price-per-sqft' },
-};
+  path: '/tools/price-per-sqft'});
 
 export default function PsfPage() {
   const sectors = sectorStats();

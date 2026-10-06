@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import { site } from '@/config/site';
 import { StaticPage } from '@/components/StaticPage';
 import { whatsappHref } from '@/components/lead/WhatsAppLink';
 
-export const metadata: Metadata = { title: 'Terms of use', description: `Terms for using ${site.name}: information not advice, accuracy of listing data, image rights and calculator limits.`, alternates: { canonical: '/terms' } };
+export const metadata: Metadata = pageMeta({ title: 'Terms of use', description: `Terms for using ${site.name}: information not advice, accuracy of listing data, image rights and calculator limits.`, path: '/terms' });
 
 export default function TermsPage() {
   return (

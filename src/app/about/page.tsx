@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import Link from 'next/link';
 import { site } from '@/config/site';
 import { datasetMeta, stats } from '@/lib/data';
@@ -6,11 +7,10 @@ import { Icon } from '@/components/Icon';
 import { WhatsAppLink } from '@/components/lead/WhatsAppLink';
 import { Disclaimer } from '@/components/Section';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'About',
   description: `${site.name} is a curated portfolio of pre-launch and under-construction residences in Gurugram for investors who want to enter early.`,
-  alternates: { canonical: '/about' },
-};
+  path: '/about'});
 
 export default function AboutPage() {
   const s = stats();

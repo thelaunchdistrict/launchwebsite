@@ -50,6 +50,7 @@ A fresh clone already contains `data/projects.json` and the web-optimised images
 | `npm run normalize` | Re-normalise the dataset and rebuild map geometry |
 | `npm run verify` / `verify:report` | Independent web verification of every project |
 | `npm run geo:fetch` / `geo` | Fetch OpenStreetMap geography / rebuild the corridor map data |
+| `npm run og` | Re-render the social share images in `public/og/` (default card + one per project) |
 | `npm run map:webp` | Re-render the corridor map's base layer as WebP files (needs `npm run build` first) |
 
 ---
@@ -70,7 +71,7 @@ A fresh clone already contains `data/projects.json` and the web-optimised images
 | `/about`, `/contact`, `/disclaimer`, `/privacy`, `/terms` | Company and legal pages |
 | `/api/lead` | Lead capture endpoint |
 
-SEO: per-page metadata and canonicals, `sitemap.xml`, `robots.txt`, schema.org JSON-LD (Organization, RealEstateListing / Residence / Offer, FAQPage, Article, BreadcrumbList).
+SEO: every page gets a title, description, canonical URL, full Open Graph tags (title, description, url, type, site name, locale, 1200×630 image) and a Twitter large-image card from one helper, `pageMeta()` in [`src/lib/seo.ts`](src/lib/seo.ts). Project pages share a branded card with the project photo, name, location, price and possession; other pages use `public/og/default.jpg`. Also `sitemap.xml`, `robots.txt` and schema.org JSON-LD (Organization, RealEstateListing / Residence / Offer, FAQPage, Article, BreadcrumbList). Regenerate share images with `npm run og` after adding or changing projects.
 
 ---
 

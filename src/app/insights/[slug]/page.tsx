@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { site } from '@/config/site';
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: PageProps<'/insights/[slug]'>
   const { slug } = await params;
   const a = ARTICLES.find((x) => x.slug === slug);
   if (!a) return {};
-  return { title: a.seoTitle ?? a.title, description: a.dek, alternates: { canonical: `/insights/${slug}` }, openGraph: { type: 'article', title: a.title, description: a.dek, publishedTime: a.date } };
+  return pageMeta({ title: a.seoTitle ?? a.title, description: a.dek, path: `/insights/${slug}`, type: 'article', publishedTime: a.date });
 }
 
 export default async function ArticlePage({ params }: PageProps<'/insights/[slug]'>) {

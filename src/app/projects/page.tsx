@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import { Suspense } from 'react';
 import { MARKETS, summaries } from '@/lib/data';
 import { sectorKey } from '@/lib/corridors';
 import { ProjectExplorer } from '@/components/listing/ProjectExplorer';
 import { mapProps } from '@/components/map/CorridorMap';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Gurugram projects: pre-launch to ready',
   description: 'Filter Gurugram projects by stage, corridor, budget, configuration and possession year. Compare ₹/sq ft and shortlist early-entry opportunities.',
-  alternates: { canonical: '/projects' },
-};
+  path: '/projects'});
 
 export default function ProjectsPage() {
   const list = summaries();

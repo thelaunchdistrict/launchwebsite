@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import { site } from '@/config/site';
 import { datasetMeta } from '@/lib/data';
 import { StaticPage } from '@/components/StaticPage';
 
-export const metadata: Metadata = { title: 'RERA note, disclaimer & methodology', description: `How ${site.name} classifies stage, computes indicative ₹/sq ft and assigns micro-markets, plus what to verify on the HARERA portal.`, alternates: { canonical: '/disclaimer' } };
+export const metadata: Metadata = pageMeta({ title: 'RERA note, disclaimer & methodology', description: `How ${site.name} classifies stage, computes indicative ₹/sq ft and assigns micro-markets, plus what to verify on the HARERA portal.`, path: '/disclaimer' });
 
 export default function DisclaimerPage() {
   return (

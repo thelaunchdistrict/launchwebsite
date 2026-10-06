@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import { site } from '@/config/site';
 import { summaries } from '@/lib/data';
 import { LeadForm } from '@/components/lead/LeadForm';
 import { WhatsAppLink } from '@/components/lead/WhatsAppLink';
 
-export const metadata: Metadata = { title: 'Contact & early access', description: `Talk to ${site.name} about early-stage projects in Gurugram.`, alternates: { canonical: '/contact' } };
+export const metadata: Metadata = pageMeta({ title: 'Contact & early access', description: 'Leave your details or message us on WhatsApp for the private price sheet on pre-launch and early-construction projects in Gurugram.', path: '/contact' });
 
 export default function ContactPage() {
   return (

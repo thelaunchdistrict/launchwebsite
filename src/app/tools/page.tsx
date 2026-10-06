@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import Link from 'next/link';
 import { TOOLS } from '@/components/tools/ToolsNav';
 import { Icon } from '@/components/Icon';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Investment tools',
   description: 'ROI and IRR calculator, price-per-sq-ft comparison by sector and a possession timeline for Gurugram projects.',
-  alternates: { canonical: '/tools' },
-};
+  path: '/tools'});
 
 export default function ToolsPage() {
   return (

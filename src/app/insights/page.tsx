@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import Link from 'next/link';
 import { ARTICLES } from '@/content/articles';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Insights on early-stage investing in Gurugram',
   description: 'Guides to investing early: stages, price sheets and due diligence for under-construction property in Gurugram.',
-  alternates: { canonical: '/insights' },
-};
+  path: '/insights'});
 
 export default function InsightsPage() {
   return (

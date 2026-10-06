@@ -1,13 +1,12 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import { summaries } from '@/lib/data';
 import { ShortlistView } from '@/components/shortlist/ShortlistView';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Your shortlist',
   description: 'Projects you saved on this device, ready to compare side by side or to receive the private price sheets.',
-  robots: { index: false },
-  alternates: { canonical: '/shortlist' },
-};
+  path: '/shortlist', noindex: true });
 
 export default function ShortlistPage() {
   return (

@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import { Suspense } from 'react';
 import { RoiCalculator } from '@/components/tools/RoiCalculator';
 import { ToolsNav } from '@/components/tools/ToolsNav';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'ROI & IRR calculator for new launches',
   description: 'Model total return, annualised IRR and money multiple for a Gurugram property: entry price, holding period, appreciation, rental yield, home loan EMI and exit costs.',
-  alternates: { canonical: '/tools/roi-calculator' },
-};
+  path: '/tools/roi-calculator'});
 
 export default function RoiPage() {
   return (

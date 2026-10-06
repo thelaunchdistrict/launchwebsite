@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
@@ -38,13 +39,13 @@ export async function generateMetadata({ params }: PageProps<'/projects/[slug]'>
   const sectorPart = p.location.sector ? `, Sector ${p.location.sector}` : '';
   const title = p.source === 'curated' && p.seo.title ? p.seo.title : [`${p.name}${sectorPart} — price, possession & RERA`, `${p.name}${sectorPart} — price & RERA`, `${p.name}${sectorPart}`, `${p.name}`].find((t) => t.length <= 70 - ` · ${site.name}`.length) ?? `${p.name}`;
   const description = `${p.name} by ${p.developer.name ?? 'the developer'}${p.location.sector ? ` in Sector ${p.location.sector}, Gurugram` : ''}. ${s.priceFrom ? `From ${inr(s.priceFrom)}. ` : ''}${p.possessionDate ? `Possession ${monthYear(p.possessionDate)}. ` : ''}${p.reraNumber ? `RERA ${p.reraNumber}.` : ''}`.trim();
-  return {
+  return pageMeta({
     title,
     description: p.source === 'curated' && p.seo.description ? p.seo.description : description,
-    alternates: { canonical: `/projects/${p.supersededBy ?? slug}` },
-    ...(p.supersededBy ? { robots: { index: false, follow: true } } : {}),
-    openGraph: { title, description, images: s.image ? [{ url: s.image.src, width: s.image.width, height: s.image.height }] : undefined },
-  };
+    path: `/projects/${p.supersededBy ?? slug}`,
+    noindex: !!p.supersededBy,
+    image: s.image ? { url: `/og/projects/${p.slug}.jpg`, width: 1200, height: 630, alt: `${p.name}, ${s.locationLabel ?? 'Gurugram'}` } : null,
+  });
 }
 
 const AMENITY_LABEL: Record<string, string> = {

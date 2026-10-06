@@ -1,14 +1,13 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import { Suspense } from 'react';
 import { allProjects, marketStats, psfOf, summarize } from '@/lib/data';
 import { CompareView, type CompareRow } from '@/components/shortlist/CompareView';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Compare projects',
   description: 'Compare up to three Gurugram projects side by side: price, ₹/sq ft, possession, density, RERA and payment terms.',
-  alternates: { canonical: '/compare' },
-  robots: { index: false },
-};
+  path: '/compare', noindex: true });
 
 export default function ComparePage() {
   const rows: CompareRow[] = allProjects().map((p) => {

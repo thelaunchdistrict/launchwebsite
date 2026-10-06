@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import Link from 'next/link';
 import { summaries } from '@/lib/data';
 import { inr, monthYear } from '@/lib/format';
 import { ToolsNav } from '@/components/tools/ToolsNav';
 import { Badges } from '@/components/project/Badges';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Gurugram possession timeline by year',
   description: 'When each tracked Gurugram project is due for possession, grouped by year, with stage and starting price.',
-  alternates: { canonical: '/tools/possession-timeline' },
-};
+  path: '/tools/possession-timeline'});
 
 export default function TimelinePage() {
   const all = summaries();

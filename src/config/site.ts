@@ -7,7 +7,7 @@ export const site = {
   legalName: 'The Launch District (placeholder entity)',
   tagline: 'Own the address before the city does.',
   description:
-    'Early-entry research on pre-launch and under-construction projects in Gurugram: ₹/sq ft, possession dates, RERA checks and corridor context for investors.',
+    'Private portfolio of pre-launch and early-construction homes in Gurugram, checked with each developer: ₹/sq ft, possession, RERA and corridor context.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://thelaunchdistrict.example.com',
   locale: 'en_IN',
   city: 'Gurugram',

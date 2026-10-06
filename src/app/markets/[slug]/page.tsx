@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { MARKETS, marketStats, summaries } from '@/lib/data';
@@ -19,11 +20,11 @@ export async function generateMetadata({ params }: PageProps<'/markets/[slug]'>)
   const m = MARKETS.find((x) => x.slug === slug);
   if (!m) return {};
   const s = marketStats(slug);
-  return {
+  return pageMeta({
     title: `${m.name}: prices & growth`,
     description: `${s.count} tracked projects on ${m.name}, Gurugram. Median ${psf(s.medianPsf)}/sq ft, entry from ${inr(s.minPrice)}. Infrastructure drivers and risks.`,
-    alternates: { canonical: `/markets/${slug}` },
-  };
+    path: `/markets/${slug}`,
+  });
 }
 
 export default async function MarketPage({ params }: PageProps<'/markets/[slug]'>) {

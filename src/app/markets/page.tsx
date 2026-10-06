@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import Link from 'next/link';
 import { MARKETS, marketStats, summaries } from '@/lib/data';
 import { inr, monthRange, psf } from '@/lib/format';
 import { STORIES } from '@/content/markets';
 import { CorridorMap } from '@/components/map/CorridorMap';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Gurugram micro-markets: prices & drivers',
   description: 'Dwarka Expressway, Golf Course Extension, SPR, Sohna Road and New Gurgaon: tracked projects, median ₹/sq ft and the infrastructure story.',
-  alternates: { canonical: '/markets' },
-};
+  path: '/markets'});
 
 export default function MarketsPage() {
   const list = MARKETS.map((m) => ({ ...m, ...marketStats(m.slug) })).filter((m) => m.count > 0).sort((a, b) => b.count - a.count);

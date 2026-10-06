@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import { pageMeta } from '@/lib/seo';
 import { site } from '@/config/site';
 import { StaticPage } from '@/components/StaticPage';
 import { whatsappHref } from '@/components/lead/WhatsAppLink';
 
-export const metadata: Metadata = { title: 'Privacy policy', description: `What ${site.name} collects when you enquire, what stays on your device, and how to access or delete your data.`, alternates: { canonical: '/privacy' } };
+export const metadata: Metadata = pageMeta({ title: 'Privacy policy', description: `What ${site.name} collects when you enquire, what stays on your device, and how to access or delete your data.`, path: '/privacy' });
 
 export default function PrivacyPage() {
   return (

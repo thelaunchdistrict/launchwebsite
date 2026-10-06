@@ -9,20 +9,28 @@ import { Analytics } from '@/components/chrome/Analytics';
 import { JsonLd } from '@/components/JsonLd';
 import { AnnouncementBar } from '@/components/chrome/AnnouncementBar';
 import { datasetMeta, summaries } from '@/lib/data';
+import { pageMeta } from '@/lib/seo';
 import './globals.css';
 
 // Couture direction: high-contrast Didone for display (optical sizes keep hairlines intact when small), geometric Jost for text and figures.
 const serif = Bodoni_Moda({ subsets: ['latin'], style: ['normal', 'italic'], axes: ['opsz'], variable: '--font-serif', display: 'swap' });
 const sans = Jost({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-jost', display: 'swap' });
 
+const HOME_TITLE = `${site.name} — Private early-entry real estate, Gurugram`;
+
+// Site-wide defaults; these also serve as the home page's tags. Every other page sets its full set via pageMeta().
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: `${site.name} — Early-entry real estate research, Gurugram`, template: `%s · ${site.name}` },
-  description: site.description,
+  ...pageMeta({ title: HOME_TITLE, description: site.description, path: '/' }),
+  title: { default: HOME_TITLE, template: `%s · ${site.name}` },
   applicationName: site.name,
-  openGraph: { type: 'website', siteName: site.name, locale: site.locale },
-  twitter: { card: 'summary_large_image' },
-  alternates: { canonical: '/' },
+  creator: site.name,
+  publisher: site.name,
+  category: 'real estate',
+  keywords: ['Gurugram real estate', 'pre-launch projects Gurugram', 'new launch Gurgaon', 'under-construction property Gurugram', 'Dwarka Expressway', 'Golf Course Extension Road', 'RERA Haryana', 'early-entry investment'],
+  // Never let browsers turn text into call or mail links: contact is WhatsApp only.
+  formatDetection: { telephone: false, email: false, address: false },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
 };
 
 export const viewport: Viewport = {
