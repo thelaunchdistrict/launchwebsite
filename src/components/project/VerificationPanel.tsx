@@ -17,7 +17,7 @@ export function VerificationPanel({ checks, verifiedOn, className = '' }: { chec
         <h2 id="verify-h" className="eyebrow">Verification</h2>
         <p className="flex items-center gap-3 text-sm text-ink-2">
           <span className="flex gap-1" aria-hidden>
-            {[...ok, ...caution, ...unknown].map((c, i) => <span key={i} className={`h-1.5 w-4 rounded-full ${c.state === 'ok' ? 'bg-brass' : c.state === 'caution' ? 'bg-caution' : 'bg-rule-strong'}`} />)}
+            {[...ok, ...caution, ...unknown].map((c, i) => <span key={i} className={`h-1.5 w-4 rounded-full ${c.state === 'ok' ? 'bg-brass' : c.state === 'caution' ? 'border border-caution' : 'bg-rule'}`} />)}
           </span>
           <span><span className="num text-ink">{ok.length}</span> of {checks.length} confirmed{verifiedOn ? ` · developer facts checked ${verifiedOn}` : ''}</span>
         </p>
