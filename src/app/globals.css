@@ -154,6 +154,7 @@
   .ledger thead th { text-align: left; font-weight: 500; font-size: 0.8125rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); padding: .6rem .75rem; border-bottom: 1px solid var(--ink); }
   .ledger tbody th { padding: .75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
   .ledger td { padding: .75rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  table:not([data-expanded]) .row-extra { display: none; }
   .ledger td.n, .ledger th.n { text-align: right; font-family: var(--font-sans); font-variant-numeric: tabular-nums lining-nums; }
 
   .prose-brand p { margin: 0 0 1em; max-width: 68ch; }

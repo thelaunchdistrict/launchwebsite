@@ -1,6 +1,6 @@
 # The Launch District QA report
 
-Generated 2026-10-06T08:34:33.949Z against `http://localhost:3300` · 27 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 198 s
+Generated 2026-10-06T08:43:23.674Z against `http://localhost:3300` · 27 pages × 4 passes (desktop light, mobile light, mobile dark, desktop dark) · 198 s
 
 | Category | Errors | Warnings | Info |
 |---|---:|---:|---:|

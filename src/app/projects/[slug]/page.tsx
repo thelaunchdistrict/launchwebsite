@@ -12,6 +12,7 @@ import { FloorPlans } from '@/components/project/FloorPlans';
 import { EntryRail } from '@/components/project/EntryRail';
 import { Badges, UpdateTags } from '@/components/project/Badges';
 import { VerificationPanel } from '@/components/project/VerificationPanel';
+import { ShowMoreRows } from '@/components/project/ShowMoreRows';
 import { CardActions } from '@/components/project/CardActions';
 import { ProjectCard } from '@/components/project/ProjectCard';
 import { StickyCTA } from '@/components/project/StickyCTA';
@@ -77,6 +78,14 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
   const byArea = new Map<number, Set<number | null>>();
   p.pricing.configurations.forEach((c) => { if (c.areaSqft) (byArea.get(c.areaSqft) ?? byArea.set(c.areaSqft, new Set()).get(c.areaSqft)!).add(c.bhk); });
   const dupAreas = [...byArea.entries()].filter(([, s]) => s.size > 1).map(([a]) => a);
+  // Pricing table shows three different configurations up front (first row of each type, topped up in order
+  // when there are fewer than three types); the rest sit behind "Show N more".
+  const configs = p.pricing.configurations;
+  const shownRows = new Set<number>();
+  const types = new Set<string>();
+  configs.forEach((c, i) => { const k = (c.label ?? String(c.bhk ?? c.unitType)).toLowerCase(); if (shownRows.size < 3 && !types.has(k)) { types.add(k); shownRows.add(i); } });
+  for (let i = 0; i < configs.length && shownRows.size < 3; i++) shownRows.add(i);
+  const hiddenRows = configs.length - shownRows.size;
 
   // ---- media
   const where = `${p.location.sector ? `Sector ${p.location.sector}, ` : ''}${p.location.city ?? 'Gurugram'}`;
@@ -241,13 +250,13 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
           <section id="pricing" aria-labelledby="pricing-h">
             <h2 id="pricing-h" className="h2">Configurations & pricing</h2>
             {p.pricing.configurations.length ? (
-              <div className="mt-6 overflow-x-auto" tabIndex={0} role="region" aria-label={`Configurations and prices for ${name}, scrolls sideways`}>
-                <table className="ledger min-w-[560px]">
+              <div className="mt-6 overflow-x-auto overflow-y-hidden" tabIndex={0} role="region" aria-label={`Configurations and prices for ${name}, scrolls sideways`}>
+                <table id="config-table" className="ledger min-w-[560px]">
                   <caption className="sr-only">Configurations, unit areas and prices for {name}</caption>
                   <thead><tr><th scope="col">Configuration</th><th scope="col" className="n">Area</th><th scope="col" className="n">Price</th><th scope="col" className="n">₹/sq ft</th><th scope="col">Status</th></tr></thead>
                   <tbody>
                     {p.pricing.configurations.map((c, i) => (
-                      <tr key={i}>
+                      <tr key={i} className={shownRows.has(i) ? undefined : 'row-extra'}>
                         <th scope="row" className="text-left font-normal">{c.label ?? (c.bhk != null ? bhkLabel(c.bhk) : c.unitType)}<span className="block text-xs text-ink-2">{c.unitType}</span></th>
                         <td className="n">{c.areaSqft ? sqft(c.areaSqft) : '—'}</td>
                         <td className="n" title={c.priceRaw ?? undefined}>{c.priceInr ? inr(c.priceInr) : /on request/i.test(c.priceRaw ?? '') ? <a href="#early-access" className="link font-sans text-brass">Unlock the price sheet</a> : <span className="font-sans text-ink-2">{c.priceRaw ?? '—'}</span>}</td>
@@ -257,6 +266,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
                     ))}
                   </tbody>
                 </table>
+                {hiddenRows > 0 && <ShowMoreRows tableId="config-table" count={hiddenRows} noun="configurations" />}
                 <p className="mt-2 text-xs text-ink-2">Areas as listed (RERA carpet/saleable basis not always specified). “Unlock the price sheet” means the developer has not published a price for that unit; ask us and we send the current sheet.</p>
                 {dupAreas.length > 0 && (
                   <p className="mt-2 flex gap-2 text-sm"><Icon name="alert" size={16} className="mt-0.5 shrink-0 text-caution" /><span>The source lists the same area for different configurations ({dupAreas.map((a) => sqft(Number(a))).join(', ')}). One of these rows is probably a data-entry error. Confirm sizes with the developer’s RERA-registered plans.</span></p>
