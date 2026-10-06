@@ -8,7 +8,7 @@ export function Logo({ className = '' }: { className?: string }) {
         <path d="M3 21h18M6.5 21v-7M17.5 21v-9" />
         <path d="M12 21V4M8.5 7.5 12 4l3.5 3.5" stroke="var(--signal)" />
       </svg>
-      <span className="whitespace-nowrap font-display text-[1.15rem] leading-none tracking-[-0.005em] sm:text-[1.55rem]">{site.name}</span>
+      <span className="whitespace-nowrap font-display text-[1.15rem] leading-none tracking-[0.005em] sm:text-[1.55rem]">{site.name}</span>
     </span>
   );
 }

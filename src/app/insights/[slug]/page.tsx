@@ -29,7 +29,7 @@ export default async function ArticlePage({ params }: PageProps<'/insights/[slug
       <nav aria-label="Breadcrumb" className="text-sm text-ink-2"><Link href="/insights" className="link">Insights</Link></nav>
       <header className="mt-6 max-w-3xl">
         <p className="eyebrow">{new Date(a.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })} · {a.readMins} min read</p>
-        <h1 className="mt-3 font-display text-[clamp(2.25rem,4.6vw,3.75rem)] leading-[1.02]">{a.title}</h1>
+        <h1 className="mt-3 font-display text-[clamp(2.25rem,4.6vw,3.75rem)] leading-[1.12]">{a.title}</h1>
         <p className="mt-5 text-xl text-ink-2">{a.dek}</p>
       </header>
       <div className="prose-brand mt-10 text-[1.075rem]">

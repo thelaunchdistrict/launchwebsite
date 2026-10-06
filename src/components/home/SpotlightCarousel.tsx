@@ -128,7 +128,7 @@ export function SpotlightCarousel({ projects }: { projects: ProjectSummary[] }) 
               <div className="flex flex-col gap-5 p-5 md:p-7">
                 <div>
                   <p className="text-sm text-ink-2">{p.developer ?? 'Developer not published'} · {p.locationLabel ?? p.marketName}{p.sector && p.marketName ? ` · ${p.marketName}` : ''}</p>
-                  <h3 className="mt-1 font-display text-[clamp(1.75rem,3.2vw,2.6rem)] leading-[1.02]">{p.name}</h3>
+                  <h3 className="mt-1 font-display text-[clamp(1.75rem,3.2vw,2.6rem)] leading-[1.15]">{p.name}</h3>
                 </div>
                 <EntryRail stage={p.stage} />
                 <dl className="grid grid-cols-2 gap-x-5 gap-y-4 border-t hairline pt-4">
