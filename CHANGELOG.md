@@ -11,7 +11,7 @@ All notable changes to The Launch District are recorded here. The format follows
 - Readability pass across the site: labels, form labels, table headers, tags and buttons are larger with less letter spacing; the serif uses a sturdier cut below 20 px; map labels are larger and heavier.
 - The due-diligence checklist is now a single **Verified** row above the project gallery: confirmed items as chips, then a "N to verify" dropdown menu listing everything still to check or missing.
 - The configurations and pricing table shows three different configurations up front, with a "Show N more" toggle for the rest.
-- **No phone number on the site.** The contact page no longer shows a number or a Call button, and the number is removed from the structured data and the config. Visitors leave their details in the form or message on WhatsApp.
+- **No phone number or email on the site.** The contact page no longer shows a number, a Call button or an email address; privacy and content-removal requests go through WhatsApp; both are removed from the structured data and the config. Visitors leave their details in the form or message on WhatsApp.
 - **About page rewritten** around the site's purpose: a curated, live portfolio of pre-launch and early-construction projects for early investors, updated as the market moves. Covers who it is for, how projects are chosen, how to work with us, principles and how we are paid.
 
 ### Added

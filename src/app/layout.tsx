@@ -72,7 +72,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             '@type': 'Organization',
             name: site.name,
             url: site.url,
-            email: site.contact.email,
             address: { '@type': 'PostalAddress', addressLocality: 'Gurugram', addressRegion: 'Haryana', addressCountry: 'IN' },
           }}
         />

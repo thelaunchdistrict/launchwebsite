@@ -252,7 +252,7 @@ docs/                  design brief and design review
 
 ## Before going live
 
-- [ ] Replace the placeholder WhatsApp number and email in `src/config/site.ts`, and add the HARERA agent registration number on `/disclaimer`. (No phone number is shown anywhere on the site by design; contact is through the details form or WhatsApp.)
+- [ ] Replace the placeholder WhatsApp number in `src/config/site.ts`, and add the HARERA agent registration number on `/disclaimer`. (No phone number or email is shown anywhere on the site by design; contact is through the details form or WhatsApp.)
 - [ ] Set `LEAD_WEBHOOK_URL` in Cloudflare so leads are delivered.
 - [ ] Set `NEXT_PUBLIC_SITE_URL` to the final domain.
 - [ ] Have counsel review `/privacy`, `/terms` and `/disclaimer`.

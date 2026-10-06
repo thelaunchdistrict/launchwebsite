@@ -118,7 +118,7 @@ async function main() {
       // links & anchors
       for (const l of r.links) {
         if (/^(mailto:|tel:)/.test(l.href)) {
-          if (l.href.startsWith('mailto:') && !/^mailto:[^@\s]+@[^@\s]+\.[^@\s]+$/.test(l.href)) add([{ sev: 'error', cat: 'UI/UX', check: 'U02 bad mailto', msg: l.href, page: p }]);
+          if (l.href.startsWith('mailto:')) add([{ sev: 'error', cat: 'Content', check: 'C11 email shown', msg: `Email link ${l.href} — contact is WhatsApp only`, page: p }]);
           // Policy: no phone number is shown anywhere; contact is through the form or WhatsApp.
           if (l.href.startsWith('tel:')) add([{ sev: 'error', cat: 'Content', check: 'C10 phone number shown', msg: `Call link ${l.href} — phone numbers must not appear on the site`, page: p }]);
           continue;
