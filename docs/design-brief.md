@@ -41,9 +41,9 @@ The Launch District should look like a **surveyor's field sheet crossed with an 
 
 | Role | Face | Why |
 |---|---|---|
-| Display (h1–h3, project names, logo) | **Bodoni Moda** (Google Fonts, variable with optical sizes + italic) | A high-contrast Didone, the register of couture and hospitality brands. Optical sizing keeps hairlines intact at small sizes; used at 18 px and up. |
-| UI, body and labels | **Jost** (variable, 300–600) | A geometric sans in the Futura tradition; small-caps labels are tracked wide (0.18–0.24em). Body is 17 px at 1.7 line height. |
-| Data | **Jost** with `font-variant-numeric: tabular-nums lining-nums` | Prices and ₹/sq ft still align in columns without the spreadsheet look of a monospace face. |
+| Display (h1–h3, project names, prices, logo) | **Cormorant Garamond** (Google Fonts, 400–700 + italic) | A refined editorial serif in the register of luxury residential brands. Used at 22 px and up, semibold below that. Lining numerals so prices align. |
+| UI, body and labels | **Manrope** (variable) | A clean humanist sans with strong small-size legibility. Body is 17 px at 1.7 line height; small-caps labels are tracked about 0.14em. |
+| Data | **Manrope** with `font-variant-numeric: tabular-nums lining-nums` | Prices and ₹/sq ft align in columns without the spreadsheet look of a monospace face. |
 
 - Scale in rem, fluid with `clamp()`. Body is 1rem (16px) minimum and never below 0.8125rem (13px) even for captions, following the HIG's recommended minimums. Text survives 200% browser zoom (HIG: "enlarge text by at least 200 percent") because all type is rem and the layouts reflow.
 - Display: `clamp(2.5rem, 6vw, 5.5rem)`, line-height 0.95, tracking −0.01em. H2 `clamp(1.75rem, 3vw, 2.5rem)`.
@@ -55,21 +55,20 @@ The palette is restrained: paper, ink, three greys and **one signature accent**.
 
 | Token | Light | Dark | Use | Contrast (text on bg) |
 |---|---|---|---|---|
-| `--paper` (bg) | `#F4EFE7` sandstone | `#0C1220` | Page | — |
-| `--paper-raised` | `#FBF8F3` | `#131C30` | Cards, sheets | — |
-| `--paper-sunk` | `#EAE3D7` stone | `#080D18` | Stone section bands | — |
-| `--ink` | `#111A2C` midnight | `#EEE8DC` | Primary text, structure | 15.2 / 15.3 |
-| `--ink-2` | `#545B6B` | `#A7AEBD` | Secondary text | 6.0 / 8.4 |
-| `--signal` (accent) | `#A9472B` terracotta | `#E3906B` | "Early" marks and the one primary action per view | 5.1 / 7.5 |
-| `--on-signal` | `#FFFFFF` | `#0C1220` | Text on accent buttons | 5.8 / 7.5 |
-| `--brass` | `#7E602C` | `#D3B27A` | Reward and status only: hero project, verified, price updated, progress | 4.9 / 9.3 |
-| `--night` | `#0E1626` | `#060A14` | Full-width bands: spotlight, private preview, footer, announcement bar | 14.8 (night ink) |
-| `--positive` | `#2F6B4F` | `#6FCF97` | Gains in calculator | 5.7 / 9.9 |
+| `--paper` (bg) | `#F6F5F1` warm off-white | `#111413` | Page | — |
+| `--paper-raised` | `#FFFFFF` | `#1A1D1C` | Cards, sheets | — |
+| `--paper-sunk` | `#EFEDE6` stone | `#0C0F0E` | Alternating section bands | — |
+| `--ink` | `#171A19` charcoal | `#F1EFE8` | Primary text, primary buttons | 16.1 / 16.1 |
+| `--ink-2` | `#5F635F` | `#A9ADA8` | Secondary text | 5.6 / 8.1 |
+| `--signal` / `--brass` | `#7A6640` | `#C9B58E` | Hairlines, numerals, status and "early" marks | 5.1 / 9.3 |
+| `--night` | `#171A19` | `#0B0D0C` | Dark bands, footer, announcement bar, hero text | 16.1 (night ink) |
+| `--negative` | `#A33A2B` | `#F08A7A` | Errors and negative returns only | 6.0 / 7.6 |
+| `--positive` | `#2F6B4F` | `#6FCF97` | Gains in calculator | 5.8 / 9.9 |
 | `--caution` | `#8A6A12` | `#E2B84A` | Due-diligence flags | 4.6 / 10.0 |
 
-All pairs meet WCAG AA (4.5:1 for text). **Midnight and terracotta** (October 2026): midnight navy gives structure and the private "night" bands, terracotta carries warmth and the single primary action, and brass is used sparingly, like jewellery, for status and reward moments. Inside a `.band-night` section the theme tokens are re-pointed, so cards, buttons and links adapt without extra classes. Corners are soft and consistent: 18px for cards, panels and image tiles, 12px for buttons, fields and menus, 8px for tags and chips. Buttons have tracked small-caps labels, a colour sweep and an arrow nudge on hover; secondary actions are text links with a growing brass underline. Light is the default appearance; Dark and System are available in the footer. Images get a 1px `--rule` outline in dark mode.
+All pairs meet WCAG AA (4.5:1 for text). **Charcoal and champagne** (October 2026), after the brief for a Homezop-inspired luxury direction: warm off-white pages, charcoal type and buttons, and champagne used only for hairlines, numerals and small status accents. The one saturated colour is `--negative`, reserved for errors. Corners are restrained (8 px cards, 6 px controls, 4 px tags). Light is the default appearance; Dark and System are available in the footer.
 
-**Engagement, honestly.** The site uses the motivation patterns games use, with real data only and no dark patterns (no countdowns, no invented scarcity or "people viewing"; India's 2023 dark-pattern guidelines and RERA advertising rules apply): a commitment ladder (save → compare → price sheet → site visit) with visible progress, dated update signals (newly listed, price updated, verified with the developer) that refresh with the data, a dismissible announcement bar that returns only after a refresh, a three-question "Find your entry point" quiz that turns answers into real filters, and a curiosity gap where prices are on request ("Unlock the price sheet").
+**Engagement, honestly.** The site uses the motivation patterns games use, with real data only and no dark patterns (no countdowns, no invented scarcity or "people viewing"; India's 2023 dark-pattern guidelines and RERA advertising rules apply): a commitment ladder (save → compare → price sheet → site visit) with visible progress, dated update signals that refresh with the data, a dismissible announcement bar that returns only after a refresh, a three-question "Find your entry point" quiz that turns answers into real filters, and a curiosity gap where prices are on request.
 
 ## 4. Layout system
 
@@ -103,7 +102,7 @@ Top nav, Mobile tab bar, Footer (with disclaimer and appearance switch), **Entry
 - ✅ **Navigation:** the tab bar is for navigation only, with 4 items (HIG tab bars recommend ≤ 5). Filters live in a sheet with an explicit commit, and active filters show as tokens.
 - ⚠️ **Appearance toggle:** the HIG advises against app-specific appearance settings. The project brief requires light/dark, so the default is *System* and the override is tucked in the footer, not in the nav.
 - ⚠️ **Maps:** the HIG Maps page assumes a real map. The Corridor Map is schematic, so it must say so on its face ("Schematic — not to scale") and link to Google Maps when real coordinates exist.
-- ⚠️ **Custom fonts:** the HIG prefers system fonts for legibility. Jost replaces the system font for brand reasons, and the serif is used only at display sizes ≥ 28px.
+- ⚠️ **Custom fonts:** the HIG prefers system fonts for legibility. Manrope replaces the system font for brand reasons, and the serif is used only at display sizes ≥ 28px.
 
 ### Point of view
 - The **Entry Rail** and **Corridor Map** are the two things that make a screenshot recognisably The Launch District. Both come from real data (status, sector), not decoration.

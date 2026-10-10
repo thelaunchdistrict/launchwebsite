@@ -24,7 +24,7 @@ export function FloorPlans({ plans, name }: { plans: (GalleryItem & { group: str
       <div role="tabpanel" className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {list.map((p, i) => (
           <figure key={p.src} className="card overflow-hidden">
-            <button type="button" onClick={() => setOpen(i)} className="relative block aspect-[4/3] w-full overflow-hidden rounded-[14px] border hairline bg-white" aria-label={`Enlarge ${p.alt}`}>
+            <button type="button" onClick={() => setOpen(i)} className="relative block aspect-[4/3] w-full overflow-hidden rounded-[6px] border hairline bg-white" aria-label={`Enlarge ${p.alt}`}>
               <Image src={p.src} alt={p.alt} fill sizes="(min-width: 1024px) 380px, 50vw" className="object-contain p-2" />
             </button>
             {p.caption && <figcaption className="border-t hairline px-3 py-2 text-sm">{p.caption}</figcaption>}

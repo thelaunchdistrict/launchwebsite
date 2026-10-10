@@ -32,9 +32,9 @@ export function ThemeSwitch() {
     <fieldset className="flex items-center gap-2">
       <legend className="sr-only">Appearance</legend>
       <span className="text-sm text-ink-2" aria-hidden>Appearance</span>
-      <div className="inline-flex rounded-[12px] border hairline p-0.5">
+      <div className="inline-flex rounded-[6px] border hairline p-0.5">
         {(['light', 'dark', 'system'] as Mode[]).map((m) => (
-          <label key={m} className={`cursor-pointer rounded-[9px] px-3 py-2 text-sm capitalize min-h-11 flex items-center has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-focus ${mode === m ? 'bg-ink text-paper' : 'text-ink-2 hover:text-ink'}`}>
+          <label key={m} className={`cursor-pointer rounded-[4px] px-3 py-2 text-sm capitalize min-h-11 flex items-center has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-focus ${mode === m ? 'bg-ink text-paper' : 'text-ink-2 hover:text-ink'}`}>
             <input type="radio" name="theme" value={m} checked={mode === m} onChange={() => set(m)} className="sr-only" />
             {m}
           </label>

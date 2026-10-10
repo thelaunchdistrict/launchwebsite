@@ -78,6 +78,8 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
   const sim = similar(p, 3);
   const byArea = new Map<number, Set<number | null>>();
   p.pricing.configurations.forEach((c) => { if (c.areaSqft) (byArea.get(c.areaSqft) ?? byArea.set(c.areaSqft, new Set()).get(c.areaSqft)!).add(c.bhk); });
+  const nowYm = new Date().toISOString().slice(0, 7);
+  const possessionPassed = !!p.possessionDate && p.status !== 'ready' && (p.possessionDate.length === 7 ? p.possessionDate < nowYm : p.possessionDate < nowYm.slice(0, 4));
   const dupAreas = [...byArea.entries()].filter(([, s]) => s.size > 1).map(([a]) => a);
   // Pricing table shows three different configurations up front (first row of each type, topped up in order
   // when there are fewer than three types); the rest sit behind "Show N more".
@@ -168,7 +170,7 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
         {p.supersededBy && (() => {
           const next = getProject(p.supersededBy);
           return next ? (
-            <div role="note" className="mt-4 flex flex-wrap items-center gap-3 rounded-[12px] border border-signal bg-signal-soft p-4 text-sm">
+            <div role="note" className="mt-4 flex flex-wrap items-center gap-3 rounded-[6px] border border-signal bg-signal-soft p-4 text-sm">
               <Icon name="info" size={18} className="shrink-0" />
               <span className="flex-1">This is an older public listing of the same township. The current, developer-sourced listing has newer prices, phases and RERA details.</span>
               <Link href={`/projects/${next.slug}`} className="btn btn-primary">Go to {next.name}</Link>
@@ -193,6 +195,12 @@ export default async function ProjectPage({ params }: PageProps<'/projects/[slug
         <p className="mt-2 text-xs text-ink-2">
           Listed status: {statusLabel(p.status)}{p.marketingStage ? ` · Listing text says “${p.marketingStage.replace('-', ' ')}”` : ''}{s.stage.basis === 'derived' ? ' · Position estimated from the stated possession date' : ''}.
         </p>
+        {possessionPassed && (
+          <p role="note" className="mt-3 flex max-w-3xl items-start gap-2 text-sm">
+            <Icon name="alert" size={16} className="mt-0.5 shrink-0 text-caution" />
+            <span>Stated possession ({monthYear(p.possessionDate, true)}) has passed and this project is not listed as ready. Ask the developer for the revised completion date, and check the RERA filing.</span>
+          </p>
+        )}
 
         <VerificationPanel className="mt-5" checks={checks} />
 

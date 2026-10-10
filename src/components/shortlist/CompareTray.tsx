@@ -10,7 +10,7 @@ export function CompareTray() {
   const path = usePathname();
   if (!items.length || path.startsWith('/compare')) return null;
   return (
-    <aside aria-label="Compare tray" className="band-night fixed inset-x-3 bottom-[4.5rem] z-40 mx-auto max-w-xl rounded-[18px] p-3 shadow-2xl md:bottom-5" style={{ animation: 'fade-in .2s both' }}>
+    <aside aria-label="Compare tray" className="band-night fixed inset-x-3 bottom-[4.5rem] z-40 mx-auto max-w-xl rounded-[8px] p-3 shadow-2xl md:bottom-5" style={{ animation: 'fade-in .2s both' }}>
       <div className="flex items-center gap-3">
         <div className="text-sm">
           <p>{items.length < 2 ? `Add ${2 - items.length} more to compare` : `${items.length} ready to compare`}</p>

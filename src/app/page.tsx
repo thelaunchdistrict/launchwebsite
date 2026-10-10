@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { site } from '@/config/site';
-import { datasetMeta, featured, MARKETS, marketStats, stats, summaries } from '@/lib/data';
+import { datasetMeta, featured, heroSlides, MARKETS, marketStats, stats, summaries } from '@/lib/data';
 import { inr, monthRange, psf } from '@/lib/format';
 import { Counter } from '@/components/Counter';
 import { CorridorMap } from '@/components/map/CorridorMap';
@@ -9,63 +9,55 @@ import { SectionHead, Disclaimer } from '@/components/Section';
 import { LeadForm } from '@/components/lead/LeadForm';
 import { WhatsAppLink } from '@/components/lead/WhatsAppLink';
 import { Icon } from '@/components/Icon';
-import { SpotlightCarousel } from '@/components/home/SpotlightCarousel';
+import { HeroCarousel } from '@/components/home/HeroCarousel';
 import { FindYourEntry } from '@/components/home/FindYourEntry';
 
 export default function Home() {
   const s = stats();
   const all = summaries();
-  // First five go to the spotlight carousel, the next six to the grid, so nothing repeats.
-  const ranked = featured(11);
-  const spotlight = ranked.slice(0, 5);
-  const feat = ranked.slice(5);
+  // Hero carousel: the top projects that also have a high-resolution photo. The grid shows the next six, so nothing repeats.
+  const spotlight = heroSlides(5);
+  const inHero = new Set(spotlight.map((p) => p.slug));
+  const feat = featured(all.length).filter((p) => !inHero.has(p.slug)).slice(0, 6);
   const markets = MARKETS.map((m) => ({ ...m, ...marketStats(m.slug) })).filter((m) => m.count > 0).sort((a, b) => b.count - a.count);
   const updated = new Date(datasetMeta.generatedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
 
   return (
     <>
-      {/* HERO: type on paper, the corridor map as the visual */}
-      <section className="wrap grid gap-10 pt-12 pb-16 md:pt-20 md:pb-24 lg:grid-cols-[1.05fr_1fr] lg:items-center">
-        <div>
-          <p className="eyebrow">Gurugram · Private early-entry research · Updated {updated}</p>
-          <h1 className="display mt-5">
-            Own the address <em className="text-signal">before</em> the city does.
-          </h1>
-          <p className="mt-6 max-w-xl text-lg text-ink-2">
-            Pre-launch and early-construction residences across Gurugram, each checked against what its developer publishes, priced per square foot and placed on the possession timeline. See the whole picture before the price list moves.
-          </p>
-          <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-3">
-            <Link href="/projects?early=1" className="btn btn-primary">View the collection <Icon name="arrowRight" size={18} /></Link>
-            <Link href="/tools/roi-calculator" className="cta-line">See your returns <Icon name="arrowRight" size={16} /></Link>
-          </div>
-          <dl className="mt-12 grid grid-cols-2 border-t border-ink sm:grid-cols-4">
-            {[
-              ['Projects tracked', <Counter key="a" value={s.tracked} />],
-              ['At early-entry stage', <Counter key="b" value={s.early} />],
-              ['Developers', <Counter key="c" value={s.developers} />],
-              ['Median ₹/sq ft', s.medianPsf ? <Counter key="d" value={Math.round(s.medianPsf)} format="inr" /> : '—'],
-            ].map(([k, v], i) => (
-              <div key={String(k)} className={`py-4 pr-3 ${i % 2 ? 'pl-3 border-l hairline sm:border-l' : 'sm:pl-0'} ${i > 1 ? 'border-t hairline sm:border-t-0 sm:border-l sm:pl-3' : ''}`}>
-                <dt className="eyebrow">{k}</dt>
-                <dd className="mt-1 font-display text-3xl md:text-4xl">{v}</dd>
-              </div>
-            ))}
-          </dl>
-          <p className="mt-2 text-xs text-ink-2">
-            Pre-launch / new-launch per listing: <span className="num">{s.preLaunch}</span>. “Early-entry” also counts projects with possession 3+ years out.{' '}
-            <Link href="/disclaimer#methodology" className="link">How we classify</Link>
-          </p>
-        </div>
-        <div className="card p-3 md:p-5">
-          <CorridorMap projects={all} title="Where the tracked projects sit" />
-        </div>
-      </section>
+      {/* HERO: full-bleed carousel of the featured projects */}
+      <HeroCarousel projects={spotlight} updated={updated} />
 
-      {/* SPOTLIGHT: full-width night band */}
-      <section className="band-night py-16 md:py-24" aria-labelledby="spotlight">
-        <div className="wrap">
-          <SectionHead id="spotlight" eyebrow="The spotlight" title="Five to see first" intro="The earliest addresses on the rail right now, each with its developer-checked facts. Swipe through, or open one to see the full file." />
-          <SpotlightCarousel projects={spotlight} />
+      {/* STATS + VALUES */}
+      <section className="wrap py-14 md:py-20" aria-label="At a glance">
+        <dl className="grid grid-cols-2 border-t border-ink sm:grid-cols-4">
+          {[
+            ['Projects tracked', <Counter key="a" value={s.tracked} />],
+            ['At early-entry stage', <Counter key="b" value={s.early} />],
+            ['Developers', <Counter key="c" value={s.developers} />],
+            ['Median ₹/sq ft', s.medianPsf ? <Counter key="d" value={Math.round(s.medianPsf)} format="inr" /> : '—'],
+          ].map(([k, v], i) => (
+            <div key={String(k)} className={`py-4 pr-3 ${i % 2 ? 'pl-3 border-l hairline sm:border-l' : 'sm:pl-0'} ${i > 1 ? 'border-t hairline sm:border-t-0 sm:border-l sm:pl-3' : ''}`}>
+              <dt className="eyebrow">{k}</dt>
+              <dd className="mt-1 font-display text-3xl md:text-4xl">{v}</dd>
+            </div>
+          ))}
+        </dl>
+        <p className="mt-2 text-xs text-ink-2">
+          Pre-launch / new-launch per listing: <span className="num">{s.preLaunch}</span>. “Early-entry” also counts projects with possession 3+ years out.{' '}
+          <Link href="/disclaimer#methodology" className="link">How we classify</Link>
+        </p>
+        <div className="mt-14 grid gap-0 border-t hairline md:grid-cols-3">
+          {[
+            ['01', 'Early entry', 'Launch and construction-stage pricing, with the best inventory still open to choose from.'],
+            ['02', 'Verified at the source', 'Where sources disagree, we use what the developer publishes, and show you the change.'],
+            ['03', 'Considered corridors', 'Dwarka Expressway to Golf Course Extension: each project placed against its own market.'],
+          ].map(([n, t, d], i) => (
+            <div key={n} className={`py-8 md:py-10 ${i ? 'md:border-l hairline md:pl-10' : ''} ${i < 2 ? 'md:pr-10' : ''}`}>
+              <p className="font-display text-xl text-brass">{n}</p>
+              <h2 className="h3 mt-3">{t}</h2>
+              <p className="mt-2 text-sm text-ink-2">{d}</p>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -83,10 +75,23 @@ export default function Home() {
         <p className="mt-4 text-xs text-ink-2">* ₹/sq ft marked with an asterisk is indicative: starting price ÷ smallest listed unit. Developers rarely publish a per-sq-ft rate.</p>
       </section>
 
+      {/* WHERE IT SITS: corridor map */}
+      <section className="band-stone py-16 md:py-24" aria-labelledby="where">
+        <div className="wrap grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
+          <div>
+            <p className="eyebrow">Where the portfolio sits</p>
+            <h2 id="where" className="h2 mt-3">Every project, on its corridor.</h2>
+            <p className="mt-4 max-w-md text-ink-2">Roads and sectors are drawn from OpenStreetMap, and each project sits at its published coordinates where they check out.</p>
+            <Link href="/projects?view=map" className="cta-line mt-6">Open the map <Icon name="arrowRight" size={16} /></Link>
+          </div>
+          <div className="card p-3 md:p-5"><CorridorMap projects={all} title="Where the tracked projects sit" /></div>
+        </div>
+      </section>
+
       {/* WHY EARLY */}
       <section className="wrap pb-16 md:pb-24" aria-labelledby="why">
         <SectionHead id="why" eyebrow="The case, and the catch" title="Why invest early?" />
-        <div className="grid gap-px overflow-hidden rounded-[18px] border hairline bg-rule md:grid-cols-3">
+        <div className="grid gap-px overflow-hidden rounded-[8px] border hairline bg-rule md:grid-cols-3">
           {[
             ['01', 'Lower entry price', 'Launch-phase price lists are usually the lowest a project will see. Developers price early tranches to build momentum and fund construction.', 'Launch pricing is not guaranteed to be below resale later. Check comparable ₹/sq ft in the same sector.'],
             ['02', 'Staggered payments', 'Construction-linked plans spread payments over 3–5 years, so your capital is deployed gradually rather than on day one.', 'Possession-linked and subvention plans shift risk. Read who pays the interest if the project slips.'],

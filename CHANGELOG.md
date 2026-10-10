@@ -5,6 +5,16 @@ All notable changes to The Launch District are recorded here. The format follows
 ## [Unreleased]
 
 ### Changed
+- **Luxury redesign ("Charcoal and champagne")**, from a Homezop-inspired brief:
+  - New palette: warm off-white pages, charcoal type, primary buttons and dark bands, and champagne for hairlines, numerals and status. Errors and negative returns use a dedicated `negative` colour.
+  - New type: Cormorant Garamond for display and Manrope for text (replacing Bodoni Moda and Jost), with lining numerals.
+  - Restrained corners (8 px cards, 6 px controls, 4 px tags) and charcoal primary buttons with thin-outlined secondary buttons.
+  - **Home hero is a full-bleed carousel** of featured projects with a transparent header, a per-project caption, progress bars, arrows and swipe. It autoplays, pauses on hover and focus, and honours reduced motion.
+  - Hero slides are chosen automatically from projects whose photo is at least 1,500 px wide and landscape (`heroSlides()`), so nothing looks soft; `src/config/hero.json` excludes artwork that clashes with the headline.
+  - The home page gains an at-a-glance strip with three values and a dedicated corridor-map section; the separate spotlight band is removed.
+  - Map images, share cards and favicon were regenerated in the new palette and fonts.
+
+### Changed
 - The corridor map's base layer (grid, sector numbers, roads, labels) is now served as pre-rendered **WebP** images (light and dark, with one variant per corridor) instead of inline SVG. Project markers remain an interactive SVG layer. Regenerate with `npm run map:webp`.
 - Headings (h1–h3 and large serif text) are easier to read: Bodoni's optical size is pinned to a sturdier cut, weight is 500, and tracking and line height are looser.
 

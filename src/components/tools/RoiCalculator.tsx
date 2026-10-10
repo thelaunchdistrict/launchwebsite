@@ -94,7 +94,7 @@ export function RoiCalculator() {
       <div className="lg:sticky lg:top-24 lg:self-start">
         <section aria-labelledby="roi-results" className="card p-5 md:p-6" aria-live="polite">
           <h2 id="roi-results" className="eyebrow">Result over {i.holdYears} years</h2>
-          <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-[18px] border hairline bg-rule">
+          <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-[8px] border hairline bg-rule">
             <Big label="Annualised return (IRR)" value={r.irr != null ? pct(r.irr) : '—'} tone={r.irr != null && r.irr < 0 ? 'neg' : 'pos'} />
             <Big label="Net profit" value={inr(r.profit)} title={inrFull(r.profit)} tone={r.profit < 0 ? 'neg' : 'pos'} />
             <Big label="Money multiple" value={`${r.multiple.toFixed(2)}×`} />
@@ -114,7 +114,7 @@ export function RoiCalculator() {
               <Row k="Net sale proceeds" v={r.netSaleProceeds} strong />
             </tbody>
           </table>
-          <p className="mt-4 rounded-[12px] bg-sunk p-3 text-sm">
+          <p className="mt-4 rounded-[6px] bg-sunk p-3 text-sm">
             <span className="font-medium">Stress test:</span> at {i.appreciationPct - 4}% appreciation a year, the IRR would be <span className="num">{bear.irr != null ? pct(bear.irr) : '—'}</span> and the profit <span className="num">{inr(bear.profit)}</span>.
           </p>
           <p className="mt-4 text-xs leading-relaxed text-ink-2">
@@ -130,7 +130,7 @@ function Big({ label, value, title, tone }: { label: string; value: string; titl
   return (
     <div className="row-span-2 grid grid-rows-subgrid gap-y-0 bg-raised p-4">
       <p className="text-xs text-ink-2">{label}</p>
-      <p className={`num mt-1 text-2xl md:text-3xl ${tone === 'neg' ? 'text-signal' : tone === 'pos' ? 'text-positive' : ''}`} title={title}>{value}</p>
+      <p className={`num mt-1 text-2xl md:text-3xl ${tone === 'neg' ? 'text-negative' : tone === 'pos' ? 'text-positive' : ''}`} title={title}>{value}</p>
     </div>
   );
 }

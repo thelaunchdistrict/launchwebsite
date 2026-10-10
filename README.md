@@ -59,7 +59,7 @@ A fresh clone already contains `data/projects.json` and the web-optimised images
 
 | Route | Purpose |
 |---|---|
-| `/` | Hero, corridor map, spotlight carousel, "Find your entry point" quiz, early-entry collection, micro-market table, private-preview form |
+| `/` | Full-bleed hero carousel of featured projects, at-a-glance stats, "Find your entry point" quiz, early-entry collection, corridor map, micro-market table, private-preview form |
 | `/projects` | All projects with filters (stage, corridor, budget, BHK, possession year, developer), sorting, grid or map view; filters live in the URL |
 | `/projects/[slug]` | Project file: gallery, Entry Rail, pricing table, floor plans, location, investment view, due-diligence checklist, "Verified with the developer" changes, FAQs, price-sheet form |
 | `/markets`, `/markets/[slug]` | Corridor pages with medians, growth drivers, risks and projects |
@@ -79,26 +79,26 @@ SEO: every page gets a title, description, canonical URL, full Open Graph tags (
 
 Defined in [`src/config/site.ts`](src/config/site.ts) (tokens) and [`src/app/globals.css`](src/app/globals.css) (components); the reasoning is in the [design brief](docs/design-brief.md).
 
-**Typography.** Bodoni Moda (a high-contrast Didone with optical sizes) for headlines, prices and the wordmark. Jost (geometric, in the Futura tradition) for body, labels and figures, using tabular lining numerals. No monospace. Body text is 17 px at 1.7 line height. Labels are small capitals tracked at 0.16–0.24em.
+**Typography.** Cormorant Garamond (editorial serif) for headlines, project names, prices and the wordmark; Manrope (clean humanist sans) for body, labels and figures. No monospace. Cormorant's old-style numerals are switched to lining figures so prices align. Body text is 17 px at 1.7 line height; labels are small capitals tracked about 0.14em. The serif is semibold below about 22 px, because its fine strokes are delicate on screen.
 
-**Colour: "Midnight and terracotta".** Every text pair meets WCAG AA in light and dark mode.
+**Colour: "Charcoal and champagne".** Restrained luxury neutrals; every text pair meets WCAG AA in light and dark mode.
 
 | Role | Light | Use |
 |---|---|---|
-| Paper | `#F4EFE7` sandstone | Page background |
-| Stone | `#EAE3D7` | Alternating section bands |
-| Ink / Night | `#111A2C` / `#0E1626` midnight | Text, structure, full-width dark bands |
-| Signal | `#A9472B` terracotta | "Early" marks and the single primary action per view |
-| Brass | `#7E602C` (on dark `#C2A066`) | Reward and status only: hero project, verified, price updated, progress |
+| Paper | `#F6F5F1` warm off-white | Page background |
+| Stone | `#EFEDE6` | Alternating section bands |
+| Ink / Night | `#171A19` charcoal | Type, primary buttons, dark bands and footer |
+| Signal / Brass | `#7A6640` (on dark `#B6A17E` champagne) | Hairlines, numerals, status and "early" marks, used sparingly |
+| Negative | `#A33A2B` | Errors and negative returns only |
 
 Light is the default appearance. Dark and System are available in the footer, and the choice is remembered.
 
 **Components.**
-- Corners are soft and consistent: 18 px for cards, panels and image tiles; 12 px for buttons, fields and menus; 8 px for tags and chips.
-- Buttons use tracked capitals. On hover, the colour sweeps across and the arrow moves forward.
-- Secondary actions are text links (`.cta-line`) whose brass underline grows on hover.
+- Corners are restrained: 8 px for cards and panels, 6 px for buttons and fields, 4 px for tags and chips.
+- Primary buttons are solid charcoal with tracked capitals; on hover a champagne sweep crosses the button and the arrow moves forward. Secondary actions are thin-outlined, or text links (`.cta-line`) with a growing champagne underline.
 - Tags (`.tag`, `.tag-early`, `.tag-hero`, `.tag-brass`) always combine text with a shape, never colour alone.
-- Sections alternate paper, stone (`.band-stone`) and night (`.band-night`). Night bands re-point the theme tokens, so anything placed inside adapts automatically.
+- Sections alternate paper, stone (`.band-stone`) and charcoal (`.band-night`). Night bands re-point the theme tokens, so anything placed inside adapts automatically.
+- The home page opens with a full-bleed **hero carousel** (`HeroCarousel`): the header is transparent over the photo and turns solid on scroll. Slides are chosen automatically by `heroSlides()` in `src/lib/data.ts`: the editorial order of `featured()`, limited to projects whose photo is at least 1,500 px wide and landscape. Projects whose artwork clashes with the headline can be excluded in `src/config/hero.json`.
 
 **Rebranding.** The brand name, tagline, contact details, colours, disclaimer, lead-form options and analytics ID all live in `src/config/site.ts`. Colours are injected as CSS custom properties at runtime, so no stylesheet edits are needed.
 
@@ -230,14 +230,14 @@ src/
   app/                 routes (see "What's on the site"), globals.css, layout.tsx
   components/
     chrome/            header, footer, tab bar, announcement bar, logo, theme switch, analytics
-    home/              spotlight carousel, Find your entry point quiz
+    home/              hero carousel, Find your entry point quiz
     listing/           project explorer and URL-backed filters
     project/           card, badges and update tags, Entry Rail, gallery, floor plans, sticky CTA
     shortlist/         shortlist, compare tray and view, journey ladder
     lead/              lead form, WhatsApp link
     map/               corridor map (server-rendered SVG + client view)
     tools/             ROI calculator
-  config/              site.ts (brand, tokens, contact), micromarkets.json
+  config/              site.ts (brand, tokens, contact), micromarkets.json, hero.json (hero exclusions)
   content/             insight articles
   lib/                 data access, types, stage logic, formatting, finance, geo, shortlist stores
 scripts/

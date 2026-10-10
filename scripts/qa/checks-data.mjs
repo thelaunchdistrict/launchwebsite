@@ -19,7 +19,7 @@ export function projectPageChecks(path, r, p) {
   // Source-data problems are acceptable only if the page tells the reader about them.
   if (p.status === 'under-construction' && p.possessionDate && p.possessionDate < new Date().toISOString().slice(0, 7)) {
     const flagged = /has passed/.test(text);
-    out.push(f(flagged ? 'info' : 'error', 'D07 stale possession', `Under construction but stated possession ${monthYear(p.possessionDate)} has passed${flagged ? ' — page flags it in the due-diligence checklist' : ' and the page does not say so'}`, path));
+    out.push(f(flagged ? 'info' : 'error', 'D07 stale possession', `Under construction but stated possession ${monthYear(p.possessionDate)} has passed${flagged ? ' — page flags it under the status line' : ' and the page does not say so'}`, path));
   }
   const areas = {};
   p.pricing.configurations.forEach((c) => { if (c.areaSqft) (areas[c.areaSqft] ||= new Set()).add(c.bhk); });

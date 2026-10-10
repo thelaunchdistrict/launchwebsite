@@ -3,6 +3,7 @@ import { site } from '../config/site';
 import dataset from '../../data/projects.json';
 import mediaMapJson from '../data/media-map.json';
 import mm from '../config/micromarkets.json';
+import heroConfig from '../config/hero.json';
 import { median } from './format';
 import { badgesOf, monthsUntil, stageOf } from './stage';
 import type { ImageRef, Project, ProjectSummary, ProjectUpdate, WebImage } from './types';
@@ -120,6 +121,20 @@ export function featured(n = 6): ProjectSummary[] {
     .filter((s) => s.image && s.priceFrom)
     .sort((a, b) => (a.featured?.rank ?? Infinity) - (b.featured?.rank ?? Infinity) || a.stage.position - b.stage.position || (b.possession ?? '').localeCompare(a.possession ?? '') || (b.createdAt ?? '').localeCompare(a.createdAt ?? ''))
     .slice(0, n);
+}
+
+/** A photo is good enough for a full-bleed hero when it is wide enough to stay sharp and landscape enough to crop cleanly. */
+export const HERO_MIN_WIDTH = 1500;
+export const isHeroQuality = (s: ProjectSummary) =>
+  !!s.image && s.image.width >= HERO_MIN_WIDTH && s.image.width / s.image.height >= 1.4 && s.image.width / s.image.height <= 2.2;
+
+/**
+ * Slides for the home hero: the same editorial order as `featured()`, but only projects whose photo is
+ * high-resolution. Updates itself as projects (and their images) are added or replaced.
+ */
+export function heroSlides(n = 5): ProjectSummary[] {
+  const skip = new Set<string>(heroConfig.exclude);
+  return featured(summaries().length).filter((s) => isHeroQuality(s) && !skip.has(s.slug)).slice(0, n);
 }
 
 export function stats() {

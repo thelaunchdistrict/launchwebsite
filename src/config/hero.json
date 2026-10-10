@@ -1,0 +1,6 @@
+{
+  "_note": "Projects never used as home-hero slides, even when their photo is high-resolution. Add a slug when the artwork has its own lettering or a busy focal point that clashes with the headline. The hero otherwise picks itself from photo size (see heroSlides in src/lib/data.ts).",
+  "exclude": [
+    "m3m-altitude-sector-65-gurgaon"
+  ]
+}

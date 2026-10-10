@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Bodoni_Moda, Jost } from 'next/font/google';
+import { Cormorant_Garamond, Manrope } from 'next/font/google';
 import { site } from '@/config/site';
 import { TopNav } from '@/components/chrome/TopNav';
 import { TabBar } from '@/components/chrome/TabBar';
@@ -12,9 +12,9 @@ import { datasetMeta, summaries } from '@/lib/data';
 import { pageMeta } from '@/lib/seo';
 import './globals.css';
 
-// Couture direction: high-contrast Didone for display (optical sizes keep hairlines intact when small), geometric Jost for text and figures.
-const serif = Bodoni_Moda({ subsets: ['latin'], style: ['normal', 'italic'], axes: ['opsz'], variable: '--font-serif', display: 'swap' });
-const sans = Jost({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-jost', display: 'swap' });
+// Editorial serif for display, clean humanist sans for text and figures.
+const serif = Cormorant_Garamond({ subsets: ['latin'], weight: ['400', '500', '600', '700'], style: ['normal', 'italic'], variable: '--font-serif', display: 'swap' });
+const sans = Manrope({ subsets: ['latin'], variable: '--font-manrope', display: 'swap' });
 
 const HOME_TITLE = `${site.name} — Private early-entry real estate, Gurugram`;
 

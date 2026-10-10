@@ -19,16 +19,16 @@ const siteTs = fs.readFileSync(path.join(ROOT, 'src/config/site.ts'), 'utf8');
 const BRAND = (siteTs.match(/name:\s*'([^']+)'/) || [])[1] || 'The Launch District';
 const TAGLINE = (siteTs.match(/tagline:\s*'([^']+)'/) || [])[1] || '';
 
-const C = { night: '#0E1626', ink: '#EEE8DC', ink2: '#AEB5C3', brass: '#C2A066', signal: '#E3906B' };
-const FONTS = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;1,6..96,500&family=Jost:wght@400;500&display=block">';
+const C = { night: '#171A19', ink: '#F6F5F1', ink2: '#B8BBB6', brass: '#B6A17E', signal: '#E9DCC3' };
+const FONTS = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@500;600&display=block">';
 const LOGO = `<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="${C.ink}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M6.5 21v-7M17.5 21v-9"/><path d="M12 21V4M8.5 7.5 12 4l3.5 3.5" stroke="${C.signal}"/></svg>`;
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const dataUri = (file) => `data:image/webp;base64,${fs.readFileSync(file).toString('base64')}`;
 const inr = (n) => (n == null ? null : n >= 1e7 ? `₹${(n / 1e7).toFixed(2).replace(/\.?0+$/, '')} Cr` : `₹${(n / 1e5).toFixed(1).replace(/\.0$/, '')} L`);
 const monthYear = (iso) => { if (!iso) return null; const [y, m] = iso.split('-'); return m ? new Date(Number(y), Number(m) - 1).toLocaleDateString('en-IN', { month: 'short', year: 'numeric' }) : y; };
 const shell = (body) => `<!doctype html><html><head><meta charset="utf-8">${FONTS}<style>
-  *{margin:0;box-sizing:border-box} body{width:1200px;height:630px;overflow:hidden;background:${C.night};color:${C.ink};font-family:Jost,sans-serif}
-  .serif{font-family:'Bodoni Moda',serif;font-variation-settings:"opsz" 28;font-weight:500}
+  *{margin:0;box-sizing:border-box} body{width:1200px;height:630px;overflow:hidden;background:${C.night};color:${C.ink};font-family:Manrope,sans-serif}
+  .serif{font-family:'Cormorant Garamond',serif;font-variant-numeric:lining-nums;font-weight:500}
   .eyebrow{font-weight:500;font-size:20px;letter-spacing:.16em;text-transform:uppercase;color:${C.ink2}}
   .brand{display:flex;align-items:center;gap:14px;font-size:30px}
 </style></head><body>${body}</body></html>`;
@@ -37,7 +37,7 @@ const defaultCard = () => {
   const map = path.join(ROOT, 'public/media/map/base-dark-all.webp');
   return shell(`
   <div style="position:absolute;inset:0;background:url('${fs.existsSync(map) ? dataUri(map) : ''}') right -60px center/auto 120% no-repeat;opacity:.55"></div>
-  <div style="position:absolute;inset:0;background:linear-gradient(90deg,${C.night} 38%,rgba(14,22,38,.55) 70%,rgba(14,22,38,.2))"></div>
+  <div style="position:absolute;inset:0;background:linear-gradient(90deg,${C.night} 38%,rgba(23,26,25,.55) 70%,rgba(23,26,25,.2))"></div>
   <div style="position:relative;height:100%;padding:64px 72px;display:flex;flex-direction:column;justify-content:space-between">
     <div class="brand serif">${LOGO}${esc(BRAND)}</div>
     <div>
@@ -53,7 +53,7 @@ const projectCard = (p, photo) => {
   const facts = [p.pricing.startingPriceInr ? `From ${inr(p.pricing.startingPriceInr)}` : 'Price on request', p.possessionDate ? `Possession ${monthYear(p.possessionDate)}` : null].filter(Boolean);
   return shell(`
   <div style="position:absolute;inset:0;background:url('${dataUri(photo)}') center/cover no-repeat"></div>
-  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,22,38,.15) 0%,rgba(14,22,38,.25) 40%,rgba(14,22,38,.92) 78%,${C.night} 100%)"></div>
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,26,25,.15) 0%,rgba(23,26,25,.25) 40%,rgba(23,26,25,.92) 78%,${C.night} 100%)"></div>
   <div style="position:relative;height:100%;padding:52px 64px;display:flex;flex-direction:column;justify-content:space-between">
     <div class="brand serif" style="font-size:26px;text-shadow:0 1px 12px rgba(0,0,0,.5)">${LOGO}${esc(BRAND)}</div>
     <div>

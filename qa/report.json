@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-06T10:06:45.593Z",
+ "generatedAt": "2026-10-10T11:46:02.137Z",
  "base": "http://localhost:3300",
- "pages": 27,
+ "pages": 85,
  "findings": [
   {
    "sev": "warn",
@@ -25,6 +25,66 @@
    "pages": [
     "/",
     "/projects",
+    "/projects/4s-the-aurrum-sector-59-gurgaon",
+    "/projects/adani-lushlands-gurgaon",
+    "/projects/adani-samsara-ivana-sector-63-gurgaon",
+    "/projects/adani-the-marq-sector-102-gurgaon",
+    "/projects/aditya-birla-pravaah-sector-71-gurgaon",
+    "/projects/aipl-autograph-sector-66-gurgaon",
+    "/projects/aipl-joy-district-sector-88-gurgaon",
+    "/projects/aipl-lake-city-sector-103-gurgaon",
+    "/projects/anant-raj-estate-residences-sector-63a-gurgaon",
+    "/projects/birla-arika-sector-31-nh8-gurgaon",
+    "/projects/bptp-downtown-66-sector-66-gurgaon",
+    "/projects/bptp-gaia-residences-sector-102-gurgaon",
+    "/projects/bptp-verti-greens-sector-102-gurgaon",
+    "/projects/conscient-elevate-reserve-sector-62-gurgaon",
+    "/projects/dlf-central-67-sector-67-gurgaon",
+    "/projects/dlf-club-arcade-sector-91-gurgaon",
+    "/projects/dlf-privana-north-sector-76-77-gurgaon",
+    "/projects/dlf-privana-south-sector-77-gurgaon",
+    "/projects/dlf-privana-west-sector-76-gurgaon",
+    "/projects/dlf-the-arbour-sector-63-gurgaon",
+    "/projects/elan-empire-sector-66-gurgaon",
+    "/projects/elan-imperial-sector-82-gurgaon",
+    "/projects/elan-paradise-sector-50-gurgaon",
+    "/projects/elan-the-emperor-sector-106-gurgaon",
+    "/projects/elan-the-presidential-sector-106-gurgaon",
+    "/projects/elan-the-statement-sector-49-sohna-road-gurgaon",
+    "/projects/emaar-amaris-sector-62-gurgaon",
+    "/projects/emaar-serenity-hills-sector-86-gurgaon",
+    "/projects/emaar-urban-oasis-sector-62-gurgaon",
+    "/projects/experion-the-trillion-sector-48-gurgaon",
+    "/projects/hero-homes-the-palatial-sector-104-gurgaon",
+    "/projects/hines-elevate-sector-59-gurgaon",
+    "/projects/m3m-altitude-sector-65-gurgaon",
+    "/projects/m3m-capital-walk-sector-113-gurgaon",
+    "/projects/m3m-crown-sector-111-gurgaon",
+    "/projects/m3m-golf-hills-sector-79-gurgaon",
+    "/projects/m3m-jewel-sector-25-gurgaon",
+    "/projects/m3m-mansion-sector-113-gurgaon",
+    "/projects/m3m-paragon-57-sector-57-gurgaon",
+    "/projects/m3m-route-65-sector-65-gurgaon",
+    "/projects/m3m-trump-towers-sector-65-gurgaon",
+    "/projects/max-estate-360-residences-sector-36a-gurgaon",
+    "/projects/paras-manor-sector-2-gurgaon",
+    "/projects/puri-diplomatic-residency-sector-111-gurgaon",
+    "/projects/puri-the-aravallis-sector-61-gurgaon",
+    "/projects/shapoorji-pallonji-the-dualis-sector-46-gurgaon",
+    "/projects/signature-global-titanium-spr-sector-71-gurgaon",
+    "/projects/silverglades-the-legacy-sector-63a-gurgaon",
+    "/projects/smartworld-one-dxp-sector-113-gurgaon",
+    "/projects/smartworld-skyarc-sector-gurgaon-sector-69",
+    "/projects/smartworld-the-edition-sector-68-gurgaon",
+    "/projects/smartworld-the-trump-residences-sector-69-gurgaon",
+    "/projects/sobha-aranya-sector-80-gurgaon",
+    "/projects/sobha-sector-63a-gurgaon",
+    "/projects/spj-vedatam-sector-14-gurgaon",
+    "/projects/tarc-ishva-sector-63a-gurgaon",
+    "/projects/the-oryza",
+    "/projects/trevoc-royal-residences-gurgaon",
+    "/projects/whiteland-westin-residences-sector-103-gurgaon",
+    "/projects/yugen-golf-city",
     "/markets",
     "/markets/dwarka-expressway",
     "/markets/golf-course-road",
@@ -46,8 +106,6 @@
     "/disclaimer",
     "/privacy",
     "/terms",
-    "/projects/4s-the-aurrum-sector-59-gurgaon",
-    "/projects/adani-lushlands-gurgaon",
     "/compare?p=4s-the-aurrum-sector-59-gurgaon,adani-lushlands-gurgaon,adani-samsara-ivana-sector-63-gurgaon",
     "/shortlist"
    ],
@@ -65,12 +123,70 @@
    "evidence": "https://wa.me/910000000000?text=Hi%20The%20Launch%20District",
    "pages": [
     "/",
+    "/projects/4s-the-aurrum-sector-59-gurgaon",
+    "/projects/adani-lushlands-gurgaon",
+    "/projects/adani-samsara-ivana-sector-63-gurgaon",
+    "/projects/adani-the-marq-sector-102-gurgaon",
+    "/projects/aditya-birla-pravaah-sector-71-gurgaon",
+    "/projects/aipl-autograph-sector-66-gurgaon",
+    "/projects/aipl-joy-district-sector-88-gurgaon",
+    "/projects/aipl-lake-city-sector-103-gurgaon",
+    "/projects/anant-raj-estate-residences-sector-63a-gurgaon",
+    "/projects/birla-arika-sector-31-nh8-gurgaon",
+    "/projects/bptp-downtown-66-sector-66-gurgaon",
+    "/projects/bptp-gaia-residences-sector-102-gurgaon",
+    "/projects/bptp-verti-greens-sector-102-gurgaon",
+    "/projects/conscient-elevate-reserve-sector-62-gurgaon",
+    "/projects/dlf-central-67-sector-67-gurgaon",
+    "/projects/dlf-club-arcade-sector-91-gurgaon",
+    "/projects/dlf-privana-north-sector-76-77-gurgaon",
+    "/projects/dlf-privana-south-sector-77-gurgaon",
+    "/projects/dlf-privana-west-sector-76-gurgaon",
+    "/projects/dlf-the-arbour-sector-63-gurgaon",
+    "/projects/elan-empire-sector-66-gurgaon",
+    "/projects/elan-imperial-sector-82-gurgaon",
+    "/projects/elan-paradise-sector-50-gurgaon",
+    "/projects/elan-the-emperor-sector-106-gurgaon",
+    "/projects/elan-the-presidential-sector-106-gurgaon",
+    "/projects/elan-the-statement-sector-49-sohna-road-gurgaon",
+    "/projects/emaar-amaris-sector-62-gurgaon",
+    "/projects/emaar-serenity-hills-sector-86-gurgaon",
+    "/projects/emaar-urban-oasis-sector-62-gurgaon",
+    "/projects/experion-the-trillion-sector-48-gurgaon",
+    "/projects/hero-homes-the-palatial-sector-104-gurgaon",
+    "/projects/hines-elevate-sector-59-gurgaon",
+    "/projects/m3m-altitude-sector-65-gurgaon",
+    "/projects/m3m-capital-walk-sector-113-gurgaon",
+    "/projects/m3m-crown-sector-111-gurgaon",
+    "/projects/m3m-golf-hills-sector-79-gurgaon",
+    "/projects/m3m-jewel-sector-25-gurgaon",
+    "/projects/m3m-mansion-sector-113-gurgaon",
+    "/projects/m3m-paragon-57-sector-57-gurgaon",
+    "/projects/m3m-route-65-sector-65-gurgaon",
+    "/projects/m3m-trump-towers-sector-65-gurgaon",
+    "/projects/max-estate-360-residences-sector-36a-gurgaon",
+    "/projects/paras-manor-sector-2-gurgaon",
+    "/projects/puri-diplomatic-residency-sector-111-gurgaon",
+    "/projects/puri-the-aravallis-sector-61-gurgaon",
+    "/projects/shapoorji-pallonji-the-dualis-sector-46-gurgaon",
+    "/projects/signature-global-titanium-spr-sector-71-gurgaon",
+    "/projects/silverglades-the-legacy-sector-63a-gurgaon",
+    "/projects/smartworld-one-dxp-sector-113-gurgaon",
+    "/projects/smartworld-skyarc-sector-gurgaon-sector-69",
+    "/projects/smartworld-the-edition-sector-68-gurgaon",
+    "/projects/smartworld-the-trump-residences-sector-69-gurgaon",
+    "/projects/sobha-aranya-sector-80-gurgaon",
+    "/projects/sobha-sector-63a-gurgaon",
+    "/projects/spj-vedatam-sector-14-gurgaon",
+    "/projects/tarc-ishva-sector-63a-gurgaon",
+    "/projects/the-oryza",
+    "/projects/trevoc-royal-residences-gurgaon",
+    "/projects/whiteland-westin-residences-sector-103-gurgaon",
+    "/projects/yugen-golf-city",
     "/about",
     "/contact",
     "/privacy",
-    "/terms",
-    "/projects/4s-the-aurrum-sector-59-gurgaon",
-    "/projects/adani-lushlands-gurgaon"
+    "/terms"
    ],
    "evidences": [
     "https://wa.me/910000000000?text=Hi%20The%20Launch%20District"
@@ -91,32 +207,84 @@
    ]
   },
   {
+   "sev": "warn",
+   "cat": "Content",
+   "check": "C06 inconsistent terminology",
+   "msg": "centre: \"centre\" ×151, \"center\" ×13",
+   "page": "/projects/elan-the-presidential-sector-106-gurgaon, /projects/emaar-amaris-sector-62-gurgaon, /projects/experion-the-trillion-sector-48-gurgaon",
+   "evidence": "Minority form appears on 9 page(s)",
+   "pages": [
+    "/projects/elan-the-presidential-sector-106-gurgaon, /projects/emaar-amaris-sector-62-gurgaon, /projects/experion-the-trillion-sector-48-gurgaon"
+   ],
+   "evidences": [
+    "Minority form appears on 9 page(s)"
+   ]
+  },
+  {
    "sev": "info",
    "cat": "Code hygiene",
    "check": "K04 raw colour",
    "msg": "Hex colour outside the token config",
-   "page": "src/app/globals.css:151",
-   "evidence": "--signal: #E3906B; --signal-soft: #3A2117; --on-signal: var(--night); --brass: var(--brass-bright); ",
+   "page": "src/app/globals.css:158",
+   "evidence": ".hero .display em { font-style: italic; color: #E9DCC3; }",
    "pages": [
-    "src/app/globals.css:151"
+    "src/app/globals.css:158"
    ],
    "evidences": [
-    "--signal: #E3906B; --signal-soft: #3A2117; --on-signal: var(--night); --brass: var(--brass-bright); "
+    ".hero .display em { font-style: italic; color: #E9DCC3; }"
    ]
   },
   {
    "sev": "info",
    "cat": "Content",
    "check": "C06 inconsistent terminology",
-   "msg": "₹ format: \"₹N␠Cr\" ×377, \"₹N␠L\" ×37",
-   "page": "/, /projects, /markets",
-   "evidence": "Minority form appears on 8 page(s)",
+   "msg": "sq ft: \"sq ft\" ×1021, \"sq.ft\" ×75, \"sq. ft\" ×6, \"sqft\" ×6",
+   "page": "/projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon",
+   "evidence": "Minority form appears on 3 page(s)",
    "pages": [
-    "/, /projects, /markets"
+    "/projects/aipl-lake-city-sector-103-gurgaon, /projects/anant-raj-estate-residences-sector-63a-gurgaon, /projects/birla-arika-sector-31-nh8-gurgaon"
    ],
    "evidences": [
-    "Minority form appears on 8 page(s)"
+    "Minority form appears on 3 page(s)"
    ]
+  },
+  {
+   "sev": "info",
+   "cat": "Content",
+   "check": "C06 inconsistent terminology",
+   "msg": "₹ format: \"₹N␠Cr\" ×849, \"₹N␠L\" ×69, \"₹N␠Crore\" ×3, \"₹N␠Crores\" ×3, \"₹N␠Lakhs\" ×1",
+   "page": "/, /projects, /projects/aipl-autograph-sector-66-gurgaon",
+   "evidence": "Minority form appears on 1 page(s)",
+   "pages": [
+    "/, /projects, /projects/aipl-autograph-sector-66-gurgaon"
+   ],
+   "evidences": [
+    "Minority form appears on 1 page(s)"
+   ]
+  },
+  {
+   "sev": "info",
+   "cat": "Data consistency",
+   "check": "D07 stale possession",
+   "msg": "Under construction but stated possession Jun 2026 has passed — page flags it under the status line",
+   "page": "/projects/elan-empire-sector-66-gurgaon",
+   "evidence": "",
+   "pages": [
+    "/projects/elan-empire-sector-66-gurgaon"
+   ],
+   "evidences": []
+  },
+  {
+   "sev": "info",
+   "cat": "Data consistency",
+   "check": "D07 stale possession",
+   "msg": "Under construction but stated possession Sep 2026 has passed — page flags it under the status line",
+   "page": "/projects/elan-paradise-sector-50-gurgaon",
+   "evidence": "",
+   "pages": [
+    "/projects/elan-paradise-sector-50-gurgaon"
+   ],
+   "evidences": []
   },
   {
    "sev": "info",
@@ -136,10 +304,120 @@
    "check": "S01 source data",
    "msg": "\"Fiber\" → fibre / faber / Faber",
    "pages": [
-    "/projects/4s-the-aurrum-sector-59-gurgaon"
+    "/projects/4s-the-aurrum-sector-59-gurgaon",
+    "/projects/bptp-gaia-residences-sector-102-gurgaon",
+    "/projects/m3m-jewel-sector-25-gurgaon"
    ],
    "evidences": [
     "Fiber Optic Internet\n"
+   ]
+  },
+  {
+   "sev": "info",
+   "cat": "Spelling",
+   "check": "S01 source data",
+   "msg": "\"Theater\" → theatre / treater / heater",
+   "pages": [
+    "/projects/adani-the-marq-sector-102-gurgaon",
+    "/projects/elan-the-emperor-sector-106-gurgaon"
+   ],
+   "evidences": [
+    "Mini Theater\n"
+   ]
+  },
+  {
+   "sev": "info",
+   "cat": "Spelling",
+   "check": "S01 source data",
+   "msg": "\"amphitheater\" → amphitheatre / amphitheatres / amphitheatre's",
+   "pages": [
+    "/projects/anant-raj-estate-residences-sector-63a-gurgaon",
+    "/projects/elan-the-emperor-sector-106-gurgaon",
+    "/projects/puri-the-aravallis-sector-61-gurgaon"
+   ],
+   "evidences": [
+    "Kids play areas, amphitheater, sunken garden, party lawn,"
+   ]
+  },
+  {
+   "sev": "info",
+   "cat": "Spelling",
+   "check": "S01 source data",
+   "msg": "\"sqft\" → sift / soft / sqrt",
+   "pages": [
+    "/projects/dlf-the-arbour-sector-63-gurgaon",
+    "/projects/silverglades-the-legacy-sector-63a-gurgaon"
+   ],
+   "evidences": [
+    "acres, it offers 4 BHK residences (3956 sqft) in the lowest density high-rise to"
+   ]
+  },
+  {
+   "sev": "info",
+   "cat": "Spelling",
+   "check": "S01 source data",
+   "msg": "\"unrivaled\" → unrivalled / unriveted / unrevealed",
+   "pages": [
+    "/projects/elan-the-emperor-sector-106-gurgaon"
+   ],
+   "evidences": [
+    "features, imported marble flooring, and unrivaled connectivity to Delhi, IGI Air"
+   ]
+  },
+  {
+   "sev": "info",
+   "cat": "Spelling",
+   "check": "S01 source data",
+   "msg": "\"Barbeque\" → barbecue / barque / baroque",
+   "pages": [
+    "/projects/smartworld-one-dxp-sector-113-gurgaon"
+   ],
+   "evidences": [
+    "Kids' Water Play & Barbeque Zone\n"
+   ]
+  },
+  {
+   "sev": "info",
+   "cat": "Spelling",
+   "check": "S01 source data",
+   "msg": "\"tranquility\" → tranquillity / tranquilly / tranquil",
+   "pages": [
+    "/projects/sobha-aranya-sector-80-gurgaon"
+   ],
+   "evidences": [
+    "odern luxury, wellness, and undisturbed tranquility.\n"
+   ]
+  },
+  {
+   "sev": "info",
+   "cat": "UI/UX",
+   "check": "U07 low-res image",
+   "msg": "Image shown at 584px but only 300px wide",
+   "page": "/projects/adani-samsara-ivana-sector-63-gurgaon",
+   "evidence": "http://localhost:3300/_next/image?url=%2Fmedia%2Fadani-samsara-ivana-sector-63-gurgaon%2Fgallery%2F0",
+   "pages": [
+    "/projects/adani-samsara-ivana-sector-63-gurgaon",
+    "/projects/aditya-birla-pravaah-sector-71-gurgaon",
+    "/projects/aipl-autograph-sector-66-gurgaon",
+    "/projects/bptp-gaia-residences-sector-102-gurgaon",
+    "/projects/conscient-elevate-reserve-sector-62-gurgaon",
+    "/projects/dlf-privana-north-sector-76-77-gurgaon",
+    "/projects/dlf-privana-south-sector-77-gurgaon",
+    "/projects/dlf-privana-west-sector-76-gurgaon",
+    "/projects/elan-imperial-sector-82-gurgaon",
+    "/projects/elan-paradise-sector-50-gurgaon",
+    "/projects/elan-the-presidential-sector-106-gurgaon",
+    "/projects/emaar-amaris-sector-62-gurgaon",
+    "/projects/max-estate-360-residences-sector-36a-gurgaon",
+    "/projects/puri-diplomatic-residency-sector-111-gurgaon",
+    "/projects/puri-the-aravallis-sector-61-gurgaon",
+    "/projects/signature-global-titanium-spr-sector-71-gurgaon",
+    "/projects/smartworld-the-trump-residences-sector-69-gurgaon",
+    "/projects/tarc-ishva-sector-63a-gurgaon"
+   ],
+   "evidences": [
+    "http://localhost:3300/_next/image?url=%2Fmedia%2Fadani-samsara-ivana-sector-63-gurgaon%2Fgallery%2F0",
+    "http://localhost:3300/_next/image?url=%2Fmedia%2Faditya-birla-pravaah-sector-71-gurgaon%2Fgallery%2F"
    ]
   },
   {
@@ -151,7 +429,65 @@
    "evidence": "section#developer > div.card.mt-6 > a.btn.btn-ghost «All 4S Developers projects»",
    "pages": [
     "/projects/4s-the-aurrum-sector-59-gurgaon",
-    "/projects/adani-lushlands-gurgaon"
+    "/projects/adani-lushlands-gurgaon",
+    "/projects/adani-samsara-ivana-sector-63-gurgaon",
+    "/projects/adani-the-marq-sector-102-gurgaon",
+    "/projects/aditya-birla-pravaah-sector-71-gurgaon",
+    "/projects/aipl-autograph-sector-66-gurgaon",
+    "/projects/aipl-joy-district-sector-88-gurgaon",
+    "/projects/aipl-lake-city-sector-103-gurgaon",
+    "/projects/anant-raj-estate-residences-sector-63a-gurgaon",
+    "/projects/birla-arika-sector-31-nh8-gurgaon",
+    "/projects/bptp-downtown-66-sector-66-gurgaon",
+    "/projects/bptp-gaia-residences-sector-102-gurgaon",
+    "/projects/bptp-verti-greens-sector-102-gurgaon",
+    "/projects/conscient-elevate-reserve-sector-62-gurgaon",
+    "/projects/dlf-central-67-sector-67-gurgaon",
+    "/projects/dlf-club-arcade-sector-91-gurgaon",
+    "/projects/dlf-privana-north-sector-76-77-gurgaon",
+    "/projects/dlf-privana-south-sector-77-gurgaon",
+    "/projects/dlf-privana-west-sector-76-gurgaon",
+    "/projects/dlf-the-arbour-sector-63-gurgaon",
+    "/projects/elan-empire-sector-66-gurgaon",
+    "/projects/elan-imperial-sector-82-gurgaon",
+    "/projects/elan-paradise-sector-50-gurgaon",
+    "/projects/elan-the-emperor-sector-106-gurgaon",
+    "/projects/elan-the-presidential-sector-106-gurgaon",
+    "/projects/elan-the-statement-sector-49-sohna-road-gurgaon",
+    "/projects/emaar-amaris-sector-62-gurgaon",
+    "/projects/emaar-serenity-hills-sector-86-gurgaon",
+    "/projects/emaar-urban-oasis-sector-62-gurgaon",
+    "/projects/experion-the-trillion-sector-48-gurgaon",
+    "/projects/hero-homes-the-palatial-sector-104-gurgaon",
+    "/projects/hines-elevate-sector-59-gurgaon",
+    "/projects/m3m-altitude-sector-65-gurgaon",
+    "/projects/m3m-capital-walk-sector-113-gurgaon",
+    "/projects/m3m-crown-sector-111-gurgaon",
+    "/projects/m3m-golf-hills-sector-79-gurgaon",
+    "/projects/m3m-jewel-sector-25-gurgaon",
+    "/projects/m3m-mansion-sector-113-gurgaon",
+    "/projects/m3m-paragon-57-sector-57-gurgaon",
+    "/projects/m3m-route-65-sector-65-gurgaon",
+    "/projects/m3m-trump-towers-sector-65-gurgaon",
+    "/projects/max-estate-360-residences-sector-36a-gurgaon",
+    "/projects/paras-manor-sector-2-gurgaon",
+    "/projects/puri-diplomatic-residency-sector-111-gurgaon",
+    "/projects/puri-the-aravallis-sector-61-gurgaon",
+    "/projects/shapoorji-pallonji-the-dualis-sector-46-gurgaon",
+    "/projects/signature-global-titanium-spr-sector-71-gurgaon",
+    "/projects/silverglades-the-legacy-sector-63a-gurgaon",
+    "/projects/smartworld-one-dxp-sector-113-gurgaon",
+    "/projects/smartworld-skyarc-sector-gurgaon-sector-69",
+    "/projects/smartworld-the-edition-sector-68-gurgaon",
+    "/projects/smartworld-the-trump-residences-sector-69-gurgaon",
+    "/projects/sobha-aranya-sector-80-gurgaon",
+    "/projects/sobha-sector-63a-gurgaon",
+    "/projects/spj-vedatam-sector-14-gurgaon",
+    "/projects/tarc-ishva-sector-63a-gurgaon",
+    "/projects/the-oryza",
+    "/projects/trevoc-royal-residences-gurgaon",
+    "/projects/whiteland-westin-residences-sector-103-gurgaon",
+    "/projects/yugen-golf-city"
    ],
    "evidences": [
     "section#developer > div.card.mt-6 > a.btn.btn-ghost «All 4S Developers projects»",
@@ -185,7 +521,64 @@
    "page": "/projects/4s-the-aurrum-sector-59-gurgaon",
    "pages": [
     "/projects/4s-the-aurrum-sector-59-gurgaon",
-    "/projects/adani-lushlands-gurgaon"
+    "/projects/adani-lushlands-gurgaon",
+    "/projects/adani-samsara-ivana-sector-63-gurgaon",
+    "/projects/adani-the-marq-sector-102-gurgaon",
+    "/projects/aditya-birla-pravaah-sector-71-gurgaon",
+    "/projects/aipl-autograph-sector-66-gurgaon",
+    "/projects/aipl-joy-district-sector-88-gurgaon",
+    "/projects/aipl-lake-city-sector-103-gurgaon",
+    "/projects/anant-raj-estate-residences-sector-63a-gurgaon",
+    "/projects/birla-arika-sector-31-nh8-gurgaon",
+    "/projects/bptp-downtown-66-sector-66-gurgaon",
+    "/projects/bptp-gaia-residences-sector-102-gurgaon",
+    "/projects/bptp-verti-greens-sector-102-gurgaon",
+    "/projects/conscient-elevate-reserve-sector-62-gurgaon",
+    "/projects/dlf-central-67-sector-67-gurgaon",
+    "/projects/dlf-club-arcade-sector-91-gurgaon",
+    "/projects/dlf-privana-north-sector-76-77-gurgaon",
+    "/projects/dlf-privana-south-sector-77-gurgaon",
+    "/projects/dlf-privana-west-sector-76-gurgaon",
+    "/projects/dlf-the-arbour-sector-63-gurgaon",
+    "/projects/elan-empire-sector-66-gurgaon",
+    "/projects/elan-imperial-sector-82-gurgaon",
+    "/projects/elan-paradise-sector-50-gurgaon",
+    "/projects/elan-the-emperor-sector-106-gurgaon",
+    "/projects/elan-the-presidential-sector-106-gurgaon",
+    "/projects/elan-the-statement-sector-49-sohna-road-gurgaon",
+    "/projects/emaar-amaris-sector-62-gurgaon",
+    "/projects/emaar-serenity-hills-sector-86-gurgaon",
+    "/projects/emaar-urban-oasis-sector-62-gurgaon",
+    "/projects/experion-the-trillion-sector-48-gurgaon",
+    "/projects/hero-homes-the-palatial-sector-104-gurgaon",
+    "/projects/hines-elevate-sector-59-gurgaon",
+    "/projects/m3m-altitude-sector-65-gurgaon",
+    "/projects/m3m-capital-walk-sector-113-gurgaon",
+    "/projects/m3m-crown-sector-111-gurgaon",
+    "/projects/m3m-golf-hills-sector-79-gurgaon",
+    "/projects/m3m-jewel-sector-25-gurgaon",
+    "/projects/m3m-mansion-sector-113-gurgaon",
+    "/projects/m3m-paragon-57-sector-57-gurgaon",
+    "/projects/m3m-route-65-sector-65-gurgaon",
+    "/projects/m3m-trump-towers-sector-65-gurgaon",
+    "/projects/max-estate-360-residences-sector-36a-gurgaon",
+    "/projects/paras-manor-sector-2-gurgaon",
+    "/projects/puri-diplomatic-residency-sector-111-gurgaon",
+    "/projects/puri-the-aravallis-sector-61-gurgaon",
+    "/projects/shapoorji-pallonji-the-dualis-sector-46-gurgaon",
+    "/projects/signature-global-titanium-spr-sector-71-gurgaon",
+    "/projects/silverglades-the-legacy-sector-63a-gurgaon",
+    "/projects/smartworld-one-dxp-sector-113-gurgaon",
+    "/projects/smartworld-skyarc-sector-gurgaon-sector-69",
+    "/projects/smartworld-the-edition-sector-68-gurgaon",
+    "/projects/smartworld-the-trump-residences-sector-69-gurgaon",
+    "/projects/sobha-aranya-sector-80-gurgaon",
+    "/projects/sobha-sector-63a-gurgaon",
+    "/projects/spj-vedatam-sector-14-gurgaon",
+    "/projects/tarc-ishva-sector-63a-gurgaon",
+    "/projects/the-oryza",
+    "/projects/trevoc-royal-residences-gurgaon",
+    "/projects/whiteland-westin-residences-sector-103-gurgaon"
    ],
    "evidences": []
   }
